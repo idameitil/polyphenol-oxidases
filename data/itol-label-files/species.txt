@@ -1,0 +1,28 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	species
+COLOR	#ff0000
+DATA
+1WX2	#230eda	Streptomyces castaneoglobisporus
+3NM8	#d988d0	Priestia megaterium
+2P3X	#20ce8b	Vitis vinifera
+1BT3	#617e0f	Ipomoea batatas
+2Y9X	#7084f7	Agaricus bisporus
+4OUA	#7084f7	Agaricus bisporus
+5M6B	#7084f7	Agaricus bisporus
+3W6Q	#ffe045	Aspergillus oryzae
+4J3P	#ffe045	Aspergillus oryzae
+6Z1S	#4b14b9	Thermothelomyces thermophilus
+3HHS	#24c81b	Manduca sexta
+3WKY	#a83bdd	Penaeus japonicus
+1HCY	#15ef3e	Panulirus interruptus
+1NOL	#217916	Limulus polyphemus
+1JS8	#f48aab	Enteroctopus dofleini
+1LNL	#cecca0	Rapana venosa
+XP_001221473.1	#57e1ff	Chaetomium globosum
+XP_001224266.1	#57e1ff	Chaetomium globosum
+XP_003659809.1	#4b14b9	Thermothelomyces thermophilus
+XP_003666010.1	#4b14b9	Thermothelomyces thermophilus
+c2092_g1_i1	#55cf6e	Parascedosporium putredinis
+XP_003662515.1	#4b14b9	Thermothelomyces thermophilus
+sp|C7FF04|PPO3_AGABI	#7084f7	Agaricus bisporus

@@ -1,0 +1,24 @@
+id	domain_from_paper	organism	studied_by_caio	structure	taxon	kingdom	phylum	class	order	family	genus	species
+1WX2	bacterial	Streptomyces castaneoglobisporus	0	1	79261	NA	Actinobacteria	Actinomycetia	Streptomycetales	Streptomycetaceae	Streptomyces	Streptomyces castaneoglobisporus
+3NM8	bacterial	Priestia megaterium	0	1	1404	NA	Firmicutes	Bacilli	Bacillales	Bacillaceae	Priestia	Priestia megaterium
+2P3X	plant	Vitis vinifera	0	1	29760	Viridiplantae	Streptophyta	Magnoliopsida	Vitales	Vitaceae	Vitis	Vitis vinifera
+1BT3	plant	Ipomoea batatas	0	1	4120	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Convolvulaceae	Ipomoea	Ipomoea batatas
+2Y9X	fungal	Agaricus bisporus	0	1	5341	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Agaricaceae	Agaricus	Agaricus bisporus
+4OUA	fungal	Agaricus bisporus var. bisporus H97	0	1	936046	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Agaricaceae	Agaricus	Agaricus bisporus
+5M6B	fungal	Agaricus bisporus	0	1	5341	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Agaricaceae	Agaricus	Agaricus bisporus
+3W6Q	fungal	Aspergillus oryzae	0	1	5062	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus oryzae
+4J3P	fungal	Aspergillus oryzae	0	1	5062	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus oryzae
+6Z1S	fungal	Thermothelomyces thermophilus ATCC 42464	0	1	573729	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Thermothelomyces	Thermothelomyces thermophilus
+3HHS	animal	Manduca sexta	0	1	7130	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Manduca	Manduca sexta
+3WKY	animal	Penaeus japonicus	0	1	27405	Metazoa	Arthropoda	Malacostraca	Decapoda	Penaeidae	Penaeus	Penaeus japonicus
+1HCY	animal	Panulirus interruptus	0	1	6735	Metazoa	Arthropoda	Malacostraca	Decapoda	Palinuridae	Panulirus	Panulirus interruptus
+1NOL	animal	Limulus polyphemus	0	1	6850	Metazoa	Arthropoda	Merostomata	Xiphosura	Limulidae	Limulus	Limulus polyphemus
+1JS8	animal	Enteroctopus dofleini	0	1	267067	Metazoa	Mollusca	Cephalopoda	Octopoda	Octopodidae	Enteroctopus	Enteroctopus dofleini
+1LNL	animal	Rapana venosa	0	1	55521	Metazoa	Mollusca	Gastropoda	Neogastropoda	Muricidae	Rapana	Rapana venosa
+XP_001221473.1	fungal	Chaetomium globosum CBS 148.51	1	0	306901	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Chaetomium	Chaetomium globosum
+XP_001224266.1	fungal	Chaetomium globosum CBS 148.51	1	0	306901	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Chaetomium	Chaetomium globosum
+XP_003659809.1	fungal	Thermothelomyces thermophilus ATCC 42464	1	0	573729	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Thermothelomyces	Thermothelomyces thermophilus
+XP_003666010.1	fungal	Thermothelomyces thermophilus ATCC 42464	1	0	573729	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Thermothelomyces	Thermothelomyces thermophilus
+c2092_g1_i1	fungal		1	0	1442378	Fungi	Ascomycota	Sordariomycetes	Microascales	Microascaceae	Parascedosporium	Parascedosporium putredinis
+XP_003662515.1	fungal	Thermothelomyces thermophilus ATCC 42464	1	0	573729	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Thermothelomyces	Thermothelomyces thermophilus
+sp|C7FF04|PPO3_AGABI	fungal		1	0	5341	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Agaricaceae	Agaricus	Agaricus bisporus

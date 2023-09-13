@@ -1,0 +1,28 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	order
+COLOR	#ff0000
+DATA
+1WX2	#0c9765	Streptomycetales
+3NM8	#101867	Bacillales
+2P3X	#2562e2	Vitales
+1BT3	#7678f3	Solanales
+2Y9X	#95ed80	Agaricales
+4OUA	#95ed80	Agaricales
+5M6B	#95ed80	Agaricales
+3W6Q	#2f3b77	Eurotiales
+4J3P	#2f3b77	Eurotiales
+6Z1S	#d9ddf6	Sordariales
+3HHS	#44d2ff	Lepidoptera
+3WKY	#b79450	Decapoda
+1HCY	#b79450	Decapoda
+1NOL	#557e7b	Xiphosura
+1JS8	#556e44	Octopoda
+1LNL	#b05663	Neogastropoda
+XP_001221473.1	#d9ddf6	Sordariales
+XP_001224266.1	#d9ddf6	Sordariales
+XP_003659809.1	#d9ddf6	Sordariales
+XP_003666010.1	#d9ddf6	Sordariales
+c2092_g1_i1	#b94060	Microascales
+XP_003662515.1	#d9ddf6	Sordariales
+sp|C7FF04|PPO3_AGABI	#95ed80	Agaricales

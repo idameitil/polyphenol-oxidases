@@ -19,3 +19,5 @@ To be decided
 - 3HHS: according to the paper, this PPO is a heterodimer of 2 homologous polypeptide chains PPO1 and PPO2 (Li, 2009). I guess we should keep both?
 
 A seed table was created `data/seeds.tsv`.
+
+The seed table is enriched with taxonomy by running `src/data-collection/enrich-seeds.py`. This creates the file `data/seeds-enriched.tsv`.

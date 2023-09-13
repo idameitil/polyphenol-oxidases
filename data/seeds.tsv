@@ -1,23 +1,24 @@
-id	domain	organism	studied_by_caio	structure	taxon
-1WX2	bacterial	Streptomyces castaneoglobisporus	0	1	
-3NM8	bacterial	Priestia megaterium	0	1	
-2P3X	plant	Vitis vinifera	0	1	
-1BT3	plant	Ipomoea batatas	0	1	
-2Y9X	fungal	Agaricus bisporus	0	1	
-4OUA	fungal	Agaricus bisporus var. bisporus H97	0	1	
-5M6B	fungal	Agaricus bisporus	0	1	
-3W6Q	fungal	Aspergillus oryzae	0	1	
-6Z1S	fungal	Thermothelomyces thermophilus ATCC 42464	0	1	
-3HHS	animal	Manduca sexta	0	1	
-3WKY	animal	Penaeus japonicus	0	1	
-1HCY	animal	Panulirus interruptus	0	1	
-1NOL	animal	Limulus polyphemus	0	1	
-1JS8	animal	Enteroctopus dofleini	0	1	
-1LNL	animal	Rapana venosa	0	1	
+id	domain_from_paper	organism	studied_by_caio	structure	taxon
+1WX2	bacterial	Streptomyces castaneoglobisporus	0	1	79261
+3NM8	bacterial	Priestia megaterium	0	1	1404
+2P3X	plant	Vitis vinifera	0	1	29760
+1BT3	plant	Ipomoea batatas	0	1	4120
+2Y9X	fungal	Agaricus bisporus	0	1	5341
+4OUA	fungal	Agaricus bisporus var. bisporus H97	0	1	936046
+5M6B	fungal	Agaricus bisporus	0	1	5341
+3W6Q	fungal	Aspergillus oryzae	0	1	5062
+4J3P	fungal	Aspergillus oryzae	0	1	5062
+6Z1S	fungal	Thermothelomyces thermophilus ATCC 42464	0	1	573729
+3HHS	animal	Manduca sexta	0	1	7130
+3WKY	animal	Penaeus japonicus	0	1	27405
+1HCY	animal	Panulirus interruptus	0	1	6735
+1NOL	animal	Limulus polyphemus	0	1	6850
+1JS8	animal	Enteroctopus dofleini	0	1	267067
+1LNL	animal	Rapana venosa	0	1	55521
 XP_001221473.1	fungal	Chaetomium globosum CBS 148.51	1	0	306901
 XP_001224266.1	fungal	Chaetomium globosum CBS 148.51	1	0	306901
 XP_003659809.1	fungal	Thermothelomyces thermophilus ATCC 42464	1	0	573729
 XP_003666010.1	fungal	Thermothelomyces thermophilus ATCC 42464	1	0	573729
-c2092_g1_i1	fungal		1	0	
+c2092_g1_i1	fungal		1	0	1442378
 XP_003662515.1	fungal	Thermothelomyces thermophilus ATCC 42464	1	0	573729
-sp|C7FF04|PPO3_AGABI	fungal		1	0	
+sp|C7FF04|PPO3_AGABI	fungal		1	0	5341

@@ -1,0 +1,28 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	phylum
+COLOR	#ff0000
+DATA
+1WX2	#6ceae4	Actinobacteria
+3NM8	#2ddf20	Firmicutes
+2P3X	#32ac73	Streptophyta
+1BT3	#32ac73	Streptophyta
+2Y9X	#cd3668	Basidiomycota
+4OUA	#cd3668	Basidiomycota
+5M6B	#cd3668	Basidiomycota
+3W6Q	#907a82	Ascomycota
+4J3P	#907a82	Ascomycota
+6Z1S	#907a82	Ascomycota
+3HHS	#bb5b8d	Arthropoda
+3WKY	#bb5b8d	Arthropoda
+1HCY	#bb5b8d	Arthropoda
+1NOL	#bb5b8d	Arthropoda
+1JS8	#dc1d46	Mollusca
+1LNL	#dc1d46	Mollusca
+XP_001221473.1	#907a82	Ascomycota
+XP_001224266.1	#907a82	Ascomycota
+XP_003659809.1	#907a82	Ascomycota
+XP_003666010.1	#907a82	Ascomycota
+c2092_g1_i1	#907a82	Ascomycota
+XP_003662515.1	#907a82	Ascomycota
+sp|C7FF04|PPO3_AGABI	#cd3668	Basidiomycota

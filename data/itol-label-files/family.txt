@@ -1,0 +1,28 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	family
+COLOR	#ff0000
+DATA
+1WX2	#2fc895	Streptomycetaceae
+3NM8	#803914	Bacillaceae
+2P3X	#89c6c5	Vitaceae
+1BT3	#e37f90	Convolvulaceae
+2Y9X	#cee83f	Agaricaceae
+4OUA	#cee83f	Agaricaceae
+5M6B	#cee83f	Agaricaceae
+3W6Q	#2799ee	Aspergillaceae
+4J3P	#2799ee	Aspergillaceae
+6Z1S	#e7572b	Chaetomiaceae
+3HHS	#00ca6d	Sphingidae
+3WKY	#54c1ad	Penaeidae
+1HCY	#ee3d5d	Palinuridae
+1NOL	#43a2d0	Limulidae
+1JS8	#7dfca3	Octopodidae
+1LNL	#1f483e	Muricidae
+XP_001221473.1	#e7572b	Chaetomiaceae
+XP_001224266.1	#e7572b	Chaetomiaceae
+XP_003659809.1	#e7572b	Chaetomiaceae
+XP_003666010.1	#e7572b	Chaetomiaceae
+c2092_g1_i1	#6b6a3b	Microascaceae
+XP_003662515.1	#e7572b	Chaetomiaceae
+sp|C7FF04|PPO3_AGABI	#cee83f	Agaricaceae
