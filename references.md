@@ -1,3 +1,5 @@
+hydroxyannilinase = O-amino phenoloxidase
+
 # Seeds
 c2092_g1_i1 is from “A multi-omics approach to lignocellulolytic enzyme discovery reveals a new ligninase activity from Parascedosporium putredinis NO1”
 c2092_g1_i1 has a blast hit with 100% coverage and identity except for one gap: CAI4219580.1

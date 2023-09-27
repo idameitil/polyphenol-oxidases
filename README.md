@@ -22,6 +22,9 @@ To be decided:
 ## Seed table
 A seed table was created `data/seeds.tsv`.
 
+## Fasta file
+A fasta file is created by running `python src/data-collection/make-fasta.py`. This creates the file `data/seeds.fasta`.
+
 ## Enriching seeds
 The seed table is enriched with taxonomy by running `python src/data-collection/enrich-seeds.py`. This creates the file `data/seeds-enriched.tsv`.
 
