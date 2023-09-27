@@ -3,24 +3,25 @@ SEPARATOR TAB
 DATASET_LABEL	genus
 COLOR	#ff0000
 DATA
-1WX2	#8f16ad	Streptomyces
-3NM8	#4346ac	Priestia
-2P3X	#f99aed	Vitis
-1BT3	#9528a2	Ipomoea
-4OUA	#fa13f8	Agaricus
-3W6Q	#4efdcc	Aspergillus
-4J3P	#4efdcc	Aspergillus
-3HHS	#ebdd1c	Manduca
-3WKY	#329c35	Penaeus
-1HCY	#bd1298	Panulirus
-1NOL	#98ed60	Limulus
-1JS8	#49ab58	Enteroctopus
-1LNL	#e9717b	Rapana
-XP_001221473.1	#9a8b49	Chaetomium
-XP_001224266.1	#9a8b49	Chaetomium
-XP_003659809.1	#33afe7	Thermothelomyces
-XP_003666010.1	#33afe7	Thermothelomyces
-c2092_g1_i1	#195553	Parascedosporium
-XP_003662515.1	#33afe7	Thermothelomyces
-sp|C7FF04|PPO3_AGABI	#fa13f8	Agaricus
-BAJ08174.1	#8f16ad	Streptomyces
+1WX2	#e536ff	Streptomyces
+3NM8	#c4446a	Priestia
+2P3X	#a01930	Vitis
+1BT3	#571628	Ipomoea
+4OUA	#ad2fd4	Agaricus
+3W6Q	#6fac8f	Aspergillus
+3HHS_1	#963adb	Manduca
+3HHS_2	#963adb	Manduca
+3WKY	#1edc30	Penaeus
+1HCY	#4ee5b5	Panulirus
+1NOL	#79d31b	Limulus
+1JS8	#4c6795	Enteroctopus
+1LNL	#69c4c8	Rapana
+4J3P	#6fac8f	Aspergillus
+XP_001221473.1	#32f1f4	Chaetomium
+XP_001224266.1	#32f1f4	Chaetomium
+XP_003659809.1	#df0274	Thermothelomyces
+XP_003666010.1	#df0274	Thermothelomyces
+c2092_g1_i1	#23d74a	Parascedosporium
+XP_003662515.1	#df0274	Thermothelomyces
+sp|C7FF04|PPO3_AGABI	#ad2fd4	Agaricus
+BAJ08174.1	#e536ff	Streptomyces

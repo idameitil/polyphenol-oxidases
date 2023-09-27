@@ -3,24 +3,25 @@ SEPARATOR TAB
 DATASET_LABEL	species
 COLOR	#ff0000
 DATA
-1WX2	#9282a2	Streptomyces castaneoglobisporus
-3NM8	#a38eb9	Priestia megaterium
-2P3X	#aa149a	Vitis vinifera
-1BT3	#5e0691	Ipomoea batatas
-4OUA	#5dbf39	Agaricus bisporus
-3W6Q	#b433a3	Aspergillus oryzae
-4J3P	#b433a3	Aspergillus oryzae
-3HHS	#892415	Manduca sexta
-3WKY	#ccd970	Penaeus japonicus
-1HCY	#60ade0	Panulirus interruptus
-1NOL	#10ad2e	Limulus polyphemus
-1JS8	#1afd8d	Enteroctopus dofleini
-1LNL	#051d0e	Rapana venosa
-XP_001221473.1	#43514b	Chaetomium globosum
-XP_001224266.1	#43514b	Chaetomium globosum
-XP_003659809.1	#c074f8	Thermothelomyces thermophilus
-XP_003666010.1	#c074f8	Thermothelomyces thermophilus
-c2092_g1_i1	#2f2b04	Parascedosporium putredinis
-XP_003662515.1	#c074f8	Thermothelomyces thermophilus
-sp|C7FF04|PPO3_AGABI	#5dbf39	Agaricus bisporus
-BAJ08174.1	#683af5	Streptomyces murayamaensis
+1WX2	#115ec6	Streptomyces castaneoglobisporus
+3NM8	#7a4b77	Priestia megaterium
+2P3X	#fcc368	Vitis vinifera
+1BT3	#ca0991	Ipomoea batatas
+4OUA	#18cac7	Agaricus bisporus
+3W6Q	#6efd9a	Aspergillus oryzae
+3HHS_1	#f0d83e	Manduca sexta
+3HHS_2	#f0d83e	Manduca sexta
+3WKY	#eebede	Penaeus japonicus
+1HCY	#1a12bd	Panulirus interruptus
+1NOL	#5e9070	Limulus polyphemus
+1JS8	#37b5cb	Enteroctopus dofleini
+1LNL	#a59411	Rapana venosa
+4J3P	#6efd9a	Aspergillus oryzae
+XP_001221473.1	#a89e98	Chaetomium globosum
+XP_001224266.1	#a89e98	Chaetomium globosum
+XP_003659809.1	#b056c1	Thermothelomyces thermophilus
+XP_003666010.1	#b056c1	Thermothelomyces thermophilus
+c2092_g1_i1	#d6f99a	Parascedosporium putredinis
+XP_003662515.1	#b056c1	Thermothelomyces thermophilus
+sp|C7FF04|PPO3_AGABI	#18cac7	Agaricus bisporus
+BAJ08174.1	#d4ac66	Streptomyces murayamaensis

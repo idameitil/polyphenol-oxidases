@@ -3,24 +3,25 @@ SEPARATOR TAB
 DATASET_LABEL	family
 COLOR	#ff0000
 DATA
-1WX2	#b6b60a	Streptomycetaceae
-3NM8	#fded4b	Bacillaceae
-2P3X	#206774	Vitaceae
-1BT3	#2dac98	Convolvulaceae
-4OUA	#ef3093	Agaricaceae
-3W6Q	#0a4bee	Aspergillaceae
-4J3P	#0a4bee	Aspergillaceae
-3HHS	#d04775	Sphingidae
-3WKY	#3b0a32	Penaeidae
-1HCY	#f49f61	Palinuridae
-1NOL	#70757a	Limulidae
-1JS8	#e01244	Octopodidae
-1LNL	#a41b37	Muricidae
-XP_001221473.1	#d60c49	Chaetomiaceae
-XP_001224266.1	#d60c49	Chaetomiaceae
-XP_003659809.1	#d60c49	Chaetomiaceae
-XP_003666010.1	#d60c49	Chaetomiaceae
-c2092_g1_i1	#338cb9	Microascaceae
-XP_003662515.1	#d60c49	Chaetomiaceae
-sp|C7FF04|PPO3_AGABI	#ef3093	Agaricaceae
-BAJ08174.1	#b6b60a	Streptomycetaceae
+1WX2	#8cc030	Streptomycetaceae
+3NM8	#0950b4	Bacillaceae
+2P3X	#0e39dd	Vitaceae
+1BT3	#cc7335	Convolvulaceae
+4OUA	#a7126a	Agaricaceae
+3W6Q	#a45207	Aspergillaceae
+3HHS_1	#2f6f48	Sphingidae
+3HHS_2	#2f6f48	Sphingidae
+3WKY	#45e92c	Penaeidae
+1HCY	#2ea4f3	Palinuridae
+1NOL	#1b2307	Limulidae
+1JS8	#f7c8a5	Octopodidae
+1LNL	#0b6d12	Muricidae
+4J3P	#a45207	Aspergillaceae
+XP_001221473.1	#1b7e50	Chaetomiaceae
+XP_001224266.1	#1b7e50	Chaetomiaceae
+XP_003659809.1	#1b7e50	Chaetomiaceae
+XP_003666010.1	#1b7e50	Chaetomiaceae
+c2092_g1_i1	#134400	Microascaceae
+XP_003662515.1	#1b7e50	Chaetomiaceae
+sp|C7FF04|PPO3_AGABI	#a7126a	Agaricaceae
+BAJ08174.1	#8cc030	Streptomycetaceae

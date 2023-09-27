@@ -3,24 +3,25 @@ SEPARATOR TAB
 DATASET_LABEL	class
 COLOR	#ff0000
 DATA
-1WX2	#9839c6	Actinomycetia
-3NM8	#e93308	Bacilli
-2P3X	#9ba036	Magnoliopsida
-1BT3	#9ba036	Magnoliopsida
-4OUA	#8c2755	Agaricomycetes
-3W6Q	#e03a56	Eurotiomycetes
-4J3P	#e03a56	Eurotiomycetes
-3HHS	#dcc3f2	Insecta
-3WKY	#563282	Malacostraca
-1HCY	#563282	Malacostraca
-1NOL	#af7716	Merostomata
-1JS8	#5c8aec	Cephalopoda
-1LNL	#252ea2	Gastropoda
-XP_001221473.1	#ce3bd5	Sordariomycetes
-XP_001224266.1	#ce3bd5	Sordariomycetes
-XP_003659809.1	#ce3bd5	Sordariomycetes
-XP_003666010.1	#ce3bd5	Sordariomycetes
-c2092_g1_i1	#ce3bd5	Sordariomycetes
-XP_003662515.1	#ce3bd5	Sordariomycetes
-sp|C7FF04|PPO3_AGABI	#8c2755	Agaricomycetes
-BAJ08174.1	#9839c6	Actinomycetia
+1WX2	#9a1592	Actinomycetia
+3NM8	#f34ad1	Bacilli
+2P3X	#4499ad	Magnoliopsida
+1BT3	#4499ad	Magnoliopsida
+4OUA	#ad64ff	Agaricomycetes
+3W6Q	#de39df	Eurotiomycetes
+3HHS_1	#058494	Insecta
+3HHS_2	#058494	Insecta
+3WKY	#e26088	Malacostraca
+1HCY	#e26088	Malacostraca
+1NOL	#e77bdb	Merostomata
+1JS8	#1fc7a9	Cephalopoda
+1LNL	#c39b4d	Gastropoda
+4J3P	#de39df	Eurotiomycetes
+XP_001221473.1	#68de8e	Sordariomycetes
+XP_001224266.1	#68de8e	Sordariomycetes
+XP_003659809.1	#68de8e	Sordariomycetes
+XP_003666010.1	#68de8e	Sordariomycetes
+c2092_g1_i1	#68de8e	Sordariomycetes
+XP_003662515.1	#68de8e	Sordariomycetes
+sp|C7FF04|PPO3_AGABI	#ad64ff	Agaricomycetes
+BAJ08174.1	#9a1592	Actinomycetia

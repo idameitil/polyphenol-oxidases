@@ -3,24 +3,25 @@ SEPARATOR TAB
 DATASET_LABEL	order
 COLOR	#ff0000
 DATA
-1WX2	#312f40	Streptomycetales
-3NM8	#840bad	Bacillales
-2P3X	#7ad2cb	Vitales
-1BT3	#14e10a	Solanales
-4OUA	#022594	Agaricales
-3W6Q	#400b1f	Eurotiales
-4J3P	#400b1f	Eurotiales
-3HHS	#1baa07	Lepidoptera
-3WKY	#00ca05	Decapoda
-1HCY	#00ca05	Decapoda
-1NOL	#779292	Xiphosura
-1JS8	#b9e02d	Octopoda
-1LNL	#f0fb0a	Neogastropoda
-XP_001221473.1	#d266fd	Sordariales
-XP_001224266.1	#d266fd	Sordariales
-XP_003659809.1	#d266fd	Sordariales
-XP_003666010.1	#d266fd	Sordariales
-c2092_g1_i1	#52c121	Microascales
-XP_003662515.1	#d266fd	Sordariales
-sp|C7FF04|PPO3_AGABI	#022594	Agaricales
-BAJ08174.1	#312f40	Streptomycetales
+1WX2	#732cca	Streptomycetales
+3NM8	#f4e74c	Bacillales
+2P3X	#7d2108	Vitales
+1BT3	#c7f926	Solanales
+4OUA	#ff7ae8	Agaricales
+3W6Q	#7df841	Eurotiales
+3HHS_1	#1a44bb	Lepidoptera
+3HHS_2	#1a44bb	Lepidoptera
+3WKY	#ae70a1	Decapoda
+1HCY	#ae70a1	Decapoda
+1NOL	#78b894	Xiphosura
+1JS8	#cee9aa	Octopoda
+1LNL	#f3b040	Neogastropoda
+4J3P	#7df841	Eurotiales
+XP_001221473.1	#f4f2b9	Sordariales
+XP_001224266.1	#f4f2b9	Sordariales
+XP_003659809.1	#f4f2b9	Sordariales
+XP_003666010.1	#f4f2b9	Sordariales
+c2092_g1_i1	#094538	Microascales
+XP_003662515.1	#f4f2b9	Sordariales
+sp|C7FF04|PPO3_AGABI	#ff7ae8	Agaricales
+BAJ08174.1	#732cca	Streptomycetales

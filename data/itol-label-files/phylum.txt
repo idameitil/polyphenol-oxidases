@@ -3,24 +3,25 @@ SEPARATOR TAB
 DATASET_LABEL	phylum
 COLOR	#ff0000
 DATA
-1WX2	#a0750f	Actinobacteria
-3NM8	#939df2	Firmicutes
-2P3X	#3e321f	Streptophyta
-1BT3	#3e321f	Streptophyta
-4OUA	#563073	Basidiomycota
-3W6Q	#3a515a	Ascomycota
-4J3P	#3a515a	Ascomycota
-3HHS	#76b003	Arthropoda
-3WKY	#76b003	Arthropoda
-1HCY	#76b003	Arthropoda
-1NOL	#76b003	Arthropoda
-1JS8	#09d035	Mollusca
-1LNL	#09d035	Mollusca
-XP_001221473.1	#3a515a	Ascomycota
-XP_001224266.1	#3a515a	Ascomycota
-XP_003659809.1	#3a515a	Ascomycota
-XP_003666010.1	#3a515a	Ascomycota
-c2092_g1_i1	#3a515a	Ascomycota
-XP_003662515.1	#3a515a	Ascomycota
-sp|C7FF04|PPO3_AGABI	#563073	Basidiomycota
-BAJ08174.1	#a0750f	Actinobacteria
+1WX2	#0beb5c	Actinobacteria
+3NM8	#e0f6c8	Firmicutes
+2P3X	#59bdd8	Streptophyta
+1BT3	#59bdd8	Streptophyta
+4OUA	#54d6cc	Basidiomycota
+3W6Q	#e4f1c0	Ascomycota
+3HHS_1	#d3a511	Arthropoda
+3HHS_2	#d3a511	Arthropoda
+3WKY	#d3a511	Arthropoda
+1HCY	#d3a511	Arthropoda
+1NOL	#d3a511	Arthropoda
+1JS8	#bb0cfd	Mollusca
+1LNL	#bb0cfd	Mollusca
+4J3P	#e4f1c0	Ascomycota
+XP_001221473.1	#e4f1c0	Ascomycota
+XP_001224266.1	#e4f1c0	Ascomycota
+XP_003659809.1	#e4f1c0	Ascomycota
+XP_003666010.1	#e4f1c0	Ascomycota
+c2092_g1_i1	#e4f1c0	Ascomycota
+XP_003662515.1	#e4f1c0	Ascomycota
+sp|C7FF04|PPO3_AGABI	#54d6cc	Basidiomycota
+BAJ08174.1	#0beb5c	Actinobacteria

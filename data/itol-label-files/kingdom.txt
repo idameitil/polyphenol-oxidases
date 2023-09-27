@@ -3,24 +3,25 @@ SEPARATOR TAB
 DATASET_LABEL	kingdom
 COLOR	#ff0000
 DATA
-1WX2	#09cd7f	nan
-3NM8	#09cd7f	nan
-2P3X	#aa567b	Viridiplantae
-1BT3	#aa567b	Viridiplantae
-4OUA	#9739b0	Fungi
-3W6Q	#9739b0	Fungi
-4J3P	#9739b0	Fungi
-3HHS	#feff10	Metazoa
-3WKY	#feff10	Metazoa
-1HCY	#feff10	Metazoa
-1NOL	#feff10	Metazoa
-1JS8	#feff10	Metazoa
-1LNL	#feff10	Metazoa
-XP_001221473.1	#9739b0	Fungi
-XP_001224266.1	#9739b0	Fungi
-XP_003659809.1	#9739b0	Fungi
-XP_003666010.1	#9739b0	Fungi
-c2092_g1_i1	#9739b0	Fungi
-XP_003662515.1	#9739b0	Fungi
-sp|C7FF04|PPO3_AGABI	#9739b0	Fungi
-BAJ08174.1	#09cd7f	nan
+1WX2	#d850d8	nan
+3NM8	#d850d8	nan
+2P3X	#49d334	Viridiplantae
+1BT3	#49d334	Viridiplantae
+4OUA	#a8c91e	Fungi
+3W6Q	#a8c91e	Fungi
+3HHS_1	#4dd47e	Metazoa
+3HHS_2	#4dd47e	Metazoa
+3WKY	#4dd47e	Metazoa
+1HCY	#4dd47e	Metazoa
+1NOL	#4dd47e	Metazoa
+1JS8	#4dd47e	Metazoa
+1LNL	#4dd47e	Metazoa
+4J3P	#a8c91e	Fungi
+XP_001221473.1	#a8c91e	Fungi
+XP_001224266.1	#a8c91e	Fungi
+XP_003659809.1	#a8c91e	Fungi
+XP_003666010.1	#a8c91e	Fungi
+c2092_g1_i1	#a8c91e	Fungi
+XP_003662515.1	#a8c91e	Fungi
+sp|C7FF04|PPO3_AGABI	#a8c91e	Fungi
+BAJ08174.1	#d850d8	nan
