@@ -1,0 +1,26 @@
+DATASET_COLORSTRIP
+SEPARATOR COMMA
+DATASET_LABEL,activity
+COLOR,#ff0000
+DATA
+1WX2,#880808,tyrosinase
+3NM8,#880808,tyrosinase
+2P3X,#880808,tyrosinase
+1BT3,#00FFFF,catechol oxidase
+4OUA,#880808,tyrosinase
+3W6Q,#880808,tyrosinase
+4J3P,#880808,tyrosinase
+3HHS,#880808,tyrosinase
+3WKY,#880808,tyrosinase
+1HCY,#008000,Hemocyanin
+1NOL,#008000,Hemocyanin
+1JS8,#008000,Hemocyanin
+1LNL,#008000,Hemocyanin
+XP_001221473.1,#880808,tyrosinase
+XP_001224266.1,#880808,tyrosinase
+XP_003659809.1,#880808,tyrosinase
+XP_003666010.1,#880808,tyrosinase
+c2092_g1_i1,#880808,tyrosinase
+XP_003662515.1,#880808,tyrosinase
+sp|C7FF04|PPO3_AGABI,#880808,tyrosinase
+BAJ08174.1,#00FF00,O-aminophenol oxidase
