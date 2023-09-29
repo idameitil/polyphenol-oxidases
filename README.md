@@ -27,11 +27,13 @@ A fasta file is created by running `python src/data-collection/make-fasta.py`. T
 The seed table is enriched with taxonomy by running `python src/data-collection/enrich-seeds.py`. This creates the file `data/seeds-enriched.tsv`.
 
 # MSA
-An MSA is made by running
-`mafft data/seeds.fa > data/seeds-mafft.fa`
+An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
 
 # Phylogenetic tree
 A phylogenetic tree is made on the mafft webserver and saved in `data/seeds.ph`.
 
 # iTOL label files
 To make the iTOL label files, run `python src/make-itol-label-files.py`
+
+# Structural visualizations
+To show the structures run `pymol src/structural-visualizations/show-models.pml`.
