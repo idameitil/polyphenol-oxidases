@@ -23,7 +23,15 @@ def make_taxonomy_label_file(df):
                 if tax not in tax2color:
                     color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
                     tax2color[tax] = color
-                file.write(f"{acc}\t{tax2color[tax]}\t{tax}\n")
+                if rank == 'kingdom':
+                    kingdom2color = {'Viridiplantae': '#00FF00', 'nan': '#FF0000', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
+                    if tax not in kingdom2color:
+                        color = '#FF0000'
+                    else:
+                        color = kingdom2color[tax]
+                    file.write(f"{acc}\t{color}\t{tax}\n")
+                else:
+                    file.write(f"{acc}\t{tax2color[tax]}\t{tax}\n")
 
 def make_activity_label_file(df):
     outfilename = f"data/itol-label-files/activity.txt"
@@ -58,6 +66,17 @@ def make_yes_no_label_file(df, column_name):
                 continue
             file.write(f"{row.id},{value2color[row[column_name]]},{row[column_name]}\n")
 
+def make_aguilera_subclass_label_file(df):
+    outfilename = f"data/itol-label-files/Aguilera_subclass.txt"
+    value2color = {'alpha': '#FF0000', 'beta': '#00FFFF', 'gamma': '#00FF00'}
+    with open(outfilename, "w") as file:
+        header = f"DATASET_COLORSTRIP\nSEPARATOR COMMA\nDATASET_LABEL,Aguilera_subclass\nCOLOR,#ff0000\nDATA\n"
+        file.write(header)
+        for index, row in df.iterrows():
+            if row['Aguilera_subclass'] not in value2color:
+                continue
+            file.write(f"{row.id},{value2color[row['Aguilera_subclass']]},{row['Aguilera_subclass']}\n")
+
 seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_domain_color_file(seed_df)
 make_taxonomy_label_file(seed_df)
@@ -72,3 +91,4 @@ make_yes_no_label_file(seed_df, 'Monophenolase_activity')
 make_yes_no_label_file(seed_df, 'Diphenolase_activity')
 make_yes_no_label_file(seed_df, 'Nitrosation_activity')
 make_yes_no_label_file(seed_df, 'Tioether bond')
+make_aguilera_subclass_label_file(seed_df)
