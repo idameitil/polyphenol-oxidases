@@ -20,8 +20,18 @@ To be decided:
 ## Seed table
 A seed table was created manually: `data/seeds.tsv`.
 
+## Aguilera data
+The supplementary table with the dataset from the Aguilera data was downloaded and saved in `data/Aguilera-data/12862_2013_2332_MOESM1_ESM.xlsx`.
+
+The sequences for the ones with accession numbers were retrieved with efetch and put in the table `data/Aguilera-data/aguilera_with_seq.xlsx`
+
+The data was include in a table with the same setup as `data/seeds.tsv` - `data/Aguilera-data/aguilera-dataset.xlsx`.
+
 ## Fasta file
 A fasta file is created by running `python src/data-collection/make-fasta.py`. This creates the file `data/seeds.fa`.
+
+## Running Interproscan on seeds
+
 
 ## Enriching seeds
 The seed table is enriched with taxonomy by running `python src/data-collection/enrich-seeds.py`. This creates the file `data/seeds-enriched.tsv`.
@@ -33,7 +43,9 @@ An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
 A phylogenetic tree is made on the mafft webserver and saved in `data/seeds.ph`.
 
 # iTOL label files
-To make the iTOL label files, run `python src/make-itol-label-files.py`
+To make the iTOL label files, run `python src/itol-label-files/make-itol-label-files.py`
 
 # Structural visualizations
 To show the structures run `pymol src/structural-visualizations/show-models.pml`.
+
+
