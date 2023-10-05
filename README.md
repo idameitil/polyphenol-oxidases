@@ -31,7 +31,16 @@ The data was include in a table with the same setup as `data/seeds.tsv` - `data/
 A fasta file is created by running `python src/data-collection/make-fasta.py`. This creates the file `data/seeds.fa`.
 
 ## Running Interproscan on seeds
+Transfer the seeds file to the HPC: `scp data/seeds.fa idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/`
 
+On the HPC, run Interproscan:
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -i /work3/idamei/polyphenol-oxidases/seeds.fa -f tsv -o /work3/idamei/polyphenol-oxidases/seeds.interproscan`
+
+Download the output file:
+`scp idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/seeds.interproscan data/`
+
+## Make fasta with only pfam domain
+A fasta file with only the PF00264 and PF00372 domains of the seeds was made by running: `src/interproscan/make-pfam-domain-fasta.py`.
 
 ## Enriching seeds
 The seed table is enriched with taxonomy by running `python src/data-collection/enrich-seeds.py`. This creates the file `data/seeds-enriched.tsv`.
