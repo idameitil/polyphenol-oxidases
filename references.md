@@ -1,3 +1,13 @@
+# Installation of Interproscan on the HPC
+See `Interproscan_installation.md`.
+
+# Using efetch
+`efetch -db protein -format fasta -input [accession_list] > [fasta_filename]`
+
+# Phylogenetic trees
+Try RAxML (as described in GH16 paper)
+
+# Nitrosation
 hydroxyannilinase = O-amino phenoloxidase
 
 # Seeds
