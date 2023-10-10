@@ -1,8 +1,6 @@
 import sys
 import os
 
-enzyme_family = sys.argv[1]
-
 blast_path = f"data/blast/run"
 
 accessions = [folder for folder in os.listdir(blast_path) if not folder.startswith('.')]

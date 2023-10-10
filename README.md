@@ -55,10 +55,10 @@ And then: `sh /work3/idamei/polyphenol-oxidases/blast/submit.sh`
 (OBS: maybe only download the new runs) When all jobs have finished, download the data: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/blast data/`
 
 ### Parsing Blast results
-To parse the blast expansion output files into json format, run `python src/data-collection/run-blastfilter.py polyphenol-oxidases`. This will create the files `data/blast/run/*/blast.js`.
+To parse the blast expansion output files into json format, run `python src/data-collection/run-blastfilter.py`. This will create the files `data/blast/run/*/blast.js`.
 
 ### Make unique-hits file
-To create `unique-hits.tsv`, run `python src/data-collection/make-unique-hits-file.py polyphenol-oxidases`. This creates the file `data/blast/unique-hits.tsv`.
+To create `unique-hits.tsv`, run `python src/data-collection/make-unique-hits-file.py`. This creates the file `data/blast/unique-hits.tsv`.
 
 # MSA
 An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
