@@ -60,6 +60,24 @@ To parse the blast expansion output files into json format, run `python src/data
 ### Make unique-hits file
 To create `unique-hits.tsv`, run `python src/data-collection/make-unique-hits-file.py`. This creates the file `data/blast/unique-hits.tsv`.
 
+### Retrieving sequences, taxid for Blast hits
+To retrieve the sequence and taxid for the blast hits, run:
+`scp data/blast/unique-hits.tsv idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/blast/`
+
+Then, on the HPC run:
+`qrsh`
+
+`blastdbcmd -db nr -entry_batch /work3/idamei/polyphenol-oxidases/blast/unique-hits.tsv > /work3/idamei/polyphenol-oxidases/blast/unique-hits.fasta`
+
+`blastdbcmd -db nr -entry_batch /work3/idamei/polyphenol-oxidases/blast/unique-hits.tsv -outfmt "%a ,%L ,%T ,%t ,%s" > /work3/idamei/polyphenol-oxidases/blast/unique-hits.csv` 
+
+Then locally run:
+`scp idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/blast/unique-hits.fasta data/blast/`
+
+`scp idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/blast/unique-hits.csv data/blast/`
+
+`data/blast/unique-hits.fasta` is a fasta file with exactly the entries in `data/blast/unique-hits.tsv`. `data/blast/unique-hits.csv` is a csv file containing taxids along with other info. It also includes identical sequences and therefore has more lines than `data/blast/unique-hits.tsv`.
+
 # MSA
 An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
 
