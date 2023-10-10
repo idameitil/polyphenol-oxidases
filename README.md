@@ -40,10 +40,25 @@ Download the output file:
 `scp idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/seeds.interproscan data/`
 
 ## Make fasta with only pfam domain
-A fasta file with only the PF00264 and PF00372 domains of the seeds was made by running: `src/interproscan/make-pfam-domain-fasta.py`.
+A fasta file with only the PF00264 and PF00372 domains of the seeds was made by running: `python src/interproscan/make-pfam-domain-fasta.py`. This creates the file `data/seeds-pfam-domains.fa`.
 
 ## Enriching seeds
 The seed table is enriched with taxonomy by running `python src/data-collection/enrich-seeds.py`. This creates the file `data/seeds-enriched.tsv`.
+
+## Expanding with Blast
+Copy fasta file to HPC: `scp data/seeds-pfam-domains.fa idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/blast/polyphenol-oxidases.fasta`
+
+On the HPC, run: `python3 /work3/idamei/src/blast.py polyphenol-oxidases`
+
+And then: `sh /work3/idamei/polyphenol-oxidases/blast/submit.sh`
+
+(OBS: maybe only download the new runs) When all jobs have finished, download the data: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/blast data/`
+
+### Parsing Blast results
+To parse the blast expansion output files into json format, run `python src/data-collection/run-blastfilter.py polyphenol-oxidases`. This will create the files `data/blast/run/*/blast.js`.
+
+### Make unique-hits file
+To create `unique-hits.tsv`, run `python src/data-collection/make-unique-hits-file.py polyphenol-oxidases`. This creates the file `data/blast/unique-hits.tsv`.
 
 # MSA
 An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`

@@ -20,7 +20,7 @@ sp|C7FF04|PPO3_AGABI has a blast hit with 100% identity and coverage: C7FF04.1
 # Names
 type-3 copper proteins and coupled binuclear cupper (CBC) proteins are not completely the same thing.
 
-Laccases have a type-3 copper binding domain, but also a type-2 (or type 1...) domain
+Laccases have a type-3 copper binding domain, but also a type-2 and type 1 domain
 
 # The non-catalytic domains
 - “The latent enzyme can be activated by limited proteolysis with proteinase K which cleaves the polypeptide chain after K382” (Pretzler 2017)
