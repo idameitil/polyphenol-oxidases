@@ -1,477 +1,477 @@
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	2715	2726	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	2896	2928	-	T	05-10-2023	-	-
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	53	243	2.7E-31	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	1717	1911	8.2E-35	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	2554	2734	2.1E-26	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	2134	2324	9.9E-32	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	1305	1487	5.4E-31	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	886	1076	5.2E-26	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	475	665	2.7E-31	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	2961	3142	1.8E-28	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	1331	1348	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	2902	2928	-	T	05-10-2023	-	-
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	321	427	2.88E-31	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	503	520	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	1567	1672	8.89E-34	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	972	988	-	T	05-10-2023	-	-
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	853	1155	2.13E-99	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	1685	1989	8.18E-97	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	1277	1565	6.87E-93	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	914	931	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	2305	2316	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	1992	2089	1.07E-37	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	224	235	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	3222	3320	3.27E-32	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	3123	3134	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	22	318	1.8E-98	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	1672	1969	0.0	T	05-10-2023	-	-
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2525	2810	1.36E-99	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	22	315	3.7E-96	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	855	1151	1.2E-96	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	1276	1561	3.7E-91	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	2524	2806	4.8E-108	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	2104	2396	2.4E-93	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	2989	3006	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	1892	1903	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	1468	1479	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	969	988	-	T	05-10-2023	-	-
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	1562	1677	5.0E-39	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	2397	2514	5.8E-36	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	1152	1265	1.3E-38	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	1989	2096	1.8E-39	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	3217	3326	9.3E-33	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	743	850	3.2E-32	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	317	433	3.5E-32	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.40.2570	-	3327	3419	2.0E-32	T	05-10-2023	-	-
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	2582	2599	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	2813	2909	1.11E-37	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Coils	Coil	Coil	2110	2130	-	T	05-10-2023	-	-
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	2807	2910	6.4E-37	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1746	1763	5.6E-11	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1775	1780	5.6E-11	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1867	1878	5.6E-11	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1891	1909	5.6E-11	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	2931	3215	3.8E-99	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	2809	2910	4.6E-36	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	2399	2506	9.4E-34	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	1154	1258	1.6E-35	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	1989	2088	4.3E-37	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	1564	1671	5.3E-32	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	320	426	1.7E-26	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	743	843	1.3E-29	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	3219	3319	3.6E-27	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	2403	2506	1.7E-33	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	1746	1763	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	646	657	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	442	742	1.62E-102	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2101	2400	1.01E-98	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	745	843	1.01E-32	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	1157	1259	1.2E-37	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	81	98	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	441	742	3.4E-96	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	1683	1988	9.9E-100	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2932	3217	7.52E-91	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	9	683	0.0	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Gene3D	G3DSA:2.60.40.1520	-	423	694	3.8E-118	T	05-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	SUPERFAMILY	SSF81296	E set domains	426	681	1.54E-80	T	05-10-2023	IPR014756	Immunoglobulin E-set
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Pfam	PF03722	Hemocyanin, all-alpha domain	25	143	1.3E-19	T	05-10-2023	IPR005204	Hemocyanin, N-terminal
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Pfam	PF00372	Hemocyanin, copper containing domain	152	414	1.2E-76	T	05-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	396	404	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Coils	Coil	Coil	309	329	-	T	05-10-2023	-	-
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	37	148	3.79E-22	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	200	213	9.1E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	214	231	9.1E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	234	245	9.1E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	399	414	9.1E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	424	689	9.0E-103	T	05-10-2023	-	-
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	149	420	3.8E-116	T	05-10-2023	-	-
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	400	411	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	203	222	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Gene3D	G3DSA:1.20.1370.10	-	1	146	3.4E-48	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Gene3D	G3DSA:1.10.1280.10	-	147	422	4.1E-113	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Pfam	PF03723	Hemocyanin, ig-like domain	426	679	9.9E-75	T	05-10-2023	IPR005203	Hemocyanin, C-terminal
-3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	152	419	8.5E-92	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PIRSF	PIRSF000290	PPO_plant	27	570	0.0	T	05-10-2023	IPR016213	Polyphenol oxidase
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	192	209	7.8E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	223	228	7.8E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	322	333	7.8E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	349	367	7.8E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Pfam	PF12142	Polyphenol oxidase middle domain	377	427	7.8E-22	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	95	422	3.4E-95	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	455	474	-	T	05-10-2023	-	-
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	57	553	7.6E-130	T	05-10-2023	-	-
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	192	209	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Pfam	PF12143	Protein of unknown function (DUF_B2219)	442	568	4.3E-34	T	05-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	05-10-2023	-	-
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	350	361	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Pfam	PF00264	Common central domain of tyrosinase	161	366	7.6E-33	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	313	334	-	T	05-10-2023	-	-
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Gene3D	G3DSA:1.10.1280.10	-	82	424	1.9E-117	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	457	474	-	T	05-10-2023	-	-
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	Pfam	PF00264	Common central domain of tyrosinase	34	242	2.0E-44	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	60	77	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	60	77	2.3E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	89	94	2.3E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	203	214	2.3E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	223	241	2.3E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	3	287	2.35E-69	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	7	289	4.0E-46	T	05-10-2023	-	-
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	224	235	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	Gene3D	G3DSA:1.10.1280.10	-	1	303	0.0	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	Pfam	PF00264	Common central domain of tyrosinase	105	326	4.3E-48	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	64	384	3.43E-57	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	Gene3D	G3DSA:1.10.1280.10	-	20	383	6.5E-101	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PRINTS	PR00092	Tyrosinase copper-binding domain signature	122	139	1.2E-7	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PRINTS	PR00092	Tyrosinase copper-binding domain signature	152	157	1.2E-7	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PRINTS	PR00092	Tyrosinase copper-binding domain signature	306	324	1.2E-7	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	51	384	8.9E-38	T	05-10-2023	-	-
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Pfam	PF12142	Polyphenol oxidase middle domain	382	432	1.1E-20	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PIRSF	PIRSF000290	PPO_plant	1	586	0.0	T	05-10-2023	IPR016213	Polyphenol oxidase
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	197	214	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	65	570	0.0	T	05-10-2023	-	-
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Gene3D	G3DSA:1.10.1280.10	-	88	429	2.7E-109	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Pfam	PF00264	Common central domain of tyrosinase	171	374	2.1E-30	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	197	214	8.5E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	228	233	8.5E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	327	338	8.5E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	355	373	8.5E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	89	427	4.91E-95	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	356	367	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Pfam	PF12143	Protein of unknown function (DUF_B2219)	453	584	7.9E-40	T	05-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	128	145	1.5E-6	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	302	313	1.5E-6	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	323	341	1.5E-6	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	33	347	9.7E-38	T	05-10-2023	-	-
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	Gene3D	G3DSA:1.10.1280.10	-	30	420	6.6E-95	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	324	335	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	54	419	2.29E-57	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	Pfam	PF00264	Common central domain of tyrosinase	111	343	6.9E-41	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	102	424	8.63E-98	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	201	218	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PIRSF	PIRSF000290	PPO_plant	1	584	0.0	T	05-10-2023	IPR016213	Polyphenol oxidase
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Gene3D	G3DSA:1.10.1280.10	-	94	435	1.6E-115	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	359	370	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Pfam	PF12143	Protein of unknown function (DUF_B2219)	456	582	8.0E-44	T	05-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	201	218	9.3E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	232	237	9.3E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	331	342	9.3E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	358	376	9.3E-16	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Pfam	PF12142	Polyphenol oxidase middle domain	384	436	4.7E-21	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	70	567	0.0	T	05-10-2023	-	-
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Pfam	PF00264	Common central domain of tyrosinase	172	378	3.5E-31	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	94	432	0.0	T	05-10-2023	-	-
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	275	286	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	10	355	1.52E-50	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	Gene3D	G3DSA:1.10.1280.10	-	2	378	6.6E-127	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	81	98	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	Pfam	PF00264	Common central domain of tyrosinase	47	294	1.7E-41	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	81	98	1.4E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	128	133	1.4E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	249	260	1.4E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	274	292	1.4E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	29	352	6.4E-32	T	05-10-2023	-	-
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	364	375	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	201	218	1.1E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	232	237	1.1E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	336	347	1.1E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	363	381	1.1E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	114	428	9.42E-77	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	201	218	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PIRSF	PIRSF000290	PPO_plant	2	598	0.0	T	05-10-2023	IPR016213	Polyphenol oxidase
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Pfam	PF12143	Protein of unknown function (DUF_B2219)	467	596	1.8E-31	T	05-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Gene3D	G3DSA:1.10.1280.10	-	86	435	3.3E-124	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	61	581	1.6E-121	T	05-10-2023	-	-
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Pfam	PF12142	Polyphenol oxidase middle domain	391	444	3.3E-13	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Pfam	PF00264	Common central domain of tyrosinase	169	383	3.3E-30	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	Pfam	PF00264	Common central domain of tyrosinase	29	229	4.9E-43	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	1	279	8.37E-68	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1WX2	e5cffc1ec92ded88240502ca25524038	281	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	209	220	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	Gene3D	G3DSA:1.10.1280.10	-	1	281	0.0	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1WX2	e5cffc1ec92ded88240502ca25524038	281	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	54	71	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	54	71	2.3E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	83	88	2.3E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	189	200	2.3E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	208	226	2.3E-20	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1WX2	e5cffc1ec92ded88240502ca25524038	281	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	3	253	9.5E-44	T	05-10-2023	-	-
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	241	252	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	Gene3D	G3DSA:1.10.1280.10	-	2	305	1.9E-90	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	Pfam	PF00264	Common central domain of tyrosinase	31	260	6.1E-42	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	4	285	1.7E-40	T	05-10-2023	-	-
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	58	75	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	58	75	8.7E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	87	92	8.7E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	221	232	8.7E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	240	258	8.7E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	3	304	6.41E-61	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	SUPERFAMILY	SSF81296	E set domains	422	671	1.33E-84	T	05-10-2023	IPR014756	Immunoglobulin E-set
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	395	403	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	399	410	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Gene3D	G3DSA:1.20.1370.10	-	1	141	4.8E-51	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Gene3D	G3DSA:1.10.1280.10	-	142	418	1.0E-112	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	148	420	2.75E-97	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Pfam	PF03723	Hemocyanin, ig-like domain	422	669	3.2E-78	T	05-10-2023	IPR005203	Hemocyanin, C-terminal
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	198	217	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	FunFam	G3DSA:1.20.1370.10:FF:000001	Phenoloxidase 2	1	141	2.3E-67	T	05-10-2023	-	-
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Pfam	PF00372	Hemocyanin, copper containing domain	148	413	3.3E-82	T	05-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	3	673	0.0	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Gene3D	G3DSA:2.60.40.1520	-	420	681	1.5E-101	T	05-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	195	208	1.6E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	209	226	1.6E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	229	240	1.6E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	398	413	1.6E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Pfam	PF03722	Hemocyanin, all-alpha domain	27	139	2.6E-21	T	05-10-2023	IPR005204	Hemocyanin, N-terminal
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	144	419	7.2E-126	T	05-10-2023	-	-
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	4	144	9.42E-36	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	420	677	1.0E-109	T	05-10-2023	-	-
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	261	269	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	108	125	8.8E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	139	144	8.8E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	238	249	8.8E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	264	282	8.8E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	108	125	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	265	276	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	1	339	0.0	T	05-10-2023	-	-
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	2	338	3.7E-110	T	05-10-2023	-	-
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	Gene3D	G3DSA:1.10.1280.10	-	1	339	1.6E-130	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	Pfam	PF00264	Common central domain of tyrosinase	77	284	5.3E-33	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	Pfam	PF12142	Polyphenol oxidase middle domain	292	338	8.9E-21	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-2P3X	29558129311b5bb6645ed7e8c87a9b69	339	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2	338	1.16E-98	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	198	215	1.1E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	229	234	1.1E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	327	338	1.1E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	362	380	1.1E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	Pfam	PF00264	Common central domain of tyrosinase	172	382	4.5E-32	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	PIRSF	PIRSF000290	PPO_plant	1	592	0.0	T	05-10-2023	IPR016213	Polyphenol oxidase
-6HQI	832647bc37714a35defb0cb1227f62d0	630	Gene3D	G3DSA:1.10.1280.10	-	88	436	2.9E-99	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-6HQI	832647bc37714a35defb0cb1227f62d0	630	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	64	577	0.0	T	05-10-2023	-	-
-6HQI	832647bc37714a35defb0cb1227f62d0	630	Pfam	PF12142	Polyphenol oxidase middle domain	389	440	1.5E-19	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	05-10-2023	-	-
-6HQI	832647bc37714a35defb0cb1227f62d0	630	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	198	215	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	363	374	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6HQI	832647bc37714a35defb0cb1227f62d0	630	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	89	434	8.67E-87	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-6HQI	832647bc37714a35defb0cb1227f62d0	630	Pfam	PF12143	Protein of unknown function (DUF_B2219)	460	590	9.4E-39	T	05-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	162	181	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	2	109	3.66E-30	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	110	379	7.19E-109	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	SUPERFAMILY	SSF81296	E set domains	380	627	7.7E-89	T	05-10-2023	IPR014756	Immunoglobulin E-set
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	28	627	0.0	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	FunFam	G3DSA:1.20.1370.10:FF:000002	Hemocyanin subunit B	2	108	1.5E-42	T	05-10-2023	-	-
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	109	377	0.0	T	05-10-2023	-	-
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	378	628	6.1E-116	T	05-10-2023	-	-
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	353	361	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	357	368	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	Gene3D	G3DSA:1.10.1280.10	-	110	377	2.0E-106	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	Gene3D	G3DSA:1.20.1370.10	-	1	109	1.2E-34	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	Gene3D	G3DSA:2.60.40.1520	-	378	628	1.1E-108	T	05-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	159	172	1.2E-23	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	173	190	1.2E-23	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	194	205	1.2E-23	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	356	371	1.2E-23	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	Pfam	PF03722	Hemocyanin, all-alpha domain	33	105	5.5E-12	T	05-10-2023	IPR005204	Hemocyanin, N-terminal
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	Pfam	PF00372	Hemocyanin, copper containing domain	110	371	1.1E-71	T	05-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-1NOL	42c81fec1c749f65a397dbf3306e8406	628	Pfam	PF03723	Hemocyanin, ig-like domain	380	626	4.8E-65	T	05-10-2023	IPR005203	Hemocyanin, C-terminal
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	Pfam	PF00264	Common central domain of tyrosinase	116	349	4.2E-51	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	49	396	5.9E-44	T	05-10-2023	-	-
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	Gene3D	G3DSA:1.10.1280.10	-	33	407	2.2E-111	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	133	150	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	74	406	1.62E-64	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	330	341	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	133	150	9.5E-12	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	163	168	9.5E-12	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	308	319	9.5E-12	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	329	347	9.5E-12	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	MobiDBLite	mobidb-lite	consensus disorder prediction	594	620	-	T	05-10-2023	-	-
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	15	440	2.78E-52	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	Pfam	PF00264	Common central domain of tyrosinase	62	388	2.7E-38	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	369	380	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	SMART	SM01168	DUF1907_2	447	606	1.2E-7	T	05-10-2023	IPR015021	Ester hydrolase C11orf54, Domain of unknown function DUF1907
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	FunFam	G3DSA:1.10.1280.10:FF:000013	Tyrosinase domain protein	1	457	0.0	T	05-10-2023	-	-
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	98	115	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	Gene3D	G3DSA:1.10.1280.10	-	2	457	0.0	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	MobiDBLite	mobidb-lite	consensus disorder prediction	598	620	-	T	05-10-2023	-	-
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	Pfam	PF18132	Tyosinase C-terminal domain	471	546	3.1E-7	T	05-10-2023	IPR041640	Tyrosinase, C-terminal
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	98	115	4.1E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	147	152	4.1E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	331	342	4.1E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	368	386	4.1E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	44	448	8.6E-36	T	05-10-2023	-	-
-3W6Q	83ab0ee200a354685e977b49696c6f80	620	Gene3D	G3DSA:2.60.310.20	-	458	620	5.5E-63	T	05-10-2023	-	-
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	Pfam	PF00264	Common central domain of tyrosinase	93	324	1.6E-57	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	15	382	3.2E-48	T	05-10-2023	-	-
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	110	127	1.6E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	140	145	1.6E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	283	294	1.6E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	304	322	1.6E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	44	382	1.96E-65	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	Gene3D	G3DSA:1.10.1280.10	-	1	383	0.0	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-4J3P	33ebf8675a03f10fdfa74281b251c282	383	FunFam	G3DSA:1.10.1280.10:FF:000009	Tyrosinase	1	383	0.0	T	05-10-2023	-	-
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	85	102	1.5E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	133	138	1.5E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	258	269	1.5E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	288	306	1.5E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	Pfam	PF00264	Common central domain of tyrosinase	52	308	1.8E-39	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	Pfam	PF18132	Tyosinase C-terminal domain	424	535	4.6E-7	T	05-10-2023	IPR041640	Tyrosinase, C-terminal
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	Gene3D	G3DSA:1.10.1280.10	-	2	392	0.0	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	15	368	9.32E-53	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	289	300	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	Gene3D	G3DSA:2.60.310.20	-	411	550	1.2E-6	T	05-10-2023	-	-
-sp|C7FF04|PPO3_AGABI	45b680143a7b5c2010dadd972016a7be	576	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	35	380	2.8E-28	T	05-10-2023	-	-
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	202	219	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	FunFam	G3DSA:1.10.1280.10:FF:000003	Tyrosinase	115	463	0.0	T	05-10-2023	-	-
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	76	452	1.03E-85	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	Pfam	PF00264	Common central domain of tyrosinase	172	402	3.3E-39	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	383	394	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	202	219	6.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	233	238	6.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	362	373	6.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	382	400	6.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	Gene3D	G3DSA:1.10.1280.10	-	114	462	1.3E-66	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	69	459	1.5E-49	T	05-10-2023	-	-
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	Pfam	PF00264	Common central domain of tyrosinase	111	343	2.4E-42	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	128	145	4.0E-6	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	302	313	4.0E-6	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	323	341	4.0E-6	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	62	372	2.62E-57	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	324	335	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	Gene3D	G3DSA:1.10.1280.10	-	32	419	3.8E-96	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	55	357	6.9E-38	T	05-10-2023	-	-
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	208	219	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	6	285	1.0E-30	T	05-10-2023	-	-
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	Pfam	PF14830	Haemocyanin beta-sandwich	305	407	1.7E-35	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	Gene3D	G3DSA:1.10.1280.10	-	1	307	0.0	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	Pfam	PF00264	Common central domain of tyrosinase	35	227	5.3E-34	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	Gene3D	G3DSA:2.60.310.10	-	308	408	5.1E-37	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	309	407	1.57E-35	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	64	81	3.5E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	93	98	3.5E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	183	194	3.5E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	207	225	3.5E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	64	81	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1LNL	885087369bbae47c2448afb7e9cb98f3	408	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	3	306	3.76E-102	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	290	390	4.32E-37	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PRINTS	PR00092	Tyrosinase copper-binding domain signature	60	77	6.9E-9	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PRINTS	PR00092	Tyrosinase copper-binding domain signature	89	94	6.9E-9	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PRINTS	PR00092	Tyrosinase copper-binding domain signature	192	210	6.9E-9	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Pfam	PF00264	Common central domain of tyrosinase	32	212	2.7E-27	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Gene3D	G3DSA:1.10.1280.10	-	1	284	1.6E-128	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Pfam	PF14830	Haemocyanin beta-sandwich	288	386	5.8E-34	T	05-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	193	204	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2	286	5.23E-101	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	60	77	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Gene3D	G3DSA:2.60.310.10	-	285	394	3.8E-38	T	05-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
-1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	3	268	2.6E-29	T	05-10-2023	-	-
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Pfam	PF12142	Polyphenol oxidase middle domain	380	431	3.6E-22	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	93	426	7.19E-110	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	90	427	0.0	T	05-10-2023	-	-
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Pfam	PF12143	Protein of unknown function (DUF_B2219)	465	591	8.8E-48	T	05-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	MobiDBLite	mobidb-lite	consensus disorder prediction	20	34	-	T	05-10-2023	-	-
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	196	213	2.4E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	227	232	2.4E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	326	337	2.4E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	353	371	2.4E-19	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	196	213	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Pfam	PF00264	Common central domain of tyrosinase	165	373	1.2E-34	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	354	365	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Gene3D	G3DSA:1.10.1280.10	-	90	427	0.0	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	65	578	0.0	T	05-10-2023	-	-
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	MobiDBLite	mobidb-lite	consensus disorder prediction	1	34	-	T	05-10-2023	-	-
-6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PIRSF	PIRSF000290	PPO_plant	1	593	0.0	T	05-10-2023	IPR016213	Polyphenol oxidase
-1HCY	8fc3293c4094c707d8806706d558e78b	657	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	373	381	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1HCY	8fc3293c4094c707d8806706d558e78b	657	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	377	388	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1HCY	8fc3293c4094c707d8806706d558e78b	657	Gene3D	G3DSA:1.10.1280.10	-	133	396	1.5E-95	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1HCY	8fc3293c4094c707d8806706d558e78b	657	Gene3D	G3DSA:2.60.40.1520	-	427	657	6.4E-76	T	05-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
-1HCY	8fc3293c4094c707d8806706d558e78b	657	Pfam	PF03722	Hemocyanin, all-alpha domain	9	125	2.5E-19	T	05-10-2023	IPR005204	Hemocyanin, N-terminal
-1HCY	8fc3293c4094c707d8806706d558e78b	657	Pfam	PF03723	Hemocyanin, ig-like domain	400	651	7.1E-58	T	05-10-2023	IPR005203	Hemocyanin, C-terminal
-1HCY	8fc3293c4094c707d8806706d558e78b	657	SUPERFAMILY	SSF81296	E set domains	399	652	1.19E-80	T	05-10-2023	IPR014756	Immunoglobulin E-set
-1HCY	8fc3293c4094c707d8806706d558e78b	657	Pfam	PF00372	Hemocyanin, copper containing domain	136	391	1.7E-74	T	05-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-1HCY	8fc3293c4094c707d8806706d558e78b	657	Gene3D	G3DSA:1.20.1370.10	-	6	131	3.7E-27	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-1HCY	8fc3293c4094c707d8806706d558e78b	657	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	9	652	0.0	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1HCY	8fc3293c4094c707d8806706d558e78b	657	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	136	397	1.31E-104	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	180	193	2.5E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	194	211	2.5E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	214	225	2.5E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	376	391	2.5E-20	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-1HCY	8fc3293c4094c707d8806706d558e78b	657	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	7	135	1.44E-41	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-1HCY	8fc3293c4094c707d8806706d558e78b	657	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	183	202	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	PRINTS	PR00092	Tyrosinase copper-binding domain signature	110	127	3.7E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	PRINTS	PR00092	Tyrosinase copper-binding domain signature	140	145	3.7E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	PRINTS	PR00092	Tyrosinase copper-binding domain signature	299	317	3.7E-10	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	Pfam	PF00264	Common central domain of tyrosinase	92	319	6.5E-58	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	33	323	1.7E-49	T	05-10-2023	-	-
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	44	375	1.05E-71	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	110	127	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	300	311	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003659809.1	467a82fba0293684090eea56e759f583	375	Gene3D	G3DSA:1.10.1280.10	-	26	374	5.7E-118	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Pfam	PF12143	Protein of unknown function (DUF_B2219)	485	614	4.8E-47	T	05-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	211	228	2.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	242	247	2.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	341	352	2.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	368	386	2.2E-18	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	211	228	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	105	442	0.0	T	05-10-2023	-	-
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Pfam	PF12142	Polyphenol oxidase middle domain	395	446	6.1E-21	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	369	380	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Pfam	PF00264	Common central domain of tyrosinase	180	387	6.3E-33	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PIRSF	PIRSF000290	PPO_plant	1	616	0.0	T	05-10-2023	IPR016213	Polyphenol oxidase
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Gene3D	G3DSA:1.10.1280.10	-	105	442	5.1E-129	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	111	441	6.02E-106	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	79	599	0.0	T	05-10-2023	-	-
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	MobiDBLite	mobidb-lite	consensus disorder prediction	49	70	-	T	05-10-2023	-	-
-T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	MobiDBLite	mobidb-lite	consensus disorder prediction	49	77	-	T	05-10-2023	-	-
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Pfam	PF03722	Hemocyanin, all-alpha domain	25	140	1.2E-18	T	05-10-2023	IPR005204	Hemocyanin, N-terminal
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	194	207	2.2E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	208	225	2.2E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	228	239	2.2E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	397	412	2.2E-22	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Gene3D	G3DSA:1.20.1370.10	-	1	141	2.6E-56	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	419	681	5.2E-106	T	05-10-2023	-	-
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	SUPERFAMILY	SSF81296	E set domains	421	674	4.55E-88	T	05-10-2023	IPR014756	Immunoglobulin E-set
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	147	419	2.88E-98	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	5	144	3.66E-34	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	398	409	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	4	676	0.0	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	394	402	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	197	216	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	FunFam	G3DSA:1.20.1370.10:FF:000001	Phenoloxidase 2	1	141	1.4E-67	T	05-10-2023	-	-
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Gene3D	G3DSA:1.10.1280.10	-	142	418	2.3E-111	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	144	418	3.9E-123	T	05-10-2023	-	-
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Gene3D	G3DSA:2.60.40.1520	-	419	684	2.4E-114	T	05-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Pfam	PF00372	Hemocyanin, copper containing domain	148	412	4.9E-77	T	05-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Pfam	PF03723	Hemocyanin, ig-like domain	421	673	1.4E-73	T	05-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	Gene3D	G3DSA:1.10.1280.10	-	37	424	1.3E-115	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	Pfam	PF00264	Common central domain of tyrosinase	120	351	7.4E-54	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	73	423	1.06E-68	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	332	343	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	19	397	1.6E-45	T	05-10-2023	-	-
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	138	155	8.3E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	168	173	8.3E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	310	321	8.3E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	331	349	8.3E-13	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	185	198	1.1E-15	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	199	216	1.1E-15	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	228	240	1.1E-15	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	389	404	1.1E-15	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	133	408	3.79E-76	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	390	401	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	55	664	7.1E-129	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	386	394	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	188	207	-	T	05-10-2023	IPR013788	Hemocyanin/hexamerin
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	Pfam	PF03723	Hemocyanin, ig-like domain	414	664	5.8E-34	T	05-10-2023	IPR005203	Hemocyanin, C-terminal
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	Gene3D	G3DSA:2.60.40.1520	-	413	672	3.3E-75	T	05-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	Pfam	PF00372	Hemocyanin, copper containing domain	137	404	1.4E-60	T	05-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	56	126	9.94E-11	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	Pfam	PF03722	Hemocyanin, all-alpha domain	63	126	2.8E-4	T	05-10-2023	IPR005204	Hemocyanin, N-terminal
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	Gene3D	G3DSA:1.10.1280.10	-	132	412	1.7E-102	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	Gene3D	G3DSA:1.20.1370.10	-	1	131	2.9E-45	T	05-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
-3WKY	31833cbe70312d43fba4568bc0c8a373	687	SUPERFAMILY	SSF81296	E set domains	412	664	4.55E-46	T	05-10-2023	IPR014756	Immunoglobulin E-set
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	Pfam	PF12142	Polyphenol oxidase middle domain	295	345	2.0E-19	T	05-10-2023	IPR022739	Polyphenol oxidase, central domain
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	109	126	5.3E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	140	145	5.3E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	239	250	5.3E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	266	284	5.3E-17	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	Gene3D	G3DSA:1.10.1280.10	-	1	345	1.2E-128	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	2	344	4.6E-111	T	05-10-2023	-	-
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	1	342	0.0	T	05-10-2023	-	-
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	Pfam	PF00264	Common central domain of tyrosinase	79	286	1.1E-31	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2	340	1.96E-110	T	05-10-2023	IPR008922	Di-copper centre-containing domain superfamily
-1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	109	126	-	T	05-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	442	742	1.62E-102	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	2813	2909	1.11E-37	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	972	988	-	T	09-10-2023	-	-
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	81	98	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1746	1763	5.6E-11	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1775	1780	5.6E-11	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1867	1878	5.6E-11	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PRINTS	PR00092	Tyrosinase copper-binding domain signature	1891	1909	5.6E-11	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	2902	2928	-	T	09-10-2023	-	-
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	2715	2726	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.40.2570	-	3327	3419	2.0E-32	T	09-10-2023	-	-
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	2896	2928	-	T	09-10-2023	-	-
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	53	243	2.7E-31	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	1717	1911	8.2E-35	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	2554	2734	2.1E-26	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	2134	2324	9.9E-32	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	1305	1487	5.4E-31	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	886	1076	5.2E-26	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	475	665	2.7E-31	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF00264	Common central domain of tyrosinase	2961	3142	1.8E-28	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Coils	Coil	Coil	2110	2130	-	T	09-10-2023	-	-
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	2582	2599	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	22	315	3.7E-96	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	855	1151	1.2E-96	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	1276	1561	3.7E-91	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	2524	2806	4.8E-108	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	2104	2396	2.4E-93	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	853	1155	2.13E-99	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	2809	2910	4.6E-36	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	2399	2506	9.4E-34	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	1154	1258	1.6E-35	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	1989	2088	4.3E-37	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	1564	1671	5.3E-32	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	320	426	1.7E-26	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	743	843	1.3E-29	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Pfam	PF14830	Haemocyanin beta-sandwich	3219	3319	3.6E-27	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	1672	1969	0.0	T	09-10-2023	-	-
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2525	2810	1.36E-99	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	3123	3134	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	224	235	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2101	2400	1.01E-98	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	3222	3320	3.27E-32	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	1746	1763	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	646	657	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	1157	1259	1.2E-37	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	745	843	1.01E-32	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	1277	1565	6.87E-93	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	22	318	1.8E-98	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	2931	3215	3.8E-99	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	1992	2089	1.07E-37	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	MobiDBLite	mobidb-lite	consensus disorder prediction	969	988	-	T	09-10-2023	-	-
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	321	427	2.88E-31	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2932	3217	7.52E-91	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	914	931	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	1468	1479	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	2403	2506	1.7E-33	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	1567	1672	8.89E-34	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	1685	1989	8.18E-97	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	2989	3006	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	441	742	3.4E-96	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:1.10.1280.10	-	1683	1988	9.9E-100	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	1331	1348	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	503	520	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	2305	2316	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	2807	2910	6.4E-37	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	1892	1903	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	1562	1677	5.0E-39	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	2397	2514	5.8E-36	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	1152	1265	1.3E-38	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	1989	2096	1.8E-39	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	3217	3326	9.3E-33	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	743	850	3.2E-32	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+CAG28310.1	8cf3321b9b98784da620f51359ce1104	3421	Gene3D	G3DSA:2.60.310.10	-	317	433	3.5E-32	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	396	404	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Gene3D	G3DSA:2.60.40.1520	-	423	694	3.8E-118	T	09-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	424	689	9.0E-103	T	09-10-2023	-	-
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	149	420	3.8E-116	T	09-10-2023	-	-
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	400	411	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Pfam	PF03723	Hemocyanin, ig-like domain	426	679	9.9E-75	T	09-10-2023	IPR005203	Hemocyanin, C-terminal
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	9	683	0.0	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Gene3D	G3DSA:1.20.1370.10	-	1	146	3.4E-48	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Gene3D	G3DSA:1.10.1280.10	-	147	422	4.1E-113	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Coils	Coil	Coil	309	329	-	T	09-10-2023	-	-
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Pfam	PF03722	Hemocyanin, all-alpha domain	25	143	1.3E-19	T	09-10-2023	IPR005204	Hemocyanin, N-terminal
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	Pfam	PF00372	Hemocyanin, copper containing domain	152	414	1.2E-76	T	09-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	203	222	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	152	419	8.5E-92	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	200	213	9.1E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	214	231	9.1E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	234	245	9.1E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	PRINTS	PR00187	Arthropod haemocyanin signature	399	414	9.1E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	SUPERFAMILY	SSF81296	E set domains	426	681	1.54E-80	T	09-10-2023	IPR014756	Immunoglobulin E-set
+3HHS_1	7d23fee6ffe91c23181eb4ee2ac4c166	694	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	37	148	3.79E-22	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	192	209	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	09-10-2023	-	-
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Pfam	PF12143	Protein of unknown function (DUF_B2219)	442	568	4.3E-34	T	09-10-2023	IPR022740	Polyphenol oxidase, C-terminal
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Gene3D	G3DSA:1.10.1280.10	-	82	424	1.9E-117	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	457	474	-	T	09-10-2023	-	-
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	95	422	3.4E-95	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	313	334	-	T	09-10-2023	-	-
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PIRSF	PIRSF000290	PPO_plant	27	570	0.0	T	09-10-2023	IPR016213	Polyphenol oxidase
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	350	361	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	MobiDBLite	mobidb-lite	consensus disorder prediction	455	474	-	T	09-10-2023	-	-
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	192	209	7.8E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	223	228	7.8E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	322	333	7.8E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PRINTS	PR00092	Tyrosinase copper-binding domain signature	349	367	7.8E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	57	553	7.6E-130	T	09-10-2023	-	-
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Pfam	PF12142	Polyphenol oxidase middle domain	377	427	7.8E-22	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+NP_001053932.1	f7b0374d6412bda21d9303712b587ac1	570	Pfam	PF00264	Common central domain of tyrosinase	161	366	7.6E-33	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	60	77	2.3E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	89	94	2.3E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	203	214	2.3E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PRINTS	PR00092	Tyrosinase copper-binding domain signature	223	241	2.3E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	3	287	2.35E-69	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	Gene3D	G3DSA:1.10.1280.10	-	1	303	0.0	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	60	77	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	7	289	4.0E-46	T	09-10-2023	-	-
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	Pfam	PF00264	Common central domain of tyrosinase	34	242	2.0E-44	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3NM8	4919de011105f3d5f4f53ab45e8a2df2	303	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	224	235	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PRINTS	PR00092	Tyrosinase copper-binding domain signature	122	139	1.2E-7	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PRINTS	PR00092	Tyrosinase copper-binding domain signature	152	157	1.2E-7	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PRINTS	PR00092	Tyrosinase copper-binding domain signature	306	324	1.2E-7	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	Pfam	PF00264	Common central domain of tyrosinase	105	326	4.3E-48	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	51	384	8.9E-38	T	09-10-2023	-	-
+XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	64	384	3.43E-57	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_001224266.1	14f14a029d178ef187093b9c27fa4265	386	Gene3D	G3DSA:1.10.1280.10	-	20	383	6.5E-101	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	197	214	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	89	427	4.91E-95	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Pfam	PF00264	Common central domain of tyrosinase	171	374	2.1E-30	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PIRSF	PIRSF000290	PPO_plant	1	586	0.0	T	09-10-2023	IPR016213	Polyphenol oxidase
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	356	367	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Pfam	PF12142	Polyphenol oxidase middle domain	382	432	1.1E-20	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Pfam	PF12143	Protein of unknown function (DUF_B2219)	453	584	7.9E-40	T	09-10-2023	IPR022740	Polyphenol oxidase, C-terminal
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	197	214	8.5E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	228	233	8.5E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	327	338	8.5E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PRINTS	PR00092	Tyrosinase copper-binding domain signature	355	373	8.5E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	65	570	0.0	T	09-10-2023	-	-
+Q08307	c672a9f0a7204e5a2b4c177c6ae0590f	587	Gene3D	G3DSA:1.10.1280.10	-	88	429	2.7E-109	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	33	347	9.7E-38	T	09-10-2023	-	-
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	Gene3D	G3DSA:1.10.1280.10	-	30	420	6.6E-95	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	128	145	1.5E-6	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	302	313	1.5E-6	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	323	341	1.5E-6	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	54	419	2.29E-57	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	324	335	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003662515.1	5b46fcc5340acb533d718fccb4b645a3	420	Pfam	PF00264	Common central domain of tyrosinase	111	343	6.9E-41	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	359	370	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	94	432	0.0	T	09-10-2023	-	-
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Gene3D	G3DSA:1.10.1280.10	-	94	435	1.6E-115	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	201	218	9.3E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	232	237	9.3E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	331	342	9.3E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PRINTS	PR00092	Tyrosinase copper-binding domain signature	358	376	9.3E-16	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PIRSF	PIRSF000290	PPO_plant	1	584	0.0	T	09-10-2023	IPR016213	Polyphenol oxidase
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Pfam	PF12142	Polyphenol oxidase middle domain	384	436	4.7E-21	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	70	567	0.0	T	09-10-2023	-	-
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	201	218	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Pfam	PF12143	Protein of unknown function (DUF_B2219)	456	582	8.0E-44	T	09-10-2023	IPR022740	Polyphenol oxidase, C-terminal
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	Pfam	PF00264	Common central domain of tyrosinase	172	378	3.5E-31	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+Q93XM8	74dfc93aa3b5b3d346e57f206b2777e7	586	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	102	424	8.63E-98	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	29	352	6.4E-32	T	09-10-2023	-	-
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	10	355	1.52E-50	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	Pfam	PF00264	Common central domain of tyrosinase	47	294	1.7E-41	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	Gene3D	G3DSA:1.10.1280.10	-	2	378	6.6E-127	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	81	98	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	81	98	1.4E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	128	133	1.4E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	249	260	1.4E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	PRINTS	PR00092	Tyrosinase copper-binding domain signature	274	292	1.4E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4OUA	a3fe2cb94e6873ce47e37c7eeb1475bd	382	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	275	286	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Gene3D	G3DSA:1.10.1280.10	-	86	435	3.3E-124	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	61	581	1.6E-121	T	09-10-2023	-	-
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Pfam	PF12142	Polyphenol oxidase middle domain	391	444	3.3E-13	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	201	218	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	201	218	1.1E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	232	237	1.1E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	336	347	1.1E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PRINTS	PR00092	Tyrosinase copper-binding domain signature	363	381	1.1E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Pfam	PF00264	Common central domain of tyrosinase	169	383	3.3E-30	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	PIRSF	PIRSF000290	PPO_plant	2	598	0.0	T	09-10-2023	IPR016213	Polyphenol oxidase
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	364	375	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	Pfam	PF12143	Protein of unknown function (DUF_B2219)	467	596	1.8E-31	T	09-10-2023	IPR022740	Polyphenol oxidase, C-terminal
+4Z0Y	6e4b5b3da5442024344a6a46006c114b	602	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	114	428	9.42E-77	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1WX2	e5cffc1ec92ded88240502ca25524038	281	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	209	220	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	54	71	2.3E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	83	88	2.3E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	189	200	2.3E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1WX2	e5cffc1ec92ded88240502ca25524038	281	PRINTS	PR00092	Tyrosinase copper-binding domain signature	208	226	2.3E-20	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1WX2	e5cffc1ec92ded88240502ca25524038	281	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	3	253	9.5E-44	T	09-10-2023	-	-
+1WX2	e5cffc1ec92ded88240502ca25524038	281	Pfam	PF00264	Common central domain of tyrosinase	29	229	4.9E-43	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1WX2	e5cffc1ec92ded88240502ca25524038	281	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	1	279	8.37E-68	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1WX2	e5cffc1ec92ded88240502ca25524038	281	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	54	71	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1WX2	e5cffc1ec92ded88240502ca25524038	281	Gene3D	G3DSA:1.10.1280.10	-	1	281	0.0	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	58	75	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	4	285	1.7E-40	T	09-10-2023	-	-
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	3	304	6.41E-61	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	Pfam	PF00264	Common central domain of tyrosinase	31	260	6.1E-42	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	58	75	8.7E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	87	92	8.7E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	221	232	8.7E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	PRINTS	PR00092	Tyrosinase copper-binding domain signature	240	258	8.7E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	Gene3D	G3DSA:1.10.1280.10	-	2	305	1.9E-90	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+BAJ08174.1	a458f0250b358cd5f32a9ac62b924b64	305	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	241	252	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Pfam	PF00372	Hemocyanin, copper containing domain	148	413	3.3E-82	T	09-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	3	673	0.0	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	144	419	7.2E-126	T	09-10-2023	-	-
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	4	144	9.42E-36	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	195	208	1.6E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	209	226	1.6E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	229	240	1.6E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	PRINTS	PR00187	Arthropod haemocyanin signature	398	413	1.6E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Pfam	PF03723	Hemocyanin, ig-like domain	422	669	3.2E-78	T	09-10-2023	IPR005203	Hemocyanin, C-terminal
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	399	410	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	FunFam	G3DSA:1.20.1370.10:FF:000001	Phenoloxidase 2	1	141	2.3E-67	T	09-10-2023	-	-
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	420	677	1.0E-109	T	09-10-2023	-	-
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	395	403	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Gene3D	G3DSA:2.60.40.1520	-	420	681	1.5E-101	T	09-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Gene3D	G3DSA:1.10.1280.10	-	142	418	1.0E-112	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	SUPERFAMILY	SSF81296	E set domains	422	671	1.33E-84	T	09-10-2023	IPR014756	Immunoglobulin E-set
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	198	217	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Pfam	PF03722	Hemocyanin, all-alpha domain	27	139	2.6E-21	T	09-10-2023	IPR005204	Hemocyanin, N-terminal
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	Gene3D	G3DSA:1.20.1370.10	-	1	141	4.8E-51	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+NP_524760.1	f7f40bd2c366244e1f24a3008fe40184	683	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	148	420	2.75E-97	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	Pfam	PF00264	Common central domain of tyrosinase	77	284	5.3E-33	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	Gene3D	G3DSA:1.10.1280.10	-	1	339	1.6E-130	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	2	338	3.7E-110	T	09-10-2023	-	-
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	108	125	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	261	269	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2	338	1.16E-98	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	265	276	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	Pfam	PF12142	Polyphenol oxidase middle domain	292	338	8.9E-21	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	108	125	8.8E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	139	144	8.8E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	238	249	8.8E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	PRINTS	PR00092	Tyrosinase copper-binding domain signature	264	282	8.8E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2P3X	29558129311b5bb6645ed7e8c87a9b69	339	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	1	339	0.0	T	09-10-2023	-	-
+6HQI	832647bc37714a35defb0cb1227f62d0	630	Pfam	PF12142	Polyphenol oxidase middle domain	389	440	1.5E-19	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	PIRSF	PIRSF000290	PPO_plant	1	592	0.0	T	09-10-2023	IPR016213	Polyphenol oxidase
+6HQI	832647bc37714a35defb0cb1227f62d0	630	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	198	215	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	64	577	0.0	T	09-10-2023	-	-
+6HQI	832647bc37714a35defb0cb1227f62d0	630	Pfam	PF12143	Protein of unknown function (DUF_B2219)	460	590	9.4E-39	T	09-10-2023	IPR022740	Polyphenol oxidase, C-terminal
+6HQI	832647bc37714a35defb0cb1227f62d0	630	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	89	434	8.67E-87	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+6HQI	832647bc37714a35defb0cb1227f62d0	630	Gene3D	G3DSA:1.10.1280.10	-	88	436	2.9E-99	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+6HQI	832647bc37714a35defb0cb1227f62d0	630	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	363	374	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	198	215	1.1E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	229	234	1.1E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	327	338	1.1E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	PRINTS	PR00092	Tyrosinase copper-binding domain signature	362	380	1.1E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	Pfam	PF00264	Common central domain of tyrosinase	172	382	4.5E-32	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6HQI	832647bc37714a35defb0cb1227f62d0	630	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	09-10-2023	-	-
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	Pfam	PF03723	Hemocyanin, ig-like domain	380	626	4.8E-65	T	09-10-2023	IPR005203	Hemocyanin, C-terminal
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	28	627	0.0	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	Pfam	PF00372	Hemocyanin, copper containing domain	110	371	1.1E-71	T	09-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	159	172	1.2E-23	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	173	190	1.2E-23	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	194	205	1.2E-23	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	PRINTS	PR00187	Arthropod haemocyanin signature	356	371	1.2E-23	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	Gene3D	G3DSA:2.60.40.1520	-	378	628	1.1E-108	T	09-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	378	628	6.1E-116	T	09-10-2023	-	-
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	Gene3D	G3DSA:1.20.1370.10	-	1	109	1.2E-34	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	162	181	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	109	377	0.0	T	09-10-2023	-	-
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	2	109	3.66E-30	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	Gene3D	G3DSA:1.10.1280.10	-	110	377	2.0E-106	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	357	368	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	110	379	7.19E-109	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	Pfam	PF03722	Hemocyanin, all-alpha domain	33	105	5.5E-12	T	09-10-2023	IPR005204	Hemocyanin, N-terminal
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	SUPERFAMILY	SSF81296	E set domains	380	627	7.7E-89	T	09-10-2023	IPR014756	Immunoglobulin E-set
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	353	361	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1NOL	42c81fec1c749f65a397dbf3306e8406	628	FunFam	G3DSA:1.20.1370.10:FF:000002	Hemocyanin subunit B	2	108	1.5E-42	T	09-10-2023	-	-
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	Pfam	PF00264	Common central domain of tyrosinase	116	349	4.2E-51	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	49	396	5.9E-44	T	09-10-2023	-	-
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	74	406	1.62E-64	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	Gene3D	G3DSA:1.10.1280.10	-	33	407	2.2E-111	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	133	150	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	133	150	9.5E-12	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	163	168	9.5E-12	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	308	319	9.5E-12	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	PRINTS	PR00092	Tyrosinase copper-binding domain signature	329	347	9.5E-12	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+CAI4219580.1	3378d46d63d07760bfa254083cf89794	407	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	330	341	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	Pfam	PF18132	Tyosinase C-terminal domain	471	546	3.1E-7	T	09-10-2023	IPR041640	Tyrosinase, C-terminal
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	MobiDBLite	mobidb-lite	consensus disorder prediction	594	620	-	T	09-10-2023	-	-
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	SMART	SM01168	DUF1907_2	447	606	1.2E-7	T	09-10-2023	IPR015021	Ester hydrolase C11orf54, Domain of unknown function DUF1907
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	Pfam	PF00264	Common central domain of tyrosinase	62	388	2.7E-38	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	44	448	8.6E-36	T	09-10-2023	-	-
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	98	115	4.1E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	147	152	4.1E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	331	342	4.1E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	PRINTS	PR00092	Tyrosinase copper-binding domain signature	368	386	4.1E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	FunFam	G3DSA:1.10.1280.10:FF:000013	Tyrosinase domain protein	1	457	0.0	T	09-10-2023	-	-
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	Gene3D	G3DSA:1.10.1280.10	-	2	457	0.0	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	Gene3D	G3DSA:2.60.310.20	-	458	620	5.5E-63	T	09-10-2023	-	-
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	15	440	2.78E-52	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	369	380	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	98	115	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3W6Q	83ab0ee200a354685e977b49696c6f80	620	MobiDBLite	mobidb-lite	consensus disorder prediction	598	620	-	T	09-10-2023	-	-
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	FunFam	G3DSA:1.10.1280.10:FF:000009	Tyrosinase	1	383	0.0	T	09-10-2023	-	-
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	Gene3D	G3DSA:1.10.1280.10	-	1	383	0.0	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	15	382	3.2E-48	T	09-10-2023	-	-
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	Pfam	PF00264	Common central domain of tyrosinase	93	324	1.6E-57	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	44	382	1.96E-65	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	110	127	1.6E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	140	145	1.6E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	283	294	1.6E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+4J3P	33ebf8675a03f10fdfa74281b251c282	383	PRINTS	PR00092	Tyrosinase copper-binding domain signature	304	322	1.6E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	85	102	1.5E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	133	138	1.5E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	258	269	1.5E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	PRINTS	PR00092	Tyrosinase copper-binding domain signature	288	306	1.5E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	Gene3D	G3DSA:1.10.1280.10	-	2	392	0.0	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	35	380	2.8E-28	T	09-10-2023	-	-
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	Pfam	PF18132	Tyosinase C-terminal domain	424	535	4.6E-7	T	09-10-2023	IPR041640	Tyrosinase, C-terminal
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	289	300	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	Pfam	PF00264	Common central domain of tyrosinase	52	308	1.8E-39	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	Gene3D	G3DSA:2.60.310.20	-	411	550	1.2E-6	T	09-10-2023	-	-
+2Y9X	45b680143a7b5c2010dadd972016a7be	576	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	15	368	9.32E-53	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	Gene3D	G3DSA:1.10.1280.10	-	114	462	1.3E-66	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	383	394	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	202	219	6.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	233	238	6.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	362	373	6.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PRINTS	PR00092	Tyrosinase copper-binding domain signature	382	400	6.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	Pfam	PF00264	Common central domain of tyrosinase	172	402	3.3E-39	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	202	219	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	69	459	1.5E-49	T	09-10-2023	-	-
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	FunFam	G3DSA:1.10.1280.10:FF:000003	Tyrosinase	115	463	0.0	T	09-10-2023	-	-
+NP_035791.1	e1fdad5d773880a04bf04b79636a19c7	533	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	76	452	1.03E-85	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	Gene3D	G3DSA:1.10.1280.10	-	32	419	3.8E-96	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	128	145	4.0E-6	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	302	313	4.0E-6	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PRINTS	PR00092	Tyrosinase copper-binding domain signature	323	341	4.0E-6	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	324	335	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	55	357	6.9E-38	T	09-10-2023	-	-
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	Pfam	PF00264	Common central domain of tyrosinase	111	343	2.4E-42	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_001221473.1	0abb5714277e6c0d3a23bb3fb491b751	420	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	62	372	2.62E-57	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	208	219	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	Pfam	PF00264	Common central domain of tyrosinase	35	227	5.3E-34	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	3	306	3.76E-102	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	Pfam	PF14830	Haemocyanin beta-sandwich	305	407	1.7E-35	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	309	407	1.57E-35	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	64	81	3.5E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	93	98	3.5E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	183	194	3.5E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	PRINTS	PR00092	Tyrosinase copper-binding domain signature	207	225	3.5E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	64	81	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	Gene3D	G3DSA:1.10.1280.10	-	1	307	0.0	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	Gene3D	G3DSA:2.60.310.10	-	308	408	5.1E-37	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+1LNL	885087369bbae47c2448afb7e9cb98f3	408	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	6	285	1.0E-30	T	09-10-2023	-	-
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Gene3D	G3DSA:2.60.310.10	-	285	394	3.8E-38	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2	286	5.23E-101	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	193	204	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Pfam	PF00264	Common central domain of tyrosinase	32	212	2.7E-27	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	60	77	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	SUPERFAMILY	SSF81277	C-terminal domain of mollusc hemocyanin	290	390	4.32E-37	T	09-10-2023	IPR036848	Haemocyanin C-terminal domain superfamily
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	3	268	2.6E-29	T	09-10-2023	-	-
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Pfam	PF14830	Haemocyanin beta-sandwich	288	386	5.8E-34	T	09-10-2023	IPR028999	Haemocyanin beta-sandwich domain
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PRINTS	PR00092	Tyrosinase copper-binding domain signature	60	77	6.9E-9	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PRINTS	PR00092	Tyrosinase copper-binding domain signature	89	94	6.9E-9	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	PRINTS	PR00092	Tyrosinase copper-binding domain signature	192	210	6.9E-9	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1JS8	c7cc0266d9e831680be5ec8567ad34bb	394	Gene3D	G3DSA:1.10.1280.10	-	1	284	1.6E-128	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	MobiDBLite	mobidb-lite	consensus disorder prediction	1	34	-	T	09-10-2023	-	-
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	354	365	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	65	578	0.0	T	09-10-2023	-	-
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	93	426	7.19E-110	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	90	427	0.0	T	09-10-2023	-	-
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PIRSF	PIRSF000290	PPO_plant	1	593	0.0	T	09-10-2023	IPR016213	Polyphenol oxidase
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Pfam	PF00264	Common central domain of tyrosinase	165	373	1.2E-34	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Pfam	PF12143	Protein of unknown function (DUF_B2219)	465	591	8.8E-48	T	09-10-2023	IPR022740	Polyphenol oxidase, C-terminal
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	196	213	2.4E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	227	232	2.4E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	326	337	2.4E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	PRINTS	PR00092	Tyrosinase copper-binding domain signature	353	371	2.4E-19	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	MobiDBLite	mobidb-lite	consensus disorder prediction	20	34	-	T	09-10-2023	-	-
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	196	213	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Pfam	PF12142	Polyphenol oxidase middle domain	380	431	3.6E-22	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+6ELS	10a79664b69e2ca0236e630e7ff72e1b	593	Gene3D	G3DSA:1.10.1280.10	-	90	427	0.0	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1HCY	8fc3293c4094c707d8806706d558e78b	657	Gene3D	G3DSA:1.10.1280.10	-	133	396	1.5E-95	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	180	193	2.5E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	194	211	2.5E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	214	225	2.5E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1HCY	8fc3293c4094c707d8806706d558e78b	657	PRINTS	PR00187	Arthropod haemocyanin signature	376	391	2.5E-20	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1HCY	8fc3293c4094c707d8806706d558e78b	657	Gene3D	G3DSA:2.60.40.1520	-	427	657	6.4E-76	T	09-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
+1HCY	8fc3293c4094c707d8806706d558e78b	657	SUPERFAMILY	SSF81296	E set domains	399	652	1.19E-80	T	09-10-2023	IPR014756	Immunoglobulin E-set
+1HCY	8fc3293c4094c707d8806706d558e78b	657	Pfam	PF03723	Hemocyanin, ig-like domain	400	651	7.1E-58	T	09-10-2023	IPR005203	Hemocyanin, C-terminal
+1HCY	8fc3293c4094c707d8806706d558e78b	657	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	183	202	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1HCY	8fc3293c4094c707d8806706d558e78b	657	Gene3D	G3DSA:1.20.1370.10	-	6	131	3.7E-27	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+1HCY	8fc3293c4094c707d8806706d558e78b	657	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	7	135	1.44E-41	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+1HCY	8fc3293c4094c707d8806706d558e78b	657	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	136	397	1.31E-104	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1HCY	8fc3293c4094c707d8806706d558e78b	657	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	373	381	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1HCY	8fc3293c4094c707d8806706d558e78b	657	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	377	388	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1HCY	8fc3293c4094c707d8806706d558e78b	657	Pfam	PF00372	Hemocyanin, copper containing domain	136	391	1.7E-74	T	09-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
+1HCY	8fc3293c4094c707d8806706d558e78b	657	Pfam	PF03722	Hemocyanin, all-alpha domain	9	125	2.5E-19	T	09-10-2023	IPR005204	Hemocyanin, N-terminal
+1HCY	8fc3293c4094c707d8806706d558e78b	657	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	9	652	0.0	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	Gene3D	G3DSA:1.10.1280.10	-	26	374	5.7E-118	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	PRINTS	PR00092	Tyrosinase copper-binding domain signature	110	127	3.7E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	PRINTS	PR00092	Tyrosinase copper-binding domain signature	140	145	3.7E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	PRINTS	PR00092	Tyrosinase copper-binding domain signature	299	317	3.7E-10	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	300	311	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	33	323	1.7E-49	T	09-10-2023	-	-
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	Pfam	PF00264	Common central domain of tyrosinase	92	319	6.5E-58	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	110	127	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003659809.1	467a82fba0293684090eea56e759f583	375	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	44	375	1.05E-71	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PIRSF	PIRSF000290	PPO_plant	1	616	0.0	T	09-10-2023	IPR016213	Polyphenol oxidase
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	MobiDBLite	mobidb-lite	consensus disorder prediction	49	70	-	T	09-10-2023	-	-
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Pfam	PF12142	Polyphenol oxidase middle domain	395	446	6.1E-21	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Pfam	PF00264	Common central domain of tyrosinase	180	387	6.3E-33	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	79	599	0.0	T	09-10-2023	-	-
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	MobiDBLite	mobidb-lite	consensus disorder prediction	49	77	-	T	09-10-2023	-	-
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	105	442	0.0	T	09-10-2023	-	-
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Pfam	PF12143	Protein of unknown function (DUF_B2219)	485	614	4.8E-47	T	09-10-2023	IPR022740	Polyphenol oxidase, C-terminal
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	Gene3D	G3DSA:1.10.1280.10	-	105	442	5.1E-129	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	211	228	2.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	242	247	2.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	341	352	2.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	PRINTS	PR00092	Tyrosinase copper-binding domain signature	368	386	2.2E-18	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	211	228	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	111	441	6.02E-106	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+T1W3L4	6a47dc8fe7fda818cca9d010dd87522e	616	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	369	380	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	147	419	2.88E-98	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Gene3D	G3DSA:1.20.1370.10	-	1	141	2.6E-56	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	194	207	2.2E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	208	225	2.2E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	228	239	2.2E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PRINTS	PR00187	Arthropod haemocyanin signature	397	412	2.2E-22	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	394	402	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	197	216	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	FunFam	G3DSA:1.10.1280.10:FF:000004	Hemocyanin subunit 2	144	418	3.9E-123	T	09-10-2023	-	-
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	5	144	3.66E-34	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	4	676	0.0	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	398	409	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Gene3D	G3DSA:1.10.1280.10	-	142	418	2.3E-111	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	FunFam	G3DSA:2.60.40.1520:FF:000001	Hemocyanin subunit 2	419	681	5.2E-106	T	09-10-2023	-	-
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	SUPERFAMILY	SSF81296	E set domains	421	674	4.55E-88	T	09-10-2023	IPR014756	Immunoglobulin E-set
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Pfam	PF03722	Hemocyanin, all-alpha domain	25	140	1.2E-18	T	09-10-2023	IPR005204	Hemocyanin, N-terminal
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Pfam	PF00372	Hemocyanin, copper containing domain	148	412	4.9E-77	T	09-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Gene3D	G3DSA:2.60.40.1520	-	419	684	2.4E-114	T	09-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	Pfam	PF03723	Hemocyanin, ig-like domain	421	673	1.4E-73	T	09-10-2023	IPR005203	Hemocyanin, C-terminal
+3HHS_2	fbdb9904810a4e759b36aba1d92cc329	684	FunFam	G3DSA:1.20.1370.10:FF:000001	Phenoloxidase 2	1	141	1.4E-67	T	09-10-2023	-	-
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	332	343	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	19	397	1.6E-45	T	09-10-2023	-	-
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	Pfam	PF00264	Common central domain of tyrosinase	120	351	7.4E-54	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	Gene3D	G3DSA:1.10.1280.10	-	37	424	1.3E-115	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	138	155	8.3E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	168	173	8.3E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	310	321	8.3E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	PRINTS	PR00092	Tyrosinase copper-binding domain signature	331	349	8.3E-13	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+XP_003666010.1	3fdcf24649ddb9127c52635805156c57	424	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	73	423	1.06E-68	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	Gene3D	G3DSA:1.20.1370.10	-	1	131	2.9E-45	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	185	198	1.1E-15	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	199	216	1.1E-15	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	228	240	1.1E-15	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	PRINTS	PR00187	Arthropod haemocyanin signature	389	404	1.1E-15	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	Pfam	PF03722	Hemocyanin, all-alpha domain	63	126	2.8E-4	T	09-10-2023	IPR005204	Hemocyanin, N-terminal
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	133	408	3.79E-76	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	Pfam	PF03723	Hemocyanin, ig-like domain	414	664	5.8E-34	T	09-10-2023	IPR005203	Hemocyanin, C-terminal
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	ProSitePatterns	PS00209	Arthropod hemocyanins / insect LSPs signature 1.	188	207	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	ProSitePatterns	PS00498	Tyrosinase and hemocyanins CuB-binding region signature.	390	401	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	Gene3D	G3DSA:1.10.1280.10	-	132	412	1.7E-102	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	Pfam	PF00372	Hemocyanin, copper containing domain	137	404	1.4E-60	T	09-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	SUPERFAMILY	SSF48050	Hemocyanin, N-terminal domain	56	126	9.94E-11	T	09-10-2023	IPR036697	Hemocyanin, N-terminal domain superfamily
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	Gene3D	G3DSA:2.60.40.1520	-	413	672	3.3E-75	T	09-10-2023	IPR037020	Hemocyanin, C-terminal domain superfamily
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	SUPERFAMILY	SSF81296	E set domains	412	664	4.55E-46	T	09-10-2023	IPR014756	Immunoglobulin E-set
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	ProSitePatterns	PS00210	Arthropod hemocyanins / insect LSPs signature 2.	386	394	-	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+3WKY	31833cbe70312d43fba4568bc0c8a373	687	PANTHER	PTHR11511	LARVAL STORAGE PROTEIN/PHENOLOXIDASE	55	664	7.1E-129	T	09-10-2023	IPR013788	Hemocyanin/hexamerin
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	FunFam	G3DSA:1.10.1280.10:FF:000007	Polyphenol oxidase, chloroplastic	1	342	0.0	T	09-10-2023	-	-
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	Pfam	PF00264	Common central domain of tyrosinase	79	286	1.1E-31	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	Gene3D	G3DSA:1.10.1280.10	-	1	345	1.2E-128	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	109	126	5.3E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	140	145	5.3E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	239	250	5.3E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PRINTS	PR00092	Tyrosinase copper-binding domain signature	266	284	5.3E-17	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	SUPERFAMILY	SSF48056	Di-copper centre-containing domain	2	340	1.96E-110	T	09-10-2023	IPR008922	Di-copper centre-containing domain superfamily
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	ProSitePatterns	PS00497	Tyrosinase CuA-binding region signature.	109	126	-	T	09-10-2023	IPR002227	Tyrosinase copper-binding domain
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	Pfam	PF12142	Polyphenol oxidase middle domain	295	345	2.0E-19	T	09-10-2023	IPR022739	Polyphenol oxidase, central domain
+1BT3	e74f78894632bdfcc8890e4fe52ae9dc	345	PANTHER	PTHR11474	TYROSINASE FAMILY MEMBER	2	344	4.6E-111	T	09-10-2023	-	-
