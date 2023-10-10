@@ -10,12 +10,12 @@ for fasta in fasta_sequences:
     fasta2seq[fasta.id] = str(fasta.seq)
 
 df = pd.read_csv(interproscan_output_filename, sep='\t', names=['protein_accession', 'md5', 'sequence_length', \
-                                                                'analysis', 'signtature_accession', 'signature_discription',\
+                                                                'analysis', 'signature_accession', 'signature_discription',\
                                                                 'start_location', 'stop_location', 'score', 'status',\
                                                                 'date', 'interpro_annotations_accession', \
                                                                 'interpro_annotations_description'])
 
-df_PPO_domains = df[(df['signtature_accession']=='PF00264')|(df['signtature_accession']=='PF00372')]
+df_PPO_domains = df[(df['signature_accession']=='PF00264')|(df['signature_accession']=='PF00372')]
 
 output_filename = 'data/seeds-pfam-domains.fa'
 accessions_done = []
