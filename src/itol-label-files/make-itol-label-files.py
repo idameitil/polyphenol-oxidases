@@ -77,6 +77,17 @@ def make_aguilera_subclass_label_file(df):
                 continue
             file.write(f"{row.id},{value2color[row['Aguilera_subclass']]},{row['Aguilera_subclass']}\n")
 
+def make_aguilera_subclass_label_file_text(df):
+    outfilename = f"data/itol-label-files/Aguilera_subclass_text.txt"
+    value2color = {'alpha': '#FF0000', 'beta': '#00FFFF', 'gamma': '#00FF00'}
+    with open(outfilename, "w") as file:
+        header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,Aguilera_subclass\nCOLOR,#ff0000\nDATA\n"
+        file.write(header)
+        for index, row in df.iterrows():
+            if row['Aguilera_subclass'] not in value2color:
+                continue
+            file.write(f"{row.id},{row['Aguilera_subclass']},-1,{value2color[row['Aguilera_subclass']]},bold,1,0\n")
+
 seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_domain_color_file(seed_df)
 make_taxonomy_label_file(seed_df)
@@ -92,3 +103,4 @@ make_yes_no_label_file(seed_df, 'Diphenolase_activity')
 make_yes_no_label_file(seed_df, 'Nitrosation_activity')
 make_yes_no_label_file(seed_df, 'Tioether bond')
 make_aguilera_subclass_label_file(seed_df)
+make_aguilera_subclass_label_file_text(seed_df)

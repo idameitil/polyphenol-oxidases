@@ -23,144 +23,14 @@ XP_003659809.1,#880808,tyrosinase
 XP_003666010.1,#880808,tyrosinase
 CAI4219580.1,#880808,tyrosinase
 XP_003662515.1,#880808,tyrosinase
-sp|C7FF04|PPO3_AGABI,#880808,tyrosinase
+2Y9X,#880808,tyrosinase
 BAJ08174.1,#00FF00,O-aminophenol oxidase
 6HQI,#880808,tyrosinase
 Q08307,#00FFFF,catechol oxidase
 6ELS,#880808,tyrosinase
 Q93XM8,#880808,tyrosinase
 T1W3L4,#880808,tyrosinase
-NP_000363.1,#880808,tyrosinase
-NP_000541.1,#880808,tyrosinase
-NP_001913.2,#880808,tyrosinase
-NP_001123361.1,#880808,tyrosinase
-NP_035791.1,#880808,tyrosinase
-NP_112479.1,#880808,tyrosinase
-NP_034154.2,#880808,tyrosinase
-XP_002125279.1,#008000,Hemocyanin
-XP_002125336.1,#008000,Hemocyanin
-XP_002122543.1,#008000,Hemocyanin
-XP_002130497.1,#008000,Hemocyanin
-XP_002119675.1,#008000,Hemocyanin
-XP_002128425.1,#008000,Hemocyanin
-XP_002120006.1,#008000,Hemocyanin
-XP_002125338.1,#008000,Hemocyanin
-XP_002122867.1,#008000,Hemocyanin
-XP_002128449.1,#880808,tyrosinase
-XP_002119145.1,#880808,tyrosinase
-NP_001029009.1,#880808,tyrosinase
-CAD68058.1,#880808,tyrosinase
-XP_002734027.1,#008000,Hemocyanin
-XP_002735257.1,#880808,tyrosinase
-XP_002735255.1,#880808,tyrosinase
-XP_002738430.1,#880808,tyrosinase
-XP_002738429.1,#880808,tyrosinase
-AAZ66340.1,#880808,tyrosinase
-BAF74507.1,#880808,tyrosinase
-BAF42771.1,#880808,tyrosinase
-BAF42772.1,#880808,tyrosinase
-CAH10286.1,#008000,Hemocyanin
-CAG28310.1,#008000,Hemocyanin
-CAD88977.1,#008000,Hemocyanin
-BAC87843.1,#880808,tyrosinase
-BAC87844.1,#880808,tyrosinase
-CAC82191.1,#880808,tyrosinase
-ABD47515.1,#008000,Hemocyanin
-AEY94428.1,#880808,tyrosinase
-GAA54899.1,#880808,tyrosinase
-GAA32069.2,#880808,tyrosinase
-GAA48882.1,#880808,tyrosinase
-GAA27975.2,#880808,tyrosinase
-GAA48883.1,#880808,tyrosinase
-ACU68955.1,#880808,tyrosinase
-XP_002572828.1,#880808,tyrosinase
-XP_002576328.1,#880808,tyrosinase
-CCD59283.1,#880808,tyrosinase
-AAP93838.1,#880808,tyrosinase
-AFC87780.1,#880808,tyrosinase
-CAD12808.1,#008000,Hemocyanin
-NP_001034493.1,#880808,tyrosinase
-NP_001034522.1,#880808,tyrosinase
-XP_967179.2,#880808,tyrosinase
-NP_524760.1,#880808,tyrosinase
-NP_610443.1,#880808,tyrosinase
-NP_476812.1,#880808,tyrosinase
-BAA08368.1,#880808,tyrosinase
-BAA08369.1,#880808,tyrosinase
-XP_312089.2,#880808,tyrosinase
-XP_316323.2,#880808,tyrosinase
-XP_315073.2,#880808,tyrosinase
-XP_315084.2,#880808,tyrosinase
-XP_307623.1,#880808,tyrosinase
-XP_315075.1,#880808,tyrosinase
-XP_315083.1,#880808,tyrosinase
-XP_315074.1,#880808,tyrosinase
-XP_315076.1,#880808,tyrosinase
-CCA94920.1,#008000,Hemocyanin
-CCA94921.1,#008000,Hemocyanin
-CCA94927.1,#008000,Hemocyanin
-CCA94928.1,#008000,Hemocyanin
-CAJ91099.1,#008000,Hemocyanin
-CAJ91100.1,#008000,Hemocyanin
-XP_001901107.1,#880808,tyrosinase
-XP_001901108.1,#880808,tyrosinase
-XP_001893282.1,#880808,tyrosinase
-XP_001892455.1,#880808,tyrosinase
-NP_498711.1,#880808,tyrosinase
-NP_499836.1,#880808,tyrosinase
-NP_492055.2,#880808,tyrosinase
-NP_491709.1,#880808,tyrosinase
-NP_491131.2,#880808,tyrosinase
-XP_003091925.1,#880808,tyrosinase
-XP_003111038.1,#880808,tyrosinase
-XP_003093344.1,#880808,tyrosinase
-XP_003111376.1,#880808,tyrosinase
-XP_003100981.1,#880808,tyrosinase
-XP_002642685.1,#880808,tyrosinase
-XP_002642289.1,#880808,tyrosinase
-XP_002629873.1,#880808,tyrosinase
-XP_002639432.1,#880808,tyrosinase
-XP_002642686.1,#880808,tyrosinase
-XP_002639155.1,#880808,tyrosinase
-XP_002166336.1,#880808,tyrosinase
-CAE01389.1,#880808,tyrosinase
-XP_003390261.1,#880808,tyrosinase
-XP_958024.2,#880808,tyrosinase
-XP_959737.1,#880808,tyrosinase
-XP_001728263.1,#880808,tyrosinase
-CBF82279.1,#880808,tyrosinase
-XP_682497.1,#880808,tyrosinase
-ADE67053.1,#880808,tyrosinase
-XP_638942.1,#880808,tyrosinase
-XP_638943.1,#880808,tyrosinase
-EGG23792.1,#880808,tyrosinase
-EFA74650.1,#880808,tyrosinase
-EFA82026.1,#880808,tyrosinase
-CBJ31107.1,#880808,tyrosinase
-CBJ33496.1,#880808,tyrosinase
-CBJ33028.1,#880808,tyrosinase
-CBJ31185.1,#880808,tyrosinase
-CBJ31170.1,#880808,tyrosinase
-CBJ31176.1,#880808,tyrosinase
-CBN76498.1,#880808,tyrosinase
-CBJ26810.1,#880808,tyrosinase
-XP_003528445.1,#00FFFF,catechol oxidase
-XP_003528443.1,#00FFFF,catechol oxidase
-XP_003551647.1,#00FFFF,catechol oxidase
-XP_003552355.1,#00FFFF,catechol oxidase
-XP_003528444.1,#00FFFF,catechol oxidase
-XP_003541548.1,#00FFFF,catechol oxidase
-XP_003529305.1,#00FFFF,catechol oxidase
-XP_003522849.1,#00FFFF,catechol oxidase
-XP_003526194.1,#00FFFF,catechol oxidase
-XP_003541545.1,#00FFFF,catechol oxidase
-XP_003545882.1,#00FFFF,catechol oxidase
-XP_003541740.1,#00FFFF,catechol oxidase
-XP_002280474.2,#00FFFF,catechol oxidase
 NP_001053932.1,#00FFFF,catechol oxidase
-ZP_10118368.1,#880808,tyrosinase
-ZP_10066836.1,#880808,tyrosinase
-CCA60125.1,#880808,tyrosinase
-ACC86108.1,#880808,tyrosinase
-YP_003563841.1,#880808,tyrosinase
-NP_841294.1,#880808,tyrosinase
+CAG28310.1,#008000,Hemocyanin
+NP_524760.1,#880808,tyrosinase
+NP_035791.1,#880808,tyrosinase
