@@ -78,6 +78,11 @@ Then locally run:
 
 `data/blast/unique-hits.fasta` is a fasta file with exactly the entries in `data/blast/unique-hits.tsv`. `data/blast/unique-hits.csv` is a csv file containing taxids along with other info. It also includes identical sequences and therefore has more lines than `data/blast/unique-hits.tsv`.
 
+### Filter blast hits
+To filter the blast hits on e-value and length, run `python src/data-collection/filter-blast-hits/filter-blast-hits-on-evalue.py`. This creates the files `data/blast/unique-hits-1e-15.fasta` and `data/blast/unique-hits-1e-15-length150.fasta`.
+
+`cd-hit -i data/blast/unique-hits-1e-15-length150.fasta -c 0.90 -o data/blast/unique-hits-1e-15-length150-cd-hit90.fasta`.
+
 # MSA
 An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
 
