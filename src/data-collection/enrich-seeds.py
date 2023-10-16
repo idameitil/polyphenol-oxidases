@@ -2,7 +2,6 @@ import pandas as pd
 from common import get_taxon
 
 input_filename = "data/seeds.tsv"
-output_filename = "data/seeds-enriched.tsv"
 
 df_seed_table = pd.read_csv(input_filename, sep='\t', encoding='latin-1')
 
@@ -12,7 +11,6 @@ for rank in desired_ranks:
 
 # Get interproscan data
 interproscan_output_filename = 'data/seeds.interproscan'
-
 df_interproscan = pd.read_csv(interproscan_output_filename, sep='\t', names=['protein_accession', 'md5', 'sequence_length', \
                                                                 'analysis', 'signature_accession', 'signature_discription',\
                                                                 'start_location', 'stop_location', 'score', 'status',\
@@ -20,7 +18,6 @@ df_interproscan = pd.read_csv(interproscan_output_filename, sep='\t', names=['pr
                                                                 'interpro_annotations_description'])
 pd.set_option('display.max_columns', None)
 unique_pfams = df_interproscan[df_interproscan.analysis == 'Pfam'].signature_accession.unique()
-
 data = {}
 for index, row in df_seed_table.iterrows():
     data[row.id] = []
@@ -33,7 +30,9 @@ for index, row in df_seed_table.iterrows():
             data[row.id].append(f"{hits.start_location.values[0]}-{hits.stop_location.values[0]}")
 df_pfam_positions = pd.DataFrame.from_dict(data, orient='index', columns=unique_pfams)
 
+# Merge
 df_merged = pd.merge(left=df_seed_table, right=df_pfam_positions, how='left', left_on='id', right_index=True)
 
 # Write output file
+output_filename = "data/seeds-enriched.tsv"
 df_merged.to_csv(output_filename, sep='\t', index=False)
