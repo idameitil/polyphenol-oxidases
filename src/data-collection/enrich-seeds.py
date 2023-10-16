@@ -21,13 +21,17 @@ unique_pfams = df_interproscan[df_interproscan.analysis == 'Pfam'].signature_acc
 data = {}
 for index, row in df_seed_table.iterrows():
     data[row.id] = []
-    print(row.id)
     for pfam_name in unique_pfams:
         hits = df_interproscan[(df_interproscan.protein_accession == row.id) & (df_interproscan.signature_accession == pfam_name)]
         if hits.empty:
             data[row.id].append('')
-        else:
+        elif len(hits) == 1:
             data[row.id].append(f"{hits.start_location.values[0]}-{hits.stop_location.values[0]}")
+        else:
+            string = ''
+            for row, index in hits.iterrows():
+                string += f"{hits.start_location.values[0]}-{hits.stop_location.values[0]},"
+            data[row.id].append(string[:-1])
 df_pfam_positions = pd.DataFrame.from_dict(data, orient='index', columns=unique_pfams)
 
 # Merge
