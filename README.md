@@ -39,6 +39,9 @@ On the HPC, run Interproscan:
 Download the output file:
 `scp idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/seeds.interproscan data/`
 
+## Running pfam on seeds (not used)
+`hmmscan --domtblout data/seeds.domtblout ../pfam/Pfam-A.hmm data/seeds.fa`
+
 ## Make fasta with only pfam domain
 A fasta file with only the PF00264 and PF00372 domains of the seeds was made by running: `python src/interproscan/make-pfam-domain-fasta.py`. This creates the file `data/seeds-pfam-domains.fa`.
 
@@ -82,6 +85,30 @@ Then locally run:
 To filter the blast hits on e-value and length, run `python src/data-collection/filter-blast-hits/filter-blast-hits-on-evalue.py`. This creates the files `data/blast/unique-hits-1e-15.fasta` and `data/blast/unique-hits-1e-15-length150.fasta`.
 
 `cd-hit -i data/blast/unique-hits-1e-15-length150.fasta -c 0.90 -o data/blast/unique-hits-1e-15-length150-cd-hit90.fasta`.
+
+### Run Interproscan on blast hits
+`chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast-hits/unique-hits-1e-15-length150-1000-cd-hit70.fasta`
+
+Run this:
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam -i polyphenol-oxidases/interproscan-blast-hits/chunk00.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk00.interproscan`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam -i polyphenol-oxidases/interproscan-blast-hits/chunk01.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk01.interproscan`
+etc.
+
+Download the results:`scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-blast-hits data`
+
+
+(not working yet, because it runs with the wrong version of Java, when submitted to the queue)
+Using jobscripts:
+On the HPC:
+Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast/unique-hits-1e-15-length150-1000-cd-hit70.fasta`
+
+`python3 polyphenol-oxidases/interproscan-blast/runinterproscan.py`
+
+### Enrich blast hits
+To enrich the blast hit data, run `python3 src/data-collection/enrich-blast-hits.py`. This creates the file `data/blast/unique-hits-1e-15-length150-1000-cd-hit65-enriched.tsv`.
+
+### iTOL label files blast hits
+To make iTOL label files for the blast hits, run: `python3 src/itol-label-files/make-itol-label-files-blast hits.py`.
 
 # MSA
 An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
