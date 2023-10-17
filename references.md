@@ -1,3 +1,6 @@
+# CAG28310.1
+Was deleted because it was super long. It seems to be several proteins.
+
 # Installation of Interproscan on the HPC
 See `Interproscan_installation.md`.
 
