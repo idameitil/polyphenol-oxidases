@@ -32,6 +32,5 @@ Q93XM8	#00FF00	Viridiplantae
 T1W3L4	#00FF00	Viridiplantae
 4Z0Y	#00FF00	Viridiplantae
 NP_001053932.1	#00FF00	Viridiplantae
-CAG28310.1	#ffff00	Metazoa
 NP_524760.1	#ffff00	Metazoa
 NP_035791.1	#ffff00	Metazoa

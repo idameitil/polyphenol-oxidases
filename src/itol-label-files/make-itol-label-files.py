@@ -100,8 +100,16 @@ def make_pfam_label_file(df):
             file.write(f"{row.id},{len(row.sequence)}")
             for pfam_name in pfam_names:
                 if not pd.isnull(row[pfam_name]):
-                    start, stop = row[pfam_name].split('-')
-                    file.write(f",OC|{start}|{stop}|{pfam2color[pfam_name]}|{pfam_name}")
+                    # Several occurences of this pfam in the sequence
+                    if ',' in row[pfam_name]:
+                        occurences = row[pfam_name].split(',')
+                        for occurence in occurences:
+                            start, stop = occurence.split('-')
+                            file.write(f",OC|{start}|{stop}|{pfam2color[pfam_name]}|{pfam_name}")
+                    # One occurence of the pfam in the sequence
+                    else:
+                        start, stop = row[pfam_name].split('-')
+                        file.write(f",OC|{start}|{stop}|{pfam2color[pfam_name]}|{pfam_name}")
             file.write('\n')
 
 seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')

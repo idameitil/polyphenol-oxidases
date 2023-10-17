@@ -31,6 +31,5 @@ Q08307,#00FFFF,catechol oxidase
 Q93XM8,#880808,tyrosinase
 T1W3L4,#880808,tyrosinase
 NP_001053932.1,#00FFFF,catechol oxidase
-CAG28310.1,#008000,Hemocyanin
 NP_524760.1,#880808,tyrosinase
 NP_035791.1,#880808,tyrosinase
