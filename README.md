@@ -81,10 +81,13 @@ Then locally run:
 
 `data/blast/unique-hits.fasta` is a fasta file with exactly the entries in `data/blast/unique-hits.tsv`. `data/blast/unique-hits.csv` is a csv file containing taxids along with other info. It also includes identical sequences and therefore has more lines than `data/blast/unique-hits.tsv`.
 
-### Filter blast hits
-To filter the blast hits on e-value and length, run `python src/data-collection/filter-blast-hits/filter-blast-hits-on-evalue.py`. This creates the files `data/blast/unique-hits-1e-15.fasta` and `data/blast/unique-hits-1e-15-length150.fasta`.
+### Enrich unique hits with taxonomy
+To enrich all unique blast hits with taxonomy, run `python3 src/data-collection/enrich-blast-hits.py`. This creates the file `data/blast/unique-hits-enriched.tsv`.
 
-`cd-hit -i data/blast/unique-hits-1e-15-length150.fasta -c 0.90 -o data/blast/unique-hits-1e-15-length150-cd-hit90.fasta`.
+### Filter blast hits
+To filter the blast hits on e-value and length, run `python src/data-collection/filter-blast-hits/filter-blast-hits.py`. This creates the files `data/blast/unique-hits-1e-60.fasta` and `data/blast/unique-hits-1e-60-length150-1000.fasta`.
+
+`cd-hit -i data/blast/unique-hits-1e-60-length150-1000.fasta -c 0.65 -o data/blast/unique-hits-1e-60-length150-1000-cd-hit65.fasta`.
 
 ### Run Interproscan on blast hits
 `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast-hits/unique-hits-1e-15-length150-1000-cd-hit70.fasta`
@@ -104,8 +107,8 @@ Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphe
 
 `python3 polyphenol-oxidases/interproscan-blast/runinterproscan.py`
 
-### Enrich blast hits
-To enrich the blast hit data, run `python3 src/data-collection/enrich-blast-hits.py`. This creates the file `data/blast/unique-hits-1e-15-length150-1000-cd-hit65-enriched.tsv`.
+### Enrich selected hits with Pfam
+To enrich the filtered blast hits with pfam data, run `python src/data-collection/enrich-blast-hits-interproscan.py`. This creates the file `data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv`.
 
 ### iTOL label files blast hits
 To make iTOL label files for the blast hits, run: `python3 src/itol-label-files/make-itol-label-files-blast hits.py`.

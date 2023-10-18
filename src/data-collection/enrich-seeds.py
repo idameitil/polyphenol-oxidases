@@ -16,7 +16,6 @@ df_interproscan = pd.read_csv(interproscan_output_filename, sep='\t', names=['pr
                                                                 'start_location', 'stop_location', 'score', 'status',\
                                                                 'date', 'interpro_annotations_accession', \
                                                                 'interpro_annotations_description'])
-pd.set_option('display.max_columns', None)
 unique_pfams = df_interproscan[df_interproscan.analysis == 'Pfam'].signature_accession.unique()
 data = {}
 for index, row in df_seed_table.iterrows():

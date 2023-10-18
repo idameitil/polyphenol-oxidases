@@ -1,16 +1,17 @@
 import pandas as pd
 from Bio import SeqIO
+import sys
+
+evalue_threshold = 1e-60
 
 unique_hits_filename = 'data/blast/unique-hits.tsv'
 
 df = pd.read_csv(unique_hits_filename, sep='\t', names=['accession', 'score', 'evalue'])
 
-df_evaluefilter = df[df.evalue < 1e-15]
+df_evaluefilter = df[df.evalue < evalue_threshold]
 
-output_filename = 'data/blast/unique-hits-1e-15.tsv'
-
-with open('data/blast/unique-hits-1e-15.fasta', 'w') as outfile:
-    with open('data/blast/unique-hits-1e-15-length150-1000.fasta', 'w') as outfile2:
+with open(f'data/blast/unique-hits-{evalue_threshold}.fasta', 'w') as outfile:
+    with open(f'data/blast/unique-hits-{evalue_threshold}-length150-1000.fasta', 'w') as outfile2:
         fasta_sequences = SeqIO.parse('data/blast/unique-hits.fasta', 'fasta')
         for fasta in fasta_sequences:
             id, seq = fasta.id, str(fasta.seq)
