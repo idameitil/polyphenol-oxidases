@@ -1,0 +1,36 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	genus
+COLOR	#ff0000
+DATA
+1WX2	#811aa4	Streptomyces
+3NM8	#5a2703	Priestia
+2P3X	#341733	Vitis
+1BT3	#b592fb	Ipomoea
+4OUA	#64e697	Agaricus
+3W6Q	#22b053	Aspergillus
+3HHS_1	#fc05f3	Manduca
+3HHS_2	#fc05f3	Manduca
+3WKY	#8c8a32	Penaeus
+1HCY	#d34141	Panulirus
+1NOL	#a6f1a4	Limulus
+1JS8	#3f4f4d	Enteroctopus
+1LNL	#519d07	Rapana
+4J3P	#22b053	Aspergillus
+XP_001221473.1	#e0aada	Chaetomium
+XP_001224266.1	#e0aada	Chaetomium
+XP_003659809.1	#c7afcd	Thermothelomyces
+XP_003666010.1	#c7afcd	Thermothelomyces
+CAI4219580.1	#6f392d	Parascedosporium
+XP_003662515.1	#c7afcd	Thermothelomyces
+2Y9X	#64e697	Agaricus
+BAJ08174.1	#811aa4	Streptomyces
+6HQI	#41422e	Solanum
+Q08307	#41422e	Solanum
+6ELS	#897c41	Malus
+Q93XM8	#897c41	Malus
+T1W3L4	#897c41	Malus
+4Z0Y	#5557bf	Coreopsis
+NP_001053932.1	#35b591	Oryza
+NP_524760.1	#19e270	Drosophila
+NP_035791.1	#081ba4	Mus

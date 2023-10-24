@@ -16,5 +16,5 @@ acc2domain, unique_domains = read_interproscan_output(filename)
 df_interproscan = make_interproscan_df(acc2domain, unique_domains)
 
 # Merge
-merged_df = pd.merge(df_seed_table, df_interproscan, how='left', left_on='id', right_on='protein_accession')
+merged_df = pd.merge(df_seed_table, df_interproscan, how='left', on='protein_accession')
 merged_df.to_csv('data/seeds-enriched.tsv', sep='\t', index=False)

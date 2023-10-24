@@ -1,0 +1,36 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	phylum
+COLOR	#ff0000
+DATA
+1WX2	#23b8a9	Actinobacteria
+3NM8	#8301a2	Firmicutes
+2P3X	#12769e	Streptophyta
+1BT3	#12769e	Streptophyta
+4OUA	#83d606	Basidiomycota
+3W6Q	#9f76c6	Ascomycota
+3HHS_1	#5e1558	Arthropoda
+3HHS_2	#5e1558	Arthropoda
+3WKY	#5e1558	Arthropoda
+1HCY	#5e1558	Arthropoda
+1NOL	#5e1558	Arthropoda
+1JS8	#6ef479	Mollusca
+1LNL	#6ef479	Mollusca
+4J3P	#9f76c6	Ascomycota
+XP_001221473.1	#9f76c6	Ascomycota
+XP_001224266.1	#9f76c6	Ascomycota
+XP_003659809.1	#9f76c6	Ascomycota
+XP_003666010.1	#9f76c6	Ascomycota
+CAI4219580.1	#9f76c6	Ascomycota
+XP_003662515.1	#9f76c6	Ascomycota
+2Y9X	#83d606	Basidiomycota
+BAJ08174.1	#23b8a9	Actinobacteria
+6HQI	#12769e	Streptophyta
+Q08307	#12769e	Streptophyta
+6ELS	#12769e	Streptophyta
+Q93XM8	#12769e	Streptophyta
+T1W3L4	#12769e	Streptophyta
+4Z0Y	#12769e	Streptophyta
+NP_001053932.1	#12769e	Streptophyta
+NP_524760.1	#5e1558	Arthropoda
+NP_035791.1	#76d8d3	Chordata

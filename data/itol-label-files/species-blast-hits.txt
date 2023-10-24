@@ -1,0 +1,4266 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	species
+COLOR	#ff0000
+DATA
+CDM37049.1	#f9e15c	Penicillium roqueforti
+XP_048745316.1	#81cf3b	Ostrea edulis
+SMH67861.1	#d44947	Scolopendra dehaani
+GBP94078.1	#657214	Eumeta japonica
+KAG7002153.1	#88ab17	Physcia stellaris
+XP_020243338.1	#bfaa7d	Asparagus officinalis
+OCK96598.1	#ca8d5a	Cenococcum geophilum
+KAF1966210.1	#c56215	Bimuria novae-zelandiae
+WP_158880380.1	#0f29e4	Amycolatopsis anabasis
+KAF7537824.1	#b552a7	Neopestalotiopsis clavispora
+KAG8739700.1	#f3661d	Ceratobasidium sp. 414
+XP_023290526.1	#164ab9	Orussus abietinus
+CRK98947.1	#493b2d	Clunio marinus
+MBG6200183.1	#3e8ccc	Labrenzia sp. EL_13
+KAF8345135.1	#4a339f	Amanita rubescens
+WP_189914405.1	#924d37	Kitasatospora xanthocidica
+MBN3287897.1	#4da154	Polyodon spathula
+XP_038745984.1	#d35bcc	Colletotrichum karsti
+KAH8653530.1	#ed894d	Xylariales sp. PMI_506
+XP_009853628.1	#4f6836	Neurospora tetrasperma
+XP_028402202.1	#28f13f	Dendronephthya gigantea
+KAI4299348.1	#8ec346	Bauhinia variegata
+KAF8061616.1	#d1b472	Lyophyllum atratum
+XP_033668467.1	#96d1ae	Zasmidium cellare
+KAF9592953.1	#bd6e0c	Coptis chinensis
+XP_049872716.1	#527b41	Pectinophora gossypiella
+XP_028140070.1	#c1ce8d	Diabrotica virgifera
+KZO96800.1	#30cf6f	Calocera viscosa
+QPF86446.1	#ac71b2	Bradyrhizobium genosp. L
+XP_657835.1	#fe7102	Aspergillus nidulans
+KAH7304751.1	#9c9c9b	Stachybotrys elegans
+KAF2005946.1	#d06e06	Amniculicola lignicola
+KAF9779005.1	#53b1f3	Thelephora terrestris
+KAH9543102.1	#54c830	Sphagnum magellanicum
+CCA94926.1	#484280	Mastigoproctus giganteus
+XP_002429710.1	#2ce4be	Pediculus humanus
+XP_015633206.1	#d2c74e	Oryza sativa
+KAG9443226.1	#b1f8f8	Aristolochia fimbriata
+KAH7117504.1	#d15c64	Dactylonectria macrodidyma
+XP_008079364.1	#134a58	Glarea lozoyensis
+KAF2748572.1	#5e0c08	Sporormia fimetaria
+XP_018404545.1	#e94b14	Cyphomyrmex costatus
+XP_040629865.1	#b3a944	Dacryopinax primogenitus
+OOF95624.1	#bf3bdd	Aspergillus carbonarius
+KAH8731557.1	#0b7b4f	Phaeosphaeriaceae sp. PMI808
+KAI0270019.1	#b735d7	Gloeopeniophorella convolvens
+KAF2634875.1	#cdad37	Massarina eburnea
+EYC33687.1	#3c3560	Ancylostoma ceylanicum
+KAI5076531.1	#cdee28	Adiantum capillus-veneris
+RZC59047.1	#58a3b6	Papaver somniferum
+PIA30672.1	#3e780d	Aquilegia coerulea
+MBM7116932.1	#0fca93	Archangium primigenium
+XP_043035065.1	#b1c5e7	Guyanagaster necrorhizus
+KAF2433558.1	#48b03c	Tothia fuscella
+RPA76205.1	#2ccfc4	Ascobolus immersus
+KAF7508929.1	#0b08b3	Endocarpon pusillum
+KAG6020303.1	#ef0113	Claviceps sp. LM458 group G5
+MBN3316902.1	#5845d8	Atractosteus spatula
+XP_016988367.1	#eaefec	Drosophila rhopaloa
+CAE6444295.1	#2c63a5	Rhizoctonia solani
+TDZ23501.1	#483e2f	Colletotrichum orbiculare
+RMZ69978.1	#972e91	Pyrenophora seminiperda
+XP_015428727.1	#caf640	Dufourea novaeangliae
+KIN02046.1	#53e387	Oidiodendron maius
+XP_008028866.1	#a078cb	Exserohilum turcicum
+KXJ87137.1	#f44942	Microdochium bolleyi
+RYO09768.1	#7d12d4	Alternaria tenuissima
+EFN82402.1	#d01c09	Harpegnathos saltator
+KAI3877993.1	#7ff70f	Papaver armeniacum
+XP_038922892.1	#ec1791	Cantharellus anzutake
+RRT54348.1	#84b912	Ensete ventricosum
+KAF7740354.1	#5e0d76	Entomophthora muscae
+XP_042023970.1	#76b21e	Salvia splendens
+PXF44739.1	#090961	Gracilariopsis chorda
+XP_027108754.1	#b87515	Coffea arabica
+QRV95099.1	#8ea31c	Ceratobasidium sp. AG-Ba
+KAH7347638.1	#f6d279	Plectosphaerella cucumerina
+KAH9863923.1	#10704d	Leptosphaeria biglobosa
+XP_046671686.1	#19b142	Homalodisca vitripennis
+CAG7818443.1	#9997e1	Allacma fusca
+KAI1171690.1	#f47544	Nemania sp. FL0916
+KAH9080397.1	#c02c5e	Lactarius deliciosus
+KAI0005742.1	#231869	Xylariaceae sp. FL0662B
+XP_043001961.1	#279c90	Marasmius oreades
+KAH8798668.1	#4a4de4	Xylogone sp. PMI_703
+KAF7699742.1	#4db8c3	Silurus meridionalis
+XP_031000061.1	#fdc81e	Thyridium curvatum
+KOX79496.1	#d0a966	Melipona quadrifasciata
+XP_001209390.1	#a5f367	Aspergillus terreus
+PYH90900.1	#a0e570	Aspergillus ellipticus
+PWW71625.1	#ea9b85	Tuber magnatum
+RKP27360.1	#9d9ae8	Syncephalis pseudoplumigaleata
+MCJ1316301.1	#5361c0	Xylographa vitiligo
+KAH8898678.1	#434224	Thozetella sp. PMI_491
+XP_008084857.1	#134a58	Glarea lozoyensis
+XP_041982125.1	#591984	Aricia agestis
+AUO15588.1	#950302	Tetrix subulata
+RKP25947.1	#9d9ae8	Syncephalis pseudoplumigaleata
+XP_021286222.1	#c0fcaa	Herrania umbratica
+PVH84634.1	#2fc4bc	Cadophora sp. DSE1049
+KAI0393935.1	#9407ad	Xylariaceae sp. FL0594
+XP_047470522.1	#7c4ac1	Penaeus chinensis
+KAG8474171.1	#250f5e	Gossypium anomalum
+WP_031128126.1	#31ee24	nan
+CCX16160.1	#d205ea	Pyronema omphalodes
+KAF2187121.1	#4545f3	Zopfia rhizophila
+XP_006459626.1	#742920	Agaricus bisporus
+XP_027920765.1	#37e6b3	Vigna unguiculata
+KLU88161.1	#0bd254	Magnaporthiopsis poae
+KAF2743855.1	#5e0c08	Sporormia fimetaria
+XP_037125763.1	#6765d3	Syngnathus acus
+RPA85983.1	#2ccfc4	Ascobolus immersus
+KAI5076538.1	#cdee28	Adiantum capillus-veneris
+ORX81815.1	#ca724f	Basidiobolus meristosporus
+PHT39541.1	#e30158	Capsicum baccatum
+XP_037037633.1	#5f79ed	Bradysia coprophila
+KAF2843303.1	#c3a8f2	Patellaria atrata
+KAG5687440.1	#a1fbec	Batillaria attramentaria
+RPA88543.1	#56e0da	Choiromyces venosus
+CAG9981060.1	#eeba96	Clonostachys byssicola
+CCA94913.1	#f55b92	Endeis spinosa
+KAF2001443.1	#d06e06	Amniculicola lignicola
+KAF3937147.1	#cef5d3	Dactylella cylindrospora
+KAF7926538.1	#01c4a8	Botrytis elliptica
+CAG8981009.1	#0f3b6a	Hymenoscyphus albidus
+XP_049112652.1	#3052ca	Hypoxylon fragiforme
+XP_008077894.1	#134a58	Glarea lozoyensis
+XP_001905582.1	#6a5228	Podospora anserina
+ELK07003.1	#c38d86	Pteropus alecto
+KAI5778031.1	#0208ce	Geopyxis carbonaria
+KAG5290008.1	#d7d5f7	Histoplasma ohiense (nom. inval.)
+KAG6006830.1	#7a8354	Claviceps maximensis
+XP_037814271.1	#f23f07	Lucilia sericata
+XP_038843943.1	#c2fad1	Salvelinus namaycush
+KAA8563979.1	#990b97	Monilinia fructicola
+XP_005849299.1	#654b32	Chlorella variabilis
+XP_043151905.1	#de7248	Aspergillus udagawae
+XP_045195006.1	#32c129	Mercenaria mercenaria
+XP_034241167.1	#25ed52	Thrips palmi
+XP_027237553.1	#7aa785	Penaeus vannamei
+XP_047226224.1	#ec9b1b	Girardinichthys multiradiatus
+KAG5689351.1	#a1fbec	Batillaria attramentaria
+MCA1594195.1	#152ce0	Acidobacteria bacterium
+KAG6554187.1	#68a840	Marchantia paleacea
+MCJ1339684.1	#31ee24	nan
+XP_049153231.1	#5bd411	Colletotrichum lupini
+KAG8695402.1	#69d0c4	Ceratobasidium sp. 395
+PVH95135.1	#15e43d	Periconia macrospinosa
+XP_010100567.1	#4a9357	Morus notabilis
+CAH7686077.1	#c8b542	Phakopsora pachyrhizi
+KAG2601282.1	#5fbd1f	Panicum virgatum
+RXS86976.1	#dd7b2e	Streptomyces sp. TM32
+XP_011495593.1	#4e4457	Ceratosolen solmsi
+KAH0426437.1	#e8ec2d	Colletotrichum camelliae
+RKP09208.1	#902009	Thamnocephalis sphaerospora
+KAG8945788.1	#f1666f	Tulasnella sp. 419
+KAF8243730.1	#60e016	Wilcoxina mikolae
+CAD7448308.1	#07199e	Timema bartmani
+XP_008446626.1	#ea2fac	Cucumis melo
+KAI3459693.1	#0e3ea4	Paulownia fortunei
+RDW80146.1	#581e14	Coleophoma cylindrospora
+KAF2875973.1	#a9b697	Massariosphaeria phaeospora
+KAF3400006.1	#15c8b0	Penicillium rolfsii
+CAD68058.1	#9ba6d0	Ciona intestinalis
+AUO15572.1	#950302	Tetrix subulata
+XP_046746454.1	#cfb82b	Diprion similis
+CCD53405.1	#b2acf3	Botrytis cinerea
+THX61658.1	#984a9e	Aureobasidium pullulans
+POS77600.1	#11f521	Diaporthe helianthi
+XP_042029584.1	#76b21e	Salvia splendens
+ACJ04909.1	#3ee1b8	synthetic construct
+XP_023929017.1	#3a2a30	Quercus suber
+KAB5566591.1	#ed7fc7	Coniochaeta sp. 2T2.1
+XP_015778910.1	#15ccc6	Acropora digitifera
+KAH7068082.1	#52da2a	Paraphoma chrysanthemicola
+WP_158733012.1	#09b93e	Lysobacter prati
+ROT63388.1	#7aa785	Penaeus vannamei
+RPA82145.1	#2ccfc4	Ascobolus immersus
+XP_045269454.1	#8d2dbb	Colletotrichum gloeosporioides
+KAI5803525.1	#69bf5d	Peziza echinospora
+KAF3327634.1	#a78142	Carex littledalei
+KAI1729973.1	#548ee5	Ditylenchus destructor
+KAF3336412.1	#a78142	Carex littledalei
+XP_019858840.1	#b5691d	Amphimedon queenslandica
+KAH8880978.1	#434224	Thozetella sp. PMI_491
+KAF8271967.1	#f17a71	Lactarius quietus
+KAH7558868.1	#dcc9d2	Bipolaris maydis
+VBB73800.1	#5ad4d0	Podospora comata
+NQV78008.1	#9f8ad8	Lutibacter sp.
+CCF55382.1	#f4a9df	Atyopsis moluccensis
+WP_125605966.1	#c80189	Streptomyces sp. WAC07061
+XP_022852555.1	#1a4422	Olea europaea
+XP_029730432.1	#7abc23	Aedes albopictus
+WP_251910972.1	#31ee24	nan
+KAF8495781.1	#605fd7	Russula emetica
+RDX53528.1	#0298ae	Polyporus brumalis
+KAI3465964.1	#0e3ea4	Paulownia fortunei
+KAH8890291.1	#434224	Thozetella sp. PMI_491
+RKU46636.1	#d1ab0d	Coniochaeta pulveracea
+XP_042881566.1	#13979b	Penaeus japonicus
+KAF8775055.1	#f58f00	Digitaria exilis
+CAD0055797.1	#984a9e	Aureobasidium pullulans
+RKP20340.1	#2afc67	Rozella allomycis
+KAH8173630.1	#b0fdff	Sarocladium implicatum
+KDQ13278.1	#9d6778	Botryobasidium botryosum
+TFK68911.1	#b28469	Pluteus cervinus
+KXJ73032.1	#7abc23	Aedes albopictus
+XP_015404592.1	#881955	Aspergillus nomiae
+CAD7257557.1	#3e9714	Timema shepardi
+TYH85486.1	#3a3aab	Gossypium tomentosum
+WP_168076014.1	#ec818c	Planosporangium flavigriseum
+PVH93604.1	#15e43d	Periconia macrospinosa
+MCG8403871.1	#546315	Phycisphaerales bacterium
+MBP7555387.1	#f3e24a	Chitinophagaceae bacterium
+KAF8662496.1	#f58f00	Digitaria exilis
+KAI1328026.1	#5c4612	Xylariaceae sp. FL0255
+XP_028398038.1	#28f13f	Dendronephthya gigantea
+CAE6388132.1	#2c63a5	Rhizoctonia solani
+OXU22254.1	#0ccc35	Trichomalopsis sarcophagae
+KAF2659347.1	#0c2c7c	Lophiostoma macrostomum
+ORY07352.1	#ca724f	Basidiobolus meristosporus
+RPB05865.1	#56e0da	Choiromyces venosus
+VUC35833.1	#883ccc	Clonostachys rosea
+XP_003351009.1	#887ec5	Sordaria macrospora
+XP_043011973.1	#279c90	Marasmius oreades
+XP_014229579.1	#f39fcc	Trichogramma pretiosum
+KJZ75720.1	#71e93f	Hirsutella minnesotensis
+XP_043262180.1	#5a9e7b	Colletes gigas
+XP_038068635.1	#f4facb	Patiria miniata
+KAG5889581.1	#ae6333	Gonioctena quinquepunctata
+CZR56799.1	#2ff7ac	Phialocephala subalpina
+CAG8936476.1	#68a2ed	Penicillium salamii
+KAF1942408.1	#73d1f6	Clathrospora elynae
+WP_087763898.1	#acd6af	Streptomyces sp. CS057
+XP_040865836.1	#605e43	Glycine max
+KAF3052247.1	#41d261	Didymella keratinophila
+PPQ83615.1	#5bfa04	Psilocybe cyanescens
+KAF5309933.1	#cd27b3	Psilocybe cf. subviscida
+XP_008028825.1	#a078cb	Exserohilum turcicum
+KAH0811667.1	#a49eaa	Tenebrio molitor
+XP_008470881.2	#8371a9	Diaphorina citri
+KAH6711904.1	#f6228a	Leptodontidium sp. MPI-SDFR-AT-0119
+XP_013199418.1	#523178	Amyelois transitella
+KAI0602121.1	#ff791a	Biscogniauxia sp. FL1348
+QXT58054.1	#99bd03	Solanum tuberosum
+OQD79619.1	#ed6a22	Penicillium antarcticum
+AUO15571.1	#1c3ffa	Prosarthria teretrirostris
+XP_033649623.1	#070552	Westerdykella ornata
+USP79155.1	#640841	Curvularia clavata
+KAF3318443.1	#d2137e	Orbilia oligospora
+AGV77161.1	#30ba28	Drosophila melanogaster
+XP_021947776.1	#b0c805	Folsomia candida
+KAI0056310.1	#613096	Artomyces pyxidatus
+CCD61125.1	#e42e28	Taraxacum officinale
+WP_108075954.1	#58b205	Vitiosangium sp. GDMCC 1.1324
+KAH3722105.1	#c33ce0	Dreissena polymorpha
+KAF7771814.1	#742920	Agaricus bisporus
+KAI1810793.1	#024fb3	Poronia punctata
+XP_024217321.1	#b97591	Halyomorpha halys
+KAG9512844.1	#82932d	Aureobasidium melanogenum
+KAF7856954.1	#10a2c9	Sclerotium cepivorum
+KAI3702733.1	#82fb63	Arctium lappa
+KAF4815354.1	#fbf870	Colletotrichum siamense
+KAI4454576.1	#fc10e7	Holotrichia oblita
+PQE15476.1	#72ff5c	Rutstroemia sp. NJR-2017a WRK4
+KAH6686711.1	#c2a24a	Plectosphaerella plurivora
+ADU18540.1	#3d3eb4	Togoperla sp. VA-2010
+XP_033755084.1	#c07337	Pecten maximus
+KIN00794.1	#53e387	Oidiodendron maius
+XP_025490738.1	#af522f	Aspergillus uvarum
+XP_024397287.1	#344a4f	Physcomitrium patens
+XP_003401778.1	#df59ef	Bombus terrestris
+KAF2030512.1	#1bc1a2	Setomelanomma holmii
+XP_024341425.1	#9fcbe5	Postia placenta
+ALF12285.1	#c9645a	Morus alba
+WP_250980596.1	#31ee24	nan
+KIM19799.1	#07c80a	Serendipita vermifera
+XP_019181147.1	#05bce6	Ipomoea nil
+KAE9379884.1	#f8f3fb	Chalara longipes
+TDZ67419.1	#85b646	Colletotrichum trifolii
+PON64212.1	#805f8f	Trema orientale
+KAF4082057.1	#c0d690	Ameiurus melas
+EGU83168.1	#bfbf10	Fusarium oxysporum
+XP_022344830.1	#8b1255	Crassostrea virginica
+KAI0822060.1	#25f345	Trametes gibbosa
+KAG8130556.1	#e6c2bc	Naja naja
+KAH6949079.1	#79dc71	Fusarium avenaceum
+XP_038747759.1	#d35bcc	Colletotrichum karsti
+ADD70249.1	#51c573	Panulirus longipes
+XP_004931806.2	#bb4daf	Bombyx mori
+GFS43492.1	#0ef022	Trichonephila inaurata
+XP_031849061.1	#a6d226	Nomia melanderi
+CAG7849836.1	#bb2667	Serendipita indica
+RDW85203.1	#581e14	Coleophoma cylindrospora
+CZR50895.1	#2ff7ac	Phialocephala subalpina
+RDW75127.1	#581e14	Coleophoma cylindrospora
+KAE9964858.1	#ff6677	Venturia inaequalis
+KAH9307697.1	#bb5767	Taxus chinensis
+KAF8645995.1	#a69d70	Volvariella volvacea
+HEA22429.1	#848116	Pricia antarctica
+EME46462.1	#fb234d	Dothistroma septosporum
+XP_048381887.1	#098399	Stegostoma fasciatum
+KAF4899279.1	#4a1b8e	Colletotrichum fructicola
+SJL02349.1	#03f50e	Armillaria ostoyae
+RKP26894.1	#9d9ae8	Syncephalis pseudoplumigaleata
+CAD6229670.1	#d55533	Miscanthus lutarioriparius
+XP_023925596.1	#3a2a30	Quercus suber
+KAH8817729.1	#c4bb54	Flagelloscypha sp. PMI_526
+RWS14872.1	#82e376	Dinothrombium tinctorium
+XP_008081464.1	#134a58	Glarea lozoyensis
+EOY04734.1	#cc029b	Theobroma cacao
+XP_012757037.1	#ee9e24	Acytostelium subglobosum
+CAD7568053.1	#8b4a62	Timema californicum
+KAF9893896.1	#7db400	Aspergillus nanangensis
+KAG6828515.1	#1394b7	Tricholoma furcatifolium
+VDL79972.1	#8d5d45	Nippostrongylus brasiliensis
+RVE54713.1	#a660d8	Chilo suppressalis
+KAF8192616.1	#449816	Pholiota molesta
+CAG9111408.1	#c82f5e	Plutella xylostella
+KAI3458385.1	#0e3ea4	Paulownia fortunei
+CCX33655.1	#d205ea	Pyronema omphalodes
+XP_011076536.1	#5861f2	Sesamum indicum
+XP_045194325.1	#32c129	Mercenaria mercenaria
+KAF4354291.1	#38916a	Cannabis sativa
+XP_021760592.1	#75d1b6	Chenopodium quinoa
+XP_046006902.1	#7891d6	Microdochium trichocladiopsis
+WP_184608103.1	#5fc092	Sphaerisporangium krabiense
+NPT47998.1	#fe730d	Paraburkholderia solitsugae
+WP_190695282.1	#31ee24	nan
+KAF4635965.1	#1138ed	Cudoniella acicularis
+XP_040711727.1	#c46faf	Pseudomassariella vexata
+XP_007836607.1	#313993	Pestalotiopsis fici
+KAF5618744.1	#118ff2	Fusarium sp. NRRL 52700
+NUT33518.1	#07c717	Hamadaea sp.
+KAH9240595.1	#8d2dbb	Colletotrichum gloeosporioides
+Q9FRX6.1	#3fda47	Antirrhinum majus
+KAF4840646.1	#fbf870	Colletotrichum siamense
+KAH9495707.1	#2af09d	Bulinus truncatus
+RVX08548.1	#fc875a	Vitis vinifera
+XP_007297051.1	#2380f3	Drepanopeziza brunnea
+PBK84708.1	#cd6394	Armillaria gallica
+TIC91226.1	#dcb0b3	Colletotrichum higginsianum
+KXN73691.1	#73de94	Conidiobolus coronatus
+KZC07219.1	#caf640	Dufourea novaeangliae
+CAG1831021.1	#f95299	Musa acuminata
+XP_033755033.1	#c07337	Pecten maximus
+RPA73998.1	#2ccfc4	Ascobolus immersus
+XP_020129405.1	#10e83e	Diplodia corticola
+KAE8193332.1	#b01f25	Tilletia laevis
+KAF3927764.1	#838786	Drechslerella brochopaga
+XP_045971090.1	#9adfcc	Morchella importuna
+OXA54655.1	#b0c805	Folsomia candida
+KAH6699998.1	#f6228a	Leptodontidium sp. MPI-SDFR-AT-0119
+KAF9507192.1	#af3283	Hydnum rufescens
+XP_029634295.1	#8cafc7	Octopus sinensis
+KZL80091.1	#4a41c8	Colletotrichum incanum
+ORY05210.1	#ca724f	Basidiobolus meristosporus
+KAF2868002.1	#a9b697	Massariosphaeria phaeospora
+PYI12264.1	#8662fb	Aspergillus sclerotiicarbonarius
+KAH7662063.1	#9a0e50	Dioscorea alata
+SCK25836.1	#c845ac	Streptomyces sp. SceaMP-e96
+RIB30209.1	#d40318	Gigaspora rosea
+KAG9443229.1	#b1f8f8	Aristolochia fimbriata
+OAL68708.1	#2e718e	Trichophyton violaceum
+XP_041378714.1	#f49676	Gigantopelta aegis
+XP_048450180.1	#8ccb83	Rhincodon typus
+KAG4440203.1	#58a503	Cadophora sp. M221
+PPR06689.1	#b58e9d	Gymnopilus dilepis
+KAI3903167.1	#829ba1	Papaver atlanticum
+MCJ1332496.1	#d38ea5	Thelotrema lepadinum
+KAI3925781.1	#d395ed	Papaver californicum
+OCB87724.1	#206b52	Sanghuangporus baumii
+XP_047740810.1	#83091a	Hyalella azteca
+KAH7045363.1	#80d14a	Macrophomina phaseolina
+KAI0725255.1	#bfde96	Fomitopsis betulina
+RXH99245.1	#856e97	Malus domestica
+XP_041026022.1	#f6bb87	Juglans microcarpa x Juglans regia
+XP_007916924.1	#690e11	Phaeoacremonium minimum
+KAG6392114.1	#76b21e	Salvia splendens
+KAG9080677.1	#1dc2fd	Ceratobasidium sp. 370
+KAF2968770.1	#712cfb	Xylaria multiplex
+MBV9229998.1	#bb0831	Chloroflexi bacterium
+TRY81364.1	#cfcf94	Danionella translucida
+CAA3000655.1	#1a4422	Olea europaea
+AWK28011.1	#0cff36	Pleurobrachia bachei
+XP_003665594.1	#6dc8d9	Thermothelomyces thermophilus
+WP_198414979.1	#ce4f05	Albitalea terrae
+XP_046006962.1	#7891d6	Microdochium trichocladiopsis
+KFZ04663.1	#efb486	Pseudogymnoascus sp. VKM F-4519 (FW-2642)
+CUS19247.1	#7b4197	Argulus foliaceus
+XP_024688703.1	#f3c05f	Aspergillus campestris
+XP_036582607.1	#39a8fd	Colletotrichum truncatum
+XP_016258085.1	#815690	Exophiala oligosperma
+WP_231987989.1	#b466d7	Pseudomonas granadensis
+XP_020616587.1	#3b0080	Orbicella faveolata
+KAH9980152.1	#1c43d0	Lactarius volemus
+OTA52939.1	#76e94d	Hypoxylon sp. EC38
+EUC55883.1	#2c63a5	Rhizoctonia solani
+CAG7680443.1	#9997e1	Allacma fusca
+XP_010100566.1	#4a9357	Morus notabilis
+QDS76025.1	#387c73	Venturia effusa
+XP_023704227.1	#3c4d98	Cryptotermes secundus
+KAA0195904.1	#83091a	Hyalella azteca
+KAF9458302.1	#a6801e	Lepista nuda
+VDI54710.1	#307007	Mytilus galloprovincialis
+VDM60451.1	#c3b3f2	Angiostrongylus costaricensis
+OBZ65578.1	#0cce84	Grifola frondosa
+P56825.1	#c8a79e	Sepia officinalis
+XP_012178752.1	#4f0aae	Fibroporia radiculosa
+KAG6460219.1	#d92938	Manduca sexta
+KAE8751875.1	#fe3aa0	Frankliniella occidentalis
+ROT61245.1	#7aa785	Penaeus vannamei
+WP_221517319.1	#8a2c91	Streptomyces sp. AK010
+KAF8055434.1	#d1b472	Lyophyllum atratum
+KAF2690320.1	#e7aef9	Lentithecium fluviatile
+CAD0083012.1	#1da268	Aureobasidium vineae
+KAI1615790.1	#2aec46	Exophiala sp. JF 03-4F
+XP_039293955.1	#40655a	Nilaparvata lugens
+KAB5560233.1	#ed7fc7	Coniochaeta sp. 2T2.1
+XP_045948074.1	#6ebebe	Aspergillus melleus
+KAH2663186.1	#9114e8	Aspergillus fumigatus
+KAF9635475.1	#118803	Lasiodiplodia theobromae
+CAG8976979.1	#0f3b6a	Hymenoscyphus albidus
+KAI0297681.1	#4edae2	Russula brevipes
+TVU16427.1	#9a0967	Eragrostis curvula
+RPA85134.1	#2ccfc4	Ascobolus immersus
+KAG9239982.1	#de2bd6	Calycina marina
+KJK91793.1	#e22259	Metarhizium anisopliae
+KAF6208522.1	#81a5d3	Apolygus lucorum
+ABQ28710.1	#126174	Leuctra fusca
+KAF5204729.1	#73019b	Thalictrum thalictroides
+KAH9507514.1	#2af09d	Bulinus truncatus
+KAF2972959.1	#712cfb	Xylaria multiplex
+KAF2875899.1	#a9b697	Massariosphaeria phaeospora
+KAF5175610.1	#73019b	Thalictrum thalictroides
+KAI1260259.1	#55f03c	Xylariaceae sp. FL1019
+KAH9907265.1	#1c580f	Xylariomycetidae sp. FL2044
+KNA18659.1	#1eb469	Spinacia oleracea
+PVH72863.1	#2fc4bc	Cadophora sp. DSE1049
+XP_024964800.1	#cacfbe	Cynara cardunculus
+KAE9366306.1	#f8f3fb	Chalara longipes
+XP_020551680.1	#5861f2	Sesamum indicum
+CAF9905455.1	#df67d8	Gomphillus americanus
+XP_039198885.1	#28d487	Crotalus tigris
+KAI1339650.1	#e7ba2f	Xylariaceae sp. FL0016
+KAF7338726.1	#e1b052	Mycena sanguinolenta
+KAH8176655.1	#b0fdff	Sarocladium implicatum
+KIM27071.1	#07c80a	Serendipita vermifera
+EMR70876.1	#f1db01	Eutypa lata
+RWA04044.1	#adfbf5	Xylaria grammica
+RWR84493.1	#4ab84c	Cinnamomum micranthum
+KXH53984.1	#dd6dfb	Colletotrichum salicis
+RIB12211.1	#d40318	Gigaspora rosea
+TDZ39149.1	#85b646	Colletotrichum trifolii
+KAH9873988.1	#bffc77	Leptosphaeria maculans
+WP_233827340.1	#98ac1b	Saccharothrix sp. S26
+KXN69353.1	#73de94	Conidiobolus coronatus
+KAI3753606.1	#dabd06	Cichorium intybus
+KAH8892226.1	#434224	Thozetella sp. PMI_491
+MBI1323197.1	#9dad85	bacterium
+KAF4161785.1	#f926f9	Aspergillus lentulus
+XP_040683365.1	#d7445e	Aspergillus wentii
+KAB5542858.1	#ed7fc7	Coniochaeta sp. 2T2.1
+WP_020735165.1	#f47d75	Sorangium cellulosum
+WP_256576798.1	#31ee24	nan
+MCO5562891.1	#7dd150	Adiantum nelumboides
+XP_035679172.1	#8deebe	Branchiostoma floridae
+CAG9975290.1	#eeba96	Clonostachys byssicola
+KAG6995595.1	#88ab17	Physcia stellaris
+XP_035703144.1	#b0c805	Folsomia candida
+KAH9885553.1	#1c580f	Xylariomycetidae sp. FL2044
+WP_154450604.1	#2c9c04	Methylocystis rosea
+KAH7384191.1	#443aa9	Phaeosphaeria sp. MPI-PUGE-AT-0046c
+CAG9559301.1	#ddcd80	Danaus chrysippus
+RAL65136.1	#c6eb25	Monilinia fructigena
+KAI0006752.1	#231869	Xylariaceae sp. FL0662B
+KAH8725083.1	#0b7b4f	Phaeosphaeriaceae sp. PMI808
+GIY21486.1	#0ba2af	Caerostris extrusa
+KFA61507.1	#a23e86	Stachybotrys chlorohalonata
+AJQ31846.1	#d5545a	Xya japonica
+XP_018030235.1	#c72baf	Paraphaeosphaeria sporulosa
+XP_047535737.1	#88e246	Vanessa atalanta
+KAF2196073.1	#7d8f13	Delitschia confertaspora
+WP_121258546.1	#1d3c86	Solirubrobacter pauli
+XP_037904992.1	#23f308	Hermetia illucens
+WP_028929445.1	#bad6a8	Pseudonocardia asaccharolytica
+XP_019159371.1	#05bce6	Ipomoea nil
+KAF9778931.1	#53b1f3	Thelephora terrestris
+KAI6276948.1	#997587	Pyricularia oryzae
+EWC46374.1	#724361	Drechslerella stenobrocha
+CZT11925.1	#eeb27f	Rhynchosporium agropyri
+KAH6717801.1	#f6228a	Leptodontidium sp. MPI-SDFR-AT-0119
+KAI0149162.1	#0fe245	Pestalotiopsis sp. NC0098
+KAH9438325.1	#997587	Pyricularia oryzae
+EPS37102.1	#1efe31	Dactylellina haptotyla
+XP_016984437.1	#eaefec	Drosophila rhopaloa
+XP_009224786.1	#318da7	Gaeumannomyces tritici
+KAF7759224.1	#5e0d76	Entomophthora muscae
+KAF8453330.1	#34181f	Terfezia claveryi
+KAI1332965.1	#5c4612	Xylariaceae sp. FL0255
+EYB90640.1	#3c3560	Ancylostoma ceylanicum
+GFC77522.1	#fd6b74	Tanacetum cinerariifolium
+XP_012214584.1	#a04841	Linepithema humile
+XP_040718631.1	#c46faf	Pseudomassariella vexata
+EHA20926.1	#3f05bd	Aspergillus niger
+PIG82894.1	#c5736a	Aspergillus arachidicola
+OSX80882.1	#89eb9a	Porphyra umbilicalis
+KAI3656951.1	#49b45c	Amoeboaphelidium occidentale
+TMD58891.1	#bb0831	Chloroflexi bacterium
+KOC58832.1	#2e3560	Habropoda laboriosa
+ORY30694.1	#fbdc07	Rhizoclosmatium globosum
+XP_007920237.1	#7c1c57	Pseudocercospora fijiensis
+PHT58543.1	#e30158	Capsicum baccatum
+OSD06784.1	#8d3dc4	Trametes coccinea
+CEJ56604.1	#7246d0	Penicillium brasilianum
+KXJ09096.1	#85087f	Exaiptasia diaphana
+KAF7535990.1	#b552a7	Neopestalotiopsis clavispora
+KAF7771678.1	#742920	Agaricus bisporus
+PHT58706.1	#e30158	Capsicum baccatum
+KAI0389184.1	#9407ad	Xylariaceae sp. FL0594
+KAI3862037.1	#b8c217	Papaver bracteatum
+KAI4454575.1	#fc10e7	Holotrichia oblita
+XP_018032376.1	#c72baf	Paraphaeosphaeria sporulosa
+VDI14092.1	#307007	Mytilus galloprovincialis
+KAF8411178.1	#f4ac14	Tetracentron sinense
+PPQ67965.1	#6fd6b0	Panaeolus cyanescens
+KAF2270326.1	#929eda	Didymosphaeria enalia
+XP_030994077.1	#fdc81e	Thyridium curvatum
+KAI6357363.1	#99e98b	Pyricularia grisea
+KAH0642695.1	#99bd03	Solanum tuberosum
+P81732.1	#768f3e	Megathura crenulata
+XP_001798794.1	#690104	Parastagonospora nodorum
+WP_189700712.1	#0de31b	Streptomyces chromofuscus
+XP_012286307.1	#164ab9	Orussus abietinus
+KAF1937117.1	#73d1f6	Clathrospora elynae
+KAF6823577.1	#8753ef	Colletotrichum musicola
+WP_236412913.1	#3f22b7	Pseudomonas syringae
+XP_001960131.2	#5f4320	Drosophila ananassae
+KKY15415.1	#4da3d8	Diplodia seriata
+KAF7357228.1	#e1b052	Mycena sanguinolenta
+KAH3722178.1	#c33ce0	Dreissena polymorpha
+KAI3658124.1	#49b45c	Amoeboaphelidium occidentale
+KAF7746887.1	#5e0d76	Entomophthora muscae
+AAQ03083.1	#c8a79e	Sepia officinalis
+KAH8712680.1	#b8534b	Beauveria bassiana
+Q9NFH9.3	#2dbd5b	Aphonopelma sp.
+XP_030982083.1	#99e98b	Pyricularia grisea
+CCA94924.1	#484280	Mastigoproctus giganteus
+RPB03291.1	#56e0da	Choiromyces venosus
+KUI61173.1	#a55423	Valsa mali
+XP_048780969.1	#81cf3b	Ostrea edulis
+KAF2641664.1	#cdad37	Massarina eburnea
+KAF4200387.1	#f926f9	Aspergillus lentulus
+RMX36716.1	#5d6d39	Pocillopora damicornis
+ALJ53304.1	#ce036a	Luffa aegyptiaca
+XP_016756348.1	#cd150b	Sphaerulina musiva
+OCK72918.1	#a0c22c	Lepidopterella palustris
+EPS41585.1	#1efe31	Dactylellina haptotyla
+CAG8442723.1	#6bd276	Claroideoglomus candidum
+KAI3838540.1	#b8c217	Papaver bracteatum
+CCA94914.1	#1fd4de	Limulus polyphemus
+KAI3809646.1	#b6374c	Smallanthus sonchifolius
+RDX72446.1	#9e8468	Mucuna pruriens
+KAH8724982.1	#0b7b4f	Phaeosphaeriaceae sp. PMI808
+VDI16354.1	#307007	Mytilus galloprovincialis
+KAI4221139.1	#1a67b2	Xanthoria aureola
+KAG9026427.1	#2c38d1	Tulasnella sp. JGI-2019a
+KAH7182157.1	#f1b16a	Fusarium sp. MPI-SDFR-AT-0072
+QDA03554.1	#d84d32	Streptomyces rimosus
+KAG0485273.1	#b77d36	Vanilla planifolia
+KAF2680037.1	#e7aef9	Lentithecium fluviatile
+XP_046384805.1	#c08f65	Ischnura elegans
+OQE43496.1	#2dc43f	Penicillium coprophilum
+KAH8886663.1	#434224	Thozetella sp. PMI_491
+KAF9044148.1	#e931a9	Panaeolus papilionaceus
+OWF40759.1	#d7cac0	Mizuhopecten yessoensis
+CAH0045811.1	#ba05d8	Clonostachys solani
+XP_045606903.1	#367bdb	Procambarus clarkii
+XP_026564139.1	#323a8b	Pseudonaja textilis
+XP_015605372.1	#9334ee	Cephus cinctus
+XP_043267398.1	#e270fd	Venturia canescens
+XP_013266290.1	#36feb3	Exophiala aquamarina
+RYP84213.1	#0cf464	Monosporascus sp. CRB-8-3
+KAI2487008.1	#ed7a5e	Pyrenophora tritici-repentis
+KAI0123286.1	#ddbccd	Xylariales sp. AK1849
+XP_048382331.1	#098399	Stegostoma fasciatum
+KAF7759225.1	#5e0d76	Entomophthora muscae
+KAE9591752.1	#ee4579	Lupinus albus
+PPD85466.1	#5b96ba	Gossypium barbadense
+KAI5633122.1	#387224	Phthorimaea operculella
+XP_033650325.1	#070552	Westerdykella ornata
+XP_028486278.1	#4613c2	Paecilomyces variotii
+EPS59410.1	#ae34f6	Genlisea aurea
+CAG7731908.1	#9997e1	Allacma fusca
+KAF3904429.1	#838786	Drechslerella brochopaga
+KAF3011878.1	#ca0b2b	Neopestalotiopsis sp. 37M
+KXX77605.1	#395924	Madurella mycetomatis
+KAG8727093.1	#16a236	Ceratobasidium sp. 423
+XP_034313327.1	#65020a	Crassostrea gigas
+OSX76856.1	#89eb9a	Porphyra umbilicalis
+CAG8480240.1	#6bd276	Claroideoglomus candidum
+XP_046853721.1	#267524	Xenia sp. Carnegie-2017
+TGZ76212.1	#0cbd52	Ascodesmis nigricans
+MBA2448880.1	#bb0831	Chloroflexi bacterium
+AFP81887.1	#957ace	Bactrocera dorsalis
+GBG84233.1	#29a679	Chara braunii
+WP_018348413.1	#16c889	Longispora albida
+XP_049534858.1	#b8dccf	Anopheles darlingi
+KAH7390053.1	#5033f7	Leotiomycetes sp. MPI-SDFR-AT-0126
+KAE8158927.1	#269584	Aspergillus tamarii
+AAG00991.1	#99da63	Armigeres subalbatus
+PSN60886.1	#fe5652	Corynespora cassiicola
+RDW57779.1	#35438a	Coleophoma crateriformis
+OAE28668.1	#8b1377	Marchantia polymorpha
+CZT01018.1	#7fd1fd	Rhynchosporium commune
+USP77856.1	#640841	Curvularia clavata
+WP_256670161.1	#be89ba	Pseudomonas sp. CFSAN084952
+XP_045801049.1	#c2f467	Trifolium pratense
+GFY91847.1	#778542	Actinidia rufa
+AUO15583.1	#d5545a	Xya japonica
+XP_027157039.1	#bde10d	Coffea eugenioides
+WP_219826018.1	#29ade2	Nonomuraea typhae
+KAF8851362.1	#c4229c	Acephala macrosclerotiorum
+PQE04556.1	#800aaa	Rutstroemia sp. NJR-2017a BVV2
+KAH7085663.1	#52da2a	Paraphoma chrysanthemicola
+XP_040696788.1	#ed7373	Aspergillus sydowii
+KAI3914265.1	#829ba1	Papaver atlanticum
+KAF9002918.1	#54531e	Cyathus striatus
+KAI3450392.1	#0e3ea4	Paulownia fortunei
+XP_013140924.1	#e0a664	Papilio polytes
+CAH6624246.1	#31ee24	nan
+OCH91906.1	#61a574	Obba rivulosa
+Q95P07.1	#ed2f7c	Scutigera coleoptrata
+KAI5782554.1	#0208ce	Geopyxis carbonaria
+KXX80403.1	#395924	Madurella mycetomatis
+ORY16117.1	#951af2	Clohesyomyces aquaticus
+WP_085921990.1	#c9e7f7	Nitrosospira lacus
+AWK28015.1	#d1abff	Terebellides stroemii
+KAG8386961.1	#a1328e	Buddleja alternifolia
+KIH62610.1	#d1da8d	Ancylostoma duodenale
+RHZ77111.1	#8daa87	Diversispora epigaea
+KAI3353779.1	#dac9d4	Scortum barcoo
+XP_009170910.1	#7e7df8	Opisthorchis viverrini
+KAG7164723.1	#af838f	Homarus americanus
+KAG8490239.1	#250f5e	Gossypium anomalum
+MCE7916428.1	#dc68dd	Nitrosomonas sp. PRO5
+XP_045191498.1	#32c129	Mercenaria mercenaria
+CAG7818442.1	#9997e1	Allacma fusca
+KAF3004473.1	#ca0b2b	Neopestalotiopsis sp. 37M
+OVA07051.1	#7f97c8	Macleaya cordata
+XP_019875169.1	#f2342a	Aethina tumida
+WP_073749609.1	#064ac9	Streptomyces sp. CB02058
+KAI0007165.1	#231869	Xylariaceae sp. FL0662B
+MBX9589076.1	#8db194	Hyphomonadaceae bacterium
+XP_013093449.1	#02cc1f	Biomphalaria glabrata
+KAF4511633.1	#5b1c53	Ophiocordyceps sinensis
+GAQ10037.1	#f926f9	Aspergillus lentulus
+KAG9199920.1	#e11b05	Epicoccum nigrum
+KAI3845515.1	#7ff70f	Papaver armeniacum
+AGR40405.1	#74de6b	Occasjapyx japonicus
+KYP64362.1	#b7bc31	Cajanus cajan
+KAI5778036.1	#0208ce	Geopyxis carbonaria
+XP_003855468.1	#d2b1ef	Zymoseptoria tritici
+KAE9968852.1	#ff6677	Venturia inaequalis
+KAG8748990.1	#7d6c87	Serendipita sp. 396
+XP_021902258.1	#d791f0	Carica papaya
+WP_205820844.1	#a13595	Methylobacterium nonmethylotrophicum
+KAF8737922.1	#3a2369	Amanita brunnescens
+KAF7716819.1	#277a83	Penicillium sp. RFL-2021a
+KAF3023597.1	#ca0b2b	Neopestalotiopsis sp. 37M
+KAI1338963.1	#e7ba2f	Xylariaceae sp. FL0016
+EIF92164.1	#92a0c3	Streptomyces tsukubensis
+PWZ45673.1	#e965c2	Zea mays
+OEL36750.1	#dd3063	Dichanthelium oligosanthes
+XP_016760496.1	#cd150b	Sphaerulina musiva
+XP_031873206.1	#379621	Venustampulla echinocandica
+XP_018074665.1	#6c34bd	Mollisia scopiformis
+KAI1263886.1	#55f03c	Xylariaceae sp. FL1019
+XP_034232983.1	#25ed52	Thrips palmi
+KAH8822354.1	#c4bb54	Flagelloscypha sp. PMI_526
+PVH73894.1	#2fc4bc	Cadophora sp. DSE1049
+KKY34132.1	#b03f58	Diaporthe ampelina
+KAH7314625.1	#a70e37	Ceratopteris richardii
+XP_017759463.1	#83b2f3	Eufriesea mexicana
+XP_049126283.1	#1927e0	Colletotrichum spaethianum
+KND89565.1	#bd9677	Tolypocladium ophioglossoides
+KAI4296683.1	#8ec346	Bauhinia variegata
+XP_033390318.1	#908092	Aaosphaeria arxii
+KAH6676359.1	#2a2ba0	Halenospora varia
+WP_224368046.1	#bd1689	Hyalangium sp. H56D21
+CAD7407112.1	#c3a65e	Timema cristinae
+BAN20821.1	#e5142b	Riptortus pedestris
+XP_044657696.1	#d384bb	Cercospora kikuchii
+ABG23096.1	#abb009	Oryza rufipogon
+PKS05007.1	#5cc53a	Lomentospora prolificans
+KAH9969747.1	#4ff9cd	Russula dissimulans
+PQE12584.1	#2cef04	Rutstroemia sp. NJR-2017a BBW
+XP_014212554.1	#12e5b0	Copidosoma floridanum
+CAG8938113.1	#68a2ed	Penicillium salamii
+KAH7839089.1	#c808ef	Vaccinium darrowii
+XP_033394058.1	#1dfba6	Aplosporella prunicola
+XP_016554362.2	#42e086	Capsicum annuum
+MBV1881911.1	#546bab	Pseudomonadales bacterium
+KAF5204160.1	#73019b	Thalictrum thalictroides
+XP_046114480.1	#a4a78c	Emericellopsis atlantica
+OOF98338.1	#bf3bdd	Aspergillus carbonarius
+WP_212293187.1	#58391e	Bradyrhizobium sp. AUGA SZCCT0160
+CAD7592475.1	#f7d47e	Timema genevievae
+CAF9926552.1	#587510	Alectoria fallacina
+PPJ53114.1	#c6caa9	Cercospora berteroae
+RAR08977.1	#f03762	Stemphylium lycopersici
+TVY13885.1	#2cc59b	Lachnellula arida
+XP_026272742.1	#fe3aa0	Frankliniella occidentalis
+WP_190756671.1	#099021	Nostoc sp. FACHB-145
+PKS12625.1	#5cc53a	Lomentospora prolificans
+XP_007678611.1	#3588ba	Baudoinia panamericana
+XP_025457803.1	#3f05bd	Aspergillus niger
+PQE24042.1	#800aaa	Rutstroemia sp. NJR-2017a BVV2
+KAI0357534.1	#1411bd	Trametes cingulata
+XP_040689821.1	#d7445e	Aspergillus wentii
+EPS37967.1	#1efe31	Dactylellina haptotyla
+CRK10088.1	#4c4016	Verticillium longisporum
+MBV8440909.1	#b42a10	Hyphomicrobiales bacterium
+KAG9137560.1	#2c8c38	Lithospermum erythrorhizon
+EDW56881.1	#7bd095	Drosophila sechellia
+CDN40927.1	#08a1b2	Euphilomedes morini
+KAH1055311.1	#888341	Gossypium stocksii
+KAG6013142.1	#2ac9ce	Claviceps citrina
+KAH8601176.1	#7c1d67	Bisporella sp. PMI_857
+XP_033662795.1	#96d1ae	Zasmidium cellare
+WP_110355999.1	#2a92b8	Arenibacter sp. ARW7G5Y1
+KAG0522829.1	#33bb65	Sorghum bicolor
+XP_045963576.1	#f1be35	Truncatella angustata
+CAF9929908.1	#df67d8	Gomphillus americanus
+MBX2870036.1	#1fd173	Acidiferrobacterales bacterium
+KFY75915.1	#fc93ef	Pseudogymnoascus sp. VKM F-103
+MCG6869216.1	#c29f1d	Gammaproteobacteria bacterium
+XP_043275465.1	#e270fd	Venturia canescens
+KAF2218100.1	#6bdf42	Cercospora zeae-maydis
+TVU34985.1	#9a0967	Eragrostis curvula
+ODM94868.1	#8a75c8	Orchesella cincta
+ERS98528.1	#3bb71f	Sporothrix schenckii
+KMQ88521.1	#f7af68	Lasius niger
+PKA53518.1	#4e245d	Apostasia shenzhenica
+PIA19190.1	#579469	Coemansia reversa
+ATY66699.1	#7e19db	Cordyceps militaris
+EPB75541.1	#3c3560	Ancylostoma ceylanicum
+KAG8177966.1	#d2d56c	Oedothorax gibbosus
+KAG0150690.1	#2602bc	Cronartium quercuum
+OAE29378.1	#8b1377	Marchantia polymorpha
+XP_014168694.1	#cacbcb	Grosmannia clavigera
+XP_049167932.1	#359c8e	Wardomyces moseri
+XP_038790188.1	#f08ab1	Alternaria burnsii
+WP_189181463.1	#74fc37	Microbispora rosea
+MCJ1382861.1	#e60474	Xylographa soralifera
+XP_025439029.1	#7d9137	Aspergillus brunneoviolaceus
+KAG8791498.1	#3983a3	Ceratobasidium sp. 428
+KAF8243417.1	#60e016	Wilcoxina mikolae
+XP_047767728.1	#7f9e45	Fulvia fulva
+APO14262.1	#ce036a	Luffa aegyptiaca
+KAF9592632.1	#bd6e0c	Coptis chinensis
+KAF7742425.1	#5e0d76	Entomophthora muscae
+KAF2733977.1	#ca4291	Polyplosphaeria fusca
+KAF2745875.1	#5e0c08	Sporormia fimetaria
+WP_189560328.1	#5871a3	Streptomyces pilosus
+XP_037027574.1	#5f79ed	Bradysia coprophila
+KAI0482999.1	#94e179	Xylariaceae sp. FL0804
+WP_071900099.1	#31c2f4	Cystobacter ferrugineus
+CEJ61814.1	#7246d0	Penicillium brasilianum
+XP_011082856.1	#5861f2	Sesamum indicum
+KAG2574868.1	#5fbd1f	Panicum virgatum
+KAI2000056.1	#329cdb	Ophidiomyces ophidiicola
+XP_007928457.1	#7c1c57	Pseudocercospora fijiensis
+KAB2578807.1	#118803	Lasiodiplodia theobromae
+WP_020674092.1	#1f8c74	Amycolatopsis nigrescens
+KAG5659614.1	#79dc71	Fusarium avenaceum
+XP_039953601.1	#c059ba	Bactrocera tryoni
+VDN51517.1	#baf94b	Dracunculus medinensis
+KAB5590038.1	#c176a0	Ceratobasidium theobromae
+KAI0322397.1	#2ea45b	Amylostereum chailletii
+MCC2627838.1	#e02a3e	Thermomicrobiales bacterium
+TKA34355.1	#6ffd5b	Salinomyces thailandica
+XP_046990319.1	#fb6fc6	Schistocerca americana
+XP_041550003.1	#120385	Aspergillus puulaauensis
+KAI1335928.1	#e7ba2f	Xylariaceae sp. FL0016
+KAH9905172.1	#1c580f	Xylariomycetidae sp. FL2044
+XP_013113515.1	#f94870	Stomoxys calcitrans
+XP_018075688.1	#6c34bd	Mollisia scopiformis
+KAI0146663.1	#0fe245	Pestalotiopsis sp. NC0098
+KAF3009595.1	#56ed16	Curvularia kusanoi
+KAE9984929.1	#ff6677	Venturia inaequalis
+KAG5592191.1	#6d459c	Solanum commersonii
+XP_013238212.1	#de4826	Mitosporidium daphniae
+KAH7311503.1	#9c9c9b	Stachybotrys elegans
+KAF9891641.1	#7db400	Aspergillus nanangensis
+KAH8169994.1	#b0fdff	Sarocladium implicatum
+XP_046559331.1	#c1f599	Haliotis rubra
+WP_190669445.1	#b4b02a	Microcoleus sp. FACHB-672
+KAF5277006.1	#f1519c	Abscondita terminalis
+AFR79056.1	#946b93	Anopheles sinensis
+KAH6617711.1	#7366e6	Chaetomium sp. MPI-SDFR-AT-0129
+KAI0391311.1	#9407ad	Xylariaceae sp. FL0594
+KAH9242279.1	#8d2dbb	Colletotrichum gloeosporioides
+KAI0747371.1	#03a27a	Fomes fomentarius
+CAG8788505.1	#d63661	Racocetra persica
+XP_021956945.1	#b0c805	Folsomia candida
+P80960.2	#c3930f	Rapana venosa
+KAH7066127.1	#52da2a	Paraphoma chrysanthemicola
+XP_010628968.1	#933349	Fukomys damarensis
+XP_025696440.1	#4319e3	Arachis hypogaea
+XP_044141740.1	#160b88	Bufo gargarizans
+KAI0206828.1	#b9a0b4	Astrocystis sublimbata
+GJC89633.1	#fb02b9	Colletotrichum liriopes
+KAF3916223.1	#d05ffe	Arthrobotrys entomopaga
+XP_013104416.1	#f94870	Stomoxys calcitrans
+MCO5556760.1	#7dd150	Adiantum nelumboides
+XP_046627797.1	#31ee24	nan
+KAI1620459.1	#7c83a1	Exophiala sp. JF 03-3F
+CAB4290165.1	#0de39a	Prunus armeniaca
+MCO5596682.1	#7dd150	Adiantum nelumboides
+RPA84604.1	#2ccfc4	Ascobolus immersus
+CAG9826092.1	#e0fb2c	Diabrotica balteata
+KAH1217340.1	#605e43	Glycine max
+KAA8631412.1	#887ec5	Sordaria macrospora
+CDN40919.1	#91db3b	Cypridininae sp. JM-2014
+RXH99231.1	#856e97	Malus domestica
+PKY57931.1	#493b4a	Rhizophagus irregularis
+KAH7653587.1	#9a0e50	Dioscorea alata
+KAH8588626.1	#7c1d67	Bisporella sp. PMI_857
+XP_028405999.1	#28f13f	Dendronephthya gigantea
+CAA7404091.1	#945e04	Spirodela intermedia
+KAF2090081.1	#5c4624	Saccharata proteae
+KAF0511998.1	#d13b3e	Gigaspora margarita
+KAH6824118.1	#4141e5	Perilla frutescens
+XP_016642381.1	#7c2623	Scedosporium apiospermum
+OBS73934.1	#2279a2	Neotoma lepida
+KAF9612209.1	#bd6e0c	Coptis chinensis
+XP_035288045.1	#4c3935	Anguilla anguilla
+XP_008080551.1	#134a58	Glarea lozoyensis
+KAF8786002.1	#abc19b	Argiope bruennichi
+XP_028503538.1	#1ada7d	Alternaria arborescens
+KAG8037449.1	#09ffd9	Cotesia typhae
+TDZ35829.1	#6319ee	Colletotrichum spinosum
+XP_033106998.1	#ac0016	Anneissia japonica
+MBX2914544.1	#c3d712	Cyclobacteriaceae bacterium
+MBA3294133.1	#b7ec2f	Geodermatophilaceae bacterium
+KAG7207431.1	#7f5fa0	Ampulex compressa
+XP_018915716.1	#ef9cef	Bemisia tabaci
+KAF6153804.1	#1c1db3	Kingdonia uniflora
+QRV80543.1	#8ea31c	Ceratobasidium sp. AG-Ba
+XP_020628311.1	#3b0080	Orbicella faveolata
+XP_039114271.1	#b17129	Dioscorea cayenensis
+RCV19452.1	#026f69	Setaria italica
+KAI5805056.1	#0208ce	Geopyxis carbonaria
+PTQ30672.1	#8b1377	Marchantia polymorpha
+KAF4630174.1	#1138ed	Cudoniella acicularis
+KAI4122123.1	#d427f4	Usnochroma carphineum
+KAH8178615.1	#b0fdff	Sarocladium implicatum
+XP_033427774.1	#57ca39	Aspergillus tanneri
+XP_037926616.1	#23f308	Hermetia illucens
+VDN55943.1	#baf94b	Dracunculus medinensis
+KAB8259679.1	#da031b	Aspergillus pseudonomiae
+NMD45197.1	#07857d	Propionibacterium sp.
+KXT01151.1	#f1e35b	Pseudocercospora eumusae
+WP_008991843.1	#6ed2d7	Galbibacter marinus
+XP_020601040.1	#3b0080	Orbicella faveolata
+XP_032878346.1	#30214d	Amblyraja radiata
+KAF2837670.1	#c3a8f2	Patellaria atrata
+XP_001220655.1	#8068bb	Chaetomium globosum
+OAL00545.1	#d7e85b	Stagonospora sp. SRC1lsM3a
+KAH6837452.1	#4141e5	Perilla frutescens
+RKP09558.1	#902009	Thamnocephalis sphaerospora
+MBO1764714.1	#50ca45	Escherichia coli
+KAH0429785.1	#e8ec2d	Colletotrichum camelliae
+AAK29782.1	#1db5e5	Ananas comosus
+WP_142215334.1	#89079e	Streptomyces sp. SLBN-118
+PVI03373.1	#15e43d	Periconia macrospinosa
+KJA30004.1	#fa36a5	Hypholoma sublateritium
+ORY10740.1	#951af2	Clohesyomyces aquaticus
+RHZ77131.1	#8daa87	Diversispora epigaea
+XP_047845299.1	#3a5bb4	Purpureocillium takamizusanense
+XP_033661185.1	#96d1ae	Zasmidium cellare
+KAF8568900.1	#c70651	Paragonimus westermani
+XP_045958062.1	#f1be35	Truncatella angustata
+VDI68496.1	#307007	Mytilus galloprovincialis
+CAG7854384.1	#bb2667	Serendipita indica
+XP_019895575.1	#2acd07	Musca domestica
+XP_033399687.1	#1dfba6	Aplosporella prunicola
+XP_027239061.1	#7aa785	Penaeus vannamei
+KAF1355754.1	#d03233	Lizonia empirigonia
+KAG8043552.1	#601272	Zizania palustris
+XP_031619617.1	#6b51d2	Contarinia nasturtii
+KPP72990.1	#2b1eb7	Scleropages formosus
+KXN67860.1	#73de94	Conidiobolus coronatus
+XP_040693315.1	#d7445e	Aspergillus wentii
+XP_008809956.2	#bede8d	Phoenix dactylifera
+XP_030987221.1	#99e98b	Pyricularia grisea
+XP_043621955.1	#e6fef1	Erigeron canadensis
+KAH8388447.1	#024e89	Drosophila rubida
+KAH9495729.1	#2af09d	Bulinus truncatus
+MBX3324567.1	#b4cf8f	Nitrospira sp.
+KXN81457.1	#9e5e5c	Leucoagaricus sp. SymC.cos
+VDK47579.1	#b2519c	Cylicostephanus goldi
+KAF3043043.1	#41d261	Didymella keratinophila
+CAG5132259.1	#f79e0e	Candidula unifasciata
+CAH2725701.1	#5cf005	Parascedosporium putredinis
+KAI2949658.1	#3f05bd	Aspergillus niger
+KAF9691299.1	#6dfe59	Ascochyta lentis
+VDC05544.1	#eebeef	Peniophora sp. CBMAI 1063
+OQV06085.1	#fe82fb	Cladophialophora immunda
+KAI1750880.1	#d6102a	Xylaria castorea
+XP_001663685.2	#17555c	Aedes aegypti
+XP_046120614.1	#a4a78c	Emericellopsis atlantica
+CAH2723753.1	#5cf005	Parascedosporium putredinis
+PZS40454.1	#5ad256	Pseudonocardiales bacterium
+KAF8464457.1	#4f1705	Kalaharituber pfeilii
+CAG8960832.1	#96611f	Hymenoscyphus fraxineus
+KAI3906237.1	#829ba1	Papaver atlanticum
+EPE02553.1	#d5ced6	Ophiostoma piceae
+XP_031126629.1	#70dc07	Ipomoea triloba
+TVY52368.1	#efccbc	Lachnellula cervina
+PUU77273.1	#df37b4	Tuber borchii
+KAH7125927.1	#d15c64	Dactylonectria macrodidyma
+KMT08955.1	#c8a51b	Beta vulgaris
+CAH1402251.1	#fddb0e	Nezara viridula
+KAH7711214.1	#dd8cec	Aphelenchus avenae
+XP_045955902.1	#f1be35	Truncatella angustata
+OSS47223.1	#e11b05	Epicoccum nigrum
+VDO21514.1	#d0c724	Haemonchus placei
+AWK28009.1	#e18164	Pista macrolobata
+XP_018125918.1	#fedd24	Pseudogymnoascus verrucosus
+WP_087100606.1	#14ed45	Nocardiopsis sp. JB363
+PAV63633.1	#f6b6fd	Diploscapter pachys
+KAG8948096.1	#1f8bbc	Tulasnella sp. 424
+XP_037783642.1	#31b774	Penaeus monodon
+XP_014601988.1	#79a671	Polistes canadensis
+AUO15579.1	#950302	Tetrix subulata
+KAF8988417.1	#54531e	Cyathus striatus
+XP_047008070.1	#a0cf7c	Ictalurus punctatus
+MBA3946773.1	#e3f6be	Herpetosiphonaceae bacterium
+KAF4521662.1	#00ae81	Ephemera danica
+RKP10025.1	#902009	Thamnocephalis sphaerospora
+XP_005178578.1	#2acd07	Musca domestica
+KAI5081224.1	#cdee28	Adiantum capillus-veneris
+KAH9640838.1	#642e03	Spodoptera exigua
+KAF1362804.1	#d03233	Lizonia empirigonia
+KAH7446010.1	#a70e37	Ceratopteris richardii
+KAB0389772.1	#bb2543	Balaenoptera physalus
+CAG8979462.1	#0f3b6a	Hymenoscyphus albidus
+PSK42108.1	#ebb1ef	Elsinoe australis
+XP_041551268.1	#120385	Aspergillus puulaauensis
+XP_031829750.1	#a6d226	Nomia melanderi
+ROW06577.1	#3890ef	Valsa malicola
+ADR50356.1	#85b168	Oratosquilla oratoria
+KAF6172145.1	#1c1db3	Kingdonia uniflora
+KAH7132381.1	#20f315	Dendryphion nanum
+KAB2601167.1	#d9e94e	Pyrus ussuriensis x Pyrus communis
+KAF7594647.1	#370e83	Aspergillus hancockii
+XP_036582070.1	#39a8fd	Colletotrichum truncatum
+KAH9980145.1	#1c43d0	Lactarius volemus
+XP_039293530.1	#40655a	Nilaparvata lugens
+CDN40920.1	#d913e7	Skogsbergia lerneri
+KAG6794685.1	#52a589	Apis mellifera
+RKP06534.1	#902009	Thamnocephalis sphaerospora
+POR34505.1	#e595b7	Tolypocladium paradoxum
+AUO15577.1	#921e4e	Teleogryllus commodus
+KAF3047266.1	#41d261	Didymella keratinophila
+GEW30780.1	#fd6b74	Tanacetum cinerariifolium
+AWK27996.2	#597f66	Dorydrilus michaelseni
+BAA08234.1	#5b2e41	Phytolacca americana
+GAQ45571.1	#3f05bd	Aspergillus niger
+KAF5609119.1	#4cb386	Fusarium pseudoanthophilum
+KAH7313855.1	#9c9c9b	Stachybotrys elegans
+NP_001104234.1	#52a589	Apis mellifera
+KAE9533818.1	#697a7d	Aphis glycines
+XP_018702583.1	#dccd63	Cordyceps fumosorosea
+KAF9051996.1	#e931a9	Panaeolus papilionaceus
+KZN07214.1	#97a139	Daucus carota
+PPS09945.1	#5b96ba	Gossypium barbadense
+PQE23424.1	#2cef04	Rutstroemia sp. NJR-2017a BBW
+XP_007704379.1	#1a2ca2	Bipolaris sorokiniana
+KAI0049390.1	#ea8683	Auriscalpium vulgare
+XP_033553334.1	#e29462	Lindgomyces ingoldianus
+PWA80843.1	#e04447	Artemisia annua
+KAG4424821.1	#97cc67	Cadophora malorum
+OXU23520.1	#0ccc35	Trichomalopsis sarcophagae
+GAU48397.1	#76f3af	Trifolium subterraneum
+KJH52769.1	#92bba6	Dictyocaulus viviparus
+KAF8463421.1	#4f1705	Kalaharituber pfeilii
+XP_018069344.1	#6c34bd	Mollisia scopiformis
+KAH7561752.1	#dcc9d2	Bipolaris maydis
+VBB27738.1	#2faf77	Acanthocheilonema viteae
+KAA6411725.1	#bd2fdc	Lasallia pustulata
+KAF6812602.1	#8753ef	Colletotrichum musicola
+XP_044644385.1	#949475	Diaporthe batatas
+VDI50192.1	#307007	Mytilus galloprovincialis
+MCK5888430.1	#d202d5	Methylococcales bacterium
+XP_027059309.1	#5d6d39	Pocillopora damicornis
+XP_048759477.1	#81cf3b	Ostrea edulis
+Q9NFL6.3	#2dbd5b	Aphonopelma sp.
+KAH0451033.1	#36b766	Dendrobium chrysotoxum
+AUO15585.1	#efed0e	Ceuthophilus sp. XZ-2017
+KIM28073.1	#07c80a	Serendipita vermifera
+GFU88601.1	#c77719	Trichonephila clavipes
+XP_035374557.1	#118803	Lasiodiplodia theobromae
+ABS19633.1	#55178d	Eriocheir sinensis
+EDS25679.1	#b44a61	Culex quinquefasciatus
+KAH9954002.1	#4ff9cd	Russula dissimulans
+MBL8971030.1	#eaca19	Myxococcales bacterium
+KAA0187159.1	#83091a	Hyalella azteca
+KZM27132.1	#c4b749	Ascochyta rabiei
+XP_045454384.1	#6ad73d	Melitaea cinxia
+XP_018915947.1	#ef9cef	Bemisia tabaci
+XP_018042710.1	#c72baf	Paraphaeosphaeria sporulosa
+KAI0323589.1	#ba6260	Leiotrametes sp. BRFM 1775
+XP_046612148.1	#31ee24	nan
+RKP36616.1	#08adbf	Dimargaris cristalligena
+KAG7119311.1	#4c4016	Verticillium longisporum
+XP_021902268.1	#d791f0	Carica papaya
+VFQ65322.1	#7372be	Cuscuta campestris
+CAD2201968.1	#e41d65	Meloidogyne enterolobii
+XP_044649219.1	#949475	Diaporthe batatas
+KAB2637407.1	#d9e94e	Pyrus ussuriensis x Pyrus communis
+KZT32118.1	#1f6890	Sistotremastrum suecicum
+WP_140691945.1	#936449	Mycobacterium hodleri
+XP_011014566.1	#feb736	Populus euphratica
+MCJ1441897.1	#276a26	Stictis urceolatum
+WP_164283617.1	#09f746	Streptomyces sp. SID11385
+XP_001223255.1	#8068bb	Chaetomium globosum
+XP_039025592.1	#cb270d	Hibiscus syriacus
+PKA50207.1	#4e245d	Apostasia shenzhenica
+XP_034241487.1	#25ed52	Thrips palmi
+CAF1079969.1	#68caf1	Didymodactylos carnosus
+KIK65510.1	#5790c9	Gymnopus luxurians
+VUC32086.1	#883ccc	Clonostachys rosea
+KAF5310740.1	#cd27b3	Psilocybe cf. subviscida
+RVX72642.1	#324ee3	Exophiala mesophila
+KAH6788776.1	#4141e5	Perilla frutescens
+KAG8627161.1	#c36451	Elsinoe batatas
+KIM28123.1	#07c80a	Serendipita vermifera
+KAI0917996.1	#2a25eb	Taiwanofungus camphoratus
+GFT57366.1	#3093a0	Nephila pilipes
+PPQ64971.1	#6fd6b0	Panaeolus cyanescens
+XP_027109324.1	#b87515	Coffea arabica
+TQB76544.1	#0a0e5c	Monascus purpureus
+EXF85656.1	#8baf6e	Colletotrichum fioriniae
+PHH86986.1	#aa69af	Cordyceps sp. RAO-2017
+KAF2839090.1	#c3a8f2	Patellaria atrata
+TFK17914.1	#d7ae05	Coprinopsis marcescibilis
+P56824.1	#c8a79e	Sepia officinalis
+KAF1356442.1	#c32014	Delphinella strobiligena
+XP_031097154.1	#70dc07	Ipomoea triloba
+KAG9229730.1	#97b922	Amylocarpus encephaloides
+KAF2664657.1	#4b264e	Microthyrium microscopicum
+EJD52853.1	#9b9e59	Auricularia subglabra
+RDW60602.1	#581e14	Coleophoma cylindrospora
+URY20123.1	#59eaab	Lyophyllum decastes
+RFU26272.1	#721a9f	Scytalidium lignicola
+VDP13771.1	#265e13	Soboliphyme baturini
+PSN67571.1	#fe5652	Corynespora cassiicola
+XP_032869042.1	#30214d	Amblyraja radiata
+CAC04150.1	#ede9ff	Pimpla hypochondriaca
+TPX61975.1	#4a6bf9	Spizellomyces sp. 'palustris'
+ATU82892.1	#067a10	Pristhesancus plagipennis
+MCJ1485637.1	#98fb31	Schaereria dolodes
+KAB5549456.1	#ed7fc7	Coniochaeta sp. 2T2.1
+XP_044970555.1	#e626f6	Hordeum vulgare
+KAF8409312.1	#f4ac14	Tetracentron sinense
+KAF4633758.1	#1138ed	Cudoniella acicularis
+CAJ91100.1	#1fd4de	Limulus polyphemus
+KAI5055141.1	#cdee28	Adiantum capillus-veneris
+XP_037181913.1	#2259bb	Colletotrichum aenigma
+XP_045503558.1	#7aaa7a	Colias croceus
+KAI0417752.1	#adfbf5	Xylaria grammica
+XP_016641541.1	#7c2623	Scedosporium apiospermum
+XP_018573746.1	#e9a92b	Anoplophora glabripennis
+SMR61919.1	#d2b1ef	Zymoseptoria tritici
+KAI5738220.1	#8371a9	Diaphorina citri
+KAH8518717.1	#873a8d	Populus deltoides
+XP_019180268.1	#05bce6	Ipomoea nil
+AKN08990.1	#ce036a	Luffa aegyptiaca
+KAI0440084.1	#3c1a4b	Xylaria telfairii
+PPR04839.1	#b58e9d	Gymnopilus dilepis
+KAH8641986.1	#233254	Alternaria alternata
+ART33471.1	#dd5125	Lilium regale
+RKP09204.1	#902009	Thamnocephalis sphaerospora
+KAH6683562.1	#c2a24a	Plectosphaerella plurivora
+WP_028462518.1	#8c7c7e	Nitrosomonas cryotolerans
+ORX96097.1	#ca724f	Basidiobolus meristosporus
+KAF4771366.1	#6fd5ca	Penicillium sp. str. #12
+AMB26746.1	#f559a4	Leptochiton asellus
+XP_025583482.1	#4b260d	Fusarium venenatum
+USW56404.1	#a1ab0f	Septoria linicola
+ORY05582.1	#951af2	Clohesyomyces aquaticus
+KAG9042399.1	#b5a0aa	Tulasnella sp. UAMH 9824
+XP_043278884.1	#e270fd	Venturia canescens
+XP_001539729.1	#00cf00	Histoplasma mississippiense (nom. inval.)
+TVY50686.1	#efccbc	Lachnellula cervina
+KAI0317721.1	#2ea45b	Amylostereum chailletii
+XP_043541965.1	#cb41f1	Chiloscyllium plagiosum
+KAF2443024.1	#799dd9	Karstenula rhodostoma
+WP_045052610.1	#13d5f6	Aliterella atlantica
+XP_015594791.1	#9334ee	Cephus cinctus
+XP_021993750.1	#09e7bc	Helianthus annuus
+KAH8627942.1	#233254	Alternaria alternata
+XP_016643220.1	#7c2623	Scedosporium apiospermum
+XP_023629978.1	#45ac6c	Ramularia collo-cygni
+EJD52842.1	#9b9e59	Auricularia subglabra
+KAG5889586.1	#ae6333	Gonioctena quinquepunctata
+XP_018573822.1	#e9a92b	Anoplophora glabripennis
+XP_041076966.1	#4da154	Polyodon spathula
+XP_043019123.1	#5263d1	Diaporthe citri
+KAH9861149.1	#bffc77	Leptosphaeria maculans
+KAI3660612.1	#49b45c	Amoeboaphelidium occidentale
+KAF2109396.1	#40cbc7	Lophiotrema nucula
+ACF70600.1	#78e1c0	Haliotis diversicolor
+OSX70002.1	#89eb9a	Porphyra umbilicalis
+KAG6755206.1	#501bec	Populus tomentosa
+RPB15312.1	#044b92	Morchella conica
+CAG8657383.1	#0be115	Dentiscutata erythropus
+CAG8726493.1	#d856e7	Cetraspora pellucida
+XP_025468213.1	#9b4afc	Aspergillus sclerotioniger
+KAF1834931.1	#25c978	Decorospora gaudefroyi
+KAF7515837.1	#18b8b5	Penicillium crustosum
+CAG1968290.1	#5e7dbb	Fusarium graminearum
+RZC44591.1	#58a3b6	Papaver somniferum
+KAF6520643.1	#bfbf10	Fusarium oxysporum
+KAF9895128.1	#7db400	Aspergillus nanangensis
+AQV14023.1	#0f8755	Entomobryomorpha sp. 2 SF-2017
+KAG8951142.1	#f1666f	Tulasnella sp. 419
+XP_018388174.1	#233254	Alternaria alternata
+KAF2084790.1	#5c4624	Saccharata proteae
+XP_018311115.1	#085df1	Trachymyrmex zeteki
+BAM15848.1	#d982b8	Portulaca oleracea
+XP_016294168.1	#bac42c	Kalmanozyma brasiliensis
+XP_002430692.1	#2ce4be	Pediculus humanus
+GFY55485.1	#0ef022	Trichonephila inaurata
+KAF8248672.1	#60e016	Wilcoxina mikolae
+XP_040400223.1	#99ed61	Cygnus olor
+KAH8647885.1	#ed894d	Xylariales sp. PMI_506
+KAF4222196.1	#faf4e8	Aspergillus fumigatiaffinis
+KAB0376826.1	#671bc4	Muntiacus reevesi
+EFA09147.2	#82d486	Tribolium castaneum
+AAB22190.1	#f67600	Panulirus interruptus
+KAI4342972.1	#0629c2	Melastoma candidum
+RPA77400.1	#2ccfc4	Ascobolus immersus
+WP_190853407.1	#f023bd	Actinomadura sp. RB99
+XP_022848549.1	#1a4422	Olea europaea
+XP_011393251.1	#c49f49	Neurospora crassa
+KAH7103715.1	#15ed82	Auriculariales sp. MPI-PUGE-AT-0066
+OXV11945.1	#362c2d	Elaphomyces granulatus
+KOF78230.1	#70a5ca	Octopus bimaculoides
+KAI3905696.1	#d395ed	Papaver californicum
+MCA9650125.1	#eaca19	Myxococcales bacterium
+MCC7476280.1	#483ad0	Pirellulales bacterium
+KAF6794648.1	#8753ef	Colletotrichum musicola
+KAF9504033.1	#af3283	Hydnum rufescens
+UUJ74936.1	#7ee3a0	Cephalotaxus hainanensis
+XP_031620301.1	#6b51d2	Contarinia nasturtii
+KAF4551773.1	#1998e4	Elsinoe fawcettii
+PYH90972.1	#a0e570	Aspergillus ellipticus
+PVH98840.1	#15e43d	Periconia macrospinosa
+XP_031829842.1	#a6d226	Nomia melanderi
+KIP02310.1	#08b95f	Phlebiopsis gigantea
+KAI0122938.1	#ddbccd	Xylariales sp. AK1849
+XP_015112041.1	#8e3041	Diachasma alloeum
+CAF9933381.1	#161601	Heterodermia speciosa
+XP_021340235.1	#d7cac0	Mizuhopecten yessoensis
+Q95P08.1	#ed2f7c	Scutigera coleoptrata
+KAG7071303.1	#e5e326	Colletotrichum scovillei
+CCC55875.1	#5e7993	Polydesmus angustus
+TQV94394.1	#ad5d2e	Cordyceps javanica
+PMD29051.1	#05287e	Hyaloscypha variabilis
+XP_001597382.1	#4fe1bd	Sclerotinia sclerotiorum
+EPS57764.1	#ae34f6	Genlisea aurea
+KAH8760989.1	#f2354c	Diaporthaceae sp. PMI_573
+KAH9507512.1	#2af09d	Bulinus truncatus
+PIN14146.1	#971489	Handroanthus impetiginosus
+PNS17318.1	#0fd19b	Sphaceloma murrayae
+NEB75782.1	#6c8742	Streptomyces sp. SID14478
+KAF4954519.1	#3444cf	Fusarium sarcochroum
+KAF7535802.1	#b552a7	Neopestalotiopsis clavispora
+XP_046386162.1	#c08f65	Ischnura elegans
+OWP00047.1	#9bafbd	Marssonina coronariae
+KAI0120706.1	#ddbccd	Xylariales sp. AK1849
+XP_033598323.1	#ff45b2	Pseudovirgaria hyperparasitica
+XP_047941911.1	#4dcc29	Salvia hispanica
+KAI0821744.1	#25f345	Trametes gibbosa
+KAH6839544.1	#598553	Chaetomium sp. MPI-CAGE-AT-0009
+MBW0462316.1	#adf6f5	Austropuccinia psidii
+KXN71046.1	#73de94	Conidiobolus coronatus
+GFX10563.1	#c77719	Trichonephila clavipes
+XP_020690239.2	#f174f0	Dendrobium catenatum
+KAH7311288.1	#9c9c9b	Stachybotrys elegans
+KAF7752794.1	#5e0d76	Entomophthora muscae
+XP_047309494.1	#718a49	Impatiens glandulifera
+KAE9552646.1	#46d96d	Halicephalobus sp. NKZ332
+XP_007785677.1	#0b08b3	Endocarpon pusillum
+KAI5055145.1	#cdee28	Adiantum capillus-veneris
+XP_013190920.1	#523178	Amyelois transitella
+RSL84120.1	#6bf12b	Fusarium floridanum
+KAI3675066.1	#b6374c	Smallanthus sonchifolius
+KAF6136325.1	#1c1db3	Kingdonia uniflora
+KAH7374341.1	#bdb73b	Pyrenochaeta sp. MPI-SDFR-AT-0127
+TVU14779.1	#9a0967	Eragrostis curvula
+MCJ1262196.1	#f7020b	Lobaria immixta
+XP_043928934.1	#048798	Protopterus annectens
+XP_044695755.1	#895a3c	Morchella sextelata
+KAF7757475.1	#5e0d76	Entomophthora muscae
+KAF7994703.1	#2b4ada	Aphidius gifuensis
+XP_046387012.1	#c08f65	Ischnura elegans
+XP_011308418.1	#4550c2	Fopius arisanus
+PKA50210.1	#4e245d	Apostasia shenzhenica
+XP_034230660.1	#25ed52	Thrips palmi
+KAF6172155.1	#1c1db3	Kingdonia uniflora
+OQO14223.1	#8e58a7	Rachicladosporium antarcticum
+KAG4423551.1	#97cc67	Cadophora malorum
+KAG4425732.1	#97cc67	Cadophora malorum
+KAF4519140.1	#00ae81	Ephemera danica
+KAF4381246.1	#38916a	Cannabis sativa
+XP_022907906.1	#c7bb5c	Onthophagus taurus
+WP_088242599.1	#deb2ab	Calothrix rhizosoleniae
+XP_032453316.1	#4d9d67	Nasonia vitripennis
+XP_046434462.1	#492bb2	Neodiprion fabricii
+SJL09928.1	#03f50e	Armillaria ostoyae
+CAE6350796.1	#2c63a5	Rhizoctonia solani
+KAG0565483.1	#6252ae	Ceratodon purpureus
+KAF4462292.1	#342b52	Fusarium albosuccineum
+CAG7558099.1	#1d9bc2	Fusarium equiseti
+ORY04611.1	#ca724f	Basidiobolus meristosporus
+KAF9633026.1	#118803	Lasiodiplodia theobromae
+TDZ29471.1	#6319ee	Colletotrichum spinosum
+AKC96431.1	#3159d8	Scylla paramamosain
+MCH9052930.1	#a47768	Proteobacteria bacterium
+XP_026397049.1	#58a3b6	Papaver somniferum
+PFH62382.1	#b8d036	Ophiocordyceps unilateralis
+XP_022344537.1	#8b1255	Crassostrea virginica
+KAI5780456.1	#0208ce	Geopyxis carbonaria
+KAF2706982.1	#f6955d	Pleomassaria siparia
+XP_008020280.1	#a078cb	Exserohilum turcicum
+OMJ14267.1	#eeb65e	Smittium culicis
+KAF2644631.1	#cdad37	Massarina eburnea
+KAI4915846.1	#f31f7d	Alternaria incomplexa
+PVI01667.1	#15e43d	Periconia macrospinosa
+KAF2708625.1	#f6955d	Pleomassaria siparia
+XP_041376557.1	#f49676	Gigantopelta aegis
+KAI1362190.1	#fd863e	Xylaria arbuscula
+CCA94916.1	#97dc41	Euphrynichus bacillifer
+KAI1090370.1	#2ab8a1	Rostrohypoxylon terebratum
+XP_021966880.1	#b0c805	Folsomia candida
+KAF2303387.1	#53406b	Hevea brasiliensis
+XP_016463495.1	#45f36d	Nicotiana tabacum
+XP_032829372.1	#7f05be	Petromyzon marinus
+TEB22150.1	#fc1436	Coprinellus micaceus
+XP_017777166.1	#2d926e	Nicrophorus vespilloides
+CAG8546807.1	#1d582e	Dentiscutata heterogama
+KAG7006779.1	#88ab17	Physcia stellaris
+PVV02444.1	#c5332d	Smittium megazygosporum
+TBU33894.1	#b4a924	Dichomitus squalens
+XP_016108584.1	#24b722	Sinocyclocheilus grahami
+AIE39570.1	#f82f12	Locusta migratoria
+MCJ1460686.1	#1e1d48	Mycoblastus sanguinarius
+CAR94712.1	#306a36	Xibalbanus tulumensis
+KAF2438104.1	#799dd9	Karstenula rhodostoma
+PON96100.1	#805f8f	Trema orientale
+TVY16990.1	#2cc59b	Lachnellula arida
+CAH0054154.1	#ba05d8	Clonostachys solani
+XP_018023978.1	#83091a	Hyalella azteca
+PHH51566.1	#48577d	Ceratocystis fimbriata
+PKA46166.1	#4e245d	Apostasia shenzhenica
+XP_011303846.1	#4550c2	Fopius arisanus
+KAE8451007.1	#14439a	Helotiales sp. DMI_Dod_QoI
+KAH8783229.1	#f2354c	Diaporthaceae sp. PMI_573
+VBB87272.1	#5ad4d0	Podospora comata
+ORX93111.1	#ca724f	Basidiobolus meristosporus
+KAF1990406.1	#65370c	Aulographum hederae
+KAE9972937.1	#ff6677	Venturia inaequalis
+KAF2269165.1	#929eda	Didymosphaeria enalia
+AGA24618.1	#76b003	Singulisphaera acidiphila
+KAH7305208.1	#9c9c9b	Stachybotrys elegans
+MBW4502027.1	#5e50c3	Scytonema hyalinum
+XP_031095910.1	#70dc07	Ipomoea triloba
+KAH8348467.1	#fed228	Drosophila pseudotakahashii
+ALG05138.1	#a4b22b	Sinopodophyllum hexandrum
+AWK28012.1	#051ca6	Streblosoma hartmanae
+TVU43160.1	#9a0967	Eragrostis curvula
+OXU21666.1	#0ccc35	Trichomalopsis sarcophagae
+CAM84199.1	#d221a9	Perla marginata
+WP_114623304.1	#33f4d8	Streptomyces corynorhini
+KAH7379960.1	#5033f7	Leotiomycetes sp. MPI-SDFR-AT-0126
+KAG7293508.1	#019494	Staphylotrichum longicolle
+XP_049821677.1	#f2342a	Aethina tumida
+KAH6716261.1	#f6228a	Leptodontidium sp. MPI-SDFR-AT-0119
+KAE8833967.1	#5b3cae	Pyrenophora teres
+KFB46508.1	#946b93	Anopheles sinensis
+XP_027096178.1	#b87515	Coffea arabica
+KAH8171379.1	#b0fdff	Sarocladium implicatum
+CBI25830.3	#fc875a	Vitis vinifera
+RXG60847.1	#e0ceed	Armadillidium vulgare
+KAI3836630.1	#7ff70f	Papaver armeniacum
+KAH7115400.1	#d54f80	Dactylonectria estremocensis
+KAH8663402.1	#d2f8d4	Hymenoscyphus varicosporioides
+KID93762.1	#59c57d	Metarhizium majus
+GBG72523.1	#29a679	Chara braunii
+KAG8745104.1	#f3661d	Ceratobasidium sp. 414
+KAG9454118.1	#b1f8f8	Aristolochia fimbriata
+HHJ20289.1	#c29f1d	Gammaproteobacteria bacterium
+XP_033441676.1	#fc875f	Daldinia childiae
+EKG13090.1	#80d14a	Macrophomina phaseolina
+KAF2743538.1	#5e0c08	Sporormia fimetaria
+KZC07220.1	#caf640	Dufourea novaeangliae
+KAH8888536.1	#434224	Thozetella sp. PMI_491
+CAG9825513.1	#927904	Phaedon cochleariae
+XP_046490789.1	#466ae8	Neodiprion pinetum
+KAG8953719.1	#1f8bbc	Tulasnella sp. 424
+KAH8885006.1	#434224	Thozetella sp. PMI_491
+AEE63608.1	#1bbd67	Dendroctonus ponderosae
+CAH2721696.1	#5cf005	Parascedosporium putredinis
+KPI98957.1	#80106d	Papilio xuthus
+KAI4296679.1	#8ec346	Bauhinia variegata
+CCC55876.1	#5e7993	Polydesmus angustus
+QPL23783.1	#5869f5	Camellia sinensis
+KUI74465.1	#a55423	Valsa mali
+XP_048389184.1	#098399	Stegostoma fasciatum
+XP_033655253.1	#070552	Westerdykella ornata
+WP_123714758.1	#31ee24	nan
+XP_018390770.1	#233254	Alternaria alternata
+KAI0156308.1	#0fe245	Pestalotiopsis sp. NC0098
+XP_044691763.1	#895a3c	Morchella sextelata
+KAF3917085.1	#80821f	Dactylellina cionopaga
+ANZ03352.1	#ff8937	Rhodnius prolixus
+KAI0082073.1	#7583b3	Panus rudis
+AAX69084.1	#344a4f	Physcomitrium patens
+RYC64738.1	#276a40	Xylaria longipes
+KAI0475366.1	#94e179	Xylariaceae sp. FL0804
+KAH8194841.1	#f1be35	Truncatella angustata
+PON50737.1	#f2f9dc	Parasponia andersonii
+CCC55880.1	#69a1f7	Polyxenus lagurus
+XP_003651050.1	#50d585	Thermothielavioides terrestris
+KAH9507487.1	#2af09d	Bulinus truncatus
+KAF8538676.1	#a5d761	Trichophaea hybrida
+CAG2203650.1	#a43774	Mytilus edulis
+MCJ1389657.1	#85f561	Xylographa bjoerkii
+KAG6016128.1	#4f3663	Claviceps pusilla
+KAF2303370.1	#53406b	Hevea brasiliensis
+XP_001885134.1	#1d708d	Laccaria bicolor
+KAI3786457.1	#b6374c	Smallanthus sonchifolius
+QRV80544.1	#8ea31c	Ceratobasidium sp. AG-Ba
+XP_010756591.1	#7d1fca	Paracoccidioides brasiliensis
+KAH8602301.1	#7c1d67	Bisporella sp. PMI_857
+KAI0244529.1	#39eba9	Massospora cicadina
+KAG8921548.1	#dcb310	Tulasnella sp. 417
+KAE8740929.1	#fe3aa0	Frankliniella occidentalis
+MCO5567192.1	#7dd150	Adiantum nelumboides
+CAA0809461.1	#870374	Striga hermonthica
+XP_047752336.1	#3d614e	Psilocybe cubensis
+KAF1968702.1	#c56215	Bimuria novae-zelandiae
+RKP14640.1	#12650f	Piptocephalis cylindrospora
+WP_063772953.1	#8543ce	Scytonema tolypothrichoides
+WP_176225157.1	#7a13db	Methylomagnum ishizawai
+AZM68736.1	#a302ce	Palaemon carinicauda
+OMO76490.1	#d91096	Corchorus capsularis
+KAI4456158.1	#fc10e7	Holotrichia oblita
+XP_036588819.1	#39a8fd	Colletotrichum truncatum
+KAF4819289.1	#fbf870	Colletotrichum siamense
+PIO72151.1	#d23039	Teladorsagia circumcincta
+KAF8421832.1	#e11041	Tirmania nivea
+XP_022847641.1	#1a4422	Olea europaea
+XP_013858691.1	#7579fa	Austrofundulus limnaeus
+XP_007387203.1	#f29d4d	Punctularia strigosozonata
+MCI0458471.1	#5fe599	Gemmataceae bacterium
+KAF1975455.1	#c56215	Bimuria novae-zelandiae
+XP_007837583.1	#313993	Pestalotiopsis fici
+CAG9854814.1	#f94fcb	Phyllotreta striolata
+KAI5448071.1	#320a0b	Pisum sativum
+WP_202122399.1	#361c1a	Streptomyces sp. BA2
+XP_038918318.1	#ec1791	Cantharellus anzutake
+WP_170034899.1	#f66dcf	Longimicrobium terrae
+KAI0271792.1	#0d6695	Russula aff. rugulosa BPL654
+XP_014790188.1	#70a5ca	Octopus bimaculoides
+RKP07248.1	#902009	Thamnocephalis sphaerospora
+KAF9672721.1	#4c8857	Salix dunnii
+GGT52810.1	#0a8db7	Streptomyces purpureus
+KAH8892164.1	#434224	Thozetella sp. PMI_491
+XP_011506305.1	#4e4457	Ceratosolen solmsi
+EQB48366.1	#8d2dbb	Colletotrichum gloeosporioides
+KAH9903835.1	#1c580f	Xylariomycetidae sp. FL2044
+KAG5979657.1	#4fa83e	Claviceps digitariae
+XP_024703695.1	#8772cd	Aspergillus steynii
+CAG8953429.1	#96611f	Hymenoscyphus fraxineus
+GBG87041.1	#29a679	Chara braunii
+KAF2666152.1	#4b264e	Microthyrium microscopicum
+OAE31512.1	#8b1377	Marchantia polymorpha
+CAE46724.1	#874116	Homarus gammarus
+KIV85884.1	#30fce0	Exophiala sideris
+AGC55012.1	#5ad222	Suaeda salsa
+XP_014790639.1	#70a5ca	Octopus bimaculoides
+KAF9530165.1	#1730ac	Crepidotus variabilis
+WP_212423369.1	#3cba99	Bradyrhizobium sp. AUGA SZCCT0283
+XP_022391107.1	#20fb48	Aspergillus bombycis
+XP_022916615.1	#c7bb5c	Onthophagus taurus
+KAH0741245.1	#99bd03	Solanum tuberosum
+OSX80881.1	#89eb9a	Porphyra umbilicalis
+XP_023448752.1	#84c120	Cercospora beticola
+KAI3542090.1	#c47e48	Colletotrichum abscissum
+KAF8543727.1	#a5d761	Trichophaea hybrida
+KKK19411.1	#90245b	Aspergillus ochraceoroseus
+WP_221339899.1	#6d8a5b	Nonomuraea endophytica
+EQB48367.1	#8d2dbb	Colletotrichum gloeosporioides
+CAD5228641.1	#a5bb68	Bursaphelenchus xylophilus
+XP_043025961.1	#5263d1	Diaporthe citri
+EPS45144.1	#1efe31	Dactylellina haptotyla
+CAG5132263.1	#f79e0e	Candidula unifasciata
+KAH8349579.1	#fed228	Drosophila pseudotakahashii
+XP_008719873.1	#3a5f75	Cyphellophora europaea
+RKP06673.1	#902009	Thamnocephalis sphaerospora
+VDK59915.1	#7b9db1	Anisakis simplex
+XP_044143218.1	#160b88	Bufo gargarizans
+XP_012280759.1	#164ab9	Orussus abietinus
+CAG8441087.1	#1d582e	Dentiscutata heterogama
+KAF2829829.1	#283af9	Ophiobolus disseminans
+XP_021949214.1	#b0c805	Folsomia candida
+WP_089894324.1	#4e5ca5	Chitinophaga arvensicola
+XP_049856056.1	#6d9fc0	Schistocerca gregaria
+XP_015914467.1	#6a5bae	Parasteatoda tepidariorum
+KAF9464005.1	#a6801e	Lepista nuda
+XP_001905174.1	#6a5228	Podospora anserina
+XP_016757378.1	#cd150b	Sphaerulina musiva
+RVX72796.1	#324ee3	Exophiala mesophila
+KAF5127163.1	#e22259	Metarhizium anisopliae
+VDC02340.1	#eebeef	Peniophora sp. CBMAI 1063
+MXY38605.1	#ed558f	Rhodospirillaceae bacterium
+CAE6470577.1	#2c63a5	Rhizoctonia solani
+KAH0642709.1	#99bd03	Solanum tuberosum
+TVU14855.1	#9a0967	Eragrostis curvula
+RYP23081.1	#913a08	Monosporascus sp. GIB2
+PVH82847.1	#2fc4bc	Cadophora sp. DSE1049
+XP_003847727.1	#d2b1ef	Zymoseptoria tritici
+RPB25627.1	#76b894	Terfezia boudieri
+PVH78111.1	#2fc4bc	Cadophora sp. DSE1049
+XP_016756703.1	#cd150b	Sphaerulina musiva
+KAH9909712.1	#1c580f	Xylariomycetidae sp. FL2044
+KAF7742750.1	#5e0d76	Entomophthora muscae
+XP_024702781.1	#8772cd	Aspergillus steynii
+XP_004965883.1	#026f69	Setaria italica
+XP_044708526.1	#bd0507	Fusarium poae
+XP_030995030.1	#fdc81e	Thyridium curvatum
+KAH9969746.1	#4ff9cd	Russula dissimulans
+XP_022581844.1	#ed9122	Penicilliopsis zonata
+GCC18807.1	#e57846	Chiloscyllium punctatum
+RYC58246.1	#276a40	Xylaria longipes
+WP_188270526.1	#31ee24	nan
+CAH1402250.1	#fddb0e	Nezara viridula
+KAF2822336.1	#283af9	Ophiobolus disseminans
+KAI5071909.1	#cdee28	Adiantum capillus-veneris
+SMQ55142.1	#d2b1ef	Zymoseptoria tritici
+RKL20285.1	#bfbf10	Fusarium oxysporum
+XP_008600959.1	#b8534b	Beauveria bassiana
+KFB48432.1	#946b93	Anopheles sinensis
+CUH82791.1	#7b4197	Argulus foliaceus
+Q8T116.1	#ed2f7c	Scutigera coleoptrata
+XP_023245051.1	#12e5b0	Copidosoma floridanum
+RWR84494.1	#4ab84c	Cinnamomum micranthum
+KAF6200526.1	#81a5d3	Apolygus lucorum
+KXX78619.1	#395924	Madurella mycetomatis
+XP_044731626.1	#ae390d	Chrysoperla carnea
+XP_020709551.2	#7c8e4c	Athalia rosae
+XP_031076679.1	#1d048a	Fusarium proliferatum
+BAL15152.1	#13979b	Penaeus japonicus
+KAI4614101.1	#31ee24	nan
+XP_023741652.1	#b9806c	Lactuca sativa
+XP_035348883.1	#186b43	Talaromyces rugulosus
+GHG97595.1	#4659be	Streptomyces rubradiris
+KAI5463531.1	#1f8c4b	Mariannaea sp. PMI_226
+XP_030991802.1	#fdc81e	Thyridium curvatum
+KAI0123787.1	#ddbccd	Xylariales sp. AK1849
+KAF1355335.1	#c32014	Delphinella strobiligena
+KAG0471350.1	#b77d36	Vanilla planifolia
+CAG5132266.1	#f79e0e	Candidula unifasciata
+RVW23732.1	#fc875a	Vitis vinifera
+XP_025586915.1	#4b260d	Fusarium venenatum
+VDP13001.1	#18a623	Onchocerca flexuosa
+KAG8823547.1	#4f6d8d	Serendipita sp. 401
+XP_003111038.1	#0a35bf	Caenorhabditis remanei
+CEL51521.1	#2c63a5	Rhizoctonia solani
+KAB5518927.1	#ed7fc7	Coniochaeta sp. 2T2.1
+NP_492055.2	#df1fa7	Caenorhabditis elegans
+PHT93295.1	#42e086	Capsicum annuum
+RMD39541.1	#ebc040	Chaetothyriales sp. CBS 134920
+XP_037905738.1	#23f308	Hermetia illucens
+XP_016758932.1	#cd150b	Sphaerulina musiva
+ORX86788.1	#ca724f	Basidiobolus meristosporus
+KAI3675064.1	#b6374c	Smallanthus sonchifolius
+XP_001228655.1	#8068bb	Chaetomium globosum
+XP_032527716.1	#753c2b	Danaus plexippus
+KAH8886964.1	#434224	Thozetella sp. PMI_491
+XP_018135981.1	#f76917	Pochonia chlamydosporia
+RCN36004.1	#6d4326	Ancylostoma caninum
+KAF2460042.1	#5456ff	Lineolata rhizophorae
+KAG8793441.1	#3983a3	Ceratobasidium sp. 428
+KAG9356026.1	#eb6661	Albula glossodonta
+WP_188431840.1	#3e3a32	Ornithinimicrobium tianjinense
+KAF8849927.1	#c4229c	Acephala macrosclerotiorum
+XP_008721165.1	#3a5f75	Cyphellophora europaea
+XP_025400483.1	#3371bc	Aspergillus heteromorphus
+MCO5558121.1	#7dd150	Adiantum nelumboides
+KAA8594889.1	#73c363	Etheostoma spectabile
+PSK33967.1	#ebb1ef	Elsinoe australis
+CAD7455649.1	#474d2c	Timema tahoe
+RVD80225.1	#636e08	Arthrobotrys flagrans
+XP_021356572.1	#d7cac0	Mizuhopecten yessoensis
+TFK66538.1	#b28469	Pluteus cervinus
+PBK73405.1	#c0871d	Armillaria solidipes
+XP_018148228.1	#f76917	Pochonia chlamydosporia
+PQQ07200.1	#f43093	Prunus yedoensis
+XP_042238970.1	#af838f	Homarus americanus
+KXN74971.1	#73de94	Conidiobolus coronatus
+XP_042217140.1	#af838f	Homarus americanus
+MCJ1423362.1	#93279e	Sticta canariensis
+XP_039430147.1	#f9217d	Culex pipiens
+KZT70397.1	#a867dc	Daedalea quercina
+KAF2203556.1	#7d8f13	Delitschia confertaspora
+WP_030558363.1	#db5590	Streptomyces exfoliatus
+CAB3267405.1	#6cbf62	Phallusia mammillata
+ORY14554.1	#951af2	Clohesyomyces aquaticus
+KAB5593114.1	#c176a0	Ceratobasidium theobromae
+KAI1711347.1	#548ee5	Ditylenchus destructor
+XP_024737544.1	#09bd0a	Hyaloscypha bicolor
+XP_033754771.1	#c07337	Pecten maximus
+AAC47391.1	#f82f12	Locusta migratoria
+KAI4190891.1	#63f9f9	Letrouitia leprolyta
+KAG8983085.1	#2c38d1	Tulasnella sp. JGI-2019a
+KAF8637719.1	#9e3124	Amanita inopinata
+KAH8898790.1	#434224	Thozetella sp. PMI_491
+KAF8178954.1	#449816	Pholiota molesta
+XP_011255340.2	#cb75ce	Camponotus floridanus
+KZS90383.1	#8eda33	Sistotremastrum niveocremeum
+KAB5511589.1	#ed7fc7	Coniochaeta sp. 2T2.1
+RIA97854.1	#6cea27	Glomus cerebriforme
+KAF2690201.1	#e7aef9	Lentithecium fluviatile
+XP_006459596.1	#742920	Agaricus bisporus
+WP_085580659.1	#31ee24	nan
+OXU26739.1	#0ccc35	Trichomalopsis sarcophagae
+KNE58223.1	#36c7e2	Allomyces macrogynus
+EGT48025.1	#1d9dfd	Caenorhabditis brenneri
+KAI4374109.1	#0629c2	Melastoma candidum
+MCJ1334210.1	#d38ea5	Thelotrema lepadinum
+RPA87212.1	#2ccfc4	Ascobolus immersus
+KAG8711521.1	#16a236	Ceratobasidium sp. 423
+CAG8958332.1	#96611f	Hymenoscyphus fraxineus
+KAF5291756.1	#22556f	Lamprigera yunnana
+AGI42860.1	#7c4ac1	Penaeus chinensis
+AGT28746.1	#f34c3b	Coreopsis grandiflora
+VDI36592.1	#307007	Mytilus galloprovincialis
+CAG8544289.1	#e94bcb	Acaulospora colombiana
+TAQ86943.1	#e8668b	Chlorociboria aeruginascens
+CAH1376321.1	#a49eaa	Tenebrio molitor
+KAH9303990.1	#bb5767	Taxus chinensis
+EYC41981.1	#3c3560	Ancylostoma ceylanicum
+KAH9983306.1	#b1ffb9	Russula compacta
+XP_037906944.1	#23f308	Hermetia illucens
+OAL50042.1	#723956	Pyrenochaeta sp. DS3sAY3a
+RYP66618.1	#76c4b2	Monosporascus sp. 5C6A
+KAF9529259.1	#1730ac	Crepidotus variabilis
+WP_215179726.1	#462b5c	Streptomyces sp. ISL-10
+VDP12492.1	#265e13	Soboliphyme baturini
+KAA8540488.1	#b2077a	Nyssa sinensis
+KAH4109359.1	#690104	Parastagonospora nodorum
+ABJ90144.1	#6aac3d	Annona cherimola
+AAZ99030.1	#4e4d9b	Perla grandis
+OEL13913.1	#dd3063	Dichanthelium oligosanthes
+XP_049251885.1	#d3531b	Alternaria novae-zelandiae
+XP_033462716.1	#2b1a57	Dissoconium aciculare
+XP_016595732.1	#b24297	Penicillium expansum
+OCK82998.1	#a0c22c	Lepidopterella palustris
+VDP65479.1	#012ea6	Schistosoma mattheei
+XP_009216839.1	#318da7	Gaeumannomyces tritici
+RYP42662.1	#919444	Monosporascus sp. MG133
+XP_018184017.1	#3db5d0	Purpureocillium lilacinum
+KAF3659228.1	#42e086	Capsicum annuum
+KAF7056216.1	#ea481a	Triticum aestivum
+KAF7375353.1	#e1b052	Mycena sanguinolenta
+XP_046013047.1	#7891d6	Microdochium trichocladiopsis
+PSN73923.1	#fe5652	Corynespora cassiicola
+GAT57033.1	#d30c0a	Mycena chlorophos
+AAM44045.1	#340a23	Apriona germari
+KAF4216577.1	#faf4e8	Aspergillus fumigatiaffinis
+KAF2023949.1	#1bc1a2	Setomelanomma holmii
+KAF2848810.1	#540a15	Plenodomus tracheiphilus
+ACV33306.1	#9702ef	Nebalia kensleyi
+KAF8775057.1	#f58f00	Digitaria exilis
+EYC33672.1	#3c3560	Ancylostoma ceylanicum
+CAH0046581.1	#ba05d8	Clonostachys solani
+XP_008711241.1	#3a5f75	Cyphellophora europaea
+KAF4634091.1	#1138ed	Cudoniella acicularis
+KAF2657265.1	#0c2c7c	Lophiostoma macrostomum
+ADI99790.1	#8d3184	Artemia sinica
+KXN67968.1	#73de94	Conidiobolus coronatus
+GAW21127.1	#911b83	fungal sp. No.14919
+KAF8740896.1	#3a2369	Amanita brunnescens
+KXN64901.1	#73de94	Conidiobolus coronatus
+RKP10276.1	#902009	Thamnocephalis sphaerospora
+KAI0163236.1	#0fe245	Pestalotiopsis sp. NC0098
+ODM98986.1	#8a75c8	Orchesella cincta
+CAG8958234.1	#96611f	Hymenoscyphus fraxineus
+WP_073785867.1	#b8f558	Streptomyces uncialis
+WP_063778706.1	#116713	Streptomyces albus
+VVC92082.1	#73027a	Leptidea sinapis
+GAT58369.1	#d30c0a	Mycena chlorophos
+XP_036379707.1	#dff58d	Megalops cyprinoides
+CCA94927.1	#484280	Mastigoproctus giganteus
+RMZ12652.1	#8f7e21	Hortaea werneckii
+KAF7536896.1	#b552a7	Neopestalotiopsis clavispora
+XP_043019533.1	#5263d1	Diaporthe citri
+KAG8810691.1	#ea716f	Serendipita sp. 399
+KAF3390002.1	#3ebdc2	Talaromyces pinophilus
+XP_047974400.1	#4dcc29	Salvia hispanica
+CAG9811778.1	#396781	Chironomus riparius
+KAF3013696.1	#ca0b2b	Neopestalotiopsis sp. 37M
+XP_025690688.1	#4319e3	Arachis hypogaea
+KAF6837185.1	#192ef7	Colletotrichum plurivorum
+XP_007901770.1	#68455a	Callorhinchus milii
+ORX97417.1	#ca724f	Basidiobolus meristosporus
+PQM35760.1	#f43093	Prunus yedoensis
+XP_049879219.1	#527b41	Pectinophora gossypiella
+KAF5944447.1	#5869f5	Camellia sinensis
+XP_049152493.1	#5bd411	Colletotrichum lupini
+PVH81186.1	#2fc4bc	Cadophora sp. DSE1049
+WP_190022091.1	#f8c528	Streptomyces hiroshimensis
+CAG8727525.1	#493b4a	Rhizophagus irregularis
+XP_037211021.1	#d38236	Fusarium tjaetaba
+XP_013107071.1	#f94870	Stomoxys calcitrans
+VBB73096.1	#5ad4d0	Podospora comata
+KAG9140073.1	#2c8c38	Lithospermum erythrorhizon
+WP_242513620.1	#f8f54d	Galbibacter mesophilus
+KXJ87859.1	#f44942	Microdochium bolleyi
+VDM51685.1	#c3b3f2	Angiostrongylus costaricensis
+GFT90425.1	#3093a0	Nephila pilipes
+XP_046751829.1	#cfb82b	Diprion similis
+KAH7082308.1	#52da2a	Paraphoma chrysanthemicola
+XP_014613673.1	#79a671	Polistes canadensis
+KRT78718.1	#d808eb	Oryctes borbonicus
+KAI4498981.1	#86d033	Mischocyttarus mexicanus
+CAG8957206.1	#96611f	Hymenoscyphus fraxineus
+KAI2883860.1	#3f05bd	Aspergillus niger
+EFJ24536.1	#a764f7	Selaginella moellendorffii
+RZC03667.1	#f85cf3	Glycine soja
+XP_011195600.1	#a29c84	Zeugodacus cucurbitae
+XP_033651860.1	#070552	Westerdykella ornata
+KAI6350725.1	#99e98b	Pyricularia grisea
+ORX86630.1	#ca724f	Basidiobolus meristosporus
+RYP73355.1	#036db7	Monosporascus sp. CRB-9-2
+KAI1342836.1	#e7ba2f	Xylariaceae sp. FL0016
+MAU47438.1	#6b0b71	Salipiger sp.
+KAF1830299.1	#25c978	Decorospora gaudefroyi
+XP_039128129.1	#b17129	Dioscorea cayenensis
+XP_021300441.1	#c0fcaa	Herrania umbratica
+CAA7268244.1	#4a8758	Cyclocybe aegerita
+WP_102687772.1	#31ee24	nan
+XP_033519297.1	#e3899e	Dothidotthia symphoricarpi
+EXF80489.1	#8baf6e	Colletotrichum fioriniae
+HCF29689.1	#5bb182	Cyanobacteria bacterium UBA11049
+Q8I6K2.1	#7c0376	Holotrichia diomphalia
+TVU16204.1	#9a0967	Eragrostis curvula
+XP_021957545.2	#b0c805	Folsomia candida
+KIM27070.1	#07c80a	Serendipita vermifera
+KIN02411.1	#53e387	Oidiodendron maius
+POS79013.1	#11f521	Diaporthe helianthi
+CAG9111352.1	#c82f5e	Plutella xylostella
+EMP32668.1	#465a5e	Chelonia mydas
+RCI09471.1	#b3d074	Ophiocordyceps polyrhachis-furcata
+XP_027232115.1	#7aa785	Penaeus vannamei
+CAE1263711.1	#9f9998	Sepia pharaonis
+GAT51082.1	#d30c0a	Mycena chlorophos
+XP_033536367.1	#9c9481	Eremomyces bilateralis
+PVU85309.1	#c5332d	Smittium megazygosporum
+XP_009223021.1	#318da7	Gaeumannomyces tritici
+TNN52531.1	#8e8663	Liparis tanakae
+PPJ57611.1	#c6caa9	Cercospora berteroae
+XP_023520010.1	#56b9ee	Cucurbita pepo
+XP_008099316.1	#e1d3b0	Colletotrichum graminicola
+KAG8298950.1	#19b142	Homalodisca vitripennis
+KAF6802077.1	#0d4caf	Colletotrichum sojae
+OCL13772.1	#8eddac	Glonium stellatum
+KAF1994200.1	#d06e06	Amniculicola lignicola
+KAI3322651.1	#e1a5fb	Xylariaceae sp. AK1471
+XP_016619141.1	#f84eb9	Cladophialophora bantiana
+KXH65376.1	#542db4	Colletotrichum nymphaeae
+OVA00542.1	#7f97c8	Macleaya cordata
+XP_007386222.1	#f29d4d	Punctularia strigosozonata
+KAH7065143.1	#80d14a	Macrophomina phaseolina
+KAH8637333.1	#233254	Alternaria alternata
+KAG9185135.1	#c381a9	Alternaria panax
+KAI0474091.1	#94e179	Xylariaceae sp. FL0804
+XP_013322977.1	#f6a402	Rasamsonia emersonii
+XP_023344481.1	#b2d763	Eurytemora affinis
+KKY29540.1	#b03f58	Diaporthe ampelina
+KAG9074023.1	#4fca29	Ceratobasidium sp. UAMH 11750
+XP_001600430.1	#4d9d67	Nasonia vitripennis
+KAH9905243.1	#1c580f	Xylariomycetidae sp. FL2044
+XP_014261820.1	#d1ca38	Cimex lectularius
+USP77635.1	#640841	Curvularia clavata
+XP_011098100.1	#5861f2	Sesamum indicum
+VDL71823.1	#8d5d45	Nippostrongylus brasiliensis
+KAI3876256.1	#b8c217	Papaver bracteatum
+WP_236438320.1	#3f22b7	Pseudomonas syringae
+XP_045268164.1	#8d2dbb	Colletotrichum gloeosporioides
+KLP06367.1	#7e3bf6	Fusarium fujikuroi
+XP_035348869.1	#186b43	Talaromyces rugulosus
+PIA47837.1	#3e780d	Aquilegia coerulea
+XP_014213229.1	#12e5b0	Copidosoma floridanum
+CAA7404096.1	#945e04	Spirodela intermedia
+XP_010100568.1	#4a9357	Morus notabilis
+WP_068326427.1	#be32bd	Psychrobacter sp. P2G3
+KAF5280180.1	#f1519c	Abscondita terminalis
+KFA69375.1	#a23e86	Stachybotrys chlorohalonata
+XP_043629003.1	#e6fef1	Erigeron canadensis
+KAF1963979.1	#c56215	Bimuria novae-zelandiae
+KAI4151775.1	#aa8d60	Diploschistes diacapsis
+TKY59314.1	#7d0f59	Spatholobus suberectus
+XP_022139808.1	#0b4811	Momordica charantia
+XP_011506306.1	#4e4457	Ceratosolen solmsi
+XP_049169634.1	#359c8e	Wardomyces moseri
+AAB36150.1	#b37b07	Carcinoscorpius rotundicauda
+KOX67352.1	#d0a966	Melipona quadrifasciata
+CAA9998125.1	#746e54	Nesidiocoris tenuis
+KAF4312174.1	#56b811	Botryosphaeria dothidea
+KAF3405036.1	#3ebdc2	Talaromyces pinophilus
+XP_006692366.1	#436e08	Chaetomium thermophilum
+WP_165748587.1	#4297ee	Cellulophaga sp. Z1A5H
+KAG9189321.1	#c381a9	Alternaria panax
+XP_033403005.1	#1dfba6	Aplosporella prunicola
+XP_013078174.1	#02cc1f	Biomphalaria glabrata
+XP_011320825.1	#5e7dbb	Fusarium graminearum
+KAI1794979.1	#d1973c	Ganoderma leucocontextum
+PIA16828.1	#579469	Coemansia reversa
+KAF7536017.1	#b552a7	Neopestalotiopsis clavispora
+RYO85502.1	#a1e283	Monosporascus cannonballus
+XP_045997316.1	#b220d7	Boeremia exigua
+KAG6850331.1	#629776	Arthromyces matolae
+CAB0037936.1	#7b683f	Trichogramma brassicae
+PPQ98988.1	#b58e9d	Gymnopilus dilepis
+KAG8752937.1	#7d6c87	Serendipita sp. 396
+KAI3994167.1	#d395ed	Papaver californicum
+VDP12493.1	#265e13	Soboliphyme baturini
+XP_033521031.1	#e3899e	Dothidotthia symphoricarpi
+KAG4067980.1	#2207eb	Bradysia odoriphaga
+XP_038894088.1	#48ee37	Benincasa hispida
+KAF9240832.1	#a2eb4e	Melanogaster broomeanus
+RPA80044.1	#2ccfc4	Ascobolus immersus
+PIN07545.1	#971489	Handroanthus impetiginosus
+RKU47071.1	#d1ab0d	Coniochaeta pulveracea
+ELK00435.1	#c38d86	Pteropus alecto
+XP_008555005.1	#c55199	Microplitis demolitor
+KAH8886012.1	#434224	Thozetella sp. PMI_491
+KZP16341.1	#615ab7	Fibularhizoctonia sp. CBS 109695
+OAE22712.1	#8b1377	Marchantia polymorpha
+RKP23830.1	#9d9ae8	Syncephalis pseudoplumigaleata
+XP_031874716.1	#379621	Venustampulla echinocandica
+KAG7118751.1	#4c4016	Verticillium longisporum
+KAG0150759.1	#2602bc	Cronartium quercuum
+XP_031624103.1	#6b51d2	Contarinia nasturtii
+XP_033684086.1	#db6106	Trematosphaeria pertusa
+CDN40916.1	#e71d0e	Cytherelloidea californica
+MCJ1348780.1	#9e6e3f	Peltigera leucophlebia
+WP_100596367.1	#552f9f	Streptomyces sp. CB01635
+PSR88711.1	#661522	Coniella lustricola
+KXN80929.1	#9e5e5c	Leucoagaricus sp. SymC.cos
+WP_091874339.1	#848116	Pricia antarctica
+KAF3049053.1	#41d261	Didymella keratinophila
+XP_031865071.1	#379621	Venustampulla echinocandica
+AHL24706.1	#a08a4b	Corcyra cephalonica
+KAI0342041.1	#6b120f	Trametopsis cervina
+CAG8747321.1	#d856e7	Cetraspora pellucida
+XP_007828399.1	#313993	Pestalotiopsis fici
+KRT78719.1	#d808eb	Oryctes borbonicus
+MBA2278691.1	#bc4710	Chloroflexia bacterium
+WP_254399292.1	#631c9a	Streptomyces sp. AC602_WCS936
+KAH9507489.1	#2af09d	Bulinus truncatus
+CCA94923.1	#484280	Mastigoproctus giganteus
+KAH6911014.1	#d329df	Coprinopsis sp. MPI-PUGE-AT-0042
+KAI3391688.1	#3fe275	Diaporthe ilicicola
+KJZ69093.1	#71e93f	Hirsutella minnesotensis
+KAH6900712.1	#f53de8	Thelonectria olida
+CAD6229539.1	#d55533	Miscanthus lutarioriparius
+KAI3457552.1	#0e3ea4	Paulownia fortunei
+NP_511138.2	#30ba28	Drosophila melanogaster
+KAF5004198.1	#cac7f4	Fusarium decemcellulare
+VDO84098.1	#d0c724	Haemonchus placei
+KAF7723075.1	#5e0d76	Entomophthora muscae
+XP_048536722.1	#066be1	Triticum urartu
+PMD45018.1	#05287e	Hyaloscypha variabilis
+CEO59275.1	#7246d0	Penicillium brasilianum
+KKY25721.1	#347a7d	Phaeomoniella chlamydospora
+EMS64469.1	#066be1	Triticum urartu
+MBM3444714.1	#635880	Bacteroidetes bacterium
+XP_003848151.1	#d2b1ef	Zymoseptoria tritici
+KAI3954936.1	#7ff70f	Papaver armeniacum
+MBN3309470.1	#7acd7e	Amia calva
+KAH1217339.1	#605e43	Glycine max
+KAI5853627.1	#e665e6	Tricharina praecox
+KAF2840994.1	#c3a8f2	Patellaria atrata
+XP_046017627.1	#7891d6	Microdochium trichocladiopsis
+TMC89441.1	#bb0831	Chloroflexi bacterium
+RPA74265.1	#2ccfc4	Ascobolus immersus
+KAH6569858.1	#97368e	Batrachochytrium salamandrivorans
+KAH9809401.1	#c63529	Melampsora americana
+XP_034678883.1	#68387f	Vitis riparia
+BAM15846.1	#d982b8	Portulaca oleracea
+XP_031000564.1	#fdc81e	Thyridium curvatum
+XP_014674551.1	#93a8ea	Priapulus caudatus
+KFY94422.1	#96a419	Pseudogymnoascus sp. VKM F-4518 (FW-2643)
+KAI0393896.1	#9407ad	Xylariaceae sp. FL0594
+EXF76255.1	#8baf6e	Colletotrichum fioriniae
+CAQ64601.1	#030518	Cyanoplax hartwegii
+KAF2843002.1	#c3a8f2	Patellaria atrata
+KAG8238619.1	#fd80ff	Ladona fulva
+RHN59604.1	#40db9e	Medicago truncatula
+XP_040715854.1	#c46faf	Pseudomassariella vexata
+CAB3245541.1	#fdd5d8	Arctia plantaginis
+AWK28002.1	#ce855f	Mesochaetopterus taylori
+XP_033127104.1	#ac0016	Anneissia japonica
+KAH1218036.1	#605e43	Glycine max
+GER46573.1	#6cafa2	Striga asiatica
+MCJ1439468.1	#fca67c	Xylographa pallens
+XP_046078072.1	#e9aa35	Talaromyces proteolyticus
+KAH7689592.1	#dd8cec	Aphelenchus avenae
+OAL22026.1	#23d8b7	Fonsecaea multimorphosa
+KAG6828514.1	#1394b7	Tricholoma furcatifolium
+KAG6398110.1	#76b21e	Salvia splendens
+XP_021373732.1	#d7cac0	Mizuhopecten yessoensis
+KAF6830300.1	#8753ef	Colletotrichum musicola
+XP_021952780.2	#b0c805	Folsomia candida
+KAF2303639.1	#53406b	Hevea brasiliensis
+KAF4556495.1	#1998e4	Elsinoe fawcettii
+PGH19237.1	#80b63c	Polytolypa hystricis
+KAF7165772.1	#31dd52	Aspergillus felis
+XP_030055208.1	#d31890	Microcaecilia unicolor
+KAG5807334.1	#a19625	Fusarium xylarioides
+MCJ1424722.1	#93279e	Sticta canariensis
+XP_037893205.1	#273e27	Glossina fuscipes
+KAE8441198.1	#14439a	Helotiales sp. DMI_Dod_QoI
+XP_007833667.1	#313993	Pestalotiopsis fici
+XP_014241691.2	#d1ca38	Cimex lectularius
+XP_037220077.1	#860dee	Mycena indigotica
+XP_007332581.1	#742920	Agaricus bisporus
+XP_003664628.1	#6dc8d9	Thermothelomyces thermophilus
+KAA8911651.1	#af8ced	Sphaerosporella brunnea
+PPQ71453.1	#6fd6b0	Panaeolus cyanescens
+BAA13324.1	#e51237	Riptortus clavatus
+EDW48378.1	#7bd095	Drosophila sechellia
+VDB91916.1	#eebeef	Peniophora sp. CBMAI 1063
+MBN3318661.1	#5845d8	Atractosteus spatula
+RKU47247.1	#d1ab0d	Coniochaeta pulveracea
+QCD76727.1	#37e6b3	Vigna unguiculata
+KAF8500855.1	#605fd7	Russula emetica
+RHN71897.1	#40db9e	Medicago truncatula
+PKK32871.1	#1e5fd6	Columba livia
+KAF5303332.1	#22556f	Lamprigera yunnana
+XP_024375697.1	#344a4f	Physcomitrium patens
+XP_045790610.1	#c2f467	Trifolium pratense
+GEU89019.1	#fd6b74	Tanacetum cinerariifolium
+PQE32183.1	#72ff5c	Rutstroemia sp. NJR-2017a WRK4
+PSS24660.1	#4dc2b2	Actinidia chinensis
+KAF7754037.1	#5e0d76	Entomophthora muscae
+OQE16461.1	#f2b866	Penicillium steckii
+PGH18781.1	#c0944a	Helicocarpus griseus
+KAH7390635.1	#bdb73b	Pyrenochaeta sp. MPI-SDFR-AT-0127
+CAD12808.1	#d4ad1b	Epiperipatus sp. TB-2001
+RZF45152.1	#ce9e0f	Laodelphax striatellus
+XP_018034418.1	#c72baf	Paraphaeosphaeria sporulosa
+KAF2345203.1	#f4f8f5	Trinorchestia longiramus
+KAH7142037.1	#d15c64	Dactylonectria macrodidyma
+PAV62499.1	#f6b6fd	Diploscapter pachys
+KAI5791080.1	#0208ce	Geopyxis carbonaria
+PSN61612.1	#fe5652	Corynespora cassiicola
+XP_038636600.1	#b85132	Scyliorhinus canicula
+KAI0220986.1	#39eba9	Massospora cicadina
+CZT50102.1	#4b8429	Rhynchosporium secalis
+RKP26899.1	#9d9ae8	Syncephalis pseudoplumigaleata
+MCJ1361156.1	#c214f7	Acarospora aff. strigata
+XP_011494200.1	#4e4457	Ceratosolen solmsi
+XP_018039479.1	#c72baf	Paraphaeosphaeria sporulosa
+XP_007829239.1	#313993	Pestalotiopsis fici
+XP_033597956.1	#ff45b2	Pseudovirgaria hyperparasitica
+NDZ79888.1	#f5e523	Streptomyces sp. SID10853
+KNG49834.1	#f03762	Stemphylium lycopersici
+RZC43713.1	#58a3b6	Papaver somniferum
+PVI02922.1	#15e43d	Periconia macrospinosa
+EPQ62384.1	#39e59e	Blumeria graminis
+SMH67863.1	#d44947	Scolopendra dehaani
+CAA2970615.1	#1a4422	Olea europaea
+RKP06671.1	#902009	Thamnocephalis sphaerospora
+RKU40784.1	#d1ab0d	Coniochaeta pulveracea
+KAG7270566.1	#05a9d0	Coryphaenoides rupestris
+WP_250814030.1	#ef0929	Neorhizobium tomejilense
+MBW0515460.1	#adf6f5	Austropuccinia psidii
+WP_253546606.1	#7e5b7d	Pseudomonas mandelii
+AWO14304.1	#2b7e3d	Eleocharis dulcis
+XP_024756953.1	#c32f81	Trichoderma asperellum
+XP_003000370.1	#5030b2	Verticillium alfalfae
+XP_037902495.1	#23f308	Hermetia illucens
+XP_041225194.1	#a3cd6f	Suillus fuscotomentosus
+XP_024695991.1	#f3c05f	Aspergillus campestris
+XP_012230110.1	#a04841	Linepithema humile
+KAB5589411.1	#c176a0	Ceratobasidium theobromae
+TKR74270.1	#670db5	Populus alba
+XP_007829380.1	#313993	Pestalotiopsis fici
+MCL4158316.1	#c0d6b1	Idotea baltica
+CAH2043544.1	#774f04	Iphiclides podalirius
+XP_013776190.1	#1fd4de	Limulus polyphemus
+XP_037783796.1	#31b774	Penaeus monodon
+KAI1199057.1	#d437c0	Nemania serpens
+RMY55129.1	#8f7e21	Hortaea werneckii
+PSR84012.1	#661522	Coniella lustricola
+RZC46467.1	#58a3b6	Papaver somniferum
+KXH30469.1	#dd6dfb	Colletotrichum salicis
+PGH13112.1	#c0944a	Helicocarpus griseus
+XP_003551647.1	#605e43	Glycine max
+XP_033755241.1	#c07337	Pecten maximus
+KAF8357505.1	#ac986f	Pristionchus pacificus
+KAI0016289.1	#d91405	Xylariomycetidae sp. FL0641
+OAL44068.1	#723956	Pyrenochaeta sp. DS3sAY3a
+XP_026281547.1	#fe3aa0	Frankliniella occidentalis
+KAG8386537.1	#a1328e	Buddleja alternifolia
+XP_045971260.1	#9adfcc	Morchella importuna
+KAB5516965.1	#ed7fc7	Coniochaeta sp. 2T2.1
+KAF4978788.1	#c448cf	Fusarium zealandicum
+KAG9131658.1	#2c8c38	Lithospermum erythrorhizon
+KAF5586631.1	#4cb386	Fusarium pseudoanthophilum
+XP_040615671.1	#1667db	Sporothrix brasiliensis
+EXC25716.1	#4a9357	Morus notabilis
+XP_023456558.1	#84c120	Cercospora beticola
+BAB83773.1	#13979b	Penaeus japonicus
+KAH7379109.1	#443aa9	Phaeosphaeria sp. MPI-PUGE-AT-0046c
+WP_060549495.1	#9de3d7	Pseudomonas poae
+XP_026615261.1	#1268f5	Aspergillus thermomutatus
+KAF3653231.1	#42e086	Capsicum annuum
+MCO5592754.1	#7dd150	Adiantum nelumboides
+XP_046113971.1	#a4a78c	Emericellopsis atlantica
+KAF7759194.1	#5e0d76	Entomophthora muscae
+KAI5850689.1	#e665e6	Tricharina praecox
+KAF1950314.1	#9b4b66	Byssothecium circinans
+RKP06010.1	#902009	Thamnocephalis sphaerospora
+KAF5335723.1	#1a63ac	Tulosesus angulatus
+XP_038740768.1	#d35bcc	Colletotrichum karsti
+XP_008034602.1	#205efd	Trametes versicolor
+XP_001800135.1	#690104	Parastagonospora nodorum
+RVW48288.1	#fc875a	Vitis vinifera
+KAF8532852.1	#a5d761	Trichophaea hybrida
+XP_043275478.1	#e270fd	Venturia canescens
+KAI0318086.1	#2ea45b	Amylostereum chailletii
+XP_004361643.1	#15e593	Cavenderia fasciculata
+KAF4622688.1	#1138ed	Cudoniella acicularis
+EQL00258.1	#5b1c53	Ophiocordyceps sinensis
+XP_015605378.1	#9334ee	Cephus cinctus
+OMO76491.1	#d91096	Corchorus capsularis
+ROT63384.1	#7aa785	Penaeus vannamei
+KAF8753666.1	#2c63a5	Rhizoctonia solani
+KAF8419475.1	#e11041	Tirmania nivea
+KAG6777862.1	#501bec	Populus tomentosa
+PKS05420.1	#5cc53a	Lomentospora prolificans
+CAH0028277.1	#af6b77	Clonostachys rhizophaga
+XP_024959722.1	#cacfbe	Cynara cardunculus
+AAX48010.1	#dcd3ae	Macrobrachium rosenbergii
+TRZ17538.1	#24387a	Zosterops borbonicus
+XP_047471013.1	#7c4ac1	Penaeus chinensis
+KAI0763600.1	#90b1d2	Trametes elegans
+XP_028838619.1	#8939f8	Denticeps clupeoides
+KAF1359010.1	#d03233	Lizonia empirigonia
+XP_046574975.1	#c1f599	Haliotis rubra
+KAI5080795.1	#cdee28	Adiantum capillus-veneris
+VDM62521.1	#c3b3f2	Angiostrongylus costaricensis
+XP_018046967.1	#e2c62e	Atta colombica
+KAI4192853.1	#bc7d90	Caloplaca aetnensis
+KAH6800157.1	#4141e5	Perilla frutescens
+BAU51618.1	#8400c5	Cynops pyrrhogaster
+PWA80842.1	#e04447	Artemisia annua
+VUC27282.1	#883ccc	Clonostachys rosea
+KAF2896224.1	#b32b22	Ignelater luminosus
+XP_007293257.1	#2380f3	Drepanopeziza brunnea
+KAF7719048.1	#277a83	Penicillium sp. RFL-2021a
+KAI1868288.1	#359c8e	Wardomyces moseri
+KAF2645366.1	#cdad37	Massarina eburnea
+KAI6383283.1	#99e98b	Pyricularia grisea
+XP_017888863.1	#6f3e71	Ceratina calcarata
+XP_045623129.1	#367bdb	Procambarus clarkii
+CAD5214373.1	#a5bb68	Bursaphelenchus xylophilus
+WP_255814717.1	#31ee24	nan
+P56826.1	#c8a79e	Sepia officinalis
+EZA60532.1	#8b7c24	Ooceraea biroi
+GFS43494.1	#0ef022	Trichonephila inaurata
+ONI10340.1	#649998	Prunus persica
+XP_049142929.1	#5bd411	Colletotrichum lupini
+KAI5838786.1	#0e0222	Morchella snyderi
+KAH9428180.1	#997587	Pyricularia oryzae
+KAF7743790.1	#5e0d76	Entomophthora muscae
+XP_038742395.1	#d35bcc	Colletotrichum karsti
+WP_045316668.1	#756935	Lentzea aerocolonigenes
+XP_030217389.1	#92c608	Gadus morhua
+RJE23969.1	#95a3eb	Aspergillus sclerotialis
+KAF2106338.1	#40cbc7	Lophiotrema nucula
+XP_017978713.1	#cc029b	Theobroma cacao
+XP_033525280.1	#e3899e	Dothidotthia symphoricarpi
+TAQ89355.1	#e8668b	Chlorociboria aeruginascens
+XP_024693160.1	#f3c05f	Aspergillus campestris
+MCH8150178.1	#7be328	Planctomycetes bacterium
+ELT93343.1	#9cf30c	Capitella teleta
+MCJ1443778.1	#276a26	Stictis urceolatum
+WP_098072418.1	#b80724	Bacillus toyonensis
+KAI2619644.1	#3eeb50	Hypoxylon sp. NC1633
+PSN65703.1	#fe5652	Corynespora cassiicola
+CDN40926.1	#08a1b2	Euphilomedes morini
+XP_004246037.1	#318ade	Solanum lycopersicum
+CAR85700.1	#6ba72b	Blaptica dubia
+XP_026730285.1	#ad6967	Trichoplusia ni
+KAI0925031.1	#2a25eb	Taiwanofungus camphoratus
+XP_028465566.1	#6252ea	Sodiomyces alkalinus
+KAI5854711.1	#e665e6	Tricharina praecox
+XP_047976428.1	#4dcc29	Salvia hispanica
+KAH8790171.1	#200526	Hyaloscypha finlandica
+VDC03107.1	#eebeef	Peniophora sp. CBMAI 1063
+KAG6558006.1	#68a840	Marchantia paleacea
+MBI2005408.1	#8014f5	Candidatus Aenigmarchaeota archaeon
+CAB62053.1	#458977	Camponotus festinatus
+KAI5331124.1	#c2326d	Prunus dulcis
+KEY73873.1	#d35e15	Stachybotrys chartarum
+KAF1836757.1	#25c978	Decorospora gaudefroyi
+XP_014237910.1	#f39fcc	Trichogramma pretiosum
+TLD26588.1	#285e7f	Pyricularia sp. CBS 133598
+KAH8763637.1	#f2354c	Diaporthaceae sp. PMI_573
+KAG8987313.1	#ac822e	Tulasnella sp. 427
+KOF99084.1	#70a5ca	Octopus bimaculoides
+XP_045503562.1	#7aaa7a	Colias croceus
+KAH9509971.1	#2af09d	Bulinus truncatus
+KPI17699.1	#0034f6	Actinobacteria bacterium OK074
+CCA94917.1	#97dc41	Euphrynichus bacillifer
+PQE10679.1	#2cef04	Rutstroemia sp. NJR-2017a BBW
+KAG8704519.1	#16a236	Ceratobasidium sp. 423
+WP_189170466.1	#29424a	Pilimelia anulata
+KAI1343244.1	#e7ba2f	Xylariaceae sp. FL0016
+KMZ60041.1	#21d4ad	Zostera marina
+KAF3935704.1	#cef5d3	Dactylella cylindrospora
+KXJ87917.1	#f44942	Microdochium bolleyi
+XP_009219389.1	#318da7	Gaeumannomyces tritici
+PPJ55666.1	#c6caa9	Cercospora berteroae
+XP_044004022.1	#2b4ada	Aphidius gifuensis
+KDQ14083.1	#9d6778	Botryobasidium botryosum
+KAI5776378.1	#0208ce	Geopyxis carbonaria
+KAF8066692.1	#d1b472	Lyophyllum atratum
+XP_016415576.1	#f846b0	Sinocyclocheilus rhinocerous
+XP_007810005.1	#a3d59f	Metarhizium acridum
+KAI5784411.1	#9c9b2c	Pyronema domesticum
+CAB3384083.1	#d335bb	Cloeon dipterum
+PPD99134.1	#5b96ba	Gossypium barbadense
+KIM83205.1	#c23d1d	Piloderma croceum
+MCJ1234766.1	#8ff2b1	Varicellaria rhodocarpa
+XP_015866933.2	#215d08	Ziziphus jujuba
+XP_033376921.1	#908092	Aaosphaeria arxii
+PHH90273.1	#aa69af	Cordyceps sp. RAO-2017
+XP_033524779.1	#e3899e	Dothidotthia symphoricarpi
+XP_033402099.1	#1dfba6	Aplosporella prunicola
+XP_024719242.1	#5094b6	Amorphotheca resinae
+XP_017773559.1	#2d926e	Nicrophorus vespilloides
+KAF9891369.1	#7db400	Aspergillus nanangensis
+KAG5889587.1	#ae6333	Gonioctena quinquepunctata
+UKZ71254.1	#7b24a3	Trichoderma atroviride
+GFV70499.1	#c77719	Trichonephila clavipes
+KAI0132820.1	#ddbccd	Xylariales sp. AK1849
+MCJ1477585.1	#dba02d	Lambiella insularis
+ROW08234.1	#3890ef	Valsa malicola
+MBW4618099.1	#bb68b1	Cyanosarcina radialis
+KAF7747629.1	#5e0d76	Entomophthora muscae
+SDH28872.1	#eeca62	Sinosporangium album
+AUO15573.1	#5c2014	Haplotropis brunneriana
+KAH9218205.1	#6f364c	Leptodontidium sp. 2 PMI_412
+WP_147254047.1	#deb797	Pseudonocardia hierapolitana
+KAH6896172.1	#d329df	Coprinopsis sp. MPI-PUGE-AT-0042
+MCJ1295169.1	#f1200a	Xylographa carneopallida
+KAI3377555.1	#dac9d4	Scortum barcoo
+GJN39479.1	#6e1f2d	Eleusine coracana
+CAF9924905.1	#161601	Heterodermia speciosa
+CZT04100.1	#eeb27f	Rhynchosporium agropyri
+KAI0168045.1	#0fe245	Pestalotiopsis sp. NC0098
+KAI5060330.1	#cdee28	Adiantum capillus-veneris
+TEB21447.1	#fc1436	Coprinellus micaceus
+KAH6663009.1	#2a2ba0	Halenospora varia
+OMJ22112.1	#eeb65e	Smittium culicis
+XP_038068636.1	#f4facb	Patiria miniata
+XP_026677612.1	#8371a9	Diaphorina citri
+XP_020454203.1	#598b51	Monopterus albus
+OCL15161.1	#8eddac	Glonium stellatum
+GES57103.1	#a5f367	Aspergillus terreus
+KAH8912456.1	#64273d	Coniochaeta sp. PMI_546
+KAH7856540.1	#c808ef	Vaccinium darrowii
+KAG7285381.1	#019494	Staphylotrichum longicolle
+KAI1152315.1	#a6afea	Nemania diffusa
+RKP14641.1	#12650f	Piptocephalis cylindrospora
+KAF5236897.1	#3c2a9f	Fusarium anthophilum
+KAH6841406.1	#233254	Alternaria alternata
+CAG5108704.1	#c055c7	Cotesia congregata
+XP_033453610.1	#8a1d2b	Didymella exigua
+VDM95248.1	#cf818f	Thelazia callipaeda
+KAG8377225.1	#a1328e	Buddleja alternifolia
+WP_156727742.1	#fa483f	Streptomyces apocyni
+OMJ24982.1	#eeb65e	Smittium culicis
+XP_007399742.1	#1ecdc1	Phanerochaete carnosa
+PHH65690.1	#c25f9a	Ophiocordyceps australis
+RYP25699.1	#b07a40	Monosporascus sp. mg162
+XP_049771922.1	#2cc9d5	Schistocerca cancellata
+VDM97282.1	#cf818f	Thelazia callipaeda
+KAF6200464.1	#81a5d3	Apolygus lucorum
+XP_033525331.1	#e3899e	Dothidotthia symphoricarpi
+XP_025587387.1	#4b260d	Fusarium venenatum
+TFK70685.1	#b28469	Pluteus cervinus
+VVB47659.1	#45361c	Beijerinckiaceae bacterium RH CH11
+VDI40825.1	#307007	Mytilus galloprovincialis
+KAA8895432.1	#af8ced	Sphaerosporella brunnea
+KAI3662145.1	#49b45c	Amoeboaphelidium occidentale
+MCJ8271084.1	#d58ceb	Psychrosphaera sp.
+XP_031565458.1	#3f13ff	Actinia tenebrosa
+KAF5391307.1	#ad3782	Collybiopsis confluens
+KAG4079639.1	#2207eb	Bradysia odoriphaga
+TMS38128.1	#ad94a9	Steinernema carpocapsae
+KAH8669038.1	#ed894d	Xylariales sp. PMI_506
+GIY50133.1	#b2d532	Caerostris darwini
+KJA23388.1	#fa36a5	Hypholoma sublateritium
+XP_027236657.1	#7aa785	Penaeus vannamei
+KAF4568167.1	#2db188	Pleurotus pulmonarius
+XP_023017785.1	#333c62	Leptinotarsa decemlineata
+RPA82700.1	#2ccfc4	Ascobolus immersus
+KYN16176.1	#c4d596	Trachymyrmex cornetzi
+KAI4861025.1	#deeea8	Hypoxylon rubiginosum
+XP_001850700.2	#b44a61	Culex quinquefasciatus
+MBA0811429.1	#f45da5	Gossypium harknessii
+CAD7257558.1	#3e9714	Timema shepardi
+KAI0043594.1	#ea8683	Auriscalpium vulgare
+KAG6012121.1	#4f3663	Claviceps pusilla
+XP_019159370.1	#05bce6	Ipomoea nil
+KLU90675.1	#0bd254	Magnaporthiopsis poae
+ROT77849.1	#7aa785	Penaeus vannamei
+KAG5929148.1	#2b919d	Claviceps africana
+KFA77547.1	#d35e15	Stachybotrys chartarum
+EER41331.1	#ff8acd	Histoplasma capsulatum
+RKP09209.1	#902009	Thamnocephalis sphaerospora
+XP_017998773.1	#e39811	Phialophora attinorum
+KYP38873.1	#b7bc31	Cajanus cajan
+PHH59817.1	#c25f9a	Ophiocordyceps australis
+CAG8493225.1	#61a025	Funneliformis mosseae
+PIC50147.1	#d1c989	Caenorhabditis nigoni
+KAF2788134.1	#1d0464	Melanomma pulvis-pyrius
+OWF48970.1	#d7cac0	Mizuhopecten yessoensis
+XP_017797955.1	#2e3560	Habropoda laboriosa
+MBU6311356.1	#d49a54	Actinomycetales bacterium
+KAF4801552.1	#8bac34	Turdus rufiventris
+XP_026273940.1	#fe3aa0	Frankliniella occidentalis
+TVU34831.1	#9a0967	Eragrostis curvula
+KXN72123.1	#73de94	Conidiobolus coronatus
+GJN06801.1	#6e1f2d	Eleusine coracana
+KFY57787.1	#e44f47	Pseudogymnoascus sp. VKM F-4515 (FW-2607)
+GFP98861.1	#7e29f2	Phtheirospermum japonicum
+XP_045961638.1	#f1be35	Truncatella angustata
+KAA8523866.1	#b2077a	Nyssa sinensis
+XP_044738332.1	#ae390d	Chrysoperla carnea
+XP_001803906.1	#690104	Parastagonospora nodorum
+KKA30812.1	#222940	Thielaviopsis punctulata
+KAF8529966.1	#f1674c	Gautieria morchelliformis
+CAB1327205.1	#fc63a0	Coregonus sp. 'balchen'
+XP_049127594.1	#1927e0	Colletotrichum spaethianum
+KAF9621060.1	#bd6e0c	Coptis chinensis
+KAI1257487.1	#f1db01	Eutypa lata
+TKX21781.1	#ebb1ef	Elsinoe australis
+KNE64163.1	#36c7e2	Allomyces macrogynus
+PHH78497.1	#5c6fd7	Ophiocordyceps camponoti-rufipedis
+PKY46583.1	#493b4a	Rhizophagus irregularis
+XP_014609656.1	#79a671	Polistes canadensis
+XP_026465404.1	#560cff	Ctenocephalides felis
+KAI3695313.1	#b6374c	Smallanthus sonchifolius
+KAF8990391.1	#54531e	Cyathus striatus
+CAG8558490.1	#e94bcb	Acaulospora colombiana
+KAF7743789.1	#5e0d76	Entomophthora muscae
+XP_009223640.1	#318da7	Gaeumannomyces tritici
+WP_249101386.1	#31ee24	nan
+CAG9773759.1	#a17878	Ceutorhynchus assimilis
+KAE8573876.1	#b97591	Halyomorpha halys
+KAA8515294.1	#b2077a	Nyssa sinensis
+PBP16163.1	#255c7a	Diplocarpon rosae
+KAI1082165.1	#252168	Whalleya microplaca
+KAH9565035.1	#54c830	Sphagnum magellanicum
+XP_038748636.1	#d35bcc	Colletotrichum karsti
+SPO42331.1	#3ed94e	Moesziomyces antarcticus
+KXH37013.1	#f2e052	Colletotrichum simmondsii
+CAG8972828.1	#0f3b6a	Hymenoscyphus albidus
+VDP93994.1	#8c355e	Echinostoma caproni
+CAR85692.1	#6ded7f	Machilis germanica
+XP_007776255.1	#3c585b	Coniosporium apollinis
+KAI0023373.1	#d91405	Xylariomycetidae sp. FL0641
+XP_002128425.2	#9ba6d0	Ciona intestinalis
+KSV63104.1	#788393	Sinorhizobium sp. Sb3
+WP_255925666.1	#6f40b9	Streptomyces rubrisoli
+QRV86425.1	#8ea31c	Ceratobasidium sp. AG-Ba
+XP_001243418.2	#0dab01	Coccidioides immitis
+ATU82297.1	#3e0d01	Macrocybe gigantea
+KAH9629131.1	#642e03	Spodoptera exigua
+RYP77186.1	#76c4b2	Monosporascus sp. 5C6A
+KAG5713119.1	#a1fbec	Batillaria attramentaria
+PGH14377.1	#80b63c	Polytolypa hystricis
+KAF3187033.1	#d2137e	Orbilia oligospora
+KAI1355302.1	#794ba6	Xylaria sp. FL0043
+KAF3901427.1	#838786	Drechslerella brochopaga
+MCL7048929.1	#ae817f	Papaver nudicaule
+KAI5605325.1	#fb441d	Populus trichocarpa
+KAI5295983.1	#877033	Ascosphaera acerosa
+KAI3497200.1	#652d3d	Cichorium endivia
+XP_007292127.1	#2380f3	Drepanopeziza brunnea
+KAH8887002.1	#434224	Thozetella sp. PMI_491
+OAL03737.1	#d7e85b	Stagonospora sp. SRC1lsM3a
+KHN79639.1	#d6c117	Toxocara canis
+KAF4819160.1	#fbf870	Colletotrichum siamense
+XP_003654863.1	#50d585	Thermothielavioides terrestris
+XP_023012800.1	#333c62	Leptinotarsa decemlineata
+XP_029750321.1	#fe3ce3	Pyricularia pennisetigena
+AAZ76353.1	#7ad2c0	Euterpe oleracea
+EPZ35886.1	#2afc67	Rozella allomycis
+CAH1283386.1	#e0fb2c	Diabrotica balteata
+CAA7270513.1	#4a8758	Cyclocybe aegerita
+AAN63347.1	#f0da95	Anthonomus grandis
+KAI1380356.1	#a3ac18	Hypoxylon crocopeplum
+AGG11799.1	#e4f5cd	Clonorchis sinensis
+XP_024703801.1	#8772cd	Aspergillus steynii
+OSX69475.1	#89eb9a	Porphyra umbilicalis
+XP_040718186.1	#c46faf	Pseudomassariella vexata
+XP_037911086.1	#23f308	Hermetia illucens
+KAF3942432.1	#cef5d3	Dactylella cylindrospora
+KAI1099590.1	#12392e	Jackrogersella minutella
+RYP75962.1	#76c4b2	Monosporascus sp. 5C6A
+XP_001838118.1	#98e216	Coprinopsis cinerea
+QDS78173.1	#387c73	Venturia effusa
+KFH40940.1	#2ff2aa	Acremonium chrysogenum
+MQM15938.1	#cadb15	Colocasia esculenta
+KAH7014061.1	#80d14a	Macrophomina phaseolina
+KAI4187734.1	#bc7d90	Caloplaca aetnensis
+XP_038741157.1	#d35bcc	Colletotrichum karsti
+CAH6625903.1	#31ee24	nan
+KZV84601.1	#40f648	Exidia glandulosa
+QRN45222.1	#12392c	Tineola bisselliella
+SVE86608.1	#d66331	Daphnia similis
+KAI0738925.1	#f45209	Hexagonia nitida
+KAI0153122.1	#aa843e	Xylariaceae sp. FL1272
+XP_018421361.1	#e98d27	Nanorana parkeri
+KAF5963959.1	#865e26	Fusarium coicis
+KAH6952440.1	#485ba6	Ilyonectria sp. MPI-CAGE-AT-0026
+XP_036574338.1	#39a8fd	Colletotrichum truncatum
+TKA75529.1	#f1c626	Friedmanniomyces simplex
+XP_002911630.1	#98e216	Coprinopsis cinerea
+XP_021858113.1	#1eb469	Spinacia oleracea
+KAG8940894.1	#f1666f	Tulasnella sp. 419
+KAH8885433.1	#434224	Thozetella sp. PMI_491
+ORY14007.1	#951af2	Clohesyomyces aquaticus
+TAQ86703.1	#e8668b	Chlorociboria aeruginascens
+XP_022488390.1	#c0d676	Penicillium arizonense
+MCJ1310855.1	#4a1def	Agyrium rufum
+SMH67864.1	#d44947	Scolopendra dehaani
+WP_041994463.1	#66855a	Streptomyces sp. AcH 505
+XP_315076.1	#4b9233	Anopheles gambiae
+RYP61939.1	#76c4b2	Monosporascus sp. 5C6A
+XP_008085821.1	#134a58	Glarea lozoyensis
+CAB3366919.1	#d335bb	Cloeon dipterum
+PKS00047.1	#101a23	Cercospora zeina
+KAG0569659.1	#6252ae	Ceratodon purpureus
+CAB3407380.1	#7c9f42	Caenorhabditis bovis
+KIJ50748.1	#647c27	Sphaerobolus stellatus
+MCF2435672.1	#1821af	Streptomyces thinghirensis
+GGR78924.1	#099231	Streptomyces aureoverticillatus
+XP_016762056.1	#cd150b	Sphaerulina musiva
+CAG9807966.1	#396781	Chironomus riparius
+BAM15847.1	#d982b8	Portulaca oleracea
+XP_013776680.2	#1fd4de	Limulus polyphemus
+PBP26802.1	#255c7a	Diplocarpon rosae
+KAI1456044.1	#df98b0	Annulohypoxylon moriforme
+KAF7183614.1	#31dd52	Aspergillus felis
+XP_023243624.1	#c6229c	Centruroides sculpturatus
+AUO15574.1	#950302	Tetrix subulata
+XP_007829969.1	#313993	Pestalotiopsis fici
+PHH63361.1	#c25f9a	Ophiocordyceps australis
+WP_246953976.1	#31ee24	nan
+BAA13323.1	#e51237	Riptortus clavatus
+AWK27997.2	#b94854	Eupolymnia nebulosa
+KAI1141556.1	#08e687	Hypoxylon sp. FL0543
+XP_009588337.1	#7dd7e4	Nicotiana tomentosiformis
+KAF8413911.1	#f4ac14	Tetracentron sinense
+KAI3395625.1	#3fe275	Diaporthe ilicicola
+KAH7168322.1	#f1b16a	Fusarium sp. MPI-SDFR-AT-0072
+CAG8556074.1	#0be115	Dentiscutata erythropus
+KAI3769411.1	#82fb63	Arctium lappa
+QBR72133.1	#e21442	Beijerinckiaceae bacterium
+XP_041560907.1	#120385	Aspergillus puulaauensis
+GFB04989.1	#fd6b74	Tanacetum cinerariifolium
+KAE9419619.1	#55de3d	Angiostrongylus cantonensis
+ABS88291.1	#b66481	Pyrus x bretschneideri
+KXX75686.1	#395924	Madurella mycetomatis
+MQA28477.1	#d69691	Luteitalea sp.
+CAG8761584.1	#d13b3e	Gigaspora margarita
+AUO30532.1	#6b020b	Gomphocerus sibiricus
+KIM46639.1	#8d6f35	Hebeloma cylindrosporum
+PKS06048.1	#5cc53a	Lomentospora prolificans
+KAG6876274.1	#a8bb37	Termitomyces sp. T159_Od127
+OWY52099.1	#233254	Alternaria alternata
+KAF3218113.1	#d2137e	Orbilia oligospora
+KAH7112139.1	#20f315	Dendryphion nanum
+XP_014203393.1	#12e5b0	Copidosoma floridanum
+WP_008300538.1	#294f19	Candidatus Nitrosopumilus salaria
+KAH6614500.1	#7366e6	Chaetomium sp. MPI-SDFR-AT-0129
+KAI0667737.1	#a06830	Trametes maxima
+EDS34231.1	#b44a61	Culex quinquefasciatus
+MBA3472719.1	#dbcbf4	Rubrobacter sp.
+KAH8657816.1	#ed894d	Xylariales sp. PMI_506
+CAH6629364.1	#31ee24	nan
+KAF2746070.1	#5e0c08	Sporormia fimetaria
+KAH0835588.1	#607d97	Lanmaoa asiatica
+EXU94774.1	#3d7c61	Metarhizium robertsii
+XP_026328016.1	#02aefe	Hyposmocoma kahamanoa
+XP_035385946.1	#efe7c9	Electrophorus electricus
+GBG82390.1	#29a679	Chara braunii
+KAF4362097.1	#38916a	Cannabis sativa
+KAG7285877.1	#019494	Staphylotrichum longicolle
+KAF9447414.1	#052be5	Macrolepiota fuliginosa
+XP_049108107.1	#329cdb	Ophidiomyces ophidiicola
+KAI5082049.1	#cdee28	Adiantum capillus-veneris
+A0A1B2CTB9.1	#a23c29	Penicillium thymicola
+PZC75388.1	#394e2a	Helicoverpa armigera
+KAI4894172.1	#e3cf8d	Prochilodus magdalenae
+KAF8371221.1	#ac986f	Pristionchus pacificus
+CAA7267202.1	#4a8758	Cyclocybe aegerita
+KAF3020262.1	#ca0b2b	Neopestalotiopsis sp. 37M
+CZR63729.1	#2ff7ac	Phialocephala subalpina
+XP_022801546.1	#74411c	Stylophora pistillata
+PNI54501.1	#f018f4	Pan troglodytes
+EOD47694.1	#2d9f39	Neofusicoccum parvum
+WP_073783199.1	#b8f558	Streptomyces uncialis
+ODM19357.1	#74e736	Aspergillus cristatus
+PNR35123.1	#344a4f	Physcomitrium patens
+GJM92887.1	#6e1f2d	Eleusine coracana
+XP_034247490.1	#25ed52	Thrips palmi
+KAI3929398.1	#7ff70f	Papaver armeniacum
+CAZ66713.1	#902b13	Pandinus imperator
+KAI4948928.1	#5eb3d5	Alternaria rosae
+KXJ86129.1	#f44942	Microdochium bolleyi
+MCA1671280.1	#e04ffa	Actinomycetia bacterium
+XP_020102411.1	#1db5e5	Ananas comosus
+CAF9937036.1	#161601	Heterodermia speciosa
+GAV64582.1	#521e20	Cephalotus follicularis
+RWA07123.1	#adfbf5	Xylaria grammica
+KAH7716949.1	#dd8cec	Aphelenchus avenae
+KAF5003810.1	#cac7f4	Fusarium decemcellulare
+KAF4586457.1	#2db188	Pleurotus pulmonarius
+EYC16104.1	#3c3560	Ancylostoma ceylanicum
+KAF3424574.1	#7d8e9f	Frieseomelitta varia
+KAF7994702.1	#2b4ada	Aphidius gifuensis
+AGR40404.1	#3bd723	Lepidocampa weberi
+PHT58551.1	#e30158	Capsicum baccatum
+XP_048513195.1	#7c8e4c	Athalia rosae
+KAI0392748.1	#9407ad	Xylariaceae sp. FL0594
+XP_047825685.1	#0cd989	Xylaria bambusicola
+KAH7406341.1	#443aa9	Phaeosphaeria sp. MPI-PUGE-AT-0046c
+XP_013143810.1	#e0a664	Papilio polytes
+XP_033538233.1	#9c9481	Eremomyces bilateralis
+XP_020574936.1	#cb506e	Phalaenopsis equestris
+TYG65142.1	#c82006	Gossypium darwinii
+XP_040735702.1	#6fb9dc	Talaromyces amestolkiae
+KAF8519616.1	#42a585	Hysterangium stoloniferum
+CAG8459805.1	#76d346	Diversispora eburnea
+CAF0889595.1	#68caf1	Didymodactylos carnosus
+XP_046747830.1	#cfb82b	Diprion similis
+KAG6573251.1	#b76b44	Cucurbita argyrosperma
+TVU43152.1	#9a0967	Eragrostis curvula
+KAH8586542.1	#7c1d67	Bisporella sp. PMI_857
+MQM23198.1	#cadb15	Colocasia esculenta
+4YD9_B	#0bd8ea	Todarodes pacificus
+KAF8155707.1	#fc5fdd	Crassisporium funariophilum
+KAI4182031.1	#bc7d90	Caloplaca aetnensis
+XP_006646401.2	#6535fb	Oryza brachyantha
+KAE8414952.1	#0f2f4b	Aspergillus pseudocaelatus
+MBW4672549.1	#f35026	Desmonostoc geniculatum
+MCJ1444511.1	#276a26	Stictis urceolatum
+WP_223980400.1	#fd2cfc	Arthrobacter sp. NicSoilB8
+XP_049176720.1	#359c8e	Wardomyces moseri
+TPX77153.1	#ee7d8d	Chytriomyces confervae
+XP_015112052.1	#8e3041	Diachasma alloeum
+WP_152616394.1	#3e9899	Sphingomonas sp. ERG5
+VFQ89520.1	#7372be	Cuscuta campestris
+CAB1349247.1	#fc63a0	Coregonus sp. 'balchen'
+CAC5414261.1	#fb177f	Mytilus coruscus
+KLJ05823.1	#027dae	Blastomyces silverae
+XP_035660532.1	#8deebe	Branchiostoma floridae
+XP_028136208.1	#c1ce8d	Diabrotica virgifera
+TVY93055.1	#9ffb75	Lachnellula willkommii
+XP_036626680.1	#248f1f	Pleurotus ostreatus
+WP_155750401.1	#2d5898	Scytonema sp. UIC 10036
+KAI0342042.1	#6b120f	Trametopsis cervina
+KAI0631517.1	#60532a	Trametes polyzona
+KAG8626321.1	#c36451	Elsinoe batatas
+KHN81078.1	#d6c117	Toxocara canis
+KAI5819912.1	#d205ea	Pyronema omphalodes
+RHZ56799.1	#3d0ae2	Aspergillus turcosus
+KAI5862147.1	#9bb20f	Durotheca rogersii
+XP_029514175.1	#036367	Oncorhynchus nerka
+RYP65628.1	#0cf464	Monosporascus sp. CRB-8-3
+XP_018573707.1	#e9a92b	Anoplophora glabripennis
+KAF2901629.1	#b32b22	Ignelater luminosus
+KAG8517025.1	#384efc	Galemys pyrenaicus
+WP_058368985.1	#31ee24	nan
+XP_025471929.1	#9b4afc	Aspergillus sclerotioniger
+ORZ41473.1	#32d536	Catenaria anguillulae
+KAI0270057.1	#b735d7	Gloeopeniophorella convolvens
+MCJ1234475.1	#8ff2b1	Varicellaria rhodocarpa
+KAG9244100.1	#de2bd6	Calycina marina
+KAH6847638.1	#598553	Chaetomium sp. MPI-CAGE-AT-0009
+KAF9005143.1	#54531e	Cyathus striatus
+KIJ45896.1	#647c27	Sphaerobolus stellatus
+XP_038800285.1	#c4b749	Ascochyta rabiei
+TYC68289.1	#a4c22a	Stappia sp. BW2
+KAI0108321.1	#d964cb	Daldinia grandis
+KAF4526428.1	#00ae81	Ephemera danica
+XP_016464639.1	#45f36d	Nicotiana tabacum
+AII79419.1	#9bf366	Azumapecten farreri
+XP_015604511.1	#9334ee	Cephus cinctus
+KIM38482.1	#8d6f35	Hebeloma cylindrosporum
+KAF2429780.1	#48b03c	Tothia fuscella
+XP_044427428.1	#ea481a	Triticum aestivum
+CCD48563.1	#b2acf3	Botrytis cinerea
+KAF2685227.1	#e7aef9	Lentithecium fluviatile
+XP_043162590.1	#911c1c	Aspergillus pseudoviridinutans
+KAF2772325.1	#258bea	Teratosphaeria nubilosa
+OVA07052.1	#7f97c8	Macleaya cordata
+KAH8749491.1	#f2354c	Diaporthaceae sp. PMI_573
+CAE6452611.1	#2c63a5	Rhizoctonia solani
+KAG8981526.1	#2c38d1	Tulasnella sp. JGI-2019a
+XP_037910598.1	#23f308	Hermetia illucens
+KAF2653661.1	#0c2c7c	Lophiostoma macrostomum
+TFY69319.1	#57d45a	Dentipellis fragilis
+XP_008087703.1	#134a58	Glarea lozoyensis
+KAF7595181.1	#370e83	Aspergillus hancockii
+VDI16353.1	#307007	Mytilus galloprovincialis
+XP_037470128.1	#560525	Triticum dicoccoides
+KAH9262576.1	#97368e	Batrachochytrium salamandrivorans
+RDA88208.1	#7a36bf	Ophiocordyceps camponoti-leonardi (nom. inval.)
+XP_014789967.1	#70a5ca	Octopus bimaculoides
+KAF2007260.1	#d06e06	Amniculicola lignicola
+KAF2458395.1	#5456ff	Lineolata rhizophorae
+XP_031639065.1	#6b51d2	Contarinia nasturtii
+KAF6806282.1	#0d4caf	Colletotrichum sojae
+KAG5010566.1	#f85cf3	Glycine soja
+XP_015512622.2	#bdb6a3	Neodiprion lecontei
+XP_027157034.1	#bde10d	Coffea eugenioides
+PSN38098.1	#302c55	Blattella germanica
+KAH7384674.1	#bdb73b	Pyrenochaeta sp. MPI-SDFR-AT-0127
+KAG8417593.1	#a3d59f	Metarhizium acridum
+OLN83361.1	#ee1172	Colletotrichum chlorophyti
+KAF4815234.1	#fbf870	Colletotrichum siamense
+RYO73105.1	#1ada7d	Alternaria arborescens
+KAH6671770.1	#2a2ba0	Halenospora varia
+XP_046490766.1	#466ae8	Neodiprion pinetum
+CCC55784.1	#7708d4	Peripatopsis sedgwicki
+PSN67570.1	#fe5652	Corynespora cassiicola
+OJJ69644.1	#ba1513	Aspergillus brasiliensis
+KAF3643917.1	#42e086	Capsicum annuum
+XP_031565456.1	#3f13ff	Actinia tenebrosa
+CRG90099.1	#aede40	Talaromyces islandicus
+KFA68508.1	#a23e86	Stachybotrys chlorohalonata
+KAI4102002.1	#b849f5	Teloschistes sp. TBL-2021a
+TDG43056.1	#774924	Drosophila navojoa
+CAH1767106.1	#aa1389	Claroideoglomus sp. SA101
+KAH9844847.1	#9a9e02	Teratosphaeria destructans
+XP_018665954.1	#76294c	Trichoderma gamsii
+ORY37436.1	#fbdc07	Rhizoclosmatium globosum
+KAA2266057.1	#1c55b8	Goodfellowiella sp. AN110305
+CEO98724.1	#910e38	Plasmodiophora brassicae
+XP_016645321.1	#7c2623	Scedosporium apiospermum
+KAF7747356.1	#5e0d76	Entomophthora muscae
+WP_104078376.1	#31ee24	nan
+KAG5637088.1	#ae8ebb	Sphagnurus paluster
+AUO15575.1	#acecb2	Pielomastax soochowensis
+XP_010227274.2	#a1a03b	Brachypodium distachyon
+KAF5196169.1	#73019b	Thalictrum thalictroides
+XP_033666016.1	#96d1ae	Zasmidium cellare
+TVY57329.1	#efccbc	Lachnellula cervina
+KAF5912792.1	#a99099	Diceros bicornis
+KAF2997425.1	#56ed16	Curvularia kusanoi
+XP_044662855.1	#d384bb	Cercospora kikuchii
+KAF9785224.1	#53b1f3	Thelephora terrestris
+RFU31128.1	#721a9f	Scytalidium lignicola
+KAI1363315.1	#fd863e	Xylaria arbuscula
+XP_045113323.1	#fe61e3	Portunus trituberculatus
+CAD7427688.1	#c9835d	Timema monikensis
+XP_033523760.1	#e3899e	Dothidotthia symphoricarpi
+PPJ59323.1	#c6caa9	Cercospora berteroae
+OXA57671.1	#b0c805	Folsomia candida
+HFC91460.1	#81807f	Leucothrix mucor
+CAG8961885.1	#96611f	Hymenoscyphus fraxineus
+KAH8901347.1	#434224	Thozetella sp. PMI_491
+KAH6623942.1	#8068bb	Chaetomium globosum
+XP_025414808.1	#4c6640	Sipha flava
+XP_001224266.1	#8068bb	Chaetomium globosum
+KAI5459795.1	#1f8c4b	Mariannaea sp. PMI_226
+KAI1122971.1	#5b8608	Nemania abortiva
+KAH8912448.1	#64273d	Coniochaeta sp. PMI_546
+KAF5343668.1	#daab83	Tetrapyrgos nigripes
+MBW4427553.1	#0413cf	Nostoc desertorum
+XP_023451981.1	#84c120	Cercospora beticola
+XP_049774295.1	#2cc9d5	Schistocerca cancellata
+SMH67860.1	#d44947	Scolopendra dehaani
+KAH7373383.1	#a70e37	Ceratopteris richardii
+XP_024363392.1	#344a4f	Physcomitrium patens
+KAF9600139.1	#bd6e0c	Coptis chinensis
+KAF8202658.1	#5b16cf	Mycena galopus
+XP_038752868.1	#f91e35	Botrytis sinoallii
+XP_029035147.2	#12e1b3	Osmia bicornis
+KAI1249141.1	#f1db01	Eutypa lata
+KXN83343.1	#9e5e5c	Leucoagaricus sp. SymC.cos
+KAB0791105.1	#9632f0	Photinus pyralis
+PNY27459.1	#303ebd	Tolypocladium capitatum
+KAF3936906.1	#cef5d3	Dactylella cylindrospora
+KAF2662003.1	#0c2c7c	Lophiostoma macrostomum
+XP_035282512.1	#4c3935	Anguilla anguilla
+KAI5779941.1	#69bf5d	Peziza echinospora
+Q8T115.1	#ed2f7c	Scutigera coleoptrata
+XP_042520420.1	#086b6a	Macadamia integrifolia
+WP_257348524.1	#b266f5	Alkalihalobacillus decolorationis
+KAI2638424.1	#73f2fc	Xylaria nigripes
+KAF5756631.1	#09e7bc	Helianthus annuus
+KAH8639115.1	#233254	Alternaria alternata
+KAF2713067.1	#f6955d	Pleomassaria siparia
+XP_021948079.1	#b0c805	Folsomia candida
+KAF9240819.1	#a2eb4e	Melanogaster broomeanus
+XP_019887012.1	#8b7c24	Ooceraea biroi
+KAB8077673.1	#f6bb75	Aspergillus leporis
+XP_014237912.1	#f39fcc	Trichogramma pretiosum
+KAF3244279.1	#d2137e	Orbilia oligospora
+KAE9377330.1	#f8f3fb	Chalara longipes
+CAC04148.1	#ede9ff	Pimpla hypochondriaca
+XP_027064338.1	#b87515	Coffea arabica
+KAH8687440.1	#d2f8d4	Hymenoscyphus varicosporioides
+OWP04420.1	#9bafbd	Marssonina coronariae
+MBV1888583.1	#5f2b2b	Urechidicola sp.
+MBA3512310.1	#afdc82	Sphingomonas sp.
+KAG8808043.1	#ea716f	Serendipita sp. 399
+KXH42816.1	#f2e052	Colletotrichum simmondsii
+CAD2195004.1	#e41d65	Meloidogyne enterolobii
+XP_043461921.1	#3b8522	Leptopilina heterotoma
+UUJ74937.1	#7ee3a0	Cephalotaxus hainanensis
+KAI1485144.1	#24fb36	Biscogniauxia mediterranea
+Q6UIL3.1	#7335e9	Larrea tridentata
+ORY04901.1	#ca724f	Basidiobolus meristosporus
+KAI1244862.1	#f1db01	Eutypa lata
+KAI0342996.1	#6b120f	Trametopsis cervina
+MBX7471308.1	#b0dd44	Streptomyces sp. MAG02
+KAG5641311.1	#b72191	Asterophora parasitica
+KAI1812818.1	#024fb3	Poronia punctata
+XP_049949747.1	#c54c38	Schistocerca serialis
+PKA46165.1	#4e245d	Apostasia shenzhenica
+XP_016640559.1	#7c2623	Scedosporium apiospermum
+XP_046013435.1	#7891d6	Microdochium trichocladiopsis
+KAF9651409.1	#6a094c	Thelephora ganbajun
+CCC55878.1	#145043	Hanseniella audax
+KAE9373058.1	#f8f3fb	Chalara longipes
+RKP37505.1	#08adbf	Dimargaris cristalligena
+XP_014481078.1	#c9c7e1	Dinoponera quadriceps
+XP_016638781.1	#7c2623	Scedosporium apiospermum
+XP_033555137.1	#e29462	Lindgomyces ingoldianus
+XP_026424965.1	#58a3b6	Papaver somniferum
+KAF7369148.1	#452459	Mycena venus
+XP_023222105.1	#c6229c	Centruroides sculpturatus
+PPJ53147.1	#c6caa9	Cercospora berteroae
+XP_033232131.1	#cec10d	Belonocnema kinseyi
+KAI0014819.1	#d91405	Xylariomycetidae sp. FL0641
+CAE6336901.1	#2c63a5	Rhizoctonia solani
+KAH8724996.1	#0b7b4f	Phaeosphaeriaceae sp. PMI808
+KAF7747146.1	#5e0d76	Entomophthora muscae
+XP_003571389.2	#a1a03b	Brachypodium distachyon
+CAD7226769.1	#8a332d	Cyprideis torosa
+XP_026756149.1	#15dbe8	Galleria mellonella
+ANG57909.1	#dbd1ba	Lilium hybrid cultivar
+ROV96372.1	#7b4151	Cytospora leucostoma
+CAD5221707.1	#61a2f2	Bursaphelenchus okinawaensis
+XP_039602179.1	#e4d361	Polypterus senegalus
+GFP87036.1	#7e29f2	Phtheirospermum japonicum
+GFS12514.1	#605377	Elysia marginata
+VDO23215.1	#d0c724	Haemonchus placei
+KAI1076040.1	#252168	Whalleya microplaca
+RWA11992.1	#adfbf5	Xylaria grammica
+KAI4296685.1	#8ec346	Bauhinia variegata
+XP_023621321.1	#45ac6c	Ramularia collo-cygni
+KAH9980085.1	#1c43d0	Lactarius volemus
+PVD32039.1	#afd1d7	Pomacea canaliculata
+KAF7350174.1	#452459	Mycena venus
+XP_017346530.1	#a0cf7c	Ictalurus punctatus
+KAI0178378.1	#0fe245	Pestalotiopsis sp. NC0098
+KAH8179115.1	#b0fdff	Sarocladium implicatum
+GJC86596.1	#fb02b9	Colletotrichum liriopes
+OJT09435.1	#d08866	Trametes pubescens
+CAG2233089.1	#a43774	Mytilus edulis
+KAF2491927.1	#a5e098	Lophium mytilinum
+OAQ87934.1	#3db5d0	Purpureocillium lilacinum
+WP_011601784.1	#31ee24	nan
+CAD87763.1	#d221a9	Perla marginata
+KAF2026530.1	#1bc1a2	Setomelanomma holmii
+CAQ30427.1	#bd0cde	Nierstraszella lineata
+RFN46283.1	#ac83b0	Fusarium flagelliforme
+KAH8813801.1	#c4bb54	Flagelloscypha sp. PMI_526
+GBP20808.1	#657214	Eumeta japonica
+PKS04983.1	#5cc53a	Lomentospora prolificans
+MCH8824778.1	#7be328	Planctomycetes bacterium
+XP_007417973.1	#0d2a9a	Melampsora larici-populina
+XP_043279581.1	#e270fd	Venturia canescens
+KAI3968228.1	#d395ed	Papaver californicum
+PMD29276.1	#05287e	Hyaloscypha variabilis
+GCB20055.1	#1c187c	Aspergillus awamori
+BAZ31278.1	#fe26ab	Cylindrospermum sp. NIES-4074
+KAF8964476.1	#0d85e4	Flammula alnicola
+CCA94925.1	#484280	Mastigoproctus giganteus
+KAF7759013.1	#5e0d76	Entomophthora muscae
+KAI3943345.1	#7ff70f	Papaver armeniacum
+GEX34811.1	#fd6b74	Tanacetum cinerariifolium
+XP_011506304.1	#4e4457	Ceratosolen solmsi
+EWC43938.1	#724361	Drechslerella stenobrocha
+TEY44945.1	#ac7266	Botryotinia calthae
+XP_046990472.1	#fb6fc6	Schistocerca americana
+WP_037264746.1	#33728b	Kibdelosporangium aridum
+KAH7320731.1	#9c9c9b	Stachybotrys elegans
+PBK73641.1	#c0871d	Armillaria solidipes
+KAF8384780.1	#ac986f	Pristionchus pacificus
+CAD7592476.1	#f7d47e	Timema genevievae
+XP_001831419.2	#98e216	Coprinopsis cinerea
+XP_029716891.1	#7abc23	Aedes albopictus
+KAF1994509.1	#d06e06	Amniculicola lignicola
+KAF8883494.1	#933dc6	Gymnopilus junonius
+XP_007914932.1	#690e11	Phaeoacremonium minimum
+TVY21196.1	#2cc59b	Lachnellula arida
+XP_017249929.1	#97a139	Daucus carota
+PBP21175.1	#255c7a	Diplocarpon rosae
+RMY53718.1	#8f7e21	Hortaea werneckii
+KAI3375784.1	#dac9d4	Scortum barcoo
+KAH7886251.1	#68af18	Phlebopus sp. FC_14
+KZC14394.1	#caf640	Dufourea novaeangliae
+Q8IFJ8.1	#ed2f7c	Scutigera coleoptrata
+KAG7157362.1	#af838f	Homarus americanus
+KAH7080008.1	#52da2a	Paraphoma chrysanthemicola
+MBM3810041.1	#cd5621	Acidimicrobiia bacterium
+XP_045980590.1	#ac83b0	Fusarium flagelliforme
+BAE48754.1	#f89850	Agaricus blazei
+XP_013080599.1	#02cc1f	Biomphalaria glabrata
+KAH8172513.1	#b0fdff	Sarocladium implicatum
+KAF5348693.1	#daab83	Tetrapyrgos nigripes
+PSN36662.1	#302c55	Blattella germanica
+RPA83365.1	#2ccfc4	Ascobolus immersus
+KAG1342801.1	#16caf7	Cocos nucifera
+CAG4955909.1	#929b29	Parnassius apollo
+KAE8242115.1	#9bc9d6	Tilletia controversa
+RKP25487.1	#9d9ae8	Syncephalis pseudoplumigaleata
+UDU41168.1	#c54c38	Schistocerca serialis
+KAH8178406.1	#b0fdff	Sarocladium implicatum
+TYI24094.1	#3a3aab	Gossypium tomentosum
+KAE8153924.1	#347b6c	Aspergillus avenaceus
+KZZ99727.1	#c487ae	Moelleriella libera
+XP_047078306.1	#2a63a6	Lolium rigidum
+PTQ29243.1	#8b1377	Marchantia polymorpha
+XP_008225001.1	#1deeb8	Prunus mume
+ACU68955.1	#57f0b0	Schistosoma japonicum
+CRL07341.1	#493b2d	Clunio marinus
+KAI5795794.1	#0208ce	Geopyxis carbonaria
+CAG8983335.1	#0f3b6a	Hymenoscyphus albidus
+CAG5119064.1	#f79e0e	Candidula unifasciata
+WP_089319402.1	#692433	Pontibacter ummariensis
+XP_045449735.1	#6ad73d	Melitaea cinxia
+TVU14852.1	#9a0967	Eragrostis curvula
+XP_038795814.1	#c4b749	Ascochyta rabiei
+CCF55383.1	#f4a9df	Atyopsis moluccensis
+XP_019425637.1	#f8957c	Lupinus angustifolius
+KAF2303386.1	#53406b	Hevea brasiliensis
+XP_037941821.1	#26fe10	Teleopsis dalmanni
+TKY59313.1	#7d0f59	Spatholobus suberectus
+KEP53525.1	#2c63a5	Rhizoctonia solani
+ALM04212.1	#932a36	Botryllus schlosseri
+RWW11036.1	#84b912	Ensete ventricosum
+KAF7197717.1	#576051	Pseudocercospora fuligena
+TKX22697.1	#ebb1ef	Elsinoe australis
+ORX91456.1	#ca724f	Basidiobolus meristosporus
+WP_224793250.1	#39854c	Pseudomonas fluorescens
+XP_007025704.2	#cc029b	Theobroma cacao
+XP_026693053.1	#9ba6d0	Ciona intestinalis
+XP_033748667.1	#c07337	Pecten maximus
+CAB1351063.1	#fc63a0	Coregonus sp. 'balchen'
+KAG7152567.1	#4c4016	Verticillium longisporum
+OMP83731.1	#4da3d8	Diplodia seriata
+RDX60825.1	#9e8468	Mucuna pruriens
+MCD7473568.1	#4aeb0d	Datura stramonium
+KAH4102311.1	#690104	Parastagonospora nodorum
+KAF5349058.1	#daab83	Tetrapyrgos nigripes
+EKG15519.1	#80d14a	Macrophomina phaseolina
+TFK38852.1	#ba5f76	Crucibulum laeve
+XP_033394457.1	#1dfba6	Aplosporella prunicola
+XP_017877241.2	#6f3e71	Ceratina calcarata
+MCL4296359.1	#b6cc81	Anaerolineae bacterium
+KAE8444232.1	#14439a	Helotiales sp. DMI_Dod_QoI
+PSR90369.1	#661522	Coniella lustricola
+XP_016644862.1	#7c2623	Scedosporium apiospermum
+KAA3478361.1	#4e97be	Gossypium australe
+XP_028775529.1	#1c4ef2	Prosopis alba
+XP_002119601.1	#9ba6d0	Ciona intestinalis
+XP_045454184.1	#6ad73d	Melitaea cinxia
+XP_023765834.1	#b9806c	Lactuca sativa
+AVN99042.1	#c7f19c	Hymenophyllum caudiculatum
+GBB88162.1	#09eb8a	Rhizophagus clarus
+KAI5779911.1	#69bf5d	Peziza echinospora
+KXS99614.1	#f1e35b	Pseudocercospora eumusae
+XP_018038151.1	#c72baf	Paraphaeosphaeria sporulosa
+KAI3943343.1	#7ff70f	Papaver armeniacum
+KAI5803488.1	#69bf5d	Peziza echinospora
+KAI6301604.1	#99e98b	Pyricularia grisea
+KAB5589174.1	#c176a0	Ceratobasidium theobromae
+XP_004530681.1	#9796fe	Ceratitis capitata
+KAI3497198.1	#652d3d	Cichorium endivia
+XP_041193415.1	#3cfdfc	Suillus subaureus
+XP_044017319.1	#2b4ada	Aphidius gifuensis
+XP_021857684.1	#1eb469	Spinacia oleracea
+GFO16266.1	#97c6ac	Plakobranchus ocellatus
+ORZ37934.1	#32d536	Catenaria anguillulae
+PQQ03642.1	#f43093	Prunus yedoensis
+MBP7930242.1	#cd5621	Acidimicrobiia bacterium
+RYN30195.1	#7d12d4	Alternaria tenuissima
+XP_014077157.1	#dcc9d2	Bipolaris maydis
+KAH8668543.1	#ed894d	Xylariales sp. PMI_506
+KAI1390406.1	#a90679	Hypoxylon trugodes
+KAB5566335.1	#ed7fc7	Coniochaeta sp. 2T2.1
+KAG9103970.1	#14b1cd	Ceratobasidium sp. 392
+XP_023756515.1	#b9806c	Lactuca sativa
+KAF3002958.1	#56ed16	Curvularia kusanoi
+TDZ16065.1	#483e2f	Colletotrichum orbiculare
+XP_010647098.2	#fc875a	Vitis vinifera
+WP_191733543.1	#0b781b	Corynebacterium sp. Sa1YVA5
+CAG9564771.1	#ddcd80	Danaus chrysippus
+AND01156.1	#015c68	Linum usitatissimum
+AAK13243.1	#c2f467	Trifolium pratense
+PKK42277.1	#83abc0	Trichoderma harzianum
+XP_039827587.1	#5fbd1f	Panicum virgatum
+KXL50334.1	#79b0b5	Acidomyces sp. 'richmondensis'
+MBV8318253.1	#41894c	Planctomycetaceae bacterium
+KAI5856860.1	#e665e6	Tricharina praecox
+XP_046000914.1	#b220d7	Boeremia exigua
+XP_013109664.1	#f94870	Stomoxys calcitrans
+XP_049856059.1	#6d9fc0	Schistocerca gregaria
+XP_037828029.1	#f23f07	Lucilia sericata
+CAG8947322.1	#68a2ed	Penicillium salamii
+WP_206963830.1	#36589d	Streptomyces beijiangensis
+XP_034246710.1	#25ed52	Thrips palmi
+KAH7398700.1	#443aa9	Phaeosphaeria sp. MPI-PUGE-AT-0046c
+KAF9416840.1	#642e03	Spodoptera exigua
+VDK82198.1	#c48a72	Litomosoides sigmodontis
+XP_040394763.1	#99ed61	Cygnus olor
+KAH6623461.1	#8068bb	Chaetomium globosum
+XP_040710705.1	#c46faf	Pseudomassariella vexata
+XP_008084579.1	#134a58	Glarea lozoyensis
+WP_037773865.1	#35a75e	Streptomyces pristinaespiralis
+XP_015592859.1	#9334ee	Cephus cinctus
+TMW41898.1	#77906d	Sarcophaga bullata
+KAG9248530.1	#de2bd6	Calycina marina
+PPD69237.1	#5b96ba	Gossypium barbadense
+KAH8887135.1	#434224	Thozetella sp. PMI_491
+KAH8205745.1	#f1be35	Truncatella angustata
+XP_033597438.1	#ff45b2	Pseudovirgaria hyperparasitica
+KAF2668920.1	#4b264e	Microthyrium microscopicum
+PKC09741.1	#493b4a	Rhizophagus irregularis
+KAI1169452.1	#f47544	Nemania sp. FL0916
+CAG2211791.1	#a43774	Mytilus edulis
+KAH6901637.1	#d329df	Coprinopsis sp. MPI-PUGE-AT-0042
+XP_022395351.1	#943cbd	Aspergillus glaucus
+CDP27511.1	#6a5228	Podospora anserina
+KIM28124.1	#07c80a	Serendipita vermifera
+XP_039436011.1	#f9217d	Culex pipiens
+CAG8704901.1	#d856e7	Cetraspora pellucida
+XP_033671234.1	#96d1ae	Zasmidium cellare
+KAI1070356.1	#a56096	Fusarium sp. FIESC RH6
+KAH8592455.1	#7c1d67	Bisporella sp. PMI_857
+MCJ1282462.1	#29ed7a	Xylographa opegraphella
+XP_013297182.1	#73b2ff	Necator americanus
+KAI0482566.1	#94e179	Xylariaceae sp. FL0804
+KAF2179442.1	#4545f3	Zopfia rhizophila
+XP_046010175.1	#7891d6	Microdochium trichocladiopsis
+XP_040189561.1	#e3a6e0	Rana temporaria
+KKA28219.1	#222940	Thielaviopsis punctulata
+PPQ73806.1	#6fd6b0	Panaeolus cyanescens
+QKG01969.1	#1b12ad	Hyriopsis cumingii
+KAF4637486.1	#1138ed	Cudoniella acicularis
+KIM22197.1	#07c80a	Serendipita vermifera
+CAD7568049.1	#8b4a62	Timema californicum
+KAH6775480.1	#4141e5	Perilla frutescens
+XP_036581196.1	#39a8fd	Colletotrichum truncatum
+CAD6996671.1	#9796fe	Ceratitis capitata
+CAD6998654.1	#9796fe	Ceratitis capitata
+CAH2093350.1	#f377b5	Euphydryas editha
+KAF4547359.1	#1998e4	Elsinoe fawcettii
+CAN76259.1	#fc875a	Vitis vinifera
+KAF2458430.1	#5456ff	Lineolata rhizophorae
+XP_033604394.1	#ff45b2	Pseudovirgaria hyperparasitica
+KAH7347675.1	#f6d279	Plectosphaerella cucumerina
+XP_040718805.1	#c46faf	Pseudomassariella vexata
+RAL63678.1	#c6eb25	Monilinia fructigena
+TLD25198.1	#285e7f	Pyricularia sp. CBS 133598
+KIV86736.1	#30fce0	Exophiala sideris
+CAQ30425.1	#e3003a	Falcidens crossotus
+KAA8623626.1	#ed7a5e	Pyrenophora tritici-repentis
+CAG7854385.1	#bb2667	Serendipita indica
+RMZ15287.1	#8f7e21	Hortaea werneckii
+KAI5366402.1	#a1ab0f	Septoria linicola
+XP_031870848.1	#379621	Venustampulla echinocandica
+CAH0563933.1	#7c8ad4	Brassicogethes aeneus
+WP_250570044.1	#9f9449	Streptomyces sp. CJ_13
+KAF8364472.1	#ac986f	Pristionchus pacificus
+KAG7292727.1	#019494	Staphylotrichum longicolle
+KAI0221242.1	#fbbba4	Lamellibrachia satsuma
+3NQ5_A	#42cca4	Priestia megaterium
+CAG8948658.1	#96611f	Hymenoscyphus fraxineus
+PYQ30009.1	#152ce0	Acidobacteria bacterium
+AXY94715.1	#ebeeb4	Habrobracon hebetor
+XP_012841269.1	#421503	Erythranthe guttata
+KAF3229830.1	#d2137e	Orbilia oligospora
+KAI1273109.1	#b7ebb8	Xylaria sp. FL0933
+KAH7324193.1	#9c9c9b	Stachybotrys elegans
+ANZ03351.1	#ff8937	Rhodnius prolixus
+ROW16040.1	#7b4151	Cytospora leucostoma
+TFY82262.1	#0dd3de	Hericium alpestre
+KIY68548.1	#206121	Cylindrobasidium torrendii
+KAG8238332.1	#fd80ff	Ladona fulva
+KAF2668715.1	#4b264e	Microthyrium microscopicum
+CAG7849779.1	#bb2667	Serendipita indica
+GJM93000.1	#6e1f2d	Eleusine coracana
+KAF9416846.1	#642e03	Spodoptera exigua
+WP_099151738.1	#9c1dc3	Flavilitoribacter nigricans
+KAG9147457.1	#2c8c38	Lithospermum erythrorhizon
+CAD6185960.1	#e47e03	Caenorhabditis auriculariae
+ODN02615.1	#8a75c8	Orchesella cincta
+CAB5322541.1	#493b4a	Rhizophagus irregularis
+CAA2973918.1	#1a4422	Olea europaea
+RKP06672.1	#902009	Thamnocephalis sphaerospora
+KAF7757478.1	#5e0d76	Entomophthora muscae
+CAE6534809.1	#2c63a5	Rhizoctonia solani
+TKR68425.1	#ad94a9	Steinernema carpocapsae
+KKY28580.1	#347a7d	Phaeomoniella chlamydospora
+RKP26900.1	#9d9ae8	Syncephalis pseudoplumigaleata
+XP_021993752.1	#09e7bc	Helianthus annuus
+KAF2205686.1	#7d8f13	Delitschia confertaspora
+CCA94918.1	#97dc41	Euphrynichus bacillifer
+CAD6441656.1	#590f2a	Sclerotinia trifoliorum
+KAF2749222.1	#5e0c08	Sporormia fimetaria
+RXW15713.1	#c714f2	Candolleomyces aberdarensis
+RYC64772.1	#276a40	Xylaria longipes
+XP_033746355.1	#c07337	Pecten maximus
+RWR90709.1	#4ab84c	Cinnamomum micranthum
+KAH7393773.1	#443aa9	Phaeosphaeria sp. MPI-PUGE-AT-0046c
+KXX81014.1	#395924	Madurella mycetomatis
+KAI1129745.1	#5b8608	Nemania abortiva
+XP_047108414.1	#de7166	Schistocerca piceifrons
+OWK00862.1	#bc0f2f	Cervus elaphus
+KAE9461832.1	#c9a047	Rhododendron williamsianum
+CAN68528.1	#fc875a	Vitis vinifera
+CAE6417122.1	#2c63a5	Rhizoctonia solani
+KXJ69293.1	#7abc23	Aedes albopictus
+WP_170045444.1	#d019b0	Pseudomonas sp. WS 5412
+KAF2226261.1	#59e501	Elsinoe ampelina
+WP_242936811.1	#a18afd	Zhouia spongiae
+KAI5852092.1	#e665e6	Tricharina praecox
+CAZ66718.1	#902b13	Pandinus imperator
+QCQ28827.1	#c8a08d	Clematis terniflora
+XP_049139918.1	#5bd411	Colletotrichum lupini
+TSK67205.1	#43d7cd	Bagarius yarrelli
+KAH7103323.1	#15ed82	Auriculariales sp. MPI-PUGE-AT-0066
+MBX7038445.1	#b4cf8f	Nitrospira sp.
+AGR40412.1	#deae76	Campodea fragilis
+PWA84341.1	#e04447	Artemisia annua
+KAG6398102.1	#76b21e	Salvia splendens
+XP_003564367.2	#a1a03b	Brachypodium distachyon
+MCJ1441251.1	#276a26	Stictis urceolatum
+XP_038787019.1	#f08ab1	Alternaria burnsii
+TDZ53659.1	#85b646	Colletotrichum trifolii
+XP_049124304.1	#1927e0	Colletotrichum spaethianum
+CAG8953371.1	#96611f	Hymenoscyphus fraxineus
+XP_041376379.1	#f49676	Gigantopelta aegis
+KYN15130.1	#c4d596	Trachymyrmex cornetzi
+MCJ1396714.1	#85f561	Xylographa bjoerkii
+KXN70486.1	#73de94	Conidiobolus coronatus
+TVU14778.1	#9a0967	Eragrostis curvula
+KAG7217037.1	#fe5633	Caranx melampygus
+SVE70278.1	#d66331	Daphnia similis
+QCC26463.1	#5386b4	Octostigma sinensis
+PGG95531.1	#c0944a	Helicocarpus griseus
+XP_037214079.1	#860dee	Mycena indigotica
+KAH4923532.1	#690104	Parastagonospora nodorum
+KAG8962341.1	#f1666f	Tulasnella sp. 419
+XP_031091293.1	#70dc07	Ipomoea triloba
+XP_044017320.1	#2b4ada	Aphidius gifuensis
+KAF3929394.1	#cef5d3	Dactylella cylindrospora
+KAF2350450.1	#f4f8f5	Trinorchestia longiramus
+4YZW_A	#4b9233	Anopheles gambiae
+XP_040277164.1	#83b5bb	Bufo bufo
+KAI0330496.1	#ba6260	Leiotrametes sp. BRFM 1775
+QPG94323.1	#b2837f	Epichloe festucae
+KAB5516908.1	#ed7fc7	Coniochaeta sp. 2T2.1
+ORX94962.1	#951af2	Clohesyomyces aquaticus
+KAH8647369.1	#ed894d	Xylariales sp. PMI_506
+KAI5861017.1	#9bb20f	Durotheca rogersii
+KAF7324633.1	#cd1f74	Mycena kentingensis (nom. inval.)
+BAM15849.1	#d982b8	Portulaca oleracea
+PFX18254.1	#74411c	Stylophora pistillata
+CAM84196.1	#d221a9	Perla marginata
+CAF4930552.1	#bef1b8	Pieris macdunnoughi
+KAF9634811.1	#118803	Lasiodiplodia theobromae
+XP_048513196.1	#7c8e4c	Athalia rosae
+ODM87468.1	#8a75c8	Orchesella cincta
+KAI3465963.1	#0e3ea4	Paulownia fortunei
+XP_044645495.1	#949475	Diaporthe batatas
+KHN74038.1	#d6c117	Toxocara canis
+XP_044608941.1	#b62e78	Equus asinus
+KAF8470985.1	#f8636c	Russula ochroleuca
+ABB59717.1	#adb7d7	Triops longicaudatus
+MBI2689708.1	#152ce0	Acidobacteria bacterium
+CAD7194815.1	#202568	Timema douglasi
+XP_020102355.1	#1db5e5	Ananas comosus
+KAG9370852.1	#c23a62	Pseudotulostoma volvatum
+KZL64229.1	#4a41c8	Colletotrichum incanum
+XP_026475430.1	#560cff	Ctenocephalides felis
+EWC43835.1	#724361	Drechslerella stenobrocha
+XP_043020598.1	#5263d1	Diaporthe citri
+AHJ90473.1	#714642	Macrobrachium nipponense
+XP_023017783.1	#333c62	Leptinotarsa decemlineata
+PSN68742.1	#fe5652	Corynespora cassiicola
+KAF2121024.1	#40cbc7	Lophiotrema nucula
+RMZ89830.1	#680f23	Chaetothyriales sp. CBS 134916
+KAI3397142.1	#3fe275	Diaporthe ilicicola
+AAW24636.1	#57f0b0	Schistosoma japonicum
+MBX2868401.1	#1fd173	Acidiferrobacterales bacterium
+KAH8808754.1	#4a4de4	Xylogone sp. PMI_703
+XP_046409704.1	#492bb2	Neodiprion fabricii
+KJH50750.1	#92bba6	Dictyocaulus viviparus
+XP_018660768.1	#76294c	Trichoderma gamsii
+RKP08851.1	#902009	Thamnocephalis sphaerospora
+WP_057013984.1	#b8f968	Pseudomonas libanensis
+GBP70063.1	#657214	Eumeta japonica
+KAI3835064.1	#b8c217	Papaver bracteatum
+XP_022581810.1	#ed9122	Penicilliopsis zonata
+XP_007309329.1	#900537	Stereum hirsutum
+CAR94711.1	#306a36	Xibalbanus tulumensis
+XP_034698431.1	#68387f	Vitis riparia
+OCH83762.1	#61a574	Obba rivulosa
+KAF1935366.1	#73d1f6	Clathrospora elynae
+RKP22330.1	#9d9ae8	Syncephalis pseudoplumigaleata
+XP_040751113.1	#90245b	Aspergillus ochraceoroseus
+KAI5359974.1	#a1ab0f	Septoria linicola
+CAQ63322.1	#8f2df6	Thermobia domestica
+XP_025821273.1	#eab8fc	Panicum hallii
+KAH7652228.1	#9a0e50	Dioscorea alata
+XP_002844198.1	#3f00e3	Microsporum canis
+ACB45128.1	#d95270	Fragaria x ananassa
+MBA0662920.1	#81cc8f	Gossypium klotzschianum
+WP_252079564.1	#24cfc9	Muricauda aquimarina
+KAH8592146.1	#7c1d67	Bisporella sp. PMI_857
+KAH8777264.1	#200526	Hyaloscypha finlandica
+KZV33701.1	#ff2aa8	Dorcoceras hygrometricum
+KAI3769406.1	#82fb63	Arctium lappa
+XP_048430768.1	#b66481	Pyrus x bretschneideri
+KAI5803624.1	#69bf5d	Peziza echinospora
+KAI5804632.1	#69bf5d	Peziza echinospora
+EPB76075.1	#3c3560	Ancylostoma ceylanicum
+KAF2800605.1	#1d0464	Melanomma pulvis-pyrius
+XP_033666440.1	#96d1ae	Zasmidium cellare
+XP_024705991.1	#8772cd	Aspergillus steynii
+EME40759.1	#fb234d	Dothistroma septosporum
+KAH7304674.1	#9c9c9b	Stachybotrys elegans
+CAG2213629.1	#a43774	Mytilus edulis
+XP_022344548.1	#8b1255	Crassostrea virginica
+KAH7441843.1	#a70e37	Ceratopteris richardii
+KAG9230673.1	#97b922	Amylocarpus encephaloides
+CAG8550757.1	#806c5a	Acaulospora morrowiae
+RKP05548.1	#902009	Thamnocephalis sphaerospora
+KAI0737487.1	#dcaad8	Irpex lacteus
+CUH82792.1	#7b4197	Argulus foliaceus
+XP_664664.1	#fe7102	Aspergillus nidulans
+RZC53340.1	#58a3b6	Papaver somniferum
+KAF3051239.1	#41d261	Didymella keratinophila
+MBK7322234.1	#6b3019	Candidatus Microthrix sp.
+PVG01418.1	#07c80a	Serendipita vermifera
+XP_022847765.1	#1a4422	Olea europaea
+GAU42129.1	#76f3af	Trifolium subterraneum
+MCC3243925.1	#785cad	Methylocystis sp. WRRC1
+XP_049170988.1	#359c8e	Wardomyces moseri
+MCP5243777.1	#bffbec	Burkholderiales bacterium
+XP_037972867.2	#c82f5e	Plutella xylostella
+XP_044174398.1	#683c77	Acropora millepora
+CAF9927916.1	#161601	Heterodermia speciosa
+XP_018563800.1	#e9a92b	Anoplophora glabripennis
+KAH7242199.1	#f206fa	Fusarium tricinctum
+XP_046384836.1	#c08f65	Ischnura elegans
+AWK28005.1	#87b289	Paramphinome jeffreysii
+XP_024541491.1	#a764f7	Selaginella moellendorffii
+XP_033209434.1	#cec10d	Belonocnema kinseyi
+KAF2175164.1	#4545f3	Zopfia rhizophila
+KAF1973430.1	#c56215	Bimuria novae-zelandiae
+KAH7320654.1	#9c9c9b	Stachybotrys elegans
+KAG0469817.1	#b77d36	Vanilla planifolia
+KAH3722402.1	#c33ce0	Dreissena polymorpha
+XP_026471581.1	#560cff	Ctenocephalides felis
+CAH0394911.1	#ef9cef	Bemisia tabaci
+WP_199603657.1	#7650c5	Gelidibacter salicanalis
+WP_196420398.1	#bdc1e7	Actinoplanes sp. NEAU-A11
+KAI0743208.1	#dcaad8	Irpex lacteus
+MQM01823.1	#cadb15	Colocasia esculenta
+KAF2036232.1	#1bc1a2	Setomelanomma holmii
+TKS82960.1	#ceed34	Collichthys lucidus
+KAI1848502.1	#359c8e	Wardomyces moseri
+XP_045191875.1	#32c129	Mercenaria mercenaria
+WP_161823895.1	#b4b726	Petrachloros mirabilis
+KKY17351.1	#4da3d8	Diplodia seriata
+BAC76424.1	#cb1f55	Halocynthia roretzi
+XP_045999751.1	#b220d7	Boeremia exigua
+QGP72285.1	#ab129f	Hepialus xiaojinensis
+XP_033684286.1	#db6106	Trematosphaeria pertusa
+GBG82382.1	#29a679	Chara braunii
+ROT63382.1	#7aa785	Penaeus vannamei
+XP_026321275.1	#02aefe	Hyposmocoma kahamanoa
+XP_049547255.1	#b8dccf	Anopheles darlingi
+XP_008088113.1	#134a58	Glarea lozoyensis
+XP_016241505.1	#5a7d04	Exophiala spinifera
+XP_019106682.1	#c8a51b	Beta vulgaris
+XP_024506107.1	#b3b5dd	Strongyloides ratti
+XP_033664602.1	#96d1ae	Zasmidium cellare
+VDP41938.1	#d907cf	Heligmosomoides polygyrus
+XP_021953478.2	#b0c805	Folsomia candida
+KAF8805055.1	#966225	Cortinarius glaucopus
+CAG9111348.1	#c82f5e	Plutella xylostella
+KAI0647845.1	#a34520	Trametes meyenii
+QDS78183.1	#387c73	Venturia effusa
+CRK42310.1	#4c4016	Verticillium longisporum
+QLI74241.1	#ed26df	Metarhizium brunneum
+QRV99447.1	#8ea31c	Ceratobasidium sp. AG-Ba
+KLU82419.1	#0bd254	Magnaporthiopsis poae
+XP_033445547.1	#8a1d2b	Didymella exigua
+KAE9379512.1	#f8f3fb	Chalara longipes
+EXC25717.1	#4a9357	Morus notabilis
+CZR69540.1	#2ff7ac	Phialocephala subalpina
+KAI1083196.1	#252168	Whalleya microplaca
+CAZ66715.1	#902b13	Pandinus imperator
+KAF8411180.1	#f4ac14	Tetracentron sinense
+KAH7308410.1	#9c9c9b	Stachybotrys elegans
+KAG5668817.1	#bf9700	Polypedilum vanderplanki
+XP_018333661.1	#3fa8c1	Agrilus planipennis
+XP_033521879.1	#e3899e	Dothidotthia symphoricarpi
+RKP09559.1	#902009	Thamnocephalis sphaerospora
+KAI2914899.1	#3f05bd	Aspergillus niger
+OVA00538.1	#7f97c8	Macleaya cordata
+KAI5924985.1	#6d8280	Camillea tinctor
+OTB08796.1	#ab10c4	Hypoxylon sp. CI-4A
+CAQ63323.1	#8f2df6	Thermobia domestica
+RXH86127.1	#856e97	Malus domestica
+XP_049254821.1	#d3531b	Alternaria novae-zelandiae
+KAI1505972.1	#9c5a63	Biscogniauxia marginata
+KAE9379517.1	#f8f3fb	Chalara longipes
+XP_037427563.1	#560525	Triticum dicoccoides
+KOB69979.1	#5caa20	Operophtera brumata
+WP_153449444.1	#a30ef5	Streptomyces smaragdinus
+KAE8442068.1	#14439a	Helotiales sp. DMI_Dod_QoI
+XP_019887011.1	#8b7c24	Ooceraea biroi
+CCE45701.1	#e42e28	Taraxacum officinale
+XP_016760464.1	#cd150b	Sphaerulina musiva
+XP_037024317.1	#5f79ed	Bradysia coprophila
+XP_047359388.1	#3af8ec	Vespa velutina
+KAH8655320.1	#ed894d	Xylariales sp. PMI_506
+CAQ64610.1	#3b9669	Onithochiton hirasei
+OAE29374.1	#8b1377	Marchantia polymorpha
+AWK28004.2	#cb4e92	Mnemiopsis leidyi
+KXH30586.1	#dd6dfb	Colletotrichum salicis
+KAG7219794.1	#fe5633	Caranx melampygus
+KAH8199195.1	#f1be35	Truncatella angustata
+XP_047941888.1	#4dcc29	Salvia hispanica
+KAI1324645.1	#5c4612	Xylariaceae sp. FL0255
+CAG9982755.1	#eeba96	Clonostachys byssicola
+MCJ1266511.1	#f7020b	Lobaria immixta
+KAA8540492.1	#b2077a	Nyssa sinensis
+KAI0251651.1	#98187a	Lactifluus subvellereus
+EPS42812.1	#1efe31	Dactylellina haptotyla
+KAH9289868.1	#bb5767	Taxus chinensis
+KAE8353189.1	#f7ce5d	Aspergillus coremiiformis
+KAF9889993.1	#7db400	Aspergillus nanangensis
+TGO32564.1	#0ab561	Botrytis hyacinthi
+KAI0570710.1	#ed7a5e	Pyrenophora tritici-repentis
+KAG7108114.1	#4c4016	Verticillium longisporum
+KAH8769928.1	#f2354c	Diaporthaceae sp. PMI_573
+VEN48909.1	#13842c	Callosobruchus maculatus
+XP_036496550.1	#fbf870	Colletotrichum siamense
+CAG2203636.1	#a43774	Mytilus edulis
+XP_033211658.1	#cec10d	Belonocnema kinseyi
+KAI1004240.1	#83c9fa	Podosphaera aphanis
+KAH8681966.1	#ed894d	Xylariales sp. PMI_506
+XP_018124324.1	#9c6d5c	Xenopus laevis
+XP_030999997.1	#fdc81e	Thyridium curvatum
+XP_046219979.1	#c7a866	Oncorhynchus gorbuscha
+KAG7259423.1	#05a9d0	Coryphaenoides rupestris
+XP_001909868.1	#6a5228	Podospora anserina
+KAH6689205.1	#c2a24a	Plectosphaerella plurivora
+KAF2237624.1	#5977e8	Viridothelium virens
+KAF7759192.1	#5e0d76	Entomophthora muscae
+KAI5812712.1	#d205ea	Pyronema omphalodes
+KAB5588330.1	#c176a0	Ceratobasidium theobromae
+XP_014093793.2	#0b2b63	Bactrocera oleae
+WP_153526018.1	#3d557f	Streptomyces jumonjinensis
+KAI0203493.1	#b9a0b4	Astrocystis sublimbata
+RKP39529.1	#08adbf	Dimargaris cristalligena
+KAH8648451.1	#ed894d	Xylariales sp. PMI_506
+XP_047098325.1	#de7166	Schistocerca piceifrons
+KAI0890804.1	#8644ca	Annulohypoxylon nitens
+XP_044719061.1	#5a5f9f	Hirsutella rhossiliensis
+OXA52289.1	#b0c805	Folsomia candida
+KAF8533241.1	#a5d761	Trichophaea hybrida
+KAF7754143.1	#5e0d76	Entomophthora muscae
+KAE8443046.1	#14439a	Helotiales sp. DMI_Dod_QoI
+XP_043280053.1	#e270fd	Venturia canescens
+CCD61126.1	#e42e28	Taraxacum officinale
+KAH6845858.1	#598553	Chaetomium sp. MPI-CAGE-AT-0009
+KZL72544.1	#4a41c8	Colletotrichum incanum
+EJD35305.1	#9b9e59	Auricularia subglabra
+KAH9904286.1	#1c580f	Xylariomycetidae sp. FL2044
+XP_033387539.1	#908092	Aaosphaeria arxii
+KAF6830372.1	#8753ef	Colletotrichum musicola
+KAG8238333.1	#fd80ff	Ladona fulva
+KAF7267906.1	#e9da64	Rhynchophorus ferrugineus
+KAF8873559.1	#b4b30b	Mucidula mucida
+XP_033598189.1	#ff45b2	Pseudovirgaria hyperparasitica
+KAG8386536.1	#a1328e	Buddleja alternifolia
+XP_046103953.1	#8b6430	Ilyonectria robusta
+XP_033582397.1	#a6cf5a	Mytilinidion resinicola
+KAH9940686.1	#e30d55	Amylocystis lapponica
+XP_033554931.1	#e29462	Lindgomyces ingoldianus
+KAF2666287.1	#4b264e	Microthyrium microscopicum
+CAD2181894.1	#e41d65	Meloidogyne enterolobii
+PQK17604.1	#b8534b	Beauveria bassiana
+KAI1842183.1	#359c8e	Wardomyces moseri
+KXN69968.1	#73de94	Conidiobolus coronatus
+KAH8813439.1	#c4bb54	Flagelloscypha sp. PMI_526
+XP_007913987.1	#690e11	Phaeoacremonium minimum
+XP_014296718.1	#c55199	Microplitis demolitor
+KXN72576.1	#73de94	Conidiobolus coronatus
+QRV95102.1	#8ea31c	Ceratobasidium sp. AG-Ba
+KAG2466343.1	#e4d361	Polypterus senegalus
+CAC5396278.1	#fb177f	Mytilus coruscus
+CCA94928.1	#484280	Mastigoproctus giganteus
+KAH7013796.1	#87afc1	Ilyonectria destructans
+WP_007202863.1	#a83c08	Fictibacillus macauensis
+XP_040691529.1	#d7445e	Aspergillus wentii
+XP_010242012.1	#8971c9	Nelumbo nucifera
+TKW53492.1	#7ab84b	Colletotrichum tanaceti
+KAF7185414.1	#576051	Pseudocercospora fuligena
+KAF5944444.1	#5869f5	Camellia sinensis
+XP_049183043.1	#39b03a	Alternaria metachromatica
+TLD18371.1	#285e7f	Pyricularia sp. CBS 133598
+KAF7527658.1	#b552a7	Neopestalotiopsis clavispora
+WP_199555274.1	#6367e1	Sandaracinobacteroides hominis
+WP_241455060.1	#1562b0	Undibacterium sp. TS12
+KAF4306459.1	#56b811	Botryosphaeria dothidea
+RVE43651.1	#a660d8	Chilo suppressalis
+XP_019618981.1	#460a12	Branchiostoma belcheri
+XP_005716852.1	#73e9af	Chondrus crispus
+KAH7078658.1	#52da2a	Paraphoma chrysanthemicola
+KAF4636967.1	#1138ed	Cudoniella acicularis
+KAI1408478.1	#86d946	Hypoxylon sp. FL1857
+KAF2184778.1	#4545f3	Zopfia rhizophila
+CAG8954776.1	#96611f	Hymenoscyphus fraxineus
+KAG7294580.1	#019494	Staphylotrichum longicolle
+XP_003841654.1	#bffc77	Leptosphaeria maculans
+KAF2681958.1	#e7aef9	Lentithecium fluviatile
+TFK38415.1	#ba5f76	Crucibulum laeve
+KAH3823082.1	#c33ce0	Dreissena polymorpha
+RRT54770.1	#84b912	Ensete ventricosum
+KAI0114088.1	#3103bb	Nemania sp. FL0031
+XP_014490247.1	#8d5b59	Vigna radiata
+XP_030997670.1	#fdc81e	Thyridium curvatum
+KAF2270939.1	#929eda	Didymosphaeria enalia
+KXS98877.1	#f1e35b	Pseudocercospora eumusae
+CZT41031.1	#4b8429	Rhynchosporium secalis
+KAF3000069.1	#56ed16	Curvularia kusanoi
+KAG8490245.1	#250f5e	Gossypium anomalum
+AWK28001.1	#caef8a	Lumbrineris perkinsi
+GBC02448.1	#09eb8a	Rhizophagus clarus
+EDO33361.1	#deba64	Nematostella vectensis
+CCA94922.1	#484280	Mastigoproctus giganteus
+XP_023706200.2	#3c4d98	Cryptotermes secundus
+KAH8518716.1	#873a8d	Populus deltoides
+PLW37481.1	#aa2380	Puccinia coronata
+WP_093423804.1	#31ee24	nan
+WP_077973749.1	#92a0c3	Streptomyces tsukubensis
+P80476.1	#268cc6	Androctonus australis
+KIP02309.1	#08b95f	Phlebiopsis gigantea
+XP_043622604.1	#e6fef1	Erigeron canadensis
+WP_157168259.1	#111a49	Streptomyces typhae
+PKR94703.1	#101a23	Cercospora zeina
+KAF4514100.1	#00ae81	Ephemera danica
+KAG8981524.1	#2c38d1	Tulasnella sp. JGI-2019a
+XP_035705956.1	#b0c805	Folsomia candida
+CAG8447883.1	#806c5a	Acaulospora morrowiae
+PKS12997.1	#5cc53a	Lomentospora prolificans
+RYP77635.1	#76c4b2	Monosporascus sp. 5C6A
+MCH9681197.1	#2bb4b8	Deltaproteobacteria bacterium
+SVE74652.1	#453678	Daphnia carinata
+KAG0469816.1	#b77d36	Vanilla planifolia
+KAH7300009.1	#a70e37	Ceratopteris richardii
+WP_013118775.1	#be4f2d	Cellulomonas flavigena
+RKP26898.1	#9d9ae8	Syncephalis pseudoplumigaleata
+KAF9734148.1	#4bdf9e	Paraphaeosphaeria minitans
+WP_204025815.1	#07e5df	Sinosporangium siamense
+XP_043618990.1	#e6fef1	Erigeron canadensis
+KAH7135238.1	#20f315	Dendryphion nanum
+XP_046025409.1	#5eb3d5	Alternaria rosae
+KAG5234925.1	#4d9462	Salix suchowensis
+KAH9988364.1	#a3f47c	Russula vinacea
+KAI0122406.1	#d964cb	Daldinia grandis
+WP_196516247.1	#533863	Nostoc sp. WHI
+RQM05722.1	#799b3f	Scytalidium sp. 3C
+AWK27998.1	#d09711	Harrimaniidae sp. EP-2018
+OSS54105.1	#e11b05	Epicoccum nigrum
+KAF2712702.1	#f6955d	Pleomassaria siparia
+TQN71850.1	#679589	Colletotrichum shisoi
+XP_007911158.1	#690e11	Phaeoacremonium minimum
+XP_041657402.1	#95d5c5	Cheilinus undulatus
+AEE63239.1	#1bbd67	Dendroctonus ponderosae
+CAG5131386.1	#f79e0e	Candidula unifasciata
+KUI73835.1	#a55423	Valsa mali
+XP_045476172.1	#bfbc60	Harmonia axyridis
+PVI00478.1	#15e43d	Periconia macrospinosa
+XP_039267892.1	#65114d	Styela clava
+EFQ95143.1	#5b3cae	Pyrenophora teres
+KAF7747359.1	#5e0d76	Entomophthora muscae
+KMZ66140.1	#21d4ad	Zostera marina
+KAF2749170.1	#5e0c08	Sporormia fimetaria
+XP_023741689.1	#b9806c	Lactuca sativa
+KAI0770097.1	#03a27a	Fomes fomentarius
+KAF2259428.1	#929eda	Didymosphaeria enalia
+XP_022111514.1	#00bb59	Acanthaster planci
+XP_014203409.1	#12e5b0	Copidosoma floridanum
+SVE74040.1	#aa56fd	Daphnia barbata
+KAI0198137.1	#b9a0b4	Astrocystis sublimbata
+XP_045137659.1	#fe61e3	Portunus trituberculatus
+KAF8053885.1	#d1b472	Lyophyllum atratum
+KAG7287554.1	#019494	Staphylotrichum longicolle
+RLV08779.1	#b5c182	Streptomyces griseocarneus
+PFH53631.1	#6731b6	Amanita thiersii
+KAE8454501.1	#14439a	Helotiales sp. DMI_Dod_QoI
+XP_003137307.1	#ec3b6a	Loa loa
+RZC34455.1	#2900cc	Asbolus verrucosus
+WP_074905859.1	#85f768	Nitrosomonas communis
+MCJ1378384.1	#e60474	Xylographa soralifera
+OXA38134.1	#b0c805	Folsomia candida
+OCL09390.1	#8eddac	Glonium stellatum
+XP_014553933.1	#32419f	Bipolaris victoriae
+MCJ1424230.1	#93279e	Sticta canariensis
+TKR94013.1	#ad94a9	Steinernema carpocapsae
+KAI5780894.1	#0208ce	Geopyxis carbonaria
+ORX84628.1	#ca724f	Basidiobolus meristosporus
+WP_206318445.1	#bf1048	Streptomyces epipremni
+KAF7364338.1	#e1b052	Mycena sanguinolenta
+PIN14147.1	#971489	Handroanthus impetiginosus
+KAI3953170.1	#d395ed	Papaver californicum
+KAF2853058.1	#540a15	Plenodomus tracheiphilus
+XP_024540745.1	#a764f7	Selaginella moellendorffii
+XP_046022928.1	#5eb3d5	Alternaria rosae
+A0A336U966.1	#a5f367	Aspergillus terreus
+XP_017773560.1	#2d926e	Nicrophorus vespilloides
+KAF2123203.1	#40cbc7	Lophiotrema nucula
+WP_093699667.1	#2923e8	Streptomyces sp. 2231.1
+XP_047954539.1	#4dcc29	Salvia hispanica
+XP_021649207.1	#53406b	Hevea brasiliensis
+MYA96793.1	#d52036	Nitrospinae bacterium
+KAF9645987.1	#6a094c	Thelephora ganbajun
+RDW69196.1	#581e14	Coleophoma cylindrospora
+PWA40363.1	#e04447	Artemisia annua
+KAI1299453.1	#2e5a9e	Xylaria venustula
+XP_044253368.1	#3b41db	Tribolium madens
+XP_044737474.1	#ae390d	Chrysoperla carnea
+KAI1245762.1	#f1db01	Eutypa lata
+KAF2432267.1	#48b03c	Tothia fuscella
+OCT92616.1	#9c6d5c	Xenopus laevis
+KHN07285.1	#f85cf3	Glycine soja
+XP_043165584.1	#afda79	Alternaria atra
+KAI2447898.1	#329cdb	Ophidiomyces ophidiicola
+URE18661.1	#b94a8e	Musa troglodytarum
+KAH8885499.1	#434224	Thozetella sp. PMI_491
+KAG7298914.1	#c82f5e	Plutella xylostella
+OXV10999.1	#362c2d	Elaphomyces granulatus
+XP_034332166.1	#65020a	Crassostrea gigas
+PBK80796.1	#cd6394	Armillaria gallica
+XP_040266905.1	#83b5bb	Bufo bufo
+CAD7225173.1	#8a332d	Cyprideis torosa
+RYP06115.1	#bfc489	Monosporascus ibericus
+KAI5061585.1	#cdee28	Adiantum capillus-veneris
+KAB5586258.1	#ed7fc7	Coniochaeta sp. 2T2.1
+VDM81981.1	#d842b6	Strongylus vulgaris
+PUU72700.1	#df37b4	Tuber borchii
+RKP22232.1	#9d9ae8	Syncephalis pseudoplumigaleata
+KYB26937.1	#82d486	Tribolium castaneum
+PGH00828.1	#c0944a	Helicocarpus griseus
+CAE7200437.1	#2c63a5	Rhizoctonia solani
+KAG4196934.1	#1f88c1	Gossypium hirsutum
+XP_031635012.1	#6b51d2	Contarinia nasturtii
+XP_031621669.1	#6b51d2	Contarinia nasturtii
+XP_025638178.1	#4319e3	Arachis hypogaea
+TMK97516.1	#f15f67	Actinobacteria bacterium
+WP_120631623.1	#c88299	Ruegeria sp. EL01
+KAF7753683.1	#5e0d76	Entomophthora muscae
+CAG9826090.1	#e0fb2c	Diabrotica balteata
+GFF59780.1	#de7248	Aspergillus udagawae
+XP_004292030.2	#d36c0b	Fragaria vesca
+KAF5345952.1	#d1a528	Leucoagaricus leucothites
+AFN41344.1	#e1a81b	Cherax quadricarinatus
+XP_017079787.2	#aeff86	Drosophila eugracilis
+XP_029743895.1	#fe3ce3	Pyricularia pennisetigena
+XP_041042137.1	#6b33b7	Carcharodon carcharias
+XP_033404251.1	#6bc0a2	Arthroderma uncinatum
+KAF2656280.1	#0c2c7c	Lophiostoma macrostomum
+RKP09207.1	#902009	Thamnocephalis sphaerospora
+XP_025880908.1	#d2c74e	Oryza sativa
+CZR50151.1	#2ff7ac	Phialocephala subalpina
+CAG8950727.1	#96611f	Hymenoscyphus fraxineus
+CAD0083225.1	#1da268	Aureobasidium vineae
+XP_001219434.1	#8068bb	Chaetomium globosum
+KAH6989928.1	#87afc1	Ilyonectria destructans
+POS76954.1	#11f521	Diaporthe helianthi
+GFA62604.1	#fd6b74	Tanacetum cinerariifolium
+WP_018504187.1	#286fc7	Frankia discariae
+XP_048446986.1	#b66481	Pyrus x bretschneideri
+XP_021944143.1	#b0c805	Folsomia candida
+OOF92588.1	#bf3bdd	Aspergillus carbonarius
+XP_034333762.1	#65020a	Crassostrea gigas
+APA15101.1	#4fe1bd	Sclerotinia sclerotiorum
+XP_042432531.1	#deb070	Zingiber officinale
+ETN65646.1	#b8dccf	Anopheles darlingi
+MCJ1242884.1	#19b48e	Trapelia coarctata
+BAA37085.1	#5e4e00	Streptomyces griseus
+XP_009229396.1	#318da7	Gaeumannomyces tritici
+KAH6782515.1	#4141e5	Perilla frutescens
+CAH0036467.1	#af6b77	Clonostachys rhizophaga
+KAA0183861.1	#1745cf	Fasciolopsis buski
+CAX46428.1	#8e7e63	Odontodactylus scyllarus
+XP_045260783.1	#8d2dbb	Colletotrichum gloeosporioides
+KAH6842359.1	#598553	Chaetomium sp. MPI-CAGE-AT-0009
+XP_023763397.1	#b9806c	Lactuca sativa
+GFY67426.1	#0ef022	Trichonephila inaurata
+PVH96843.1	#15e43d	Periconia macrospinosa
+KAF8253345.1	#60e016	Wilcoxina mikolae
+KAF2445201.1	#799dd9	Karstenula rhodostoma
+XP_023624859.1	#45ac6c	Ramularia collo-cygni
+MCJ1343588.1	#9e6e3f	Peltigera leucophlebia
+KAG0581968.1	#6252ae	Ceratodon purpureus
+KAI3795827.1	#b6374c	Smallanthus sonchifolius
+KJY00555.1	#33ed07	Zymoseptoria brevis
+KAI3514778.1	#652d3d	Cichorium endivia
+XP_024396277.1	#344a4f	Physcomitrium patens
+MCJ1391703.1	#85f561	Xylographa bjoerkii
+XP_003571384.1	#a1a03b	Brachypodium distachyon
+KAF7505863.1	#0b08b3	Endocarpon pusillum
+KAF9783210.1	#53b1f3	Thelephora terrestris
+CAG7836383.1	#9997e1	Allacma fusca
+XP_029383958.1	#72fd11	Echeneis naucrates
+XP_044739628.1	#ae390d	Chrysoperla carnea
+OXB58258.1	#7490b5	Callipepla squamata
+XP_018569162.1	#e9a92b	Anoplophora glabripennis
+KAF4550076.1	#1998e4	Elsinoe fawcettii
+KAG8791695.1	#3983a3	Ceratobasidium sp. 428
+AFI39889.1	#ec8558	Daphnia parvula
+PSN66498.1	#fe5652	Corynespora cassiicola
+ABF21497.1	#e218bd	Lygus lineolaris
+OXB75540.1	#3539f3	Colinus virginianus
+PSN61663.1	#fe5652	Corynespora cassiicola
+OCL11990.1	#8eddac	Glonium stellatum
+TEB22151.1	#fc1436	Coprinellus micaceus
+KAG6395824.1	#76b21e	Salvia splendens
+KAH8204444.1	#f1be35	Truncatella angustata
+KAB5580065.1	#ed7fc7	Coniochaeta sp. 2T2.1
+XP_047941984.1	#4dcc29	Salvia hispanica
+TEA12110.1	#f55aeb	Colletotrichum sidae
+KAF1979134.1	#c56215	Bimuria novae-zelandiae
+XP_037156941.1	#78b6e4	Letharia lupina
+ABR12412.1	#367bdb	Procambarus clarkii
+KAF9444741.1	#052be5	Macrolepiota fuliginosa
+KAG6907932.1	#ac6955	Tephrocybe rancida
+RKU44824.1	#d1ab0d	Coniochaeta pulveracea
+ULT94718.1	#a45a4a	Caenorhabditis briggsae
+EPB74111.1	#3c3560	Ancylostoma ceylanicum
+XP_015593395.2	#9334ee	Cephus cinctus
+XP_037027573.1	#5f79ed	Bradysia coprophila
+RZC31782.1	#2900cc	Asbolus verrucosus
+PLY76929.1	#b9806c	Lactuca sativa
+RBQ94083.1	#0a9d5a	Fusarium verticillioides
+CAD6890771.1	#26afbb	Tilletia caries
+AAI55087.1	#ccdc6a	Danio rerio
+XP_028399963.1	#28f13f	Dendronephthya gigantea
+KAI0149163.1	#0fe245	Pestalotiopsis sp. NC0098
+KAG7290009.1	#019494	Staphylotrichum longicolle
+XP_024696942.1	#f3c05f	Aspergillus campestris
+VUC33511.1	#883ccc	Clonostachys rosea
+ORX82792.1	#ca724f	Basidiobolus meristosporus
+CAG9953699.1	#883ccc	Clonostachys rosea
+CAE6464752.1	#2c63a5	Rhizoctonia solani
+ABB59715.1	#e7936f	Cyamus scammoni
+WP_147291041.1	#ad9d4b	Alteriqipengyuania lutimaris
+XP_045982207.1	#ac83b0	Fusarium flagelliforme
+KAE8382375.1	#497f5a	Aspergillus bertholletiae
+SMQ50444.1	#d2b1ef	Zymoseptoria tritici
+XP_012266915.2	#7c8e4c	Athalia rosae
+KAI5657023.1	#989186	Catharanthus roseus
+XP_044705171.1	#bd0507	Fusarium poae
+KAI1380946.1	#a3ac18	Hypoxylon crocopeplum
+KAG8687355.1	#2dcc12	Ceratobasidium sp. 394
+KAH7305522.1	#9c9c9b	Stachybotrys elegans
+KAF8966549.1	#0d85e4	Flammula alnicola
+WP_250976885.1	#31ee24	nan
+KII86644.1	#bafcb3	Plicaturopsis crispa
+XP_003350966.1	#887ec5	Sordaria macrospora
+KAH8892710.1	#434224	Thozetella sp. PMI_491
+VDM47319.1	#d6c117	Toxocara canis
+WP_248633361.1	#4d51e3	Streptomyces lichenis
+GBG81568.1	#29a679	Chara braunii
+KAF8655955.1	#a69d70	Volvariella volvacea
+KAH9819102.1	#c63529	Melampsora americana
+XP_031254303.1	#3bddf5	Pistacia vera
+XP_026601400.1	#44c7de	Aspergillus mulundensis
+KAH8767277.1	#f2354c	Diaporthaceae sp. PMI_573
+KPM34355.1	#acd081	Neonectria ditissima
+XP_040698342.1	#ed7373	Aspergillus sydowii
+XP_045261261.1	#8d2dbb	Colletotrichum gloeosporioides
+XP_031829749.1	#a6d226	Nomia melanderi
+CAG8539247.1	#76d346	Diversispora eburnea
+KAF2200285.1	#7d8f13	Delitschia confertaspora
+KAI0330497.1	#ba6260	Leiotrametes sp. BRFM 1775
+XP_029354810.1	#72fd11	Echeneis naucrates
+PNF43216.1	#3c4d98	Cryptotermes secundus
+KAF4553222.1	#1998e4	Elsinoe fawcettii
+ORX92522.1	#ca724f	Basidiobolus meristosporus
+PNT59072.1	#fb441d	Populus trichocarpa
+KAG8386541.1	#a1328e	Buddleja alternifolia
+QCC26464.1	#9138d0	Pogonognathellus sp. AD-2013
+CAD6503403.1	#39e59e	Blumeria graminis
+XP_028788762.1	#1c4ef2	Prosopis alba
+MBA3716720.1	#e04ffa	Actinomycetia bacterium
+ACV33307.1	#9702ef	Nebalia kensleyi
+KCW76289.1	#b765d7	Eucalyptus grandis
+WP_123176082.1	#c93925	Methylocystis hirsuta
+TGZ77648.1	#0cbd52	Ascodesmis nigricans
+KAI5358156.1	#a1ab0f	Septoria linicola
+RYP72371.1	#036db7	Monosporascus sp. CRB-9-2
+GCB85510.1	#044b07	Scyliorhinus torazame
+KAI5843636.1	#e665e6	Tricharina praecox
+MBI2255940.1	#a47768	Proteobacteria bacterium
+CAG8972084.1	#0f3b6a	Hymenoscyphus albidus
+MCI25348.1	#11fa7e	Trifolium medium
+WP_101392951.1	#dfa835	Streptomyces sp. TLI_146
+PVD32038.1	#afd1d7	Pomacea canaliculata
+KAF9693937.1	#6dfe59	Ascochyta lentis
+PYH95714.1	#a0e570	Aspergillus ellipticus
+WP_139490948.1	#522590	Brevibacillus sp. CHY01
+KAI1348046.1	#794ba6	Xylaria sp. FL0043
+XP_008558555.1	#c55199	Microplitis demolitor
+KAF8856842.1	#c4229c	Acephala macrosclerotiorum
+KZL70564.1	#45deb9	Colletotrichum tofieldiae
+KAG8891850.1	#fa6dcb	Tulasnella sp. 403
+XP_049172662.1	#359c8e	Wardomyces moseri
+GIY59391.1	#b2d532	Caerostris darwini
+AMB26747.1	#f559a4	Leptochiton asellus
+XP_037027575.1	#5f79ed	Bradysia coprophila
+KAF1952540.1	#9b4b66	Byssothecium circinans
+KAA8913483.1	#af8ced	Sphaerosporella brunnea
+KAE9989849.1	#ff6677	Venturia inaequalis
+KAH9546606.1	#54c830	Sphagnum magellanicum
+XP_034949400.1	#7ec281	Chelonus insularis
+HID81063.1	#bc75b3	Thiotrichales bacterium
+KAF1959254.1	#9b4b66	Byssothecium circinans
+XP_034337553.1	#65020a	Crassostrea gigas
+XP_045952694.1	#f1be35	Truncatella angustata
+RLN05189.1	#251548	Panicum miliaceum
+XP_043040342.1	#b1c5e7	Guyanagaster necrorhizus
+UPP37718.1	#a29b6e	Pinctada fucata
+KAH6773718.1	#4141e5	Perilla frutescens
+TLD08162.1	#49ab78	Venturia nashicola
+SMQ50294.1	#d2b1ef	Zymoseptoria tritici
+KAF7759191.1	#5e0d76	Entomophthora muscae
+XP_039068552.1	#cb270d	Hibiscus syriacus
+KLU86915.1	#0bd254	Magnaporthiopsis poae
+KAF7269759.1	#e9da64	Rhynchophorus ferrugineus
+ELU39832.1	#2c63a5	Rhizoctonia solani
+KAH9495704.1	#2af09d	Bulinus truncatus
+CAB3488298.1	#f58f00	Digitaria exilis
+CAD6253052.1	#d55533	Miscanthus lutarioriparius
+WP_045946097.1	#2113b1	Streptomyces katrae
+TKC49915.1	#e455c8	Monodon monoceros
+CUS07125.1	#cfecbd	Tuber aestivum
+RKP13147.1	#12650f	Piptocephalis cylindrospora
+KZL85167.1	#4a41c8	Colletotrichum incanum
+XP_045191870.1	#32c129	Mercenaria mercenaria
+VDM65717.1	#d842b6	Strongylus vulgaris
+MCD6053422.1	#e0a4e4	Rubrobacteraceae bacterium
+RHZ77134.1	#8daa87	Diversispora epigaea
+XP_012801732.2	#1dcb26	Schistosoma haematobium
+AST15995.1	#74d756	Scylla serrata
+XP_045476188.1	#bfbc60	Harmonia axyridis
+EQB57128.1	#8d2dbb	Colletotrichum gloeosporioides
+ONM63009.1	#e965c2	Zea mays
+XP_018031967.1	#c72baf	Paraphaeosphaeria sporulosa
+XP_020591295.1	#cb506e	Phalaenopsis equestris
+XP_023629109.1	#45ac6c	Ramularia collo-cygni
+KAF7753735.1	#5e0d76	Entomophthora muscae
+KAG8377224.1	#a1328e	Buddleja alternifolia
+WP_096553320.1	#48ed0b	Nostoc sp. NIES-4103
+XP_042241827.1	#af838f	Homarus americanus
+KAF3919250.1	#d05ffe	Arthrobotrys entomopaga
+EFX71852.1	#be9078	Daphnia pulex
+XP_025180608.1	#493b4a	Rhizophagus irregularis
+KRT83389.1	#d808eb	Oryctes borbonicus
+KAG8768020.1	#3983a3	Ceratobasidium sp. 428
+KKY20957.1	#4da3d8	Diplodia seriata
+RMY15069.1	#8f7e21	Hortaea werneckii
+XP_023017782.1	#333c62	Leptinotarsa decemlineata
+THU51354.1	#214d98	Musa balbisiana
+MBK9113368.1	#b4cf8f	Nitrospira sp.
+CCA94921.1	#97dc41	Euphrynichus bacillifer
+KDN66925.1	#b81332	Colletotrichum sublineola
+CAF3429581.1	#5e7dbb	Fusarium graminearum
+ABA02188.2	#16047e	Sesamia nonagrioides
+KFH43027.1	#2ff2aa	Acremonium chrysogenum
+XP_007911025.1	#690e11	Phaeoacremonium minimum
+KXJ78933.1	#7abc23	Aedes albopictus
+AQV14031.1	#e3c168	Entomobryomorpha sp. 14 SF-2017
+KAG5889588.1	#ae6333	Gonioctena quinquepunctata
+XP_025536373.1	#da566b	Aspergillus costaricensis
+XP_001805257.1	#690104	Parastagonospora nodorum
+KAH9507485.1	#2af09d	Bulinus truncatus
+XP_049164370.1	#359c8e	Wardomyces moseri
+KAF2230288.1	#5977e8	Viridothelium virens
+RXM92785.1	#911095	Acipenser ruthenus
+KAI3829525.1	#b6374c	Smallanthus sonchifolius
+MQM23393.1	#cadb15	Colocasia esculenta
+XP_046008368.1	#7891d6	Microdochium trichocladiopsis
+XP_016240182.1	#5a7d04	Exophiala spinifera
+KAH7109433.1	#20f315	Dendryphion nanum
+XP_022823141.1	#47c001	Spodoptera litura
+KAF2994102.1	#ca0b2b	Neopestalotiopsis sp. 37M
+XP_045993769.1	#b220d7	Boeremia exigua
+CAD7247553.1	#76eb32	Darwinula stevensoni
+XP_022907914.1	#c7bb5c	Onthophagus taurus
+KAA0056965.1	#ea2fac	Cucumis melo
+XP_038781255.1	#f08ab1	Alternaria burnsii
+XP_033657261.1	#070552	Westerdykella ornata
+CAC33894.1	#8d0549	Spirostreptus sp. BT-2000
+RYN66664.1	#7d12d4	Alternaria tenuissima
+XP_033385812.1	#908092	Aaosphaeria arxii
+WP_045301092.1	#3af83c	Saccharothrix sp. ST-888
+XP_024361665.1	#344a4f	Physcomitrium patens
+XP_007923010.1	#7c1c57	Pseudocercospora fijiensis
+KAE8153500.1	#347b6c	Aspergillus avenaceus
+KAE8573958.1	#b97591	Halyomorpha halys
+KJK74820.1	#e22259	Metarhizium anisopliae
+KAI3396132.1	#3fe275	Diaporthe ilicicola
+KAG9233879.1	#97b922	Amylocarpus encephaloides
+KAH8671962.1	#d2f8d4	Hymenoscyphus varicosporioides
+XP_022343351.1	#8b1255	Crassostrea virginica
+KRZ17010.1	#11332b	Trichinella zimbabwensis
+CAA7397722.1	#945e04	Spirodela intermedia
+QCC26465.1	#9138d0	Pogonognathellus sp. AD-2013
+KLU85477.1	#0bd254	Magnaporthiopsis poae
+PWA50832.1	#e04447	Artemisia annua
+KAH7371675.1	#bdb73b	Pyrenochaeta sp. MPI-SDFR-AT-0127
+CAZ66714.1	#902b13	Pandinus imperator
+KAG7292970.1	#019494	Staphylotrichum longicolle
+KAH9507501.1	#2af09d	Bulinus truncatus
+KEY65496.1	#d35e15	Stachybotrys chartarum
+KAG9154912.1	#2c8c38	Lithospermum erythrorhizon
+ORX95341.1	#ca724f	Basidiobolus meristosporus
+KAI1331377.1	#5c4612	Xylariaceae sp. FL0255
+XP_046011396.1	#7891d6	Microdochium trichocladiopsis
+KAI0241370.1	#39eba9	Massospora cicadina
+XP_020584709.1	#cb506e	Phalaenopsis equestris
+AII22008.1	#1f88c1	Gossypium hirsutum
+WP_256558120.1	#b7712e	Pseudomonas sp. S3E12
+XP_043164042.1	#afda79	Alternaria atra
+XP_008711966.1	#3a5f75	Cyphellophora europaea
+XP_003709315.1	#997587	Pyricularia oryzae
+XP_001832783.1	#98e216	Coprinopsis cinerea
+NUQ98238.1	#964068	Streptomyces sp.
+XP_046682677.1	#19b142	Homalodisca vitripennis
+EHK97592.1	#134a58	Glarea lozoyensis
+KAH8768961.1	#f2354c	Diaporthaceae sp. PMI_573
+TGZ76379.1	#0cbd52	Ascodesmis nigricans
+KAF7359308.1	#e1b052	Mycena sanguinolenta
+RPB07726.1	#044b92	Morchella conica
+XP_049243200.1	#9efd50	Alternaria hordeiaustralica
+KAI1261162.1	#55f03c	Xylariaceae sp. FL1019
+KAE8573029.1	#b97591	Halyomorpha halys
+XP_029105975.1	#2b1eb7	Scleropages formosus
+XP_044742194.1	#ae390d	Chrysoperla carnea
+KAH8193568.1	#f1be35	Truncatella angustata
+EOY28323.1	#cc029b	Theobroma cacao
+XP_038918498.1	#ec1791	Cantharellus anzutake
+XP_028136209.1	#c1ce8d	Diabrotica virgifera
+AGL10019.1	#645d06	Aphonopelma seemanni
+XP_006697511.1	#436e08	Chaetomium thermophilum
+KAF9531510.1	#1730ac	Crepidotus variabilis
+XP_049172277.1	#359c8e	Wardomyces moseri
+KAI0174032.1	#0fe245	Pestalotiopsis sp. NC0098
+RDW92209.1	#35438a	Coleophoma crateriformis
+KAF8850280.1	#c4229c	Acephala macrosclerotiorum
+XP_019645380.1	#460a12	Branchiostoma belcheri
+NCY15340.1	#e04ffa	Actinomycetia bacterium
+KAH9856476.1	#5482a2	Lenzites betulinus
+KAE8715169.1	#cb270d	Hibiscus syriacus
+KAF2350451.1	#f4f8f5	Trinorchestia longiramus
+KAG0146059.1	#2602bc	Cronartium quercuum
+XP_020280009.1	#6ea290	Pseudomyrmex gracilis
+KAF2205512.1	#7d8f13	Delitschia confertaspora
+KAE8746691.1	#fe3aa0	Frankliniella occidentalis
+XP_043167597.1	#afda79	Alternaria atra
+KAI2637442.1	#73f2fc	Xylaria nigripes
+EOD51706.1	#2d9f39	Neofusicoccum parvum
+XP_003046971.1	#b800e5	Fusarium vanettenii
+KAF3327430.1	#a78142	Carex littledalei
+KPP58157.1	#2b1eb7	Scleropages formosus
+XP_041035954.1	#6b33b7	Carcharodon carcharias
+KAF6817724.1	#192ef7	Colletotrichum plurivorum
+ELU00527.1	#9cf30c	Capitella teleta
+MBA0694906.1	#f434a8	Gossypium aridum
+XP_026606880.1	#44c7de	Aspergillus mulundensis
+KAA8898358.1	#af8ced	Sphaerosporella brunnea
+KAI0432184.1	#576a0f	Xylaria sp. FL1042
+KAH6796560.1	#4141e5	Perilla frutescens
+RMJ27595.1	#eadbdc	Aspergillus sp. HF37
+XP_040720282.1	#c46faf	Pseudomassariella vexata
+ELQ42844.1	#997587	Pyricularia oryzae
+KAF7743529.1	#5e0d76	Entomophthora muscae
+KAI0631930.1	#60532a	Trametes polyzona
+KAH9942893.1	#e30d55	Amylocystis lapponica
+KAI4604419.1	#f112d0	Pestalotiopsis sp. 9143b
+XP_022801517.1	#74411c	Stylophora pistillata
+KAF7182921.1	#31dd52	Aspergillus felis
+KAH9507511.1	#2af09d	Bulinus truncatus
+CZT11605.1	#7fd1fd	Rhynchosporium commune
+XP_018005213.1	#e39811	Phialophora attinorum
+XP_002432713.1	#2ce4be	Pediculus humanus
+XP_048735708.1	#81cf3b	Ostrea edulis
+KAH8258092.1	#9ebce7	Drosophila bunnanda
+KAF3914326.1	#d05ffe	Arthrobotrys entomopaga
+KAH9264264.1	#97368e	Batrachochytrium salamandrivorans
+OCL02739.1	#8eddac	Glonium stellatum
+QCC26459.1	#3bd723	Lepidocampa weberi
+KAH0624492.1	#07bd8d	Phrynosoma platyrhinos
+KAF7797895.1	#b5f272	Pleurotus ostreatoroseus
+KAF1962879.1	#9b4b66	Byssothecium circinans
+WP_189206488.1	#047321	Couchioplanes caeruleus
+CAR94713.1	#306a36	Xibalbanus tulumensis
+XP_045967466.1	#9adfcc	Morchella importuna
+XP_007289797.1	#2380f3	Drepanopeziza brunnea
+EAT34241.1	#17555c	Aedes aegypti
+CAA9447414.1	#d32c6d	uncultured Rubrobacteraceae bacterium
+PPS15877.1	#5b96ba	Gossypium barbadense
+WP_166753969.1	#05637c	Modestobacter marinus
+WP_182775712.1	#d5e3a2	Streptomyces murinus
+KAF9404638.1	#642e03	Spodoptera exigua
+MBA3747332.1	#d1bb6b	Solirubrobacterales bacterium
+XP_033210647.1	#cec10d	Belonocnema kinseyi
+XP_049767339.1	#2cc9d5	Schistocerca cancellata
+XP_002445175.1	#33bb65	Sorghum bicolor
+XP_007666154.2	#a2fc9d	Ornithorhynchus anatinus
+CCA72437.1	#bb2667	Serendipita indica
+KAI1427983.1	#73c0ab	Xylaria sp. FL1777
+CAH0044600.1	#ba05d8	Clonostachys solani
+KAG5115773.1	#605e43	Glycine max
+XP_040706474.1	#ed7373	Aspergillus sydowii
+XP_047962213.1	#4dcc29	Salvia hispanica
+CDN40917.1	#e71d0e	Cytherelloidea californica
+ROT67046.1	#7aa785	Penaeus vannamei
+KAF1992991.1	#d06e06	Amniculicola lignicola
+KFA64002.1	#a23e86	Stachybotrys chlorohalonata
+VBB81548.1	#5ad4d0	Podospora comata
+RXH86124.1	#856e97	Malus domestica
+XP_003351131.1	#887ec5	Sordaria macrospora
+CAB0042731.1	#7b683f	Trichogramma brassicae
+MBW0514008.1	#adf6f5	Austropuccinia psidii
+XP_039446838.1	#f9217d	Culex pipiens
+THW32691.1	#984a9e	Aureobasidium pullulans
+XP_009225149.1	#318da7	Gaeumannomyces tritici
+XP_016189807.1	#5a1a27	Arachis ipaensis
+CAG8606969.1	#6bd276	Claroideoglomus candidum
+XP_027062410.1	#b87515	Coffea arabica
+TEB21281.1	#fc1436	Coprinellus micaceus
+WP_138333714.1	#31ee24	nan
+AJT58580.1	#dbd1ba	Lilium hybrid cultivar
+RKP13544.1	#12650f	Piptocephalis cylindrospora
+KAF4339473.1	#8b472e	Fusarium beomiforme
+RKP25486.1	#9d9ae8	Syncephalis pseudoplumigaleata
+KFB48431.1	#946b93	Anopheles sinensis
+TVU43139.1	#9a0967	Eragrostis curvula
+AAW57419.1	#3b25c7	Oncidium hybrid cultivar
+CAG8451510.1	#8c804d	Scutellospora calospora
+EEC71623.1	#d2c74e	Oryza sativa
+XP_033531926.1	#9c9481	Eremomyces bilateralis
+ROW17991.1	#7b4151	Cytospora leucostoma
+KAH7099392.1	#15ed82	Auriculariales sp. MPI-PUGE-AT-0066
+XP_020596368.1	#cb506e	Phalaenopsis equestris
+KAG8918496.1	#a8034f	Tulasnella sp. 418
+XP_033548729.1	#e29462	Lindgomyces ingoldianus
+OEL17899.1	#dd3063	Dichanthelium oligosanthes
+KAG5875029.1	#ae6333	Gonioctena quinquepunctata
+TQN63790.1	#679589	Colletotrichum shisoi
+CZR58036.1	#2ff7ac	Phialocephala subalpina
+XP_021956931.1	#b0c805	Folsomia candida
+KAF4512791.1	#5b1c53	Ophiocordyceps sinensis
+WP_235055010.1	#06b9b6	Yinghuangia sp. KLBMP8922
+CAG9529493.1	#01aa8b	Cercopithifilaria johnstoni
+KAI4299338.1	#8ec346	Bauhinia variegata
+XP_008020731.1	#a078cb	Exserohilum turcicum
+KIK95281.1	#39b435	Paxillus rubicundulus
+KAF1964516.1	#c56215	Bimuria novae-zelandiae
+XP_049278107.1	#84cbf5	Anopheles funestus
+KAF8418718.1	#e11041	Tirmania nivea
+CDP17937.1	#2e70ed	Coffea canephora
+KAF1352936.1	#d03233	Lizonia empirigonia
+KAH6666568.1	#2a2ba0	Halenospora varia
+KAI0743507.1	#f45209	Hexagonia nitida
+KIL63082.1	#1111dc	Amanita muscaria
+MCJ1262334.1	#f7020b	Lobaria immixta
+KAI0279172.1	#0d6695	Russula aff. rugulosa BPL654
+WP_140073909.1	#32add0	Vibrio parahaemolyticus
+KAI5782546.1	#9c9b2c	Pyronema domesticum
+KIJ46617.1	#647c27	Sphaerobolus stellatus
+ORX98727.1	#951af2	Clohesyomyces aquaticus
+GHH67124.1	#779f4c	Kitasatospora indigofera
+GJN01711.1	#6e1f2d	Eleusine coracana
+KAI3558610.1	#c47e48	Colletotrichum abscissum
+OCK98505.1	#ca8d5a	Cenococcum geophilum
+XP_007672900.1	#3588ba	Baudoinia panamericana
+MBI3651888.1	#152ce0	Acidobacteria bacterium
+KDN33296.1	#2c63a5	Rhizoctonia solani
+KAH7090611.1	#52da2a	Paraphoma chrysanthemicola
+KAF3852176.1	#2afe49	Dissostichus mawsoni
+XP_025836545.1	#3fa8c1	Agrilus planipennis
+KFA68920.1	#a23e86	Stachybotrys chlorohalonata
+XP_031885894.1	#4a1b8e	Colletotrichum fructicola
+XP_047535736.1	#88e246	Vanessa atalanta
+WP_080642385.1	#31ee24	nan
+PSN64506.1	#fe5652	Corynespora cassiicola
+CAH7671043.1	#c8b542	Phakopsora pachyrhizi
+KAH6896173.1	#d329df	Coprinopsis sp. MPI-PUGE-AT-0042
+KAF8756242.1	#2c63a5	Rhizoctonia solani
+KAI1371304.1	#a3ac18	Hypoxylon crocopeplum
+WP_040373382.1	#c5ebe0	Peribacillus psychrosaccharolyticus
+XP_020779539.1	#262308	Boleophthalmus pectinirostris
+XP_001635796.3	#deba64	Nematostella vectensis
+XP_040662231.1	#e38d6a	Aspergillus versicolor
+XP_046123596.1	#fd36de	Fusarium solani
+KAF4761560.1	#6fd5ca	Penicillium sp. str. #12
+VDI71717.1	#307007	Mytilus galloprovincialis
+MCJ1371074.1	#3d4eb1	Loxospora ochrophaea
+CAC44749.1	#011599	Cupiennius salei
+AAZ40337.1	#b37b07	Carcinoscorpius rotundicauda
+XP_023621867.1	#45ac6c	Ramularia collo-cygni
+KAF8244738.1	#60e016	Wilcoxina mikolae
+PCH44810.1	#30e3cf	Wolfiporia cocos
+KAI4213315.1	#7e483d	Letrouitia transgressa
+XP_017215016.1	#97a139	Daucus carota
+KAG7154510.1	#af838f	Homarus americanus
+ROV93754.1	#5b26ec	Valsa sordida
+KXN64785.1	#73de94	Conidiobolus coronatus
+ACY40650.1	#302c55	Blattella germanica
+XP_007309199.1	#900537	Stereum hirsutum
+KLJ11845.1	#027dae	Blastomyces silverae
+CAG5132258.1	#f79e0e	Candidula unifasciata
+KAF6800327.1	#0d4caf	Colletotrichum sojae
+QHA25227.1	#d6fb1f	Physocyclus mexicanus
+XP_024745910.1	#c6b7cd	Trichoderma citrinoviride
+XP_012841283.1	#421503	Erythranthe guttata
+EJD48472.1	#9b9e59	Auricularia subglabra
+CAA58471.1	#f90064	Pacifastacus leniusculus
+WP_053990117.1	#ab8ecb	Mangrovimonas sp. TPBH4
+KAG5670798.1	#bf9700	Polypedilum vanderplanki
+RKP23385.1	#9d9ae8	Syncephalis pseudoplumigaleata
+CAG5132271.1	#f79e0e	Candidula unifasciata
+GFT07120.1	#3093a0	Nephila pilipes
+CAH6628715.1	#31ee24	nan
+OCL14213.1	#8eddac	Glonium stellatum
+KAH7309833.1	#9c9c9b	Stachybotrys elegans
+TKW50712.1	#7ab84b	Colletotrichum tanaceti
+XP_017787164.1	#2d926e	Nicrophorus vespilloides
+KAG8932313.1	#a8034f	Tulasnella sp. 418
+ROV90064.1	#5b26ec	Valsa sordida
+KAI5055007.1	#cdee28	Adiantum capillus-veneris
+XP_029937891.1	#94c174	Myripristis murdjan
+VDM00623.1	#935c0d	Schistocephalus solidus
+XP_021896650.1	#d791f0	Carica papaya
+USP81624.1	#640841	Curvularia clavata
+AAU20851.2	#4b6eb7	Reticulitermes flavipes
+RPA83917.1	#2ccfc4	Ascobolus immersus
+MBP9872347.1	#c10d46	Nitrosomonas sp.
+AUO15580.1	#1cfa18	Gryllotalpa sp. XZ-2017
+WP_185034917.1	#d841fa	Streptomyces candidus
+KAF7752797.1	#5e0d76	Entomophthora muscae
+XP_038784532.1	#f08ab1	Alternaria burnsii
+KAE8418380.1	#0f2f4b	Aspergillus pseudocaelatus
+XP_038693101.1	#e7bdf3	Tripterygium wilfordii
+XP_030994227.1	#fdc81e	Thyridium curvatum
+CAD6201491.1	#c055c7	Cotesia congregata
+PWA38973.1	#e04447	Artemisia annua
+NP_001301072.1	#1fd4de	Limulus polyphemus
+CAH2723726.1	#5cf005	Parascedosporium putredinis
+XP_021726627.1	#75d1b6	Chenopodium quinoa
+XP_035826574.1	#f3fa61	Aplysia californica
+KAF4519963.1	#00ae81	Ephemera danica
+CAH0589094.1	#858445	Chrysodeixis includens
+KAH7677123.1	#9a0e50	Dioscorea alata
+PVH91111.1	#15e43d	Periconia macrospinosa
+OAE29376.1	#8b1377	Marchantia polymorpha
+XP_035702472.1	#b0c805	Folsomia candida
+OQO02007.1	#8e58a7	Rachicladosporium antarcticum
+KAH6780800.1	#4141e5	Perilla frutescens
+MCJ1446958.1	#276a26	Stictis urceolatum
+ODN00732.1	#8a75c8	Orchesella cincta
+EFQ85282.1	#5b3cae	Pyrenophora teres
+KPJ13409.1	#184096	Papilio machaon
+KAI5357450.1	#a1ab0f	Septoria linicola
+KAI0342043.1	#6b120f	Trametopsis cervina
+KAF2669144.1	#4b264e	Microthyrium microscopicum
+WP_176101082.1	#a389c5	Streptomyces sp. NA04227
+KAI5779170.1	#0208ce	Geopyxis carbonaria
+CAH6633066.1	#31ee24	nan
+KAI5071759.1	#cdee28	Adiantum capillus-veneris
+KAI1433814.1	#093ad8	Xylaria sp. CBS 124048
+URE26135.1	#b94a8e	Musa troglodytarum
+OSD07436.1	#8d3dc4	Trametes coccinea
+PHT93286.1	#42e086	Capsicum annuum
+KAI3809645.1	#b6374c	Smallanthus sonchifolius
+KAI5778604.1	#0208ce	Geopyxis carbonaria
+XP_008197347.1	#82d486	Tribolium castaneum
+KAH8172213.1	#b0fdff	Sarocladium implicatum
+VUC28059.1	#883ccc	Clonostachys rosea
+CAA0808740.1	#870374	Striga hermonthica
+KAI5842094.1	#e665e6	Tricharina praecox
+XP_022917064.1	#c7bb5c	Onthophagus taurus
+WP_203843119.1	#601622	Actinoplanes humidus
+KZP11745.1	#615ab7	Fibularhizoctonia sp. CBS 109695
+KAG7009306.1	#88ab17	Physcia stellaris
+GJN17524.1	#6e1f2d	Eleusine coracana
+OCL07991.1	#8eddac	Glonium stellatum
+WP_255814718.1	#31ee24	nan
+GAP88182.1	#bbb662	Rosellinia necatrix
+UEV87802.1	#c6facc	Gloriosa superba
+KAA8540487.1	#b2077a	Nyssa sinensis
+XP_035789029.1	#46c216	Anopheles albimanus
+XP_032253550.1	#a60b0d	Phoca vitulina
+KAH8602664.1	#7c1d67	Bisporella sp. PMI_857
+KJK76914.1	#e22259	Metarhizium anisopliae
+KAI6368832.1	#99e98b	Pyricularia grisea
+CAR85707.1	#3c6b65	Chelidura acanthopygia
+KAG8528341.1	#4c6fe2	Bacidia gigantensis
+KAG5826654.1	#a19625	Fusarium xylarioides
+XP_026290146.1	#fe3aa0	Frankliniella occidentalis
+KAH9988351.1	#a3f47c	Russula vinacea
+XP_023224731.1	#c6229c	Centruroides sculpturatus
+KAF2116452.1	#40cbc7	Lophiotrema nucula
+XP_028136210.1	#c1ce8d	Diabrotica virgifera
+KAH8728712.1	#0b7b4f	Phaeosphaeriaceae sp. PMI808
+CZR55399.1	#2ff7ac	Phialocephala subalpina
+OEU21143.1	#b64ee2	Fragilariopsis cylindrus
+KAF8410583.1	#f4ac14	Tetracentron sinense
+XP_022732751.1	#38e1d9	Durio zibethinus
+KAH8938720.1	#9055dd	Sphagnum fallax
+KAH9509972.1	#2af09d	Bulinus truncatus
+KAH7373380.1	#a70e37	Ceratopteris richardii
+KZL83428.1	#4a41c8	Colletotrichum incanum
+XP_035658183.1	#8deebe	Branchiostoma floridae
+KAF2796388.1	#1d0464	Melanomma pulvis-pyrius
+RXG68583.1	#e0ceed	Armadillidium vulgare
+ALJ76679.1	#69575e	Epicauta chinensis
+OWP03182.1	#9bafbd	Marssonina coronariae
+XP_030762609.1	#a8372d	Sitophilus oryzae
+KAI1265449.1	#55f03c	Xylariaceae sp. FL1019
+KAH9986652.1	#a3f47c	Russula vinacea
+KAH8664376.1	#ed894d	Xylariales sp. PMI_506
+KIM26664.1	#07c80a	Serendipita vermifera
+CAG8680324.1	#d13b3e	Gigaspora margarita
+XP_028169144.1	#67b6a3	Ostrinia furnacalis
+XP_028136219.1	#c1ce8d	Diabrotica virgifera
+KAH8783066.1	#f2354c	Diaporthaceae sp. PMI_573
+TID18257.1	#49ab78	Venturia nashicola
+OLL25128.1	#30ec43	Neolecta irregularis
+CAH1235221.1	#e0fb2c	Diabrotica balteata
+EXB82814.1	#4a9357	Morus notabilis
+MBM3632567.1	#b5d3ed	Alphaproteobacteria bacterium
+ROT63387.1	#7aa785	Penaeus vannamei
+KAF2844815.1	#540a15	Plenodomus tracheiphilus
+KAH0808366.1	#a49eaa	Tenebrio molitor
+XP_023313615.1	#f39fcc	Trichogramma pretiosum
+KAF8202684.1	#5b16cf	Mycena galopus
+CAG9773758.1	#a17878	Ceutorhynchus assimilis
+KAG5010565.1	#f85cf3	Glycine soja
+MCJ1440028.1	#276a26	Stictis urceolatum
+ROT71233.1	#7aa785	Penaeus vannamei
+XP_007288815.1	#2380f3	Drepanopeziza brunnea
+KAI5798619.1	#9c9b2c	Pyronema domesticum
+ESK90992.1	#0925a9	Moniliophthora roreri
+EQB53198.1	#8d2dbb	Colletotrichum gloeosporioides
+XP_006691163.1	#436e08	Chaetomium thermophilum
+KZV69465.1	#60229a	Peniophora sp. CONT
+KND91261.1	#bd9677	Tolypocladium ophioglossoides
+WP_223146473.1	#c38d3b	Enterobacter hormaechei
+KXX74634.1	#395924	Madurella mycetomatis
+KAF2397255.1	#6cc476	Trichodelitschia bisporula
+KAH1055294.1	#888341	Gossypium stocksii
+XP_023089516.1	#d72440	Aspergillus oryzae
+CZR63593.1	#2ff7ac	Phialocephala subalpina
+KAF7747191.1	#5e0d76	Entomophthora muscae
+UPK92493.1	#01ade7	Fusarium solani-melongenae
+CZR69038.1	#2ff7ac	Phialocephala subalpina
+MBV9761511.1	#6c1fc9	Acidobacteriaceae bacterium
+CAD2177694.1	#e41d65	Meloidogyne enterolobii
+KAF2204311.1	#7d8f13	Delitschia confertaspora
+PYQ28219.1	#152ce0	Acidobacteria bacterium
+CAG9974021.1	#eeba96	Clonostachys byssicola
+TFL03596.1	#59c3b3	Pterula gracilis
+THH26781.1	#5bd8e8	Antrodiella citrinella
+KAF2223082.1	#59e501	Elsinoe ampelina
+KAH8635957.1	#233254	Alternaria alternata
+XP_049159413.1	#218c3a	Daldinia loculata
+XP_028405884.1	#28f13f	Dendronephthya gigantea
+XP_024724122.1	#5094b6	Amorphotheca resinae
+SMH67862.1	#d44947	Scolopendra dehaani
+XP_039271284.1	#65114d	Styela clava
+KAF2971331.1	#712cfb	Xylaria multiplex
+RZF47000.1	#ce9e0f	Laodelphax striatellus
+KAG2562993.1	#5fbd1f	Panicum virgatum
+PKA50209.1	#4e245d	Apostasia shenzhenica
+XP_047852333.1	#0d4a5c	Annulohypoxylon truncatum
+XP_039146897.1	#b17129	Dioscorea cayenensis
+KAG7210288.1	#7f5fa0	Ampulex compressa
+KAG7007319.1	#88ab17	Physcia stellaris
+PIK55750.1	#ed2157	Apostichopus japonicus
+KAF8662494.1	#f58f00	Digitaria exilis
+KAF7754944.1	#5e0d76	Entomophthora muscae
+WP_190852455.1	#54d587	Streptomyces aurantiacus
+ODM96378.1	#8a75c8	Orchesella cincta
+RDA91931.1	#e35e4f	Ophiocordyceps camponoti-saundersi (nom. inval.)
+CAD7265430.1	#3e9714	Timema shepardi
+KAH8714043.1	#0b7b4f	Phaeosphaeriaceae sp. PMI808
+KAH6838461.1	#598553	Chaetomium sp. MPI-CAGE-AT-0009
+KAF2847615.1	#540a15	Plenodomus tracheiphilus
+KAI3537135.1	#c47e48	Colletotrichum abscissum
+KAI0687171.1	#634bde	Cytidiella melzeri
+MCH9698136.1	#c29f1d	Gammaproteobacteria bacterium
+TPX73369.1	#ee7d8d	Chytriomyces confervae
+OEL36751.1	#dd3063	Dichanthelium oligosanthes
+KAI0017635.1	#d91405	Xylariomycetidae sp. FL0641
+WP_071901892.1	#31c2f4	Cystobacter ferrugineus
+CAB3374840.1	#d335bb	Cloeon dipterum
+KAF3903032.1	#d05ffe	Arthrobotrys entomopaga
+KAI1339821.1	#e7ba2f	Xylariaceae sp. FL0016
+KAH7347249.1	#f6d279	Plectosphaerella cucumerina
+XP_032664643.1	#a74565	Odontomachus brunneus
+WP_157291820.1	#d9e74c	Devosia marina
+KAF2220783.1	#59e501	Elsinoe ampelina
+WP_007589306.1	#954a3b	Paraburkholderia hospita
+XP_021061793.1	#52696b	Mus pahari
+CAD6201492.1	#c055c7	Cotesia congregata
+KAA8593988.1	#73c363	Etheostoma spectabile
+EFJ32200.1	#a764f7	Selaginella moellendorffii
+CAG9956886.1	#883ccc	Clonostachys rosea
+XP_010926766.1	#17bce3	Elaeis guineensis
+KAH9015723.1	#c02c5e	Lactarius deliciosus
+KAB8274760.1	#904e12	Aspergillus minisclerotigenes
+PHU26500.1	#426fb4	Capsicum chinense
+MBT2523975.1	#249be4	Streptomyces sp. ISL-99
+RGP78696.1	#55d552	Fusarium longipes
+KAF3451518.1	#3f28ae	Rhamnella rubrinervis
+KAH8896868.1	#434224	Thozetella sp. PMI_491
+MCJ1445466.1	#276a26	Stictis urceolatum
+WP_120707990.1	#769c9f	Rhizobium jaguaris
+XP_044760588.1	#dc3be0	Coccinella septempunctata
+KAH8590729.1	#7c1d67	Bisporella sp. PMI_857
+RMZ67855.1	#972e91	Pyrenophora seminiperda
+KJZ75412.1	#71e93f	Hirsutella minnesotensis
+XP_043928139.1	#048798	Protopterus annectens
+KAG8224780.1	#fd80ff	Ladona fulva
+CAG8950233.1	#96611f	Hymenoscyphus fraxineus
+GJN01712.1	#6e1f2d	Eleusine coracana
+KAF5359836.1	#d1a528	Leucoagaricus leucothites
+XP_024706659.1	#8772cd	Aspergillus steynii
+OQD76015.1	#e5827a	Penicillium decumbens
+XP_038222423.1	#384234	Zerene cesonia
+CAD7594057.1	#f7d47e	Timema genevievae
+WP_256671471.1	#2b5f0a	Pseudomonas sp. PB106
+XP_033103049.1	#ac0016	Anneissia japonica
+XP_040195790.1	#e3a6e0	Rana temporaria
+KAG0634568.1	#27de88	Tuber brumale
+MCJ1445378.1	#276a26	Stictis urceolatum
+KAI5807356.1	#69bf5d	Peziza echinospora
+EEC71625.1	#d2c74e	Oryza sativa
+XP_033654316.1	#070552	Westerdykella ornata
+KAI0203828.1	#b9a0b4	Astrocystis sublimbata
+KAI0727475.1	#bfde96	Fomitopsis betulina
+KAF7803498.1	#da4e2c	Senna tora
+OSS48899.1	#e11b05	Epicoccum nigrum
+WP_216075537.1	#0e7ba5	Acinetobacter indicus
+PCI11969.1	#f05ae6	Flavobacteriaceae bacterium
+KAF2861677.1	#440405	Piedraia hortae
+CDN40918.1	#cdc3d6	Vargula tsujii
+CAD6336285.1	#d55533	Miscanthus lutarioriparius
+KAH8644000.1	#233254	Alternaria alternata
+WP_064680178.1	#31ee24	nan
+KAH9495731.1	#2af09d	Bulinus truncatus
+XP_015605369.1	#9334ee	Cephus cinctus
+PMD29913.1	#05287e	Hyaloscypha variabilis
+XP_049851206.1	#6d9fc0	Schistocerca gregaria
+XP_009220966.1	#318da7	Gaeumannomyces tritici
+KAH8775468.1	#f2354c	Diaporthaceae sp. PMI_573
+KAG8455142.1	#7b9a04	Hymenochirus boettgeri
+KAI1251640.1	#f1db01	Eutypa lata
+KAA8893710.1	#af8ced	Sphaerosporella brunnea
+KAH9980146.1	#1c43d0	Lactarius volemus
+XP_021946254.1	#b0c805	Folsomia candida
+KAI3877071.1	#7ff70f	Papaver armeniacum
+OWP01020.1	#9bafbd	Marssonina coronariae
+XP_049800214.1	#59877b	Schistocerca nitens
+KAF2998496.1	#56ed16	Curvularia kusanoi
+XP_031702684.1	#4dc5b3	Anarrhichthys ocellatus
+PGH13991.1	#80b63c	Polytolypa hystricis
+ROV93607.1	#3890ef	Valsa malicola
+KAI0895499.1	#8644ca	Annulohypoxylon nitens
+BBH51418.1	#05ee63	Nipponaphis monzeni
+KAH8770749.1	#f2354c	Diaporthaceae sp. PMI_573
+KAH7007646.1	#87afc1	Ilyonectria destructans
+CAG2186431.1	#a43774	Mytilus edulis
+OWY48411.1	#233254	Alternaria alternata
+OTB04667.1	#ab10c4	Hypoxylon sp. CI-4A
+KAI1324256.1	#5c4612	Xylariaceae sp. FL0255
+CAA2628011.1	#945e04	Spirodela intermedia
+WP_151773273.1	#ad35d4	Streptomyces abyssomicinicus
+KAI5785407.1	#9c9b2c	Pyronema domesticum
+WP_250763094.1	#ba4ed4	Streptomyces sp. MSC1_001
+KXN70488.1	#73de94	Conidiobolus coronatus
+KAH0588313.1	#fcf927	Termitomyces sp. 'cryptogamus'
+KAF8802282.1	#966225	Cortinarius glaucopus
+XP_022338110.1	#8b1255	Crassostrea virginica
+KAH6874068.1	#f53de8	Thelonectria olida
+KAI1866490.1	#359c8e	Wardomyces moseri
+KAB7497344.1	#f3f9ca	Armadillidium nasatum
+PMD30163.1	#05287e	Hyaloscypha variabilis
+KAF2734090.1	#ca4291	Polyplosphaeria fusca
+QLG20183.1	#38b816	Solanum melongena
+KAF4399241.1	#38916a	Cannabis sativa
+XP_032976339.1	#bd7c78	Rhinolophus ferrumequinum
+XP_030385805.1	#4ff7e8	Scaptodrosophila lebanonensis
+KAH7396944.1	#443aa9	Phaeosphaeria sp. MPI-PUGE-AT-0046c
+PBP16155.1	#255c7a	Diplocarpon rosae
+EQB47929.1	#8d2dbb	Colletotrichum gloeosporioides
+KAF4613661.1	#26d58d	Agrocybe pediades
+KAF9560844.1	#26d58d	Agrocybe pediades
+XP_026619984.1	#48256f	Aspergillus welwitschiae
+XP_044208001.1	#ab4e93	Thunnus albacares
+XP_035345699.1	#186b43	Talaromyces rugulosus
+XP_046015109.1	#7891d6	Microdochium trichocladiopsis
+OQU87622.1	#33bb65	Sorghum bicolor
+KAF5311053.1	#cd27b3	Psilocybe cf. subviscida
+TEY59800.1	#ac7266	Botryotinia calthae
+WP_233842899.1	#e50956	Dyella sp. 2HG41-7
+XP_011205594.3	#957ace	Bactrocera dorsalis
+XP_026283192.1	#fe3aa0	Frankliniella occidentalis
+PVH98065.1	#15e43d	Periconia macrospinosa
+KAH8596226.1	#7c1d67	Bisporella sp. PMI_857
+KAI5856888.1	#e665e6	Tricharina praecox
+XP_003068052.1	#db5049	Coccidioides posadasii
+RWR88445.1	#4ab84c	Cinnamomum micranthum
+XP_010686564.2	#c8a51b	Beta vulgaris
+WP_119924870.1	#b31201	Bailinhaonella thermotolerans
+WP_189107202.1	#45d7b1	Streptomyces camponoticapitis
+ODM97648.1	#8a75c8	Orchesella cincta
+GER29123.1	#6cafa2	Striga asiatica
+OVA07050.1	#7f97c8	Macleaya cordata
+KAH9243521.1	#8d2dbb	Colletotrichum gloeosporioides
+KXH43056.1	#f2e052	Colletotrichum simmondsii
+CAB0036379.1	#7b683f	Trichogramma brassicae
+XP_012756174.1	#ee9e24	Acytostelium subglobosum
+VDM97281.1	#cf818f	Thelazia callipaeda
+P83180.1	#bfda36	Astacus leptodactylus
+XP_045948212.1	#6ebebe	Aspergillus melleus
+XP_033460357.1	#2b1a57	Dissoconium aciculare
+XP_007294610.1	#2380f3	Drepanopeziza brunnea
+KXX76190.1	#395924	Madurella mycetomatis
+KAI3844468.1	#b8c217	Papaver bracteatum
+KFA72651.1	#d35e15	Stachybotrys chartarum
+KXT05546.1	#f1e35b	Pseudocercospora eumusae
+XP_045194548.1	#32c129	Mercenaria mercenaria
+XP_034256439.1	#25ed52	Thrips palmi
+KAG8042145.1	#09ffd9	Cotesia typhae
+CAX63173.1	#6d622e	Campodea sp. CP-2009
+XP_026444032.1	#58a3b6	Papaver somniferum
+XP_047963505.1	#4dcc29	Salvia hispanica
+QLF98509.1	#fde84a	Paraperla frontalis
+TMH30474.1	#5b84e2	Betaproteobacteria bacterium
+WP_226734661.1	#1c861f	Streptomyces bambusae
+OSS44021.1	#e11b05	Epicoccum nigrum
+XP_033575546.1	#a6cf5a	Mytilinidion resinicola
+KAF5559124.1	#d7d555	Fusarium phyllophilum
+AQM36766.1	#67b6a3	Ostrinia furnacalis
+EPT04641.1	#dbaee7	Fomitopsis pinicola
+POS76463.1	#11f521	Diaporthe helianthi
+KAF2262185.1	#929eda	Didymosphaeria enalia
+AAX62654.1	#b999be	Romalea microptera
+KAH7697070.1	#dd8cec	Aphelenchus avenae
+KIM73147.1	#c23d1d	Piloderma croceum
+NXU61870.1	#c2c5ff	Horornis vulcanius
+KAF8737925.1	#3a2369	Amanita brunnescens
+KAI0559622.1	#3b2b7a	Gracilaria domingensis
+XP_047759615.1	#7f9e45	Fulvia fulva
+XP_021896784.1	#d791f0	Carica papaya
+C0HLU8.1	#74d756	Scylla serrata
+PVH98849.1	#15e43d	Periconia macrospinosa
+WP_135332516.1	#af77d0	Streptomyces sp. MZ04
+XP_030040408.1	#d92938	Manduca sexta
+KAF6834753.1	#8753ef	Colletotrichum musicola
+KAF8411179.1	#f4ac14	Tetracentron sinense
+CAE6509048.1	#2c63a5	Rhizoctonia solani
+KAG5446713.1	#e4f5cd	Clonorchis sinensis
+KAF7531836.1	#b552a7	Neopestalotiopsis clavispora
+PGH15885.1	#80b63c	Polytolypa hystricis
+VDP13988.1	#265e13	Soboliphyme baturini
+PSN36663.1	#302c55	Blattella germanica
+MCO5586310.1	#7dd150	Adiantum nelumboides
+KAB5534544.1	#ebdfdf	Salix brachista
+BAE47566.1	#8400c5	Cynops pyrrhogaster
+P83040.1	#c3930f	Rapana venosa
+KAF6836526.1	#8753ef	Colletotrichum musicola
+XP_007839186.1	#313993	Pestalotiopsis fici
+CAA2987527.1	#1a4422	Olea europaea
+XP_035896530.1	#9f1438	Anopheles stephensi
+XP_019425833.1	#f8957c	Lupinus angustifolius
+BBV24620.1	#0cce84	Grifola frondosa
+KAE9452603.1	#c9a047	Rhododendron williamsianum
+XP_013305102.1	#73b2ff	Necator americanus
+TKR65452.1	#ad94a9	Steinernema carpocapsae
+KAH7354493.1	#f6d279	Plectosphaerella cucumerina
+KAF4362096.1	#38916a	Cannabis sativa
+XP_015700402.1	#0b9b64	Paracoccidioides lutzii
+KAB8291533.1	#d1dfeb	Monilinia laxa
+KAG8539267.1	#2a76c4	Engystomops pustulosus
+TVY64353.1	#00319e	Lachnellula suecica
+CAG7837626.1	#9997e1	Allacma fusca
+KAF8148054.1	#fc5fdd	Crassisporium funariophilum
+GJM93001.1	#6e1f2d	Eleusine coracana
+KAE9556377.1	#46d96d	Halicephalobus sp. NKZ332
+XP_013382611.1	#02956c	Lingula anatina
+XP_011494603.1	#4e4457	Ceratosolen solmsi
+XP_043262252.1	#5a9e7b	Colletes gigas
+XP_038798177.1	#c4b749	Ascochyta rabiei
+CAG7836276.1	#9997e1	Allacma fusca
+KAH8946526.1	#9055dd	Sphagnum fallax
+EPS41920.1	#1efe31	Dactylellina haptotyla
+KAH7561700.1	#dcc9d2	Bipolaris maydis
+KAF2731269.1	#ca4291	Polyplosphaeria fusca
+WP_201226293.1	#752b22	Pseudomonas sp. TH43
+MBZ5537640.1	#82912e	Acidobacteriia bacterium
+RKP19196.1	#2afc67	Rozella allomycis
+KAG6392108.1	#76b21e	Salvia splendens
+XP_030488049.1	#38916a	Cannabis sativa
+KAI1338254.1	#e7ba2f	Xylariaceae sp. FL0016
+KAH8907382.1	#64273d	Coniochaeta sp. PMI_546
+RRT56054.1	#84b912	Ensete ventricosum
+KAF4525334.1	#00ae81	Ephemera danica
+XP_037784373.1	#31b774	Penaeus monodon
+EXB55812.1	#4a9357	Morus notabilis
+XP_037922217.1	#23f308	Hermetia illucens
+CAM84198.1	#d221a9	Perla marginata
+KAF8698315.1	#2c63a5	Rhizoctonia solani
+XP_012286306.1	#164ab9	Orussus abietinus
+GFP78722.1	#7e29f2	Phtheirospermum japonicum
+KAH8724082.1	#0b7b4f	Phaeosphaeriaceae sp. PMI808
+QCC26457.1	#b0c805	Folsomia candida
+AVI16673.1	#d94db3	Pteria penguin
+KAF7558368.1	#800d98	Stylonectria norvegica
+GBP31837.1	#657214	Eumeta japonica
+PVU89457.1	#62b114	Smittium simulii
+KAF7741661.1	#5e0d76	Entomophthora muscae
+AWK27994.2	#c7c4c2	Coeloplana astericola
+OQE28327.1	#f2b866	Penicillium steckii
+KAH7313728.1	#9c9c9b	Stachybotrys elegans
+ADT91166.1	#0c8a8a	Spirula spirula
+XP_018003578.1	#e39811	Phialophora attinorum
+KMZ75172.1	#21d4ad	Zostera marina
+PON96102.1	#805f8f	Trema orientale
+KAF2742404.1	#5e0c08	Sporormia fimetaria
+OOQ91564.1	#7246d0	Penicillium brasilianum
+KAI4223670.1	#4b8419	Xanthomendoza cf. fulva
+RIV50965.1	#881ef0	Muricauda taeanensis
+XP_022339402.1	#8b1255	Crassostrea virginica
+XP_033213215.1	#cec10d	Belonocnema kinseyi
+XP_007269575.1	#62f319	Fomitiporia mediterranea
+RYP74206.1	#76c4b2	Monosporascus sp. 5C6A
+KAF2873321.1	#a9b697	Massariosphaeria phaeospora
+KAG0558788.1	#6252ae	Ceratodon purpureus
+XP_037179134.1	#2259bb	Colletotrichum aenigma
+OJJ69427.1	#ba1513	Aspergillus brasiliensis
+QRV76929.1	#8ea31c	Ceratobasidium sp. AG-Ba
+CAD7194818.1	#202568	Timema douglasi
+KAF4527981.1	#00ae81	Ephemera danica
+QCD76723.1	#37e6b3	Vigna unguiculata
+KZL81976.1	#4a41c8	Colletotrichum incanum
+KKY32397.1	#b03f58	Diaporthe ampelina
+CAG8756772.1	#d13b3e	Gigaspora margarita
+PCH35881.1	#30e3cf	Wolfiporia cocos
+KAH7135814.1	#20f315	Dendryphion nanum
+MBT2648406.1	#b017a5	Bacillus sp. ISL-34
+KAF2197864.1	#7d8f13	Delitschia confertaspora
+KAF1999790.1	#d06e06	Amniculicola lignicola
+KAH8681383.1	#ed894d	Xylariales sp. PMI_506
+KAI5841724.1	#e665e6	Tricharina praecox
+TLD18399.1	#285e7f	Pyricularia sp. CBS 133598
+CAE6476118.1	#2c63a5	Rhizoctonia solani
+XP_045134524.1	#fe61e3	Portunus trituberculatus
+CAH0051277.1	#ba05d8	Clonostachys solani
+EPB70194.1	#3c3560	Ancylostoma ceylanicum
+PQQ02252.1	#f43093	Prunus yedoensis
+RKF56419.1	#89a7dc	Oidium neolycopersici
+BBO36751.1	#70e6ee	Panulirus japonicus
+XP_019618269.1	#460a12	Branchiostoma belcheri
+XP_010757924.1	#7d1fca	Paracoccidioides brasiliensis
+XP_043461920.1	#3b8522	Leptopilina heterotoma
+XP_007745485.1	#cd5279	Cladophialophora psammophila
+XP_033438007.1	#fc875f	Daldinia childiae
+GJC81701.1	#fb02b9	Colletotrichum liriopes
+WP_190069061.1	#321a26	Streptomyces lanatus
+MBW8799213.1	#964068	Streptomyces sp.
+KAI1854797.1	#359c8e	Wardomyces moseri
+TFL04586.1	#59c3b3	Pterula gracilis
+KXJ86448.1	#f44942	Microdochium bolleyi
+TGO78788.1	#01c4a8	Botrytis elliptica
+TIC90617.1	#dcb0b3	Colletotrichum higginsianum
+KAF4635209.1	#1138ed	Cudoniella acicularis
+XP_026422003.1	#58a3b6	Papaver somniferum
+CAG2208704.1	#a43774	Mytilus edulis
+XP_047307722.1	#718a49	Impatiens glandulifera
+XP_038104844.1	#b44a61	Culex quinquefasciatus
+APD77447.1	#02cc1f	Biomphalaria glabrata
+KAF5635886.1	#118ff2	Fusarium sp. NRRL 52700
+XP_028503611.1	#1ada7d	Alternaria arborescens
+XP_045194243.1	#32c129	Mercenaria mercenaria
+XP_043044592.1	#b1c5e7	Guyanagaster necrorhizus
+KAF7749971.1	#5e0d76	Entomophthora muscae
+XP_026692172.1	#9ba6d0	Ciona intestinalis
+KAF3435718.1	#3f28ae	Rhamnella rubrinervis
+XP_044648249.1	#949475	Diaporthe batatas
+GFR18265.1	#4d2aeb	Trichonephila clavata
+XP_014779110.1	#70a5ca	Octopus bimaculoides

@@ -9,7 +9,7 @@ accessions = [folder for folder in os.listdir(blast_path) if not folder.startswi
 
 hits_best_pct = {}
 for accession in accessions:
-    if not accession in df.id.to_list():
+    if not accession in df.protein_accession.to_list():
         continue
     json_filename = f"{blast_path}/{accession}/blast.js"
     with open(json_filename, 'r') as infile:
