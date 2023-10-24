@@ -53,7 +53,7 @@ def make_methoxylation_label_file(df):
 
 def make_yes_no_label_file(df, column_name):
     outfilename = f"data/itol-label-files/{column_name}.txt"
-    value2color = {'Yes': '#008000', 'No': '#000000'}
+    value2color = {'Yes': '#00FF00', 'No': '#FF0000'}
     with open(outfilename, "w") as file:
         header = f"DATASET_COLORSTRIP\nSEPARATOR COMMA\nDATASET_LABEL,{column_name}\nCOLOR,#ff0000\nDATA\n"
         file.write(header)
@@ -80,9 +80,13 @@ def make_aguilera_subclass_label_file_text(df):
         header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,Aguilera_subclass\nCOLOR,#ff0000\nDATA\n"
         file.write(header)
         for index, row in df.iterrows():
-            if row['Aguilera_subclass'] not in value2color:
+            # if row['Aguilera_subclass'] not in value2color:
+            if row['Subclass'] not in value2color:
                 continue
-            file.write(f"{row.protein_accession},{row['Aguilera_subclass']},-1,{value2color[row['Aguilera_subclass']]},bold,1,0\n")
+            if pd.isnull(row.protein_accession):
+                continue
+            # file.write(f"{row.protein_accession},{row['Aguilera_subclass']},-1,{value2color[row['Aguilera_subclass']]},bold,1,0\n")
+            file.write(f"{row.protein_accession},{row['Subclass']},-1,{value2color[row['Subclass']]},bold,1,0\n")
 
 def make_domain_label_file(df, blast_hits=False):
     if blast_hits:
@@ -96,7 +100,10 @@ def make_domain_label_file(df, blast_hits=False):
         domains = [column_name for column_name in df.columns if column_name.startswith('domain_')]
         for index, row in df.iterrows():
             try:
-                file.write(f"{row.protein_accession},{len(row.sequence)}")
+                if blast_hits:
+                    file.write(f"{row.protein_accession},{len(row.seq)}")
+                else:
+                    file.write(f"{row.protein_accession},{len(row.sequence)}")
             except:
                 continue
             for domain_name in domains:
@@ -133,10 +140,14 @@ make_yes_no_label_file(seed_df, 'Diphenolase_activity')
 make_yes_no_label_file(seed_df, 'Nitrosation_activity')
 make_yes_no_label_file(seed_df, 'Tioether bond')
 make_aguilera_subclass_label_file(seed_df)
-make_aguilera_subclass_label_file_text(seed_df)
+# make_aguilera_subclass_label_file_text(seed_df)
 make_domain_label_file(seed_df)
 
 # Make blast hit label files
 df_blast_hits = pd.read_csv('data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv', sep='\t')
 make_domain_label_file(df_blast_hits, blast_hits=True)
 make_taxonomy_label_files(df_blast_hits, blast_hits=True)
+
+# Make aguilera label files
+df_aguilera = pd.read_excel('data/Aguilera-data/aguilera_with_seq.xlsx')
+make_aguilera_subclass_label_file_text(df_aguilera)
