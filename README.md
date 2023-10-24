@@ -110,9 +110,6 @@ On the HPC:
 ### Enrich selected hits with Pfam
 To enrich the filtered blast hits with pfam data, run `python src/data-collection/enrich-blast-hits-interproscan.py`. This creates the file `data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv`.
 
-### iTOL label files blast hits
-To make iTOL label files for the blast hits, run: `python src/itol-label-files/make-itol-label-files-blast-hits.py`.
-
 # MSA
 An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
 
@@ -120,7 +117,7 @@ An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
 A phylogenetic tree is made on the mafft webserver and saved in `data/seeds.ph`.
 
 # iTOL label files
-To make the iTOL label files, run `python src/itol-label-files/make-itol-label-files.py`
+To make iTOL label files, run `python src/itol-label-files/make-itol-label-files.py`
 
 # Structural visualizations
 To show the structures run `pymol src/structural-visualizations/show-models.pml`.
