@@ -34,7 +34,7 @@ A fasta file is created by running `python src/data-collection/make-fasta.py`. T
 Transfer the seeds file to the HPC: `scp data/seeds.fa idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/`
 
 On the HPC, run Interproscan:
-`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -i /work3/idamei/polyphenol-oxidases/seeds.fa -f tsv -o /work3/idamei/polyphenol-oxidases/seeds.interproscan`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/seeds.fa -f tsv -o /work3/idamei/polyphenol-oxidases/seeds.interproscan`
 
 Download the output file:
 `scp idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/seeds.interproscan data/`
@@ -90,11 +90,13 @@ To filter the blast hits on e-value and length, run `python src/data-collection/
 `cd-hit -i data/blast/unique-hits-1e-60-length150-1000.fasta -c 0.65 -o data/blast/unique-hits-1e-60-length150-1000-cd-hit65.fasta`.
 
 ### Run Interproscan on blast hits
-`chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast-hits/unique-hits-1e-15-length150-1000-cd-hit70.fasta`
+(Change this to 1e-60 file)
+Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast-hits/unique-hits-1e-15-length150-1000-cd-hit70.fasta`
 
 Run this:
-`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam -i polyphenol-oxidases/interproscan-blast-hits/chunk00.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk00.interproscan`
-`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam -i polyphenol-oxidases/interproscan-blast-hits/chunk01.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk01.interproscan`
+`qrsh`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i polyphenol-oxidases/interproscan-blast-hits/chunk00.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk00.interproscan`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i polyphenol-oxidases/interproscan-blast-hits/chunk01.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk01.interproscan`
 etc.
 
 Download the results:`scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-blast-hits data`
@@ -103,15 +105,13 @@ Download the results:`scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polypheno
 (not working yet, because it runs with the wrong version of Java, when submitted to the queue)
 Using jobscripts:
 On the HPC:
-Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast/unique-hits-1e-15-length150-1000-cd-hit70.fasta`
-
 `python3 polyphenol-oxidases/interproscan-blast/runinterproscan.py`
 
 ### Enrich selected hits with Pfam
 To enrich the filtered blast hits with pfam data, run `python src/data-collection/enrich-blast-hits-interproscan.py`. This creates the file `data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv`.
 
 ### iTOL label files blast hits
-To make iTOL label files for the blast hits, run: `python3 src/itol-label-files/make-itol-label-files-blast hits.py`.
+To make iTOL label files for the blast hits, run: `python src/itol-label-files/make-itol-label-files-blast-hits.py`.
 
 # MSA
 An MSA is made by running `mafft data/seeds.fa > data/seeds-mafft.fa`
