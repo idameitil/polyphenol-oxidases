@@ -51,7 +51,7 @@ def make_methoxylation_label_file(df):
                 continue
             file.write(f"{row.protein_accession},{methoxylation2color[row.methoxylation]},{row.methoxylation}\n")
 
-def make_yes_no_label_file(df, column_name):
+def make_binary_label_file(df, column_name):
     outfilename = f"data/itol-label-files/{column_name}.txt"
     value2color = {'Yes': '#00FF00', 'No': '#FF0000'}
     with open(outfilename, "w") as file:
@@ -107,7 +107,7 @@ def make_domain_label_file(df, blast_hits=False):
             except:
                 continue
             for domain_name in domains:
-                domain_description = domain_name.split('_')[2]
+                domain_description = '_'.join(domain_name.split('_')[1:3])
                 if domain_name not in domain2color:
                     color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
                     domain2color[domain_name] = color
@@ -130,15 +130,15 @@ seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 make_taxonomy_label_files(seed_df)
 make_activity_label_file(seed_df)
 # make_methoxylation_label_file(seed_df)
-make_yes_no_label_file(seed_df, '0_methoxylations')
-make_yes_no_label_file(seed_df, '1_methoxylation')
-make_yes_no_label_file(seed_df, '2_methoxylations')
-make_yes_no_label_file(seed_df, 'Short_fungal')
-make_yes_no_label_file(seed_df, 'Long_fungal')
-make_yes_no_label_file(seed_df, 'Monophenolase_activity')
-make_yes_no_label_file(seed_df, 'Diphenolase_activity')
-make_yes_no_label_file(seed_df, 'Nitrosation_activity')
-make_yes_no_label_file(seed_df, 'Tioether bond')
+make_binary_label_file(seed_df, '0_methoxylations')
+make_binary_label_file(seed_df, '1_methoxylation')
+make_binary_label_file(seed_df, '2_methoxylations')
+make_binary_label_file(seed_df, 'Short_fungal')
+make_binary_label_file(seed_df, 'Long_fungal')
+make_binary_label_file(seed_df, 'Monophenolase_activity')
+make_binary_label_file(seed_df, 'Diphenolase_activity')
+make_binary_label_file(seed_df, 'Nitrosation_activity')
+make_binary_label_file(seed_df, 'Tioether bond')
 make_aguilera_subclass_label_file(seed_df)
 # make_aguilera_subclass_label_file_text(seed_df)
 make_domain_label_file(seed_df)
