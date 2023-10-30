@@ -34,3 +34,4 @@ T1W3L4	#00FF00	Viridiplantae
 NP_001053932.1	#00FF00	Viridiplantae
 NP_524760.1	#ffff00	Metazoa
 NP_035791.1	#ffff00	Metazoa
+5M8L	#ffff00	Metazoa

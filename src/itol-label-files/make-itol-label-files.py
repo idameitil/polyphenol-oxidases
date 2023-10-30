@@ -108,6 +108,8 @@ def make_domain_label_file(df, blast_hits=False):
                 continue
             for domain_name in domains:
                 domain_description = '_'.join(domain_name.split('_')[1:3])
+                if domain_description == 'NON_CYTOPLASMIC' or domain_description == 'CYTOPLASMIC_DOMAIN':
+                    continue
                 if domain_name not in domain2color:
                     color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
                     domain2color[domain_name] = color
