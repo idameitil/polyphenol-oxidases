@@ -40,27 +40,53 @@ def make_activity_label_file(df):
                 continue
             file.write(f"{row.protein_accession},{activity2color[row.enzyme_class]},{row.enzyme_class}\n")
 
-def make_methoxylation_label_file(df):
-    outfilename = f"data/itol-label-files/methoxylation.txt"
-    methoxylation2color = {0: '#FF0000', 1: '#00FFFF', 2: '#00FF00'}
+def make_binary_label_files(df):
+    outfilename = f"data/itol-label-files/binary.txt"
+    shape2number = {'rectangle': 1, 'circle': 2, 'star':3, 'right_pointing_triangle':4, \
+                    'left_pointing_triangle':5, 'check_mark': 6}
+    columns = {'0_methoxylations': ['rectangle', '#00FFFF'], 
+               '1_methoxylation': ['rectangle', '#FF0000'], 
+               '2_methoxylations': ['rectangle', '#008000'], 
+               'Short_fungal': ['left_pointing_triangle', '#00FFFF'], 
+               'Long_fungal': ['left_pointing_triangle', '#FF0000'],
+               'Monophenolase_activity': ['circle', '#00FFFF'],
+               'Diphenolase_activity': ['circle', '#FF0000'], 
+               'Nitrosation_activity': ['star', '#000000'], 
+               'Tioether bond': ['check_mark', '#000000']}
     with open(outfilename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR COMMA\nDATASET_LABEL,methoxylation\nCOLOR,#ff0000\nDATA\n"
+        # Write header
+        header = f"DATASET_BINARY\nSEPARATOR COMMA\nDATASET_LABEL,binary\nCOLOR,#ff0000\n"
         file.write(header)
+        # Write field shapes
+        file.write("FIELD_SHAPES")
+        for column in columns:
+            shape = columns[column][0]
+            file.write(f",{shape2number[shape]}")
+        file.write('\n')
+        # Write field labels
+        file.write("FIELD_LABELS")
+        for column in columns:
+            file.write(f",{column}")
+        file.write('\n')        
+        # Write field colours
+        file.write("FIELD_COLORS")
+        for column in columns:
+            color = columns[column][1]
+            file.write(f",{color}")
+        file.write('\n')
+        # Write data
+        file.write('DATA\n')
         for index, row in df.iterrows():
-            if row.methoxylation not in methoxylation2color:
-                continue
-            file.write(f"{row.protein_accession},{methoxylation2color[row.methoxylation]},{row.methoxylation}\n")
-
-def make_binary_label_file(df, column_name):
-    outfilename = f"data/itol-label-files/{column_name}.txt"
-    value2color = {'Yes': '#00FF00', 'No': '#FF0000'}
-    with open(outfilename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR COMMA\nDATASET_LABEL,{column_name}\nCOLOR,#ff0000\nDATA\n"
-        file.write(header)
-        for index, row in df.iterrows():
-            if row[column_name] not in value2color:
-                continue
-            file.write(f"{row.protein_accession},{value2color[row[column_name]]},{row[column_name]}\n")
+            file.write(f"{row.protein_accession}")
+            for column_name in columns:
+                if row[column_name] == 'Yes':
+                    fill = 1
+                elif row[column_name] == 'No':
+                    fill = 0
+                else:
+                    fill = -1
+                file.write(f",{fill}")
+            file.write('\n')
 
 def make_aguilera_subclass_label_file(df):
     outfilename = f"data/itol-label-files/Aguilera_subclass.txt"
@@ -80,12 +106,10 @@ def make_aguilera_subclass_label_file_text(df):
         header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,Aguilera_subclass\nCOLOR,#ff0000\nDATA\n"
         file.write(header)
         for index, row in df.iterrows():
-            # if row['Aguilera_subclass'] not in value2color:
             if row['Subclass'] not in value2color:
                 continue
             if pd.isnull(row.protein_accession):
                 continue
-            # file.write(f"{row.protein_accession},{row['Aguilera_subclass']},-1,{value2color[row['Aguilera_subclass']]},bold,1,0\n")
             file.write(f"{row.protein_accession},{row['Subclass']},-1,{value2color[row['Subclass']]},bold,1,0\n")
 
 def make_domain_label_file(df, blast_hits=False):
@@ -108,8 +132,15 @@ def make_domain_label_file(df, blast_hits=False):
                 continue
             for domain_name in domains:
                 domain_description = '_'.join(domain_name.split('_')[1:3])
-                if domain_description == 'NON_CYTOPLASMIC' or domain_description == 'CYTOPLASMIC_DOMAIN':
+                if domain_description == 'NON_CYTOPLASMIC' or domain_description == 'CYTOPLASMIC_DOMAIN' \
+                    or domain_description == 'SIGNAL_PEPTIDE':
                     continue
+                if domain_description.startswith('PF'):
+                    shape = 'HH'
+                elif domain_description.startswith('SignalP'):
+                    shape = 'RE'
+                else:
+                    shape = 'EL'
                 if domain_name not in domain2color:
                     color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
                     domain2color[domain_name] = color
@@ -119,28 +150,18 @@ def make_domain_label_file(df, blast_hits=False):
                         occurences = row[domain_name].split(',')
                         for occurence in occurences:
                             start, stop = occurence.split('-')
-                            file.write(f",OC|{start}|{stop}|{domain2color[domain_name]}|{domain_description}")
+                            file.write(f",{shape}|{start}|{stop}|{domain2color[domain_name]}|{domain_description}")
                     # One occurence of the domain in the sequence
                     else:
                         start, stop = row[domain_name].split('-')
-                        file.write(f",OC|{start}|{stop}|{domain2color[domain_name]}|{domain_description}")
+                        file.write(f",{shape}|{start}|{stop}|{domain2color[domain_name]}|{domain_description}")
             file.write('\n')
 
 # Make seed label files
 seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
-# make_domain_color_file(seed_df)
 make_taxonomy_label_files(seed_df)
 make_activity_label_file(seed_df)
-# make_methoxylation_label_file(seed_df)
-make_binary_label_file(seed_df, '0_methoxylations')
-make_binary_label_file(seed_df, '1_methoxylation')
-make_binary_label_file(seed_df, '2_methoxylations')
-make_binary_label_file(seed_df, 'Short_fungal')
-make_binary_label_file(seed_df, 'Long_fungal')
-make_binary_label_file(seed_df, 'Monophenolase_activity')
-make_binary_label_file(seed_df, 'Diphenolase_activity')
-make_binary_label_file(seed_df, 'Nitrosation_activity')
-make_binary_label_file(seed_df, 'Tioether bond')
+make_binary_label_files(seed_df)
 make_aguilera_subclass_label_file(seed_df)
 # make_aguilera_subclass_label_file_text(seed_df)
 make_domain_label_file(seed_df)
