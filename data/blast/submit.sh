@@ -1,4 +1,3 @@
-bsub < /work3/idamei/polyphenol-oxidases/blast/run/CAG28310.1/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/3HHS_1/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/NP_001053932.1/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/3NM8/blast.sh
@@ -19,6 +18,7 @@ bsub < /work3/idamei/polyphenol-oxidases/blast/run/3W6Q/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/4J3P/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/2Y9X/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/NP_035791.1/blast.sh
+bsub < /work3/idamei/polyphenol-oxidases/blast/run/5M8L/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/XP_001221473.1/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/1LNL/blast.sh
 bsub < /work3/idamei/polyphenol-oxidases/blast/run/1JS8/blast.sh

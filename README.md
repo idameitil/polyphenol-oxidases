@@ -79,21 +79,25 @@ Then locally run:
 `data/blast/unique-hits.fasta` is a fasta file with exactly the entries in `data/blast/unique-hits.tsv`. `data/blast/unique-hits.csv` is a csv file containing taxids along with other info. It also includes identical sequences and therefore has more lines than `data/blast/unique-hits.tsv`.
 
 ### Enrich unique hits with taxonomy
-To enrich all unique blast hits with taxonomy, run `python3 src/data-collection/enrich-blast-hits.py`. This creates the file `data/blast/unique-hits-enriched.tsv`.
+To enrich all unique blast hits with taxonomy, run `python src/data-collection/enrich-blast-hits.py`. This creates the file `data/blast/unique-hits-enriched.tsv`.
 
 ### Filter blast hits
-To filter the blast hits on e-value and length, run `python src/data-collection/filter-blast-hits/filter-blast-hits.py`. This creates the files `data/blast/unique-hits-1e-60.fasta` and `data/blast/unique-hits-1e-60-length150-1000.fasta`.
+To filter the blast hits on e-value and length, run `python src/data-collection/filter-blast-hits/filter-blast-hits.py 1e-60`. This creates the files `data/blast/unique-hits-1e-60.fasta` and `data/blast/unique-hits-1e-60-length150-1000.fasta`.
+
+To make the 1e-30 fasta, run `python src/data-collection/filter-blast-hits/filter-blast-hits.py 1e-30`.
 
 `cd-hit -i data/blast/unique-hits-1e-60-length150-1000.fasta -c 0.65 -o data/blast/unique-hits-1e-60-length150-1000-cd-hit65.fasta`.
 
 ### Run Interproscan on blast hits
-(Change this to 1e-60 file)
-Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast-hits/unique-hits-1e-15-length150-1000-cd-hit70.fasta`
+Copy the fasta to the HPC: `scp data/blast/unique-hits-1e-60-length150-1000-cd-hit65.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-blast/`
+
+On the HPC:
+Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphenol-oxidases/interproscan-blast/unique-hits-1e-60-length150-1000-cd-hit65.fasta`
 
 Run this:
 `qrsh`
-`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i polyphenol-oxidases/interproscan-blast-hits/chunk00.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk00.interproscan`
-`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i polyphenol-oxidases/interproscan-blast-hits/chunk01.fa -f tsv -o polyphenol-oxidases/interproscan-blast-hits/chunk01.interproscan`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk00.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk00.interproscan`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk01.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk01.interproscan`
 etc.
 
 Download the results:`scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-blast-hits data`

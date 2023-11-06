@@ -2,7 +2,7 @@ import pandas as pd
 from Bio import SeqIO
 import sys
 
-evalue_threshold = 1e-60
+evalue_threshold = float(sys.argv[1])
 
 unique_hits_filename = 'data/blast/unique-hits.tsv'
 
