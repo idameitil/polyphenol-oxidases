@@ -1,3 +1,9 @@
+# Short fungal
+Nikolaivits 2018 characterised XP_003666010.1
+Gasparetti 2009 characterised 4J3P  (crystal is in another paper) (there are several later characterizations of this one)
+Oates 2021 activity on lignin dimer CAI4219580.1
+Frommhagen 2017 MtPPO7 XP_003662515.1
+
 # CAG28310.1
 Was deleted because it was super long. It seems to be several proteins.
 
