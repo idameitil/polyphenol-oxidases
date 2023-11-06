@@ -3,35 +3,35 @@ SEPARATOR COMMA
 DATASET_LABEL,Domains
 COLOR,#ff0000
 DATA
-1WX2,281,HH|29|229|#c38548|PF00264_Common central domain of tyrosinase
-3NM8,303,HH|34|242|#c38548|PF00264_Common central domain of tyrosinase
-2P3X,339,HH|77|284|#c38548|PF00264_Common central domain of tyrosinase,HH|292|338|#dc1043|PF12142_Polyphenol oxidase middle domain
-1BT3,345,HH|79|286|#c38548|PF00264_Common central domain of tyrosinase,HH|295|345|#dc1043|PF12142_Polyphenol oxidase middle domain
-4OUA,382,HH|47|294|#c38548|PF00264_Common central domain of tyrosinase
-3W6Q,620,HH|62|388|#c38548|PF00264_Common central domain of tyrosinase,HH|471|546|#85872a|PF18132_Tyosinase C-terminal domain
-3HHS_1,694,HH|152|414|#7916bc|PF00372_Hemocyanin, copper containing domain,HH|25|143|#5f09d7|PF03722_Hemocyanin, all-alpha domain,HH|426|679|#402b73|PF03723_Hemocyanin, ig-like domain
-3HHS_2,684,HH|148|412|#7916bc|PF00372_Hemocyanin, copper containing domain,HH|25|140|#5f09d7|PF03722_Hemocyanin, all-alpha domain,HH|421|673|#402b73|PF03723_Hemocyanin, ig-like domain
-3WKY,687,HH|137|404|#7916bc|PF00372_Hemocyanin, copper containing domain,HH|63|126|#5f09d7|PF03722_Hemocyanin, all-alpha domain,HH|414|664|#402b73|PF03723_Hemocyanin, ig-like domain
-1HCY,657,HH|136|391|#7916bc|PF00372_Hemocyanin, copper containing domain,HH|9|125|#5f09d7|PF03722_Hemocyanin, all-alpha domain,HH|400|651|#402b73|PF03723_Hemocyanin, ig-like domain
-1NOL,628,HH|110|371|#7916bc|PF00372_Hemocyanin, copper containing domain,HH|33|105|#5f09d7|PF03722_Hemocyanin, all-alpha domain,HH|380|626|#402b73|PF03723_Hemocyanin, ig-like domain
-1JS8,394,HH|32|212|#c38548|PF00264_Common central domain of tyrosinase,HH|288|386|#eeed90|PF14830_Haemocyanin beta-sandwich
-1LNL,408,HH|35|227|#c38548|PF00264_Common central domain of tyrosinase,HH|305|407|#eeed90|PF14830_Haemocyanin beta-sandwich
-4J3P,383,HH|93|324|#c38548|PF00264_Common central domain of tyrosinase
-XP_001221473.1,420,HH|111|343|#c38548|PF00264_Common central domain of tyrosinase,RE|1|18|#74cb8a|SignalP-noTM_SignalP-noTM
-XP_001224266.1,386,HH|105|326|#c38548|PF00264_Common central domain of tyrosinase,RE|1|19|#74cb8a|SignalP-noTM_SignalP-noTM,RE|1|19|#74cb8a|SignalP-noTM_SignalP-noTM,RE|1|20|#14bf11|SignalP-TM_SignalP-TM
-XP_003659809.1,375,HH|92|319|#c38548|PF00264_Common central domain of tyrosinase,RE|1|23|#74cb8a|SignalP-noTM_SignalP-noTM
-XP_003666010.1,424,HH|120|351|#c38548|PF00264_Common central domain of tyrosinase,RE|1|22|#74cb8a|SignalP-noTM_SignalP-noTM,RE|1|22|#74cb8a|SignalP-noTM_SignalP-noTM,RE|1|22|#14bf11|SignalP-TM_SignalP-TM
-CAI4219580.1,407,HH|116|349|#c38548|PF00264_Common central domain of tyrosinase,RE|1|22|#74cb8a|SignalP-noTM_SignalP-noTM,RE|1|22|#74cb8a|SignalP-noTM_SignalP-noTM,RE|1|22|#14bf11|SignalP-TM_SignalP-TM
-XP_003662515.1,420,HH|111|343|#c38548|PF00264_Common central domain of tyrosinase,RE|1|18|#74cb8a|SignalP-noTM_SignalP-noTM
-2Y9X,576,HH|52|308|#c38548|PF00264_Common central domain of tyrosinase,HH|424|535|#85872a|PF18132_Tyosinase C-terminal domain
-BAJ08174.1,305,HH|31|260|#c38548|PF00264_Common central domain of tyrosinase
-6HQI,630,HH|172|382|#c38548|PF00264_Common central domain of tyrosinase,HH|389|440|#dc1043|PF12142_Polyphenol oxidase middle domain,RE|1|19|#14bf11|SignalP-TM_SignalP-TM,EL|581|604|#2469f4|TRANSMEMBRANE_Region of a membrane-bound protein predicted to be embedded in the membrane.,EL|611|628|#2469f4|TRANSMEMBRANE_Region of a membrane-bound protein predicted to be embedded in the membrane.,HH|460|590|#33bd4d|PF12143_Protein of unknown function (DUF
-Q08307,587,HH|171|374|#c38548|PF00264_Common central domain of tyrosinase,HH|382|432|#dc1043|PF12142_Polyphenol oxidase middle domain,RE|1|20|#14bf11|SignalP-TM_SignalP-TM,HH|453|584|#33bd4d|PF12143_Protein of unknown function (DUF
-6ELS,593,HH|165|373|#c38548|PF00264_Common central domain of tyrosinase,HH|380|431|#dc1043|PF12142_Polyphenol oxidase middle domain,HH|465|591|#33bd4d|PF12143_Protein of unknown function (DUF
-Q93XM8,586,HH|172|378|#c38548|PF00264_Common central domain of tyrosinase,HH|384|436|#dc1043|PF12142_Polyphenol oxidase middle domain,RE|1|13|#14bf11|SignalP-TM_SignalP-TM,HH|456|582|#33bd4d|PF12143_Protein of unknown function (DUF
-T1W3L4,616,HH|180|387|#c38548|PF00264_Common central domain of tyrosinase,HH|395|446|#dc1043|PF12142_Polyphenol oxidase middle domain,HH|485|614|#33bd4d|PF12143_Protein of unknown function (DUF
-4Z0Y,602,HH|169|383|#c38548|PF00264_Common central domain of tyrosinase,HH|391|444|#dc1043|PF12142_Polyphenol oxidase middle domain,HH|467|596|#33bd4d|PF12143_Protein of unknown function (DUF
-NP_001053932.1,570,HH|161|366|#c38548|PF00264_Common central domain of tyrosinase,HH|377|427|#dc1043|PF12142_Polyphenol oxidase middle domain,HH|442|568|#33bd4d|PF12143_Protein of unknown function (DUF
-NP_524760.1,683,HH|148|413|#7916bc|PF00372_Hemocyanin, copper containing domain,HH|27|139|#5f09d7|PF03722_Hemocyanin, all-alpha domain,HH|422|669|#402b73|PF03723_Hemocyanin, ig-like domain
-NP_035791.1,533,HH|172|402|#c38548|PF00264_Common central domain of tyrosinase,RE|1|18|#74cb8a|SignalP-noTM_SignalP-noTM,EL|474|501|#2469f4|TRANSMEMBRANE_Region of a membrane-bound protein predicted to be embedded in the membrane.
-5M8L,446,HH|160|392|#c38548|PF00264_Common central domain of tyrosinase
+1WX2,281,HH|29|229|#3b09bf|PF00264_Common central domain of tyrosinase
+3NM8,303,HH|34|242|#3b09bf|PF00264_Common central domain of tyrosinase
+2P3X,339,HH|77|284|#3b09bf|PF00264_Common central domain of tyrosinase,HH|292|338|#3e1830|PF12142_Polyphenol oxidase middle domain
+1BT3,345,HH|79|286|#3b09bf|PF00264_Common central domain of tyrosinase,HH|295|345|#3e1830|PF12142_Polyphenol oxidase middle domain
+4OUA,382,HH|47|294|#3b09bf|PF00264_Common central domain of tyrosinase
+3W6Q,620,HH|62|388|#3b09bf|PF00264_Common central domain of tyrosinase,HH|471|546|#0351be|PF18132_Tyosinase C-terminal domain
+3HHS_1,694,HH|152|414|#53228c|PF00372_Hemocyanin, copper containing domain,HH|25|143|#61d103|PF03722_Hemocyanin, all-alpha domain,HH|426|679|#6ede0b|PF03723_Hemocyanin, ig-like domain
+3HHS_2,684,HH|148|412|#53228c|PF00372_Hemocyanin, copper containing domain,HH|25|140|#61d103|PF03722_Hemocyanin, all-alpha domain,HH|421|673|#6ede0b|PF03723_Hemocyanin, ig-like domain
+3WKY,687,HH|137|404|#53228c|PF00372_Hemocyanin, copper containing domain,HH|63|126|#61d103|PF03722_Hemocyanin, all-alpha domain,HH|414|664|#6ede0b|PF03723_Hemocyanin, ig-like domain
+1HCY,657,HH|136|391|#53228c|PF00372_Hemocyanin, copper containing domain,HH|9|125|#61d103|PF03722_Hemocyanin, all-alpha domain,HH|400|651|#6ede0b|PF03723_Hemocyanin, ig-like domain
+1NOL,628,HH|110|371|#53228c|PF00372_Hemocyanin, copper containing domain,HH|33|105|#61d103|PF03722_Hemocyanin, all-alpha domain,HH|380|626|#6ede0b|PF03723_Hemocyanin, ig-like domain
+1JS8,394,HH|32|212|#3b09bf|PF00264_Common central domain of tyrosinase,HH|288|386|#c166f8|PF14830_Haemocyanin beta-sandwich
+1LNL,408,HH|35|227|#3b09bf|PF00264_Common central domain of tyrosinase,HH|305|407|#c166f8|PF14830_Haemocyanin beta-sandwich
+4J3P,383,HH|93|324|#3b09bf|PF00264_Common central domain of tyrosinase
+XP_001221473.1,420,HH|111|343|#3b09bf|PF00264_Common central domain of tyrosinase,RE|1|18|#faa138|SignalP-noTM_SignalP-noTM
+XP_001224266.1,386,HH|105|326|#3b09bf|PF00264_Common central domain of tyrosinase,RE|1|19|#faa138|SignalP-noTM_SignalP-noTM,RE|1|19|#faa138|SignalP-noTM_SignalP-noTM,RE|1|20|#f93e39|SignalP-TM_SignalP-TM
+XP_003659809.1,375,HH|92|319|#3b09bf|PF00264_Common central domain of tyrosinase,RE|1|23|#faa138|SignalP-noTM_SignalP-noTM
+XP_003666010.1,424,HH|120|351|#3b09bf|PF00264_Common central domain of tyrosinase,RE|1|22|#faa138|SignalP-noTM_SignalP-noTM,RE|1|22|#faa138|SignalP-noTM_SignalP-noTM,RE|1|22|#f93e39|SignalP-TM_SignalP-TM
+CAI4219580.1,407,HH|116|349|#3b09bf|PF00264_Common central domain of tyrosinase,RE|1|22|#faa138|SignalP-noTM_SignalP-noTM,RE|1|22|#faa138|SignalP-noTM_SignalP-noTM,RE|1|22|#f93e39|SignalP-TM_SignalP-TM
+XP_003662515.1,420,HH|111|343|#3b09bf|PF00264_Common central domain of tyrosinase,RE|1|18|#faa138|SignalP-noTM_SignalP-noTM
+2Y9X,576,HH|52|308|#3b09bf|PF00264_Common central domain of tyrosinase,HH|424|535|#0351be|PF18132_Tyosinase C-terminal domain
+BAJ08174.1,305,HH|31|260|#3b09bf|PF00264_Common central domain of tyrosinase
+6HQI,630,HH|172|382|#3b09bf|PF00264_Common central domain of tyrosinase,HH|389|440|#3e1830|PF12142_Polyphenol oxidase middle domain,RE|1|19|#f93e39|SignalP-TM_SignalP-TM,HH|581|604|#bfd85e|TRANSMEMBRANE_Region of a membrane-bound protein predicted to be embedded in the membrane.,HH|611|628|#bfd85e|TRANSMEMBRANE_Region of a membrane-bound protein predicted to be embedded in the membrane.,HH|460|590|#90ac7b|PF12143_Protein of unknown function (DUF
+Q08307,587,HH|171|374|#3b09bf|PF00264_Common central domain of tyrosinase,HH|382|432|#3e1830|PF12142_Polyphenol oxidase middle domain,RE|1|20|#f93e39|SignalP-TM_SignalP-TM,HH|453|584|#90ac7b|PF12143_Protein of unknown function (DUF
+6ELS,593,HH|165|373|#3b09bf|PF00264_Common central domain of tyrosinase,HH|380|431|#3e1830|PF12142_Polyphenol oxidase middle domain,HH|465|591|#90ac7b|PF12143_Protein of unknown function (DUF
+Q93XM8,586,HH|172|378|#3b09bf|PF00264_Common central domain of tyrosinase,HH|384|436|#3e1830|PF12142_Polyphenol oxidase middle domain,RE|1|13|#f93e39|SignalP-TM_SignalP-TM,HH|456|582|#90ac7b|PF12143_Protein of unknown function (DUF
+T1W3L4,616,HH|180|387|#3b09bf|PF00264_Common central domain of tyrosinase,HH|395|446|#3e1830|PF12142_Polyphenol oxidase middle domain,HH|485|614|#90ac7b|PF12143_Protein of unknown function (DUF
+4Z0Y,602,HH|169|383|#3b09bf|PF00264_Common central domain of tyrosinase,HH|391|444|#3e1830|PF12142_Polyphenol oxidase middle domain,HH|467|596|#90ac7b|PF12143_Protein of unknown function (DUF
+NP_001053932.1,570,HH|161|366|#3b09bf|PF00264_Common central domain of tyrosinase,HH|377|427|#3e1830|PF12142_Polyphenol oxidase middle domain,HH|442|568|#90ac7b|PF12143_Protein of unknown function (DUF
+NP_524760.1,683,HH|148|413|#53228c|PF00372_Hemocyanin, copper containing domain,HH|27|139|#61d103|PF03722_Hemocyanin, all-alpha domain,HH|422|669|#6ede0b|PF03723_Hemocyanin, ig-like domain
+NP_035791.1,533,HH|172|402|#3b09bf|PF00264_Common central domain of tyrosinase,RE|1|18|#faa138|SignalP-noTM_SignalP-noTM,HH|474|501|#bfd85e|TRANSMEMBRANE_Region of a membrane-bound protein predicted to be embedded in the membrane.
+5M8L,446,HH|160|392|#3b09bf|PF00264_Common central domain of tyrosinase

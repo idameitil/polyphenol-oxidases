@@ -139,7 +139,7 @@ def make_domain_label_file(df, blast_hits=False):
                     shape = 'HH'
                 elif domain_description.startswith('SignalP'):
                     shape = 'RE'
-                else:
+                elif domain_description.startswith('TMhelix'):
                     shape = 'EL'
                 if domain_name not in domain2color:
                     color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
@@ -167,7 +167,7 @@ make_aguilera_subclass_label_file(seed_df)
 make_domain_label_file(seed_df)
 
 # Make blast hit label files
-df_blast_hits = pd.read_csv('data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv', sep='\t')
+df_blast_hits = pd.read_csv('data/blast/unique-hits-enriched-interproscan.tsv', sep='\t')
 make_domain_label_file(df_blast_hits, blast_hits=True)
 make_taxonomy_label_files(df_blast_hits, blast_hits=True)
 

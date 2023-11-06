@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Blast hits
-enriched_hits_df = pd.read_csv("data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv", sep='\t')
+enriched_hits_df = pd.read_csv("data/blast/unique-hits-enriched-interproscan.tsv", sep='\t')
 
 output_filename = 'data/blast/unique-hits-1e-60-length150-1000-cd-hit65-pfam-domains.fa'
 with open(output_filename, 'w') as outfile:

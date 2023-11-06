@@ -1,592 +1,213 @@
-XP_045982207.1	f1ce54b1eb20cb6da8837f4df4facace	274	Pfam	PF00264	Common central domain of tyrosinase	123	215	2.7E-19	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045982207.1	f1ce54b1eb20cb6da8837f4df4facace	274	Pfam	PF00264	Common central domain of tyrosinase	61	107	2.6E-6	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8382375.1	eb9d933591a7d53b900680a50a7c4c8c	314	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-KAE8382375.1	eb9d933591a7d53b900680a50a7c4c8c	314	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	23-10-2023	-	-
-KAE8382375.1	eb9d933591a7d53b900680a50a7c4c8c	314	Pfam	PF00264	Common central domain of tyrosinase	74	256	5.9E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8382375.1	eb9d933591a7d53b900680a50a7c4c8c	314	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-SMQ50444.1	34698bdbf4cf7083534da786053ed274	353	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	30	-	T	23-10-2023	-	-
-SMQ50444.1	34698bdbf4cf7083534da786053ed274	353	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-SMQ50444.1	34698bdbf4cf7083534da786053ed274	353	Pfam	PF00264	Common central domain of tyrosinase	96	290	9.4E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-SMQ50444.1	34698bdbf4cf7083534da786053ed274	353	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_012266915.2	04683dfde4fcb68d79ce3feff9d2243e	706	Pfam	PF03722	Hemocyanin, all-alpha domain	86	152	2.4E-16	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_012266915.2	04683dfde4fcb68d79ce3feff9d2243e	706	Pfam	PF03723	Hemocyanin, ig-like domain	433	686	5.9E-75	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_012266915.2	04683dfde4fcb68d79ce3feff9d2243e	706	Pfam	PF00372	Hemocyanin, copper containing domain	159	420	2.3E-74	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAI5657023.1	57ec4ce2dc344ac784ec7a5cc6470e24	609	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	23-10-2023	-	-
-KAI5657023.1	57ec4ce2dc344ac784ec7a5cc6470e24	609	Pfam	PF12142	Polyphenol oxidase middle domain	397	448	2.5E-22	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-KAI5657023.1	57ec4ce2dc344ac784ec7a5cc6470e24	609	Pfam	PF12143	Protein of unknown function (DUF_B2219)	479	607	3.4E-46	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAI5657023.1	57ec4ce2dc344ac784ec7a5cc6470e24	609	Pfam	PF00264	Common central domain of tyrosinase	181	389	8.7E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_044705171.1	8aacbb6bc37b867c5cccb91acb314a9f	556	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-XP_044705171.1	8aacbb6bc37b867c5cccb91acb314a9f	556	Pfam	PF00264	Common central domain of tyrosinase	87	346	1.4E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAI1380946.1	a5aa30ad1d9b50f8c59642a04d69b0db	389	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-KAI1380946.1	a5aa30ad1d9b50f8c59642a04d69b0db	389	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-KAI1380946.1	a5aa30ad1d9b50f8c59642a04d69b0db	389	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-KAI1380946.1	a5aa30ad1d9b50f8c59642a04d69b0db	389	Pfam	PF00264	Common central domain of tyrosinase	104	325	1.4E-40	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG8687355.1	dc58629c0b687e6e06d526353c74979a	414	Pfam	PF00264	Common central domain of tyrosinase	139	351	1.3E-29	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH7305522.1	ef029747f77fdd90422a1d96912c5cf6	354	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-KAH7305522.1	ef029747f77fdd90422a1d96912c5cf6	354	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	23-10-2023	-	-
-KAH7305522.1	ef029747f77fdd90422a1d96912c5cf6	354	Pfam	PF00264	Common central domain of tyrosinase	72	255	3.4E-30	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF8966549.1	a9ba2849a15b43bd96a9ed92b90522c4	325	Pfam	PF00264	Common central domain of tyrosinase	63	261	5.5E-35	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_250976885.1	1d8d01c8e4428300128d865ea5881d8d	289	Pfam	PF00264	Common central domain of tyrosinase	30	238	3.1E-42	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KII86644.1	0d3ffe7eb4ba3a992528d21b02583ddf	363	Pfam	PF00264	Common central domain of tyrosinase	82	296	2.6E-28	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003350966.1	9a2e0d2ab1d838c288539e28f145bdba	401	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_003350966.1	9a2e0d2ab1d838c288539e28f145bdba	401	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	23-10-2023	-	-
-XP_003350966.1	9a2e0d2ab1d838c288539e28f145bdba	401	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_003350966.1	9a2e0d2ab1d838c288539e28f145bdba	401	Pfam	PF00264	Common central domain of tyrosinase	99	342	9.5E-44	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH8892710.1	edee5f102c18a9a5035ae9ff946b8ea1	413	Pfam	PF00264	Common central domain of tyrosinase	129	355	7.1E-56	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-VDM47319.1	bca6b235d2ef731c290f4e70b775d58b	807	Pfam	PF00264	Common central domain of tyrosinase	63	254	6.5E-27	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_248633361.1	fbbf1f71a6661dcdbcddd9b7cb7b6149	292	Pfam	PF00264	Common central domain of tyrosinase	32	242	4.9E-40	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-GBG81568.1	405c571406bd1ea9bd4581e5142731d1	591	Pfam	PF12142	Polyphenol oxidase middle domain	187	234	2.4E-13	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-GBG81568.1	405c571406bd1ea9bd4581e5142731d1	591	Pfam	PF00264	Common central domain of tyrosinase	13	60	2.7E-8	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-GBG81568.1	405c571406bd1ea9bd4581e5142731d1	591	Pfam	PF00264	Common central domain of tyrosinase	103	175	2.8E-13	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF8655955.1	bd920d2bbc60066741f9411aa73ede42	531	Pfam	PF00264	Common central domain of tyrosinase	61	297	4.6E-43	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF8655955.1	bd920d2bbc60066741f9411aa73ede42	531	Pfam	PF18132	Tyosinase C-terminal domain	372	495	8.6E-24	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAH9819102.1	77fb48276e372e3c9ae9f015b5098c6e	466	Pfam	PF00264	Common central domain of tyrosinase	205	410	3.3E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_031254303.1	df384c696b8d1f232f80cbfaca04f241	589	Pfam	PF00264	Common central domain of tyrosinase	164	371	4.0E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_031254303.1	df384c696b8d1f232f80cbfaca04f241	589	Pfam	PF12142	Polyphenol oxidase middle domain	379	430	4.7E-23	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-XP_031254303.1	df384c696b8d1f232f80cbfaca04f241	589	Pfam	PF12143	Protein of unknown function (DUF_B2219)	460	586	1.5E-50	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-XP_026601400.1	9b89ece361e2dd094b65812432ecfbc5	367	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-XP_026601400.1	9b89ece361e2dd094b65812432ecfbc5	367	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	29	-	T	23-10-2023	-	-
-XP_026601400.1	9b89ece361e2dd094b65812432ecfbc5	367	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-XP_026601400.1	9b89ece361e2dd094b65812432ecfbc5	367	Pfam	PF00264	Common central domain of tyrosinase	72	307	2.4E-51	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH8767277.1	84fbbde67a8ec4b3f98f64fa3cb00c00	338	Pfam	PF00264	Common central domain of tyrosinase	67	281	6.0E-42	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KPM34355.1	386c7009d9b26adf697a5a1c36dab3b7	794	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KPM34355.1	386c7009d9b26adf697a5a1c36dab3b7	794	Pfam	PF13508	Acetyltransferase (GNAT) domain	706	759	5.7E-4	T	23-10-2023	IPR000182	GNAT domain
-KPM34355.1	386c7009d9b26adf697a5a1c36dab3b7	794	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KPM34355.1	386c7009d9b26adf697a5a1c36dab3b7	794	Pfam	PF00264	Common central domain of tyrosinase	73	311	2.9E-38	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_040698342.1	481489e52ca671bccbf25709af9fe9ce	640	Pfam	PF18132	Tyosinase C-terminal domain	455	570	4.3E-24	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-XP_040698342.1	481489e52ca671bccbf25709af9fe9ce	640	Pfam	PF00264	Common central domain of tyrosinase	59	343	1.3E-34	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045261261.1	22c61fb381b5daddfc6cfa0934459761	412	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	39	-	T	23-10-2023	-	-
-XP_045261261.1	22c61fb381b5daddfc6cfa0934459761	412	Pfam	PF00264	Common central domain of tyrosinase	177	354	1.4E-24	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045261261.1	22c61fb381b5daddfc6cfa0934459761	412	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	39	-	T	23-10-2023	-	-
-XP_031829749.1	5bb96afab7fc78d6527db18607a134bb	688	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-XP_031829749.1	5bb96afab7fc78d6527db18607a134bb	688	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	18	-	T	23-10-2023	-	-
-XP_031829749.1	5bb96afab7fc78d6527db18607a134bb	688	Pfam	PF03722	Hemocyanin, all-alpha domain	31	152	5.9E-36	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_031829749.1	5bb96afab7fc78d6527db18607a134bb	688	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-XP_031829749.1	5bb96afab7fc78d6527db18607a134bb	688	Pfam	PF00372	Hemocyanin, copper containing domain	158	428	1.4E-83	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_031829749.1	5bb96afab7fc78d6527db18607a134bb	688	Pfam	PF03723	Hemocyanin, ig-like domain	438	673	9.9E-77	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-CAG8539247.1	272a0173bc0a9ee8ac7f4609c64abd4f	621	Pfam	PF03723	Hemocyanin, ig-like domain	384	609	2.4E-22	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-CAG8539247.1	272a0173bc0a9ee8ac7f4609c64abd4f	621	Pfam	PF00372	Hemocyanin, copper containing domain	276	322	0.059	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-CAG8539247.1	272a0173bc0a9ee8ac7f4609c64abd4f	621	Pfam	PF00372	Hemocyanin, copper containing domain	133	211	8.5E-9	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAF2200285.1	d757cd8e3fc3f61d4689b28bf2a681f0	401	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	23-10-2023	-	-
-KAF2200285.1	d757cd8e3fc3f61d4689b28bf2a681f0	401	Pfam	PF00264	Common central domain of tyrosinase	111	337	1.0E-47	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAI0330497.1	39175d906dc74a59fffd8f6c7986082f	624	Pfam	PF18132	Tyosinase C-terminal domain	466	586	1.5E-29	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAI0330497.1	39175d906dc74a59fffd8f6c7986082f	624	Pfam	PF00264	Common central domain of tyrosinase	55	301	9.3E-47	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	Pfam	PF00264	Common central domain of tyrosinase	166	382	6.2E-35	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PNF43216.1	f99abe50d39e1d46d67ac142f60caa5a	701	Pfam	PF03722	Hemocyanin, all-alpha domain	47	168	6.0E-33	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-PNF43216.1	f99abe50d39e1d46d67ac142f60caa5a	701	Pfam	PF03723	Hemocyanin, ig-like domain	443	690	7.8E-77	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-PNF43216.1	f99abe50d39e1d46d67ac142f60caa5a	701	Pfam	PF00372	Hemocyanin, copper containing domain	174	434	2.0E-60	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-PNF43216.1	f99abe50d39e1d46d67ac142f60caa5a	701	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	23-10-2023	-	-
-KAF4553222.1	731fc0cb2c5976ce743da4a6f25c9289	391	Pfam	PF00264	Common central domain of tyrosinase	102	334	5.1E-52	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-ORX92522.1	4c0caa36a7388830fc697a7c72a31592	272	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-ORX92522.1	4c0caa36a7388830fc697a7c72a31592	272	Pfam	PF00264	Common central domain of tyrosinase	60	238	4.4E-34	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-ORX92522.1	4c0caa36a7388830fc697a7c72a31592	272	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-ORX92522.1	4c0caa36a7388830fc697a7c72a31592	272	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	23-10-2023	-	-
-PNT59072.1	37eb9f91300177dffea1f3aa075df88d	606	Pfam	PF12143	Protein of unknown function (DUF_B2219)	482	603	1.4E-38	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-PNT59072.1	37eb9f91300177dffea1f3aa075df88d	606	Pfam	PF12142	Polyphenol oxidase middle domain	407	458	1.5E-22	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-PNT59072.1	37eb9f91300177dffea1f3aa075df88d	606	Pfam	PF00264	Common central domain of tyrosinase	193	399	6.8E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG8386541.1	069fffeaf09d65a7f493c25cecbd62d9	593	Pfam	PF12143	Protein of unknown function (DUF_B2219)	469	585	1.3E-30	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAG8386541.1	069fffeaf09d65a7f493c25cecbd62d9	593	Pfam	PF00264	Common central domain of tyrosinase	183	386	2.5E-28	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG8386541.1	069fffeaf09d65a7f493c25cecbd62d9	593	Pfam	PF12142	Polyphenol oxidase middle domain	395	445	7.5E-19	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-QCC26464.1	f5373146230b0c66397d08cf16b03b27	678	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-QCC26464.1	f5373146230b0c66397d08cf16b03b27	678	Pfam	PF03723	Hemocyanin, ig-like domain	425	673	8.5E-77	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-QCC26464.1	f5373146230b0c66397d08cf16b03b27	678	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-QCC26464.1	f5373146230b0c66397d08cf16b03b27	678	Pfam	PF03722	Hemocyanin, all-alpha domain	33	156	1.2E-36	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-QCC26464.1	f5373146230b0c66397d08cf16b03b27	678	Pfam	PF00372	Hemocyanin, copper containing domain	161	416	1.0E-78	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-QCC26464.1	f5373146230b0c66397d08cf16b03b27	678	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	29	-	T	23-10-2023	-	-
-CAD6503403.1	ec7cd4437b69752a6b84e2be4bfd4f14	584	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	23-10-2023	-	-
-CAD6503403.1	ec7cd4437b69752a6b84e2be4bfd4f14	584	Pfam	PF18132	Tyosinase C-terminal domain	434	553	1.3E-20	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-CAD6503403.1	ec7cd4437b69752a6b84e2be4bfd4f14	584	Pfam	PF00264	Common central domain of tyrosinase	83	325	5.9E-42	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAD6503403.1	ec7cd4437b69752a6b84e2be4bfd4f14	584	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-CAD6503403.1	ec7cd4437b69752a6b84e2be4bfd4f14	584	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-XP_028788762.1	08e31bc1d87230e2ae40d546097e641a	585	Pfam	PF12143	Protein of unknown function (DUF_B2219)	454	582	7.5E-37	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-XP_028788762.1	08e31bc1d87230e2ae40d546097e641a	585	Pfam	PF12142	Polyphenol oxidase middle domain	382	433	8.3E-22	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-XP_028788762.1	08e31bc1d87230e2ae40d546097e641a	585	Pfam	PF00264	Common central domain of tyrosinase	165	374	7.3E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-MBA3716720.1	1f60dfaf443daa291bdbf6e48a70ac2b	323	Pfam	PF00264	Common central domain of tyrosinase	38	273	4.7E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	23-10-2023	-	-
-ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	Pfam	PF00372	Hemocyanin, copper containing domain	193	471	8.8E-59	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	Pfam	PF03722	Hemocyanin, all-alpha domain	118	186	4.6E-9	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	Pfam	PF03723	Hemocyanin, ig-like domain	480	744	2.3E-55	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-KCW76289.1	f540d00c8ec05dac558cc8aa2a85c89b	659	Pfam	PF12142	Polyphenol oxidase middle domain	451	501	4.1E-23	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-KCW76289.1	f540d00c8ec05dac558cc8aa2a85c89b	659	Pfam	PF12143	Protein of unknown function (DUF_B2219)	530	657	5.0E-46	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KCW76289.1	f540d00c8ec05dac558cc8aa2a85c89b	659	Pfam	PF00264	Common central domain of tyrosinase	238	443	5.3E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_123176082.1	9bd0ff8363e8bbcf4a58bb76820877b4	228	Pfam	PF00264	Common central domain of tyrosinase	128	181	3.4E-12	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_123176082.1	9bd0ff8363e8bbcf4a58bb76820877b4	228	Pfam	PF00264	Common central domain of tyrosinase	32	87	2.7E-12	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-TGZ77648.1	4d1ca8bca0a4aaaa2aa6af85919b4222	380	Pfam	PF00264	Common central domain of tyrosinase	45	290	3.3E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAI5358156.1	1629f6e2a44338742fdfeca0e91c69b2	440	Pfam	PF00264	Common central domain of tyrosinase	134	366	6.3E-52	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAI5358156.1	1629f6e2a44338742fdfeca0e91c69b2	440	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	23-10-2023	-	-
-KAI5358156.1	1629f6e2a44338742fdfeca0e91c69b2	440	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-RYP72371.1	7a2d0bd5d9b57d44e6b2de0f5be6ceeb	378	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	22	-	T	23-10-2023	-	-
-RYP72371.1	7a2d0bd5d9b57d44e6b2de0f5be6ceeb	378	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	23-10-2023	-	-
-RYP72371.1	7a2d0bd5d9b57d44e6b2de0f5be6ceeb	378	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	22	-	T	23-10-2023	-	-
-RYP72371.1	7a2d0bd5d9b57d44e6b2de0f5be6ceeb	378	Pfam	PF00264	Common central domain of tyrosinase	103	320	4.3E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-GCB85510.1	95ba4bf7ade0e62480f493f6a2a4783f	260	Pfam	PF00264	Common central domain of tyrosinase	167	248	6.8E-15	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-GCB85510.1	95ba4bf7ade0e62480f493f6a2a4783f	260	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-GCB85510.1	95ba4bf7ade0e62480f493f6a2a4783f	260	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	23-10-2023	-	-
-GCB85510.1	95ba4bf7ade0e62480f493f6a2a4783f	260	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KAI5843636.1	d9b3bb756b8c38fd31ba0d03cfb8a34a	358	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KAI5843636.1	d9b3bb756b8c38fd31ba0d03cfb8a34a	358	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KAI5843636.1	d9b3bb756b8c38fd31ba0d03cfb8a34a	358	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	23-10-2023	-	-
-KAI5843636.1	d9b3bb756b8c38fd31ba0d03cfb8a34a	358	Pfam	PF00264	Common central domain of tyrosinase	75	282	5.1E-44	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-MBI2255940.1	0fb1c6ee2a82a22528ed074555aa6968	479	Pfam	PF00264	Common central domain of tyrosinase	182	362	2.3E-22	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG8972084.1	0cfd5f7234ad3aaf447b24bb62f3e6fa	398	Pfam	PF00264	Common central domain of tyrosinase	94	342	1.0E-50	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAG8972084.1	0cfd5f7234ad3aaf447b24bb62f3e6fa	398	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-MCI25348.1	a3de1572d6423432b24da34a1d3c07a7	181	Pfam	PF12142	Polyphenol oxidase middle domain	156	181	1.2E-6	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-MCI25348.1	a3de1572d6423432b24da34a1d3c07a7	181	Pfam	PF00264	Common central domain of tyrosinase	34	149	8.2E-13	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_101392951.1	ed4e78b0348948172d2146e99c5eaa1c	292	Pfam	PF00264	Common central domain of tyrosinase	30	241	7.7E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PVD32038.1	5b2f1f089fae2f95ab81b32edb08e1c1	975	Pfam	PF00264	Common central domain of tyrosinase	514	592	6.5E-4	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PVD32038.1	5b2f1f089fae2f95ab81b32edb08e1c1	975	Pfam	PF00264	Common central domain of tyrosinase	643	693	1.9E-7	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PVD32038.1	5b2f1f089fae2f95ab81b32edb08e1c1	975	Pfam	PF00264	Common central domain of tyrosinase	110	289	6.7E-29	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PVD32038.1	5b2f1f089fae2f95ab81b32edb08e1c1	975	Pfam	PF14830	Haemocyanin beta-sandwich	364	465	8.7E-35	T	23-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-PVD32038.1	5b2f1f089fae2f95ab81b32edb08e1c1	975	Pfam	PF14830	Haemocyanin beta-sandwich	770	871	7.4E-16	T	23-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-PVD32038.1	5b2f1f089fae2f95ab81b32edb08e1c1	975	Pfam	PF14830	Haemocyanin beta-sandwich	1	62	9.0E-9	T	23-10-2023	IPR028999	Haemocyanin beta-sandwich domain
-KAF9693937.1	379a2121d47d35d0755a15466af57a8f	400	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	23-10-2023	-	-
-KAF9693937.1	379a2121d47d35d0755a15466af57a8f	400	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KAF9693937.1	379a2121d47d35d0755a15466af57a8f	400	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KAF9693937.1	379a2121d47d35d0755a15466af57a8f	400	Pfam	PF00264	Common central domain of tyrosinase	106	339	1.7E-52	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PYH95714.1	c55a438995e6c82ac544d12440a08778	353	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	15	-	T	23-10-2023	-	-
-PYH95714.1	c55a438995e6c82ac544d12440a08778	353	Pfam	PF00264	Common central domain of tyrosinase	68	295	3.7E-49	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PYH95714.1	c55a438995e6c82ac544d12440a08778	353	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	15	-	T	23-10-2023	-	-
-WP_139490948.1	5d83b910b8977838f5a6736271892af0	684	Pfam	PF00372	Hemocyanin, copper containing domain	137	373	1.6E-25	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-WP_139490948.1	5d83b910b8977838f5a6736271892af0	684	Pfam	PF03723	Hemocyanin, ig-like domain	484	681	2.2E-25	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAI1348046.1	dbe12808cec902919add1324cd96fc97	346	Pfam	PF00264	Common central domain of tyrosinase	107	293	4.3E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_008558555.1	ba8eeee73c6a2feea9428306ce894514	910	Pfam	PF03722	Hemocyanin, all-alpha domain	31	153	1.0E-27	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_008558555.1	ba8eeee73c6a2feea9428306ce894514	910	Pfam	PF00372	Hemocyanin, copper containing domain	158	427	1.3E-73	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_008558555.1	ba8eeee73c6a2feea9428306ce894514	910	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-XP_008558555.1	ba8eeee73c6a2feea9428306ce894514	910	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-XP_008558555.1	ba8eeee73c6a2feea9428306ce894514	910	Pfam	PF03723	Hemocyanin, ig-like domain	437	629	1.8E-46	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_008558555.1	ba8eeee73c6a2feea9428306ce894514	910	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	23-10-2023	-	-
-KAF8856842.1	9bdaf7aa9bcc32eccd5c24f178793120	314	Pfam	PF00264	Common central domain of tyrosinase	74	253	9.3E-34	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KZL70564.1	e726b30d1051129b19e93064e08a75bc	383	Pfam	PF00264	Common central domain of tyrosinase	94	325	3.3E-49	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KZL70564.1	e726b30d1051129b19e93064e08a75bc	383	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-KZL70564.1	e726b30d1051129b19e93064e08a75bc	383	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	23-10-2023	-	-
-KAG8891850.1	577c97076bca45fe5eff6437791ccb8c	269	Pfam	PF00264	Common central domain of tyrosinase	57	257	2.1E-28	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_049172662.1	860a543b86b642a3900d0ce7581558cc	380	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	23-10-2023	-	-
-XP_049172662.1	860a543b86b642a3900d0ce7581558cc	380	Pfam	PF00264	Common central domain of tyrosinase	103	323	5.5E-50	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_049172662.1	860a543b86b642a3900d0ce7581558cc	380	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-XP_049172662.1	860a543b86b642a3900d0ce7581558cc	380	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-GIY59391.1	d07687c823fbd201492e20ad9d8b88db	717	Pfam	PF00372	Hemocyanin, copper containing domain	232	362	2.8E-30	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-GIY59391.1	d07687c823fbd201492e20ad9d8b88db	717	Pfam	PF00372	Hemocyanin, copper containing domain	403	460	8.7E-11	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-GIY59391.1	d07687c823fbd201492e20ad9d8b88db	717	Pfam	PF03723	Hemocyanin, ig-like domain	469	716	1.5E-59	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-GIY59391.1	d07687c823fbd201492e20ad9d8b88db	717	Pfam	PF03722	Hemocyanin, all-alpha domain	160	227	7.8E-14	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-AMB26747.1	317f7359dfd2365705a7c009b5ab579d	604	Pfam	PF00264	Common central domain of tyrosinase	183	419	6.2E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-AMB26747.1	317f7359dfd2365705a7c009b5ab579d	604	SignalP_EUK	SignalP-TM	SignalP-TM	1	33	-	T	23-10-2023	-	-
-XP_037027575.1	f2419fa3d1ac49da6587acf37ff76cc8	707	Pfam	PF03723	Hemocyanin, ig-like domain	444	693	5.8E-66	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_037027575.1	f2419fa3d1ac49da6587acf37ff76cc8	707	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-XP_037027575.1	f2419fa3d1ac49da6587acf37ff76cc8	707	Pfam	PF03722	Hemocyanin, all-alpha domain	35	156	2.4E-37	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_037027575.1	f2419fa3d1ac49da6587acf37ff76cc8	707	Pfam	PF00372	Hemocyanin, copper containing domain	161	434	1.4E-98	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAF1952540.1	d573c8c5419e473a45511e6173d3a5af	604	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-KAF1952540.1	d573c8c5419e473a45511e6173d3a5af	604	Pfam	PF00264	Common central domain of tyrosinase	92	355	4.1E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF1952540.1	d573c8c5419e473a45511e6173d3a5af	604	Pfam	PF18132	Tyosinase C-terminal domain	477	574	1.3E-8	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAF1952540.1	d573c8c5419e473a45511e6173d3a5af	604	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-KAF1952540.1	d573c8c5419e473a45511e6173d3a5af	604	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-KAA8913483.1	e8f41dcfd52278f48321c74afa8b6814	357	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	23-10-2023	-	-
-KAA8913483.1	e8f41dcfd52278f48321c74afa8b6814	357	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	23-10-2023	-	-
-KAA8913483.1	e8f41dcfd52278f48321c74afa8b6814	357	Pfam	PF00264	Common central domain of tyrosinase	72	281	2.5E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAA8913483.1	e8f41dcfd52278f48321c74afa8b6814	357	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-KAE9989849.1	243ff7ccfe150a8394c10b3b5b1b9abe	341	Pfam	PF00264	Common central domain of tyrosinase	38	275	3.7E-38	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH9546606.1	2f9989973a1c9986572537c5ad590724	576	Pfam	PF00264	Common central domain of tyrosinase	132	361	3.1E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH9546606.1	2f9989973a1c9986572537c5ad590724	576	Pfam	PF12143	Protein of unknown function (DUF_B2219)	454	572	9.9E-4	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAH9546606.1	2f9989973a1c9986572537c5ad590724	576	Pfam	PF12142	Polyphenol oxidase middle domain	369	416	4.0E-13	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-XP_034949400.1	4ce3aeaf449f51c929e994d50da1e26c	943	Pfam	PF03723	Hemocyanin, ig-like domain	437	633	4.1E-46	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_034949400.1	4ce3aeaf449f51c929e994d50da1e26c	943	Pfam	PF03723	Hemocyanin, ig-like domain	892	936	0.0038	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_034949400.1	4ce3aeaf449f51c929e994d50da1e26c	943	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-XP_034949400.1	4ce3aeaf449f51c929e994d50da1e26c	943	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	23-10-2023	-	-
-XP_034949400.1	4ce3aeaf449f51c929e994d50da1e26c	943	Pfam	PF00372	Hemocyanin, copper containing domain	158	427	2.0E-72	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_034949400.1	4ce3aeaf449f51c929e994d50da1e26c	943	Pfam	PF03722	Hemocyanin, all-alpha domain	31	153	2.6E-28	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_034949400.1	4ce3aeaf449f51c929e994d50da1e26c	943	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-HID81063.1	9a1ecb7dfa9cee6967eb14e4f92d63d8	498	Pfam	PF00264	Common central domain of tyrosinase	30	223	7.4E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-HID81063.1	9a1ecb7dfa9cee6967eb14e4f92d63d8	498	Pfam	PF04151	Bacterial pre-peptidase C-terminal domain	308	372	1.2E-6	T	23-10-2023	IPR007280	Peptidase, C-terminal, archaeal/bacterial
-KAF1959254.1	66446dd0eae4c4c5a1969772366340d9	599	Pfam	PF18132	Tyosinase C-terminal domain	439	567	4.5E-10	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAF1959254.1	66446dd0eae4c4c5a1969772366340d9	599	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-KAF1959254.1	66446dd0eae4c4c5a1969772366340d9	599	Pfam	PF00264	Common central domain of tyrosinase	85	325	1.1E-34	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_034337553.1	a547d735e00ee3a21162324c6fa4333b	773	Pfam	PF00264	Common central domain of tyrosinase	205	380	6.5E-27	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045952694.1	8db934ba28b03e177330aa2b04606067	515	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_045952694.1	8db934ba28b03e177330aa2b04606067	515	Pfam	PF00264	Common central domain of tyrosinase	272	457	8.5E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045952694.1	8db934ba28b03e177330aa2b04606067	515	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	23-10-2023	-	-
-RLN05189.1	3b0cb3badbebb467cafc525e30c1bbe3	609	Pfam	PF12142	Polyphenol oxidase middle domain	407	462	6.5E-16	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-RLN05189.1	3b0cb3badbebb467cafc525e30c1bbe3	609	Pfam	PF00264	Common central domain of tyrosinase	163	400	3.9E-28	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-RLN05189.1	3b0cb3badbebb467cafc525e30c1bbe3	609	Pfam	PF12143	Protein of unknown function (DUF_B2219)	482	598	4.2E-19	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-RLN05189.1	3b0cb3badbebb467cafc525e30c1bbe3	609	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	23-10-2023	-	-
-XP_043040342.1	a43eadb03d534e1ca18f38ba544d6ee0	336	Pfam	PF00264	Common central domain of tyrosinase	73	258	9.8E-37	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_043040342.1	a43eadb03d534e1ca18f38ba544d6ee0	336	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	15	-	T	23-10-2023	-	-
-UPP37718.1	1bcfd25f449c2fc3d6048af76c923032	478	Pfam	PF00264	Common central domain of tyrosinase	155	319	1.1E-19	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-UPP37718.1	1bcfd25f449c2fc3d6048af76c923032	478	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-UPP37718.1	1bcfd25f449c2fc3d6048af76c923032	478	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-KAH6773718.1	e88633e330ec08a82e983219154d1a53	429	Pfam	PF12143	Protein of unknown function (DUF_B2219)	378	427	1.4E-7	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAH6773718.1	e88633e330ec08a82e983219154d1a53	429	Pfam	PF00264	Common central domain of tyrosinase	161	265	7.7E-13	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH6773718.1	e88633e330ec08a82e983219154d1a53	429	Pfam	PF12142	Polyphenol oxidase middle domain	272	323	1.7E-23	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-TLD08162.1	03918d351a83e50c113ad5c19009fea7	393	Pfam	PF00264	Common central domain of tyrosinase	110	335	2.1E-51	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-SMQ50294.1	fae6e4a3efd8fc689a4287bc3a23d106	624	Pfam	PF18132	Tyosinase C-terminal domain	475	597	3.0E-21	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-SMQ50294.1	fae6e4a3efd8fc689a4287bc3a23d106	624	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-SMQ50294.1	fae6e4a3efd8fc689a4287bc3a23d106	624	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	23-10-2023	-	-
-SMQ50294.1	fae6e4a3efd8fc689a4287bc3a23d106	624	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-SMQ50294.1	fae6e4a3efd8fc689a4287bc3a23d106	624	Pfam	PF00264	Common central domain of tyrosinase	82	344	2.1E-37	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF7759191.1	f971014563b73634914f89ce36453e06	396	Pfam	PF00264	Common central domain of tyrosinase	41	229	2.3E-35	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_039068552.1	67996c83af864bed1a8f23e8fd6e7877	566	Pfam	PF00264	Common central domain of tyrosinase	143	352	4.5E-28	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_039068552.1	67996c83af864bed1a8f23e8fd6e7877	566	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-XP_039068552.1	67996c83af864bed1a8f23e8fd6e7877	566	Pfam	PF12143	Protein of unknown function (DUF_B2219)	442	564	1.1E-27	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-XP_039068552.1	67996c83af864bed1a8f23e8fd6e7877	566	Pfam	PF12142	Polyphenol oxidase middle domain	359	409	3.0E-19	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-KLU86915.1	9e0ea2a88ba997fd16c522968fa09e25	382	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-KLU86915.1	9e0ea2a88ba997fd16c522968fa09e25	382	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-KLU86915.1	9e0ea2a88ba997fd16c522968fa09e25	382	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	23-10-2023	-	-
-KLU86915.1	9e0ea2a88ba997fd16c522968fa09e25	382	Pfam	PF00264	Common central domain of tyrosinase	123	320	2.7E-44	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF7269759.1	bf1f83ce73b981f286648bc0d3fe973d	783	Pfam	PF03723	Hemocyanin, ig-like domain	521	771	1.9E-80	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAF7269759.1	bf1f83ce73b981f286648bc0d3fe973d	783	Pfam	PF00372	Hemocyanin, copper containing domain	248	511	9.5E-82	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAF7269759.1	bf1f83ce73b981f286648bc0d3fe973d	783	Pfam	PF03722	Hemocyanin, all-alpha domain	175	239	1.2E-15	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-ELU39832.1	46adf9bb906d94d486aa7c01ee287d7c	345	Pfam	PF00264	Common central domain of tyrosinase	103	289	1.3E-35	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH9495704.1	690719f9c98557b2ed9f2504b0087c2f	770	Pfam	PF00264	Common central domain of tyrosinase	259	437	1.1E-30	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAB3488298.1	e4b2d26520e708d7c42cba8f6a4a4010	579	Pfam	PF12143	Protein of unknown function (DUF_B2219)	442	577	1.1E-37	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-CAB3488298.1	e4b2d26520e708d7c42cba8f6a4a4010	579	Pfam	PF12142	Polyphenol oxidase middle domain	380	427	5.1E-14	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-CAB3488298.1	e4b2d26520e708d7c42cba8f6a4a4010	579	Pfam	PF00264	Common central domain of tyrosinase	165	372	8.9E-34	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAD6253052.1	91565d0bc3c7a7510fd4a4259d220391	383	Pfam	PF00264	Common central domain of tyrosinase	143	312	1.4E-13	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAD6253052.1	91565d0bc3c7a7510fd4a4259d220391	383	Pfam	PF12143	Protein of unknown function (DUF_B2219)	312	381	6.2E-9	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-WP_045946097.1	d1b308933dbf0e5d3e303355cb01766e	287	Pfam	PF00264	Common central domain of tyrosinase	31	235	8.2E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-TKC49915.1	51ac3459277ad7826a796ae7f24b59c9	567	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-TKC49915.1	51ac3459277ad7826a796ae7f24b59c9	567	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-TKC49915.1	51ac3459277ad7826a796ae7f24b59c9	567	Pfam	PF00264	Common central domain of tyrosinase	171	395	2.2E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-TKC49915.1	51ac3459277ad7826a796ae7f24b59c9	567	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-CUS07125.1	efd23f0194e951f097840d1568b83585	324	Pfam	PF00264	Common central domain of tyrosinase	76	265	3.8E-37	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CUS07125.1	efd23f0194e951f097840d1568b83585	324	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-CUS07125.1	efd23f0194e951f097840d1568b83585	324	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-CUS07125.1	efd23f0194e951f097840d1568b83585	324	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	23-10-2023	-	-
-RKP13147.1	f6f06f0442ee6889872a2fbdc9a4fb9f	223	Pfam	PF00264	Common central domain of tyrosinase	31	217	8.6E-29	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KZL85167.1	e6e4ba804421a29bd65f4663eead3619	425	Pfam	PF00264	Common central domain of tyrosinase	137	367	2.4E-55	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045191870.1	28f5674be881801b028f4f6cc727e345	759	Pfam	PF00264	Common central domain of tyrosinase	194	259	2.5E-8	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045191870.1	28f5674be881801b028f4f6cc727e345	759	Pfam	PF00264	Common central domain of tyrosinase	81	175	5.0E-11	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045191870.1	28f5674be881801b028f4f6cc727e345	759	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-VDM65717.1	2e1d1031f8797cac4e53db607d930759	309	Pfam	PF00264	Common central domain of tyrosinase	9	196	3.8E-30	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-MCD6053422.1	6ee5f049369f66ba6a5519c04a858aca	341	Pfam	PF00264	Common central domain of tyrosinase	47	267	2.2E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-RHZ77134.1	a4a4f5c48d69e9bb39dbd50cf1020b48	564	Pfam	PF00372	Hemocyanin, copper containing domain	98	317	1.0E-28	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-RHZ77134.1	a4a4f5c48d69e9bb39dbd50cf1020b48	564	Pfam	PF03723	Hemocyanin, ig-like domain	455	552	2.1E-16	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_012801732.2	c2644acd3f33f83d8134a98b681d587b	535	Pfam	PF00264	Common central domain of tyrosinase	414	456	2.9E-9	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_012801732.2	c2644acd3f33f83d8134a98b681d587b	535	Pfam	PF00264	Common central domain of tyrosinase	175	400	2.0E-25	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-AST15995.1	178873dd471f3e0fa60e83fac8bbb86c	681	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-AST15995.1	178873dd471f3e0fa60e83fac8bbb86c	681	Pfam	PF00372	Hemocyanin, copper containing domain	160	416	5.8E-68	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-AST15995.1	178873dd471f3e0fa60e83fac8bbb86c	681	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-AST15995.1	178873dd471f3e0fa60e83fac8bbb86c	681	Pfam	PF03722	Hemocyanin, all-alpha domain	33	151	6.9E-12	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-AST15995.1	178873dd471f3e0fa60e83fac8bbb86c	681	Pfam	PF03723	Hemocyanin, ig-like domain	425	667	6.5E-53	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_045476188.1	5778e5c4a39cb67227a2ceba8f598c2b	850	Pfam	PF03723	Hemocyanin, ig-like domain	564	828	8.5E-69	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_045476188.1	5778e5c4a39cb67227a2ceba8f598c2b	850	Pfam	PF03722	Hemocyanin, all-alpha domain	152	272	7.3E-36	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_045476188.1	5778e5c4a39cb67227a2ceba8f598c2b	850	Pfam	PF00372	Hemocyanin, copper containing domain	277	554	8.1E-91	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_045476188.1	5778e5c4a39cb67227a2ceba8f598c2b	850	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-EQB57128.1	88cf64695ce6a4f9601cc246c4626045	371	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-EQB57128.1	88cf64695ce6a4f9601cc246c4626045	371	Pfam	PF00264	Common central domain of tyrosinase	90	307	5.6E-40	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-EQB57128.1	88cf64695ce6a4f9601cc246c4626045	371	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-ONM63009.1	2a85da2c05d8226327f1486a956ce22f	500	Pfam	PF00264	Common central domain of tyrosinase	159	307	4.4E-15	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-ONM63009.1	2a85da2c05d8226327f1486a956ce22f	500	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	23-10-2023	-	-
-XP_018031967.1	6750ce10157551d75ac1742619600a06	338	Pfam	PF00264	Common central domain of tyrosinase	14	196	1.7E-34	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_020591295.1	03a552fbd50a03b44e9f502a87fc0f0c	588	Pfam	PF12142	Polyphenol oxidase middle domain	380	431	3.8E-23	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-XP_020591295.1	03a552fbd50a03b44e9f502a87fc0f0c	588	Pfam	PF00264	Common central domain of tyrosinase	167	373	2.1E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_020591295.1	03a552fbd50a03b44e9f502a87fc0f0c	588	Pfam	PF12143	Protein of unknown function (DUF_B2219)	455	586	5.9E-46	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-XP_023629109.1	6618ecd0532f630054ca121913822c2a	328	Pfam	PF00264	Common central domain of tyrosinase	39	270	1.5E-54	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF7753735.1	003650477aba5cf130fdbb6aeef85856	452	Pfam	PF00264	Common central domain of tyrosinase	73	246	7.0E-31	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG8377224.1	c3ded6118adbb9edb898e5d49ed5bb17	642	Pfam	PF12143	Protein of unknown function (DUF_B2219)	331	451	3.5E-44	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAG8377224.1	c3ded6118adbb9edb898e5d49ed5bb17	642	Pfam	PF12142	Polyphenol oxidase middle domain	248	299	2.5E-22	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-KAG8377224.1	c3ded6118adbb9edb898e5d49ed5bb17	642	Pfam	PF00264	Common central domain of tyrosinase	33	240	7.6E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_096553320.1	99eda1d6ada72437331a89ccc56ef938	469	Pfam	PF07589	PEP-CTERM motif	418	442	0.2	T	23-10-2023	IPR013424	PEP-CTERM protein-sorting domain
-WP_096553320.1	99eda1d6ada72437331a89ccc56ef938	469	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	28	-	T	23-10-2023	-	-
-WP_096553320.1	99eda1d6ada72437331a89ccc56ef938	469	Pfam	PF00264	Common central domain of tyrosinase	67	341	4.7E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_096553320.1	99eda1d6ada72437331a89ccc56ef938	469	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	23-10-2023	-	-
-WP_096553320.1	99eda1d6ada72437331a89ccc56ef938	469	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	28	-	T	23-10-2023	-	-
-XP_042241827.1	cf5746c81551c38b3ac1691382b9bc36	689	Pfam	PF00372	Hemocyanin, copper containing domain	166	421	2.2E-74	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_042241827.1	cf5746c81551c38b3ac1691382b9bc36	689	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	23-10-2023	-	-
-XP_042241827.1	cf5746c81551c38b3ac1691382b9bc36	689	Pfam	PF03722	Hemocyanin, all-alpha domain	39	155	1.7E-22	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_042241827.1	cf5746c81551c38b3ac1691382b9bc36	689	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-XP_042241827.1	cf5746c81551c38b3ac1691382b9bc36	689	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	15	-	T	23-10-2023	-	-
-XP_042241827.1	cf5746c81551c38b3ac1691382b9bc36	689	Pfam	PF03723	Hemocyanin, ig-like domain	431	682	7.4E-62	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAF3919250.1	1c73582a895280ba93017ae2f0ea555e	685	Pfam	PF00264	Common central domain of tyrosinase	166	411	3.9E-38	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF3919250.1	1c73582a895280ba93017ae2f0ea555e	685	Pfam	PF18132	Tyosinase C-terminal domain	516	623	2.7E-14	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-EFX71852.1	13bdedf64533dc315e09fd9faf45f754	722	Pfam	PF00372	Hemocyanin, copper containing domain	144	418	9.8E-79	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-EFX71852.1	13bdedf64533dc315e09fd9faf45f754	722	Pfam	PF03722	Hemocyanin, all-alpha domain	65	138	5.1E-7	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-EFX71852.1	13bdedf64533dc315e09fd9faf45f754	722	Pfam	PF03723	Hemocyanin, ig-like domain	427	712	2.1E-62	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_025180608.1	781a5d77ebbc201557eab77d3cedb6f9	679	Pfam	PF03723	Hemocyanin, ig-like domain	474	667	2.1E-26	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_025180608.1	781a5d77ebbc201557eab77d3cedb6f9	679	Pfam	PF00372	Hemocyanin, copper containing domain	129	376	2.6E-27	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KRT83389.1	dd757449d4b152fd8ff9c250b0c60972	727	Pfam	PF03722	Hemocyanin, all-alpha domain	55	174	2.3E-35	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KRT83389.1	dd757449d4b152fd8ff9c250b0c60972	727	Pfam	PF00372	Hemocyanin, copper containing domain	181	459	2.0E-62	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KRT83389.1	dd757449d4b152fd8ff9c250b0c60972	727	SignalP_EUK	SignalP-TM	SignalP-TM	1	33	-	T	23-10-2023	-	-
-KRT83389.1	dd757449d4b152fd8ff9c250b0c60972	727	Pfam	PF03723	Hemocyanin, ig-like domain	471	716	4.7E-67	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAG8768020.1	8d5e19c1c90b875d1098cc5148ed3e52	340	Pfam	PF00264	Common central domain of tyrosinase	53	263	2.0E-31	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KKY20957.1	27e3d04a38570515630b9315cc2516ec	235	Pfam	PF00264	Common central domain of tyrosinase	4	177	2.6E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-RMY15069.1	442ab0ecee5df7da802845c44ba6ea2c	412	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-RMY15069.1	442ab0ecee5df7da802845c44ba6ea2c	412	Pfam	PF00264	Common central domain of tyrosinase	117	350	3.9E-58	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_023017782.1	995acb888964190bcca6ba5d2da4fc28	702	Pfam	PF03722	Hemocyanin, all-alpha domain	25	149	1.4E-36	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_023017782.1	995acb888964190bcca6ba5d2da4fc28	702	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-XP_023017782.1	995acb888964190bcca6ba5d2da4fc28	702	Pfam	PF00372	Hemocyanin, copper containing domain	155	434	1.3E-83	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_023017782.1	995acb888964190bcca6ba5d2da4fc28	702	Pfam	PF03723	Hemocyanin, ig-like domain	446	691	2.4E-70	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-THU51354.1	7d1c4bbdd99d33198c9ddc873a636d0f	585	Pfam	PF12143	Protein of unknown function (DUF_B2219)	453	583	1.3E-43	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-THU51354.1	7d1c4bbdd99d33198c9ddc873a636d0f	585	Pfam	PF12142	Polyphenol oxidase middle domain	380	431	1.6E-22	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-THU51354.1	7d1c4bbdd99d33198c9ddc873a636d0f	585	Pfam	PF00264	Common central domain of tyrosinase	166	372	3.4E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-MBK9113368.1	3c281c1150f4c7b048caff15bd1cd7df	478	Pfam	PF12142	Polyphenol oxidase middle domain	279	316	0.014	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-MBK9113368.1	3c281c1150f4c7b048caff15bd1cd7df	478	Pfam	PF00264	Common central domain of tyrosinase	200	269	5.6E-15	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-MBK9113368.1	3c281c1150f4c7b048caff15bd1cd7df	478	Pfam	PF00264	Common central domain of tyrosinase	103	170	2.4E-10	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CCA94921.1	bae8557f56af38bd837cdba7e056b859	623	Pfam	PF03722	Hemocyanin, all-alpha domain	37	105	2.5E-16	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-CCA94921.1	bae8557f56af38bd837cdba7e056b859	623	Pfam	PF00372	Hemocyanin, copper containing domain	110	368	1.3E-73	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-CCA94921.1	bae8557f56af38bd837cdba7e056b859	623	Pfam	PF03723	Hemocyanin, ig-like domain	377	620	7.5E-56	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KDN66925.1	afbf8b41b50e7545e945f8fb7552e7d3	414	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-KDN66925.1	afbf8b41b50e7545e945f8fb7552e7d3	414	Pfam	PF00264	Common central domain of tyrosinase	118	353	4.6E-52	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAF3429581.1	e0cfeccdad9ff367b5873976882a3014	332	Pfam	PF00264	Common central domain of tyrosinase	66	276	7.7E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAF3429581.1	e0cfeccdad9ff367b5873976882a3014	332	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	23-10-2023	-	-
-CAF3429581.1	e0cfeccdad9ff367b5873976882a3014	332	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-CAF3429581.1	e0cfeccdad9ff367b5873976882a3014	332	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-ABA02188.2	02591807d287e4777b4526005d080c2e	748	Pfam	PF00372	Hemocyanin, copper containing domain	163	438	2.6E-61	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-ABA02188.2	02591807d287e4777b4526005d080c2e	748	Pfam	PF03723	Hemocyanin, ig-like domain	447	698	2.0E-69	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-ABA02188.2	02591807d287e4777b4526005d080c2e	748	Pfam	PF03722	Hemocyanin, all-alpha domain	38	157	1.2E-15	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KFH43027.1	5b8ac6d64301b0cc9cc0508f04d3384f	530	Pfam	PF00264	Common central domain of tyrosinase	76	321	8.3E-29	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_007911025.1	7a47c74ebe6907af74cf7b6e2cb9886e	377	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-XP_007911025.1	7a47c74ebe6907af74cf7b6e2cb9886e	377	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	46	-	T	23-10-2023	-	-
-XP_007911025.1	7a47c74ebe6907af74cf7b6e2cb9886e	377	Pfam	PF00264	Common central domain of tyrosinase	131	320	2.2E-52	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_007911025.1	7a47c74ebe6907af74cf7b6e2cb9886e	377	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-KXJ78933.1	9f5d4fcae5857b3d573f5917c2e9ed59	651	Pfam	PF00372	Hemocyanin, copper containing domain	148	292	3.7E-39	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KXJ78933.1	9f5d4fcae5857b3d573f5917c2e9ed59	651	Pfam	PF03723	Hemocyanin, ig-like domain	387	643	2.8E-74	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KXJ78933.1	9f5d4fcae5857b3d573f5917c2e9ed59	651	Pfam	PF03722	Hemocyanin, all-alpha domain	26	140	3.1E-17	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-AQV14031.1	ffba9b59f2a1511e6961f6805582b55b	163	Pfam	PF00372	Hemocyanin, copper containing domain	2	161	3.8E-44	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAG5889588.1	d0426b326bdc70732dc7ae16b6f3f8b7	749	Pfam	PF03722	Hemocyanin, all-alpha domain	93	215	9.6E-34	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KAG5889588.1	d0426b326bdc70732dc7ae16b6f3f8b7	749	Pfam	PF00372	Hemocyanin, copper containing domain	221	497	4.1E-59	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAG5889588.1	d0426b326bdc70732dc7ae16b6f3f8b7	749	Pfam	PF03723	Hemocyanin, ig-like domain	510	745	6.3E-61	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_025536373.1	ab3bb511b5fda40718cd1c313721700b	348	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	23-10-2023	-	-
-XP_025536373.1	ab3bb511b5fda40718cd1c313721700b	348	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_025536373.1	ab3bb511b5fda40718cd1c313721700b	348	Pfam	PF00264	Common central domain of tyrosinase	96	286	9.8E-40	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_025536373.1	ab3bb511b5fda40718cd1c313721700b	348	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-XP_001805257.1	a94df46a42ed156e9edc258bc70f0d06	352	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-XP_001805257.1	a94df46a42ed156e9edc258bc70f0d06	352	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	23-10-2023	-	-
-XP_001805257.1	a94df46a42ed156e9edc258bc70f0d06	352	Pfam	PF00264	Common central domain of tyrosinase	74	288	6.4E-45	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001805257.1	a94df46a42ed156e9edc258bc70f0d06	352	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-KAH9507485.1	38f513ba49001411d08e03e46f7248b6	686	Pfam	PF00264	Common central domain of tyrosinase	181	359	5.1E-31	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_049164370.1	982343de8cc61f593902395c47e0bf0b	374	Pfam	PF00264	Common central domain of tyrosinase	126	314	6.9E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_049164370.1	982343de8cc61f593902395c47e0bf0b	374	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-KAF2230288.1	1b337e145654bdc8ee9b41e8dbe85357	404	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-KAF2230288.1	1b337e145654bdc8ee9b41e8dbe85357	404	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	23-10-2023	-	-
-KAF2230288.1	1b337e145654bdc8ee9b41e8dbe85357	404	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-KAF2230288.1	1b337e145654bdc8ee9b41e8dbe85357	404	Pfam	PF00264	Common central domain of tyrosinase	111	344	1.5E-54	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-RXM92785.1	d59d86d37bebffbb5a3c47a2e185f901	419	Pfam	PF00264	Common central domain of tyrosinase	76	308	7.1E-38	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAI3829525.1	3d24b9394ca14e54384b8ae5b5e7c198	228	Pfam	PF00264	Common central domain of tyrosinase	150	205	1.2E-5	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-MQM23393.1	154a5cf80faef2c5cfa62d98d65f8867	601	Pfam	PF12143	Protein of unknown function (DUF_B2219)	466	597	3.7E-41	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-MQM23393.1	154a5cf80faef2c5cfa62d98d65f8867	601	Pfam	PF00264	Common central domain of tyrosinase	175	388	4.6E-29	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-MQM23393.1	154a5cf80faef2c5cfa62d98d65f8867	601	Pfam	PF12142	Polyphenol oxidase middle domain	394	445	2.2E-17	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-XP_046008368.1	d6fc2966a9bf15d074085a78231753a1	434	Pfam	PF00264	Common central domain of tyrosinase	122	369	2.6E-37	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_046008368.1	d6fc2966a9bf15d074085a78231753a1	434	SignalP_GRAM_NEGATIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-XP_046008368.1	d6fc2966a9bf15d074085a78231753a1	434	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-XP_046008368.1	d6fc2966a9bf15d074085a78231753a1	434	SignalP_GRAM_NEGATIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-XP_016240182.1	a1a291d580921140291378ffc6d6d071	618	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	27	-	T	23-10-2023	-	-
-XP_016240182.1	a1a291d580921140291378ffc6d6d071	618	Pfam	PF18132	Tyosinase C-terminal domain	452	574	4.2E-23	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-XP_016240182.1	a1a291d580921140291378ffc6d6d071	618	Pfam	PF00264	Common central domain of tyrosinase	81	323	1.8E-37	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH7109433.1	92a39237632d145b651008b9052f2bb2	577	Pfam	PF18132	Tyosinase C-terminal domain	465	548	1.0E-6	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAH7109433.1	92a39237632d145b651008b9052f2bb2	577	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	23-10-2023	-	-
-KAH7109433.1	92a39237632d145b651008b9052f2bb2	577	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-KAH7109433.1	92a39237632d145b651008b9052f2bb2	577	Pfam	PF00264	Common central domain of tyrosinase	87	344	6.9E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_022823141.1	5036cab308e0ceb63457ec011063ea74	707	Pfam	PF00372	Hemocyanin, copper containing domain	163	439	1.2E-78	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_022823141.1	5036cab308e0ceb63457ec011063ea74	707	Pfam	PF03722	Hemocyanin, all-alpha domain	34	157	1.3E-29	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_022823141.1	5036cab308e0ceb63457ec011063ea74	707	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_022823141.1	5036cab308e0ceb63457ec011063ea74	707	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-XP_022823141.1	5036cab308e0ceb63457ec011063ea74	707	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-XP_022823141.1	5036cab308e0ceb63457ec011063ea74	707	Pfam	PF03723	Hemocyanin, ig-like domain	448	695	2.6E-50	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAF2994102.1	4b268ee416195533a085de7facd1d9d9	335	Pfam	PF00264	Common central domain of tyrosinase	72	258	4.5E-35	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045993769.1	a62bca5af3281b0e319c2843cebfa34f	381	Pfam	PF00264	Common central domain of tyrosinase	93	322	3.6E-53	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_045993769.1	a62bca5af3281b0e319c2843cebfa34f	381	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-CAD7247553.1	f78f1902430b5727374c41ee19e3df3c	689	Pfam	PF00372	Hemocyanin, copper containing domain	167	419	4.7E-71	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-CAD7247553.1	f78f1902430b5727374c41ee19e3df3c	689	Pfam	PF03723	Hemocyanin, ig-like domain	428	684	3.0E-71	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-CAD7247553.1	f78f1902430b5727374c41ee19e3df3c	689	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-CAD7247553.1	f78f1902430b5727374c41ee19e3df3c	689	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	23-10-2023	-	-
-CAD7247553.1	f78f1902430b5727374c41ee19e3df3c	689	Pfam	PF03722	Hemocyanin, all-alpha domain	40	162	6.8E-34	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_022907914.1	f51333c3197c67a9595544fa64f4d1a7	678	Pfam	PF03722	Hemocyanin, all-alpha domain	75	141	2.5E-13	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_022907914.1	f51333c3197c67a9595544fa64f4d1a7	678	Pfam	PF00372	Hemocyanin, copper containing domain	152	408	1.3E-73	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_022907914.1	f51333c3197c67a9595544fa64f4d1a7	678	Pfam	PF03723	Hemocyanin, ig-like domain	417	666	1.5E-74	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAA0056965.1	0d925efa9cd4e38026fa1fd7f914a8a8	563	Pfam	PF12143	Protein of unknown function (DUF_B2219)	433	559	5.8E-24	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAA0056965.1	0d925efa9cd4e38026fa1fd7f914a8a8	563	Pfam	PF12142	Polyphenol oxidase middle domain	364	414	1.1E-17	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-KAA0056965.1	0d925efa9cd4e38026fa1fd7f914a8a8	563	Pfam	PF00264	Common central domain of tyrosinase	154	357	2.7E-30	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_038781255.1	ec29566999e1b6ffd6e12e2859ce581d	664	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	23-10-2023	-	-
-XP_038781255.1	ec29566999e1b6ffd6e12e2859ce581d	664	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	23-10-2023	-	-
-XP_038781255.1	ec29566999e1b6ffd6e12e2859ce581d	664	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	23-10-2023	-	-
-XP_038781255.1	ec29566999e1b6ffd6e12e2859ce581d	664	Pfam	PF00264	Common central domain of tyrosinase	108	337	3.0E-45	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_033657261.1	d3d4a33a3fd83cecb71cadc824475d90	317	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-XP_033657261.1	d3d4a33a3fd83cecb71cadc824475d90	317	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	23-10-2023	-	-
-XP_033657261.1	d3d4a33a3fd83cecb71cadc824475d90	317	Pfam	PF00264	Common central domain of tyrosinase	69	250	3.3E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAC33894.1	51560e4919641901b9fa2e10fb763afe	653	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-CAC33894.1	51560e4919641901b9fa2e10fb763afe	653	Pfam	PF00372	Hemocyanin, copper containing domain	136	393	5.4E-50	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-CAC33894.1	51560e4919641901b9fa2e10fb763afe	653	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-CAC33894.1	51560e4919641901b9fa2e10fb763afe	653	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	17	-	T	23-10-2023	-	-
-CAC33894.1	51560e4919641901b9fa2e10fb763afe	653	Pfam	PF03722	Hemocyanin, all-alpha domain	62	128	2.5E-8	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-CAC33894.1	51560e4919641901b9fa2e10fb763afe	653	Pfam	PF03723	Hemocyanin, ig-like domain	402	646	4.8E-56	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-RYN66664.1	c7412fc74cace985c4947e019cf1e247	361	Pfam	PF00264	Common central domain of tyrosinase	109	302	9.0E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-RYN66664.1	c7412fc74cace985c4947e019cf1e247	361	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-RYN66664.1	c7412fc74cace985c4947e019cf1e247	361	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-RYN66664.1	c7412fc74cace985c4947e019cf1e247	361	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	23-10-2023	-	-
-XP_033385812.1	8b8e994c43d1603e1df1f83a84c41f86	397	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	22	-	T	23-10-2023	-	-
-XP_033385812.1	8b8e994c43d1603e1df1f83a84c41f86	397	Pfam	PF00264	Common central domain of tyrosinase	109	333	6.4E-40	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_033385812.1	8b8e994c43d1603e1df1f83a84c41f86	397	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	23-10-2023	-	-
-XP_033385812.1	8b8e994c43d1603e1df1f83a84c41f86	397	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	22	-	T	23-10-2023	-	-
-WP_045301092.1	20a0f8ca5a9490d4668b1cf15a77a2b4	276	Pfam	PF00264	Common central domain of tyrosinase	30	229	1.2E-43	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_024361665.1	04847511ce2fabe9aed2e4fb4798349c	549	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	23-10-2023	-	-
-XP_024361665.1	04847511ce2fabe9aed2e4fb4798349c	549	Pfam	PF12142	Polyphenol oxidase middle domain	330	378	1.8E-13	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-XP_024361665.1	04847511ce2fabe9aed2e4fb4798349c	549	Pfam	PF00264	Common central domain of tyrosinase	102	322	4.9E-31	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_007923010.1	41a3b8e01d9311b92dcc1016d4406e2b	307	Pfam	PF00264	Common central domain of tyrosinase	32	243	3.9E-44	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8153500.1	77f0792e9f56ccd96d0e34b99dbb1c8e	391	Pfam	PF00264	Common central domain of tyrosinase	105	333	1.7E-49	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8153500.1	77f0792e9f56ccd96d0e34b99dbb1c8e	391	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KAE8573958.1	6a2a07d7fb683f46969ca7c9c1c1dd1b	625	Pfam	PF03722	Hemocyanin, all-alpha domain	25	138	1.6E-17	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KAE8573958.1	6a2a07d7fb683f46969ca7c9c1c1dd1b	625	Pfam	PF03723	Hemocyanin, ig-like domain	470	604	3.4E-29	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAE8573958.1	6a2a07d7fb683f46969ca7c9c1c1dd1b	625	Pfam	PF03723	Hemocyanin, ig-like domain	390	465	1.7E-15	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAE8573958.1	6a2a07d7fb683f46969ca7c9c1c1dd1b	625	Pfam	PF00372	Hemocyanin, copper containing domain	145	201	0.01	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAE8573958.1	6a2a07d7fb683f46969ca7c9c1c1dd1b	625	Pfam	PF00372	Hemocyanin, copper containing domain	211	380	2.5E-44	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KJK74820.1	e0111cdf8d36b8a6c812dbc304ab8489	962	Pfam	PF18132	Tyosinase C-terminal domain	629	752	3.9E-15	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KJK74820.1	e0111cdf8d36b8a6c812dbc304ab8489	962	Pfam	PF00264	Common central domain of tyrosinase	239	529	3.3E-31	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KJK74820.1	e0111cdf8d36b8a6c812dbc304ab8489	962	Pfam	PF00881	Nitroreductase family	786	939	1.7E-6	T	23-10-2023	IPR029479	Nitroreductase
-KAI3396132.1	b73685e742806206576ae55ed09f69f5	369	Pfam	PF00264	Common central domain of tyrosinase	102	310	1.8E-38	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG9233879.1	15da75b5c79614ef27796f53d6c99006	604	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-KAG9233879.1	15da75b5c79614ef27796f53d6c99006	604	Pfam	PF18132	Tyosinase C-terminal domain	443	560	1.9E-19	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAG9233879.1	15da75b5c79614ef27796f53d6c99006	604	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	23-10-2023	-	-
-KAG9233879.1	15da75b5c79614ef27796f53d6c99006	604	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-KAG9233879.1	15da75b5c79614ef27796f53d6c99006	604	Pfam	PF00264	Common central domain of tyrosinase	91	333	1.5E-43	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH8671962.1	415bd9e840a7812804b952125fa102e4	565	Pfam	PF18132	Tyosinase C-terminal domain	428	531	8.5E-6	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAH8671962.1	415bd9e840a7812804b952125fa102e4	565	Pfam	PF00264	Common central domain of tyrosinase	76	319	2.9E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_022343351.1	98b2885e18d47ec5f5c6ee45cd488bf6	707	Pfam	PF00264	Common central domain of tyrosinase	153	330	1.6E-26	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_022343351.1	98b2885e18d47ec5f5c6ee45cd488bf6	707	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-KRZ17010.1	ef18855e1b120f7b1252c28bb0911fff	804	Pfam	PF00024	PAN domain	713	795	0.073	T	23-10-2023	IPR003609	PAN/Apple domain
-KRZ17010.1	ef18855e1b120f7b1252c28bb0911fff	804	Pfam	PF00264	Common central domain of tyrosinase	186	366	2.2E-20	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KRZ17010.1	ef18855e1b120f7b1252c28bb0911fff	804	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	40	-	T	23-10-2023	-	-
-CAA7397722.1	fbefea8477d728514414c194276c1ea6	583	Pfam	PF00264	Common central domain of tyrosinase	143	348	4.3E-30	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-CAA7397722.1	fbefea8477d728514414c194276c1ea6	583	Pfam	PF12143	Protein of unknown function (DUF_B2219)	447	581	1.1E-34	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-CAA7397722.1	fbefea8477d728514414c194276c1ea6	583	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-CAA7397722.1	fbefea8477d728514414c194276c1ea6	583	Pfam	PF12142	Polyphenol oxidase middle domain	356	407	9.3E-21	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-QCC26465.1	6d1bce7567b49951f1216fcc9f709eca	678	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-QCC26465.1	6d1bce7567b49951f1216fcc9f709eca	678	Pfam	PF03723	Hemocyanin, ig-like domain	418	674	1.8E-68	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-QCC26465.1	6d1bce7567b49951f1216fcc9f709eca	678	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-QCC26465.1	6d1bce7567b49951f1216fcc9f709eca	678	Pfam	PF00372	Hemocyanin, copper containing domain	154	408	7.1E-77	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-QCC26465.1	6d1bce7567b49951f1216fcc9f709eca	678	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-QCC26465.1	6d1bce7567b49951f1216fcc9f709eca	678	Pfam	PF03722	Hemocyanin, all-alpha domain	28	148	2.6E-26	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KLU85477.1	be82a2bdd0761e74cc86e73037d806c0	401	Pfam	PF00264	Common central domain of tyrosinase	120	339	1.9E-44	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KLU85477.1	be82a2bdd0761e74cc86e73037d806c0	401	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-KLU85477.1	be82a2bdd0761e74cc86e73037d806c0	401	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	23-10-2023	-	-
-PWA50832.1	7d43d5574c31de44b3c49be00edcab02	627	Pfam	PF12143	Protein of unknown function (DUF_B2219)	495	622	1.4E-22	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-PWA50832.1	7d43d5574c31de44b3c49be00edcab02	627	Pfam	PF00264	Common central domain of tyrosinase	192	408	5.4E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-PWA50832.1	7d43d5574c31de44b3c49be00edcab02	627	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	23-10-2023	-	-
-PWA50832.1	7d43d5574c31de44b3c49be00edcab02	627	Pfam	PF12142	Polyphenol oxidase middle domain	420	469	6.2E-14	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-KAH7371675.1	c2b9d5977c471196fded3f48941fe06d	351	Pfam	PF00264	Common central domain of tyrosinase	79	291	6.9E-53	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH7371675.1	c2b9d5977c471196fded3f48941fe06d	351	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-CAZ66714.1	7b3e14e4a2ea857ff68504d556c10f62	637	Pfam	PF03723	Hemocyanin, ig-like domain	383	632	1.8E-56	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-CAZ66714.1	7b3e14e4a2ea857ff68504d556c10f62	637	Pfam	PF00372	Hemocyanin, copper containing domain	109	374	1.4E-76	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-CAZ66714.1	7b3e14e4a2ea857ff68504d556c10f62	637	Pfam	PF03722	Hemocyanin, all-alpha domain	34	104	2.6E-13	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KAG7292970.1	7529241863b3e8722fe1696a21cda013	629	Pfam	PF00264	Common central domain of tyrosinase	113	327	9.7E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG7292970.1	7529241863b3e8722fe1696a21cda013	629	Pfam	PF18132	Tyosinase C-terminal domain	466	604	1.6E-23	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAH9507501.1	1c1aaddf2876ced7b5dcea315a356660	619	Pfam	PF00264	Common central domain of tyrosinase	104	279	4.0E-29	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KEY65496.1	c8792e5b912e26b28eb4c1ed0db2ccce	389	Pfam	PF00264	Common central domain of tyrosinase	142	334	2.1E-31	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG9154912.1	f72a354755bae154aef2530f733b1eca	611	Pfam	PF12143	Protein of unknown function (DUF_B2219)	481	610	2.1E-38	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAG9154912.1	f72a354755bae154aef2530f733b1eca	611	Pfam	PF00264	Common central domain of tyrosinase	183	404	2.3E-30	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAG9154912.1	f72a354755bae154aef2530f733b1eca	611	Pfam	PF12142	Polyphenol oxidase middle domain	409	459	1.1E-16	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-ORX95341.1	26184f6fbf23e48e52ef3b432f9def8b	555	Pfam	PF00264	Common central domain of tyrosinase	78	255	3.2E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-ORX95341.1	26184f6fbf23e48e52ef3b432f9def8b	555	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-ORX95341.1	26184f6fbf23e48e52ef3b432f9def8b	555	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-KAI1331377.1	76a527647d43576d459437392cbd796f	388	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	16	-	T	23-10-2023	-	-
-KAI1331377.1	76a527647d43576d459437392cbd796f	388	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-KAI1331377.1	76a527647d43576d459437392cbd796f	388	Pfam	PF00264	Common central domain of tyrosinase	92	325	1.4E-58	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAI1331377.1	76a527647d43576d459437392cbd796f	388	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-XP_046011396.1	ef189cb64d3e801a4b6042e3b8e40d8f	366	Pfam	PF00264	Common central domain of tyrosinase	126	310	5.5E-35	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_046011396.1	ef189cb64d3e801a4b6042e3b8e40d8f	366	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	23-10-2023	-	-
-XP_046011396.1	ef189cb64d3e801a4b6042e3b8e40d8f	366	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	23-10-2023	-	-
-KAI0241370.1	e0fdefc21f02687b3460eac9ed0b6254	582	Pfam	PF00264	Common central domain of tyrosinase	272	452	1.9E-33	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_020584709.1	9d084a7c30c1d52fbaa1483d99d337fd	550	Pfam	PF12143	Protein of unknown function (DUF_B2219)	423	547	6.6E-35	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-XP_020584709.1	9d084a7c30c1d52fbaa1483d99d337fd	550	Pfam	PF12142	Polyphenol oxidase middle domain	356	405	7.9E-21	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-XP_020584709.1	9d084a7c30c1d52fbaa1483d99d337fd	550	Pfam	PF00264	Common central domain of tyrosinase	142	349	3.7E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-AII22008.1	f9cd79095fbde7e80ef2cd7b2bdb4e89	627	Pfam	PF12143	Protein of unknown function (DUF_B2219)	495	625	7.4E-29	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-AII22008.1	f9cd79095fbde7e80ef2cd7b2bdb4e89	627	Pfam	PF12142	Polyphenol oxidase middle domain	414	465	2.7E-20	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-AII22008.1	f9cd79095fbde7e80ef2cd7b2bdb4e89	627	Pfam	PF00264	Common central domain of tyrosinase	177	406	4.3E-32	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-WP_256558120.1	d6f95b78d8e46d319b4f98c8b912cf14	356	Pfam	PF00264	Common central domain of tyrosinase	61	287	8.9E-38	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_043164042.1	1fa8851f5758626d9c5c55b3c6d62bc0	529	Pfam	PF01328	Peroxidase, family 2	45	239	1.7E-48	T	23-10-2023	IPR000028	Chloroperoxidase
-XP_043164042.1	1fa8851f5758626d9c5c55b3c6d62bc0	529	Pfam	PF00264	Common central domain of tyrosinase	286	468	8.5E-25	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_043164042.1	1fa8851f5758626d9c5c55b3c6d62bc0	529	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-XP_008711966.1	5afb31d28682d2252a8c5d7da439ceb5	363	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-XP_008711966.1	5afb31d28682d2252a8c5d7da439ceb5	363	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	31	-	T	23-10-2023	-	-
-XP_008711966.1	5afb31d28682d2252a8c5d7da439ceb5	363	Pfam	PF00264	Common central domain of tyrosinase	78	302	9.1E-37	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003709315.1	037693011ec30aabdffcf82f31d19d39	268	Pfam	PF00264	Common central domain of tyrosinase	99	234	5.8E-17	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_003709315.1	037693011ec30aabdffcf82f31d19d39	268	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_003709315.1	037693011ec30aabdffcf82f31d19d39	268	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	23-10-2023	-	-
-XP_003709315.1	037693011ec30aabdffcf82f31d19d39	268	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	26	-	T	23-10-2023	-	-
-XP_001832783.1	ac59a7a8423d4269743535324767d8ac	392	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	29	-	T	23-10-2023	-	-
-XP_001832783.1	ac59a7a8423d4269743535324767d8ac	392	Pfam	PF00264	Common central domain of tyrosinase	80	332	4.6E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_001832783.1	ac59a7a8423d4269743535324767d8ac	392	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-XP_001832783.1	ac59a7a8423d4269743535324767d8ac	392	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-NUQ98238.1	d395808804376fcb7e112f9d356656ee	290	Pfam	PF00264	Common central domain of tyrosinase	30	238	1.7E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_046682677.1	94c75819fe6eea01dab2cd4a97a0638e	695	Pfam	PF00372	Hemocyanin, copper containing domain	148	412	7.2E-84	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_046682677.1	94c75819fe6eea01dab2cd4a97a0638e	695	Pfam	PF03723	Hemocyanin, ig-like domain	421	675	4.6E-77	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_046682677.1	94c75819fe6eea01dab2cd4a97a0638e	695	Pfam	PF03722	Hemocyanin, all-alpha domain	27	141	1.3E-18	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-EHK97592.1	9f056773bbefd9fbf51759dc2995efe7	215	Pfam	PF00264	Common central domain of tyrosinase	30	165	8.3E-24	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAH8768961.1	f09bc46d44263f027dd8fc93e2c1dd6a	323	Pfam	PF00264	Common central domain of tyrosinase	67	265	1.8E-31	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-TGZ76379.1	471e065894e4e4923d3d28d2c732e1db	405	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-TGZ76379.1	471e065894e4e4923d3d28d2c732e1db	405	Pfam	PF00264	Common central domain of tyrosinase	118	346	1.1E-58	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-TGZ76379.1	471e065894e4e4923d3d28d2c732e1db	405	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-TGZ76379.1	471e065894e4e4923d3d28d2c732e1db	405	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-KAF7359308.1	46dfd120ca8112aedfc90adfc75bd2d0	263	Pfam	PF00264	Common central domain of tyrosinase	53	207	3.7E-16	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-RPB07726.1	6db77972f5a693b565cda412dac88bad	350	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	23-10-2023	-	-
-RPB07726.1	6db77972f5a693b565cda412dac88bad	350	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	23-10-2023	-	-
-RPB07726.1	6db77972f5a693b565cda412dac88bad	350	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	23-10-2023	-	-
-RPB07726.1	6db77972f5a693b565cda412dac88bad	350	Pfam	PF00264	Common central domain of tyrosinase	74	287	1.8E-46	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_049243200.1	bea90d6bc5022393d542e5fb0a455b56	341	Pfam	PF00264	Common central domain of tyrosinase	71	285	2.6E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_049243200.1	bea90d6bc5022393d542e5fb0a455b56	341	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-XP_049243200.1	bea90d6bc5022393d542e5fb0a455b56	341	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	23-10-2023	-	-
-XP_049243200.1	bea90d6bc5022393d542e5fb0a455b56	341	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-KAI1261162.1	40d9e0401de473d631687a347bac4f84	337	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	23-10-2023	-	-
-KAI1261162.1	40d9e0401de473d631687a347bac4f84	337	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-KAI1261162.1	40d9e0401de473d631687a347bac4f84	337	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-KAI1261162.1	40d9e0401de473d631687a347bac4f84	337	Pfam	PF00264	Common central domain of tyrosinase	91	278	1.1E-29	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8573029.1	eff0c319f9a9211ac9f46a809c6bf180	431	Pfam	PF03723	Hemocyanin, ig-like domain	384	429	1.1E-6	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAE8573029.1	eff0c319f9a9211ac9f46a809c6bf180	431	Pfam	PF03722	Hemocyanin, all-alpha domain	23	137	1.7E-16	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KAE8573029.1	eff0c319f9a9211ac9f46a809c6bf180	431	Pfam	PF00372	Hemocyanin, copper containing domain	144	251	2.3E-34	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAE8573029.1	eff0c319f9a9211ac9f46a809c6bf180	431	Pfam	PF00372	Hemocyanin, copper containing domain	252	370	1.7E-29	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_029105975.1	41c08e601f0db984206e04eebdfc2680	540	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	23-10-2023	-	-
-XP_029105975.1	41c08e601f0db984206e04eebdfc2680	540	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	23-10-2023	-	-
-XP_029105975.1	41c08e601f0db984206e04eebdfc2680	540	Pfam	PF00264	Common central domain of tyrosinase	174	406	7.0E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_044742194.1	fdfc0c6ccc6c873576a0de8416ed3e69	868	Pfam	PF03723	Hemocyanin, ig-like domain	601	851	4.6E-86	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_044742194.1	fdfc0c6ccc6c873576a0de8416ed3e69	868	Pfam	PF03722	Hemocyanin, all-alpha domain	36	158	1.8E-41	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_044742194.1	fdfc0c6ccc6c873576a0de8416ed3e69	868	Pfam	PF00372	Hemocyanin, copper containing domain	163	591	8.3E-84	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_044742194.1	fdfc0c6ccc6c873576a0de8416ed3e69	868	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	15	-	T	23-10-2023	-	-
-KAH8193568.1	b0faadf5332d8be0759fc26e3f97d26e	400	Pfam	PF00264	Common central domain of tyrosinase	160	344	4.4E-37	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-EOY28323.1	d0f96f4234d3890ed3221b9773db2ade	618	Pfam	PF12143	Protein of unknown function (DUF_B2219)	488	615	1.2E-51	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-EOY28323.1	d0f96f4234d3890ed3221b9773db2ade	618	Pfam	PF12142	Polyphenol oxidase middle domain	405	456	2.4E-24	T	23-10-2023	IPR022739	Polyphenol oxidase, central domain
-EOY28323.1	d0f96f4234d3890ed3221b9773db2ade	618	Pfam	PF00264	Common central domain of tyrosinase	191	398	3.1E-34	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_038918498.1	df37cecfd8989b0a7b3f858f9ac677d8	709	Pfam	PF00264	Common central domain of tyrosinase	239	474	5.1E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_038918498.1	df37cecfd8989b0a7b3f858f9ac677d8	709	Pfam	PF18132	Tyosinase C-terminal domain	552	656	1.7E-17	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-XP_028136209.1	fd3bdb4a466498c8ef3c2bf8aacae6e8	437	Pfam	PF03723	Hemocyanin, ig-like domain	353	426	1.8E-8	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_028136209.1	fd3bdb4a466498c8ef3c2bf8aacae6e8	437	Pfam	PF00372	Hemocyanin, copper containing domain	133	366	2.1E-67	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_028136209.1	fd3bdb4a466498c8ef3c2bf8aacae6e8	437	Pfam	PF03722	Hemocyanin, all-alpha domain	58	123	6.2E-16	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-AGL10019.1	dbfa7ed6342a5277ec3790545408edb7	355	Pfam	PF03723	Hemocyanin, ig-like domain	107	350	3.2E-61	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-AGL10019.1	dbfa7ed6342a5277ec3790545408edb7	355	Pfam	PF00372	Hemocyanin, copper containing domain	1	98	1.2E-23	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_006697511.1	7a2c1dd1be3994df37bd2e3c26a60182	419	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	23-10-2023	-	-
-XP_006697511.1	7a2c1dd1be3994df37bd2e3c26a60182	419	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	23-10-2023	-	-
-XP_006697511.1	7a2c1dd1be3994df37bd2e3c26a60182	419	Pfam	PF00264	Common central domain of tyrosinase	113	346	3.9E-41	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF9531510.1	e60abed29b1947797b037df8b3936d5f	633	Pfam	PF18132	Tyosinase C-terminal domain	477	594	4.8E-32	T	23-10-2023	IPR041640	Tyrosinase, C-terminal
-KAF9531510.1	e60abed29b1947797b037df8b3936d5f	633	Pfam	PF00264	Common central domain of tyrosinase	48	297	3.5E-49	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_049172277.1	3b909a27734d13ab613f5b54ccf02fee	347	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-XP_049172277.1	3b909a27734d13ab613f5b54ccf02fee	347	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	23-10-2023	-	-
-XP_049172277.1	3b909a27734d13ab613f5b54ccf02fee	347	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	23-10-2023	-	-
-XP_049172277.1	3b909a27734d13ab613f5b54ccf02fee	347	Pfam	PF00264	Common central domain of tyrosinase	74	256	8.8E-35	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAI0174032.1	2bb5db218cf9eb3d4a71b3c79ac64857	365	Pfam	PF00264	Common central domain of tyrosinase	74	308	1.5E-40	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-RDW92209.1	21ebfcb8d71f88366f924cd8ea684eff	360	Pfam	PF00264	Common central domain of tyrosinase	112	305	1.1E-36	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAF8850280.1	2b99cae4353d469990349c50f8039814	364	Pfam	PF00264	Common central domain of tyrosinase	80	306	2.4E-55	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_019645380.1	7ccd1d8e890c9487d9fcd881ec3d8637	551	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	23-10-2023	-	-
-XP_019645380.1	7ccd1d8e890c9487d9fcd881ec3d8637	551	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	23-10-2023	-	-
-XP_019645380.1	7ccd1d8e890c9487d9fcd881ec3d8637	551	Pfam	PF00264	Common central domain of tyrosinase	180	409	4.9E-27	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-NCY15340.1	8852a369267670578f201514a3bb14ea	376	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	37	-	T	23-10-2023	-	-
-NCY15340.1	8852a369267670578f201514a3bb14ea	376	Pfam	PF00264	Common central domain of tyrosinase	86	331	4.4E-39	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-NCY15340.1	8852a369267670578f201514a3bb14ea	376	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	23-10-2023	-	-
-NCY15340.1	8852a369267670578f201514a3bb14ea	376	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	30	-	T	23-10-2023	-	-
-KAH9856476.1	bea4165f6613c658ddb65f00bc012347	225	Pfam	PF00264	Common central domain of tyrosinase	55	185	3.8E-15	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8715169.1	bb99f02865bbb9c494da7aa6f9596cb0	378	Pfam	PF00264	Common central domain of tyrosinase	66	140	7.2E-13	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8715169.1	bb99f02865bbb9c494da7aa6f9596cb0	378	Pfam	PF12143	Protein of unknown function (DUF_B2219)	331	368	4.4E-6	T	23-10-2023	IPR022740	Polyphenol oxidase, C-terminal
-KAF2350451.1	5f4241bd7206c42135f3dfe2be1cb5dd	523	Pfam	PF03722	Hemocyanin, all-alpha domain	176	236	7.3E-5	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KAF2350451.1	5f4241bd7206c42135f3dfe2be1cb5dd	523	Pfam	PF00372	Hemocyanin, copper containing domain	248	507	1.4E-30	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-KAG0146059.1	89085585de143b0e89422b8220ddffa9	321	Pfam	PF00264	Common central domain of tyrosinase	34	263	6.7E-53	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-XP_020280009.1	31b28f5afbaaec06e90261266c68cfa4	688	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	23-10-2023	-	-
-XP_020280009.1	31b28f5afbaaec06e90261266c68cfa4	688	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-XP_020280009.1	31b28f5afbaaec06e90261266c68cfa4	688	Pfam	PF00372	Hemocyanin, copper containing domain	156	433	8.2E-90	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
-XP_020280009.1	31b28f5afbaaec06e90261266c68cfa4	688	Pfam	PF03723	Hemocyanin, ig-like domain	442	677	5.6E-83	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-XP_020280009.1	31b28f5afbaaec06e90261266c68cfa4	688	Pfam	PF03722	Hemocyanin, all-alpha domain	29	150	5.8E-36	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-XP_020280009.1	31b28f5afbaaec06e90261266c68cfa4	688	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	16	-	T	23-10-2023	-	-
-KAF2205512.1	1bf08cfb1912098dfb6868a4a8e5b27d	397	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	23-10-2023	-	-
-KAF2205512.1	1bf08cfb1912098dfb6868a4a8e5b27d	397	Pfam	PF00264	Common central domain of tyrosinase	107	339	4.2E-58	T	23-10-2023	IPR002227	Tyrosinase copper-binding domain
-KAE8746691.1	de917e8470760b5bcf15eff4532e7d60	770	Pfam	PF03722	Hemocyanin, all-alpha domain	104	216	1.7E-20	T	23-10-2023	IPR005204	Hemocyanin, N-terminal
-KAE8746691.1	de917e8470760b5bcf15eff4532e7d60	770	Pfam	PF03723	Hemocyanin, ig-like domain	499	752	6.1E-77	T	23-10-2023	IPR005203	Hemocyanin, C-terminal
-KAE8746691.1	de917e8470760b5bcf15eff4532e7d60	770	Pfam	PF00372	Hemocyanin, copper containing domain	222	489	8.9E-82	T	23-10-2023	IPR000896	Hemocyanin/hexamerin middle domain
+CAD7448308.1	92d0a1e5f99be6244fc492b1d1ed016e	809	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	786	805	-	T	06-11-2023	-	-
+CAD7448308.1	92d0a1e5f99be6244fc492b1d1ed016e	809	Pfam	PF03723	Hemocyanin, ig-like domain	420	661	7.7E-62	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+CAD7448308.1	92d0a1e5f99be6244fc492b1d1ed016e	809	Pfam	PF00372	Hemocyanin, copper containing domain	145	411	3.7E-81	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+CAD7448308.1	92d0a1e5f99be6244fc492b1d1ed016e	809	Pfam	PF03722	Hemocyanin, all-alpha domain	75	139	1.2E-16	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+XP_032527716.1	91c08d61116be897be24a2d97034e51d	983	Pfam	PF03722	Hemocyanin, all-alpha domain	26	141	1.7E-17	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+XP_032527716.1	91c08d61116be897be24a2d97034e51d	983	Pfam	PF00372	Hemocyanin, copper containing domain	149	413	8.4E-81	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+XP_032527716.1	91c08d61116be897be24a2d97034e51d	983	Pfam	PF03723	Hemocyanin, ig-like domain	422	673	7.0E-66	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+KAJ1434765.1	17903a4d9bb07fbad66a29b4f00fc112	313	Pfam	PF12143	Protein of unknown function (DUF_B2219)	233	300	1.6E-18	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+KAJ1434765.1	17903a4d9bb07fbad66a29b4f00fc112	313	Pfam	PF00264	Common central domain of tyrosinase	64	228	7.3E-20	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_049949747.1	46bc040d654b6fdf23d799aa87c915f1	724	Pfam	PF00372	Hemocyanin, copper containing domain	184	449	1.2E-71	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+XP_049949747.1	46bc040d654b6fdf23d799aa87c915f1	724	Pfam	PF03722	Hemocyanin, all-alpha domain	108	178	5.5E-13	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+XP_049949747.1	46bc040d654b6fdf23d799aa87c915f1	724	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	06-11-2023	-	-
+XP_049949747.1	46bc040d654b6fdf23d799aa87c915f1	724	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	7	24	-	T	06-11-2023	-	-
+XP_049949747.1	46bc040d654b6fdf23d799aa87c915f1	724	Pfam	PF03723	Hemocyanin, ig-like domain	458	707	5.0E-69	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+KAH8194841.1	3bf3fec6c643293c33483ae44d8ec9d3	464	Pfam	PF00264	Common central domain of tyrosinase	105	337	3.0E-51	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+SMH67861.1	f9b07802726b94bb6c0936989eb33334	660	Pfam	PF00372	Hemocyanin, copper containing domain	136	390	3.0E-52	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+SMH67861.1	f9b07802726b94bb6c0936989eb33334	660	Pfam	PF03722	Hemocyanin, all-alpha domain	55	128	1.2E-9	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+SMH67861.1	f9b07802726b94bb6c0936989eb33334	660	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	15	-	T	06-11-2023	-	-
+SMH67861.1	f9b07802726b94bb6c0936989eb33334	660	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	06-11-2023	-	-
+SMH67861.1	f9b07802726b94bb6c0936989eb33334	660	Pfam	PF03723	Hemocyanin, ig-like domain	399	646	5.7E-60	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+KAJ6198756.1	9a1877ab4426b91ae095a2e6edb4d9a7	532	Pfam	PF00264	Common central domain of tyrosinase	238	471	2.3E-59	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAF8740896.1	310ac89b8694060a4c78134882036dfc	551	Pfam	PF18132	Tyosinase C-terminal domain	405	525	4.4E-24	T	06-11-2023	IPR041640	Tyrosinase, C-terminal
+KAF8740896.1	310ac89b8694060a4c78134882036dfc	551	Pfam	PF00264	Common central domain of tyrosinase	49	294	3.5E-41	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_019181147.1	f6236cda6109ed7c4525ed161d6b610e	610	Pfam	PF12143	Protein of unknown function (DUF_B2219)	490	605	3.5E-23	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_019181147.1	f6236cda6109ed7c4525ed161d6b610e	610	Pfam	PF12142	Polyphenol oxidase middle domain	412	463	3.6E-20	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+XP_019181147.1	f6236cda6109ed7c4525ed161d6b610e	610	Pfam	PF00264	Common central domain of tyrosinase	186	405	7.0E-34	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAI3514778.1	9ca629e33fcfc0444ca0c257cc8376a0	621	Pfam	PF12142	Polyphenol oxidase middle domain	413	462	2.5E-10	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+KAI3514778.1	9ca629e33fcfc0444ca0c257cc8376a0	621	Pfam	PF00264	Common central domain of tyrosinase	190	403	1.8E-32	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAI3514778.1	9ca629e33fcfc0444ca0c257cc8376a0	621	Pfam	PF12143	Protein of unknown function (DUF_B2219)	484	612	1.8E-31	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_008028866.1	eb490a98066f4f7477e7881d112296c1	361	Pfam	PF00264	Common central domain of tyrosinase	93	301	7.9E-48	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_008028866.1	eb490a98066f4f7477e7881d112296c1	361	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	06-11-2023	-	-
+KAG8238332.1	cf7c80fa16d550d6a2ff06476188d432	435	Pfam	PF00372	Hemocyanin, copper containing domain	23	182	4.9E-42	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+KAG8238332.1	cf7c80fa16d550d6a2ff06476188d432	435	Pfam	PF03723	Hemocyanin, ig-like domain	171	421	2.6E-69	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+KAI9152191.1	3adf86208379043c0a1777a82f2149d7	387	Pfam	PF00264	Common central domain of tyrosinase	102	328	8.3E-53	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_058114818.1	c683d7456e25f85f3de1731544094670	601	Pfam	PF12142	Polyphenol oxidase middle domain	388	436	2.1E-13	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+XP_058114818.1	c683d7456e25f85f3de1731544094670	601	Pfam	PF12143	Protein of unknown function (DUF_B2219)	466	592	3.5E-24	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_058114818.1	c683d7456e25f85f3de1731544094670	601	Pfam	PF00264	Common central domain of tyrosinase	171	381	5.0E-30	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAH9907265.1	21c98d20c77b106135109bf28bcc4587	388	Pfam	PF00264	Common central domain of tyrosinase	99	328	6.4E-54	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAB2637407.1	39fe77b626ccdda30c40d94fa431f45d	322	Pfam	PF12143	Protein of unknown function (DUF_B2219)	196	320	4.1E-35	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+KAB2637407.1	39fe77b626ccdda30c40d94fa431f45d	322	Pfam	PF12142	Polyphenol oxidase middle domain	134	162	1.5E-6	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+KAB2637407.1	39fe77b626ccdda30c40d94fa431f45d	322	Pfam	PF00264	Common central domain of tyrosinase	59	135	1.1E-6	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAF5280180.1	bcad218de41a556a2d62e36e35c52e43	577	Pfam	PF03722	Hemocyanin, all-alpha domain	2	38	1.0E-5	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+KAF5280180.1	bcad218de41a556a2d62e36e35c52e43	577	Pfam	PF00372	Hemocyanin, copper containing domain	49	309	1.9E-75	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+KAF5280180.1	bcad218de41a556a2d62e36e35c52e43	577	Pfam	PF03723	Hemocyanin, ig-like domain	319	566	4.1E-71	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+TEY44945.1	96e383e197b407179ddbc17aed57b3c9	368	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	06-11-2023	-	-
+TEY44945.1	96e383e197b407179ddbc17aed57b3c9	368	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	06-11-2023	-	-
+TEY44945.1	96e383e197b407179ddbc17aed57b3c9	368	Pfam	PF00264	Common central domain of tyrosinase	120	307	1.5E-32	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAK1667854.1	32fb78937b4fb1bcaa78de3ca2505d34	798	Pfam	PF02992	Transposase family tnp2	233	275	4.9E-7	T	06-11-2023	IPR004242	Transposon, En/Spm-like
+KAK1667854.1	32fb78937b4fb1bcaa78de3ca2505d34	798	Pfam	PF12142	Polyphenol oxidase middle domain	597	647	1.4E-22	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+KAK1667854.1	32fb78937b4fb1bcaa78de3ca2505d34	798	Pfam	PF00264	Common central domain of tyrosinase	375	585	5.7E-28	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAK1667854.1	32fb78937b4fb1bcaa78de3ca2505d34	798	Pfam	PF12143	Protein of unknown function (DUF_B2219)	665	794	1.5E-33	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_018124324.1	257e7fc1184ff1171a640d8813497972	559	Pfam	PF00264	Common central domain of tyrosinase	257	481	2.1E-32	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAK1776651.1	8a3039c2567fd1368acfa88cd5482f1b	399	Pfam	PF00264	Common central domain of tyrosinase	101	341	2.8E-44	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+WP_013118775.1	882d894dfaa228d852e9e746e098166c	971	Pfam	PF00264	Common central domain of tyrosinase	50	267	5.9E-35	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+WP_013118775.1	882d894dfaa228d852e9e746e098166c	971	Pfam	PF13519	von Willebrand factor type A domain	458	567	1.6E-5	T	06-11-2023	IPR002035	von Willebrand factor, type A
+WP_266317620.1	6ec56eb93806257536f6e8dcb18a4ef2	276	Pfam	PF00264	Common central domain of tyrosinase	29	228	2.4E-40	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KLU82419.1	136382f4797f87c7086b82c117764371	464	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	06-11-2023	-	-
+KLU82419.1	136382f4797f87c7086b82c117764371	464	Pfam	PF00264	Common central domain of tyrosinase	219	408	1.6E-47	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KLU82419.1	136382f4797f87c7086b82c117764371	464	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	06-11-2023	-	-
+EXC25717.1	0fa861d2c68f267990cad2449b9d074f	549	Pfam	PF12142	Polyphenol oxidase middle domain	345	394	7.7E-18	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+EXC25717.1	0fa861d2c68f267990cad2449b9d074f	549	Pfam	PF00264	Common central domain of tyrosinase	126	337	1.9E-32	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+EXC25717.1	0fa861d2c68f267990cad2449b9d074f	549	Pfam	PF12143	Protein of unknown function (DUF_B2219)	417	547	2.4E-34	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+KAH8176655.1	1b260fe0ea816dbca118970c0b733d38	687	Pfam	PF00264	Common central domain of tyrosinase	441	629	1.8E-48	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAG7259423.1	122b4bc7aeda606b9d5116f5744e57ab	395	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	359	381	-	T	06-11-2023	-	-
+KAG7259423.1	122b4bc7aeda606b9d5116f5744e57ab	395	Pfam	PF00264	Common central domain of tyrosinase	175	280	2.1E-17	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_022139808.1	9fc14efe97e0a1a55aff9d5e8463bc50	594	Pfam	PF12142	Polyphenol oxidase middle domain	374	424	1.3E-19	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+XP_022139808.1	9fc14efe97e0a1a55aff9d5e8463bc50	594	Pfam	PF00264	Common central domain of tyrosinase	161	367	1.7E-30	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_022139808.1	9fc14efe97e0a1a55aff9d5e8463bc50	594	Pfam	PF12143	Protein of unknown function (DUF_B2219)	462	589	2.9E-46	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+RWW11036.1	578719359914953af5d56b51d3b29276	641	Pfam	PF12143	Protein of unknown function (DUF_B2219)	509	638	1.1E-44	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+RWW11036.1	578719359914953af5d56b51d3b29276	641	Pfam	PF12142	Polyphenol oxidase middle domain	436	487	2.8E-19	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+RWW11036.1	578719359914953af5d56b51d3b29276	641	Pfam	PF00264	Common central domain of tyrosinase	222	429	1.3E-29	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAJ7639993.1	13e667edae7ab51235287d2157e0286a	438	Pfam	PF00264	Common central domain of tyrosinase	102	349	4.7E-36	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_026615261.1	2fb5e2113ae90f9cfb28493bf9acc3ed	327	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	14	-	T	06-11-2023	-	-
+XP_026615261.1	2fb5e2113ae90f9cfb28493bf9acc3ed	327	Pfam	PF00264	Common central domain of tyrosinase	63	270	1.0E-47	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_059437104.1	508c9acd7e2306b653e4508e5db9acf1	606	Pfam	PF12143	Protein of unknown function (DUF_B2219)	487	604	7.1E-37	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_059437104.1	508c9acd7e2306b653e4508e5db9acf1	606	Pfam	PF00264	Common central domain of tyrosinase	186	396	1.4E-30	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_059437104.1	508c9acd7e2306b653e4508e5db9acf1	606	Pfam	PF12142	Polyphenol oxidase middle domain	404	451	1.1E-20	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+CAI9294972.1	343d03d8c0fb282e52141fcafa22926e	545	Pfam	PF12143	Protein of unknown function (DUF_B2219)	447	545	1.1E-20	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+CAI9294972.1	343d03d8c0fb282e52141fcafa22926e	545	Pfam	PF00264	Common central domain of tyrosinase	173	391	2.0E-27	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+4YZW_A	8f38f9920fa08ffefd9d67376405c57c	720	Pfam	PF03722	Hemocyanin, all-alpha domain	84	163	1.1E-15	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+4YZW_A	8f38f9920fa08ffefd9d67376405c57c	720	Pfam	PF00372	Hemocyanin, copper containing domain	174	435	2.9E-70	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+4YZW_A	8f38f9920fa08ffefd9d67376405c57c	720	Pfam	PF03723	Hemocyanin, ig-like domain	444	699	4.9E-66	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+KAF3653231.1	19dfa0ec3d9a9c0b033d535cc4b34537	304	Pfam	PF12142	Polyphenol oxidase middle domain	145	195	4.2E-19	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+KAF3653231.1	19dfa0ec3d9a9c0b033d535cc4b34537	304	Pfam	PF12143	Protein of unknown function (DUF_B2219)	218	291	4.0E-14	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+KAF3653231.1	19dfa0ec3d9a9c0b033d535cc4b34537	304	Pfam	PF00264	Common central domain of tyrosinase	71	138	5.9E-10	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_018665954.1	8c75c55b116a160a438345bdb4747af9	421	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	06-11-2023	-	-
+XP_018665954.1	8c75c55b116a160a438345bdb4747af9	421	Pfam	PF00264	Common central domain of tyrosinase	111	334	8.8E-52	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_023520010.1	2c9bd1bd47dc83dc88fc683b920d1e7a	550	Pfam	PF12143	Protein of unknown function (DUF_B2219)	421	548	4.2E-48	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_023520010.1	2c9bd1bd47dc83dc88fc683b920d1e7a	550	Pfam	PF00264	Common central domain of tyrosinase	142	348	4.6E-33	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_023520010.1	2c9bd1bd47dc83dc88fc683b920d1e7a	550	Pfam	PF12142	Polyphenol oxidase middle domain	355	406	2.2E-20	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+CDN40919.1	3792230ec7fa0fa2811c0e7e8b9fad40	661	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	06-11-2023	-	-
+CDN40919.1	3792230ec7fa0fa2811c0e7e8b9fad40	661	Pfam	PF03723	Hemocyanin, ig-like domain	409	659	1.8E-67	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+CDN40919.1	3792230ec7fa0fa2811c0e7e8b9fad40	661	Pfam	PF00372	Hemocyanin, copper containing domain	146	400	2.9E-75	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+CDN40919.1	3792230ec7fa0fa2811c0e7e8b9fad40	661	Pfam	PF03722	Hemocyanin, all-alpha domain	19	141	2.6E-33	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+PWA80843.1	1080fae0d9cd99e7b58a54163323217c	615	Pfam	PF12143	Protein of unknown function (DUF_B2219)	482	609	5.4E-34	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+PWA80843.1	1080fae0d9cd99e7b58a54163323217c	615	Pfam	PF12142	Polyphenol oxidase middle domain	407	458	8.8E-16	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+PWA80843.1	1080fae0d9cd99e7b58a54163323217c	615	Pfam	PF00264	Common central domain of tyrosinase	180	399	1.4E-31	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAI0357534.1	271533600d2fad84c07e088dca457456	629	Pfam	PF18132	Tyosinase C-terminal domain	467	588	4.6E-34	T	06-11-2023	IPR041640	Tyrosinase, C-terminal
+KAI0357534.1	271533600d2fad84c07e088dca457456	629	Pfam	PF00264	Common central domain of tyrosinase	59	304	5.2E-49	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+PHT58543.1	8f48d0f1025141a1c399bcbeb27193c1	360	Pfam	PF12143	Protein of unknown function (DUF_B2219)	62	98	5.0E-5	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+PHT58543.1	8f48d0f1025141a1c399bcbeb27193c1	360	Pfam	PF00264	Common central domain of tyrosinase	135	339	6.7E-27	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAG9443229.1	cc9b28bf2cc7ea51833a84766387ed80	664	Pfam	PF12143	Protein of unknown function (DUF_B2219)	532	658	3.3E-27	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+KAG9443229.1	cc9b28bf2cc7ea51833a84766387ed80	664	Pfam	PF12142	Polyphenol oxidase middle domain	451	501	1.4E-15	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+KAG9443229.1	cc9b28bf2cc7ea51833a84766387ed80	664	Pfam	PF00264	Common central domain of tyrosinase	238	443	1.1E-27	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+TGO06785.1	734eb423a112c6dcba13d86d5d68a505	379	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	06-11-2023	-	-
+TGO06785.1	734eb423a112c6dcba13d86d5d68a505	379	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	06-11-2023	-	-
+TGO06785.1	734eb423a112c6dcba13d86d5d68a505	379	Pfam	PF00264	Common central domain of tyrosinase	89	318	2.2E-42	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+TGO06785.1	734eb423a112c6dcba13d86d5d68a505	379	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	06-11-2023	-	-
+XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	24	-	T	06-11-2023	-	-
+XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	06-11-2023	-	-
+XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	24	-	T	06-11-2023	-	-
+XP_029354810.1	c97dfa82ef71ba76dcca340d2a3d1f80	575	Pfam	PF00264	Common central domain of tyrosinase	166	382	6.2E-35	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAE8414952.1	ab0274e39d6a72c4b4dfd7cfe1250b1b	649	Pfam	PF00264	Common central domain of tyrosinase	65	396	4.0E-32	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAE8414952.1	ab0274e39d6a72c4b4dfd7cfe1250b1b	649	Pfam	PF18132	Tyosinase C-terminal domain	488	569	8.7E-7	T	06-11-2023	IPR041640	Tyrosinase, C-terminal
+WP_040373382.1	f9a5c86e6a9a00d7bb2dc68107d2be75	340	Pfam	PF00264	Common central domain of tyrosinase	85	284	1.3E-41	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+ANG57908.1	4ce188c4dfe48575414eeeff8e4c16e1	560	Pfam	PF12142	Polyphenol oxidase middle domain	356	407	6.9E-21	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+ANG57908.1	4ce188c4dfe48575414eeeff8e4c16e1	560	Pfam	PF12143	Protein of unknown function (DUF_B2219)	432	557	1.5E-42	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+ANG57908.1	4ce188c4dfe48575414eeeff8e4c16e1	560	Pfam	PF00264	Common central domain of tyrosinase	141	348	2.9E-30	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAF7771814.1	1f913d94fe81daf3c37660d64dc66920	686	Pfam	PF18132	Tyosinase C-terminal domain	534	647	3.9E-7	T	06-11-2023	IPR041640	Tyrosinase, C-terminal
+KAF7771814.1	1f913d94fe81daf3c37660d64dc66920	686	Pfam	PF00264	Common central domain of tyrosinase	162	418	1.6E-37	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_051369986.1	2b42851fbc7e766fe37f9926a0500323	375	Pfam	PF00264	Common central domain of tyrosinase	88	310	3.6E-48	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+WP_190022091.1	433d1174f7ac2d1648c82e3295e13d53	286	Pfam	PF00264	Common central domain of tyrosinase	30	234	7.9E-38	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+OOF95624.1	d6f6a9b2126784a76bcd019825517ba4	603	Pfam	PF18132	Tyosinase C-terminal domain	423	507	1.4E-7	T	06-11-2023	IPR041640	Tyrosinase, C-terminal
+OOF95624.1	d6f6a9b2126784a76bcd019825517ba4	603	Pfam	PF00264	Common central domain of tyrosinase	62	336	2.8E-33	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAF6834753.1	ddbebdaae30c4629ebf0be2e409d4a12	431	Pfam	PF00264	Common central domain of tyrosinase	112	370	6.9E-52	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAF6834753.1	ddbebdaae30c4629ebf0be2e409d4a12	431	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	06-11-2023	-	-
+KAF6834753.1	ddbebdaae30c4629ebf0be2e409d4a12	431	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	06-11-2023	-	-
+PSR90369.1	9e06894347a8dfaa3f30304975f74d39	366	Pfam	PF00264	Common central domain of tyrosinase	71	305	7.4E-44	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+MCO5562891.1	a0f8ca5f12beaede7b66c00ac2af04f7	543	Pfam	PF12143	Protein of unknown function (DUF_B2219)	401	514	3.0E-13	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+MCO5562891.1	a0f8ca5f12beaede7b66c00ac2af04f7	543	Pfam	PF00264	Common central domain of tyrosinase	109	314	1.5E-27	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+MCO5562891.1	a0f8ca5f12beaede7b66c00ac2af04f7	543	Pfam	PF12142	Polyphenol oxidase middle domain	320	368	4.0E-16	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+MCO5562891.1	a0f8ca5f12beaede7b66c00ac2af04f7	543	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	13	32	-	T	06-11-2023	-	-
+KAJ0166363.1	302786d3cefe71b5e1f42b5306b3c05e	501	Pfam	PF00264	Common central domain of tyrosinase	202	439	3.4E-56	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAK0745620.1	7917f275d2f2636af288aaa898ff9361	394	Pfam	PF00264	Common central domain of tyrosinase	104	336	6.7E-54	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_042881566.1	d0a1ac35ecccaa4f0207ec058d35a206	841	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	21	43	-	T	06-11-2023	-	-
+XP_042881566.1	d0a1ac35ecccaa4f0207ec058d35a206	841	Pfam	PF00372	Hemocyanin, copper containing domain	355	580	4.1E-45	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+XP_042881566.1	d0a1ac35ecccaa4f0207ec058d35a206	841	Pfam	PF03723	Hemocyanin, ig-like domain	589	839	1.2E-45	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+WP_166753969.1	5f8cbcfa18b930f3322f332c5cdffa3d	294	Pfam	PF00264	Common central domain of tyrosinase	31	247	2.2E-35	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KHN07285.1	bed361ff9254ee8f261549b0f2b8191e	572	Pfam	PF12143	Protein of unknown function (DUF_B2219)	442	568	1.3E-40	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+KHN07285.1	bed361ff9254ee8f261549b0f2b8191e	572	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	06-11-2023	-	-
+KHN07285.1	bed361ff9254ee8f261549b0f2b8191e	572	Pfam	PF00264	Common central domain of tyrosinase	188	372	9.1E-27	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KHN07285.1	bed361ff9254ee8f261549b0f2b8191e	572	Pfam	PF12142	Polyphenol oxidase middle domain	380	430	2.5E-19	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	06-11-2023	-	-
+ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	Pfam	PF00372	Hemocyanin, copper containing domain	193	471	8.8E-59	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	Pfam	PF03722	Hemocyanin, all-alpha domain	118	186	4.6E-9	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	06-11-2023	-	-
+ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	Pfam	PF03723	Hemocyanin, ig-like domain	480	744	2.3E-55	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+ACV33307.1	6f791c2623945e9375d61dae966cce2f	751	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	06-11-2023	-	-
+BAE48754.1	5d502901502460c9124a4ae4de501f22	576	Pfam	PF18132	Tyosinase C-terminal domain	430	540	7.4E-20	T	06-11-2023	IPR041640	Tyrosinase, C-terminal
+BAE48754.1	5d502901502460c9124a4ae4de501f22	576	Pfam	PF00264	Common central domain of tyrosinase	48	298	3.8E-47	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+VDC02340.1	e5be0edeb6ee224c0dc349a79167624e	633	Pfam	PF18132	Tyosinase C-terminal domain	419	543	6.5E-30	T	06-11-2023	IPR041640	Tyrosinase, C-terminal
+VDC02340.1	e5be0edeb6ee224c0dc349a79167624e	633	Pfam	PF00264	Common central domain of tyrosinase	48	297	1.2E-37	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+ROT63384.1	5d9b7896cfe6e4f72c628293c5f8463c	648	Pfam	PF03723	Hemocyanin, ig-like domain	394	639	1.1E-54	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+ROT63384.1	5d9b7896cfe6e4f72c628293c5f8463c	648	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	06-11-2023	-	-
+ROT63384.1	5d9b7896cfe6e4f72c628293c5f8463c	648	Pfam	PF03722	Hemocyanin, all-alpha domain	32	149	2.9E-23	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+ROT63384.1	5d9b7896cfe6e4f72c628293c5f8463c	648	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	15	-	T	06-11-2023	-	-
+ROT63384.1	5d9b7896cfe6e4f72c628293c5f8463c	648	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	06-11-2023	-	-
+ROT63384.1	5d9b7896cfe6e4f72c628293c5f8463c	648	Pfam	PF00372	Hemocyanin, copper containing domain	279	385	8.0E-26	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+ROT63384.1	5d9b7896cfe6e4f72c628293c5f8463c	648	Pfam	PF00372	Hemocyanin, copper containing domain	159	272	1.2E-26	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+XP_047976428.1	5a35856ea372c928b508f75259d0483a	562	Pfam	PF12142	Polyphenol oxidase middle domain	364	412	2.2E-17	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+XP_047976428.1	5a35856ea372c928b508f75259d0483a	562	Pfam	PF12143	Protein of unknown function (DUF_B2219)	446	559	9.6E-25	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_047976428.1	5a35856ea372c928b508f75259d0483a	562	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	06-11-2023	-	-
+XP_047976428.1	5a35856ea372c928b508f75259d0483a	562	Pfam	PF00264	Common central domain of tyrosinase	146	353	9.7E-31	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+PNT73025.1	1e11520a8bb2ade123a91ef58b256863	475	Pfam	PF00264	Common central domain of tyrosinase	160	366	1.7E-27	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+PNT73025.1	1e11520a8bb2ade123a91ef58b256863	475	Pfam	PF12143	Protein of unknown function (DUF_B2219)	366	471	2.4E-29	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+PNT73025.1	1e11520a8bb2ade123a91ef58b256863	475	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	06-11-2023	-	-
+PNT73025.1	1e11520a8bb2ade123a91ef58b256863	475	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	12	34	-	T	06-11-2023	-	-
+XP_023706200.2	a932c5fad14530cb5868799518195c32	694	Pfam	PF03723	Hemocyanin, ig-like domain	442	690	6.9E-78	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+XP_023706200.2	a932c5fad14530cb5868799518195c32	694	Pfam	PF03722	Hemocyanin, all-alpha domain	50	173	2.0E-36	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+XP_023706200.2	a932c5fad14530cb5868799518195c32	694	Pfam	PF00372	Hemocyanin, copper containing domain	178	433	4.8E-82	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+KAK0651127.1	a30ced797a75e78f9a664ec72ec93fb6	370	Pfam	PF00264	Common central domain of tyrosinase	111	339	6.6E-56	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+SPJ88691.1	1c8af80e4e00e06fcfe46e8c0a324316	440	Pfam	PF00264	Common central domain of tyrosinase	164	382	2.0E-53	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KXH30586.1	883e5fd7deddc2a4e7ee4a0290413f7c	448	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	06-11-2023	-	-
+KXH30586.1	883e5fd7deddc2a4e7ee4a0290413f7c	448	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	06-11-2023	-	-
+KXH30586.1	883e5fd7deddc2a4e7ee4a0290413f7c	448	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	06-11-2023	-	-
+KXH30586.1	883e5fd7deddc2a4e7ee4a0290413f7c	448	Pfam	PF00264	Common central domain of tyrosinase	110	338	5.6E-46	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAJ4992440.1	f2a5c431e56cdb8334b15db8c7a46f94	391	Pfam	PF00264	Common central domain of tyrosinase	98	330	1.7E-53	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_018390770.1	c39098a7696035a42d76f3f243db0ddb	786	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	06-11-2023	-	-
+XP_018390770.1	c39098a7696035a42d76f3f243db0ddb	786	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	26	-	T	06-11-2023	-	-
+XP_018390770.1	c39098a7696035a42d76f3f243db0ddb	786	Pfam	PF00264	Common central domain of tyrosinase	106	330	1.7E-53	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_018390770.1	c39098a7696035a42d76f3f243db0ddb	786	Pfam	PF01494	FAD binding domain	394	733	9.3E-15	T	06-11-2023	IPR002938	FAD-binding domain
+XP_018390770.1	c39098a7696035a42d76f3f243db0ddb	786	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	7	29	-	T	06-11-2023	-	-
+MBT2523975.1	645cc191cb3d67e4649e4913fcc65b0a	324	Pfam	PF00264	Common central domain of tyrosinase	67	274	8.4E-40	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+PSR84012.1	9cead37487f9fb56b1b30bcf0990fafe	383	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	06-11-2023	-	-
+PSR84012.1	9cead37487f9fb56b1b30bcf0990fafe	383	Pfam	PF00264	Common central domain of tyrosinase	105	326	1.6E-48	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+PSR84012.1	9cead37487f9fb56b1b30bcf0990fafe	383	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	06-11-2023	-	-
+PSR84012.1	9cead37487f9fb56b1b30bcf0990fafe	383	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	06-11-2023	-	-
+XP_023741689.1	2652535cdafbe5cb9d6180353b6062fb	667	Pfam	PF12143	Protein of unknown function (DUF_B2219)	494	624	2.6E-23	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+XP_023741689.1	2652535cdafbe5cb9d6180353b6062fb	667	Pfam	PF12142	Polyphenol oxidase middle domain	422	469	4.4E-15	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+XP_023741689.1	2652535cdafbe5cb9d6180353b6062fb	667	Pfam	PF00264	Common central domain of tyrosinase	182	410	3.0E-32	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_008087703.1	e5af2745c82a8f6e8ec78e99af0bb74c	646	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	06-11-2023	-	-
+XP_008087703.1	e5af2745c82a8f6e8ec78e99af0bb74c	646	Pfam	PF00264	Common central domain of tyrosinase	104	334	7.0E-51	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+XP_008087703.1	e5af2745c82a8f6e8ec78e99af0bb74c	646	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	16	-	T	06-11-2023	-	-
+XP_059487949.1	bcd85de3c9c779041ff2519e45768c28	572	Pfam	PF03722	Hemocyanin, all-alpha domain	96	169	7.6E-12	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+XP_059487949.1	bcd85de3c9c779041ff2519e45768c28	572	Pfam	PF03723	Hemocyanin, ig-like domain	455	529	5.2E-6	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+XP_059487949.1	bcd85de3c9c779041ff2519e45768c28	572	Pfam	PF00372	Hemocyanin, copper containing domain	178	446	4.2E-69	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+KAI0725255.1	c60954be255f8ca525508bdad1ce3c88	487	Pfam	PF00264	Common central domain of tyrosinase	60	316	4.3E-40	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAI0156308.1	3c634c6514d30c6b308c20e730c3bed5	389	Pfam	PF00264	Common central domain of tyrosinase	104	331	2.6E-50	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAF4354291.1	87daafc6f01e5f0686f1fe9d68d0cea7	391	Pfam	PF12143	Protein of unknown function (DUF_B2219)	319	382	1.9E-9	T	06-11-2023	IPR022740	Polyphenol oxidase, C-terminal
+KAF4354291.1	87daafc6f01e5f0686f1fe9d68d0cea7	391	Pfam	PF12142	Polyphenol oxidase middle domain	202	252	3.2E-15	T	06-11-2023	IPR022739	Polyphenol oxidase, central domain
+KAF4354291.1	87daafc6f01e5f0686f1fe9d68d0cea7	391	Pfam	PF00264	Common central domain of tyrosinase	10	194	4.1E-14	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+P81732.1	87c8d3264fb068ba765113ebf9a7ea0e	420	Pfam	PF14830	Haemocyanin beta-sandwich	310	413	1.4E-33	T	06-11-2023	IPR028999	Haemocyanin beta-sandwich domain
+P81732.1	87c8d3264fb068ba765113ebf9a7ea0e	420	Pfam	PF00264	Common central domain of tyrosinase	38	228	5.9E-30	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+DBA29548.1	ffcabb6878116bf0f8fd639e52b7b013	497	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	445	467	-	T	06-11-2023	-	-
+DBA29548.1	ffcabb6878116bf0f8fd639e52b7b013	497	Pfam	PF00264	Common central domain of tyrosinase	149	382	7.6E-29	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+KAH8205745.1	e76030f150184bda3304d72d8e838bab	413	Pfam	PF00264	Common central domain of tyrosinase	134	350	7.0E-44	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+ADR50356.1	f7933ae2a57ca3b29f72109445ce7924	713	Pfam	PF03723	Hemocyanin, ig-like domain	428	661	1.7E-59	T	06-11-2023	IPR005203	Hemocyanin, C-terminal
+ADR50356.1	f7933ae2a57ca3b29f72109445ce7924	713	Pfam	PF03722	Hemocyanin, all-alpha domain	68	138	6.1E-7	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+ADR50356.1	f7933ae2a57ca3b29f72109445ce7924	713	Pfam	PF00372	Hemocyanin, copper containing domain	144	419	5.9E-67	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+XP_052989772.1	234da48f72dc92571d05b83251556276	313	Pfam	PF00264	Common central domain of tyrosinase	60	256	1.9E-37	T	06-11-2023	IPR002227	Tyrosinase copper-binding domain
+ANZ03352.1	74a80df7737b18696666af5c272d3536	716	Pfam	PF00372	Hemocyanin, copper containing domain	150	414	4.7E-82	T	06-11-2023	IPR000896	Hemocyanin/hexamerin middle domain
+ANZ03352.1	74a80df7737b18696666af5c272d3536	716	Pfam	PF03722	Hemocyanin, all-alpha domain	76	143	9.4E-14	T	06-11-2023	IPR005204	Hemocyanin, N-terminal
+ANZ03352.1	74a80df7737b18696666af5c272d3536	716	Pfam	PF03723	Hemocyanin, ig-like domain	424	677	1.2E-75	T	06-11-2023	IPR005203	Hemocyanin, C-terminal

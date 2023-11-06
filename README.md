@@ -97,11 +97,11 @@ Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-blast polyphe
 Run this:
 `qrsh`
 `/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk00.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk00.interproscan`
+
 `/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk01.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-blast/chunk01.interproscan`
 etc.
 
-Download the results:`scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-blast-hits data`
-
+Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-blast data`
 
 (not working yet, because it runs with the wrong version of Java, when submitted to the queue)
 Using jobscripts:
@@ -109,7 +109,7 @@ On the HPC:
 `python3 polyphenol-oxidases/interproscan-blast/runinterproscan.py`
 
 ### Enrich selected hits with Pfam
-To enrich the filtered blast hits with pfam data, run `python src/data-collection/enrich-blast-hits-interproscan.py`. This creates the file `data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv`.
+To enrich the filtered blast hits with pfam data, run `python src/data-collection/enrich-blast-hits-interproscan.py`. This creates the file `data/blast/unique-hits-enriched-interproscan.tsv`.
 
 ### Extract pfam domains from blast hits
 To extract the pfam domains from the blast hits, run `python src/interproscan/make-pfam-domain-fasta-blast-hits.py`. This creates the file `data/blast/unique-hits-1e-60-length150-1000-cd-hit65-pfam-domains.fa`.

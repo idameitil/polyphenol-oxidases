@@ -14,5 +14,5 @@ for i in range(0, N):
 df_interproscan = make_interproscan_df(acc2domain, unique_domains)
 
 # Merge
-merged_df = pd.merge(df_unique_hits_enriched, df_interproscan, how='right', on='protein_accession')
-merged_df.to_csv('data/blast/unique-hits-1e-60-length150-1000-cd-hit65-enriched.tsv', sep='\t', index=False)
+merged_df = pd.merge(df_unique_hits_enriched, df_interproscan, how='left', on='protein_accession')
+merged_df.to_csv('data/blast/unique-hits-enriched-interproscan.tsv', sep='\t', index=False)
