@@ -126,4 +126,23 @@ To make iTOL label files, run `python src/itol-label-files/make-itol-label-files
 # Structural visualizations
 To show the structures run `pymol src/structural-visualizations/show-models.pml`.
 
+# Pfam
+Fasta of the Pfam entries was downloaded from `https://www.ebi.ac.uk/interpro/entry/pfam/PF00264/protein/UniProt/#table` and saved in `data/pfam/protein-matching-PF00264.fasta`.
+`cd-hit -i data/pfam/protein-matching-PF00264.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-cdhit0.4.fasta`
 
+A json file with metadata was also downloaded and saved in `data/pfam/protein-matching-PF00264.json`.
+
+Aligned sequences were downloaded `data/pfam/PF00264.alignment.uniprot`.
+
+The pfam HMM was downloaded at `https://www.ebi.ac.uk/interpro/entry/pfam/PF00264/curation/` and saved in `data/pfam/PF00264.hmm`.
+
+`hmmalign data/pfam/PF00264.hmm data/pfam/protein-matching-PF00264-cdhit0.4.fasta > data/pfam/protein-matching-PF00264-cdhit0.4.fa.hmmalign`.
+
+Convert output file to fasta online: `data/pfam/protein-matching-PF00264-cdhit0.4.fa.hmmalign.fa`
+
+`raxml-ng --msa data/pfam/protein-matching-PF00264-cdhit0.4.fa.hmmalign.fa --model JTT+G4 --redo`
+
+## Only fungi
+Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi.fasta`.
+
+`cd-hit -i data/pfam/protein-matching-PF00264-fungi.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-fungi-cdhit0.4.fasta`
