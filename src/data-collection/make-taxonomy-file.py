@@ -19,6 +19,5 @@ for entry in fasta_sequences:
         for rank in desired_ranks:
             acc2info[acc][rank] = get_taxon(taxid, rank)
 
-
 df = pd.DataFrame.from_dict(acc2info, orient='index')
 df.to_csv("data/pfam/protein-matching-PF00264-fungi.tsv", sep='\t')
