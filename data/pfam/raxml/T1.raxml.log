@@ -1,0 +1,72 @@
+
+RAxML-NG v. 1.2.1 released on 22.12.2023 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M1 Pro, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 26-Jan-2024 13:02:27 as follows:
+
+raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T1 --threads 8 --seed 2 --redo
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): parsimony (1)
+  random seed: 2
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (8 threads), thread pinning: OFF
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+[00:00:00] Reading alignment from file: data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta
+[00:00:00] Loaded alignment with 2165 taxa and 1226 sites
+
+WARNING: Sequences A0A182YU69 and A0A6P7SER3 are exactly identical!
+WARNING: Duplicate sequences found: 1
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /Users/idamei/polyphenol-oxidases/data/pfam/raxml/T1.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 1165 patterns
+
+Partition 0: noname
+Model: JTT+G4m
+Alignment sites / patterns: 1226 / 1165
+Gaps: 84.26 %
+Invariant sites: 18.27 %
+
+
+NOTE: Binary MSA file created: data/pfam/raxml/T1.raxml.rba
+
+Parallelization scheme autoconfig: 1 worker(s) x 8 thread(s)
+
+
+NOTE: Per-rate scalers were automatically enabled to prevent numerical issues on taxa-rich alignments.
+NOTE: You can use --force switch to skip this check and fall back to per-site scalers.
+
+[00:00:00] Generating 1 parsimony starting tree(s) with 2165 taxa
+Parallel parsimony with 8 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:02] Data distribution: max. partitions/sites/weight per thread: 1 / 146 / 11680
+[00:00:02] Data distribution: max. searches per worker: 1
+
+Starting ML tree search with 1 distinct starting trees
+
+[00:00:02 -921252.467872] Initial branch length optimization
+[00:00:23 -851667.022702] Model parameter optimization (eps = 10.000000)
+[00:00:39 -851402.644906] AUTODETECT spr round 1 (radius: 5)
+[00:03:52 -842463.364332] AUTODETECT spr round 2 (radius: 10)
+[00:13:51 -838321.420350] AUTODETECT spr round 3 (radius: 15)
+[00:32:56 -836880.264979] AUTODETECT spr round 4 (radius: 20)

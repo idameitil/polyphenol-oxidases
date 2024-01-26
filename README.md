@@ -126,9 +126,11 @@ To make iTOL label files, run `python src/itol-label-files/make-itol-label-files
 # Structural visualizations
 To show the structures run `pymol src/structural-visualizations/show-models.pml`.
 
-# Pfam
+# Downloading Pfam family (uniprot members etc.)
 Fasta of the Pfam entries was downloaded from `https://www.ebi.ac.uk/interpro/entry/pfam/PF00264/protein/UniProt/#table` and saved in `data/pfam/protein-matching-PF00264.fasta`.
 `cd-hit -i data/pfam/protein-matching-PF00264.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-cdhit0.4.fasta`
+
+A fasta file with only the uniprot ID in the header was generated using find and replace regex (find ">([A-Z0-9]+).+", replace with ">$1"): `data/pfam/protein-matching-PF00264-shortheaders.fasta`
 
 A json file with metadata was also downloaded and saved in `data/pfam/protein-matching-PF00264.json`.
 
@@ -136,13 +138,61 @@ Aligned sequences were downloaded `data/pfam/PF00264.alignment.uniprot`.
 
 The pfam HMM was downloaded at `https://www.ebi.ac.uk/interpro/entry/pfam/PF00264/curation/` and saved in `data/pfam/PF00264.hmm`.
 
-`hmmalign data/pfam/PF00264.hmm data/pfam/protein-matching-PF00264-cdhit0.4.fasta > data/pfam/protein-matching-PF00264-cdhit0.4.fa.hmmalign`.
+# Make tree of whole family
+CD-HIT: `cd-hit -i data/pfam/protein-matching-PF00264-shortheaders.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fasta`
 
-Convert output file to fasta online: `data/pfam/protein-matching-PF00264-cdhit0.4.fa.hmmalign.fa`
+HMMalign: `hmmalign --trim data/pfam/PF00264.hmm data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fasta > data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim`.
 
-`raxml-ng --msa data/pfam/protein-matching-PF00264-cdhit0.4.fa.hmmalign.fa --model JTT+G4 --redo`
+Convert output file to fasta online and make upper case (http://sequenceconversion.bugaco.com/converter/biology/sequences/stockholm_to_fasta.php): `data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta`
+
+Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T1 --threads 8 --seed 2 --redo`
 
 ## Only fungi
-Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi.fasta`.
+Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
 
-`cd-hit -i data/pfam/protein-matching-PF00264-fungi.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-fungi-cdhit0.4.fasta`
+`cd-hit -i data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta`
+
+HMMalign med trimming:
+`hmmalign --trim data/pfam/PF00264.hmm data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta > data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign`
+
+Convert to fasta online and make upper case: `protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta`
+
+`raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta --model JTT+G4 --prefix data/pfam/raxml/T4 --threads 8 --seed 2 --redo`
+
+If it fails, run:
+`raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta --model JTT+G4 --prefix data/pfam/raxml/T4 --threads 8 --seed 2 --redo --blopt nr_safe`
+
+From vital-it website (not used):
+`--msa /scratch/cluster/weekly/raxml/job_85609/sequenceAlignment.fasta --model JTT+G4 --search --opt-branches on --opt-model on --tree pars{5},rand{5} --force --threads 2 --prefix /scratch/cluster/weekly/raxml/job_85609`
+
+# Retrieve taxonomy
+To make a tsv file with taxonomy for each uniprot hit, run: `python src/data-collection/make-taxonomy-file.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi.tsv`.
+
+# Find out which sequences represent the seeds
+The fungal seeds are added to the reduced file: `data/pfam/protein-matching-PF00264-fungi-shortheaders-andseeds.fasta`.
+
+Run CD-HIT: `cd-hit -i data/pfam/protein-matching-PF00264-fungi-shortheaders-andseeds.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-fungi-shortheaders-andseeds-cdhit0.4.fasta`
+
+A file with which sequences represent each seed is manually created: `data/pfam/representative-sequences`.
+
+An iTOL label file with this information is created manually: `data/itol-label-files/seed-representative.txt`.
+
+# Interproscan on uniprot hits
+Transfer the hits file to the HPC: `scp data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot`
+
+Copy the fasta to the HPC: `scp data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot/`
+
+On the HPC:
+Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-uniprot polyphenol-oxidases/interproscan-uniprot/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta`
+
+Run this:
+`qrsh`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/interproscan-uniprot/chunk00.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-uniprot/chunk00.interproscan`
+
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/interproscan-uniprot/chunk01.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-uniprot/chunk01.interproscan`
+etc.
+
+Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot data`
+
+### Enrich fungal uniprot hits with domain architecture
+To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-interproscan.tsv`. (note that only the reduces hits are enriched, so there are many lines without pfam info)

@@ -1,12 +1,14 @@
 import pandas as pd
 import random
 
-def make_taxonomy_label_files(df, blast_hits=False):
+def make_taxonomy_label_files(df, blast_hits=False, uniprot_hits=False):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
     for rank in wanted_ranks:
         # Get output filename
         if blast_hits:
             output_filename = f"data/itol-label-files/{rank}-blast-hits.txt"
+        elif uniprot_hits:
+            output_filename = f"data/itol-label-files/{rank}-uniprot-hits.txt"
         else:
             output_filename = f"data/itol-label-files/{rank}-seeds.txt"
         # Write file
@@ -112,9 +114,11 @@ def make_aguilera_subclass_label_file_text(df):
                 continue
             file.write(f"{row.protein_accession},{row['Subclass']},-1,{value2color[row['Subclass']]},bold,1,0\n")
 
-def make_domain_label_file(df, blast_hits=False):
+def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
     if blast_hits:
         output_filename = "data/itol-label-files/domain-blast-hits.txt"
+    elif uniprot_hits:
+        output_filename = "data/itol-label-files/domain-uniprot-hits.txt"
     else:
         output_filename = "data/itol-label-files/domain-seeds.txt"
     with open(output_filename, "w") as file:
@@ -124,7 +128,7 @@ def make_domain_label_file(df, blast_hits=False):
         domains = [column_name for column_name in df.columns if column_name.startswith('domain_')]
         for index, row in df.iterrows():
             try:
-                if blast_hits:
+                if blast_hits or uniprot_hits:
                     file.write(f"{row.protein_accession},{len(row.seq)}")
                 else:
                     file.write(f"{row.protein_accession},{len(row.sequence)}")
@@ -157,20 +161,25 @@ def make_domain_label_file(df, blast_hits=False):
                         file.write(f",{shape}|{start}|{stop}|{domain2color[domain_name]}|{domain_description}")
             file.write('\n')
 
-# Make seed label files
-seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
-make_taxonomy_label_files(seed_df)
-make_activity_label_file(seed_df)
-make_binary_label_files(seed_df)
-make_aguilera_subclass_label_file(seed_df)
-# make_aguilera_subclass_label_file_text(seed_df)
-make_domain_label_file(seed_df)
+# # Make seed label files
+# seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
+# make_taxonomy_label_files(seed_df)
+# make_activity_label_file(seed_df)
+# make_binary_label_files(seed_df)
+# make_aguilera_subclass_label_file(seed_df)
+# # make_aguilera_subclass_label_file_text(seed_df)
+# make_domain_label_file(seed_df)
 
-# Make blast hit label files
-df_blast_hits = pd.read_csv('data/blast/unique-hits-enriched-interproscan.tsv', sep='\t')
-make_domain_label_file(df_blast_hits, blast_hits=True)
-make_taxonomy_label_files(df_blast_hits, blast_hits=True)
+# # Make blast hit label files
+# df_blast_hits = pd.read_csv('data/blast/unique-hits-enriched-interproscan.tsv', sep='\t')
+# make_domain_label_file(df_blast_hits, blast_hits=True)
+# make_taxonomy_label_files(df_blast_hits, blast_hits=True)
 
-# Make aguilera label files
-df_aguilera = pd.read_excel('data/Aguilera-data/aguilera_with_seq.xlsx')
-make_aguilera_subclass_label_file_text(df_aguilera)
+# # Make aguilera label files
+# df_aguilera = pd.read_excel('data/Aguilera-data/aguilera_with_seq.xlsx')
+# make_aguilera_subclass_label_file_text(df_aguilera)
+
+# Make Uniprot hits label files
+df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-fungi-interproscan.tsv', sep='\t')
+make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
+make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)

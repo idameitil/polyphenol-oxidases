@@ -1,0 +1,86 @@
+A0A9Q8SJY5	a796cf187b94a9a7d9b0b28200fea236	900	Pfam	PF00264	Common central domain of tyrosinase	119	356	2.6E-48	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A067MSX0	fa6c47c219f5af45866ae7255bd0393c	403	Pfam	PF00264	Common central domain of tyrosinase	118	331	2.1E-33	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A137PDD6	3a934777a41e0b74338b573a82ac1d03	393	Pfam	PF00264	Common central domain of tyrosinase	56	234	1.7E-25	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+W7HSW3	bbcb4a8a996578aa6f4e8fac92cdf7da	870	Pfam	PF18132	Tyosinase C-terminal domain	652	768	8.4E-18	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+W7HSW3	bbcb4a8a996578aa6f4e8fac92cdf7da	870	Pfam	PF00264	Common central domain of tyrosinase	263	512	7.1E-35	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6A6FD74	bb25873dd0f6ef600181ecfabda45c5a	1089	Pfam	PF18132	Tyosinase C-terminal domain	819	932	5.0E-20	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A6A6FD74	bb25873dd0f6ef600181ecfabda45c5a	1089	Pfam	PF00264	Common central domain of tyrosinase	357	613	1.3E-41	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8H3IL14	114dba3b248ec511836170f470fd918c	745	Pfam	PF00264	Common central domain of tyrosinase	327	547	2.7E-19	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6A6WC88	89b5694f619abfbc83383d813b876076	654	Pfam	PF00264	Common central domain of tyrosinase	57	356	3.2E-38	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P9ITJ2	cd5aeac817181ef66d9be518a7afc7c6	606	Pfam	PF00264	Common central domain of tyrosinase	111	360	1.5E-36	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P9ITJ2	cd5aeac817181ef66d9be518a7afc7c6	606	Pfam	PF18132	Tyosinase C-terminal domain	476	577	2.7E-9	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A409XHT0	0821564e004c35a0ed4ecf52c06ec45a	544	Pfam	PF18132	Tyosinase C-terminal domain	387	508	2.8E-28	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A409XHT0	0821564e004c35a0ed4ecf52c06ec45a	544	Pfam	PF00264	Common central domain of tyrosinase	56	292	1.6E-37	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A135SXA3	c4872d0625d5087d6d2e017d66f23e30	444	Pfam	PF00264	Common central domain of tyrosinase	18	235	9.2E-36	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A135SXA3	c4872d0625d5087d6d2e017d66f23e30	444	Pfam	PF00172	Fungal Zn(2)-Cys(6) binuclear cluster domain	314	347	8.2E-5	T	26-01-2024	IPR001138	Zn(2)Cys(6) fungal-type DNA-binding domain
+A0A165XET1	a99d0f918c54d589d71fcb5df91413cc	607	Pfam	PF18132	Tyosinase C-terminal domain	443	564	5.3E-22	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A165XET1	a99d0f918c54d589d71fcb5df91413cc	607	Pfam	PF00264	Common central domain of tyrosinase	63	238	4.1E-18	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A0F4GBJ7	fe37ea63fad890a803a3e505cf0e976c	610	Pfam	PF00264	Common central domain of tyrosinase	114	317	2.5E-38	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6H0Y3Z6	d7609d45dc3fda3edf9ba2cc2f34861a	847	Pfam	PF12171	Zinc-finger double-stranded RNA-binding	215	238	0.0031	T	26-01-2024	IPR022755	Zinc finger, double-stranded RNA binding
+A0A6H0Y3Z6	d7609d45dc3fda3edf9ba2cc2f34861a	847	Pfam	PF12108	Splicing factor SF3a60 binding domain	72	98	5.9E-9	T	26-01-2024	IPR021966	Splicing factor SF3a60 binding domain
+A0A6H0Y3Z6	d7609d45dc3fda3edf9ba2cc2f34861a	847	Pfam	PF00264	Common central domain of tyrosinase	599	794	1.5E-33	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6H0Y3Z6	d7609d45dc3fda3edf9ba2cc2f34861a	847	Pfam	PF11931	SF3a60/Prp9 C-terminal	344	461	3.0E-42	T	26-01-2024	IPR024598	Splicing factor SF3a60 /Prp9 subunit, C-terminal
+A0A8H8P654	c72c94266bddbf1e5549134292e37547	556	Pfam	PF00264	Common central domain of tyrosinase	45	234	1.0E-23	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P4TTN6	ab00d85d3f0df2257e87318bdec3139c	623	Pfam	PF00264	Common central domain of tyrosinase	71	336	9.2E-40	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P4TTN6	ab00d85d3f0df2257e87318bdec3139c	623	Pfam	PF18132	Tyosinase C-terminal domain	460	574	9.1E-11	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A9W7ZW57	f2f9f203c140acbd0e3b249662a58ddd	670	Pfam	PF00264	Common central domain of tyrosinase	64	245	1.1E-21	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A0L0RXW5	db805944bbfb1afc919605ceda9d0c84	480	Pfam	PF00264	Common central domain of tyrosinase	83	252	5.2E-20	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+Q2H2F5	1565efc981443d1a9ef7e5915677da4a	733	Pfam	PF00264	Common central domain of tyrosinase	109	340	1.9E-52	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+Q2H2F5	1565efc981443d1a9ef7e5915677da4a	733	Pfam	PF20493	Fungal WD-like	625	732	7.7E-14	T	26-01-2024	IPR046925	WD-like domain, fungi
+A0A9P6AEB2	f779c1c7ce5a4d89acd91107f94efa98	149	Pfam	PF00264	Common central domain of tyrosinase	105	147	1.8E-8	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+K1XKB9	b330ee1498e57c14c48af1538296e31f	373	Pfam	PF00264	Common central domain of tyrosinase	199	217	0.32	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3N4IFD6	476fc2dcad9c533d2d76ae0d8ed0da40	1024	Pfam	PF00264	Common central domain of tyrosinase	29	104	1.9E-7	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3N4IFD6	476fc2dcad9c533d2d76ae0d8ed0da40	1024	Pfam	PF00144	Beta-lactamase	510	831	2.3E-32	T	26-01-2024	IPR001466	Beta-lactamase-related
+A0A1Y1Y162	5d984db97a499b1d59d96f491b4a2373	403	Pfam	PF00264	Common central domain of tyrosinase	58	233	2.5E-32	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1Y2HBJ4	3290003f11fe1103beb887eceb6576ee	515	Pfam	PF00264	Common central domain of tyrosinase	138	300	1.2E-17	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1S8VQQ1	4cd250d8b5ed1901cee29adf1e0abdd9	430	Pfam	PF00264	Common central domain of tyrosinase	64	245	2.4E-32	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2T2NJ62	cae6f6dafcc8972d5d2e3f24ac37aa66	474	Pfam	PF00264	Common central domain of tyrosinase	178	409	5.5E-26	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8E2F2M6	30ae26c01a77c7044c56b989214a7206	700	Pfam	PF00264	Common central domain of tyrosinase	71	359	5.2E-32	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8E2F2M6	30ae26c01a77c7044c56b989214a7206	700	Pfam	PF18132	Tyosinase C-terminal domain	546	668	3.6E-23	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+T0LHS0	a004bea27aec0676514aed798d9e510a	636	Pfam	PF18132	Tyosinase C-terminal domain	439	586	6.2E-15	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+T0LHS0	a004bea27aec0676514aed798d9e510a	636	Pfam	PF00264	Common central domain of tyrosinase	63	342	8.0E-16	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A178ZUW8	34a7291dabd77e69255ed5b1c667b739	1093	Pfam	PF00264	Common central domain of tyrosinase	83	326	1.1E-38	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A178ZUW8	34a7291dabd77e69255ed5b1c667b739	1093	Pfam	PF18132	Tyosinase C-terminal domain	421	500	1.8E-11	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A178ZUW8	34a7291dabd77e69255ed5b1c667b739	1093	Pfam	PF10342	Kre9/KNH-like N-terminal Ig-like domain	538	616	4.6E-10	T	26-01-2024	IPR018466	Yeast cell wall synthesis Kre9/Knh1-like, N-terminal
+A0A1M2V476	b36a378ea1f2eca25efcf7fc2d89a723	560	Pfam	PF18132	Tyosinase C-terminal domain	405	524	5.5E-30	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A1M2V476	b36a378ea1f2eca25efcf7fc2d89a723	560	Pfam	PF00264	Common central domain of tyrosinase	10	270	9.8E-35	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8H5B6S5	32b80c0704f902b1770fc9b2bbfc7c73	660	Pfam	PF18132	Tyosinase C-terminal domain	455	567	2.0E-11	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A8H5B6S5	32b80c0704f902b1770fc9b2bbfc7c73	660	Pfam	PF00264	Common central domain of tyrosinase	59	356	2.8E-40	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P1H547	6b0da852f1f3be9b60b2b2f0c6f7233c	682	Pfam	PF00264	Common central domain of tyrosinase	460	628	3.9E-41	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A5N5LJW2	fa1b1608cf221c61cc3e2b4488775ad6	532	Pfam	PF18132	Tyosinase C-terminal domain	410	505	1.6E-4	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A5N5LJW2	fa1b1608cf221c61cc3e2b4488775ad6	532	Pfam	PF00264	Common central domain of tyrosinase	98	321	4.4E-23	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8S8ZTB1	2b763a623f1801fd3c7c6aaabea38afa	744	Pfam	PF00264	Common central domain of tyrosinase	132	392	3.0E-43	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8S8ZTB1	2b763a623f1801fd3c7c6aaabea38afa	744	Pfam	PF18132	Tyosinase C-terminal domain	580	705	1.1E-33	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A0C9SMC2	f816ead13116afa60c270af013ac5881	655	Pfam	PF00264	Common central domain of tyrosinase	64	339	1.6E-33	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A395IVG2	c00ec2eda30fd9e1021914b8232b5213	529	Pfam	PF00264	Common central domain of tyrosinase	94	317	1.2E-25	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A395IVG2	c00ec2eda30fd9e1021914b8232b5213	529	Pfam	PF18132	Tyosinase C-terminal domain	391	493	4.3E-7	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A9W9W8Y3	84c3165998ff36fe8956098a9950873c	346	Pfam	PF00264	Common central domain of tyrosinase	63	269	8.8E-49	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A292PZ61	a8620482269d77ec28def8621e4e004e	657	Pfam	PF18132	Tyosinase C-terminal domain	488	617	2.3E-32	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A292PZ61	a8620482269d77ec28def8621e4e004e	657	Pfam	PF00264	Common central domain of tyrosinase	56	323	2.1E-38	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9W8EDJ4	f87ea70fa2d88655df618f0b7dbff1cf	492	Pfam	PF00264	Common central domain of tyrosinase	90	265	2.8E-34	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4Q2D856	1c284a2a151999aa55379755ea742f94	578	Pfam	PF00264	Common central domain of tyrosinase	303	521	5.7E-40	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4Q2D856	1c284a2a151999aa55379755ea742f94	578	Pfam	PF00734	Fungal cellulose binding domain	25	53	4.2E-9	T	26-01-2024	IPR000254	Cellulose-binding domain, fungal
+A0A4Q2D856	1c284a2a151999aa55379755ea742f94	578	Pfam	PF13472	GDSL-like Lipase/Acylhydrolase family	102	271	7.5E-15	T	26-01-2024	IPR013830	SGNH hydrolase-type esterase domain
+A0A8H6ARC5	3e11849e82e517885171de338a9e1238	879	Pfam	PF00732	GMC oxidoreductase	428	598	1.7E-7	T	26-01-2024	IPR000172	Glucose-methanol-choline oxidoreductase, N-terminal
+A0A8H6ARC5	3e11849e82e517885171de338a9e1238	879	Pfam	PF00264	Common central domain of tyrosinase	146	291	1.0E-17	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8H6ARC5	3e11849e82e517885171de338a9e1238	879	Pfam	PF05199	GMC oxidoreductase	729	871	1.2E-27	T	26-01-2024	IPR007867	Glucose-methanol-choline oxidoreductase, C-terminal
+A0A4S4MA69	19d4ec743cf5b9970b8a95dd7841de80	955	Pfam	PF13679	Methyltransferase domain	574	735	4.9E-11	T	26-01-2024	IPR025714	Methyltransferase domain
+A0A4S4MA69	19d4ec743cf5b9970b8a95dd7841de80	955	Pfam	PF00264	Common central domain of tyrosinase	80	297	1.0E-32	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4Z1EV38	15ff9110f27b7355d73b139366239e5a	922	Pfam	PF05577	Serine carboxypeptidase S28	521	847	4.0E-27	T	26-01-2024	IPR008758	Peptidase S28
+A0A4Z1EV38	15ff9110f27b7355d73b139366239e5a	922	Pfam	PF05577	Serine carboxypeptidase S28	372	453	3.3E-9	T	26-01-2024	IPR008758	Peptidase S28
+A0A4Z1EV38	15ff9110f27b7355d73b139366239e5a	922	Pfam	PF00264	Common central domain of tyrosinase	128	319	1.4E-25	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P8H9B7	690d7cea1d1f550dc6c603f079a552a9	810	Pfam	PF00264	Common central domain of tyrosinase	100	352	3.8E-42	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P8H9B7	690d7cea1d1f550dc6c603f079a552a9	810	Pfam	PF18132	Tyosinase C-terminal domain	559	681	2.2E-31	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A0A1T2S7	62c08319170ac74e5d822a375e7ebdb7	569	Pfam	PF00264	Common central domain of tyrosinase	73	310	5.3E-36	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8H4K856	6bacc3124551bc24ea1b828c6c6adc3e	1183	Pfam	PF00264	Common central domain of tyrosinase	65	280	1.8E-19	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8H4K856	6bacc3124551bc24ea1b828c6c6adc3e	1183	Pfam	PF18132	Tyosinase C-terminal domain	404	522	2.8E-21	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A517LLS8	b52aaa9979645e56762680bf0c1f770c	378	Pfam	PF00264	Common central domain of tyrosinase	127	318	1.6E-32	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2V1BD74	21ead13907961f406c9b9d522c5d8b8b	291	Pfam	PF00264	Common central domain of tyrosinase	69	176	5.2E-16	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2V1BD74	21ead13907961f406c9b9d522c5d8b8b	291	Pfam	PF00264	Common central domain of tyrosinase	178	224	4.0E-12	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8H7EBK0	2d89ba18393e2f785186de3b6d1a3fbc	1217	Pfam	PF18132	Tyosinase C-terminal domain	1052	1171	1.2E-9	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A8H7EBK0	2d89ba18393e2f785186de3b6d1a3fbc	1217	Pfam	PF05147	Lanthionine synthetase C-like protein	363	628	4.7E-27	T	26-01-2024	IPR007822	Lanthionine synthetase C-like
+A0A8H7EBK0	2d89ba18393e2f785186de3b6d1a3fbc	1217	Pfam	PF00264	Common central domain of tyrosinase	689	934	1.3E-34	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4P9W3F0	8cd84925502ea1d27282dd0e07a1c40b	154	Pfam	PF00264	Common central domain of tyrosinase	98	150	0.27	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2I2G6A8	e9a4d1d567681831fa7557f109362867	650	Pfam	PF18132	Tyosinase C-terminal domain	505	586	2.5E-6	T	26-01-2024	IPR041640	Tyrosinase, C-terminal
+A0A2I2G6A8	e9a4d1d567681831fa7557f109362867	650	Pfam	PF00264	Common central domain of tyrosinase	66	411	1.8E-31	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
+F4PBL1	a8c9251ed1616cd83ef9aac4378b6ba4	471	Pfam	PF00264	Common central domain of tyrosinase	86	269	4.3E-42	T	26-01-2024	IPR002227	Tyrosinase copper-binding domain
