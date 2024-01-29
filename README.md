@@ -158,6 +158,17 @@ Convert output file to fasta online and make upper case (http://sequenceconversi
 
 Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-70-1000-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T3 --threads 8 --seed 2 --redo`
 
+# Make tree of whole family with length, score and coverage filter
+Filter fasta `python src/data-collection/length-filter.py`. This generates the file `data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta`.
+
+CD-HIT: `cd-hit -i data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta`
+
+HMMalign: `hmmalign --trim data/pfam/PF00264.hmm data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta > data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim`.
+
+Convert output file to fasta online and make upper case (http://sequenceconversion.bugaco.com/converter/biology/sequences/stockholm_to_fasta.php): `data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta`
+
+Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T5 --threads 8 --seed 2 --redo`
+
 ## Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
 
