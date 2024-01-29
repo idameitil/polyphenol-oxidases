@@ -2,7 +2,7 @@ import pandas as pd
 from common import read_interproscan_output, make_interproscan_df
 
 # Read enriched unique hits
-df_unique_hits_enriched = pd.read_csv("data/pfam/protein-matching-PF00264-fungi.tsv", sep = '\t')
+df_unique_hits_enriched = pd.read_csv("data/pfam/protein-matching-PF00264.tsv", sep = '\t')
 
 # Get interproscan data
 N = 20
@@ -15,4 +15,4 @@ df_interproscan = make_interproscan_df(acc2domain, unique_domains)
 
 # Merge
 merged_df = pd.merge(df_unique_hits_enriched, df_interproscan, how='left', on='protein_accession')
-merged_df.to_csv('data/pfam/protein-matching-PF00264-fungi-interproscan.tsv', sep='\t', index=False)
+merged_df.to_csv('data/pfam/protein-matching-PF00264-interproscan.tsv', sep='\t', index=False)

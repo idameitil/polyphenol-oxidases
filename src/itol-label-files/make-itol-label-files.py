@@ -1,6 +1,8 @@
 import pandas as pd
 import random
 
+random.seed(10)
+
 def make_taxonomy_label_files(df, blast_hits=False, uniprot_hits=False):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
     for rank in wanted_ranks:
@@ -180,6 +182,6 @@ def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
 # make_aguilera_subclass_label_file_text(df_aguilera)
 
 # Make Uniprot hits label files
-df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-fungi-interproscan.tsv', sep='\t')
+df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan.tsv', sep='\t')
 make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
 make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
