@@ -145,7 +145,7 @@ HMMalign: `hmmalign --trim data/pfam/PF00264.hmm data/pfam/protein-matching-PF00
 
 Convert output file to fasta online and make upper case (http://sequenceconversion.bugaco.com/converter/biology/sequences/stockholm_to_fasta.php): `data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta`
 
-Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T1 --threads 8 --seed 2 --redo`
+Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T2 --threads 8 --seed 2 --redo`
 
 ## Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
