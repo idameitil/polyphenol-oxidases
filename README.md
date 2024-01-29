@@ -197,7 +197,9 @@ Run CD-HIT: `cd-hit -i data/pfam/protein-matching-PF00264-fungi-shortheaders-and
 
 A file with which sequences represent each seed is manually created: `data/pfam/representative-sequences`.
 
-An iTOL label file with this information is created manually: `data/itol-label-files/seed-representative.txt`.
+An iTOL label file with this information is created manually: `data/itol-label-files/seed-representatives-not-filtered.txt`.
+
+For the filtered ones, the equivalent precedure is used, and the final file is`data/itol-label-files/seed-representatives-filtered.txt`.
 
 # Interproscan on uniprot hits
 Transfer the hits file to the HPC: `scp data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot`
