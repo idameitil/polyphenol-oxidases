@@ -169,6 +169,10 @@ Convert output file to fasta online and make upper case (http://sequenceconversi
 
 Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T5 --threads 8 --seed 2 --redo`
 
+Aclust tree with full length was made on the HPC and saved in `data/trees/aclust-uniprot-al-kingdoms-filtered.nwk`. This file was used as input: `data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta`.
+
+An aclust tree with trimmed sequences was made on the HPC and saved in `data/trees/aclust-uniprot-al-kingdoms-filtered.nwk`. This file was used as input: `data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta.aclustinput`.
+
 ## Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
 
