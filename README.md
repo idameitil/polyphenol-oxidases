@@ -205,8 +205,8 @@ An iTOL label file with this information is created manually: `data/itol-label-f
 
 For the filtered ones, the equivalent precedure is used, and the final file is`data/itol-label-files/seed-representatives-filtered.txt`.
 
-# Interproscan on uniprot hits
-Transfer the hits file to the HPC: `scp data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot`
+# Interproscan on fungal uniprot hits
+(Delete this?) Transfer the hits file to the HPC: `scp data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot`
 
 Copy the fasta to the HPC: `scp data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot/`
 
@@ -222,5 +222,20 @@ etc.
 
 Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot data`
 
+# Interproscan on uniprot hits for all kingdoms
+Copy the fasta to the HPC: `scp data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms`
+
+On the HPC:
+Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan-uniprot-allkingdoms polyphenol-oxidases/interproscan-uniprot-allkingdoms/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta`
+
+Run this:
+`qrsh`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms/chunk00.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms/chunk00.interproscan`
+
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms/chunk01.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms/chunk01.interproscan`
+etc.
+
+Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms data`
+
 ### Enrich fungal uniprot hits with domain architecture
-To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-interproscan.tsv`. (note that only the reduces hits are enriched, so there are many lines without pfam info)
+To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan.tsv`. (note that only the reduces hits are enriched, so there are many lines without pfam info)

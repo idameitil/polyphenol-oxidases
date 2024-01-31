@@ -9,7 +9,7 @@ N = 20
 unique_domains = set()
 acc2domain = {}
 for i in range(0, N):
-    filename = f"data/interproscan-uniprot/chunk{'%02d' % i}.interproscan"
+    filename = f"data/interproscan-uniprot-allkingdoms/chunk{'%02d' % i}.interproscan"
     acc2domain, unique_domains = read_interproscan_output(filename, acc2domain, unique_domains)
 df_interproscan = make_interproscan_df(acc2domain, unique_domains)
 
