@@ -1,3 +1,6 @@
+# Discussion with Caio 31 Jan.
+Applications of oxydized phenols: Enhance the antioxidant value of lignin. Change the propoerties. Bacteria can only open rings of diphenols.
+
 # hydroxybenzoic acid (H unit)
 
 # Short fungal
