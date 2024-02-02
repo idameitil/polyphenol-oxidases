@@ -136,6 +136,8 @@ A json file with metadata was also downloaded and saved in `data/pfam/protein-ma
 
 Aligned sequences were downloaded `data/pfam/PF00264.alignment.uniprot`.
 
+The alignment is cleaned from columns with insertions by running python `src/data-collection/clean-hmm-alignment.py`. This created the fasta file `data/pfam/PF00264.alignment.uniprot-cleaned.fa`.
+
 The pfam HMM was downloaded at `https://www.ebi.ac.uk/interpro/entry/pfam/PF00264/curation/` and saved in `data/pfam/PF00264.hmm`.
 
 # Make tree of whole family
@@ -159,7 +161,7 @@ Convert output file to fasta online and make upper case (http://sequenceconversi
 Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-70-1000-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T3 --threads 8 --seed 2 --redo`
 
 # Make tree of whole family with length, score and coverage filter
-Filter fasta `python src/data-collection/length-filter.py`. This generates the file `data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta`.
+Filter fasta `python src/data-collection/filter.py`. This generates the file `data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta`.
 
 CD-HIT: `cd-hit -i data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta`
 
