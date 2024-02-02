@@ -147,7 +147,7 @@ HMMalign: `hmmalign --trim data/pfam/PF00264.hmm data/pfam/protein-matching-PF00
 
 Convert output file to fasta online and make upper case (http://sequenceconversion.bugaco.com/converter/biology/sequences/stockholm_to_fasta.php): `data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta`
 
-Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T2 --threads 8 --seed 2 --redo`
+Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T2 --threads 8 --seed 2`
 
 # Make tree of whole family with length filter
 Filter fasta by length: `python src/data-collection/length-filter.py`. This generates the file `data/pfam/protein-matching-PF00264-shortheaders-70-1000.fasta`.
@@ -158,7 +158,7 @@ HMMalign: `hmmalign --trim data/pfam/PF00264.hmm data/pfam/protein-matching-PF00
 
 Convert output file to fasta online and make upper case (http://sequenceconversion.bugaco.com/converter/biology/sequences/stockholm_to_fasta.php): `data/pfam/protein-matching-PF00264-shortheaders-20-1000-cdhit0.4.fa.hmmaligntrim.fasta`
 
-Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-70-1000-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T3 --threads 8 --seed 2 --redo`
+Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-70-1000-cdhit0.4.fa.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T3 --threads 8 --seed 2`
 
 # Make tree of whole family with length, score and coverage filter
 Filter fasta `python src/data-collection/filter.py`. This generates the file `data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta`.
@@ -169,13 +169,18 @@ HMMalign: `hmmalign --trim data/pfam/PF00264.hmm data/pfam/protein-matching-PF00
 
 Convert output file to fasta online and make upper case (http://sequenceconversion.bugaco.com/converter/biology/sequences/stockholm_to_fasta.php): `data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta`
 
-Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T5 --threads 8 --seed 2 --redo`
+Make tree: `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta --model JTT+G4 --prefix data/pfam/raxml/T5 --threads 8 --seed 2`
 
 Aclust tree with full length was made on the HPC and saved in `data/trees/aclust-uniprot-al-kingdoms-filtered.nwk`. This file was used as input: `data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta`.
 
 An aclust tree with trimmed sequences was made on the HPC and saved in `data/trees/aclust-uniprot-al-kingdoms-filtered.nwk`. This file was used as input: `data/pfam/protein-matching-PF00264-shortheaders-filtered-cdhit0.4.fasta.hmmaligntrim.fasta.aclustinput`.
 
-## Only fungi
+## Make tree based on pfam alignment with filtered hits all kingdoms
+To make an alignment file with only the filtered redundancy reduced hits, run `src/data-collection/take-subset-of-alignment.py`. This creates the file `data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa`.
+
+To make the tree, run `raxml-ng --search1 --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa --model JTT+G4 --prefix data/pfam/raxml/T6 --threads 7 --seed 2`.
+
+# Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
 
 `cd-hit -i data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta -c 0.4 -n 2 -o data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4.fasta`
@@ -185,10 +190,10 @@ HMMalign med trimming:
 
 Convert to fasta online and make upper case: `protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta`
 
-`raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta --model JTT+G4 --prefix data/pfam/raxml/T4 --threads 8 --seed 2 --redo`
+`raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta --model JTT+G4 --prefix data/pfam/raxml/T4 --threads 8 --seed 2`
 
 If it fails, run:
-`raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta --model JTT+G4 --prefix data/pfam/raxml/T4 --threads 8 --seed 2 --redo --blopt nr_safe`
+`raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta --model JTT+G4 --prefix data/pfam/raxml/T4 --threads 8 --seed 2 --blopt nr_safe`
 
 From vital-it website (not used):
 `--msa /scratch/cluster/weekly/raxml/job_85609/sequenceAlignment.fasta --model JTT+G4 --search --opt-branches on --opt-model on --tree pars{5},rand{5} --force --threads 2 --prefix /scratch/cluster/weekly/raxml/job_85609`
