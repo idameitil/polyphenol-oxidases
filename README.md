@@ -178,7 +178,7 @@ An aclust tree with trimmed sequences was made on the HPC and saved in `data/tre
 ## Make tree based on pfam alignment with filtered hits all kingdoms
 To make an alignment file with only the filtered redundancy reduced hits, run `src/data-collection/take-subset-of-alignment.py`. This creates the file `data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa`.
 
-To make the tree, run `raxml-ng --search1 --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa --model JTT+G4 --prefix data/pfam/raxml/T6 --threads 7 --seed 2`.
+To make the tree, run: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa --model JTT+G4 --prefix data/pfam/raxml/T7 --threads 7 --seed 2 --blopt nr_safe`.
 
 # Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
