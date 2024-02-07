@@ -180,6 +180,23 @@ To make an alignment file with only the filtered redundancy reduced hits, run `s
 
 To make the tree, run: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa --model JTT+G4 --prefix data/pfam/raxml/T7 --threads 7 --seed 2 --blopt nr_safe`.
 
+### With cd-hit on the alignment subset
+To take the subset of the alignment that is in the fasta, run: `python src/data-collection/take-subset-of-alignment.py`. This creates the files `data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa`, `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa`, `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi.fa` and `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps.fa`.
+
+CD-HIT all kingdoms: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa -c 0.4 -n 2 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-cdhit0.4.fasta`
+
+CD-HIT fungi: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps.fa -c 0.5 -n 3 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-cdhit0.5.fasta`
+
+To make the redundancy reduced alignment, run `python src/data-collection/make-redundancy-reduced-fasta.py`. This produces the files `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-cdhit0.4.fasta` and `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-cdhit0.5.fasta`.
+
+Make the tree: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered-cdhit0.4.fasta --model JTT+G4 --prefix data/pfam/raxml/T8 --threads 7 --seed 2 --blopt nr_safe`
+
+Make the tree: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered-cdhit0.5.fasta --model JTT+G4 --prefix data/pfam/raxml/T9 --threads 7 --seed 2 --blopt nr_safe`
+
+For fungi: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps.fa -c 0.6 -n 4 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-cdhit0.6.fasta`
+
+Make the tree: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered-cdhit0.4.fasta --model JTT+G4 --prefix data/pfam/raxml/T10 --threads 7 --seed 2 --blopt nr_safe`
+
 # Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
 
