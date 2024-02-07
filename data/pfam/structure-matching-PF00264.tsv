@@ -1,0 +1,120 @@
+Accession	Source Database	Name	Experiment Type	Resolution	Chains	Proteins	Protein Length	Structure Location	matches
+1bt1	pdb	CATECHOL OXIDASE FROM IPOMOEA BATATAS (SWEET POTATOES) IN THE NATIVE CU(II)-CU(II) STATE	x-ray	2.7	A;B	;	496;496	;	79..286;79..286
+1bt2	pdb	CATECHOL OXIDASE FROM IPOMOEA BATATAS (SWEET POTATOES) IN THE REDUCED CU(I)-CU(I) STATE	x-ray	2.7	A;B	;	496;496	;	79..286;79..286
+1bt3	pdb	CATECHOL OXIDASE FROM IPOMOEA BATATAS (SWEET POTATOES) IN THE NATIVE CU(II)-CU(II) STATE	x-ray	2.5	A		496		79..286
+1bug	pdb	CATECHOL OXIDASE FROM IPOMOEA BATATAS (SWEET POTATOES)-INHIBITOR COMPLEX WITH PHENYLTHIOUREA (PTU)	x-ray	2.7	A;B	;	496;496	;	79..286;79..286
+1js8	pdb	Structure of a Functional Unit from Octopus Hemocyanin	x-ray	2.3	A;B	;	2896;2896	;	"32..221,452..644,866..1056,1283..1468,1700..1892,2118..2305,2534..2714;32..221,452..644,866..1056,1283..1468,1700..1892,2118..2305,2534..2714"
+1lnl	pdb	Structure of deoxygenated hemocyanin from Rapana thomasiana	x-ray	3.3	A;B;C	;;	413;413;413	;;	40..232;40..232;40..232
+1wx2	pdb	Crystal Structure of the oxy-form of the copper-bound Streptomyces castaneoglobisporus tyrosinase complexed with a caddie protein prepared by the addition of hydrogenperoxide	x-ray	1.8	A		273		29..229
+1wx4	pdb	Crystal structure of the oxy-form of the copper-bound Streptomyces castaneoglobisporus tyrosinase complexed with a caddie protein prepared by the addition of dithiothreitol	x-ray	1.5	A		273		29..229
+1wx5	pdb	Crystal Structure of the copper-free Streptomyces castaneoglobisporus tyrosinase complexed with a caddie protein in the monoclinic crystal	x-ray	2.02	A;C	;	273;273	;	29..229;29..229
+1wxc	pdb	Crystal Structure of the copper-free Streptomyces castaneoglobisporus tyrosinase complexed with a caddie protein	x-ray	1.2	A		273		29..229
+2ahk	pdb	Crystal structure of the met-form of the copper-bound Streptomyces castaneoglobisporus tyrosinase in complex with a caddie protein obtained by soking in cupric sulfate for 6 months	x-ray	1.71	A		273		29..229
+2ahl	pdb	Crystal structure of the hydroxylamine-induced deoxy-form of the copper-bound Streptomyces castaneoglobisporus tyrosinase in complex with a caddie protein	x-ray	1.6	A		273		29..229
+2p3x	pdb	Crystal structure of Grenache (Vitis vinifera) Polyphenol Oxidase	x-ray	2.2	A		607		180..387
+2y9w	pdb	"Crystal structure of PPO3, a tyrosinase from Agaricus bisporus, in deoxy-form that contains additional unknown lectin-like subunit"	x-ray	2.3	A;B	;	576;576	;	52..308;52..308
+2y9x	pdb	"Crystal structure of PPO3, a tyrosinase from Agaricus bisporus, in deoxy-form that contains additional unknown lectin-like subunit, with inhibitor tropolone"	x-ray	2.78	A;B;C;D	;;;	576;576;576;576	;;;	52..308;52..308;52..308;52..308
+2zmx	pdb	Crystal structure of the met1-form of the copper-bound tyrosinase in complex with a caddie protein from Streptomyces castaneoglobisporus obtained by soaking in cupric sulfate solution for 36 hours	x-ray	1.33	A		273		29..229
+2zmy	pdb	Crystal structure of the met2-form of the copper-bound tyrosinase in complex with a caddie protein from Streptomyces castaneoglobisporus obtained by soaking in cupric sulfate solution for 80 hours	x-ray	1.45	A		273		29..229
+2zmz	pdb	The 1.37-A crystal structure of the hydroxylamine-induced deoxy-form of the copper-bound tyrosinase in complex with a caddie protein from Streptomyces castaneoglobisporus	x-ray	1.37	A		273		29..229
+2zwd	pdb	Crystal structure of the copper-bound tyrosinase in complex with a caddie protein from streptomyces castaneoglobisporus obtained by soaking the deoxy-form crystal in dioxygen-saturated solution for 5 minutes	x-ray	1.35	A		273		29..229
+2zwe	pdb	Crystal structure of the copper-bound tyrosinase in complex with a caddie protein from streptomyces castaneoglobisporus obtained by soaking the deoxy-form crystal in dioxygen-saturated solution for 40 minutes	x-ray	1.32	A		273		29..229
+2zwf	pdb	Crystal structure of the copper-bound tyrosinase in complex with a caddie protein from streptomyces castaneoglobisporus obtained by soaking the deoxy-form crystal in dioxygen-saturated solution for 80 minutes	x-ray	1.4	A		273		29..229
+2zwg	pdb	Crystal structure of the copper-bound tyrosinase in complex with a caddie protein from streptomyces castaneoglobisporus obtained by soaking the deoxy-form crystal in dioxygen-saturated solution for 12 hours	x-ray	1.32	A		273		29..229
+3aws	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie soaked in a Cu(II)-containing solution for 20 hr: occupancy of Cu(II) is low	x-ray	1.24	A		273		29..229
+3awt	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie soaked in a Cu(II)-containing solution for 20 hr: occupancy of Cu(II) is high	x-ray	1.35	A		273		29..229
+3awu	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie soaked in a Cu(II)-containing solution for 40 h	x-ray	1.16	A		273		29..229
+3awv	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie soaked in a Cu(II)-containing solution for 80 hr: occupancy of CuA is low	x-ray	1.4	A		273		29..229
+3aww	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie soaked in a Cu(II)-containing solution for 80 hr: occupancy of CuA is high	x-ray	1.35	A		273		29..229
+3awx	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie H82Q mutant soaked in a Cu(II)-containing solution for 80 hr	x-ray	1.25	A		273		29..229
+3awy	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie M84L mutant soaked in a Cu(II)-containing solution for 80 hr	x-ray	1.58	A		273		29..229
+3awz	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie H97Q mutant soaked in a Cu(II)-containing solution for 80 hr	x-ray	1.43	A		273		29..229
+3ax0	pdb	Crystal structure of Streptomyces tyrosinase in a complex with caddie Y98F mutant soaked in a Cu(II)-containing solution for 80 hr	x-ray	1.4	A		273		29..229
+3j32	pdb	An asymmetric unit map from electron cryo-microscopy of Haliotis diversicolor molluscan hemocyanin isoform 1 (HdH1)	em	4.5	A;B	;	3335;3335	;	"1..154,386..577,800..990,1217..1399,1629..1824,2047..2237,2468..2647,2876..3056;1..154,386..577,800..990,1217..1399,1629..1824,2047..2237,2468..2647,2876..3056"
+3l6w	pdb	Structure of the collar functional unit (KLH1-H) of keyhole limpet hemocyanin	x-ray	4	A;B	;	3414;3414	;	"51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134;51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134"
+3nm8	pdb	Crystal structure of Tyrosinase from Bacillus megaterium	x-ray	2	A;B	;	297;297	;	34..242;34..242
+3npy	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium soaked in CuSO4	x-ray	2.192	A;B	;	297;297	;	34..242;34..242
+3nq0	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium crystallized in the absence of Zinc	x-ray	2.2	A;B	;	297;297	;	34..242;34..242
+3nq1	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium in complex with inhibitor kojic acid	x-ray	2.3	A;B	;	297;297	;	34..242;34..242
+3nq5	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium R209H mutant	x-ray	2.3	A;B	;	297;297	;	34..242;34..242
+3ntm	pdb	"Crystal Structure of Tyrosinase from Bacillus megaterium crystallized in the absence of zinc, partial occupancy of CuB"	x-ray	2.3	A;B	;	297;297	;	34..242;34..242
+3qjo	pdb	Refined Structure of the functional unit (KLH1-H) of keyhole limpet hemocyanin	x-ray	4	A;B	;	3414;3414	;	"51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134;51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134"
+3w6q	pdb	Crystal structure of melB apo-protyrosinase from Asperugillus oryzae	x-ray	2.052	A;B;C;D	;;;	638;638;638;638	;;;	58..379;58..379;58..379;58..379
+3w6w	pdb	Crystal structure of melB holo-protyrosinase from Asperugillus oryzae	x-ray	1.394	A;B	;	638;638	;	58..379;58..379
+4bed	pdb	Keyhole limpet hemocyanin (KLH): 9A cryoEM structure and molecular model of the KLH1 didecamer reveal the interfaces and intricate topology of the 160 functional units	em	9	A;B;C;D	;;;	3414;3414;3414;3414	;;;	"51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134;51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134;51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134;51..238,470..661,884..1074,1301..1483,1712..1906,2130..2319,2549..2729,2954..3134"
+4d87	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium in complex with SDS	x-ray	3.5	A;B	;	297;297	;	34..242;34..242
+4hd4	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium V218F mutant	x-ray	1.8	A;B	;	297;297	;	34..242;34..242
+4hd6	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium V218F mutant soaked in CuSO4	x-ray	2	A;B	;	297;297	;	34..242;34..242
+4hd7	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium V218G mutant soaked in CuSO4	x-ray	2.1	A;B	;	297;297	;	34..242;34..242
+4j3p	pdb	Crystal structure of full-length catechol oxidase from Aspergillus oryzae	x-ray	2.5	A		408		118..349
+4j3q	pdb	Crystal structure of truncated catechol oxidase from Aspergillus oryzae	x-ray	2.9	A;B	;	408;408	;	118..349;118..349
+4j3r	pdb	"Crystal structure of catechol oxidase from Aspergillus oryzae, soaked in 4-tert-butylcatechol"	x-ray	2.2	A		408		118..349
+4j6t	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium F197A mutant	x-ray	2.43	A;B	;	297;297	;	34..242;34..242
+4j6u	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium N205A mutant	x-ray	2.5	A;B	;	297;297	;	34..242;34..242
+4j6v	pdb	Crystal Structure of Tyrosinase from Bacillus megaterium N205D mutant	x-ray	1.9	A;B	;	297;297	;	34..242;34..242
+4oua	pdb	Coexistent single-crystal structure of latent and active mushroom tyrosinase (abPPO4) mediated by a hexatungstotellurate(VI)	x-ray	2.763	A;B	;	;	;	;
+4p6r	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with tyrosine in the active site	x-ray	2.2	A;B	;	297;297	;	34..242;34..242
+4p6s	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with L-DOPA in the active site	x-ray	2.2	A;B	;	297;297	;	34..242;34..242
+4p6t	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with p-tyrosol in the active site	x-ray	2.5	A;B	;	297;297	;	34..242;34..242
+4yd9	pdb	Crystal structure of squid hemocyanin	x-ray	3	A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T	;;;;;;;;;;;;;;;;;;;	;;;;;;;;;;;;;;;;;;;	;;;;;;;;;;;;;;;;;;;	;;;;;;;;;;;;;;;;;;;
+4z0y	pdb	"Active aurone synthase (polyphenol oxidase), copper B : sulfohistidine ~ 1.4 : 1"	x-ray	1.6	A;B;C;D	;;;	602;602;602;602	;;;	169..383;169..383;169..383;169..383
+4z0z	pdb	"Inactive aurone synthase (polyphenol oxidase) from natural source, sulfohistidine ~ 90 %"	x-ray	1.6	A;B;C;D	;;;	602;602;602;602	;;;	169..383;169..383;169..383;169..383
+4z10	pdb	"Inactive aurone synthase (polyphenol oxidase) co-crystallized with 1,4-resorcinol"	x-ray	1.93	A;B;C;D;E;F	;;;;;	602;602;602;602;602;602	;;;;;	169..383;169..383;169..383;169..383;169..383;169..383
+4z11	pdb	Latent aurone synthase (polyphenol oxidase) from natural source	x-ray	2.5	A;B;C;D	;;;	602;602;602;602	;;;	169..383;169..383;169..383;169..383
+4z12	pdb	Recombinantly expressed latent aurone synthase (polyphenol oxidase) co-crystallized with hexatungstotellurate(VI)	x-ray	1.85	A;B	;	602;602	;	169..383;169..383
+4z13	pdb	Recombinantly expressed latent aurone synthase (polyphenol oxidase) co-crystallized with hexatungstotellurate(VI) and soaked in H2O2	x-ray	1.78	A;B	;	602;602	;	169..383;169..383
+4z14	pdb	Recombinantly expressed latent aurone synthase (polyphenol oxidase)	x-ray	2.53	A;B;C;D;E;F;G;H	;;;;;;;	602;602;602;602;602;602;602;602	;;;;;;;	169..383;169..383;169..383;169..383;169..383;169..383;169..383;169..383
+5ce9	pdb	structure of tyrosinase from walnut (Juglans regia)	x-ray	1.8	A;B	;	603;603	;	177..385;177..385
+5i38	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with inhibitor kojic acid in the active site	x-ray	2.6	A;B	;	297;297	;	34..242;34..242
+5i3a	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with configuration A of hydroquinone inhibitor in the active site	x-ray	2.2	A;B	;	297;297	;	34..242;34..242
+5i3b	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with configuration B of hydroquinone inhibitor in the active site	x-ray	2.2	A;B	;	297;297	;	34..242;34..242
+5m6b	pdb	structure of recombinant mushroom tyrosinase (abPPO4)	x-ray	3.25	A;B;C;D	;;;	611;611;611;611	;;;	48..295;48..295;48..295;48..295
+5m8l	pdb	Crystal structure of human tyrosinase related protein 1	x-ray	2.35	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8m	pdb	Crystal structure of human tyrosinase related protein 1 in complex with kojic acid	x-ray	2.65	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8n	pdb	Crystal structure of human tyrosinase related protein 1 in complex with mimosine	x-ray	2.6	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8o	pdb	Crystal structure of human tyrosinase related protein 1 in complex with tropolone	x-ray	2.5	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8p	pdb	Crystal structure of human tyrosinase related protein 1 in complex with tyrosine	x-ray	2.8	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8q	pdb	Crystal structure of human tyrosinase related protein 1 mutant (T391V-R374S-Y362F) in complex with kojic acid	x-ray	2.85	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8r	pdb	Crystal structure of human tyrosinase related protein 1 (T391V-R374S-Y362F) in complex with mimosine	x-ray	2.4	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8s	pdb	Crystal structure of human tyrosinase related protein 1 mutant (T391V-R374S-Y362F) in complex with phenylthiourea (PTU)	x-ray	2.2	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5m8t	pdb	Crystal structure of human tyrosinase related protein 1 (T391V-R374S-Y362F) in complex with tropolone	x-ray	2.35	A;B;C;D	;;;	537;537;537;537	;;;	184..416;184..416;184..416;184..416
+5oae	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with SVF inhibitor in the active site	x-ray	2.7	A;B	;	297;297	;	34..242;34..242
+5or3	pdb	Crystal structure of Aspergillus oryzae catechol oxidase in met/deoxy-form	x-ray	1.795	A;B;C;D	;;;	408;408;408;408	;;;	118..349;118..349;118..349;118..349
+5or4	pdb	Crystal structure of Aspergillus oryzae catechol oxidase in deoxy-form	x-ray	2.445	A;B;C;D	;;;	408;408;408;408	;;;	118..349;118..349;118..349;118..349
+5z0d	pdb	1.16 A-resolution crystal structure of the deoxy-form tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein	x-ray	1.16	A		273		29..229
+5z0e	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the Y98F mutant of the caddie protein obtained by soaking in the hydroxylamine-containing solution for 2 h at 298 K	x-ray	1.16	A		273		29..229
+5z0f	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 10 min at 298 K	x-ray	1.16	A		273		29..229
+5z0g	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 20 min at 298 K	x-ray	1.32	A		273		29..229
+5z0h	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 2 h at 298 K	x-ray	1.18	A		273		29..229
+5z0i	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 1 h at 277 K	x-ray	1.32	A		273		29..229
+5z0j	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 2 h at 277 K	x-ray	1.35	A		273		29..229
+5z0k	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 4 h at 277 K	x-ray	1.28	A		273		29..229
+5z0l	pdb	Crystal structure of copper-bound tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 9 h at 277 K	x-ray	1.17	A		273		29..229
+5z0m	pdb	Crystal structure of copper-bound H63F-mutated tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the hydroxylamine-containing solution for 12 h at 298 K	x-ray	1.7	A		273		29..229
+5zrd	pdb	Tyrosinase from Burkholderia thailandensis (BtTYR) at low pH condition	x-ray	2.3	A;B;C;D	;;;	535;535;535;535	;;;	47..332;47..332;47..332;47..332
+5zre	pdb	Tyrosinase from Burkholderia thailandensis (BtTYR) at high pH condition	x-ray	2.5	A;B;C	;;	535;535;535	;;	47..332;47..332;47..332
+6ei4	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with B5N inhibitor in the active site	x-ray	2	A;B	;	297;297	;	34..242;34..242
+6els	pdb	Structure of latent apple tyrosinase (MdPPO1)	x-ray	1.346	A		593		165..373
+6gsg	pdb	Crystal structure of Aspergillus oryzae catechol oxidase complexed with resorcinol	x-ray	2.192	A		408		118..349
+6hqi	pdb	holo-form of polyphenol oxidase from Solanum lycopersicum	x-ray	1.85	A		630		172..382
+6hqj	pdb	apo-form of polyphenol oxidase from Solanum lycopersicum	x-ray	1.802	A		630		172..382
+6j2u	pdb	Crystal structure of Tyrosinase caddy protein(MelC1)with Tyrosinase (MelC2)from Streptomyces avermitilis in complex with Zinc ion	x-ray	1.3	B		274		29..228
+6ju4	pdb	Aspergillus oryzae pro-tyrosinase F513Y mutant	x-ray	1.35	A;B	;	616;616	;	58..384;58..384
+6ju5	pdb	Aspergillus oryzae pro-tyrosinase C92A/F513Y mutant	x-ray	1.34	A;B	;	616;616	;	58..384;58..384
+6ju6	pdb	Aspergillus oryzae active-tyrosinase copper-depleted C92A mutant	x-ray	1.5	A;B	;	616;616	;	58..384;58..384
+6ju7	pdb	Aspergillus oryzae active-tyrosinase copper-depleted C92A mutant complexed with L-tyrosine	x-ray	1.42	A;B	;	616;616	;	58..384;58..384
+6ju8	pdb	Aspergillus oryzae active-tyrosinase copper-bound C92A mutant	x-ray	1.27	A;B	;	616;616	;	58..384;58..384
+6ju9	pdb	Aspergillus oryzae active-tyrosinase copper-bound C92A mutant complexed with L-tyrosine	x-ray	1.42	A;B	;	616;616	;	58..384;58..384
+6jua	pdb	Aspergillus oryzae pro-tyrosinase oxygen-bound C92A mutant	x-ray	1.45	A;B	;	616;616	;	58..384;58..384
+6jub	pdb	Radiation damage in Aspergillus oryzae pro-tyrosinase oxygen-bound C92A mutant	x-ray	1.54	A;B	;	616;616	;	58..384;58..384
+6juc	pdb	Aspergillus oryzae pro-tyrosinase oxygen-bound C92A/H103F mutant	x-ray	1.44	A;B	;	616;616	;	58..384;58..384
+6jud	pdb	Radiation damage in Aspergillus oryzae pro-tyrosinase oxygen-bound C92A/H103F mutant	x-ray	1.56	A;B	;	616;616	;	58..384;58..384
+6qxd	pdb	Crystal Structure of tyrosinase from Bacillus megaterium with JKB inhibitor in the active site.	x-ray	2.317	A;B	;	297;297	;	34..242;34..242
+6r83	pdb	"CryoEM structure and molecular model of squid hemocyanin (Todarodes pacificus , TpH)"	em	5.1	10a;1a;2a;3a;4a;5a;6a;7a;8a;9a	;;;;;;;;;	3314;3314;3314;3314;3314;3314;3314;3314;3314;3314	;;;;;;;;;	"32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132;32..222,454..646,869..1058,1285..1470,1700..1885,2117..2310,2536..2723,2953..3132"
+6z1s	pdb	Structure of Polyphenol Oxidase (mutant G292N) from Thermothelomyces thermophila	x-ray	1.53	A		424		120..351
+7cit	pdb	Crystal structure of tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the solution containing Cu(II) and hydroxylamine for 24 h	x-ray	1.5	A		273		29..229
+7ciy	pdb	Crystal structure of N191G-mutated tyrosinase from Streptomyces castaneoglobisporus in complex with the caddie protein obtained by soaking in the solution containing Cu(II) and hydroxylamine for 24 h	x-ray	1.47	A		273		29..229
+7xio	pdb	Crystal structure of TYR from Ralstonia	x-ray	2.64	A;B;C	;;	496;496;496	;;	73..265;73..265;73..265
+8b74	pdb	Tyrosinase from halophilic bacterium Hahella sp. CCB MM4	x-ray	1.965	A		466		34..250
+8bbq	pdb	Determination of the structure of active tyrosinase from bacterium Verrucomicrobium spinosum	x-ray	1.43	A;B	;	;	;	;
+8bbr	pdb	Determination of the structure of active tyrosinase from bacterium Verrucomicrobium spinosum	x-ray	1.64	A;B	;	;	;	;
