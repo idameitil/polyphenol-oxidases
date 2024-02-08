@@ -1,5 +1,12 @@
-# Login directly to hal
+# Albert
 ssh dtu -tt ssh hal
+Avogadro: adding hydrogens, molecular manipulations (also chemcraft)
+
+grimme (xtb), optimization
+also used for getting charges of Cu and Os
+crest
+
+orca, BP86
 
 # Discussion with Caio 31 Jan.
 Applications of oxydized phenols: Enhance the antioxidant value of lignin. Change the propoerties. Bacteria can only open rings of diphenols.
