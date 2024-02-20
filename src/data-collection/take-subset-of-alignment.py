@@ -1,7 +1,8 @@
 from Bio import SeqIO
 
 # Read filtered
-filtered_fasta_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta'
+# filtered_fasta_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta'
+filtered_fasta_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered25.fasta'
 fasta_sequences = SeqIO.parse(filtered_fasta_filename, 'fasta')
 accessions_include = []
 for fasta in fasta_sequences:
@@ -19,10 +20,14 @@ alignment_filename = 'data/pfam/PF00264.alignment.uniprot-cleaned.fa'
 fasta_sequences = SeqIO.parse(alignment_filename, 'fasta')
 
 # Write output
-output_filename_all = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa'
-output_filename_all_withoutgaps = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa'
-output_filename_fungi = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi.fa'
-output_filename_fungi_withoutgaps = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps.fa'
+# output_filename_all = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa'
+# output_filename_all_withoutgaps = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa'
+# output_filename_fungi = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi.fa'
+# output_filename_fungi_withoutgaps = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps.fa'
+output_filename_all = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered25.fa'
+output_filename_all_withoutgaps = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-withoutgaps.fa'
+output_filename_fungi = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi.fa'
+output_filename_fungi_withoutgaps = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-withoutgaps.fa'
 
 accessions_done = []
 with open(output_filename_all, 'w') as outfile_all, \
