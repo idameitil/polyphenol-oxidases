@@ -3,7 +3,8 @@ import json
 
 fasta_sequences = SeqIO.parse('data/pfam/protein-matching-PF00264-shortheaders.fasta', 'fasta')
 
-output_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta'
+# output_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta'
+output_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered25.fasta'
 
 json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
 
@@ -24,5 +25,6 @@ with open(output_filename, 'w') as outfile:
             continue
         hit_length = json_dict[fasta.id]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['end'] - json_dict[fasta.id]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['start']
         score = json_dict[fasta.id]['entries'][0]['entry_protein_locations'][0]['score']
-        if len(fasta.seq) > 100 and len(fasta.seq) < 1000 and score < 1e-5 and hit_length > 100:
+        # if len(fasta.seq) > 100 and len(fasta.seq) < 1000 and score < 1e-5 and hit_length > 100:
+        if len(fasta.seq) > 100 and len(fasta.seq) < 1000 and score < 1e-25 and hit_length > 100:
             outfile.write(f">{fasta.id}\n{fasta.seq}\n")
