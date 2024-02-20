@@ -185,7 +185,11 @@ To take the subset of the alignment that is in the fasta, run: `python src/data-
 
 CD-HIT all kingdoms: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa -c 0.4 -n 2 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-cdhit0.4.fasta`
 
+`cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa -c 0.5 -n 3 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-cdhit0.5.fasta`
+
 CD-HIT fungi: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps.fa -c 0.5 -n 3 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-cdhit0.5.fasta`
+
+`cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps.fa -c 0.6 -n 4 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-cdhit0.6.fasta`
 
 To make the redundancy reduced alignment, run `python src/data-collection/make-redundancy-reduced-fasta.py`. This produces the files `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-cdhit0.4.fasta` and `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-cdhit0.5.fasta` and `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-cdhit0.4.fasta` and `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-cdhit0.5.fasta`.
 
@@ -198,6 +202,27 @@ Make the trees for fungi: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cl
 `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-cdhit0.6.fasta --model JTT+G4 --prefix data/pfam/raxml/T11 --threads 7 --seed 2 --blopt nr_safe`
 
 To clean the trees, use regex "\.\d\/\d+-\d+".
+
+Make trees for all kingdoms, cutoff 25: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-cdhit0.4.fasta --model JTT+G4 --prefix data/pfam/raxml/T12 --threads 7 --seed 2 --blopt nr_safe`
+
+`raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-cdhit0.5.fasta --model JTT+G4 --prefix data/pfam/raxml/T13 --threads 7 --seed 2 --blopt nr_safe`
+
+Make the trees for fungi, cutoff 25: `raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-cdhit0.5.fasta --model JTT+G4 --prefix data/pfam/raxml/T14 --threads 7 --seed 2 --blopt nr_safe`
+
+`raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-cdhit0.6.fasta --model JTT+G4 --prefix data/pfam/raxml/T15 --threads 7 --seed 2 --blopt nr_safe`
+
+To clean the trees, use regex "\.\d\/\d+-\d+".
+
+#### Find representative sequences
+HMMalign på seeds: `hmmalign --trim data/pfam/PF00264.hmm data/seeds-names.fa > data/seeds-names.hmmalign`.
+
+Convert alignment to fasta and remove columns with dots: `seqconverter --remhmminsertcols -I stockholm -O fasta data/seeds-names.hmmalign > data/seeds-names.hmmalign.fa`
+
+Remove gaps: `data/seeds-names.hmmalign-withoutgaps.fa`.
+
+Add above sequences to the fasta for the tree: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds.fa`.
+
+Run CD-HIT: 
 
 # Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
@@ -213,9 +238,6 @@ Convert to fasta online and make upper case: `protein-matching-PF00264-fungi-sho
 
 If it fails, run:
 `raxml-ng --search1 --msa data/pfam/protein-matching-PF00264-fungi-shortheaders-cdhit0.4-andseeds.fasta.hmmalign.fasta --model JTT+G4 --prefix data/pfam/raxml/T4 --threads 8 --seed 2 --blopt nr_safe`
-
-From vital-it website (not used):
-`--msa /scratch/cluster/weekly/raxml/job_85609/sequenceAlignment.fasta --model JTT+G4 --search --opt-branches on --opt-model on --tree pars{5},rand{5} --force --threads 2 --prefix /scratch/cluster/weekly/raxml/job_85609`
 
 # Retrieve taxonomy
 To make a tsv file with taxonomy for each uniprot hit, run: `python src/data-collection/make-taxonomy-file.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi.tsv`.
@@ -265,3 +287,8 @@ Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphen
 
 ### Enrich fungal uniprot hits with domain architecture
 To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan.tsv`. (note that only the reduces hits are enriched, so there are many lines without pfam info)
+
+# Eggnog
+Eggnog was run at `http://eggnog-mapper.embl.de/` with this input file: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa`.
+
+The output files were saved in: `data/eggnog`.
