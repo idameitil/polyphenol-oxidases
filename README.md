@@ -220,9 +220,17 @@ Convert alignment to fasta and remove columns with dots: `seqconverter --remhmmi
 
 Remove gaps: `data/seeds-names.hmmalign-withoutgaps.fa`.
 
-Add above sequences to the fasta for the tree: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds.fa`.
+Add above sequences to the fastas for the tree: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds.fa` and `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-withseeds.fa`
 
-Run CD-HIT: 
+CD-HIT all kingdoms: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-withseeds.fa -c 0.4 -n 2 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-withseeds-cdhit0.4.fasta`
+
+`cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-withseeds.fa -c 0.5 -n 3 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-withseeds-cdhit0.5.fasta`
+
+CD-HIT fungi: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds.fa -c 0.5 -n 3 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds-cdhit0.5.fasta`
+
+`cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds.fa -c 0.6 -n 4 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds-cdhit0.6.fasta`
+
+Make itol files: `python src/itol-label-files/make-representatives-itol-label-files.py`.
 
 # Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
