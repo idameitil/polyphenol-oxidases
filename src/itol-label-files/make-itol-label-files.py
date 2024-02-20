@@ -2,6 +2,7 @@ import pandas as pd
 import random
 import json
 import math
+from Bio import SeqIO
 
 random.seed(10)
 
@@ -224,6 +225,33 @@ def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
                         file.write(f",{shape}|{start}|{stop}|{domain2color[domain_name]}|{domain_description}")
             file.write('\n')
 
+def make_match_length_file():
+    fasta_filename = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa'
+    entries = SeqIO.parse(fasta_filename, 'fasta')
+    # lengths = []
+    # for entry in entries:
+    #     lengths.append(len(entry.seq))
+    # max_match_length = max(lengths)
+    # min_match_length = min(lengths)
+    max_match_length = 213
+    # min_match_length = 42
+    min_match_length = 150
+    n = int(max_match_length-min_match_length)
+    colors = list(Color("white").range_to(Color("black"),n+1))
+    output_filename = "data/itol-label-files/match-length180.txt"
+    with open(output_filename, 'w') as file:
+        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tmatch_length180\nCOLOR\t#ff0000\nDATA\n"
+        file.write(header)
+        for entry in entries:
+            match_length = len(entry.seq)
+            if match_length < min_match_length:
+                match_length = min_match_length
+            color = colors[match_length-min_match_length].hex
+            if match_length > 180:
+                file.write(f"{entry.id.split('.')[0]}\t{color}\t{match_length}\n")
+make_match_length_file()
+
+
 # # Make seed label files
 # seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_taxonomy_label_files(seed_df)
@@ -247,4 +275,4 @@ def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
 # make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
 # make_score_label_file()
-make_coverage_label_file()
+# make_coverage_label_file()
