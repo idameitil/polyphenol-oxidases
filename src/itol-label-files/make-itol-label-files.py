@@ -3,6 +3,7 @@ import random
 import json
 import math
 from Bio import SeqIO
+from colour import Color
 
 random.seed(10)
 
@@ -118,7 +119,7 @@ def make_aguilera_subclass_label_file_text(df):
             if pd.isnull(row.protein_accession):
                 continue
             file.write(f"{row.protein_accession},{row['Subclass']},-1,{value2color[row['Subclass']]},bold,1,0\n")
-from colour import Color
+
 def make_score_label_file():
     # Read json file
     json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))

@@ -213,6 +213,9 @@ Make the trees for fungi, cutoff 25: `raxml-ng --msa data/pfam/PF00264.alignment
 
 To clean the trees, use regex "\.\d\/\d+-\d+".
 
+#### Make itol files with cd-hit cluster size
+To make itol label files with size of cd-hit clusters, run `src/itol-label-files/make-cdhit-cluster-size-label-files.py`.
+
 #### Find representative sequences
 HMMalign på seeds: `hmmalign --trim data/pfam/PF00264.hmm data/seeds-names.fa > data/seeds-names.hmmalign`.
 
