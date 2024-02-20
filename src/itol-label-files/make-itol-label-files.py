@@ -1,5 +1,7 @@
 import pandas as pd
 import random
+import json
+import math
 
 random.seed(10)
 
@@ -115,6 +117,65 @@ def make_aguilera_subclass_label_file_text(df):
             if pd.isnull(row.protein_accession):
                 continue
             file.write(f"{row.protein_accession},{row['Subclass']},-1,{value2color[row['Subclass']]},bold,1,0\n")
+from colour import Color
+def make_score_label_file():
+    # Read json file
+    json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
+    json_dict = {}
+    for entry in json_list:
+        json_dict[entry['metadata']['accession']] = entry
+    max = -5
+    min = -140
+    n = int(max-min)
+    colors = list(Color("black").range_to(Color("white"),n))
+    output_filename = "data/itol-label-files/HMM_score.txt"
+    with open(output_filename, "w") as file:
+        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tscore\nCOLOR\t#ff0000\nDATA\n"
+        file.write(header)
+        for acc in json_dict:
+            score = json_dict[acc]['entries'][0]['entry_protein_locations'][0]['score']
+            color = colors[math.floor(math.log10(score))].hex
+            file.write(f"{acc}\t{color}\t{score}\n")
+
+def make_score_label_file():
+    # Read json file
+    json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
+    json_dict = {}
+    for entry in json_list:
+        json_dict[entry['metadata']['accession']] = entry
+    max = -5
+    min = -140
+    n = int(max-min)
+    colors = list(Color("black").range_to(Color("white"),n))
+    output_filename = "data/itol-label-files/HMM_score25.txt"
+    with open(output_filename, "w") as file:
+        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tscore25\nCOLOR\t#ff0000\nDATA\n"
+        file.write(header)
+        for acc in json_dict:
+            score = json_dict[acc]['entries'][0]['entry_protein_locations'][0]['score']
+            color = colors[math.floor(math.log10(score))].hex
+            if score < 1e-25:
+                file.write(f"{acc}\t{color}\t{score}\n")
+
+def make_coverage_label_file():
+    # Read json file
+    json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
+    json_dict = {}
+    for entry in json_list:
+        json_dict[entry['metadata']['accession']] = entry
+    max_coverage = 405
+    min_coverage = 16
+    n = int(max_coverage-min_coverage)
+    colors = list(Color("white").range_to(Color("black"),max_coverage))
+    output_filename = "data/itol-label-files/coverage175.txt"
+    with open(output_filename, "w") as file:
+        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tcoverage175\nCOLOR\t#ff0000\nDATA\n"
+        file.write(header)
+        for acc in json_dict:
+            hit_length = json_dict[acc]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['end'] - json_dict[acc]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['start']
+            color = colors[int(hit_length)].hex
+            if hit_length > 175:
+                file.write(f"{acc}\t{color}\t{hit_length}\n")
 
 def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
     if blast_hits:
@@ -182,6 +243,8 @@ def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
 # make_aguilera_subclass_label_file_text(df_aguilera)
 
 # Make Uniprot hits label files
-df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan.tsv', sep='\t')
-make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
+# df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan.tsv', sep='\t')
+# make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
+# make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
+# make_score_label_file()
+make_coverage_label_file()
