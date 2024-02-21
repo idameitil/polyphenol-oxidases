@@ -303,3 +303,5 @@ To enrich the uniprot hits with pfam data, run `python src/data-collection/enric
 Eggnog was run at `http://eggnog-mapper.embl.de/` with this input file: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa`.
 
 The output files were saved in: `data/eggnog`.
+
+A table with only the OGs is made by running: `python src/eggnog/parse-eggnog.py`.

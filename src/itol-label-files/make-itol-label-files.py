@@ -250,9 +250,24 @@ def make_match_length_file():
             color = colors[match_length-min_match_length].hex
             if match_length > 180:
                 file.write(f"{entry.id.split('.')[0]}\t{color}\t{match_length}\n")
-make_match_length_file()
 
-
+def make_OG_files():
+    wanted_ranks = range(8)
+    df = pd.read_csv('data/eggnog/OGs.tsv', sep='\t', header=0, index_col=0)
+    for rank in wanted_ranks:
+        output_filename = f"data/itol-label-files/OG_{rank}.txt"
+        # Write file
+        with open(output_filename, "w") as file:
+            header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tOG_{rank}\nCOLOR\t#ff0000\nDATA\n"
+            file.write(header)
+            OG2color = dict()
+            for index, row in df.iterrows():
+                acc, OG = index.split('.')[0], row[rank]
+                if OG not in OG2color:
+                    color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
+                    OG2color[OG] = color
+                file.write(f"{acc}\t{OG2color[OG]}\t{OG}\n")
+make_OG_files()
 # # Make seed label files
 # seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_taxonomy_label_files(seed_df)
@@ -277,3 +292,4 @@ make_match_length_file()
 # make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
 # make_score_label_file()
 # make_coverage_label_file()
+# make_match_length_file()
