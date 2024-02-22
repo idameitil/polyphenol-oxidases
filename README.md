@@ -235,6 +235,19 @@ CD-HIT fungi: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fu
 
 Make itol files: `python src/itol-label-files/make-representatives-itol-label-files.py`.
 
+##### For e-25 filtering
+Add seeds to the fastas for the tree: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-withoutgaps-withseeds.fa` and `data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-withoutgaps-withseeds.fa`
+
+CD-HIT all kingdoms: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-withoutgaps-withseeds.fa -c 0.4 -n 2 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-withoutgaps-withseeds-cdhit0.4.fasta`
+
+`cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-withoutgaps-withseeds.fa -c 0.5 -n 3 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-withoutgaps-withseeds-cdhit0.5.fasta`
+
+CD-HIT fungi: `cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-withoutgaps-withseeds.fa -c 0.5 -n 3 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-withoutgaps-withseeds-cdhit0.5.fasta`
+
+`cd-hit -i data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-withoutgaps-withseeds.fa -c 0.6 -n 4 -o data/pfam/PF00264.alignment.uniprot-cleaned-filtered25-fungi-withoutgaps-withseeds-cdhit0.6.fasta`
+
+Make itol files: `python src/itol-label-files/make-representatives-itol-label-files.py`.
+
 # Only fungi
 Make fasta with only fungi: `python src/data-collection/make-fungi-fasta.py`. This creates the file `data/pfam/protein-matching-PF00264-fungi-shortheaders.fasta`.
 
@@ -297,7 +310,7 @@ etc.
 Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms data`
 
 ### Enrich fungal uniprot hits with domain architecture
-To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan.tsv`. (note that only the reduces hits are enriched, so there are many lines without pfam info)
+To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan.tsv`. (note that only the reduced hits are enriched, so there are many lines without pfam info)
 
 # Eggnog
 Eggnog was run at `http://eggnog-mapper.embl.de/` with this input file: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa`.
