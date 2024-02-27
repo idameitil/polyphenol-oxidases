@@ -9,7 +9,7 @@ for index, row in df.iterrows():
     acc = row['#query']
     if not pd.isna(row['eggNOG_OGs']):
         OGs = row['eggNOG_OGs'].split(',')
-        data[acc] = OGs + [''] * (max - len(OGs))
+        data[acc] = OGs + [''] * (max - len(OGs)) + [OGs[-1]]
 
 df2 = pd.DataFrame(data).transpose()
 

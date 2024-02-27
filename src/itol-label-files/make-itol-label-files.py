@@ -252,7 +252,7 @@ def make_match_length_file():
                 file.write(f"{entry.id.split('.')[0]}\t{color}\t{match_length}\n")
 
 def make_OG_files():
-    wanted_ranks = range(8)
+    wanted_ranks = [0,11]
     df = pd.read_csv('data/eggnog/OGs.tsv', sep='\t', header=0, index_col=0)
     for rank in wanted_ranks:
         output_filename = f"data/itol-label-files/OG_{rank}.txt"
