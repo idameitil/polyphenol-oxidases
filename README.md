@@ -327,6 +327,6 @@ A json file with the proteomes matching PF00264 was downloaded from pfam: `data/
 
 A json file with proteome metadata was downloaded from uniprot `https://www.uniprot.org/proteomes?query=*`: `data/proteome-tree/proteomes_AND_proteome_type_1_2024_02_28.json`.
 
-The above to files are combined to create the table: `python src/data-collection/make-proteome-table.py`.
+The above to files are combined to create the table by running: `python src/data-collection/make-proteome-table.py`. This creates the file `data/proteome-tree/proteome-data.tsv`.
 
 To select proteomes (the one with the highest BUSCO score) and write fasta, run `python src/data-collection/filter-proteome-sequences.py`. This creates the file `data/proteome-tree/fungal-one_proteome_per_order.fa`.
