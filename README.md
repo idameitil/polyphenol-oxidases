@@ -327,8 +327,10 @@ A json file with the proteomes matching PF00264 was downloaded from pfam: `data/
 
 A json file with proteome metadata was downloaded from uniprot `https://www.uniprot.org/proteomes?query=*`: `data/proteome-tree/proteomes_AND_proteome_type_1_2024_02_28.json`.
 
-The above to files are combined to create the table by running: `python src/data-collection/make-proteome-table.py`. This creates the file `data/proteome-tree/proteome-data.tsv`.
+The above to files are combined to create the table by running: `python src/proteome-tree/make-proteome-table.py`. This creates the file `data/proteome-tree/proteome-data.tsv`.
 
-To select proteomes (the one with the highest BUSCO score) and write fasta, run `python src/data-collection/filter-proteome-sequences.py`. This creates the file `data/proteome-tree/fungal-one_proteome_per_order.fa`.
+To select proteomes (the one with the highest BUSCO score) and write fasta, run `python src/proteome-tree/filter-proteome-sequences.py`. This creates the file `data/proteome-tree/fungal-one_proteome_per_order.fa`.
 
 To make fastas for making tree, run `python src/proteome-tree/prepare-fasta-selected-sequences.py`. This generates the files `data/proteome-tree/fungal-one_proteome_per_order.hmmalign.fa` and `data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa`.
+
+To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_order.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T1 --threads 7 --seed 2 --blopt nr_safe`

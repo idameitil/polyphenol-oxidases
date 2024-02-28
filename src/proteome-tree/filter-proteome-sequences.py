@@ -17,6 +17,12 @@ for order in fungal_orders:
     best_proteome_taxid = df.iloc[[best_proteome]].taxid.item()
     selected_proteome_taxids.append(best_proteome_taxid)
 
+# Write to file
+filename = 'data/proteome-tree/selected-proteomes-taxids.txt'
+with open(filename, 'w') as outfile:
+    for taxid in selected_proteome_taxids:
+        outfile.write(f"{taxid}\n")
+
 #########################################################
 # Get accessions for sequences in selected proteomes
 #########################################################
