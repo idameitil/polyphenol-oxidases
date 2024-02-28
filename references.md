@@ -1,3 +1,13 @@
+# Proteome analysis
+Sequences from proteomes: 13381
+Unique species with proteomes: 2472
+Unique orders with proteomes: 335
+Unique fungal orders with proteomes: 335
+Fungal sequences from proteomes: 0
+Unique fungal families with proteomes: 0
+Sequences from selected fungal species: 654
+Sequences from selected all species: 2254
+
 # Albert
 ssh dtu -tt ssh hal
 Avogadro: adding hydrogens, molecular manipulations (also chemcraft)
