@@ -138,6 +138,8 @@ Aligned sequences were downloaded `data/pfam/PF00264.alignment.uniprot`.
 
 The alignment is cleaned from columns with insertions by running python `src/data-collection/clean-hmm-alignment.py`. This created the fasta file `data/pfam/PF00264.alignment.uniprot-cleaned.fa`.
 
+A trimmed fasta was made: `data/pfam/PF00264.alignment.uniprot-nogaps.fa` by removing all gaps from the alignment.
+
 The pfam HMM was downloaded at `https://www.ebi.ac.uk/interpro/entry/pfam/PF00264/curation/` and saved in `data/pfam/PF00264.hmm`.
 
 # Make tree of whole family
@@ -318,3 +320,13 @@ Eggnog was run at `http://eggnog-mapper.embl.de/` with this input file: `data/pf
 The output files were saved in: `data/eggnog`.
 
 A table with only the OGs is made by running: `python src/eggnog/parse-eggnog.py`.
+
+# Proteome tree
+
+A json file with the proteomes matching PF00264 was downloaded from pfam: `data/pfam/proteome-matching-PF00264.json`.
+
+A json file with proteome metadata was downloaded from uniprot `https://www.uniprot.org/proteomes?query=*`: `data/proteome-tree/proteomes_AND_proteome_type_1_2024_02_28.json`.
+
+The above to files are combined to create the table: `python src/data-collection/make-proteome-table.py`.
+
+To select proteomes (the one with the highest BUSCO score) and write fasta, run `python src/data-collection/filter-proteome-sequences.py`. This creates the file `data/proteome-tree/fungal-one_proteome_per_order.fa`.
