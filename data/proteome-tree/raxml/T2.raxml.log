@@ -1,0 +1,239 @@
+
+RAxML-NG v. 1.2.1 released on 22.12.2023 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M1 Pro, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 01-Mar-2024 12:47:23 as follows:
+
+raxml-ng --msa data/proteome-tree/all-one_proteome_per_order.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T2 --threads 7 --seed 2
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 2
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (7 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: data/proteome-tree/all-one_proteome_per_order.hmmalign.fa
+[00:00:00] Loaded alignment with 529 taxa and 214 sites
+
+WARNING: Sequences A0A4W3ISZ4.1/170-401 and A0A4W3J2R9.1/170-401 are exactly identical!
+WARNING: Sequences A0A4W3ISZ4.1/170-401 and A0A4W3ISX3.1/170-401 are exactly identical!
+WARNING: Sequences A0A4W3ISZ4.1/170-401 and A0A4W3JJW4.1/165-396 are exactly identical!
+WARNING: Sequences A0A4W3ISZ4.1/170-401 and A0A4W3JJY3.1/167-398 are exactly identical!
+WARNING: Sequences A0A4W3ISZ4.1/170-401 and A0A4W3IPU9.1/170-401 are exactly identical!
+WARNING: Sequences A0A4W3ISZ4.1/170-401 and A0A4W3JK65.1/170-401 are exactly identical!
+WARNING: Sequences A0A4W3ISZ4.1/170-401 and A0A4W3J2P3.1/189-420 are exactly identical!
+WARNING: Sequences A9SUP1.1/93-309 and Q56N25.1/93-309 are exactly identical!
+WARNING: Sequences A0A0X3Q9U6.1/177-407 and A0A183TCN8.1/177-407 are exactly identical!
+WARNING: Sequences A0A8B8EYB2.1/84-260 and A0A8B8EX42.1/84-260 are exactly identical!
+WARNING: Sequences A0A7I3ZAZ7.1/110-320 and A0A2K1JC20.1/110-320 are exactly identical!
+WARNING: Sequences A0A5B0PDE5.1/78-262 and A0A5B0M872.1/78-262 are exactly identical!
+WARNING: Sequences A9U439.1/93-310 and A0A2K1IZ55.1/106-323 are exactly identical!
+WARNING: Sequences A0A0I9N9E9.1/145-334 and A0A4E9FH29.1/145-334 are exactly identical!
+WARNING: Sequences A0A7I4A3E3.1/110-325 and A0A2K1J0S4.1/178-393 are exactly identical!
+WARNING: Sequences A0A4S2LBG9.1/174-404 and A0A4S2LJ85.1/174-404 are exactly identical!
+WARNING: Sequences B1H1U5.1/201-425 and A0A8J0VPY8.1/257-481 are exactly identical!
+WARNING: Sequences A9U514.1/82-293 and A0A2K1K363.1/109-320 are exactly identical!
+WARNING: Sequences A0A8B8EX72.1/141-318 and A0A8B8EY98.1/141-318 are exactly identical!
+WARNING: Sequences A0A0J9YBJ2.1/156-344 and A0A4E9F741.1/156-344 are exactly identical!
+WARNING: Sequences A0A0J9YBJ2.1/156-344 and A0A8L7T7J8.1/156-344 are exactly identical!
+WARNING: Sequences A0A378U9W3.1/62-257 and A0A0N7H8Q0.1/62-257 are exactly identical!
+WARNING: Sequences A0A2T9KBT8.1/87-325 and A0A2T9JKS7.1/87-325 are exactly identical!
+WARNING: Sequences A0A0L0SY24.1/146-313 and A0A0L0S6J0.1/147-314 are exactly identical!
+WARNING: Sequences A0A2R6X3H0.1/149-388 and A0A2R6X3F7.1/163-402 are exactly identical!
+WARNING: Sequences A0A4S2LES6.1/30-319 and A0A4S2LF11.1/30-319 are exactly identical!
+WARNING: Sequences A0A4W3ICV8.1/177-404 and A0A4W3IEG1.1/183-410 are exactly identical!
+WARNING: Sequences A0A4W3ICV8.1/177-404 and A0A4W3I926.1/173-400 are exactly identical!
+WARNING: Sequences A0A4W3ICV8.1/177-404 and A0A4W3I5I7.1/171-398 are exactly identical!
+WARNING: Sequences A0A4W3ICV8.1/177-404 and A0A4W3I954.1/177-404 are exactly identical!
+WARNING: Sequences A0A4W3ICV8.1/177-404 and A0A4W3I973.1/177-404 are exactly identical!
+WARNING: Sequences A0A2R6X796.1/133-377 and A0A2R6X7A4.1/133-377 are exactly identical!
+WARNING: Sequences A0A2R6X796.1/133-377 and A0A2R6WNN9.1/133-377 are exactly identical!
+WARNING: Sequences Q6GN92.1/177-405 and Q3KPL4.1/178-406 are exactly identical!
+WARNING: Sequences Q6GN92.1/177-405 and Q4V7Z3.1/177-405 are exactly identical!
+WARNING: Sequences Q6GN92.1/177-405 and A0A1L8HHA8.1/180-408 are exactly identical!
+WARNING: Sequences A0A1I9G629.1/371-558 and A0A1I9G609.1/373-560 are exactly identical!
+WARNING: Sequences A0A1I9G629.1/371-558 and A0A4E9FIB1.1/371-558 are exactly identical!
+WARNING: Sequences A0A1I9G629.1/371-558 and A0A5S6P9F5.1/371-558 are exactly identical!
+WARNING: Sequences A0A6P7LYR8.1/174-406 and A0A6P7LXQ7.1/164-396 are exactly identical!
+WARNING: Sequences A0A4W3I0J5.1/176-407 and A0A4W3IN19.1/183-414 are exactly identical!
+WARNING: Sequences A0A4W3I0J5.1/176-407 and A0A4W3INF1.1/175-406 are exactly identical!
+WARNING: Sequences A0A4W3I0J5.1/176-407 and A0A4W3I0L0.1/174-405 are exactly identical!
+WARNING: Sequences A0A4W3I0J5.1/176-407 and A0A4W3INV9.1/175-406 are exactly identical!
+WARNING: Sequences A0A4W3I0J5.1/176-407 and A0A4W3I5Q9.1/180-411 are exactly identical!
+WARNING: Sequences A0A267G1D3.1/98-335 and A0A1I8GLN0.1/175-412 are exactly identical!
+WARNING: Sequences A0A1S3IIA6.1/246-425 and A0A1S3HNS5.1/250-429 are exactly identical!
+WARNING: Sequences A0A7E6ER30.1/117-291 and A0A6P7S7A7.1/117-291 are exactly identical!
+WARNING: Sequences A0A7E6ER30.1/117-291 and A0A7E6EPH5.1/117-291 are exactly identical!
+WARNING: Sequences A0A7I4NJW8.1/143-331 and A0A4E9F948.1/145-333 are exactly identical!
+WARNING: Sequences A0A7I4NJW8.1/143-331 and A0A7I4K6K6.1/145-333 are exactly identical!
+WARNING: Sequences A0A0G4IPB5.1/95-253 and A0A3P3YML5.1/321-479 are exactly identical!
+WARNING: Sequences A0A4W3IXA9.1/177-401 and A0A4W3I8Z7.1/181-405 are exactly identical!
+WARNING: Sequences A0A6P7S5R8.2/115-291 and A0A7E6EPK6.1/115-291 are exactly identical!
+WARNING: Sequences A0A2R6W5B2.1/117-345 and A0A2R6W5A5.1/117-345 are exactly identical!
+WARNING: Sequences A0A6P7S5V1.2/120-295 and A0A6P7S7Y8.1/120-295 are exactly identical!
+WARNING: Sequences A0A6P5A764.1/226-457 and A0A6P5AGC0.1/224-455 are exactly identical!
+WARNING: Sequences A0A8B8F0Y1.1/109-284 and A0A8B8EZS9.1/152-327 are exactly identical!
+WARNING: Sequences A0A8B8EIY1.1/148-323 and A0A8B8EFI5.1/151-326 are exactly identical!
+WARNING: Duplicate sequences found: 59
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T2.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 214 patterns
+
+Partition 0: noname
+Model: JTT+G4m
+Alignment sites / patterns: 214 / 214
+Gaps: 12.05 %
+Invariant sites: 0.00 %
+
+
+NOTE: Binary MSA file created: data/proteome-tree/raxml/T2.raxml.rba
+
+Parallelization scheme autoconfig: 7 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 529 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 529 taxa
+Parallel parsimony with 7 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 214 / 17120
+[00:00:00] Data distribution: max. searches per worker: 3
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -270679.955344] Initial branch length optimization
+[00:00:03 -227195.805832] Model parameter optimization (eps = 10.000000)
+[00:00:09 -226954.741667] AUTODETECT spr round 1 (radius: 5)
+[00:00:28 -195598.090332] AUTODETECT spr round 2 (radius: 10)
+[00:01:21 -161211.162360] AUTODETECT spr round 3 (radius: 15)
+[00:02:27 -148407.859424] AUTODETECT spr round 4 (radius: 20)
+[00:03:47 -145617.641048] AUTODETECT spr round 5 (radius: 25)
+[00:05:42 -144932.230104] SPR radius for FAST iterations: 25 (autodetect)
+[00:05:42 -144932.230104] Model parameter optimization (eps = 3.000000)
+[00:05:43 -144931.368393] FAST spr round 1 (radius: 25)
+[00:07:52 -136149.428542] FAST spr round 2 (radius: 25)
+[00:09:02 -135812.360939] FAST spr round 3 (radius: 25)
+[00:09:51 -135743.074302] FAST spr round 4 (radius: 25)
+[00:10:27 -135725.868733] FAST spr round 5 (radius: 25)
+[00:10:57 -135724.601487] Model parameter optimization (eps = 1.000000)
+[00:11:02 -135713.296368] SLOW spr round 1 (radius: 5)
+[00:11:56 -135692.702308] SLOW spr round 2 (radius: 5)
+[00:12:40 -135692.701113] SLOW spr round 3 (radius: 10)
+[00:13:23 -135692.701055] SLOW spr round 4 (radius: 15)
+[00:15:40 -135692.701042] SLOW spr round 5 (radius: 20)
+[00:17:15] [worker #5] ML tree search #6, logLikelihood: -135700.388059
+[00:18:10] [worker #4] ML tree search #5, logLikelihood: -135713.745653
+[00:18:35 -135692.701036] SLOW spr round 6 (radius: 25)
+[00:18:39] [worker #2] ML tree search #3, logLikelihood: -135693.445448
+[00:19:56] [worker #1] ML tree search #2, logLikelihood: -135699.493137
+[00:22:06 -135692.701033] Model parameter optimization (eps = 0.100000)
+
+[00:22:08] [worker #0] ML tree search #1, logLikelihood: -135692.611404
+
+[00:22:08 -270128.554221] Initial branch length optimization
+[00:22:11 -226927.046303] Model parameter optimization (eps = 10.000000)
+[00:22:13] [worker #6] ML tree search #7, logLikelihood: -135682.620174
+[00:22:18 -226722.865547] AUTODETECT spr round 1 (radius: 5)
+[00:22:31] [worker #3] ML tree search #4, logLikelihood: -135667.394637
+[00:22:36 -194060.844758] AUTODETECT spr round 2 (radius: 10)
+[00:23:19 -161420.447469] AUTODETECT spr round 3 (radius: 15)
+[00:24:29 -147994.220639] AUTODETECT spr round 4 (radius: 20)
+[00:26:06 -145474.652414] AUTODETECT spr round 5 (radius: 25)
+[00:27:45 -145381.607363] SPR radius for FAST iterations: 25 (autodetect)
+[00:27:45 -145381.607363] Model parameter optimization (eps = 3.000000)
+[00:27:47 -145380.900753] FAST spr round 1 (radius: 25)
+[00:29:34 -136418.610816] FAST spr round 2 (radius: 25)
+[00:30:36 -135817.444659] FAST spr round 3 (radius: 25)
+[00:31:20 -135747.112080] FAST spr round 4 (radius: 25)
+[00:31:51 -135740.117238] Model parameter optimization (eps = 1.000000)
+[00:31:56 -135733.119129] SLOW spr round 1 (radius: 5)
+[00:32:46 -135688.772130] SLOW spr round 2 (radius: 5)
+[00:33:28 -135685.261442] SLOW spr round 3 (radius: 10)
+[00:34:06 -135684.447979] SLOW spr round 4 (radius: 15)
+[00:35:53 -135684.438020] SLOW spr round 5 (radius: 20)
+[00:38:16 -135684.437845] SLOW spr round 6 (radius: 25)
+[00:38:21] [worker #5] ML tree search #13, logLikelihood: -135651.419606
+[00:39:10] [worker #1] ML tree search #9, logLikelihood: -135704.085752
+[00:39:11] [worker #2] ML tree search #10, logLikelihood: -135704.933392
+[00:39:29] [worker #4] ML tree search #12, logLikelihood: -135616.439132
+[00:41:09 -135684.437825] Model parameter optimization (eps = 0.100000)
+
+[00:41:11] [worker #0] ML tree search #8, logLikelihood: -135684.294319
+
+[00:41:11 -153633.149959] Initial branch length optimization
+[00:41:13 -137314.429741] Model parameter optimization (eps = 10.000000)
+[00:41:14 -137307.851909] AUTODETECT spr round 1 (radius: 5)
+[00:41:29 -136192.457313] AUTODETECT spr round 2 (radius: 10)
+[00:42:16 -136079.679226] AUTODETECT spr round 3 (radius: 15)
+[00:43:38 -136022.089147] AUTODETECT spr round 4 (radius: 20)
+[00:43:42] [worker #3] ML tree search #11, logLikelihood: -135625.993690
+[00:44:04] [worker #6] ML tree search #14, logLikelihood: -135622.456688
+[00:45:43 -135978.080293] AUTODETECT spr round 5 (radius: 25)
+[00:48:14 -135971.483963] SPR radius for FAST iterations: 25 (autodetect)
+[00:48:14 -135971.483963] Model parameter optimization (eps = 3.000000)
+[00:48:14 -135971.254197] FAST spr round 1 (radius: 25)
+[00:49:52 -135729.051274] FAST spr round 2 (radius: 25)
+[00:50:54 -135682.118785] FAST spr round 3 (radius: 25)
+[00:51:33 -135677.399314] Model parameter optimization (eps = 1.000000)
+[00:51:34 -135677.321040] SLOW spr round 1 (radius: 5)
+[00:52:24 -135658.289155] SLOW spr round 2 (radius: 5)
+[00:53:03 -135658.288266] SLOW spr round 3 (radius: 10)
+[00:53:41 -135654.682685] SLOW spr round 4 (radius: 15)
+[00:55:30 -135653.972201] SLOW spr round 5 (radius: 20)
+[00:57:29] [worker #1] ML tree search #16, logLikelihood: -135649.534315
+[00:58:01 -135649.777459] SLOW spr round 6 (radius: 25)
+[00:59:52] [worker #5] ML tree search #20, logLikelihood: -135605.481135
+[01:00:04] [worker #4] ML tree search #19, logLikelihood: -135608.433229
+[01:00:36] [worker #2] ML tree search #17, logLikelihood: -135625.593719
+[01:00:48 -135649.767810] Model parameter optimization (eps = 0.100000)
+
+[01:00:49] [worker #0] ML tree search #15, logLikelihood: -135649.764753
+
+[01:03:45] [worker #3] ML tree search #18, logLikelihood: -135608.716091
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 1.037239 (ML),  weights&rates: (0.250000,0.144324) (0.250000,0.487666) (0.250000,1.005906) (0.250000,2.362104) 
+   Base frequencies (model): 0.076748 0.051691 0.042645 0.051544 0.019803 0.040752 0.061830 0.073152 0.022944 0.053761 0.091904 0.058676 0.023826 0.040126 0.050901 0.068765 0.058565 0.014261 0.032102 0.066005 
+   Substitution rates (model): 58.000000 54.000000 81.000000 56.000000 57.000000 105.000000 179.000000 27.000000 36.000000 30.000000 35.000000 54.000000 15.000000 194.000000 378.000000 475.000000 9.000000 11.000000 298.000000 45.000000 16.000000 113.000000 310.000000 29.000000 137.000000 328.000000 22.000000 38.000000 646.000000 44.000000 5.000000 74.000000 101.000000 64.000000 126.000000 20.000000 17.000000 528.000000 34.000000 86.000000 58.000000 81.000000 391.000000 47.000000 12.000000 263.000000 30.000000 10.000000 15.000000 503.000000 232.000000 8.000000 70.000000 16.000000 10.000000 49.000000 767.000000 130.000000 112.000000 11.000000 7.000000 26.000000 15.000000 4.000000 15.000000 59.000000 38.000000 4.000000 46.000000 31.000000 9.000000 5.000000 59.000000 69.000000 17.000000 23.000000 7.000000 31.000000 78.000000 14.000000 223.000000 42.000000 115.000000 209.000000 62.000000 323.000000 26.000000 597.000000 9.000000 72.000000 292.000000 43.000000 4.000000 164.000000 53.000000 51.000000 18.000000 24.000000 20.000000 119.000000 26.000000 12.000000 9.000000 181.000000 18.000000 5.000000 18.000000 30.000000 32.000000 10.000000 7.000000 45.000000 23.000000 6.000000 6.000000 27.000000 14.000000 5.000000 24.000000 201.000000 33.000000 55.000000 8.000000 47.000000 16.000000 56.000000 45.000000 33.000000 40.000000 115.000000 73.000000 46.000000 8.000000 573.000000 11.000000 229.000000 21.000000 479.000000 89.000000 10.000000 40.000000 245.000000 9.000000 32.000000 961.000000 14.000000 388.000000 248.000000 102.000000 59.000000 25.000000 52.000000 24.000000 180.000000 65.000000 4.000000 21.000000 47.000000 103.000000 10.000000 8.000000 14.000000 43.000000 16.000000 29.000000 226.000000 24.000000 18.000000 323.000000 17.000000 92.000000 12.000000 53.000000 536.000000 62.000000 285.000000 118.000000 6.000000 10.000000 23.000000 477.000000 35.000000 63.000000 38.000000 12.000000 21.000000 112.000000 71.000000 25.000000 16.000000 
+
+
+Final LogLikelihood: -135605.481135
+
+AIC score: 273322.962269 / AICc score: 2505706.962269 / BIC score: 276877.432941
+Free parameters (model + branch lengths): 1056
+
+WARNING: Number of free parameters (K=1056) is larger than alignment size (n=214).
+         This might lead to overfitting and compromise tree inference results!
+
+
+WARNING: Best ML tree contains 28 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T2.raxml.bestTreeCollapsed
+Best ML tree saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T2.raxml.bestTree
+All ML trees saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T2.raxml.mlTrees
+Optimized model saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T2.raxml.bestModel
+
+Execution log saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T2.raxml.log
+
+Analysis started: 01-Mar-2024 12:47:23 / finished: 01-Mar-2024 13:51:08
+
+Elapsed time: 3825.160 seconds
+
