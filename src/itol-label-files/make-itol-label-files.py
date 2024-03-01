@@ -168,14 +168,14 @@ def make_score_label_file():
     min = -140
     n = int(max-min)
     colors = list(Color("black").range_to(Color("white"),n))
-    output_filename = "data/itol-label-files/HMM_score25.txt"
+    output_filename = "data/itol-label-files/HMM_score20.txt"
     with open(output_filename, "w") as file:
         header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tscore25\nCOLOR\t#ff0000\nDATA\n"
         file.write(header)
         for acc in json_dict:
             score = json_dict[acc]['entries'][0]['entry_protein_locations'][0]['score']
             color = colors[math.floor(math.log10(score))].hex
-            if score < 1e-25:
+            if score < 1e-20:
                 file.write(f"{acc}\t{color}\t{score}\n")
 
 def make_coverage_label_file():
@@ -286,7 +286,8 @@ def make_OG_files():
                     color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
                     OG2color[OG] = color
                 file.write(f"{acc}\t{OG2color[OG]}\t{OG}\n")
-make_OG_files()
+# make_OG_files()
+                
 # # Make seed label files
 # seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_taxonomy_label_files(seed_df)
@@ -309,7 +310,7 @@ make_OG_files()
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan.tsv', sep='\t')
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
 # make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
-# make_score_label_file()
+make_score_label_file()
 # make_coverage_label_file()
 # make_match_length_file()
-make_taxonomy_arrow_files(df_uniprot_hits)
+# make_taxonomy_arrow_files(df_uniprot_hits)
