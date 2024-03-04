@@ -1,0 +1,212 @@
+
+RAxML-NG v. 1.2.1 released on 22.12.2023 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M1 Pro, 8 cores, 16 GB RAM
+
+RAxML-NG was called at 01-Mar-2024 16:53:18 as follows:
+
+raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_family.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T3 --threads 7 --seed 2
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 2
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (7 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: data/proteome-tree/fungal-one_proteome_per_family.hmmalign.fa
+[00:00:00] Loaded alignment with 1568 taxa and 214 sites
+
+WARNING: Sequences B2ACB0.1/55-286 and A0A090CL68.1/117-348 are exactly identical!
+WARNING: Sequences A0A177E2B8.1/86-303 and A0A4Q4NQH4.1/95-312 are exactly identical!
+WARNING: Sequences A0A177DK85.1/119-359 and A0A4Q4NF14.1/119-359 are exactly identical!
+WARNING: Sequences B2ARY3.1/39-252 and A0A090D4S5.1/70-283 are exactly identical!
+WARNING: Sequences A0A166CLK7.1/57-299 and A0A166F1S8.1/57-299 are exactly identical!
+WARNING: Sequences A0A177D6G4.1/108-337 and A0A4Q4N1Y8.1/108-337 are exactly identical!
+WARNING: Sequences B2AMC1.1/41-274 and A0A090CMR9.1/51-284 are exactly identical!
+WARNING: Sequences A0A177DQF3.1/62-276 and A0A4Q4NBP0.1/72-286 are exactly identical!
+WARNING: Sequences A0A1V8SV31.1/89-348 and A0A1V8T1G2.1/89-348 are exactly identical!
+WARNING: Sequences A0A679EKB9.1/59-304 and A0A7R6T5J0.1/59-304 are exactly identical!
+WARNING: Sequences A0A366NL22.1/71-281 and A0A2J8DPU1.1/71-281 are exactly identical!
+WARNING: Sequences A0A4Q4NVL9.1/123-376 and A0A177DXP3.1/123-376 are exactly identical!
+WARNING: Sequences A0A177DH95.1/71-297 and A0A4Q4NKY1.1/71-297 are exactly identical!
+WARNING: Sequences A0A8H8J4C2.1/57-373 and A0A8H8NDJ7.1/57-373 are exactly identical!
+WARNING: Sequences A0A8H8N7K3.1/75-380 and A0A8H8M0V2.1/57-362 are exactly identical!
+WARNING: Sequences A0A8H8MHZ8.1/76-280 and A0A8H8NBH2.1/76-280 are exactly identical!
+WARNING: Sequences A0A8I2YWL6.1/58-341 and A0A8I3A4L4.1/58-341 are exactly identical!
+WARNING: Sequences A0A8H8MAJ6.1/115-319 and A0A8H8SFV4.1/115-319 are exactly identical!
+WARNING: Sequences A0A5B0PDE5.1/78-262 and A0A5B0M872.1/78-262 are exactly identical!
+WARNING: Sequences A0A8H8J5Z8.1/107-316 and A0A8H8N3B7.1/107-316 are exactly identical!
+WARNING: Sequences A0A4Q4NP34.1/26-295 and A0A177D9T1.1/88-357 are exactly identical!
+WARNING: Sequences A0A8H8NIZ1.1/98-308 and A0A8H8J841.1/98-308 are exactly identical!
+WARNING: Sequences A0A0L0SY24.1/146-313 and A0A0L0S6J0.1/147-314 are exactly identical!
+WARNING: Sequences A0A4Q9NA82.1/83-299 and A0A4V2K7N5.1/83-299 are exactly identical!
+WARNING: Sequences A0A0C9SRH3.1/82-293 and A0A0C9SL04.1/82-293 are exactly identical!
+WARNING: Sequences A0A1R1YCH6.1/67-241 and A0A1R1XEH9.1/67-241 are exactly identical!
+WARNING: Sequences A0A1R1XFQ7.1/7-182 and A0A1R1YKF0.1/7-182 are exactly identical!
+WARNING: Sequences A0A1R1Y072.1/60-240 and A0A1R1YEJ2.1/60-240 are exactly identical!
+WARNING: Duplicate sequences found: 28
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T3.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 214 patterns
+
+Partition 0: noname
+Model: JTT+G4m
+Alignment sites / patterns: 214 / 214
+Gaps: 9.66 %
+Invariant sites: 0.00 %
+
+
+NOTE: Binary MSA file created: data/proteome-tree/raxml/T3.raxml.rba
+
+Parallelization scheme autoconfig: 7 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 1568 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 1568 taxa
+Parallel parsimony with 7 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:01] Data distribution: max. partitions/sites/weight per thread: 1 / 214 / 17120
+[00:00:01] Data distribution: max. searches per worker: 3
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:01 -770637.689111] Initial branch length optimization
+[00:00:09 -649727.502946] Model parameter optimization (eps = 10.000000)
+[00:00:18 -649057.844911] AUTODETECT spr round 1 (radius: 5)
+[00:01:06 -580585.992904] AUTODETECT spr round 2 (radius: 10)
+[00:03:36 -507153.658545] AUTODETECT spr round 3 (radius: 15)
+[00:07:14 -465276.366104] AUTODETECT spr round 4 (radius: 20)
+[00:13:15 -444760.419855] AUTODETECT spr round 5 (radius: 25)
+[00:21:26 -436545.927172] SPR radius for FAST iterations: 25 (autodetect)
+[00:21:26 -436545.927172] Model parameter optimization (eps = 3.000000)
+[00:21:35 -436016.495838] FAST spr round 1 (radius: 25)
+[00:42:42 -405561.577981] FAST spr round 2 (radius: 25)
+[00:55:59 -403864.765837] FAST spr round 3 (radius: 25)
+[01:02:45 -403664.460828] FAST spr round 4 (radius: 25)
+[01:06:40 -403616.312522] FAST spr round 5 (radius: 25)
+[01:09:02 -403609.044202] Model parameter optimization (eps = 1.000000)
+[01:09:05 -403608.576125] SLOW spr round 1 (radius: 5)
+[01:11:53 -403536.744440] SLOW spr round 2 (radius: 5)
+[01:14:05 -403528.583527] SLOW spr round 3 (radius: 10)
+[01:15:51 -403525.700523] SLOW spr round 4 (radius: 15)
+[01:21:22 -403523.263434] SLOW spr round 5 (radius: 20)
+[01:30:44 -403523.253542] SLOW spr round 6 (radius: 25)
+[01:43:53 -403523.253099] Model parameter optimization (eps = 0.100000)
+
+[01:43:56] [worker #0] ML tree search #1, logLikelihood: -403523.155182
+
+[01:43:56 -767720.773070] Initial branch length optimization
+[01:44:05 -648850.498921] Model parameter optimization (eps = 10.000000)
+[01:44:21 -648094.793963] AUTODETECT spr round 1 (radius: 5)
+[01:45:11 -578987.077659] AUTODETECT spr round 2 (radius: 10)
+[01:47:30 -511117.515222] AUTODETECT spr round 3 (radius: 15)
+[01:48:35] [worker #3] ML tree search #4, logLikelihood: -403500.429200
+[01:50:07] [worker #6] ML tree search #7, logLikelihood: -403515.419421
+[01:51:46 -465408.138398] AUTODETECT spr round 4 (radius: 20)
+[01:54:29] [worker #2] ML tree search #3, logLikelihood: -403463.113011
+[01:55:22] [worker #5] ML tree search #6, logLikelihood: -403528.914410
+[01:58:11 -443966.157017] AUTODETECT spr round 5 (radius: 25)
+[02:01:54] [worker #1] ML tree search #2, logLikelihood: -403516.571947
+[02:05:29 -439831.291451] SPR radius for FAST iterations: 25 (autodetect)
+[02:05:29 -439831.291451] Model parameter optimization (eps = 3.000000)
+[02:05:42 -439314.228704] FAST spr round 1 (radius: 25)
+[02:11:51] [worker #4] ML tree search #5, logLikelihood: -403505.843907
+[02:24:51 -410895.311086] FAST spr round 2 (radius: 25)
+[02:35:53 -409525.408522] FAST spr round 3 (radius: 25)
+[02:42:21 -404802.497791] FAST spr round 4 (radius: 25)
+[02:46:16 -403969.660784] FAST spr round 5 (radius: 25)
+[02:48:50 -403813.683507] FAST spr round 6 (radius: 25)
+[02:50:32 -403795.316019] FAST spr round 7 (radius: 25)
+[02:51:49 -403793.780514] Model parameter optimization (eps = 1.000000)
+[02:51:55 -403792.027123] SLOW spr round 1 (radius: 5)
+[02:54:23 -403707.949043] SLOW spr round 2 (radius: 5)
+[02:56:24 -403700.199010] SLOW spr round 3 (radius: 10)
+[02:58:07 -403698.855973] SLOW spr round 4 (radius: 15)
+[03:03:50 -403695.371188] SLOW spr round 5 (radius: 20)
+[03:13:30 -403695.278131] SLOW spr round 6 (radius: 25)
+[03:26:35 -403695.277356] Model parameter optimization (eps = 0.100000)
+
+[03:26:38] [worker #0] ML tree search #8, logLikelihood: -403695.202154
+
+[03:26:38 -440175.249421] Initial branch length optimization
+[03:26:43 -409465.835727] Model parameter optimization (eps = 10.000000)
+[03:26:50 -409418.113213] AUTODETECT spr round 1 (radius: 5)
+[03:27:37 -404751.167000] AUTODETECT spr round 2 (radius: 10)
+[03:30:32 -403758.516203] AUTODETECT spr round 3 (radius: 15)
+[03:37:45 -403593.961615] AUTODETECT spr round 4 (radius: 20)
+[03:39:08] [worker #2] ML tree search #10, logLikelihood: -403645.717227
+[03:42:36] [worker #3] ML tree search #11, logLikelihood: -402524.316359
+[03:49:05 -403568.802676] AUTODETECT spr round 5 (radius: 25)
+[03:56:42] [worker #6] ML tree search #14, logLikelihood: -402544.780744
+[03:58:02] [worker #1] ML tree search #9, logLikelihood: -403561.601220
+[04:02:05 -403567.568647] SPR radius for FAST iterations: 25 (autodetect)
+[04:02:05 -403567.568647] Model parameter optimization (eps = 3.000000)
+[04:02:08 -403567.398973] FAST spr round 1 (radius: 25)
+[04:12:19] [worker #5] ML tree search #13, logLikelihood: -402468.723851
+[04:28:14] [worker #4] ML tree search #12, logLikelihood: -402608.978980
+[04:29:55 -402779.680324] FAST spr round 2 (radius: 25)
+[04:46:30 -402688.960588] FAST spr round 3 (radius: 25)
+[04:55:16 -402682.980419] Model parameter optimization (eps = 1.000000)
+[04:55:19 -402682.804904] SLOW spr round 1 (radius: 5)
+[04:58:36 -402578.875711] SLOW spr round 2 (radius: 5)
+[05:01:21 -402561.049215] SLOW spr round 3 (radius: 5)
+[05:03:32 -402557.201335] SLOW spr round 4 (radius: 10)
+[05:05:18 -402550.217897] SLOW spr round 5 (radius: 15)
+[05:11:45 -402550.212447] SLOW spr round 6 (radius: 20)
+[05:23:05 -402550.212440] SLOW spr round 7 (radius: 25)
+[05:38:25 -402550.212440] Model parameter optimization (eps = 0.100000)
+
+[05:38:28] [worker #0] ML tree search #15, logLikelihood: -402550.208639
+
+[05:48:05] [worker #2] ML tree search #17, logLikelihood: -402592.299836
+[06:03:56] [worker #1] ML tree search #16, logLikelihood: -402567.052433
+[06:06:05] [worker #3] ML tree search #18, logLikelihood: -402520.996390
+[06:21:31] [worker #5] ML tree search #20, logLikelihood: -402535.727230
+[06:27:16] [worker #4] ML tree search #19, logLikelihood: -402493.497948
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 1.148970 (ML),  weights&rates: (0.250000,0.165684) (0.250000,0.517366) (0.250000,1.020881) (0.250000,2.296070) 
+   Base frequencies (model): 0.076748 0.051691 0.042645 0.051544 0.019803 0.040752 0.061830 0.073152 0.022944 0.053761 0.091904 0.058676 0.023826 0.040126 0.050901 0.068765 0.058565 0.014261 0.032102 0.066005 
+   Substitution rates (model): 58.000000 54.000000 81.000000 56.000000 57.000000 105.000000 179.000000 27.000000 36.000000 30.000000 35.000000 54.000000 15.000000 194.000000 378.000000 475.000000 9.000000 11.000000 298.000000 45.000000 16.000000 113.000000 310.000000 29.000000 137.000000 328.000000 22.000000 38.000000 646.000000 44.000000 5.000000 74.000000 101.000000 64.000000 126.000000 20.000000 17.000000 528.000000 34.000000 86.000000 58.000000 81.000000 391.000000 47.000000 12.000000 263.000000 30.000000 10.000000 15.000000 503.000000 232.000000 8.000000 70.000000 16.000000 10.000000 49.000000 767.000000 130.000000 112.000000 11.000000 7.000000 26.000000 15.000000 4.000000 15.000000 59.000000 38.000000 4.000000 46.000000 31.000000 9.000000 5.000000 59.000000 69.000000 17.000000 23.000000 7.000000 31.000000 78.000000 14.000000 223.000000 42.000000 115.000000 209.000000 62.000000 323.000000 26.000000 597.000000 9.000000 72.000000 292.000000 43.000000 4.000000 164.000000 53.000000 51.000000 18.000000 24.000000 20.000000 119.000000 26.000000 12.000000 9.000000 181.000000 18.000000 5.000000 18.000000 30.000000 32.000000 10.000000 7.000000 45.000000 23.000000 6.000000 6.000000 27.000000 14.000000 5.000000 24.000000 201.000000 33.000000 55.000000 8.000000 47.000000 16.000000 56.000000 45.000000 33.000000 40.000000 115.000000 73.000000 46.000000 8.000000 573.000000 11.000000 229.000000 21.000000 479.000000 89.000000 10.000000 40.000000 245.000000 9.000000 32.000000 961.000000 14.000000 388.000000 248.000000 102.000000 59.000000 25.000000 52.000000 24.000000 180.000000 65.000000 4.000000 21.000000 47.000000 103.000000 10.000000 8.000000 14.000000 43.000000 16.000000 29.000000 226.000000 24.000000 18.000000 323.000000 17.000000 92.000000 12.000000 53.000000 536.000000 62.000000 285.000000 118.000000 6.000000 10.000000 23.000000 477.000000 35.000000 63.000000 38.000000 12.000000 21.000000 112.000000 71.000000 25.000000 16.000000 
+
+
+Final LogLikelihood: -402468.723851
+
+AIC score: 811205.447702 / AICc score: 20461385.447702 / BIC score: 821754.416533
+Free parameters (model + branch lengths): 3134
+
+WARNING: Number of free parameters (K=3134) is larger than alignment size (n=214).
+         This might lead to overfitting and compromise tree inference results!
+
+
+WARNING: Best ML tree contains 11 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T3.raxml.bestTreeCollapsed
+Best ML tree saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T3.raxml.bestTree
+All ML trees saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T3.raxml.mlTrees
+Optimized model saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T3.raxml.bestModel
+
+Execution log saved to: /Users/idamei/polyphenol-oxidases/data/proteome-tree/raxml/T3.raxml.log
+
+Analysis started: 01-Mar-2024 16:53:18 / finished: 01-Mar-2024 23:20:34
+
+Elapsed time: 23236.300 seconds
+
