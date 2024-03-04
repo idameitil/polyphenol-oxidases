@@ -7,8 +7,10 @@ def get_fasta_sequences(fasta_filename):
         acc2seq[fasta.id.split('.')[0]] = fasta.seq
     return acc2seq
 
-acc2seqhmmalign = get_fasta_sequences('data/pfam/PF00264.alignment.uniprot-cleaned.fa')
-acc2seqtrimmed = get_fasta_sequences('data/pfam/PF00264.alignment.uniprot-nogaps.fa')
+acc2seq_hmmalign = get_fasta_sequences('data/pfam/PF00264.alignment.uniprot-cleaned.fa')
+acc2seq_trimmed = get_fasta_sequences('data/pfam/PF00264.alignment.uniprot-nogaps.fa')
+acc2seq_seeds_hmmalign = get_fasta_sequences('data/seeds-names.hmmalign.fa')
+acc2seq_seeds_trimmed = get_fasta_sequences('data/seeds-names.hmmalign-withoutgaps.fa')
 
 def get_selected_ids(domain, rank):
     fasta_filename = f'data/proteome-tree/{domain}-one_proteome_per_{rank}.fa'
@@ -20,18 +22,22 @@ def write_hmmalign_fasta(domain, rank):
     ids_selected = get_selected_ids(domain, rank)
     output_filename = f"data/proteome-tree/{domain}-one_proteome_per_{rank}.hmmalign.fa"
     with open(output_filename, 'w') as outfile:
-        for acc in acc2seqhmmalign:
+        for acc in acc2seq_hmmalign:
             if acc in ids_selected:
-                outfile.write(f">{acc}\n{acc2seqhmmalign[acc]}\n")
+                outfile.write(f">{acc}\n{acc2seq_hmmalign[acc]}\n")
+        for acc in acc2seq_seeds_hmmalign:
+            outfile.write(f">{acc}\n{acc2seq_seeds_hmmalign[acc]}\n")
 
 def write_trimmed_fasta(domain, rank):
     """for mafft tree"""
     ids_selected = get_selected_ids(domain, rank)
     output_filename = f"data/proteome-tree/{domain}-one_proteome_per_{rank}.trimmed.fa"
     with open(output_filename, 'w') as outfile:
-        for acc in acc2seqtrimmed:
+        for acc in acc2seq_trimmed:
             if acc in ids_selected:
-                outfile.write(f">{acc}\n{acc2seqtrimmed[acc]}\n")
+                outfile.write(f">{acc}\n{acc2seq_trimmed[acc]}\n")
+        for acc in acc2seq_seeds_trimmed:
+            outfile.write(f">{acc}\n{acc2seq_seeds_trimmed[acc]}\n")
 
 write_hmmalign_fasta('fungal', 'order')
 write_hmmalign_fasta('fungal', 'family')
