@@ -329,17 +329,18 @@ A json file with proteome metadata was downloaded from uniprot `https://www.unip
 
 The above to files are combined to create the table by running: `python src/proteome-tree/make-proteome-table.py`. This creates the file `data/proteome-tree/proteome-data.tsv`.
 
-## Fungal tree
-To select proteomes (the one with the highest BUSCO score) and write fasta, run `python src/proteome-tree/filter-proteome-sequences.py`. This creates the file `data/proteome-tree/fungal-one_proteome_per_order.fa`.
+## Select proteomes and get sequences
+In order to select the proteomes to include and get the PPO sequences from those proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. This creates the set of files `data/proteome-tree/selected-proteomes-taxids-fungi-order.txt` (containing the taxids for the included proteomes) and `data/proteome-tree/fungal-one_proteome_per_order.fa` (containing the PPO sequences for the selected proteomes) for each set of parameters.
 
-To make fastas for making tree, run `python src/proteome-tree/prepare-fasta-selected-sequences.py`. This generates the files `data/proteome-tree/fungal-one_proteome_per_order.hmmalign.fa` and `data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa`.
+## Get aligned selected sequences
+In order to make fasta files with the aligned selected sequences, run `python get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/all-one_proteome_per_class.hmmalign.fa` etc.
 
+## Make trees
 To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_order.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T1 --threads 7 --seed 2 --blopt nr_safe`
 
-## All kingdoms tree
-To select proteomes (the one with the highest BUSCO score) and write fasta, run `python src/proteome-tree/filter-proteome-sequences-all-kingdoms.py`. This creates the file `data/proteome-tree/all-one_proteome_per_class.fa`.
+To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T2 --threads 7 --seed 2 --blopt nr_safe`
 
-To make fastas for making tree, run `python src/proteome-tree/prepare-fasta-selected-sequences.py`. This generates the files `data/proteome-tree/fungal-one_proteome_per_order.hmmalign.fa` and `data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa`.
+To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_family.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T3 --threads 7 --seed 2 --blopt nr_safe`
 
-To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/all-one_proteome_per_order.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T2 --threads 7 --seed 2 --blopt nr_safe`
+To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T4 --threads 7 --seed 2 --blopt nr_safe`
 
