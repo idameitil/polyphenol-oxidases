@@ -311,6 +311,24 @@ etc.
 
 Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms data`
 
+## Interproscan on proteome selected sequences
+To make fasta with full-length sequences of the selected sequences from proteomes, run `python src/proteome-tree/get-full-length-selected-sequences.py`. This creates the file `data/proteome-tree/all-one_proteome_per_order_class.full-length.fa`.
+
+Copy the fasta to the HPC: `scp data/proteome-tree/all-one_proteome_per_order.full-length.fa idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan`
+
+On the HPC:
+Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/proteomes-all-per-order-interproscan polyphenol-oxidases/proteomes-all-per-order-interproscan/all-one_proteome_per_order.full-length.fa`
+
+Run this:
+`qrsh`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk00.fa -f tsv -o /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk00.interproscan`
+
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk01.fa -f tsv -o /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk01.interproscan`
+
+etc.
+
+Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms data`
+
 ### Enrich fungal uniprot hits with domain architecture
 To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan.tsv`. (note that only the reduced hits are enriched, so there are many lines without pfam info)
 
