@@ -28,9 +28,9 @@ def make_taxonomy_label_files(df, blast_hits=False, uniprot_hits=False):
                     color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
                     tax2color[tax] = color
                 if rank == 'kingdom':
-                    kingdom2color = {'Viridiplantae': '#00FF00', 'nan': '#FF0000', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
+                    kingdom2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
                     if tax not in kingdom2color:
-                        color = '#FF0000'
+                        color = '#FFFFFF'
                     else:
                         color = kingdom2color[tax]
                     file.write(f"{acc}\t{color}\t{tax}\n")
@@ -309,7 +309,7 @@ def make_OG_files():
 # Make Uniprot hits label files
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan.tsv', sep='\t')
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-# make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
+make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
 make_score_label_file()
 # make_coverage_label_file()
 # make_match_length_file()
