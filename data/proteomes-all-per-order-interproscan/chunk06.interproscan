@@ -1,0 +1,616 @@
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	15	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Pfam	PF00264	Common central domain of tyrosinase	134	321	1.8E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	20	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	468	490	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	491	547	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	467	-	T	05-03-2024	-	-
+A0A914XPY4	49dba79445d6ee0e937a683868f76b79	547	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+A0A8T8SAS9	1b37cb1d0bdbd6b664a0e2ea159aa620	253	Pfam	PF00264	Common central domain of tyrosinase	4	177	3.5E-25	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A401PZ68	69dd86956820ac102543311599c79101	383	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	359	383	-	T	05-03-2024	-	-
+A0A401PZ68	69dd86956820ac102543311599c79101	383	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	331	-	T	05-03-2024	-	-
+A0A401PZ68	69dd86956820ac102543311599c79101	383	Pfam	PF00264	Common central domain of tyrosinase	46	274	6.3E-31	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A401PZ68	69dd86956820ac102543311599c79101	383	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	332	358	-	T	05-03-2024	-	-
+A0A8T0H1H9	c4b692a78a849a55587ee92e89668e54	558	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	19	-	T	05-03-2024	-	-
+A0A8T0H1H9	c4b692a78a849a55587ee92e89668e54	558	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	40	558	-	T	05-03-2024	-	-
+A0A8T0H1H9	c4b692a78a849a55587ee92e89668e54	558	Pfam	PF12142	Polyphenol oxidase middle domain	340	389	1.5E-19	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A8T0H1H9	c4b692a78a849a55587ee92e89668e54	558	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	20	39	-	T	05-03-2024	-	-
+A0A8T0H1H9	c4b692a78a849a55587ee92e89668e54	558	Pfam	PF00264	Common central domain of tyrosinase	116	331	2.3E-35	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8T0H1H9	c4b692a78a849a55587ee92e89668e54	558	Pfam	PF12143	Protein of unknown function (DUF_B2219)	432	555	1.4E-17	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A2B7X0H1	27ec9e574a7deb6d0f58aef28eac79a6	437	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	5	18	-	T	05-03-2024	-	-
+A0A2B7X0H1	27ec9e574a7deb6d0f58aef28eac79a6	437	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	4	-	T	05-03-2024	-	-
+A0A2B7X0H1	27ec9e574a7deb6d0f58aef28eac79a6	437	Pfam	PF00264	Common central domain of tyrosinase	140	379	9.7E-49	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2B7X0H1	27ec9e574a7deb6d0f58aef28eac79a6	437	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	22	-	T	05-03-2024	-	-
+A0A2B7X0H1	27ec9e574a7deb6d0f58aef28eac79a6	437	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	05-03-2024	-	-
+A0A2B7X0H1	27ec9e574a7deb6d0f58aef28eac79a6	437	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	19	22	-	T	05-03-2024	-	-
+A0A2B7X0H1	27ec9e574a7deb6d0f58aef28eac79a6	437	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	23	437	-	T	05-03-2024	-	-
+A0A4V1IWY8	2040ca0287210df7eb6cc8d0fd7252a3	437	Pfam	PF00264	Common central domain of tyrosinase	45	222	1.9E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	17	25	-	T	05-03-2024	-	-
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Pfam	PF00264	Common central domain of tyrosinase	187	419	9.2E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	505	540	-	T	05-03-2024	-	-
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	31	480	-	T	05-03-2024	-	-
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	481	504	-	T	05-03-2024	-	-
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	30	-	T	05-03-2024	-	-
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	16	-	T	05-03-2024	-	-
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	26	30	-	T	05-03-2024	-	-
+A0A3B3HNW7	d68c9b36bcad808a03eec4e85a814f99	540	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	30	-	T	05-03-2024	-	-
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	05-03-2024	-	-
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	05-03-2024	-	-
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	12	-	T	05-03-2024	-	-
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Pfam	PF00264	Common central domain of tyrosinase	250	442	7.8E-34	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Pfam	PF01549	ShK domain-like	654	690	1.2E-4	T	05-03-2024	IPR003582	ShKT domain
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Pfam	PF01549	ShK domain-like	609	644	0.38	T	05-03-2024	IPR003582	ShKT domain
+W2SZ25	48ccd671b243f6357f8eadae258ef425	744	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	744	-	T	05-03-2024	-	-
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	Pfam	PF14830	Haemocyanin beta-sandwich	125	227	4.6E-32	T	05-03-2024	IPR028999	Haemocyanin beta-sandwich domain
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	27	557	-	T	05-03-2024	-	-
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	Pfam	PF00264	Common central domain of tyrosinase	277	459	9.4E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	05-03-2024	-	-
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	7	18	-	T	05-03-2024	-	-
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	26	-	T	05-03-2024	-	-
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	6	-	T	05-03-2024	-	-
+A0A8S3ZS08	8c22703e5b098b2d3d0b31d988c5cb7b	557	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	19	26	-	T	05-03-2024	-	-
+A0A2R6VZB5	300a3e5ec7d387ced04fa4ef33547796	412	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	50	412	-	T	05-03-2024	-	-
+A0A2R6VZB5	300a3e5ec7d387ced04fa4ef33547796	412	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	49	-	T	05-03-2024	-	-
+A0A2R6VZB5	300a3e5ec7d387ced04fa4ef33547796	412	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	26	-	T	05-03-2024	-	-
+A0A2R6VZB5	300a3e5ec7d387ced04fa4ef33547796	412	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	49	-	T	05-03-2024	-	-
+A0A2R6VZB5	300a3e5ec7d387ced04fa4ef33547796	412	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	27	40	-	T	05-03-2024	-	-
+A0A2R6VZB5	300a3e5ec7d387ced04fa4ef33547796	412	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	41	49	-	T	05-03-2024	-	-
+A0A2R6VZB5	300a3e5ec7d387ced04fa4ef33547796	412	Pfam	PF00264	Common central domain of tyrosinase	133	377	2.9E-30	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	476	501	-	T	05-03-2024	-	-
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	28	-	T	05-03-2024	-	-
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	19	-	T	05-03-2024	-	-
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Pfam	PF00264	Common central domain of tyrosinase	173	405	2.7E-38	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	20	28	-	T	05-03-2024	-	-
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	502	546	-	T	05-03-2024	-	-
+A0A673AYN8	ed8ae96ccdb20d09d70e545a13685e55	546	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	29	475	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Pfam	PF00264	Common central domain of tyrosinase	177	405	5.3E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	492	517	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	15	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	464	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	20	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	465	491	-	T	05-03-2024	-	-
+Q6GN92	2738a9b0635456b6202b22aa028b67bf	517	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	23	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	Pfam	PF18132	Tyosinase C-terminal domain	650	765	2.6E-14	T	05-03-2024	IPR041640	Tyrosinase, C-terminal
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	838	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	Pfam	PF00264	Common central domain of tyrosinase	296	537	3.3E-41	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A437AF91	93c74a96cb7a96f4d10405e93c9810e6	838	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	05-03-2024	-	-
+A0A178AM67	ff379bf3afdf381f33724177817e691e	382	Pfam	PF00264	Common central domain of tyrosinase	93	323	6.4E-54	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A178AM67	ff379bf3afdf381f33724177817e691e	382	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	05-03-2024	-	-
+A0A178AM67	ff379bf3afdf381f33724177817e691e	382	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	5	12	-	T	05-03-2024	-	-
+A0A178AM67	ff379bf3afdf381f33724177817e691e	382	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	4	-	T	05-03-2024	-	-
+A0A178AM67	ff379bf3afdf381f33724177817e691e	382	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	05-03-2024	-	-
+A0A178AM67	ff379bf3afdf381f33724177817e691e	382	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	05-03-2024	-	-
+A0A178AM67	ff379bf3afdf381f33724177817e691e	382	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	382	-	T	05-03-2024	-	-
+A0A8J1L3K0	698e151567f50a4f7224baed21ca535b	478	Pfam	PF00264	Common central domain of tyrosinase	165	389	5.7E-34	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8J1L3K0	698e151567f50a4f7224baed21ca535b	478	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A8J1L3K0	698e151567f50a4f7224baed21ca535b	478	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	05-03-2024	-	-
+A0A8J1L3K0	698e151567f50a4f7224baed21ca535b	478	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	05-03-2024	-	-
+A0A8J1L3K0	698e151567f50a4f7224baed21ca535b	478	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	12	-	T	05-03-2024	-	-
+A0A8J1L3K0	698e151567f50a4f7224baed21ca535b	478	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	478	-	T	05-03-2024	-	-
+A0A8J1L3K0	698e151567f50a4f7224baed21ca535b	478	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	05-03-2024	-	-
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	14	-	T	05-03-2024	-	-
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	19	-	T	05-03-2024	-	-
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	365	-	T	05-03-2024	-	-
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	05-03-2024	-	-
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	Pfam	PF00264	Common central domain of tyrosinase	82	306	1.5E-52	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1L9UDA4	c7ad921f8d5ce230553994f58b7c8e79	365	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	05-03-2024	-	-
+A0A8B8ABF3	cb515c4628b0868cd22cd5d7cc0fe4ff	875	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	4	-	T	05-03-2024	-	-
+A0A8B8ABF3	cb515c4628b0868cd22cd5d7cc0fe4ff	875	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A8B8ABF3	cb515c4628b0868cd22cd5d7cc0fe4ff	875	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	19	-	T	05-03-2024	-	-
+A0A8B8ABF3	cb515c4628b0868cd22cd5d7cc0fe4ff	875	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	875	-	T	05-03-2024	-	-
+A0A8B8ABF3	cb515c4628b0868cd22cd5d7cc0fe4ff	875	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	5	15	-	T	05-03-2024	-	-
+A0A8B8ABF3	cb515c4628b0868cd22cd5d7cc0fe4ff	875	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	05-03-2024	-	-
+A0A8B8ABF3	cb515c4628b0868cd22cd5d7cc0fe4ff	875	Pfam	PF00264	Common central domain of tyrosinase	329	506	3.3E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	23	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	507	530	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	506	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	05-03-2024	-	-
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Pfam	PF00264	Common central domain of tyrosinase	178	432	5.4E-36	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6P4XRW3	82ea252e059c1d06ff43c9dee0519f1d	532	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	531	532	-	T	05-03-2024	-	-
+A0A067ME78	d10105a3abd7fd0b9aacf3bd1109445a	545	Pfam	PF18132	Tyosinase C-terminal domain	378	488	5.3E-16	T	05-03-2024	IPR041640	Tyrosinase, C-terminal
+A0A067ME78	d10105a3abd7fd0b9aacf3bd1109445a	545	Pfam	PF00264	Common central domain of tyrosinase	55	270	6.0E-22	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	Pfam	PF00264	Common central domain of tyrosinase	63	237	4.9E-22	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	21	-	T	05-03-2024	-	-
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	237	-	T	05-03-2024	-	-
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	13	-	T	05-03-2024	-	-
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	T	05-03-2024	-	-
+A0A137P2V9	32feb7de24b7b79ed677933948bd7346	237	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A804K4K9	5682779819c07ab694ad95c588f4e477	504	Pfam	PF12142	Polyphenol oxidase middle domain	369	416	6.6E-17	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A804K4K9	5682779819c07ab694ad95c588f4e477	504	Pfam	PF12143	Protein of unknown function (DUF_B2219)	446	500	2.0E-7	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A804K4K9	5682779819c07ab694ad95c588f4e477	504	Pfam	PF00264	Common central domain of tyrosinase	156	362	3.4E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8C9S4V1	d4443f8da3c892f773b4b73556e51d25	533	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	469	-	T	05-03-2024	-	-
+A0A8C9S4V1	d4443f8da3c892f773b4b73556e51d25	533	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	497	533	-	T	05-03-2024	-	-
+A0A8C9S4V1	d4443f8da3c892f773b4b73556e51d25	533	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	470	496	-	T	05-03-2024	-	-
+A0A8C9S4V1	d4443f8da3c892f773b4b73556e51d25	533	Pfam	PF00264	Common central domain of tyrosinase	164	395	4.4E-37	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	12	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	473	496	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Pfam	PF00264	Common central domain of tyrosinase	170	401	2.6E-37	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	497	526	-	T	05-03-2024	-	-
+A0A4W3IPU9	cd3583f4e30cbe274dac0035955a04d2	526	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	472	-	T	05-03-2024	-	-
+A0A0G4IUB1	6ed0c3892ec9d20fb1955afed309f39b	550	Pfam	PF00264	Common central domain of tyrosinase	151	327	1.1E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P9WAZ0	982343de8cc61f593902395c47e0bf0b	374	Pfam	PF00264	Common central domain of tyrosinase	126	314	6.9E-36	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P9WAZ0	982343de8cc61f593902395c47e0bf0b	374	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A9P9WAZ0	982343de8cc61f593902395c47e0bf0b	374	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	16	-	T	05-03-2024	-	-
+A0A9P9WAZ0	982343de8cc61f593902395c47e0bf0b	374	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	12	-	T	05-03-2024	-	-
+A0A9P9WAZ0	982343de8cc61f593902395c47e0bf0b	374	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	05-03-2024	-	-
+A0A9P9WAZ0	982343de8cc61f593902395c47e0bf0b	374	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	17	374	-	T	05-03-2024	-	-
+A0A9P9WAZ0	982343de8cc61f593902395c47e0bf0b	374	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	16	-	T	05-03-2024	-	-
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Pfam	PF00264	Common central domain of tyrosinase	178	384	1.0E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Pfam	PF12142	Polyphenol oxidase middle domain	391	441	1.3E-14	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	13	-	T	05-03-2024	-	-
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	600	-	T	05-03-2024	-	-
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	18	-	T	05-03-2024	-	-
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Pfam	PF12143	Protein of unknown function (DUF_B2219)	463	589	9.4E-29	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A9D5CTY2	673e80856a58dd1ba09f92fcb6b03ef2	600	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+D3BV93	d597fd89f893dd239a3c461290163c28	559	Pfam	PF00264	Common central domain of tyrosinase	41	234	2.0E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	05-03-2024	-	-
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	21	-	T	05-03-2024	-	-
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	T	05-03-2024	-	-
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	472	-	T	05-03-2024	-	-
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	8	17	-	T	05-03-2024	-	-
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	Pfam	PF00264	Common central domain of tyrosinase	56	257	9.6E-24	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A0A7CNP6	b102a32583133b8ba22a782ccf775a1e	472	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	7	-	T	05-03-2024	-	-
+A0A665VKL7	6d9f3f50c674a09bcf814dbb9bf39462	476	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	8	19	-	T	05-03-2024	-	-
+A0A665VKL7	6d9f3f50c674a09bcf814dbb9bf39462	476	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	20	24	-	T	05-03-2024	-	-
+A0A665VKL7	6d9f3f50c674a09bcf814dbb9bf39462	476	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	25	476	-	T	05-03-2024	-	-
+A0A665VKL7	6d9f3f50c674a09bcf814dbb9bf39462	476	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	24	-	T	05-03-2024	-	-
+A0A665VKL7	6d9f3f50c674a09bcf814dbb9bf39462	476	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	7	-	T	05-03-2024	-	-
+A0A665VKL7	6d9f3f50c674a09bcf814dbb9bf39462	476	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	05-03-2024	-	-
+A0A665VKL7	6d9f3f50c674a09bcf814dbb9bf39462	476	Pfam	PF00264	Common central domain of tyrosinase	166	380	2.7E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	28	-	T	05-03-2024	-	-
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	22	28	-	T	05-03-2024	-	-
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	28	-	T	05-03-2024	-	-
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	21	-	T	05-03-2024	-	-
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	Pfam	PF00264	Common central domain of tyrosinase	65	241	1.3E-35	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	28	-	T	05-03-2024	-	-
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	29	289	-	T	05-03-2024	-	-
+A0A4P9XL46	300b18b35013dc48aae8a36921502758	289	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	12	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	Pfam	PF00264	Common central domain of tyrosinase	83	273	9.1E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	335	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	20	-	T	05-03-2024	-	-
+A0A2P5HZG8	aa72b7360863b962b974e49d07b0dada	335	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	476	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	19	23	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	477	500	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	18	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	501	536	-	T	05-03-2024	-	-
+A0A663F798	2b09e978e3d4f52b422ea29876ccc55c	536	Pfam	PF00264	Common central domain of tyrosinase	183	415	1.0E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	19	23	-	T	05-03-2024	-	-
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	353	-	T	05-03-2024	-	-
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	Pfam	PF00264	Common central domain of tyrosinase	78	295	3.4E-56	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	7	-	T	05-03-2024	-	-
+A0A9Q0AJ77	898e4514afc56986f8ec6b36f5a2a080	353	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	8	18	-	T	05-03-2024	-	-
+A0A4W4FK46	11d36ee32770aebbd6f9bae320c2c2c1	486	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	14	-	T	05-03-2024	-	-
+A0A4W4FK46	11d36ee32770aebbd6f9bae320c2c2c1	486	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	19	-	T	05-03-2024	-	-
+A0A4W4FK46	11d36ee32770aebbd6f9bae320c2c2c1	486	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A4W4FK46	11d36ee32770aebbd6f9bae320c2c2c1	486	Pfam	PF00264	Common central domain of tyrosinase	172	404	1.2E-37	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4W4FK46	11d36ee32770aebbd6f9bae320c2c2c1	486	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	486	-	T	05-03-2024	-	-
+A0A4W4FK46	11d36ee32770aebbd6f9bae320c2c2c1	486	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	05-03-2024	-	-
+A0A4W4FK46	11d36ee32770aebbd6f9bae320c2c2c1	486	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A2G5D3X9	2476b3cbe3d778ef3617a0b76a968723	466	Pfam	PF12142	Polyphenol oxidase middle domain	379	429	2.5E-18	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A2G5D3X9	2476b3cbe3d778ef3617a0b76a968723	466	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	21	-	T	05-03-2024	-	-
+A0A2G5D3X9	2476b3cbe3d778ef3617a0b76a968723	466	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+A0A2G5D3X9	2476b3cbe3d778ef3617a0b76a968723	466	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	466	-	T	05-03-2024	-	-
+A0A2G5D3X9	2476b3cbe3d778ef3617a0b76a968723	466	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	T	05-03-2024	-	-
+A0A2G5D3X9	2476b3cbe3d778ef3617a0b76a968723	466	Pfam	PF00264	Common central domain of tyrosinase	165	371	2.5E-26	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2G5D3X9	2476b3cbe3d778ef3617a0b76a968723	466	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	17	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	500	535	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	7	17	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	22	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	23	475	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	22	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	6	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Pfam	PF00264	Common central domain of tyrosinase	182	414	2.4E-31	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	05-03-2024	-	-
+F7FUN5	fa97bc5fb1b089f242c97321bd05edb3	535	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	476	499	-	T	05-03-2024	-	-
+A0A210R239	df9422fadd8ca2df3488352324ff957e	686	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A210R239	df9422fadd8ca2df3488352324ff957e	686	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	686	-	T	05-03-2024	-	-
+A0A210R239	df9422fadd8ca2df3488352324ff957e	686	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A210R239	df9422fadd8ca2df3488352324ff957e	686	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	14	-	T	05-03-2024	-	-
+A0A210R239	df9422fadd8ca2df3488352324ff957e	686	Pfam	PF00264	Common central domain of tyrosinase	141	313	1.5E-21	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A210R239	df9422fadd8ca2df3488352324ff957e	686	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A210R239	df9422fadd8ca2df3488352324ff957e	686	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	18	-	T	05-03-2024	-	-
+A0A974HD76	adc0e5b0f92da01db2c7708a45dce300	443	Pfam	PF00264	Common central domain of tyrosinase	166	391	3.8E-34	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A974HD76	adc0e5b0f92da01db2c7708a45dce300	443	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	12	-	T	05-03-2024	-	-
+A0A974HD76	adc0e5b0f92da01db2c7708a45dce300	443	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	05-03-2024	-	-
+A0A974HD76	adc0e5b0f92da01db2c7708a45dce300	443	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	443	-	T	05-03-2024	-	-
+A0A974HD76	adc0e5b0f92da01db2c7708a45dce300	443	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	05-03-2024	-	-
+A0A974HD76	adc0e5b0f92da01db2c7708a45dce300	443	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	05-03-2024	-	-
+A0A974HD76	adc0e5b0f92da01db2c7708a45dce300	443	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	16	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	Pfam	PF00264	Common central domain of tyrosinase	174	406	2.6E-30	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+P55028	66c424e59c21daf24663490c37bb064d	522	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	468	493	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	17	21	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	494	522	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	467	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	05-03-2024	-	-
+P55028	66c424e59c21daf24663490c37bb064d	522	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	12	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	17	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	Pfam	PF00264	Common central domain of tyrosinase	69	280	7.0E-40	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	17	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	05-03-2024	-	-
+J3P204	96f09e5ca1d25cec2bcd015f3edfdb47	339	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	339	-	T	05-03-2024	-	-
+A0A6J1K2N9	5fa59ed1b184b6d1ca66c5fa00247d06	568	Pfam	PF12142	Polyphenol oxidase middle domain	364	413	2.5E-19	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A6J1K2N9	5fa59ed1b184b6d1ca66c5fa00247d06	568	Pfam	PF12143	Protein of unknown function (DUF_B2219)	433	559	2.8E-35	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A6J1K2N9	5fa59ed1b184b6d1ca66c5fa00247d06	568	Pfam	PF00264	Common central domain of tyrosinase	149	356	4.2E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	474	498	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Pfam	PF00264	Common central domain of tyrosinase	171	402	1.3E-38	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	473	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	13	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	18	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	499	529	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	05-03-2024	-	-
+A0A8C7EGZ8	254de440f3a6f7ec6746bbc1be6dee8d	529	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A1I6MGF1	885d78be581db37d9300dc653d901f13	417	Pfam	PF00264	Common central domain of tyrosinase	147	324	2.6E-25	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9D4UYP8	fe6691854ab789cef62ce110011d352c	525	Pfam	PF12143	Protein of unknown function (DUF_B2219)	402	524	2.1E-11	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A9D4UYP8	fe6691854ab789cef62ce110011d352c	525	Pfam	PF00264	Common central domain of tyrosinase	102	314	4.2E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9D4UYP8	fe6691854ab789cef62ce110011d352c	525	Pfam	PF12142	Polyphenol oxidase middle domain	323	375	5.5E-12	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A164WC69	b325f4c4b47c637f04d98f4f4a7caa41	595	Pfam	PF12143	Protein of unknown function (DUF_B2219)	468	592	6.3E-43	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A164WC69	b325f4c4b47c637f04d98f4f4a7caa41	595	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	05-03-2024	-	-
+A0A164WC69	b325f4c4b47c637f04d98f4f4a7caa41	595	Pfam	PF12142	Polyphenol oxidase middle domain	387	437	1.6E-23	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A164WC69	b325f4c4b47c637f04d98f4f4a7caa41	595	Pfam	PF00264	Common central domain of tyrosinase	172	379	1.7E-34	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+N1PDT1	fbddbaceea070a9b7f4209e0254064aa	319	Pfam	PF00264	Common central domain of tyrosinase	50	256	3.8E-38	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6A6U4B6	de403b501fdf674ddc4a7e7274f467cf	400	Pfam	PF00264	Common central domain of tyrosinase	95	338	3.0E-40	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P9WYE5	bfad1be0fe4f1d8bbe2a6ebe8fb1a134	379	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	379	-	T	05-03-2024	-	-
+A0A9P9WYE5	bfad1be0fe4f1d8bbe2a6ebe8fb1a134	379	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	19	-	T	05-03-2024	-	-
+A0A9P9WYE5	bfad1be0fe4f1d8bbe2a6ebe8fb1a134	379	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	05-03-2024	-	-
+A0A9P9WYE5	bfad1be0fe4f1d8bbe2a6ebe8fb1a134	379	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	14	-	T	05-03-2024	-	-
+A0A9P9WYE5	bfad1be0fe4f1d8bbe2a6ebe8fb1a134	379	Pfam	PF00264	Common central domain of tyrosinase	133	320	2.4E-37	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P9WYE5	bfad1be0fe4f1d8bbe2a6ebe8fb1a134	379	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A8B8EX72	a8c876cff3b58ab9ab6420206b7680ec	923	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	31	923	-	T	05-03-2024	-	-
+A0A8B8EX72	a8c876cff3b58ab9ab6420206b7680ec	923	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	12	30	-	T	05-03-2024	-	-
+A0A8B8EX72	a8c876cff3b58ab9ab6420206b7680ec	923	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	11	-	T	05-03-2024	-	-
+A0A8B8EX72	a8c876cff3b58ab9ab6420206b7680ec	923	Pfam	PF00264	Common central domain of tyrosinase	141	318	6.0E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9D4E543	dba89e62a9481ebf07b2010c09768791	285	Pfam	PF00264	Common central domain of tyrosinase	3	161	2.3E-28	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	474	498	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	473	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	13	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	499	529	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	18	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Pfam	PF00264	Common central domain of tyrosinase	171	402	8.2E-39	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A7K8PNM3	a876c5cf9a45dd5f3eae0dbe544b3e76	529	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A137PEX6	49717681d73f6088a11c7040f8b04642	396	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	17	21	-	T	05-03-2024	-	-
+A0A137PEX6	49717681d73f6088a11c7040f8b04642	396	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+A0A137PEX6	49717681d73f6088a11c7040f8b04642	396	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	4	-	T	05-03-2024	-	-
+A0A137PEX6	49717681d73f6088a11c7040f8b04642	396	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	5	16	-	T	05-03-2024	-	-
+A0A137PEX6	49717681d73f6088a11c7040f8b04642	396	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	T	05-03-2024	-	-
+A0A137PEX6	49717681d73f6088a11c7040f8b04642	396	Pfam	PF00264	Common central domain of tyrosinase	59	241	2.8E-28	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A137PEX6	49717681d73f6088a11c7040f8b04642	396	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	396	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	496	516	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	20	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	14	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	474	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Pfam	PF00264	Common central domain of tyrosinase	178	409	1.3E-30	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	475	495	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A6Q2Z6S2	f64c3ec61f5d31e439875bc6d95c8907	516	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A166F1S8	aaead17a9a3ad8419b5679306dddebeb	635	Pfam	PF00264	Common central domain of tyrosinase	57	299	5.6E-47	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A166F1S8	aaead17a9a3ad8419b5679306dddebeb	635	Pfam	PF18132	Tyosinase C-terminal domain	484	599	2.5E-26	T	05-03-2024	IPR041640	Tyrosinase, C-terminal
+A0A8E2E040	2b49231aa500ea3ba3e271553d87d723	657	Pfam	PF00264	Common central domain of tyrosinase	58	310	1.2E-48	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8E2E040	2b49231aa500ea3ba3e271553d87d723	657	Pfam	PF18132	Tyosinase C-terminal domain	493	618	2.4E-30	T	05-03-2024	IPR041640	Tyrosinase, C-terminal
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	474	496	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	23	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	473	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	17	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	497	531	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A8C4Z3T2	1574f6a26c8e3d95baef9a61a9473117	531	Pfam	PF00264	Common central domain of tyrosinase	180	412	5.3E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8S2MFL9	aa57af04ead978f4bfddd3d69217bb1d	636	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	31	-	T	05-03-2024	-	-
+A0A8S2MFL9	aa57af04ead978f4bfddd3d69217bb1d	636	Pfam	PF00264	Common central domain of tyrosinase	386	616	2.0E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8S2MFL9	aa57af04ead978f4bfddd3d69217bb1d	636	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	12	23	-	T	05-03-2024	-	-
+A0A8S2MFL9	aa57af04ead978f4bfddd3d69217bb1d	636	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	24	31	-	T	05-03-2024	-	-
+A0A8S2MFL9	aa57af04ead978f4bfddd3d69217bb1d	636	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	32	636	-	T	05-03-2024	-	-
+A0A8S2MFL9	aa57af04ead978f4bfddd3d69217bb1d	636	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	11	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	502	537	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	474	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	17	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	475	501	-	T	05-03-2024	-	-
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Pfam	PF00264	Common central domain of tyrosinase	171	403	9.3E-41	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9Q1FUU2	a98f2437bf1b0363590f7dff99427998	537	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	13	-	T	05-03-2024	-	-
+A0A2K1IGC8	14ae401434e5d53a66e82dfd49406f00	546	Pfam	PF12142	Polyphenol oxidase middle domain	337	381	4.3E-10	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A2K1IGC8	14ae401434e5d53a66e82dfd49406f00	546	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	44	546	-	T	05-03-2024	-	-
+A0A2K1IGC8	14ae401434e5d53a66e82dfd49406f00	546	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	21	43	-	T	05-03-2024	-	-
+A0A2K1IGC8	14ae401434e5d53a66e82dfd49406f00	546	Pfam	PF12143	Protein of unknown function (DUF_B2219)	425	523	0.0038	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A2K1IGC8	14ae401434e5d53a66e82dfd49406f00	546	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	20	-	T	05-03-2024	-	-
+A0A2K1IGC8	14ae401434e5d53a66e82dfd49406f00	546	Pfam	PF00264	Common central domain of tyrosinase	113	326	1.1E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	8	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	19	23	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	9	18	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	459	482	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	458	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	483	518	-	T	05-03-2024	-	-
+A0A8C6UF35	98e02c27d2cbd045034c361c7401fa00	518	Pfam	PF00264	Common central domain of tyrosinase	180	397	2.9E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1Y1Y3H3	dd98575dc9f639752be278ed35c5f52c	452	Pfam	PF00264	Common central domain of tyrosinase	61	230	3.0E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1Y1Y3H3	dd98575dc9f639752be278ed35c5f52c	452	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	23	452	-	T	05-03-2024	-	-
+A0A1Y1Y3H3	dd98575dc9f639752be278ed35c5f52c	452	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	7	17	-	T	05-03-2024	-	-
+A0A1Y1Y3H3	dd98575dc9f639752be278ed35c5f52c	452	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	22	-	T	05-03-2024	-	-
+A0A1Y1Y3H3	dd98575dc9f639752be278ed35c5f52c	452	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A1Y1Y3H3	dd98575dc9f639752be278ed35c5f52c	452	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	22	-	T	05-03-2024	-	-
+A0A1Y1Y3H3	dd98575dc9f639752be278ed35c5f52c	452	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	6	-	T	05-03-2024	-	-
+A0A0C9T1I0	b6aa3f38ff5e598194cb22a092ba4f25	625	Pfam	PF00264	Common central domain of tyrosinase	50	345	6.4E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	Pfam	PF00264	Common central domain of tyrosinase	64	232	1.5E-22	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	05-03-2024	-	-
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	7	18	-	T	05-03-2024	-	-
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	26	-	T	05-03-2024	-	-
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	6	-	T	05-03-2024	-	-
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	19	26	-	T	05-03-2024	-	-
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	27	446	-	T	05-03-2024	-	-
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	26	-	T	05-03-2024	-	-
+A0A0L0T3E0	da3abdb112a38bea30fc35ff6295acd1	446	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	05-03-2024	-	-
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	468	512	-	T	05-03-2024	-	-
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	450	467	-	T	05-03-2024	-	-
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	18	-	T	05-03-2024	-	-
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	05-03-2024	-	-
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Pfam	PF00264	Common central domain of tyrosinase	172	403	5.7E-38	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	13	-	T	05-03-2024	-	-
+A0A8D0AI83	473436b8b1dd6161ae3edd317119f5a0	512	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	449	-	T	05-03-2024	-	-
+A0A8H3WZW9	72be660fe028d408ed8d39863019e653	605	Pfam	PF00264	Common central domain of tyrosinase	69	362	2.6E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	20	-	T	05-03-2024	-	-
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	Pfam	PF00264	Common central domain of tyrosinase	107	299	4.9E-25	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	299	-	T	05-03-2024	-	-
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	05-03-2024	-	-
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	05-03-2024	-	-
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	05-03-2024	-	-
+A0A5B0MSQ2	7833a93d4d3d28351a736e16be74e178	299	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	13	-	T	05-03-2024	-	-
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	Pfam	PF00264	Common central domain of tyrosinase	81	265	1.1E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	400	-	T	05-03-2024	-	-
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	05-03-2024	-	-
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	05-03-2024	-	-
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	20	-	T	05-03-2024	-	-
+A0A6P8I0S2	bb6fdcfdc72d04092f8b5262d4da6a6c	400	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	05-03-2024	-	-
+A0A1Y2D1M5	dd58c2ae157dd6dc1b997bf93efa7d7a	463	Pfam	PF00264	Common central domain of tyrosinase	103	284	4.3E-30	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	469	496	-	T	05-03-2024	-	-
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Pfam	PF00264	Common central domain of tyrosinase	181	409	1.2E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	468	-	T	05-03-2024	-	-
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	21	-	T	05-03-2024	-	-
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	T	05-03-2024	-	-
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	497	521	-	T	05-03-2024	-	-
+H3AP72	b862490d023b3dce71e37cb21ce6e025	521	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	17	-	T	05-03-2024	-	-
+A0A7M6DQE2	5b773ec8c4c17c31294e89783972450f	428	Pfam	PF00264	Common central domain of tyrosinase	83	333	5.0E-24	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A4Q7Z0G8	80a929cb79ea9efd76837cad97d69a88	675	Pfam	PF00264	Common central domain of tyrosinase	204	481	2.5E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6P6W329	6172dec6e4d8f0eb67042b877c4182f9	443	Pfam	PF00264	Common central domain of tyrosinase	30	238	4.1E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6P6W329	6172dec6e4d8f0eb67042b877c4182f9	443	Pfam	PF12142	Polyphenol oxidase middle domain	245	296	1.8E-16	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A6P6W329	6172dec6e4d8f0eb67042b877c4182f9	443	Pfam	PF12143	Protein of unknown function (DUF_B2219)	317	439	1.8E-33	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A1S3ZJN1	5cc8aa66814e094efdc5ccd6354c431b	601	Pfam	PF00264	Common central domain of tyrosinase	178	388	8.7E-32	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1S3ZJN1	5cc8aa66814e094efdc5ccd6354c431b	601	Pfam	PF12143	Protein of unknown function (DUF_B2219)	466	597	6.9E-29	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A1S3ZJN1	5cc8aa66814e094efdc5ccd6354c431b	601	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	05-03-2024	-	-
+A0A1S3ZJN1	5cc8aa66814e094efdc5ccd6354c431b	601	Pfam	PF12142	Polyphenol oxidase middle domain	395	445	1.6E-17	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	20	31	-	T	05-03-2024	-	-
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	19	-	T	05-03-2024	-	-
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	42	562	-	T	05-03-2024	-	-
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	36	-	T	05-03-2024	-	-
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	32	41	-	T	05-03-2024	-	-
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	41	-	T	05-03-2024	-	-
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	Pfam	PF00264	Common central domain of tyrosinase	284	461	1.1E-28	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+R7QH23	c51afeed000b1db49097b7d50efa96dc	562	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	41	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	7	15	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	755	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	Pfam	PF00264	Common central domain of tyrosinase	184	359	9.6E-31	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	19	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	6	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A9D4J8T5	41f5534fba89ccb783166370a7ed85ff	755	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	57	61	-	T	05-03-2024	-	-
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	61	-	T	05-03-2024	-	-
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	45	56	-	T	05-03-2024	-	-
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Pfam	PF12143	Protein of unknown function (DUF_B2219)	510	609	4.2E-7	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Pfam	PF12142	Polyphenol oxidase middle domain	392	446	1.6E-12	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Pfam	PF00264	Common central domain of tyrosinase	142	377	2.8E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	62	628	-	T	05-03-2024	-	-
+A0A2R6WAX7	5e2200016cfa3b5252a7d8aa5d00ce00	628	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	44	-	T	05-03-2024	-	-
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Pfam	PF12143	Protein of unknown function (DUF_B2219)	451	581	4.3E-42	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Pfam	PF12142	Polyphenol oxidase middle domain	366	416	3.0E-19	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Pfam	PF00264	Common central domain of tyrosinase	154	359	5.4E-33	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	583	-	T	05-03-2024	-	-
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	18	-	T	05-03-2024	-	-
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	05-03-2024	-	-
+A0A7I8L253	83668ef16e0975c02be951823a409f63	583	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	13	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	455	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	8	19	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	480	515	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Pfam	PF00264	Common central domain of tyrosinase	168	387	1.6E-22	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	20	23	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	456	479	-	T	05-03-2024	-	-
+A0A3Q3L0Y4	ddc6207e9c87ea0b5dfbb844e5a89298	515	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	7	-	T	05-03-2024	-	-
+A0A672H8P5	24a81b22254a2c2557314b56bb86de07	528	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	482	528	-	T	05-03-2024	-	-
+A0A672H8P5	24a81b22254a2c2557314b56bb86de07	528	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	458	481	-	T	05-03-2024	-	-
+A0A672H8P5	24a81b22254a2c2557314b56bb86de07	528	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	457	-	T	05-03-2024	-	-
+A0A672H8P5	24a81b22254a2c2557314b56bb86de07	528	Pfam	PF00264	Common central domain of tyrosinase	170	393	2.6E-37	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6G1FWN2	627138252b75ee43cfa90fd0806dc188	356	Pfam	PF00264	Common central domain of tyrosinase	67	296	1.2E-51	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1J9QJX4	aebd6bf4c6302ae355acbf02256f7f28	793	Pfam	PF18132	Tyosinase C-terminal domain	631	755	3.0E-16	T	05-03-2024	IPR041640	Tyrosinase, C-terminal
+A0A1J9QJX4	aebd6bf4c6302ae355acbf02256f7f28	793	Pfam	PF00264	Common central domain of tyrosinase	242	541	1.3E-36	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6I9QKC4	bd40ba091c7784f4c4d10bff14be59e3	541	Pfam	PF00264	Common central domain of tyrosinase	118	324	2.1E-30	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6I9QKC4	bd40ba091c7784f4c4d10bff14be59e3	541	Pfam	PF12142	Polyphenol oxidase middle domain	332	383	5.8E-23	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A6I9QKC4	bd40ba091c7784f4c4d10bff14be59e3	541	Pfam	PF12143	Protein of unknown function (DUF_B2219)	406	534	1.4E-45	T	05-03-2024	IPR022740	Polyphenol oxidase, C-terminal
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	25	480	-	T	05-03-2024	-	-
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	508	541	-	T	05-03-2024	-	-
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	05-03-2024	-	-
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	16	-	T	05-03-2024	-	-
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	17	24	-	T	05-03-2024	-	-
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	481	507	-	T	05-03-2024	-	-
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Pfam	PF00264	Common central domain of tyrosinase	177	409	3.1E-40	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A6P6PH11	17c2b4b1d601943b51996c2b1cc699eb	541	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	24	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	19	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	14	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	Pfam	PF00264	Common central domain of tyrosinase	110	336	1.1E-49	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	394	-	T	05-03-2024	-	-
+A0A1V8SS50	0fd131d5f84c18210481b82539177022	394	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	13	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	473	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	18	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Pfam	PF00264	Common central domain of tyrosinase	171	402	8.6E-39	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	498	529	-	T	05-03-2024	-	-
+A0A7L0U734	a870c4b685b8c94a9cd30a6b2808a559	529	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	474	497	-	T	05-03-2024	-	-
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	14	-	T	05-03-2024	-	-
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	437	-	T	05-03-2024	-	-
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	05-03-2024	-	-
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	Pfam	PF00264	Common central domain of tyrosinase	135	305	1.4E-24	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8S3RX09	d2d77df6aa3d6be482c2c9fd02cfcb93	437	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	18	-	T	05-03-2024	-	-
+A0A9P4UM98	d1325cc3f282f04d58d99834945abc10	391	Pfam	PF00264	Common central domain of tyrosinase	108	333	1.5E-51	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A9P4UM98	d1325cc3f282f04d58d99834945abc10	391	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	16	-	T	05-03-2024	-	-
+A0A9P4UM98	d1325cc3f282f04d58d99834945abc10	391	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	17	391	-	T	05-03-2024	-	-
+A0A9P4UM98	d1325cc3f282f04d58d99834945abc10	391	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	12	16	-	T	05-03-2024	-	-
+A0A9P4UM98	d1325cc3f282f04d58d99834945abc10	391	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	05-03-2024	-	-
+A0A9P4UM98	d1325cc3f282f04d58d99834945abc10	391	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	05-03-2024	-	-
+A0A9P4UM98	d1325cc3f282f04d58d99834945abc10	391	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	11	-	T	05-03-2024	-	-
+A0A671TND9	a9db9684694e1cff479bb9e6fc84fd0c	467	Pfam	PF00264	Common central domain of tyrosinase	176	403	1.4E-29	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A671TND9	a9db9684694e1cff479bb9e6fc84fd0c	467	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A671TND9	a9db9684694e1cff479bb9e6fc84fd0c	467	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	14	18	-	T	05-03-2024	-	-
+A0A671TND9	a9db9684694e1cff479bb9e6fc84fd0c	467	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	18	-	T	05-03-2024	-	-
+A0A671TND9	a9db9684694e1cff479bb9e6fc84fd0c	467	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	13	-	T	05-03-2024	-	-
+A0A671TND9	a9db9684694e1cff479bb9e6fc84fd0c	467	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	19	467	-	T	05-03-2024	-	-
+A0A2V3ITQ3	d2946137060936347170e59287bf249d	576	Pfam	PF00264	Common central domain of tyrosinase	71	375	1.9E-35	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	23	499	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	22	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	22	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	519	519	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Pfam	PF00264	Common central domain of tyrosinase	182	416	1.8E-41	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	500	518	-	T	05-03-2024	-	-
+A0A7D9HL30	aaff1e4f14876240038d694ff9ce0d59	519	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	17	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	476	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	19	23	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Pfam	PF00264	Common central domain of tyrosinase	183	415	3.3E-30	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	477	500	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	501	536	-	T	05-03-2024	-	-
+A0A8C3IQU7	72ec5e236ecc46135307323fa3688fea	536	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	18	-	T	05-03-2024	-	-
+A0A9N9BME1	d035dddb11a0cb6d7328ecc5cf20ea6e	563	Pfam	PF18132	Tyosinase C-terminal domain	412	525	2.6E-6	T	05-03-2024	IPR041640	Tyrosinase, C-terminal
+A0A9N9BME1	d035dddb11a0cb6d7328ecc5cf20ea6e	563	Pfam	PF00264	Common central domain of tyrosinase	40	325	8.0E-38	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+F4P2Z0	3c5dd2345478df57e2466faa333e4997	403	Pfam	PF00264	Common central domain of tyrosinase	50	230	5.9E-31	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	18	29	-	T	05-03-2024	-	-
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	36	-	T	05-03-2024	-	-
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	Pfam	PF00264	Common central domain of tyrosinase	98	287	8.2E-22	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	38	-	T	05-03-2024	-	-
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	39	738	-	T	05-03-2024	-	-
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	30	38	-	T	05-03-2024	-	-
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	38	-	T	05-03-2024	-	-
+A0A1X6PIR8	a50b186b7192db5df72c90204121fb73	738	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	17	-	T	05-03-2024	-	-
+A0A841H042	6e44d70277ead4aa4e81565590ea39b0	473	Pfam	PF00264	Common central domain of tyrosinase	39	235	1.4E-26	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	23	468	-	T	05-03-2024	-	-
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	496	520	-	T	05-03-2024	-	-
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Pfam	PF00264	Common central domain of tyrosinase	180	411	4.1E-30	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	17	22	-	T	05-03-2024	-	-
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	4	-	T	05-03-2024	-	-
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	5	16	-	T	05-03-2024	-	-
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	22	-	T	05-03-2024	-	-
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	05-03-2024	-	-
+A0A3P8XCB2	1c3d29a2977f8966623738157fd1e837	520	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	469	495	-	T	05-03-2024	-	-
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	25	-	T	05-03-2024	-	-
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	Pfam	PF12142	Polyphenol oxidase middle domain	340	386	7.4E-10	T	05-03-2024	IPR022739	Polyphenol oxidase, central domain
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	05-03-2024	-	-
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	5	-	T	05-03-2024	-	-
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	05-03-2024	-	-
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	Pfam	PF00264	Common central domain of tyrosinase	112	332	1.1E-26	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	25	-	T	05-03-2024	-	-
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	6	17	-	T	05-03-2024	-	-
+A0A2R6XDH5	d332748cbe432231d7c484b4f3126b09	400	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	26	400	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	14	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	19	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Pfam	PF00264	Common central domain of tyrosinase	173	405	9.3E-40	T	05-03-2024	IPR002227	Tyrosinase copper-binding domain
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	476	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	503	540	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	477	502	-	T	05-03-2024	-	-
+A0A3P9INL1	6bbc898ffc560a98450d54e5fa6e232d	540	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	05-03-2024	-	-
