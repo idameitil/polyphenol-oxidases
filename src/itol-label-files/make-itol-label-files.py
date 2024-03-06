@@ -307,10 +307,10 @@ def make_OG_files():
 # make_aguilera_subclass_label_file_text(df_aguilera)
 
 # Make Uniprot hits label files
-df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan.tsv', sep='\t')
-# make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
-make_score_label_file()
+df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t')
+make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
+# make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
+# make_score_label_file()
 # make_coverage_label_file()
 # make_match_length_file()
 # make_taxonomy_arrow_files(df_uniprot_hits)

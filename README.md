@@ -312,25 +312,33 @@ etc.
 Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms data`
 
 ## Interproscan on proteome selected sequences
+### All kingdoms, one per order
 To make fasta with full-length sequences of the selected sequences from proteomes, run `python src/proteome-tree/get-full-length-selected-sequences.py`. This creates the file `data/proteome-tree/all-one_proteome_per_order_class.full-length.fa`.
 
-Copy the fasta to the HPC: `scp data/proteome-tree/all-one_proteome_per_order.full-length.fa idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan`
+Copy the fasta to the HPC: `scp data/proteome-tree/all-one_proteome_per_order.full-length.fa idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan`
 
 On the HPC:
-Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/proteomes-all-per-order-interproscan polyphenol-oxidases/proteomes-all-per-order-interproscan/all-one_proteome_per_order.full-length.fa`
+Chunk fasta: `chunkfasta -c 20 -d polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan/all-one_proteome_per_order.full-length.fa`
 
 Run this:
 `qrsh`
-`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk00.fa -f tsv -o /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk00.interproscan`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan/chunk00.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan/chunk00.interproscan`
 
-`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk01.fa -f tsv -o /work3/idamei/polyphenol-oxidases/proteomes-all-per-order-interproscan/chunk01.interproscan`
+`/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE -i /work3/idamei/polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan/chunk01.fa -f tsv -o /work3/idamei/polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan/chunk01.interproscan`
 
 etc.
 
-Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan-uniprot-allkingdoms data`
+Download the results: `scp -r idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/interproscan/proteomes-all-per-order-interproscan data`
+
+### Download domain data from interproscan
+A json file was downloaded with all proteome data (e-mail correspondence uniprot): `data/proteome-tree/export.json`.
+
+To download the domain data through the interproscan api, run `python src/proteome-tree/download-domain-data-api.py`. This downloads the files to `data/pfam/api`.
 
 ### Enrich fungal uniprot hits with domain architecture
 To enrich the uniprot hits with pfam data, run `python src/data-collection/enrich-uniprot-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan.tsv`. (note that only the reduced hits are enriched, so there are many lines without pfam info)
+
+New: `python src/proteome-tree/enrich-proteome-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan2.tsv`.
 
 # Eggnog
 Eggnog was run at `http://eggnog-mapper.embl.de/` with this input file: `data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa`.
@@ -341,6 +349,7 @@ A table with only the OGs is made by running: `python src/eggnog/parse-eggnog.py
 
 # Proteome tree
 
+## Get proteome data
 A json file with the proteomes matching PF00264 was downloaded from pfam: `data/pfam/proteome-matching-PF00264.json`.
 
 A json file with proteome metadata was downloaded from uniprot `https://www.uniprot.org/proteomes?query=*`: `data/proteome-tree/proteomes_AND_proteome_type_1_2024_02_28.json`.
