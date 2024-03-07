@@ -37,24 +37,27 @@ def make_taxonomy_label_files(df, blast_hits=False, uniprot_hits=False):
                 else:
                     file.write(f"{acc}\t{tax2color[tax]}\t{tax}\n")
 
-def make_taxonomy_arrow_files(df):
-    wanted_ranks = ['genus']
-    for rank in wanted_ranks:
-        output_filename = f"data/itol-label-files/{rank}-arrows.txt"
-        # Write file
-        with open(output_filename, "w") as file:
-            header = f"DATASET_CONNECTION\nSEPARATOR TAB\nDATASET_LABEL\t{rank}_arrows\nCOLOR\t#ff0000\nALIGN_TO_LABELS,1\nCENTER_CURVES,1\nCENTER_CURVES,1\nDATA\n"
-            file.write(header)
-            tax2color = dict()
-            tax2firstacc = dict()
-            for index, row in df.iterrows():
-                acc, tax = row['protein_accession'], row[rank]
-                if tax not in tax2color:
-                    color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
-                    tax2color[tax] = color
-                    tax2firstacc[tax] = acc
-                else:
-                    file.write(f"{tax2firstacc[tax]}\t{acc}\t2\t{tax2color[tax]}\tdashed\t{tax}\n")
+def make_taxonomy_arrow_files(df, rank, domain):
+    # Get accessions to include
+    fasta_filename = f"data/proteome-tree/{domain}-one_proteome_per_{rank}.fa"
+    included_accessions = [fasta.id for fasta in SeqIO.parse(fasta_filename, 'fasta')]
+    output_filename = f"data/itol-label-files/{domain}-{rank}-arrows.txt"
+    # Write file
+    with open(output_filename, "w") as file:
+        header = f"DATASET_CONNECTION\nSEPARATOR TAB\nDATASET_LABEL\t{rank}_arrows\nCOLOR\t#ff0000\nALIGN_TO_LABELS,1\nCENTER_CURVES,1\nCENTER_CURVES,1\nDATA\n"
+        file.write(header)
+        tax2color = dict()
+        tax2firstacc = dict()
+        for index, row in df.iterrows():
+            acc, tax = row['protein_accession'], row[rank]
+            if acc not in included_accessions:
+                continue
+            if tax not in tax2color:
+                color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
+                tax2color[tax] = color
+                tax2firstacc[tax] = acc
+            else:
+                file.write(f"{tax2firstacc[tax]}\t{acc}\t2\t{tax2color[tax]}\tdashed\t{tax}\n")
 
 def make_activity_label_file(df):
     outfilename = f"data/itol-label-files/activity.txt"
@@ -308,9 +311,14 @@ def make_OG_files():
 
 # Make Uniprot hits label files
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t')
-make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
+# make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
 # make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
 # make_score_label_file()
 # make_coverage_label_file()
 # make_match_length_file()
 # make_taxonomy_arrow_files(df_uniprot_hits)
+
+make_taxonomy_arrow_files(df_uniprot_hits, 'order', 'all')
+make_taxonomy_arrow_files(df_uniprot_hits, 'class', 'all')
+make_taxonomy_arrow_files(df_uniprot_hits, 'order', 'fungal')
+make_taxonomy_arrow_files(df_uniprot_hits, 'family', 'fungal')
