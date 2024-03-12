@@ -371,3 +371,6 @@ To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/fungal-one_proteom
 
 To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T4 --threads 7 --seed 2 --blopt nr_safe`
 
+With even shorter: `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_order.hmmalign-evenshorter.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T5 --threads 7 --seed 2`
+
+With even shorter: `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_family.hmmalign-evenshorter.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T6 --threads 7 --seed 2`

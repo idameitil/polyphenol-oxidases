@@ -1,4 +1,5 @@
 from Bio import SeqIO
+import pandas as pd
 
 def get_fasta_sequences(fasta_filename):
     fasta_alignment = SeqIO.parse(fasta_filename, 'fasta')
@@ -18,6 +19,12 @@ def get_selected_ids(domain, rank):
     ids_selected = [entry.id for entry in fasta_selected]
     return ids_selected
 
+def get_fungal_seeds():
+    df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
+    return df[df.kingdom == 'Fungi'].descriptive_name.to_list()
+
+fungal_seeds = get_fungal_seeds()
+
 def write_hmmalign_fasta(domain, rank):
     ids_selected = get_selected_ids(domain, rank)
     output_filename = f"data/proteome-tree/{domain}-one_proteome_per_{rank}.hmmalign.fa"
@@ -26,6 +33,9 @@ def write_hmmalign_fasta(domain, rank):
             if acc in ids_selected:
                 outfile.write(f">{acc}\n{acc2seq_hmmalign[acc]}\n")
         for acc in acc2seq_seeds_hmmalign:
+            if domain == 'fungal':
+                if acc not in fungal_seeds:
+                    continue
             outfile.write(f">{acc}\n{acc2seq_seeds_hmmalign[acc]}\n")
 
 def write_trimmed_fasta(domain, rank):
