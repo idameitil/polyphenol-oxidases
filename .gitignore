@@ -6,3 +6,4 @@ data/blast_old_nr/run
 explorations
 data/pfam/api
 data/md/solv_ions.gro
+*.xtc
