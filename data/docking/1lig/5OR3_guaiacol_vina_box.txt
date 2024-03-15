@@ -1,0 +1,12 @@
+receptor = 5or3ChainC.pdbqt
+ligand = guaiacol.pdbqt
+exhaustiveness = 32
+center_x = 27.52
+center_y = 76.797
+center_z = -7.189
+size_x = 22
+size_y = 22
+size_z = 22
+num_modes = 20
+cpu = 20
+scoring = vina
