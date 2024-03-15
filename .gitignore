@@ -5,3 +5,4 @@ data/blast_old_nr/run
 *.DS_Store*
 explorations
 data/pfam/api
+data/md/solv_ions.gro
