@@ -377,3 +377,8 @@ With even shorter: `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_fa
 
 ### Bootstrap
 `raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T7 --threads 7 --seed 2 --all --bs-trees 100`
+
+## New approach with manually selected genomes
+A file with manually selected genomes was saved in `data/proteome-tree/selected_genomes.xlsx`
+
+A file with excluded species was saved in `data/proteome-tree/exclude`.
