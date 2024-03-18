@@ -87,7 +87,7 @@ def make_taxonomy_file_species_tree_text(df):
                     file.write(f"{acc},{tax},-1,#000000,bold,1,0\n")
 
 df_species_tree = pd.read_csv('species.tsv', sep='\t')
-# make_taxonomy_files_species_tree(df_species_tree)
+make_taxonomy_files_species_tree(df_species_tree)
 make_taxonomy_file_species_tree_text(df_species_tree)
 def make_taxonomy_arrow_files(df, rank, domain):
     # Get accessions to include
