@@ -6,6 +6,49 @@ from Bio import SeqIO
 from colour import Color
 
 random.seed(10)
+outdir = "data/itol-label-files/"
+
+def get_value2color(ids, values):
+    value2color = {}
+    for id,value in zip(ids,values):
+        if value not in value2color:
+            color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
+            value2color[value] = color
+    return value2color
+
+def make_colour_strip(outfile_name, label, ids, values, value2color={}):
+    if value2color == {}:
+        value2color = get_value2color(ids, values)
+    with open(outfile_name, 'w') as file:
+        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\t{label}\nCOLOR\t#ff0000\nDATA\n"
+        file.write(header)
+        for id,value in zip(ids,values):
+            if value not in value2color:
+                color = '#FFFFFF'
+            else:
+                color = value2color[value]
+            file.write(f"{id}\t{color}\t{value}\n")
+
+def make_colour_text(outfile_name, label, ids, values, value2color={}):
+    if value2color == {}:
+        value2color = get_value2color(ids, values)
+    with open(outfile_name, 'w') as file:
+        header = header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,{label}\nCOLOR,#000000\nDATA\n"
+        file.write(header)
+        for id,value in zip(ids,values):
+            if value not in value2color:
+                color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
+            else:
+                color = value2color[value]
+            file.write(f"{id},{value},-1,{color},bold,1,0\n")
+
+def make_taxonomy_file_species_tree_text(df):
+    wanted_ranks = ['class']
+    for rank in wanted_ranks:
+        output_filename = f"data/itol-label-files/species-tree-{rank}-text.txt"
+        ids = df['species'].str.replace(' ', '_').tolist()
+        values = df[rank].tolist()
+        make_colour_text(output_filename, rank, ids, values)
 
 def make_taxonomy_label_files(df, blast_hits=False, uniprot_hits=False):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
@@ -18,77 +61,26 @@ def make_taxonomy_label_files(df, blast_hits=False, uniprot_hits=False):
         else:
             output_filename = f"data/itol-label-files/{rank}-seeds.txt"
         # Write file
-        with open(output_filename, "w") as file:
-            header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\t{rank}\nCOLOR\t#ff0000\nDATA\n"
-            file.write(header)
-            tax2color = dict()
-            for index, row in df.iterrows():
-                acc, tax = row['protein_accession'], row[rank]
-                if tax not in tax2color:
-                    color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
-                    tax2color[tax] = color
-                if rank == 'kingdom':
-                    kingdom2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
-                    if tax not in kingdom2color:
-                        color = '#FFFFFF'
-                    else:
-                        color = kingdom2color[tax]
-                    file.write(f"{acc}\t{color}\t{tax}\n")
-                else:
-                    file.write(f"{acc}\t{tax2color[tax]}\t{tax}\n")
+        ids = df.protein_accession.tolist()
+        values = df[rank].tolist()
+        if rank == 'kingdom':
+            value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
+            make_colour_strip(output_filename, rank, ids, values, value2color)
+        else:
+            make_colour_strip(output_filename, rank, ids, values)
 
 def make_taxonomy_files_species_tree(df):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
     for rank in wanted_ranks:
         output_filename = f"data/itol-label-files/species-tree-{rank}.txt"
-        # Write file
-        with open(output_filename, "w") as file:
-            header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\t{rank}\nCOLOR\t#ff0000\nDATA\n"
-            file.write(header)
-            tax2color = dict()
-            for index, row in df.iterrows():
-                acc, tax = row['species'].replace(' ', '_'), row[rank]
-                if tax not in tax2color:
-                    color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
-                    tax2color[tax] = color
-                if rank == 'kingdom':
-                    kingdom2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
-                    if tax not in kingdom2color:
-                        color = '#FFFFFF'
-                    else:
-                        color = kingdom2color[tax]
-                    file.write(f"{acc}\t{color}\t{tax}\n")
-                else:
-                    file.write(f"{acc}\t{tax2color[tax]}\t{tax}\n")
+        ids = df.species.str.replace(' ', '_').tolist()
+        values = df[rank].tolist()
+        if rank == 'kingdom':
+            value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
+            make_colour_strip(output_filename, rank, ids, values, value2color)
+        else:
+            make_colour_strip(output_filename, rank, ids, values)
 
-def make_taxonomy_file_species_tree_text(df):
-    wanted_ranks = ['class']
-    for rank in wanted_ranks:
-        output_filename = f"data/itol-label-files/species-tree-{rank}-text.txt"
-        # Write file
-        with open(output_filename, "w") as file:
-            header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,seeds\nCOLOR,#000000\nDATA\n"
-            file.write(header)
-            tax2color = dict()
-            for index, row in df.iterrows():
-                acc, tax = row['species'].replace(' ', '_'), row[rank]
-                if tax not in tax2color:
-                    color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
-                    tax2color[tax] = color
-                if rank == 'kingdom':
-                    kingdom2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
-                    if tax not in kingdom2color:
-                        color = '#FFFFFF'
-                    else:
-                        color = kingdom2color[tax]
-                    file.write(f"{acc}\t{color}\t{tax}\n")
-                else:
-                    # file.write(f"{acc},{tax},-1,{tax2color[tax]},bold,1,0\n")
-                    file.write(f"{acc},{tax},-1,#000000,bold,1,0\n")
-
-df_species_tree = pd.read_csv('species.tsv', sep='\t')
-make_taxonomy_files_species_tree(df_species_tree)
-make_taxonomy_file_species_tree_text(df_species_tree)
 def make_taxonomy_arrow_files(df, rank, domain):
     # Get accessions to include
     fasta_filename = f"data/proteome-tree/{domain}-one_proteome_per_{rank}.fa"
@@ -385,9 +377,9 @@ def make_OG_files():
 # make_aguilera_subclass_label_file_text(df_aguilera)
 
 # Make Uniprot hits label files
-# df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t')
+df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t')
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-# make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
+make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
 # make_score_label_file()
 # make_coverage_label_file()
 # make_match_length_file()
@@ -397,4 +389,8 @@ def make_OG_files():
 # make_taxonomy_arrow_files(df_uniprot_hits, 'class', 'all')
 # make_taxonomy_arrow_files(df_uniprot_hits, 'order', 'fungal')
 # make_taxonomy_arrow_files(df_uniprot_hits, 'family', 'fungal')
-make_number_of_copies_file()
+# make_number_of_copies_file()
+
+df_species_tree = pd.read_csv('species.tsv', sep='\t')
+make_taxonomy_files_species_tree(df_species_tree)
+make_taxonomy_file_species_tree_text(df_species_tree)
