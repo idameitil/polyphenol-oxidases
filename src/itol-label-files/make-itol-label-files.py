@@ -42,20 +42,6 @@ def write_colour_text_file(outfile_name, label, ids, values, value2color={}):
                 color = value2color[value]
             file.write(f"{id},{value},-1,{color},bold,1,0\n")
 
-def make_taxonomy_files_species_tree(df):
-    wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
-    for rank in wanted_ranks:
-        ids = df['species'].str.replace(' ', '_').tolist()
-        values = df[rank].tolist()
-        if rank == 'kingdom':
-            value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
-        else:
-            value2color = {}
-        output_filename_text = f"data/itol-label-files/species-tree-{rank}-text.txt"
-        write_colour_text_file(output_filename_text, rank, ids, values, value2color)
-        output_filename_strip = f"data/itol-label-files/species-tree-{rank}-strip.txt"
-        write_colour_strip_file(output_filename_strip, rank, ids, values, value2color)
-
 def make_taxonomy_label_files(df):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
     for rank in wanted_ranks:
@@ -68,6 +54,20 @@ def make_taxonomy_label_files(df):
         output_filename_text = f"data/itol-label-files/uniprot-{rank}-text.txt"
         write_colour_text_file(output_filename_text, rank, ids, values, value2color)
         output_filename_strip = f"data/itol-label-files/uniprot-{rank}-strip.txt"
+        write_colour_strip_file(output_filename_strip, rank, ids, values, value2color)
+
+def make_taxonomy_files_species_tree(df):
+    wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
+    for rank in wanted_ranks:
+        ids = df['species'].str.replace(' ', '_').tolist()
+        values = df[rank].tolist()
+        if rank == 'kingdom':
+            value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
+        else:
+            value2color = {}
+        output_filename_text = f"data/itol-label-files/species-tree-{rank}-text.txt"
+        write_colour_text_file(output_filename_text, rank, ids, values, value2color)
+        output_filename_strip = f"data/itol-label-files/species-tree-{rank}-strip.txt"
         write_colour_strip_file(output_filename_strip, rank, ids, values, value2color)
 
 def get_included_accessions(fasta_filename):
@@ -110,16 +110,12 @@ def make_taxonomy_arrow_files(df, domain):
         write_arrow_file(output_filename, rank, ids, values, included_accessions)
 
 def make_activity_label_file(df):
+    ids = df['protein_accession'].tolist()
+    values = df['enzyme_class']
     outfilename = f"data/itol-label-files/activity.txt"
-    activity2color = {'tyrosinase': '#880808', 'catechol oxidase': '#00FFFF', 'Hemocyanin': '#008000', 'Pro-phenoloxidase': '#FFFF00', 'O-aminophenol oxidase': '#00FF00'}
-    with open(outfilename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR COMMA\nDATASET_LABEL,activity\nCOLOR,#ff0000\nDATA\n"
-        file.write(header)
-        for index, row in df.iterrows():
-            if row.enzyme_class not in activity2color:
-                continue
-            file.write(f"{row.protein_accession},{activity2color[row.enzyme_class]},{row.enzyme_class}\n")
-
+    value2color = {'tyrosinase': '#880808', 'catechol oxidase': '#00FFFF', 'Hemocyanin': '#008000', 'Pro-phenoloxidase': '#FFFF00', 'O-aminophenol oxidase': '#00FF00'}
+    write_colour_text_file(outfilename, 'activity', ids, values, value2color)
+    
 def make_binary_label_files(df):
     outfilename = f"data/itol-label-files/binary.txt"
     shape2number = {'rectangle': 1, 'circle': 2, 'star':3, 'right_pointing_triangle':4, \
@@ -168,88 +164,51 @@ def make_binary_label_files(df):
                 file.write(f",{fill}")
             file.write('\n')
 
-def make_aguilera_subclass_label_file(df):
+def make_aguilera_subclass_files(df):
     outfilename = f"data/itol-label-files/Aguilera_subclass.txt"
     value2color = {'alpha': '#FF0000', 'beta': '#00FFFF', 'gamma': '#00FF00'}
-    with open(outfilename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR COMMA\nDATASET_LABEL,Aguilera_subclass\nCOLOR,#ff0000\nDATA\n"
-        file.write(header)
-        for index, row in df.iterrows():
-            if row['Aguilera_subclass'] not in value2color:
-                continue
-            file.write(f"{row.protein_accession},{value2color[row['Aguilera_subclass']]},{row['Aguilera_subclass']}\n")
+    ids = df['protein_accession'].to_list()
+    values = df['Aguilera_subclass'].to_list()
+    write_colour_text_file(outfilename, 'aguilera_subclass', ids, values, value2color)
+    write_colour_strip_file(outfilename, 'aguilera_subclass', ids, values, value2color)
 
-def make_aguilera_subclass_label_file_text(df):
-    outfilename = f"data/itol-label-files/Aguilera_subclass_text.txt"
-    value2color = {'alpha': '#FF0000', 'beta': '#00FFFF', 'gamma': '#00FF00'}
-    with open(outfilename, "w") as file:
-        header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,Aguilera_subclass\nCOLOR,#ff0000\nDATA\n"
-        file.write(header)
-        for index, row in df.iterrows():
-            if row['Subclass'] not in value2color:
-                continue
-            if pd.isnull(row.protein_accession):
-                continue
-            file.write(f"{row.protein_accession},{row['Subclass']},-1,{value2color[row['Subclass']]},bold,1,0\n")
-
-def make_score_label_file():
-    # Read json file
-    json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
-    json_dict = {}
-    for entry in json_list:
-        json_dict[entry['metadata']['accession']] = entry
-    max = -5
-    min = -140
+def write_spectrum_strip_file(outfile_name, label, ids, values, value2color={}, min='', max ='', max_cutoff = '', min_cutoff = ''):
+    if min == '' and max == '':
+        min = min(values)
+        max = max(values)
     n = int(max-min)
     colors = list(Color("black").range_to(Color("white"),n))
+    with open(outfile_name, "w") as file:
+        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\t{label}\nCOLOR\t#FFC0CB\nDATA\n"
+        file.write(header)
+        for id, value in zip(ids, values):
+            color = colors[math.floor(value)].hex
+            if max_cutoff != '':
+                if value < max_cutoff:
+                    file.write(f"{id}\t{color}\t{value}\n")
+            elif min_cutoff != '':
+                if value > max_cutoff:
+                    file.write(f"{id}\t{color}\t{value}\n")
+            else:
+                file.write(f"{id}\t{color}\t{value}\n")
+
+def make_score_label_file():
+    json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
+    ids, values = [], []
+    for entry in json_list:
+        ids.append(entry['metadata']['accession'])
+        values.append(math.log10(entry[['entries'][0]['entry_protein_locations'][0]['score']]))
     output_filename = "data/itol-label-files/HMM_score.txt"
-    with open(output_filename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tscore\nCOLOR\t#ff0000\nDATA\n"
-        file.write(header)
-        for acc in json_dict:
-            score = json_dict[acc]['entries'][0]['entry_protein_locations'][0]['score']
-            color = colors[math.floor(math.log10(score))].hex
-            file.write(f"{acc}\t{color}\t{score}\n")
-
-def make_score_label_file():
-    # Read json file
-    json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
-    json_dict = {}
-    for entry in json_list:
-        json_dict[entry['metadata']['accession']] = entry
-    max = -5
-    min = -140
-    n = int(max-min)
-    colors = list(Color("black").range_to(Color("white"),n))
-    output_filename = "data/itol-label-files/HMM_score20.txt"
-    with open(output_filename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tscore25\nCOLOR\t#ff0000\nDATA\n"
-        file.write(header)
-        for acc in json_dict:
-            score = json_dict[acc]['entries'][0]['entry_protein_locations'][0]['score']
-            color = colors[math.floor(math.log10(score))].hex
-            if score < 1e-20:
-                file.write(f"{acc}\t{color}\t{score}\n")
+    write_spectrum_strip_file(output_filename, 'score', ids, values, min=-140, max=-5)
 
 def make_coverage_label_file():
-    # Read json file
     json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
-    json_dict = {}
+    ids, values = [], []
     for entry in json_list:
-        json_dict[entry['metadata']['accession']] = entry
-    max_coverage = 405
-    min_coverage = 16
-    n = int(max_coverage-min_coverage)
-    colors = list(Color("white").range_to(Color("black"),max_coverage))
+        ids.append(entry['metadata']['accession'])
+        values.append(entry[['entries'][0]['entry_protein_locations'][0]['fragments'][0]['end'] - json_dict[acc]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['start']])
     output_filename = "data/itol-label-files/coverage175.txt"
-    with open(output_filename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tcoverage175\nCOLOR\t#ff0000\nDATA\n"
-        file.write(header)
-        for acc in json_dict:
-            hit_length = json_dict[acc]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['end'] - json_dict[acc]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['start']
-            color = colors[int(hit_length)].hex
-            if hit_length > 175:
-                file.write(f"{acc}\t{color}\t{hit_length}\n")
+    write_spectrum_strip_file(output_filename, 'coverage', ids, values, min=16, max=405)
 
 def make_number_of_copies_file():
     # Read json file
