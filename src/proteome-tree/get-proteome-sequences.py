@@ -32,7 +32,7 @@ class proteomeData():
     df_manually_selected = pd.read_excel('data/proteome-tree/selected_genomes.xlsx')
     export_json = json.load(open('data/proteome-tree/export.json'))
     protein2proteome = make_protein2proteome_dict(export_json)
-    excluded_species = read_excluded_species('exclude')
+    excluded_species = read_excluded_species('data/proteome-tree/exclude')
 
     def __init__(self, domain, rank):
         self.domain = domain
@@ -124,7 +124,8 @@ class proteomeData():
             for acc in self.filtered_sequences:
                 proteome_id = self.protein2proteome[acc]
                 species = self.selected_proteomes2species[proteome_id]
-                outfile.write(f">{species}_{acc}\n{self.filtered_sequences[acc]}\n")
+                # outfile.write(f">{species}_{acc}\n{self.filtered_sequences[acc]}\n")
+                outfile.write(f">{acc}\n{self.filtered_sequences[acc]}\n")
 
     # def write_proteomes_txt(self):
     #     filename = f'data/proteome-tree/selected-proteomes-taxids-{self.domain}-{self.rank}.txt'
