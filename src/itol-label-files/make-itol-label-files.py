@@ -8,19 +8,19 @@ from colour import Color
 random.seed(10)
 outdir = "data/itol-label-files/"
 
-def get_value2color(ids, values):
+def make_value2color(values):
     value2color = {}
-    for id,value in zip(ids,values):
+    for value in values:
         if value not in value2color:
             color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
             value2color[value] = color
     return value2color
 
-def make_colour_strip(outfile_name, label, ids, values, value2color={}):
+def write_colour_strip_file(outfile_name, label, ids, values, value2color={}):
     if value2color == {}:
-        value2color = get_value2color(ids, values)
+        value2color = make_value2color(values)
     with open(outfile_name, 'w') as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\t{label}\nCOLOR\t#ff0000\nDATA\n"
+        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\t{label}-strip\nCOLOR\t#ff0000\nDATA\n"
         file.write(header)
         for id,value in zip(ids,values):
             if value not in value2color:
@@ -29,79 +29,85 @@ def make_colour_strip(outfile_name, label, ids, values, value2color={}):
                 color = value2color[value]
             file.write(f"{id}\t{color}\t{value}\n")
 
-def make_colour_text(outfile_name, label, ids, values, value2color={}):
+def write_colour_text_file(outfile_name, label, ids, values, value2color={}):
     if value2color == {}:
-        value2color = get_value2color(ids, values)
+        value2color = make_value2color(values)
     with open(outfile_name, 'w') as file:
-        header = header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,{label}\nCOLOR,#000000\nDATA\n"
+        header = header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,{label}-text\nCOLOR,#000000\nDATA\n"
         file.write(header)
         for id,value in zip(ids,values):
             if value not in value2color:
-                color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
+                color = '#000000'
             else:
                 color = value2color[value]
             file.write(f"{id},{value},-1,{color},bold,1,0\n")
 
-def make_taxonomy_file_species_tree_text(df):
-    wanted_ranks = ['class']
+def make_taxonomy_files_species_tree(df):
+    wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
     for rank in wanted_ranks:
-        output_filename = f"data/itol-label-files/species-tree-{rank}-text.txt"
         ids = df['species'].str.replace(' ', '_').tolist()
         values = df[rank].tolist()
-        make_colour_text(output_filename, rank, ids, values)
+        if rank == 'kingdom':
+            value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
+        else:
+            value2color = {}
+        output_filename_text = f"data/itol-label-files/species-tree-{rank}-text.txt"
+        write_colour_text_file(output_filename_text, rank, ids, values, value2color)
+        output_filename_strip = f"data/itol-label-files/species-tree-{rank}-strip.txt"
+        write_colour_strip_file(output_filename_strip, rank, ids, values, value2color)
 
-def make_taxonomy_label_files(df, blast_hits=False, uniprot_hits=False):
+def make_taxonomy_label_files(df):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
     for rank in wanted_ranks:
-        # Get output filename
-        if blast_hits:
-            output_filename = f"data/itol-label-files/{rank}-blast-hits.txt"
-        elif uniprot_hits:
-            output_filename = f"data/itol-label-files/{rank}-uniprot-hits.txt"
-        else:
-            output_filename = f"data/itol-label-files/{rank}-seeds.txt"
-        # Write file
         ids = df.protein_accession.tolist()
         values = df[rank].tolist()
         if rank == 'kingdom':
             value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
-            make_colour_strip(output_filename, rank, ids, values, value2color)
         else:
-            make_colour_strip(output_filename, rank, ids, values)
+            value2color = {}
+        output_filename_text = f"data/itol-label-files/uniprot-{rank}-text.txt"
+        write_colour_text_file(output_filename_text, rank, ids, values, value2color)
+        output_filename_strip = f"data/itol-label-files/uniprot-{rank}-strip.txt"
+        write_colour_strip_file(output_filename_strip, rank, ids, values, value2color)
 
-def make_taxonomy_files_species_tree(df):
-    wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
-    for rank in wanted_ranks:
-        output_filename = f"data/itol-label-files/species-tree-{rank}.txt"
-        ids = df.species.str.replace(' ', '_').tolist()
-        values = df[rank].tolist()
-        if rank == 'kingdom':
-            value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
-            make_colour_strip(output_filename, rank, ids, values, value2color)
-        else:
-            make_colour_strip(output_filename, rank, ids, values)
+def get_included_accessions(fasta_filename):
+    return [fasta.id for fasta in SeqIO.parse(fasta_filename, 'fasta')]
 
-def make_taxonomy_arrow_files(df, rank, domain):
-    # Get accessions to include
-    fasta_filename = f"data/proteome-tree/{domain}-one_proteome_per_{rank}.fa"
-    included_accessions = [fasta.id for fasta in SeqIO.parse(fasta_filename, 'fasta')]
-    output_filename = f"data/itol-label-files/{domain}-{rank}-arrows.txt"
-    # Write file
-    with open(output_filename, "w") as file:
-        header = f"DATASET_CONNECTION\nSEPARATOR TAB\nDATASET_LABEL\t{rank}_arrows\nCOLOR\t#ff0000\nALIGN_TO_LABELS,1\nCENTER_CURVES,1\nCENTER_CURVES,1\nDATA\n"
+def make_value2first_id(ids, values, included_accessions):
+    value2first_id = {}
+    for id,value in zip(ids,values):
+        if id not in included_accessions:
+            continue
+        if value not in value2first_id:
+            value2first_id[value] = id
+    return value2first_id
+
+def write_arrow_file(outfile_name, label, ids, values, included_accessions, value2color={}):
+    if value2color == {}:
+        value2color = make_value2color(values)
+    value2first_id = make_value2first_id(ids, values, included_accessions)
+    with open(outfile_name, 'w') as file:
+        header = header = f"DATASET_CONNECTION\nSEPARATOR COMMA\nDATASET_LABEL,{label}-arrow\nCOLOR,#00FFFF\nDATA\n"
         file.write(header)
-        tax2color = dict()
-        tax2firstacc = dict()
-        for index, row in df.iterrows():
-            acc, tax = row['protein_accession'], row[rank]
-            if acc not in included_accessions:
+        for id,value in zip(ids,values):
+            if id not in included_accessions:
                 continue
-            if tax not in tax2color:
-                color = '#' + "%06x" % random.randint(0, 0xFFFFFF)
-                tax2color[tax] = color
-                tax2firstacc[tax] = acc
+            if value not in value2color:
+                color = '#000000'
             else:
-                file.write(f"{tax2firstacc[tax]}\t{acc}\t2\t{tax2color[tax]}\tdashed\t{tax}\n")
+                color = value2color[value]
+            if value2first_id[value] == id:
+                continue
+            file.write(f"{value2first_id[value]},{id},2,{color},dashed,{value}\n")
+
+def make_taxonomy_arrow_files(df, domain):
+    wanted_ranks = ['class']
+    for rank in wanted_ranks:
+        included_accessions = get_included_accessions(f"data/proteome-tree/{domain}-one_proteome_per_{rank}.fa")
+        output_filename = f"data/itol-label-files/{domain}-{rank}-arrows.txt"
+        ids = df['protein_accession'].tolist()
+        values = df[rank].tolist()
+        write_arrow_file(output_filename, rank, ids, values, included_accessions)
 
 def make_activity_label_file(df):
     outfilename = f"data/itol-label-files/activity.txt"
@@ -376,14 +382,14 @@ def make_OG_files():
 # df_aguilera = pd.read_excel('data/Aguilera-data/aguilera_with_seq.xlsx')
 # make_aguilera_subclass_label_file_text(df_aguilera)
 
-# Make Uniprot hits label files
+# Uniprot
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t')
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
+make_taxonomy_label_files(df_uniprot_hits)
 # make_score_label_file()
 # make_coverage_label_file()
 # make_match_length_file()
-# make_taxonomy_arrow_files(df_uniprot_hits)
+make_taxonomy_arrow_files(df_uniprot_hits, 'all')
 
 # make_taxonomy_arrow_files(df_uniprot_hits, 'order', 'all')
 # make_taxonomy_arrow_files(df_uniprot_hits, 'class', 'all')
@@ -391,6 +397,6 @@ make_taxonomy_label_files(df_uniprot_hits, uniprot_hits=True)
 # make_taxonomy_arrow_files(df_uniprot_hits, 'family', 'fungal')
 # make_number_of_copies_file()
 
+# Species tree
 df_species_tree = pd.read_csv('species.tsv', sep='\t')
 make_taxonomy_files_species_tree(df_species_tree)
-make_taxonomy_file_species_tree_text(df_species_tree)

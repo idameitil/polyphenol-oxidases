@@ -1,475 +1,383 @@
 DATASET_CONNECTION
-SEPARATOR TAB
-DATASET_LABEL	class_arrows
-COLOR	#ff0000
-ALIGN_TO_LABELS,1
-CENTER_CURVES,1
-CENTER_CURVES,1
+SEPARATOR COMMA
+DATASET_LABEL,class-arrow
+COLOR,#00FFFF
 DATA
-A0A078AII6	A0A078ARQ6	2	#5b2e57	dashed	Spirotrichea
-A0A0C2YBV3	A0A0C3BJQ5	2	#35d406	dashed	Agaricomycetes
-A0A0C2YBV3	A0A0C3CRE9	2	#35d406	dashed	Agaricomycetes
-A0A0G4IPB5	A0A0G4IUB1	2	#4d1d2a	dashed	Phytomyxea
-A0A0G4IPB5	A0A0G4J7H3	2	#4d1d2a	dashed	Phytomyxea
-A0A0H5S2I7	A0A0I9N9E9	2	#fed218	dashed	Chromadorea
-A0A0H5S2I7	A0A0J9YBJ2	2	#fed218	dashed	Chromadorea
-A0A0L0HF05	A0A0L0HG65	2	#99de7e	dashed	Chytridiomycetes
-A0A0L0HF05	A0A0L0HGD9	2	#99de7e	dashed	Chytridiomycetes
-A0A0L0RZ18	A0A0L0S5H6	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0S6J0	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0S771	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0SHB1	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0SNS0	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0SY24	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0T1I9	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0T297	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0T3A5	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0T3E0	2	#1869fe	dashed	Blastocladiomycetes
-A0A0L0RZ18	A0A0L0T7W0	2	#1869fe	dashed	Blastocladiomycetes
-A0A0X3NRP7	A0A0X3Q9U6	2	#5583e9	dashed	Cestoda
-A0A137NPV3	A0A137NPX8	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137NQ81	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137NQN3	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137NUB7	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137NY78	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137NYB7	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137NZ43	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P2U0	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P2U9	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P2V9	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P353	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P4I7	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P4K7	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P4L3	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P4M5	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P649	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P667	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P762	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P7E0	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P7Q8	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137P8T8	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PAT2	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PAW4	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PC40	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PC55	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PC66	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PC75	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PC76	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PDD6	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PEX6	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PEX7	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PFI2	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PGY5	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PJ00	2	#4924ad	dashed	Entomophthoromycetes
-A0A137NPV3	A0A137PJ55	2	#4924ad	dashed	Entomophthoromycetes
-A0A167H3K1	A0A167J7M6	2	#04c4bc	dashed	Dacrymycetes
-A0A167H3K1	A0A167MK44	2	#04c4bc	dashed	Dacrymycetes
-A0A0X3NRP7	A0A183TCN8	2	#5583e9	dashed	Cestoda
-A0A1B8G8M9	A0A1B8GPV7	2	#f59b27	dashed	Leotiomycetes
-A0A1B8G8M9	A0A1B8GTG5	2	#f59b27	dashed	Leotiomycetes
-A0A1I8GLN0	A0A1I8I6W4	2	#d07817	dashed	Rhabditophora
-A0A1I8GLN0	A0A1I8IJ91	2	#d07817	dashed	Rhabditophora
-A0A1I8GLN0	A0A1I8J0F5	2	#d07817	dashed	Rhabditophora
-A0A0H5S2I7	A0A1I9G609	2	#fed218	dashed	Chromadorea
-A0A0H5S2I7	A0A1I9G629	2	#fed218	dashed	Chromadorea
-A0A1J9QJX4	A0A1J9QQD4	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9QXP9	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9R1M8	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9R2U7	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9R915	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9RDU7	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9RG32	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9RHE1	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9RTH1	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9RWN6	2	#085872	dashed	Dothideomycetes
-A0A1J9QJX4	A0A1J9S725	2	#085872	dashed	Dothideomycetes
-A0A1L8FPX0	A0A1L8FPY5	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A1L8HAY8	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A1L8HHA8	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A1L8HNZ5	2	#0f9a18	dashed	Amphibia
-A0A1S3H960	A0A1S3HAX8	2	#8d3f8d	dashed	Lingulata
-A0A1S3H960	A0A1S3HNS5	2	#8d3f8d	dashed	Lingulata
-A0A1S3H960	A0A1S3I9L8	2	#8d3f8d	dashed	Lingulata
-A0A1S3H960	A0A1S3IIA6	2	#8d3f8d	dashed	Lingulata
-A0A1U7LR42	A0A1U7LR76	2	#cfb56c	dashed	Neolectomycetes
-A0A1Y1HT28	A0A1Y1HVY3	2	#6240d4	dashed	Klebsormidiophyceae
-A0A1Y1WUU7	A0A1Y1WXW1	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1X7W0	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XAL5	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XFV3	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XLK1	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XM11	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XU76	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XUF9	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XUN2	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1XZB8	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Y0G3	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Y162	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Y3B8	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Y3H3	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Y511	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Y750	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1YBC0	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1YDM8	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1YHD6	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Z2V1	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Z3P8	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Z4N2	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1Z697	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1ZAQ2	2	#f7d832	dashed	Basidiobolomycetes
-A0A1Y1WUU7	A0A1Y1ZC58	2	#f7d832	dashed	Basidiobolomycetes
-A0A1I8GLN0	A0A267G1D3	2	#d07817	dashed	Rhabditophora
-A0A2G5BCT7	A0A2G5BCT9	2	#c2e13d	dashed	Kickxellomycetes
-A0A2G5BCT7	A0A2G5BCU3	2	#c2e13d	dashed	Kickxellomycetes
-A0A2G5BCT7	A0A2G5BDP2	2	#c2e13d	dashed	Kickxellomycetes
-A0A2G5BCT7	A0A2G5BJJ6	2	#c2e13d	dashed	Kickxellomycetes
-A0A2G5BCT7	A0A2G5BJJ9	2	#c2e13d	dashed	Kickxellomycetes
-A0A2G5BCT7	A0A2G5BJN3	2	#c2e13d	dashed	Kickxellomycetes
-A0A2K1IGC8	A0A2K1IK82	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1IZ55	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1J0S4	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1J162	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1JC20	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1JC22	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1K1L4	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1K363	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A2K1KIQ0	2	#7988af	dashed	Bryopsida
-A0A1B8G8M9	A0A2P2SVS2	2	#f59b27	dashed	Leotiomycetes
-A0A1B8G8M9	A0A2P2SYW5	2	#f59b27	dashed	Leotiomycetes
-A0A2P5HMR1	A0A2P5HS54	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5HSA0	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5HUK7	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5HWP3	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5HZG8	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5I1S1	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5I2V9	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5I389	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5I525	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5I970	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5I9R7	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5IBH4	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P5HMR1	A0A2P5IEE2	2	#aeb2aa	dashed	Sordariomycetes
-A0A2P6U0E0	A0A2P6U1N3	2	#72ce87	dashed	Trebouxiophyceae
-A0A1S3H960	A0A2R2MNF5	2	#8d3f8d	dashed	Lingulata
-A0A1S3H960	A0A2R2MPF3	2	#8d3f8d	dashed	Lingulata
-A0A2R6VXF9	A0A2R6VXM9	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VYL4	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VYW6	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZB5	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZE8	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZG6	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZH5	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZH9	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZK5	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZL5	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6VZL9	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W043	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W061	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W0C7	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W5A5	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W5B2	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W5V6	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W5W2	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W5W5	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W5W8	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6W7E7	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WA01	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WA03	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WAX7	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WCK4	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WDA8	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WF97	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WG95	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WH64	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WJJ9	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WKW3	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WMN0	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6WNN9	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X2S1	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X3F1	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X3F7	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X3G4	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X3H0	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X3H8	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X3Y2	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X796	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6X7A4	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6XBI1	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6XDH5	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6XDH6	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6XDH9	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6XDI4	2	#b82339	dashed	Marchantiopsida
-A0A2R6VXF9	A0A2R6XWE1	2	#b82339	dashed	Marchantiopsida
-A0A2T9J0L0	A0A2T9JKS7	2	#1286c5	dashed	Alphaproteobacteria
-A0A2T9J0L0	A0A2T9KBT8	2	#1286c5	dashed	Alphaproteobacteria
-A0A2T9Y0C2	A0A2T9Y5C0	2	#042548	dashed	Harpellomycetes
-A0A2T9Y0C2	A0A2T9Y7Q6	2	#042548	dashed	Harpellomycetes
-A0A2T9Y0C2	A0A2T9YL16	2	#042548	dashed	Harpellomycetes
-A0A2T9Y0C2	A0A2T9YZI7	2	#042548	dashed	Harpellomycetes
-A0A2T9Y0C2	A0A2T9Z3X5	2	#042548	dashed	Harpellomycetes
-A0A2T9Y0C2	A0A2T9Z5Q6	2	#042548	dashed	Harpellomycetes
-A0A2T9Y0C2	A0A2T9Z5R5	2	#042548	dashed	Harpellomycetes
-A0A2V3IRL0	A0A2V3ITQ3	2	#4b1c4d	dashed	Florideophyceae
-A0A2V3IRL0	A0A2V3J6W0	2	#4b1c4d	dashed	Florideophyceae
-A0A0N7H8Q0	A0A378U9W3	2	#c7f4ec	dashed	Actinomycetia
-A0A397S017	A0A397SZQ9	2	#8b4033	dashed	Glomeromycetes
-A0A0G4IPB5	A0A3P3YML5	2	#4d1d2a	dashed	Phytomyxea
-A0A436ZMN6	A0A436ZMY2	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A436ZW26	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A436ZW36	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A436ZY08	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A436ZY67	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437A308	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437A7Y6	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437ABS8	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437ABU9	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437ACI9	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437ACP0	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437AD99	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437AEF9	2	#7cf179	dashed	Orbiliomycetes
-A0A436ZMN6	A0A437AF91	2	#7cf179	dashed	Orbiliomycetes
-A0A0H5S2I7	A0A4E9F741	2	#fed218	dashed	Chromadorea
-A0A0H5S2I7	A0A4E9F948	2	#fed218	dashed	Chromadorea
-A0A0H5S2I7	A0A4E9FH29	2	#fed218	dashed	Chromadorea
-A0A0H5S2I7	A0A4E9FIB1	2	#fed218	dashed	Chromadorea
-A0A4P9XGI5	A0A4P9XHR6	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XIM0	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XL19	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XL46	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XLD8	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XLI7	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XMQ7	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XMV3	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XST4	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XST5	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XSU6	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XSV5	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XTI0	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XTP8	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XTQ3	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XUT0	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XUV9	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4P9XVI9	2	#269c25	dashed	Zoopagomycetes
-A0A4P9ZNY3	A0A4P9ZSR0	2	#fa833e	dashed	Dimargaritomycetes
-A0A4P9ZNY3	A0A4P9ZTR7	2	#fa833e	dashed	Dimargaritomycetes
-A0A4P9ZNY3	A0A4P9ZUL5	2	#fa833e	dashed	Dimargaritomycetes
-A0A4P9ZNY3	A0A4P9ZVA0	2	#fa833e	dashed	Dimargaritomycetes
-A0A4S2KZB5	A0A4S2LAY3	2	#1e9c6b	dashed	Trematoda
-A0A4S2KZB5	A0A4S2LAY4	2	#1e9c6b	dashed	Trematoda
-A0A4S2KZB5	A0A4S2LBG9	2	#1e9c6b	dashed	Trematoda
-A0A4S2KZB5	A0A4S2LBJ8	2	#1e9c6b	dashed	Trematoda
-A0A4S2KZB5	A0A4S2LBN1	2	#1e9c6b	dashed	Trematoda
-A0A4S2KZB5	A0A4S2LES6	2	#1e9c6b	dashed	Trematoda
-A0A4S2KZB5	A0A4S2LF11	2	#1e9c6b	dashed	Trematoda
-A0A4S2KZB5	A0A4S2LJ85	2	#1e9c6b	dashed	Trematoda
-A0A4S2MHI4	A0A4S2MK96	2	#e7e67f	dashed	Pezizomycetes
-A0A4S2MHI4	A0A4S2MM39	2	#e7e67f	dashed	Pezizomycetes
-A0A4S2MHI4	A0A4S2MMJ0	2	#e7e67f	dashed	Pezizomycetes
-A0A4S2MHI4	A0A4S2MRG4	2	#e7e67f	dashed	Pezizomycetes
-A0A4S2MHI4	A0A4S2MTZ1	2	#e7e67f	dashed	Pezizomycetes
-A0A4S2MHI4	A0A4S2N177	2	#e7e67f	dashed	Pezizomycetes
-A0A4P9XGI5	A0A4V1IWY8	2	#269c25	dashed	Zoopagomycetes
-A0A4P9XGI5	A0A4V1IX23	2	#269c25	dashed	Zoopagomycetes
-A0A4P9ZNY3	A0A4V1J5M0	2	#fa833e	dashed	Dimargaritomycetes
-A0A4W3I0J5	A0A4W3I0L0	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I463	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I5I7	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I5L1	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I5Q3	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I5Q9	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I8Z7	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I926	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I954	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3I973	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3ICV8	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3IEG1	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3IN19	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3INF1	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3INV9	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3INW1	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3IPU9	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3ISX3	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3ISZ4	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3IXA9	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3J2P3	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3J2R9	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3JJW4	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3JJY3	2	#bd46c3	dashed	Chondrichthyes
-A0A4W3I0J5	A0A4W3JK65	2	#bd46c3	dashed	Chondrichthyes
-A0A5B0M872	A0A5B0M9P8	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0MBJ1	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0MIJ7	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0MLF7	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0MSQ2	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0PAK7	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0PDE5	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0PE42	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0PKD0	2	#01c416	dashed	Pucciniomycetes
-A0A5B0M872	A0A5B0S431	2	#01c416	dashed	Pucciniomycetes
-A0A0H5S2I7	A0A5S6P9F5	2	#fed218	dashed	Chromadorea
-A0A6I9QIW5	A0A6I9QKC4	2	#688132	dashed	Magnoliopsida
-A0A6I9QIW5	A0A6I9QKJ4	2	#688132	dashed	Magnoliopsida
-A0A6I9QIW5	A0A6I9RDH9	2	#688132	dashed	Magnoliopsida
-A0A6I9QIW5	A0A6I9RIE5	2	#688132	dashed	Magnoliopsida
-A0A6J0SQE0	A0A6J0SW19	2	#b259f2	dashed	Lepidosauria
-A0A6J0SQE0	A0A6J0V519	2	#b259f2	dashed	Lepidosauria
-A0A6J3E978	A0A6J3EJK3	2	#0ed4b2	dashed	Aves
-A0A6J3E978	A0A6J3ELG3	2	#0ed4b2	dashed	Aves
-A0A6P4XRW3	A0A6P4Y7G1	2	#977168	dashed	Leptocardii
-A0A6P4XRW3	A0A6P4YGM5	2	#977168	dashed	Leptocardii
-A0A6P4XRW3	A0A6P4YP62	2	#977168	dashed	Leptocardii
-A0A6P4XRW3	A0A6P4YV80	2	#977168	dashed	Leptocardii
-A0A6P4XRW3	A0A6P4ZCR3	2	#977168	dashed	Leptocardii
-A0A6P4XRW3	A0A6P4ZW15	2	#977168	dashed	Leptocardii
-A0A6P4XRW3	A0A6P5A764	2	#977168	dashed	Leptocardii
-A0A6P4XRW3	A0A6P5AGC0	2	#977168	dashed	Leptocardii
-A0A6P7LD16	A0A6P7LE96	2	#4f3ccc	dashed	Actinopteri
-A0A6P7LD16	A0A6P7LXQ7	2	#4f3ccc	dashed	Actinopteri
-A0A6P7LD16	A0A6P7LYR8	2	#4f3ccc	dashed	Actinopteri
-A0A6P7LD16	A0A6P7NI18	2	#4f3ccc	dashed	Actinopteri
-A0A6P7LD16	A0A6P7PDL3	2	#4f3ccc	dashed	Actinopteri
-A0A6P7LD16	A0A6P7PG57	2	#4f3ccc	dashed	Actinopteri
-A0A6P7S550	A0A6P7S5R8	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A6P7S5V1	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A6P7S7A7	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A6P7S7Y8	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A6P7T4X6	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A6P7TQ10	2	#fa7f30	dashed	Cephalopoda
-A0A6P8HAX5	A0A6P8HXM1	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8I080	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8I0S2	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8I583	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8IBZ1	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8IFD5	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8IFJ7	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8ITZ4	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8IWU9	2	#c49e6d	dashed	Anthozoa
-A0A6P8HAX5	A0A6P8IXU5	2	#c49e6d	dashed	Anthozoa
-A0A6P7S550	A0A7E6ENM2	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A7E6EPH5	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A7E6EPK6	2	#fa7f30	dashed	Cephalopoda
-A0A6P7S550	A0A7E6ER30	2	#fa7f30	dashed	Cephalopoda
-A0A2K1IGC8	A0A7I3ZAZ7	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A0A7I4A3E3	2	#7988af	dashed	Bryopsida
-A0A0H5S2I7	A0A7I4K6K6	2	#fed218	dashed	Chromadorea
-A0A0H5S2I7	A0A7I4NJW8	2	#fed218	dashed	Chromadorea
-A0A7M5U0C1	A0A7M5V4K9	2	#2db2b3	dashed	Hydrozoa
-A0A7M5U0C1	A0A7M5WXX0	2	#2db2b3	dashed	Hydrozoa
-A0A7M5U0C1	A0A7M5XIS8	2	#2db2b3	dashed	Hydrozoa
-A0A7M5U0C1	A0A7M6DMJ9	2	#2db2b3	dashed	Hydrozoa
-A0A7M5U0C1	A0A7M6DMK7	2	#2db2b3	dashed	Hydrozoa
-A0A7M5U0C1	A0A7M6DQE2	2	#2db2b3	dashed	Hydrozoa
-A0A841H042	A0A841H669	2	#f1cedd	dashed	Longimicrobia
-A0A8B8ABF3	A0A8B8BBF7	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8BDB7	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8BGL0	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8BJX3	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8BZ31	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8E9Z7	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EBN7	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8ECR7	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EDC2	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EEW4	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EFI5	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EIY1	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8ER43	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8ERQ6	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8ESA4	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EST9	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8ETR2	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EU86	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EX42	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EX72	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EXW9	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EY98	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EYB2	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8EZS9	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8F0L9	2	#9aad24	dashed	Bivalvia
-A0A8B8ABF3	A0A8B8F0Y1	2	#9aad24	dashed	Bivalvia
-A0A8C0C6N3	A0A8C0DW50	2	#5ddef7	dashed	Mammalia
-A0A8C0C6N3	A0A8C0HUM2	2	#5ddef7	dashed	Mammalia
-A0A8C4QBR2	A0A8C4QC18	2	#fdd1ab	dashed	Myxini
-A0A8C4QBR2	A0A8C4QZ32	2	#fdd1ab	dashed	Myxini
-A0A8C4RQH4	A0A8C4SH53	2	#f35580	dashed	Cladistia
-A0A8C4RQH4	A0A8C4SST0	2	#f35580	dashed	Cladistia
-A0A8C4QBR2	A0A8C4X1E1	2	#fdd1ab	dashed	Myxini
-A0A8H6L0G3	A0A8H6L2R8	2	#95b178	dashed	Lecanoromycetes
-A0A1L8FPX0	A0A8J0VPY8	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A8J1KWE0	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A8J1L3K0	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A8J1MAN5	2	#0f9a18	dashed	Amphibia
-A0A0H5S2I7	A0A8L7T7J8	2	#fed218	dashed	Chromadorea
-A0A8S1IXD9	A0A8S1IXK5	2	#9698a7	dashed	Ulvophyceae
-A0A8S1IXD9	A0A8S1JEY5	2	#9698a7	dashed	Ulvophyceae
-A0A1L8FPX0	A0A974CJ53	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A974DR61	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A974DTG3	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A974DZY5	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A974HD76	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A974HDN1	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	A0A974HWU9	2	#0f9a18	dashed	Amphibia
-A0A9D4U2J2	A0A9D4U2Z4	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4U427	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4U4J8	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4UPM2	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4UQ41	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4UQE7	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4UQY4	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4UYP8	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V1Q8	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V2I4	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V2P6	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V772	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V7B7	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V7H8	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V7R6	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4V926	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4Z585	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4Z6M7	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4ZGH9	2	#2274cf	dashed	Polypodiopsida
-A0A9D4U2J2	A0A9D4ZI76	2	#2274cf	dashed	Polypodiopsida
-A0A9K3KBA8	A0A9K3KLT7	2	#280780	dashed	Bacillariophyceae
-A0A9K3KBA8	A0A9K3KMG5	2	#280780	dashed	Bacillariophyceae
-A0A9K3KBA8	A0A9K3LNV3	2	#280780	dashed	Bacillariophyceae
-A0A9K3KBA8	A0A9K3LRN8	2	#280780	dashed	Bacillariophyceae
-A0A9K3KBA8	A0A9K3Q9J1	2	#280780	dashed	Bacillariophyceae
-A0A9P8HZL9	A0A9P8I7W5	2	#13bba5	dashed	Geoglossomycetes
-A0A9P8HZL9	A0A9P8L2T7	2	#13bba5	dashed	Geoglossomycetes
-A0A2K1IGC8	A9SJQ8	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A9SUP1	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A9T5A8	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A9U439	2	#7988af	dashed	Bryopsida
-A0A2K1IGC8	A9U514	2	#7988af	dashed	Bryopsida
-A0A1L8FPX0	B1H1U5	2	#0f9a18	dashed	Amphibia
-D8QTP9	D8REH0	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8RI09	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8RTL3	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8S0G1	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8S0G3	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8SB51	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8SB54	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8SFY9	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8T3T5	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8T5J9	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8T5K0	2	#574441	dashed	Lycopodiopsida
-D8QTP9	D8T5K2	2	#574441	dashed	Lycopodiopsida
-F6R2I4	F6SPL0	2	#168e4e	dashed	Ascidiacea
-F6R2I4	F6UGD7	2	#168e4e	dashed	Ascidiacea
-F6R2I4	F6XL13	2	#168e4e	dashed	Ascidiacea
-I4YA87	I4YAA8	2	#74d043	dashed	Wallemiomycetes
-I4YA87	I4YCE2	2	#74d043	dashed	Wallemiomycetes
-I4YA87	I4YFA0	2	#74d043	dashed	Wallemiomycetes
-A0A1L8FPX0	Q3KPL4	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	Q4V7Z3	2	#0f9a18	dashed	Amphibia
-Q54QT0	Q54QT1	2	#177bfd	dashed	Eumycetozoa
-A0A2K1IGC8	Q56N25	2	#7988af	dashed	Bryopsida
-A0A1L8FPX0	Q6GN92	2	#0f9a18	dashed	Amphibia
-A0A1L8FPX0	Q7ZYE8	2	#0f9a18	dashed	Amphibia
-R7THS2	R7UB97	2	#aaa142	dashed	Polychaeta
-R7THS2	R7VC10	2	#aaa142	dashed	Polychaeta
-V3ZAB2	V4A5X3	2	#c5e0b7	dashed	Gastropoda
-V3ZAB2	V4AN59	2	#c5e0b7	dashed	Gastropoda
-W9VMR6	W9WQA9	2	#c6b871	dashed	Eurotiomycetes
-W9VMR6	W9WRS1	2	#c6b871	dashed	Eurotiomycetes
-W9VMR6	W9WRW1	2	#c6b871	dashed	Eurotiomycetes
-W9VMR6	W9X9Z6	2	#c6b871	dashed	Eurotiomycetes
+A0A078AII6,A0A078ARQ6,2,#f8b920,dashed,Spirotrichea
+A0A0G4IPB5,A0A0G4IUB1,2,#ccf3ef,dashed,Phytomyxea
+A0A0G4IPB5,A0A0G4J7H3,2,#ccf3ef,dashed,Phytomyxea
+A0A0L0VSP3,A0A0L0VSW2,2,#4bdade,dashed,Pucciniomycetes
+A0A0L0VSP3,A0A0L0W3I3,2,#4bdade,dashed,Pucciniomycetes
+A0A0L0VSP3,A0A0L0W3Q3,2,#4bdade,dashed,Pucciniomycetes
+A0A0L0VSP3,A0A0L0W3R9,2,#4bdade,dashed,Pucciniomycetes
+A0A0L0VSP3,A0A0L0W4D9,2,#4bdade,dashed,Pucciniomycetes
+A0A137NPV3,A0A137NPX8,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137NQ81,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137NQN3,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137NUB7,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137NY78,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137NYB7,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137NZ43,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P2U0,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P2U9,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P2V9,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P353,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P4I7,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P4K7,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P4L3,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P4M5,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P649,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P667,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P762,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P7E0,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P7Q8,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137P8T8,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PAT2,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PAW4,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PC40,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PC55,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PC66,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PC75,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PC76,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PDD6,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PEX6,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PEX7,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PFI2,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PGY5,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PJ00,2,#30db52,dashed,Entomophthoromycetes
+A0A137NPV3,A0A137PJ55,2,#30db52,dashed,Entomophthoromycetes
+A0A165HIH0,A0A165J5C9,2,#bc43d8,dashed,Dacrymycetes
+A0A176VDF6,A0A176VEH7,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176VEY3,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176VIK0,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176VKC3,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176VQY9,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176VS61,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176VZ75,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176W193,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176W503,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176W6H1,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176W8I4,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WB99,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WCD1,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WCF4,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WCM7,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WD67,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WEU2,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WFY1,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WGP9,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WHM5,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WIF4,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WJD7,2,#40740a,dashed,Marchantiopsida
+A0A176VDF6,A0A176WL12,2,#40740a,dashed,Marchantiopsida
+A0A177D6G4,A0A177D939,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177D9T1,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DH89,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DH95,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DHU3,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DIL2,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DK85,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DM13,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DMT7,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DMZ0,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DP90,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DQF3,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DSJ1,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DTC8,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177DXP3,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177E0Q1,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177E1Y0,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177E2B8,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177E2Y1,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177E398,2,#ef9e74,dashed,Dothideomycetes
+A0A177D6G4,A0A177E3H5,2,#ef9e74,dashed,Dothideomycetes
+A0A1L8FPX0,A0A1L8FPY5,2,#a4caa8,dashed,Amphibia
+A0A1L8FPX0,A0A1L8HAY8,2,#a4caa8,dashed,Amphibia
+A0A1L8FPX0,A0A1L8HHA8,2,#a4caa8,dashed,Amphibia
+A0A1L8FPX0,A0A1L8HNZ5,2,#a4caa8,dashed,Amphibia
+A0A1S3H960,A0A1S3HAX8,2,#1093bb,dashed,Lingulata
+A0A1S3H960,A0A1S3HNS5,2,#1093bb,dashed,Lingulata
+A0A1S3H960,A0A1S3I9L8,2,#1093bb,dashed,Lingulata
+A0A1S3H960,A0A1S3IIA6,2,#1093bb,dashed,Lingulata
+A0A1S9D7B6,A0A1S9D8U5,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9DBW0,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9DF80,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9DJX3,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9DK56,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9DQI5,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9DSW9,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9DY89,2,#758dc9,dashed,Eurotiomycetes
+A0A1S9D7B6,A0A1S9E169,2,#758dc9,dashed,Eurotiomycetes
+A0A1Y1HT28,A0A1Y1HVY3,2,#610933,dashed,Klebsormidiophyceae
+A0A1Y1WUU7,A0A1Y1WXW1,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1X7W0,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XAL5,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XFV3,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XLK1,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XM11,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XU76,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XUF9,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XUN2,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1XZB8,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Y0G3,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Y162,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Y3B8,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Y3H3,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Y511,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Y750,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1YBC0,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1YDM8,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1YHD6,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Z2V1,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Z3P8,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Z4N2,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1Z697,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1ZAQ2,2,#2e4d83,dashed,Basidiobolomycetes
+A0A1Y1WUU7,A0A1Y1ZC58,2,#2e4d83,dashed,Basidiobolomycetes
+A0A2G5BCT7,A0A2G5BCT9,2,#a3cae2,dashed,Kickxellomycetes
+A0A2G5BCT7,A0A2G5BCU3,2,#a3cae2,dashed,Kickxellomycetes
+A0A2G5BCT7,A0A2G5BDP2,2,#a3cae2,dashed,Kickxellomycetes
+A0A2G5BCT7,A0A2G5BJJ6,2,#a3cae2,dashed,Kickxellomycetes
+A0A2G5BCT7,A0A2G5BJJ9,2,#a3cae2,dashed,Kickxellomycetes
+A0A2G5BCT7,A0A2G5BJN3,2,#a3cae2,dashed,Kickxellomycetes
+A0A2H3GFQ3,A0A2H3GLJ8,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3GPA0,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3GPD7,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3GQY4,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3H030,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3H6R0,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3HDD6,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3HKI2,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3HNW1,2,#aeca1e,dashed,Sordariomycetes
+A0A2H3GFQ3,A0A2H3HZX2,2,#aeca1e,dashed,Sordariomycetes
+A0A2K1IGC8,A0A2K1IK82,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1IZ55,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1J0S4,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1J162,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1JC20,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1JC22,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1K1L4,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1K363,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A2K1KIQ0,2,#6954c0,dashed,Bryopsida
+A0A2K2AV86,A0A2K2CAK1,2,#2d4130,dashed,Magnoliopsida
+A0A2K2AV86,A0A2K2CAK3,2,#2d4130,dashed,Magnoliopsida
+A0A2K2AV86,A0A2K2CAL3,2,#2d4130,dashed,Magnoliopsida
+A0A2K2AV86,A0A2K2CAL4,2,#2d4130,dashed,Magnoliopsida
+A0A2K2AV86,A0A2K2CAL5,2,#2d4130,dashed,Magnoliopsida
+A0A2K2AV86,A0A2K2CAM1,2,#2d4130,dashed,Magnoliopsida
+A0A2K2AV86,A0A2K2CAM6,2,#2d4130,dashed,Magnoliopsida
+A0A1S3H960,A0A2R2MNF5,2,#1093bb,dashed,Lingulata
+A0A1S3H960,A0A2R2MPF3,2,#1093bb,dashed,Lingulata
+A0A2T6ZB28,A0A2T6ZCK0,2,#edbaf5,dashed,Pezizomycetes
+A0A2T6ZB28,A0A2T6ZI61,2,#edbaf5,dashed,Pezizomycetes
+A0A2T6ZB28,A0A2T6ZP66,2,#edbaf5,dashed,Pezizomycetes
+A0A2T6ZB28,A0A2T6ZP82,2,#edbaf5,dashed,Pezizomycetes
+A0A2T6ZB28,A0A2T6ZRN0,2,#edbaf5,dashed,Pezizomycetes
+A0A2T6ZB28,A0A2T6ZRN3,2,#edbaf5,dashed,Pezizomycetes
+A0A2T6ZB28,A0A2T6ZWP4,2,#edbaf5,dashed,Pezizomycetes
+A0A2T6ZB28,A0A2T7A7H9,2,#edbaf5,dashed,Pezizomycetes
+A0A2V3IRL0,A0A2V3ITQ3,2,#f51d94,dashed,Florideophyceae
+A0A2V3IRL0,A0A2V3J6W0,2,#f51d94,dashed,Florideophyceae
+A0A2Z6QID9,A0A2Z6QJV6,2,#abbfd6,dashed,Glomeromycetes
+A0A2Z6QID9,A0A2Z6RB52,2,#abbfd6,dashed,Glomeromycetes
+A0A2Z6QID9,A0A2Z6S775,2,#abbfd6,dashed,Glomeromycetes
+A0A384J750,A0A384J8A3,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384JB29,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384JDM9,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384JJM0,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384JWB2,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384K0M5,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384K3L4,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384K4W6,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384K5I7,2,#cbb70d,dashed,Leotiomycetes
+A0A384J750,A0A384K673,2,#cbb70d,dashed,Leotiomycetes
+A0A3M6T600,A0A3M6TCS2,2,#3453f6,dashed,Anthozoa
+A0A3M6T600,A0A3M6U071,2,#3453f6,dashed,Anthozoa
+A0A3M6T600,A0A3M6UE86,2,#3453f6,dashed,Anthozoa
+A0A3M6T600,A0A3M6UP51,2,#3453f6,dashed,Anthozoa
+A0A3M6T600,A0A3M6UR97,2,#3453f6,dashed,Anthozoa
+A0A3M6T600,A0A3M6URF3,2,#3453f6,dashed,Anthozoa
+A0A4W3I0J5,A0A4W3I0L0,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I463,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I5I7,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I5L1,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I5Q3,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I5Q9,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I8Z7,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I926,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I954,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3I973,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3ICV8,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3IEG1,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3IN19,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3INF1,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3INV9,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3INW1,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3IPU9,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3ISX3,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3ISZ4,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3IXA9,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3J2P3,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3J2R9,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3JJW4,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3JJY3,2,#9d5142,dashed,Chondrichthyes
+A0A4W3I0J5,A0A4W3JK65,2,#9d5142,dashed,Chondrichthyes
+A0A504YN21,A0A504YVJ2,2,#174bca,dashed,Trematoda
+A0A6P7S550,A0A6P7S5R8,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A6P7S5V1,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A6P7S7A7,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A6P7S7Y8,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A6P7T4X6,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A6P7TQ10,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A7E6ENM2,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A7E6EPH5,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A7E6EPK6,2,#a88fcb,dashed,Cephalopoda
+A0A6P7S550,A0A7E6ER30,2,#a88fcb,dashed,Cephalopoda
+A0A2K1IGC8,A0A7I3ZAZ7,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A0A7I4A3E3,2,#6954c0,dashed,Bryopsida
+A0A7M5U0C1,A0A7M5V4K9,2,#4243ac,dashed,Hydrozoa
+A0A7M5U0C1,A0A7M5WXX0,2,#4243ac,dashed,Hydrozoa
+A0A7M5U0C1,A0A7M5XIS8,2,#4243ac,dashed,Hydrozoa
+A0A7M5U0C1,A0A7M6DMJ9,2,#4243ac,dashed,Hydrozoa
+A0A7M5U0C1,A0A7M6DMK7,2,#4243ac,dashed,Hydrozoa
+A0A7M5U0C1,A0A7M6DQE2,2,#4243ac,dashed,Hydrozoa
+A0A814MII4,A0A814TH65,2,#315052,dashed,Eurotatoria
+A0A8C4RQH4,A0A8C4SH53,2,#96f80e,dashed,Cladistia
+A0A8C4RQH4,A0A8C4SST0,2,#96f80e,dashed,Cladistia
+A0A8H6L0G3,A0A8H6L2R8,2,#150ffc,dashed,Lecanoromycetes
+A0A8H7C4Z8,A0A8H7C551,2,#25e0ca,dashed,Agaricomycetes
+A0A8H7C4Z8,A0A8H7F0X6,2,#25e0ca,dashed,Agaricomycetes
+A0A8H7C4Z8,A0A8H7F114,2,#25e0ca,dashed,Agaricomycetes
+A0A8H7C4Z8,A0A8H7F118,2,#25e0ca,dashed,Agaricomycetes
+A0A8H7C4Z8,A0A8H7F178,2,#25e0ca,dashed,Agaricomycetes
+A0A1L8FPX0,A0A8J0VPY8,2,#a4caa8,dashed,Amphibia
+A0A1L8FPX0,A0A8J1KWE0,2,#a4caa8,dashed,Amphibia
+A0A1L8FPX0,A0A8J1L3K0,2,#a4caa8,dashed,Amphibia
+A0A1L8FPX0,A0A8J1MAN5,2,#a4caa8,dashed,Amphibia
+A0A8J9YXI2,A0A8J9Z708,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8J9Z8E2,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8J9ZE55,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8K0ADI4,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8K0E3G2,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8K0E7R0,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8K0E9J9,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8K0EZA9,2,#1228fb,dashed,Leptocardii
+A0A8J9YXI2,A0A8K0F1T5,2,#1228fb,dashed,Leptocardii
+A0A8M1PAD4,A0A8M9Q985,2,#c4daa8,dashed,Actinopteri
+A0A8S3PQP2,A0A8S3PQQ5,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3PUT0,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3PWU5,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3QBU2,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3QCN4,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3QWT6,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3R655,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3R6D1,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3R6L7,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3R7K9,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RAB7,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RC90,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RHI5,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RKR7,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RU87,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RV89,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RVH3,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RVY5,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RX09,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3RXY4,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3S1H2,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3S3A8,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3SDN1,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3SG45,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3SIB6,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3SLQ6,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3SWK0,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3T549,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3TBT4,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3THT1,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3TPH7,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3TRN7,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3UCA2,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3UET5,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3UR58,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3V8L1,2,#1a30fb,dashed,Bivalvia
+A0A8S3PQP2,A0A8S3VCQ0,2,#1a30fb,dashed,Bivalvia
+A0A8V0XJ70,A0A8V0XYW8,2,#4fd1d8,dashed,Aves
+A0A8V0XJ70,A0A8V0YPG1,2,#4fd1d8,dashed,Aves
+A0A8V0XJ70,A0A8V0YUG7,2,#4fd1d8,dashed,Aves
+A0A9D4U2J2,A0A9D4U2Z4,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4U427,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4U4J8,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4UPM2,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4UQ41,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4UQE7,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4UQY4,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4UYP8,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V1Q8,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V2I4,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V2P6,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V772,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V7B7,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V7H8,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V7R6,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4V926,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4Z585,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4Z6M7,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4ZGH9,2,#1055c1,dashed,Polypodiopsida
+A0A9D4U2J2,A0A9D4ZI76,2,#1055c1,dashed,Polypodiopsida
+A0A8M1PAD4,A1L1Y0,2,#c4daa8,dashed,Actinopteri
+A0A2K1IGC8,A9SJQ8,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A9SUP1,2,#6954c0,dashed,Bryopsida
+A0A2K1IGC8,A9T5A8,2,#6954c0,dashed,Bryopsida
+A0A2K2AV86,B9HYL4,2,#2d4130,dashed,Magnoliopsida
+A0A2K2AV86,B9I1S3,2,#2d4130,dashed,Magnoliopsida
+A0A8V0XJ70,F1NXQ4,2,#4fd1d8,dashed,Aves
+A0A8M1PAD4,F1QEC9,2,#c4daa8,dashed,Actinopteri
+F4NVT9,F4P2Z0,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4P543,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4P661,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4P662,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4P663,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4P7Q7,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4PBI8,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4PBL1,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4PFF7,2,#598853,dashed,Chytridiomycetes
+F4NVT9,F4PG32,2,#598853,dashed,Chytridiomycetes
+F6R2I4,F6SPL0,2,#2ed920,dashed,Ascidiacea
+F6R2I4,F6UGD7,2,#2ed920,dashed,Ascidiacea
+F6R2I4,F6XL13,2,#2ed920,dashed,Ascidiacea
+G1KB12,G1KL56,2,#f3d394,dashed,Lepidosauria
+G1KB12,G1KQJ9,2,#f3d394,dashed,Lepidosauria
+G1X3U2,G1X7Q1,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XA94,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XAG5,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XGA7,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XM84,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XN18,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XN59,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XN75,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XNN7,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XQQ0,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XS72,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XSL1,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XT03,2,#c19d08,dashed,Orbiliomycetes
+G1X3U2,G1XTB4,2,#c19d08,dashed,Orbiliomycetes
+A0A8V0XJ70,O57405,2,#4fd1d8,dashed,Aves
+O01497,O76708,2,#d8716c,dashed,Chromadorea
+A0A8V0XJ70,O93505,2,#4fd1d8,dashed,Aves
+A0A0A0MTD3,P14679,2,#b9190b,dashed,Mammalia
+A0A0A0MTD3,P17643,2,#b9190b,dashed,Mammalia
+O01497,P34269,2,#d8716c,dashed,Chromadorea
+A0A0A0MTD3,P40126,2,#b9190b,dashed,Mammalia
+A0A8V0XJ70,P55024,2,#4fd1d8,dashed,Aves
+O01497,Q19673,2,#d8716c,dashed,Chromadorea
+Q54QT0,Q54QT1,2,#ded49b,dashed,Eumycetozoa
+A0A8M1PAD4,Q6DGE4,2,#c4daa8,dashed,Actinopteri
+A0A1L8FPX0,Q7ZYE8,2,#a4caa8,dashed,Amphibia
+O01497,Q95XC6,2,#d8716c,dashed,Chromadorea
+O01497,Q9XUS8,2,#d8716c,dashed,Chromadorea
+R7THS2,R7UB97,2,#393318,dashed,Polychaeta
+R7THS2,R7VC10,2,#393318,dashed,Polychaeta
+A0A8V0XJ70,R9PXQ3,2,#4fd1d8,dashed,Aves
+A0A2K2AV86,U5GXC6,2,#2d4130,dashed,Magnoliopsida
+V3ZAB2,V4A5X3,2,#457688,dashed,Gastropoda
+V3ZAB2,V4AN59,2,#457688,dashed,Gastropoda
