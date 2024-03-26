@@ -396,3 +396,6 @@ raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.f
 An input file was made with the species tree and gene tree (in the gene tree, the genes are named by species): `data/dtl/input-dtl` by running `src/dtl-rooting/convert-tree-names.py`.
 
 ranger-dtl was run with varying parameters, eg: `../ranger-dtl/CorePrograms/OptRoot.mac -i data/dtl/input-dtl -o data/dtl/dtl128.out -D 2 -L 1 -T 8`
+
+# Lignin degraders
+The list of lignin degrading species was saved in `data/lignin-degraders`.
