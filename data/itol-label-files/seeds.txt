@@ -3,29 +3,29 @@ SEPARATOR COMMA
 DATASET_LABEL,seeds
 COLOR,#000000
 DATA
-abPPO4,abPPO4 (4OUA),-1,#000000,bold,10,0
-TyrAo,TyrAo (3W6Q),-1,#000000,bold,10,0
-AoCO4,AoCO4 (4J3P),-1,#000000,bold,10,0
-MtPPO809,MtPPO809,-1,#000000,bold,10,0
-PpPPOc2092,PpPPOC2092,-1,#000000,bold,10,0
-CgPPO1473,CgPPO1473,-1,#000000,bold,10,0
-MtPPO7,MtPPO7,-1,#000000,bold,10,0
-CgPPO266,CgPPO266,-1,#000000,bold,10,0
-TtPPO010,MtPPO010/TtPPO,-1,#000000,bold,10,0
-AbPPO3,AbPPO3 (2Y9X),-1,#000000,bold,10,0
-TyrSc,TyrSc,-1,#000000,bold,10,0
-TyrBm,TyrBm,-1,#000000,bold,10,0
-PPOVv,PPOVv,-1,#000000,bold,10,0
-IbCO,IbCO,-1,#000000,bold,10,0
-Lobster_Hc,Lobster_Hc,-1,#000000,bold,10,0
-Crab_Hc,Crab_Hc,-1,#000000,bold,10,0
-Octopus_Hc,Octopus_Hc,-1,#000000,bold,10,0
-Rapana_Hc,Rapana_Hc,-1,#000000,bold,10,0
-OapoSm,OapoSm,-1,#000000,bold,10,0
-SlPPO1,SlPPO1,-1,#000000,bold,10,0
-SlPPO2,SlPPO2,-1,#000000,bold,10,0
-MdPPO1,MdPPO1,-1,#000000,bold,10,0
-MdPPO2,MdPPO2,-1,#000000,bold,10,0
-MdPPO3,MdPPO3,-1,#000000,bold,10,0
-CgAUS1,CgAUS1,-1,#000000,bold,10,0
-TyrHs,TyrHs,-1,#000000,bold,10,0
+abPPO4,abPPO4 (4OUA),-1,#000000,bold,4,0
+TyrAo,TyrAo (3W6Q),-1,#000000,bold,4,0
+AoCO4,AoCO4 (4J3P),-1,#000000,bold,4,0
+MtPPO809,MtPPO809,-1,#000000,bold,4,0
+PpPPOc2092,PpPPOC2092,-1,#000000,bold,4,0
+CgPPO1473,CgPPO1473,-1,#000000,bold,4,0
+MtPPO7,MtPPO7,-1,#000000,bold,4,0
+CgPPO266,CgPPO266,-1,#000000,bold,4,0
+TtPPO010,MtPPO010/TtPPO,-1,#000000,bold,4,0
+AbPPO3,AbPPO3 (2Y9X),-1,#000000,bold,4,0
+TyrSc,TyrSc,-1,#000000,bold,4,0
+TyrBm,TyrBm,-1,#000000,bold,4,0
+PPOVv,PPOVv,-1,#000000,bold,4,0
+IbCO,IbCO,-1,#000000,bold,4,0
+Lobster_Hc,Lobster_Hc,-1,#000000,bold,4,0
+Crab_Hc,Crab_Hc,-1,#000000,bold,4,0
+Octopus_Hc,Octopus_Hc,-1,#000000,bold,4,0
+Rapana_Hc,Rapana_Hc,-1,#000000,bold,4,0
+OapoSm,OapoSm,-1,#000000,bold,4,0
+SlPPO1,SlPPO1,-1,#000000,bold,4,0
+SlPPO2,SlPPO2,-1,#000000,bold,4,0
+MdPPO1,MdPPO1,-1,#000000,bold,4,0
+MdPPO2,MdPPO2,-1,#000000,bold,4,0
+MdPPO3,MdPPO3,-1,#000000,bold,4,0
+CgAUS1,CgAUS1,-1,#000000,bold,4,0
+TyrHs,TyrHs,-1,#000000,bold,4,0
