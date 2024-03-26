@@ -382,3 +382,17 @@ With even shorter: `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_fa
 A file with manually selected genomes was saved in `data/proteome-tree/selected_genomes.xlsx`
 
 A file with excluded species was saved in `data/proteome-tree/exclude`.
+
+## With mafft
+Run mafft: `linsi data/proteome-tree/all-one_proteome_per_class.trimmed.fa > data/proteome-tree/all-one_proteome_per_class.trimmed.linsi.fa`.
+
+Remove columns with more than 90% gaps: `seqconverter -I fasta -O fasta --remfracgapcols 0.9 data/proteome-tree/all-one_proteome_per_class.trimmed.linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.fa`
+
+Convert to nexus: `seqconverter -I fasta -O nexus data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.fa > data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.nexus`
+
+raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T13 --threads 7 --seed 2 --all --bs-trees 200
+
+## DTL rooting
+An input file was made with the species tree and gene tree (in the gene tree, the genes are named by species): `data/dtl/input-dtl` by running `src/dtl-rooting/convert-tree-names.py`.
+
+ranger-dtl was run with varying parameters, eg: `../ranger-dtl/CorePrograms/OptRoot.mac -i data/dtl/input-dtl -o data/dtl/dtl128.out -D 2 -L 1 -T 8`

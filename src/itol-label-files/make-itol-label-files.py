@@ -172,7 +172,7 @@ def make_aguilera_subclass_files(df):
     write_colour_text_file(outfilename, 'aguilera_subclass', ids, values, value2color)
     write_colour_strip_file(outfilename, 'aguilera_subclass', ids, values, value2color)
 
-def write_spectrum_strip_file(outfile_name, label, ids, values, value2color={}, min='', max ='', max_cutoff = '', min_cutoff = ''):
+def write_spectrum_strip_file(outfile_name, label, ids, values, value2color={}, min='', max ='', max_cutoff = ''):
     if min == '' and max == '':
         min = min(values)
         max = max(values)
@@ -182,15 +182,16 @@ def write_spectrum_strip_file(outfile_name, label, ids, values, value2color={}, 
         header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\t{label}\nCOLOR\t#FFC0CB\nDATA\n"
         file.write(header)
         for id, value in zip(ids, values):
-            color = colors[math.floor(value)].hex
             if max_cutoff != '':
-                if value < max_cutoff:
-                    file.write(f"{id}\t{color}\t{value}\n")
-            elif min_cutoff != '':
                 if value > max_cutoff:
-                    file.write(f"{id}\t{color}\t{value}\n")
+                    continue
+            if value > max:
+                color = colors[math.floor(max)].hex
+            elif value < min:
+                color = colors[math.floor(min)].hex
             else:
-                file.write(f"{id}\t{color}\t{value}\n")
+                color = colors[math.floor(value)].hex
+            file.write(f"{id}\t{color}\t{value}\n")
 
 def make_score_label_file():
     json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
@@ -211,27 +212,32 @@ def make_coverage_label_file():
     write_spectrum_strip_file(output_filename, 'coverage', ids, values, min=16, max=405)
 
 def make_number_of_copies_file():
-    # Read json file
     df = pd.read_csv('data/proteome-tree/proteome-data.tsv', sep='\t')
-    max_copies = 30
-    min_copies = 0
-    n = int(max_copies-min_copies)
-    colors = list(Color("white").range_to(Color("black"),max_copies))
+    ids, values = [], []
+    for index, row in df.iterrows():
+        try:
+            species = row.species.replace(' ', '_')
+        except:
+            continue
+        ids.append(species)
+        values.append(row.count_tyrosinases)
+    values = df.count_tyrosinases.to_list()
     output_filename = "data/itol-label-files/copies.txt"
-    with open(output_filename, "w") as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tcopies\nCOLOR\t#ff0000\nDATA\n"
-        file.write(header)
-        for index, row in df.iterrows():
-            copies = row.count_tyrosinases
-            try:
-                species = row.species.replace(' ', '_')
-            except:
-                continue
-            if copies > 29:
-                color = colors[29].hex
-            else:
-                color = colors[int(copies)].hex
-            file.write(f"{species}\t{color}\t{copies}\n")
+    write_spectrum_strip_file(output_filename, 'copies', ids, values, min=0, max=30)
+
+def make_match_length_file():
+    fasta_filename = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa'
+    entries = SeqIO.parse(fasta_filename, 'fasta')
+    max = 214
+    # min_match_length = 42
+    min = 150
+    ids,values = [], []
+    for entry in entries:
+        ids.appen(entry.id.split('.')[0])
+        match_length = len(entry.seq)
+        values.append(match_length-min)
+    output_filename = "data/itol-label-files/match-length180.txt"
+    write_spectrum_strip_file(output_filename, 'match_length180', ids, values, min=0, max=30, max_cutoff=180)
 
 def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
     if blast_hits:
@@ -279,31 +285,6 @@ def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
                         start, stop = row[domain_name].split('-')
                         file.write(f",{shape}|{start}|{stop}|{domain2color[domain_name]}|{domain_description}")
             file.write('\n')
-
-def make_match_length_file():
-    fasta_filename = 'data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps.fa'
-    entries = SeqIO.parse(fasta_filename, 'fasta')
-    # lengths = []
-    # for entry in entries:
-    #     lengths.append(len(entry.seq))
-    # max_match_length = max(lengths)
-    # min_match_length = min(lengths)
-    max_match_length = 213
-    # min_match_length = 42
-    min_match_length = 150
-    n = int(max_match_length-min_match_length)
-    colors = list(Color("white").range_to(Color("black"),n+1))
-    output_filename = "data/itol-label-files/match-length180.txt"
-    with open(output_filename, 'w') as file:
-        header = f"DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tmatch_length180\nCOLOR\t#ff0000\nDATA\n"
-        file.write(header)
-        for entry in entries:
-            match_length = len(entry.seq)
-            if match_length < min_match_length:
-                match_length = min_match_length
-            color = colors[match_length-min_match_length].hex
-            if match_length > 180:
-                file.write(f"{entry.id.split('.')[0]}\t{color}\t{match_length}\n")
 
 def make_OG_files():
     wanted_ranks = [0,11]
