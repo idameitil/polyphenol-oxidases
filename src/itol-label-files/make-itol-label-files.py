@@ -46,15 +46,11 @@ def write_heatmap_text_file(outfile_name, label, df, id_name, field_names):
     with open(outfile_name, 'w') as file:
         header = f"DATASET_HEATMAP\nSEPARATOR SPACE\nDATASET_LABEL {label}-heatmap\nCOLOR #A020F0\nFIELD_LABELS {' '.join(field_names)}\nDATA\n"
         file.write(header)
-        print(df)
         for index, row in df.iterrows():
             string = ''
             for field_name in field_names:
                 string += ' ' + str(row[field_name])
             file.write(f"{row[id_name].replace(' ', '_')}{string}\n")
-
-df = pd.read_csv('data.csv')
-write_heatmap_text_file(f'{outdir}/clade-heatmap.txt', 'clade', df, 'species', ['a_chordata','b_plants','c_cnidaria', 'd_long_fungal','e_mollusc','f_oomycota','g_cnidaria2','h_zoopago1','i_short_fungal','j_zoopago2','k_bacteria','undefined'])
 
 def make_taxonomy_label_files(df):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
@@ -354,3 +350,7 @@ make_taxonomy_arrow_files(df_uniprot_hits, 'all')
 # Species tree
 # df_species_tree = pd.read_csv('species.tsv', sep='\t')
 # make_taxonomy_files_species_tree(df_species_tree)
+
+# Clades
+df = pd.read_csv('data/proteome-tree/clades/clades.csv')
+write_heatmap_text_file(f'{outdir}/clade-heatmap.txt', 'clade', df, 'species', ['a_chordata','b_plants','c_cnidaria', 'd_long_fungal','e_mollusc','f_oomycota','g_cnidaria2','h_zoopago1','i_short_fungal','j_zoopago2','k_bacteria','undefined'])

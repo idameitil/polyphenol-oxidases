@@ -399,3 +399,13 @@ ranger-dtl was run with varying parameters, eg: `../ranger-dtl/CorePrograms/OptR
 
 # Lignin degraders
 The list of lignin degrading species was saved in `data/lignin-degraders`.
+
+# Clades
+Files with proteins in each clade (determined from iTOL) were saved in `data/proteome-tree/clades`.
+
+A csv file is made by running `python src/proteome-tree/clade-annotations.py`.
+
+iTOL heatmap file is made by running `python src/itol-label-files/make-itol-label-files.py` and is shown on the species tree.
+
+# MrBayes
+`mb run.nexus > log.txt &`
