@@ -61,21 +61,29 @@ class proteomeData():
     #             selected_proteome_taxids.append(best_proteome_taxid)
     #     return selected_proteome_taxids
     
-    def get_selected_proteomes(self):
-        if self.domain == 'fungi':
-            unique_taxons = self.df[self.df['kingdom'] == 'Fungi'][self.rank].unique()
-        elif self.domain == 'all':
-            unique_taxons = self.df[self.rank].unique()
-        selected_proteomes2species = {}
-        for taxon in unique_taxons:
-            if pd.isna(taxon):
-                continue
-            if self.df_manually_selected[self.rank].str.contains(taxon).any() and len(self.df_manually_selected[(self.df_manually_selected[self.rank] == taxon) & (self.df_manually_selected.representative == f'{self.rank}_representative')]) > 0:
-                species = self.df_manually_selected[(self.df_manually_selected[self.rank] == taxon) & (self.df_manually_selected.representative == f'{self.rank}_representative')].species.item()
-                if species in self.excluded_species:
-                    continue
-                best_proteome_id = self.df_manually_selected[(self.df_manually_selected[self.rank] == taxon) & (self.df_manually_selected.representative == f'{self.rank}_representative')].genome_id.item()
-                selected_proteomes2species[best_proteome_id] = species
+    # def get_selected_proteomes(self):
+    #     if self.domain == 'fungi':
+    #         unique_taxons = self.df[self.df['kingdom'] == 'Fungi'][self.rank].unique()
+    #     elif self.domain == 'all':
+    #         unique_taxons = self.df[self.rank].unique()
+    #     selected_proteomes2species = {}
+    #     for taxon in unique_taxons:
+    #         if pd.isna(taxon):
+    #             continue
+    #         if self.df_manually_selected[self.rank].str.contains(taxon).any() and len(self.df_manually_selected[(self.df_manually_selected[self.rank] == taxon) & (self.df_manually_selected.representative == f'{self.rank}_representative')]) > 0:
+    #             mask = (self.df_manually_selected[self.rank] == taxon) & (self.df_manually_selected.representative == f'{self.rank}_representative')
+    #             species = self.df_manually_selected[mask].species.item()
+    #             # if species in self.excluded_species:
+    #                 # continue
+    #             best_proteome_id = self.df_manually_selected[mask].genome_id.item()
+    #             selected_proteomes2species[best_proteome_id] = species
+    #     return selected_proteomes2species
+
+    def get_selected_proteomes(self): 
+        df = pd.read_excel('class-representatives.xlsx')
+        selected_proteomes2species = {} 
+        for index, row in df.iterrows():
+            selected_proteomes2species[row.genome_id] = row.species
         return selected_proteomes2species
 
     # def get_accs_from_selected_proteomes(self):

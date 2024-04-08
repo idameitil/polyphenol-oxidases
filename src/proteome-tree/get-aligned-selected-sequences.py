@@ -49,12 +49,12 @@ def write_trimmed_fasta(domain, rank):
         for acc in acc2seq_seeds_trimmed:
             outfile.write(f">{acc}\n{acc2seq_seeds_trimmed[acc]}\n")
 
-write_hmmalign_fasta('fungal', 'order')
-write_hmmalign_fasta('fungal', 'family')
+# write_hmmalign_fasta('fungal', 'order')
+# write_hmmalign_fasta('fungal', 'family')
 write_hmmalign_fasta('all', 'class')
-write_hmmalign_fasta('all', 'order')
+# write_hmmalign_fasta('all', 'order')
 
-write_trimmed_fasta('fungal', 'order')
-write_trimmed_fasta('fungal', 'family')
+# write_trimmed_fasta('fungal', 'order')
+# write_trimmed_fasta('fungal', 'family')
 write_trimmed_fasta('all', 'class')
-write_trimmed_fasta('all', 'order')
+# write_trimmed_fasta('all', 'order')
