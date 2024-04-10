@@ -356,11 +356,19 @@ A json file with proteome metadata was downloaded from uniprot `https://www.unip
 
 The above to files are combined to create the table by running: `python src/proteome-tree/make-proteome-table.py`. This creates the file `data/proteome-tree/proteome-data.tsv`.
 
+## Manually selected genomes
+(Old)
+A file with manually selected genomes was saved in `data/proteome-tree/selected_genomes.xlsx`
+
+A file with excluded species was saved in `data/proteome-tree/exclude`.
+(New)
+Files with manually selected genomes were saved in `data/proteome-tree/class-representatives.xlsx` and `data/proteome-tree/fungal-order-representatives.xlsx`
+
 ## Select proteomes and get sequences
-In order to select the proteomes to include and get the PPO sequences from those proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. This creates the set of files `data/proteome-tree/selected-proteomes-taxids-fungi-order.txt` (containing the taxids for the included proteomes) and `data/proteome-tree/fungal-one_proteome_per_order.fa` (containing the PPO sequences for the selected proteomes) for each set of parameters.
+In order to select the proteomes to include and get the PPO sequences from those proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. This creates the set of files `data/proteome-tree/selected-proteomes-ids-fungi-order.txt` (containing the taxids for the included proteomes) and `data/proteome-tree/fungal-one_proteome_per_order.fa` (containing the PPO sequences for the selected proteomes) for each set of parameters.
 
 ## Get aligned selected sequences
-In order to make fasta files with the aligned selected sequences, run `python get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/all-one_proteome_per_class.hmmalign.fa` etc.
+In order to make fasta files with the aligned selected sequences, run `python get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/all-one_proteome_per_class.hmmalign.fa` and data/proteome-tree/all-one_proteome_per_class.trimmed.fa etc.
 
 ## Make trees
 To make hmmalign tree, run `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_order.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T1 --threads 7 --seed 2 --blopt nr_safe`
@@ -378,12 +386,8 @@ With even shorter: `raxml-ng --msa data/proteome-tree/fungal-one_proteome_per_fa
 ### Bootstrap
 `raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.hmmalign.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T7 --threads 7 --seed 2 --all --bs-trees 100`
 
-## New approach with manually selected genomes
-A file with manually selected genomes was saved in `data/proteome-tree/selected_genomes.xlsx`
-
-A file with excluded species was saved in `data/proteome-tree/exclude`.
-
 ## With mafft
+### All, one per class
 Run mafft: `linsi data/proteome-tree/all-one_proteome_per_class.trimmed.fa > data/proteome-tree/all-one_proteome_per_class.trimmed.linsi.fa`.
 
 Remove columns with more than 90% gaps: `seqconverter -I fasta -O fasta --remfracgapcols 0.9 data/proteome-tree/all-one_proteome_per_class.trimmed.linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.fa`
@@ -391,6 +395,9 @@ Remove columns with more than 90% gaps: `seqconverter -I fasta -O fasta --remfra
 Convert to nexus: `seqconverter -I fasta -O nexus data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.fa > data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.nexus`
 
 raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.fa --model JTT+G4 --prefix data/proteome-tree/raxml/T13 --threads 7 --seed 2 --all --bs-trees 200
+
+### Fungal, one per order
+Run mafft: `linsi data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed.linsi.fa`
 
 ## DTL rooting
 An input file was made with the species tree and gene tree (in the gene tree, the genes are named by species): `data/dtl/input-dtl` by running `src/dtl-rooting/convert-tree-names.py`.

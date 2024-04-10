@@ -80,7 +80,10 @@ class proteomeData():
     #     return selected_proteomes2species
 
     def get_selected_proteomes(self): 
-        df = pd.read_excel('class-representatives.xlsx')
+        if self.domain == 'all' and self.rank == 'class':
+            df = pd.read_excel('data/proteome-tree/class-representatives.xlsx')
+        elif self.domain == 'fungi' and self.rank == 'order':
+            df = pd.read_excel('data/proteome-tree/fungal-order-representatives.xlsx')
         selected_proteomes2species = {} 
         for index, row in df.iterrows():
             selected_proteomes2species[row.genome_id] = row.species
@@ -147,9 +150,9 @@ class proteomeData():
             for id in self.selected_proteomes2species:
                 outfile.write(f"{id}\n")
 
-# fungi_order = proteomeData(domain='fungi', rank='order')
-# fungi_order.write_fasta()
-# fungi_order.write_proteomes_txt()
+fungi_order = proteomeData(domain='fungi', rank='order')
+fungi_order.write_fasta()
+fungi_order.write_proteomes_txt()
 
 # fungi_family = proteomeData(domain='fungi', rank='family')
 # fungi_family.write_fasta()
