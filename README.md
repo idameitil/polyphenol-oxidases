@@ -399,6 +399,10 @@ raxml-ng --msa data/proteome-tree/all-one_proteome_per_class.trimmed.linsi-0.9.f
 ### Fungal, one per order
 Run mafft: `linsi data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed.linsi.fa`
 
+Remove columns with more than 90% gaps: `seqconverter -I fasta -O fasta --remfracgapcols 0.9 data/proteome-tree/fungal-one_proteome_per_order.trimmed.linsi.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed.linsi-0.9.fa`
+
+Convert to nexus: `seqconverter -I fasta -O nexus data/proteome-tree/fungal-one_proteome_per_order.trimmed.linsi-0.9.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed.linsi-0.9.nexus`
+
 ## DTL rooting
 An input file was made with the species tree and gene tree (in the gene tree, the genes are named by species): `data/dtl/input-dtl` by running `src/dtl-rooting/convert-tree-names.py`.
 
@@ -415,4 +419,8 @@ A csv file is made by running `python src/proteome-tree/clade-annotations.py`.
 iTOL heatmap file is made by running `python src/itol-label-files/make-itol-label-files.py` and is shown on the species tree.
 
 # MrBayes
-`mb run.nexus > log.txt &`
+On hal, go to the folder and start tmux: `tmux new -s mrbayes`
+
+Start the job: `mpirun -np 6 mb gpu_run.nexus > log.txt`
+
+Detach: control+b followed by dtm
