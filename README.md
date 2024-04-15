@@ -423,4 +423,8 @@ On hal, go to the folder and start tmux: `tmux new -s mrbayes`
 
 Start the job: `mpirun -np 6 mb gpu_run.nexus > log.txt`
 
-Detach: control+b followed by dtm
+Detach: control+b followed by d
+
+To continue a mrbayes run, copy everything from the .ckp~ file into the bottom of the aignment nexus file. In the run nexus file, change the number of generations to the total number of generations you want and add append=yes, fx: `mcmc append=yes ngen=60000000 samplefreq=1000 nchains=3 file=out.nex`.
+
+The run with all kingdoms, one per order was saved in `data/mrbayes/all`. 
