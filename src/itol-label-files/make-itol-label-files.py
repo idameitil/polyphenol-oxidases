@@ -52,11 +52,11 @@ def write_heatmap_text_file(outfile_name, label, df, id_name, field_names):
                 string += ' ' + str(row[field_name])
             file.write(f"{row[id_name].replace(' ', '_')}{string}\n")
 
-def make_taxonomy_label_files(df):
+def make_taxonomy_label_files(df_uniprot, df_seeds):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
     for rank in wanted_ranks:
-        ids = df.protein_accession.tolist()
-        values = df[rank].tolist()
+        ids = df_uniprot.protein_accession.tolist() + df_seeds.descriptive_name.tolist()
+        values = df_uniprot[rank].tolist() + df_seeds[rank].tolist()
         if rank == 'kingdom':
             value2color = {'Viridiplantae': '#00FF00', 'nan': '#FFFFFF', 'Fungi': '#964B00', 'Metazoa': '#ffff00'}
         else:
@@ -315,7 +315,7 @@ def make_OG_files():
 # make_OG_files()
                 
 # # Make seed label files
-# seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
+seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_taxonomy_label_files(seed_df)
 # make_activity_label_file(seed_df)
 # make_binary_label_files(seed_df)
@@ -335,7 +335,7 @@ def make_OG_files():
 # Uniprot
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t')
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-make_taxonomy_label_files(df_uniprot_hits)
+make_taxonomy_label_files(df_uniprot_hits, seed_df)
 # make_score_label_file()
 # make_coverage_label_file()
 # make_match_length_file()
@@ -348,8 +348,8 @@ make_taxonomy_arrow_files(df_uniprot_hits, 'all')
 # make_number_of_copies_file()
 
 # Species tree
-# df_species_tree = pd.read_csv('species.tsv', sep='\t')
-# make_taxonomy_files_species_tree(df_species_tree)
+df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
+make_taxonomy_files_species_tree(df_species_tree)
 
 # Clades
 df = pd.read_csv('data/proteome-tree/clades/clades.csv')
