@@ -19,11 +19,10 @@ def write_fasta(ids, output_filename):
             elif id in acc2seq_seeds_trimmed:
                 outfile.write(f">{id}\n{acc2seq_seeds_trimmed[id]}\n")
                 
-
-dir = "data/mrbayes/all/clades"
+dir = "data/mrbayes/all/clades/members"
 clades = os.listdir(dir)
-
+out_dir = "data/mrbayes/all/clades/fastas" 
 for clade in clades:
     with open(f'{dir}/{clade}') as f:
         accs = f.read().splitlines()
-    write_fasta(accs, f"{dir}/{clade}.fa")
+    write_fasta(accs, f"{out_dir}/{clade}.fa")
