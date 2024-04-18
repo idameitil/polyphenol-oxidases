@@ -136,6 +136,8 @@ A json file with metadata was also downloaded and saved in `data/pfam/protein-ma
 
 Aligned sequences were downloaded `data/pfam/PF00264.alignment.uniprot`.
 
+(New) The alignment is converted to fasta: `seqconverter -I stockholm -O fasta data/pfam/PF00264.alignment.uniprot > data/pfam/PF00264.alignment.uniprot.fa`. The output file is copied to `data/pfam/PF00264-trimmed.fa` where gaps are removed. 
+
 The alignment is cleaned from columns with insertions by running python `src/data-collection/clean-hmm-alignment.py`. This created the fasta file `data/pfam/PF00264.alignment.uniprot-cleaned.fa`.
 
 A trimmed fasta was made: `data/pfam/PF00264.alignment.uniprot-nogaps.fa` by removing all gaps from the alignment.
@@ -222,6 +224,8 @@ To make itol label files with size of cd-hit clusters, run `src/itol-label-files
 HMMalign på seeds: `hmmalign --trim data/pfam/PF00264.hmm data/seeds-names.fa > data/seeds-names.hmmalign`.
 
 Convert alignment to fasta and remove columns with dots: `seqconverter --remhmminsertcols -I stockholm -O fasta data/seeds-names.hmmalign > data/seeds-names.hmmalign.fa`
+
+(NEW) `seqconverter -I stockholm -O fasta data/seeds-names.hmmalign > data/seeds-names.hmmalign.fa`. Copy this file to `data/seeds-names-trimmed.fa` and remove gaps.
 
 Remove gaps: `data/seeds-names.hmmalign-withoutgaps.fa`.
 
@@ -425,13 +429,16 @@ Start the job: `mpirun -np 6 mb gpu_run.nexus > log.txt`
 
 Detach: control+b followed by d
 
-To continue a mrbayes run, copy everything from the .ckp~ file into the bottom of the aignment nexus file. In the run nexus file, change the number of generations to the total number of generations you want and add append=yes, fx: `mcmc append=yes ngen=60000000 samplefreq=1000 nchains=3 file=out.nex`.
+(it seems like you don't have to do this step) qTo continue a mrbayes run, copy everything from the .ckp~ file into the bottom of the aignment nexus file. In the run nexus file, change the number of generations to the total number of generations you want and add append=yes, fx: `mcmc append=yes ngen=60000000 samplefreq=1000 nchains=3 file=out.nex`.
 
 The run with all kingdoms, one per order was saved in `data/mrbayes/all`.
 
 # Tmux
 List sessions: `tmux list-sessions`
-`tmux kill-session -t mysession`
+Kill session: `tmux kill-session -t mysession`
+Resume session: `tmux attach -d -t mrbayes`.
+
+Check if the gpu is available: `nvtop -d 1`
 
 # Fingerprint
 The ids in each clade were saved in `data/mrbayes/all/clades`.
