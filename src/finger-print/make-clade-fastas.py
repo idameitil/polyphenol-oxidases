@@ -8,8 +8,8 @@ def get_fasta_sequences(fasta_filename):
         acc2seq[fasta.id.split('.')[0]] = fasta.seq
     return acc2seq
 
-acc2seq_trimmed = get_fasta_sequences('data/pfam/PF00264.alignment.uniprot-nogaps.fa')
-acc2seq_seeds_trimmed = get_fasta_sequences('data/seeds-names.hmmalign-withoutgaps.fa')
+acc2seq_trimmed = get_fasta_sequences('data/pfam/PF00264-trimmed.fa')
+acc2seq_seeds_trimmed = get_fasta_sequences('data/seeds-names-trimmed.fa')
 
 def write_fasta(ids, output_filename):
     with open(output_filename, 'w') as outfile:
