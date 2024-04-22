@@ -19,7 +19,8 @@ const colorScheme = [
 
 const unitSize = 10;
 const spaceBetweenArchitectures = 250;
-const leftMargin = 60;
+// const leftMargin = 60;
+const leftMargin = 650;
 const rightMargin = 60;
 const topMargin = 50;
 const canvasWidth = max_length * unitSize + rightMargin + leftMargin;
@@ -35,8 +36,9 @@ function setup() {
         let y;
         const familyYOffset = spaceBetweenArchitectures / 2 + topMargin;
         y = familyYOffset + i * spaceBetweenArchitectures;
-        drawArchitectureName(architectureName, y - (76));
-        drawArchitecture(architectures[architectureName]['architecture_string'], architectures[architectureName]['domain_start'], conservedResidues[architectureName], lengths[architectureName], y);
+        // drawArchitectureName(architectureName, y - (76));
+        drawArchitectureName(architectureName, y);
+        drawArchitecture(architectures[architectureName]['architecture_string'], architectures[architectureName]['domain_start_structure'], conservedResidues[architectureName], lengths[architectureName], y);
         i++;
     }
 }
@@ -45,11 +47,12 @@ function computeXForPositionInDomain(positionInDomain){
     return (positionInDomain * unitSize) + leftMargin;
 }
 
-function drawArchitecture(architectureString, domain_start, conservedResidues, sequencelength, y) {
+function drawArchitecture(architectureString, domain_start_structure, conservedResidues, sequencelength, y) {
     for (const i in architectureString) {
         const positionInDomain = parseInt(i);
-        const positionInCompleteProtein = positionInDomain + domain_start + 1;
+        const positionInCompleteProtein = positionInDomain + domain_start_structure + 1;
         const conservedResidue = conservedResidues[positionInCompleteProtein];
+        console.log('hej')
         const isConserved = !!conservedResidue;
         const xCoord = computeXForPositionInDomain(positionInDomain)
         switch (architectureString[i]) {
@@ -63,8 +66,9 @@ function drawArchitecture(architectureString, domain_start, conservedResidues, s
                 drawSheet(xCoord, y, isConserved);
                 break;
         }
-        if(isConserved)
-            drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompleteProtein)
+        if(isConserved){
+             drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompleteProtein)
+        }
     }
 }
 
@@ -92,18 +96,20 @@ function drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompl
     const conservedResidueLetter = getConservedResidueLetter(conservedResidue);
     const xOffsetForConservedResidue = getConservedResidueOffset(conservedResidue);
 
-    const xOffsetForPositionNumber = -6 + xOffsetForConservedResidue;
-    const yOffsetForPositionNumber = -50;
+    const xOffsetForPositionNumber = -3 + xOffsetForConservedResidue;
+    // const yOffsetForPositionNumber = -50;
+    const yOffsetForPositionNumber = 35;
     const xOffsetForLetter = xOffsetForConservedResidue;
     const yOffsetForLetter = -10;
-    const size_residue_text = 50;
+    // const size_residue_text = 50;
+    const size_residue_text = 25;
     const color_residue_text = getConservedResidueColor(conservedResidueLetter);
     textSize(size_residue_text);
     fill(...color_residue_text);
     text(conservedResidueLetter, xCoord - (size_residue_text / 4) + xOffsetForLetter, y + yOffsetForLetter);
 
     const color_position_text = [0, 0, 0];
-    const size_position_text = 26;
+    const size_position_text = 13;
     textSize(size_position_text);
     fill(...color_position_text);
     text(positionInCompleteProtein, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
@@ -141,7 +147,8 @@ function drawArchitectureName(architectureName, y) {
     const color = [0, 0, 0];
     textSize(size);
     fill(...color);
-    text(architectureName + ':', leftMargin, y - 10);
+    // text(architectureName + ':', leftMargin, y);
+    text(architectureName + ':', 0, y);
 }
 
 function drawBlackLine(y) {

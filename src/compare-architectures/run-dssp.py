@@ -35,10 +35,15 @@ def write_ss_string(id, model_filename, outfilename):
 
 # Values are discontinous intervals
 wanted = {'4j3p': {1:4, 38:45}, 
-          '5m8l': {1:1}, 
+          '5m8l': {1:25}, 
           '1wx2': {}, 
           '2y9x': {}, 
-          '2p3x': {}}
+          '2p3x': {},
+          'F4PFF7': {},
+          'V3ZAB2': {},
+          'D0N318': {},
+          'Q63JI5': {},
+          }
 for id in wanted:
     print(id)
     write_ss_string(id, f"data/compare-architectures/pdbs/{id}.pdb", f"data/compare-architectures/architecture-tables-dssp/{id}.csv")

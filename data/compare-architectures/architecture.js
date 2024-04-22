@@ -1,22 +1,34 @@
 const architectures = {
-	'4j3p i_short_fungal': {
-		'domain_start': 93,
-		'architecture_string': 'hhhhhhhhhhhhhhhllllllhhhhhhhhhhhhhhhhhhhlllllllssllhhhhlllhhhllllllllllllllsssllllllssslllllllssslllllssssllllllllssllllllsslllllssllllllllllssllllllhhhhhhhllhhhhhhhhhllllhhhhhhhhhllllllllhhhhhhhhllllllllllllhhhlllhhhhhhhhhhhhhhh'
-		},
-	'5m8l e_chordata': {
-		'domain_start': 159,
-		'architecture_string': 'lhhhhhhhhhhhhhlllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllllllllllllllllllllllhhhhlllllllhhhhhhhllllllllllllllllllllllhhhlllllhhhhhhhllllllllllllllllllhhhhhhlllllllllllllllhhhhhhhhlllhhhllllhhhllhhhhhhhhhhhhhh'
-		},
-	'1wx2 d_bacteria': {
-		'domain_start': 29,
-		'architecture_string': 'hhhhhhhhhhhhhhllllllllllllllhhhhhhhhhhhhhhhhhlllllllllllllllllllllhhhllllllllllllllllllllllhhhllllllllllllllllllllllllllllhhhhhhhhhlllllllllllllllhhhhhhlllllllhhhhhhhhlhhhhlllhhhllhhhhhhhhhhhhhhhhh'
+	'2p3x a_plants': {
+		'domain_start_structure': 77,
+		'architecture_string': 'llhhhhhhhhhhhhlllllllllllllllllllllhhhhhhhhhhhhhhhhhhhlllllllllllllllhhhllllhhhhllllllllllllhhhllllllllllllllllllhhhhhhhhhhhhhhhhhhllllhhhhhlllllllllllllllhhhhhhhhhhhhhhlllllllllllllllhhhlllhhhhhhhhhhhhhhhhh'
 		},
 	'2y9x c_long_fungal': {
-		'domain_start': 52,
+		'domain_start_structure': 52,
 		'architecture_string': 'hhhhhhhhllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhlllllllhhhhhhhhhllllllllllllllllllllllhhhhlllssssslllllsssssllllllllllllllllhhhhllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhllllllllllllhhhhhhhhhhhhhlllllllllllhhhllllhhhllhhhhhhhhhhhhhhhhhhh'
 		},
-	'2p3x a_plants': {
-		'domain_start': 77,
-		'architecture_string': 'llhhhhhhhhhhhhlllllllllllllllllllllhhhhhhhhhhhhhhhhhhhlllllllllllllllhhhllllhhhhllllllllllllhhhllllllllllllllllllhhhhhhhhhhhhhhhhhhllllhhhhhlllllllllllllllhhhhhhhhhhhhhhlllllllllllllllhhhlllhhhhhhhhhhhhhhhhh'
+	'1wx2 d_bacteria': {
+		'domain_start_structure': 29,
+		'architecture_string': 'hhhhhhhhhhhhhhllllllllllllllhhhhhhhhhhhhhhhhhlllllllllllllllllllllhhhllllllllllllllllllllllhhhllllllllllllllllllllllllllllhhhhhhhhhlllllllllllllllhhhhhhlllllllhhhhhhhhlhhhhlllhhhllhhhhhhhhhhhhhhhhh'
+		},
+	'5m8l e_chordata': {
+		'domain_start_structure': 184,
+		'architecture_string': 'hhhhhhhhhhhhhlllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllllllllllllllllllllllhhhhlllllllhhhhhhhllllllllllllllllllllllhhhlllllhhhhhhhllllllllllllllllllhhhhhhlllllllllllllllhhhhhhhhlllhhhllllhhhllhhhhhhhhhhhhhhhhh'
+		},
+	'V3ZAB2 f_mollusc': {
+		'domain_start_structure': 130,
+		'architecture_string': 'hhhhhhhhhllhhhhhhllllhhhhhhhhhhhhhhhhhhhhllllllllllhhhhhlllllllhhhllllllllssslllllllllssllsslssslllllllllhhhhhhhhhlllhhhlllllllllllhhhhhhhhhhhhlhhhhlhhhhllllhhhhhhhhhhhhh'
+		},
+	'D0N318 h_oomycota': {
+		'domain_start_structure': 77,
+		'architecture_string': 'hhhhhhhhlhhhhhhhlllllhhhhhhhhhhhhhhhhhlllhhhhhlllllllhhhhhhhhhllllllhhhhlhhhhhllllllssssssssllssssssssllllhhhllllllllhhhllllssslllllllllhhhlhhhhhhhhhllllhhhhhhhhhhhhhhhhhhhhlhhhhlllhhhllhhhhhhhhhhh'
+		},
+	'4j3p i_short_fungal': {
+		'domain_start_structure': 93,
+		'architecture_string': 'hhhhhhhhhhhhhhhllllllhhhhhhhhhhhhhhhhhhhlllllllssllhhhhlllhhhllllllllllllllsssllllllssslllllllssslllllssssllllllllssllllllsslllllssllllllllllssllllllhhhhhhhllhhhhhhhhhllllhhhhhhhhhllllllllhhhhhhhhllllllllllllhhhlllhhhhhhhhhhhhhhh'
+		},
+	'F4PFF7 j_zoopagomycota': {
+		'domain_start_structure': 68,
+		'architecture_string': 'hhhhhhhhllhhhllllllhhhhhhhhhhhhhhhhhhhhlllllllllllhhhhlllhhhlhhhllllllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhlllhhhhhhhhhhhhhhhhhhhhhlllllllllllhhhlllhhhllhhhhhhhhhhhhh'
 		}
 };
