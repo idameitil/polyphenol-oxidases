@@ -11,6 +11,13 @@ center
 disable
 bg_color white
 remove hydrogens
+# Hide water
+remove solvent
+# Hide sugars
+hide (resn NAG)
+hide (resn MAN)
+hide (resn FUC)
+hide (resn ZN)
 set label_position, (0, 0, 20)
 set cartoon_transparency, 0.7
 set cartoon_fancy_helices
