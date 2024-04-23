@@ -9,7 +9,11 @@ const colorScheme = [
     },
     {
         color: [255, 140, 0],
-        members: ['D', 'E', 'H']
+        members: ['H']
+    },
+    {
+        color: [192, 0, 0],
+        members: ['D', 'E']
     },
     {
         color: [0, 0, 255],
@@ -44,15 +48,14 @@ function setup() {
 }
 
 function computeXForPositionInDomain(positionInDomain){
-    return (positionInDomain * unitSize) + leftMargin;
+    return ((positionInDomain + 0) * unitSize) + leftMargin;
 }
 
 function drawArchitecture(architectureString, domain_start_structure, conservedResidues, sequencelength, y) {
     for (const i in architectureString) {
         const positionInDomain = parseInt(i);
-        const positionInCompleteProtein = positionInDomain + domain_start_structure + 1;
+        const positionInCompleteProtein = positionInDomain + domain_start_structure;
         const conservedResidue = conservedResidues[positionInCompleteProtein];
-        console.log('hej')
         const isConserved = !!conservedResidue;
         const xCoord = computeXForPositionInDomain(positionInDomain)
         switch (architectureString[i]) {
@@ -64,6 +67,9 @@ function drawArchitecture(architectureString, domain_start_structure, conservedR
                 break;
             case 's':
                 drawSheet(xCoord, y, isConserved);
+                break;
+            case 'u':
+                drawUndefined(xCoord, y, isConserved);
                 break;
         }
         if(isConserved){
@@ -140,6 +146,15 @@ function drawSheet(x, y, isConserved) {
         fill(0);
     }
     rect(x, y - 6, unitSize, unitSize * 2)
+}
+
+function drawUndefined(x, y, isConserved) {
+    fill(200, 200, 200);
+    noStroke();
+    if (isConserved) {
+        fill(0);
+    }
+    rect(x + unitSize * .25, y + unitSize * .25, unitSize * 0.5, unitSize * .5);
 }
 
 function drawArchitectureName(architectureName, y) {

@@ -84,10 +84,8 @@ for i in range(len(entries)):
     alignment_filename = f"data/mrbayes/all/clades/alignments/{entry['family']}-linsi.fa"
     fasta_dict = read_MSA_file(alignment_filename)
     conserved_residues = get_conserved_residues(fasta_dict, threshold=entry['threshold'], include_aliphatic=True)
-    if entry['family'] == 'a_plants':
-        print(conserved_residues)
     positions = get_specific_positions_conserved_residues(entry['descriptive_name'], conserved_residues, fasta_dict)
-    entries[i]['conserved_positions'] = {position['pos'] + entry['domain_start_structure']: position['AA'] for position in positions}
+    entries[i]['conserved_positions'] = {position['pos'] + entry['domain_start_structure'] -1: position['AA'] for position in positions}
 
 # Write conserved file
 outfilename = f"data/compare-architectures/conserved_{threshold}.js"
@@ -110,7 +108,7 @@ for i in range(len(entries)):
         length = int(row.end) - previous
         architecture_string += row.type * length
         previous = int(row.end)
-    entries[i]['architecture_string'] = architecture_string[entry['domain_start_structure']:entry['domain_end']]
+    entries[i]['architecture_string'] = architecture_string[entry['domain_start_structure']-1:entry['domain_end']-1]
     entries[i]['length'] = entry['domain_end'] - entry['domain_start_structure']
 
 # Write architecture file
