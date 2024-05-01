@@ -24,7 +24,7 @@ const colorScheme = [
 const unitSize = 10;
 const spaceBetweenArchitectures = 250;
 // const leftMargin = 60;
-const leftMargin = 650;
+const leftMargin = 400;
 const rightMargin = 60;
 const topMargin = 50;
 const canvasWidth = max_length * unitSize + rightMargin + leftMargin;
@@ -41,7 +41,7 @@ function setup() {
         const familyYOffset = spaceBetweenArchitectures / 2 + topMargin;
         y = familyYOffset + i * spaceBetweenArchitectures;
         // drawArchitectureName(architectureName, y - (76));
-        drawArchitectureName(architectureName, y);
+        drawArchitectureName(architectureName, y+10);
         drawArchitecture(architectures[architectureName]['architecture_string'], architectures[architectureName]['domain_start_structure'], conservedResidues[architectureName], lengths[architectureName], y);
         i++;
     }
@@ -158,11 +158,10 @@ function drawUndefined(x, y, isConserved) {
 }
 
 function drawArchitectureName(architectureName, y) {
-    const size = 50;
+    const size = 30;
     const color = [0, 0, 0];
     textSize(size);
     fill(...color);
-    // text(architectureName + ':', leftMargin, y);
     text(architectureName + ':', 0, y);
 }
 
