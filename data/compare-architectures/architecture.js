@@ -1,33 +1,33 @@
 const architectures = {
-	'2p3x a_plants': {
+	'a (plant), 2p3x': {
 		'domain_start_structure': 77,
 		'architecture_string': 'lllhhhhhhhhhhhhlllllllllllllllllllllhhhhhhhhhhhhhhhhhhhlllllllllllllllhhhllllhhhhllllllllllllhhhllllllllllllllllllhhhhhhhhhhhhhhhhhhllllhhhhhlllllllllllllllhhhhhhhhhhhhhhlllllllllllllllhhhlllhhhhhhhhhhhhhhhhh'
 		},
-	'2y9x c_long_fungal': {
+	'c (long fungal), 2y9x': {
 		'domain_start_structure': 52,
 		'architecture_string': 'llhhhhhhhhllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhlllllllhhhhhhhhhllllllllllllllllllllllhhhhlllssssslllllsssssllllllllllllllllhhhhllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhllllllllllllhhhhhhhhhhhhhlllllllllllhhhllllhhhllhhhhhhhhhhhhhhhhhh'
 		},
-	'1wx2 d_bacteria': {
+	'd (bacteria), 1wx2': {
 		'domain_start_structure': 29,
 		'architecture_string': 'lhhhhhhhhhhhhhhhllllllllllllllhhhhhhhhhhhhhhhhhlllllllllllllllllllllhhhllllllllllllllllllllllhhhllllllllllllllllllllllllllllhhhhhhhhhlllllllllllllllhhhhhhlllllllhhhhhhhhlhhhhlllhhhllhhhhhhhhhhhhhhhhhhh'
 		},
-	'5m8l e_chordata': {
+	'e (chordata), 5m8l': {
 		'domain_start_structure': 184,
 		'architecture_string': 'hhhhhhhhhhhhhlllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhllllllllllllllllllllllllllllllllllllllllllhhhhlllllllhhhhhhhllllllllllllllllllllllhhhlllllhhhhhhhllllllllllllllllllhhhhhhlllllllllllllllhhhhhhhhlllhhhllllhhhllhhhhhhhhhhhhhhhhhh'
 		},
-	'V3ZAB2 f_mollusc': {
+	'f (mollusc), V3ZAB2': {
 		'domain_start_structure': 130,
 		'architecture_string': 'lhhhhhhhhhllhhhhhhllllhhhhhhhhhhhhhhhhhhhhllllllllllhhhhhlllllllhhhllllllllssslllllllllssllsslssslllllllllhhhhhhhhhlllhhhlllllllllllhhhhhhhhhhhhlhhhhlhhhhllllhhhhhhhhhhhhhhhhhh'
 		},
-	'D0N318 h_oomycota': {
+	'h (oomycota), D0N318': {
 		'domain_start_structure': 77,
 		'architecture_string': 'hhhhhhhhhlhhhhhhhlllllhhhhhhhhhhhhhhhhhlllhhhhhlllllllhhhhhhhhhllllllhhhhlhhhhhllllllssssssssllssssssssllllhhhllllllllhhhllllssslllllllllhhhlhhhhhhhhhllllhhhhhhhhhhhhhhhhhhhhlhhhhlllhhhllhhhhhhhhhhhhhhhh'
 		},
-	'4j3p i_short_fungal': {
+	'i (short fungal), 4j3p': {
 		'domain_start_structure': 93,
 		'architecture_string': 'lhhhhhhhhhhhhhhhllllllhhhhhhhhhhhhhhhhhhhlllllllssllhhhhlllhhhllllllllllllllsssllllllssslllllllssslllllssssllllllllssllllllsslllllssllllllllllssllllllhhhhhhhllhhhhhhhhhllllhhhhhhhhhllllllllhhhhhhhhllllllllllllhhhlllhhhhhhhhhhhhhhhhh'
 		},
-	'F4PFF7 j_zoopagomycota': {
+	'j (zoopagomycota), F4PFF7': {
 		'domain_start_structure': 68,
 		'architecture_string': 'hhhhhhhhhllhhhllllllhhhhhhhhhhhhhhhhhhhhlllllllllllhhhhlllhhhlhhhllllllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhlllhhhhhhhhhhhhhhhhhhhhhlllllllllllhhhlllhhhllhhhhhhhhhhhhhhhhh'
 		}
