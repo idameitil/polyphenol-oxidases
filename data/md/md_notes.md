@@ -46,3 +46,14 @@ module swap gromacs/2021.2-gpu
 Change atom names of syringol pdb (mol), C1, C2 etc. Change UNK to Syro
 
 Run ./prepare_md.sh
+
+# 26th April
+cp -r AoCO4_wt_cuPerSyr/{charmm36.ff,MDP,job.sh,mol.pdb,prepare_md.sh,run_md.sh} .
+
+In mol.pdb, remove the first 12 lines (one syringol)
+
+module swap gromacs/2021.2-gpu
+
+./prepare_md.sh
+
+Add stuff from tutorial to pull.mdp and topol.top
