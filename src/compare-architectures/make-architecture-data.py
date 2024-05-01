@@ -10,7 +10,7 @@ aminoacids = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L',
         'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y', '-', 'X', 'J']
 
 def get_name(entry):
-    return f"{entry['acc']} {entry['family']}"
+    return f"{entry['family_name']}, {entry['acc']}"
 
 def read_MSA_file(MSA_filename):
     with open(MSA_filename, 'r') as MSA_file:
@@ -66,16 +66,16 @@ def get_specific_positions_conserved_residues(accession, conserved_residues, fas
     return positions
 
 entries = [
-    {'acc': '2p3x', 'family': 'a_plants', 'descriptive_name': 'PPOVv', 'domain_start_structure': 77, 'domain_end': 284, 'threshold':0.9}, 
+    {'acc': '2p3x', 'family': 'a_plants', 'family_name': 'a (plant)', 'descriptive_name': 'PPOVv', 'domain_start_structure': 77, 'domain_end': 284, 'threshold':0.9}, 
     # {'acc': 'Q63JI5', 'family': 'b_cnidaria', 'descriptive_name': 'Q63JI5', 'domain_start_structure': 49, 'domain_end': 334, 'threshold':0.9}, 
-    {'acc': '2y9x', 'family': 'c_long_fungal', 'descriptive_name': 'AbPPO3', 'domain_start_structure': 52, 'domain_end': 308, 'threshold':0.95}, 
-    {'acc': '1wx2', 'family': 'd_bacteria', 'descriptive_name': 'TyrSc', 'domain_start_structure': 29, 'domain_end': 229, 'threshold':0.95}, 
+    {'acc': '2y9x', 'family': 'c_long_fungal', 'family_name': 'c (long fungal)', 'descriptive_name': 'AbPPO3', 'domain_start_structure': 52, 'domain_end': 308, 'threshold':0.95}, 
+    {'acc': '1wx2', 'family': 'd_bacteria', 'family_name': 'd (bacteria)', 'descriptive_name': 'TyrSc', 'domain_start_structure': 29, 'domain_end': 229, 'threshold':0.95}, 
     # {'acc': '1wx2', 'family': 'k_bacteria2', 'descriptive_name': 'TyrSc', 'domain_start_structure': 29, 'domain_end': 226, 'threshold':0.95}, 
-    {'acc': '5m8l', 'family': 'e_chordata', 'descriptive_name': 'TyrHs', 'domain_start_structure': 184, 'domain_end': 416, 'threshold':0.95},
-    {'acc': 'V3ZAB2', 'family': 'f_mollusc', 'descriptive_name': 'V3ZAB2', 'domain_start_structure': 130, 'domain_end': 305, 'threshold':0.93},
-    {'acc': 'D0N318', 'family': 'h_oomycota', 'descriptive_name': 'D0N318', 'domain_start_structure': 77, 'domain_end': 279, 'threshold':0.99},
-    {'acc': '4j3p', 'family': 'i_short_fungal', 'descriptive_name': 'AoCO4', 'domain_start_structure': 93, 'domain_end': 324, 'threshold':0.88},
-    {'acc': 'F4PFF7', 'family': 'j_zoopagomycota', 'descriptive_name': 'F4PFF7', 'domain_start_structure': 68, 'domain_end': 251, 'threshold':0.92},
+    {'acc': '5m8l', 'family': 'e_chordata', 'family_name': 'e (chordata)', 'descriptive_name': 'TyrHs', 'domain_start_structure': 184, 'domain_end': 416, 'threshold':0.95},
+    {'acc': 'V3ZAB2', 'family': 'f_mollusc', 'family_name': 'f (mollusc)', 'descriptive_name': 'V3ZAB2', 'domain_start_structure': 130, 'domain_end': 305, 'threshold':0.93},
+    {'acc': 'D0N318', 'family': 'h_oomycota', 'family_name': 'h (oomycota)', 'descriptive_name': 'D0N318', 'domain_start_structure': 77, 'domain_end': 279, 'threshold':0.99},
+    {'acc': '4j3p', 'family': 'i_short_fungal', 'family_name': 'i (short fungal)', 'descriptive_name': 'AoCO4', 'domain_start_structure': 93, 'domain_end': 324, 'threshold':0.88},
+    {'acc': 'F4PFF7', 'family': 'j_zoopagomycota', 'family_name': 'j (zoopagomycota)', 'descriptive_name': 'F4PFF7', 'domain_start_structure': 68, 'domain_end': 251, 'threshold':0.92},
 ]
 
 # Get conserved
