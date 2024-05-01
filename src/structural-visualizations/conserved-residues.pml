@@ -1,4 +1,4 @@
-@src/pymol-visualization/nicify.pml
+@src/pymol-visualizations/nicify.pml
 
 load data/compare-architectures/pdbs/2p3x.pdb, 2p3x
 label n. CA and resi 87 and 2p3x, "%s-%s" % (resn, resi)
@@ -275,4 +275,4 @@ cealign 2p3x, D0N318
 cealign 2p3x, 4j3p
 cealign 2p3x, D0N318
 cealign 2p3x, F4PFF7
-@src/structural-visualization/nicify.pml
+@src/structural-visualizations/nicify.pml
