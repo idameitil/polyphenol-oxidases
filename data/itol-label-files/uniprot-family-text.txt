@@ -28668,9 +28668,6 @@ MtPPO7,Chaetomiaceae,-1,#f198c9,bold,1,0
 AbPPO3,Agaricaceae,-1,#b3e529,bold,1,0
 OapoSm,Streptomycetaceae,-1,#571cb6,bold,1,0
 SlPPO1,Solanaceae,-1,#afc2ce,bold,1,0
-SlPPO2,Solanaceae,-1,#afc2ce,bold,1,0
 MdPPO1,Rosaceae,-1,#90b073,bold,1,0
-MdPPO2,Rosaceae,-1,#90b073,bold,1,0
-MdPPO3,Rosaceae,-1,#90b073,bold,1,0
 CgAUS1,Asteraceae,-1,#aa6eee,bold,1,0
 TyrHs,Hominidae,-1,#ec4be4,bold,1,0

@@ -28668,9 +28668,6 @@ MtPPO7,Sordariomycetes,-1,#afbbc1,bold,1,0
 AbPPO3,Agaricomycetes,-1,#3b959e,bold,1,0
 OapoSm,Actinomycetia,-1,#a820c0,bold,1,0
 SlPPO1,Magnoliopsida,-1,#4ea83e,bold,1,0
-SlPPO2,Magnoliopsida,-1,#4ea83e,bold,1,0
 MdPPO1,Magnoliopsida,-1,#4ea83e,bold,1,0
-MdPPO2,Magnoliopsida,-1,#4ea83e,bold,1,0
-MdPPO3,Magnoliopsida,-1,#4ea83e,bold,1,0
 CgAUS1,Magnoliopsida,-1,#4ea83e,bold,1,0
 TyrHs,Mammalia,-1,#f53802,bold,1,0

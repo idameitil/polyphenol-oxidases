@@ -28668,9 +28668,6 @@ MtPPO7,Ascomycota,-1,#10aefd,bold,1,0
 AbPPO3,Basidiomycota,-1,#a7d1d6,bold,1,0
 OapoSm,Actinobacteria,-1,#07981e,bold,1,0
 SlPPO1,Streptophyta,-1,#6985b5,bold,1,0
-SlPPO2,Streptophyta,-1,#6985b5,bold,1,0
 MdPPO1,Streptophyta,-1,#6985b5,bold,1,0
-MdPPO2,Streptophyta,-1,#6985b5,bold,1,0
-MdPPO3,Streptophyta,-1,#6985b5,bold,1,0
 CgAUS1,Streptophyta,-1,#6985b5,bold,1,0
 TyrHs,Chordata,-1,#ecd75a,bold,1,0

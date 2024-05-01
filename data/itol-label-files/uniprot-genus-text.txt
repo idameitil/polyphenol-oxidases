@@ -28668,9 +28668,6 @@ MtPPO7,Thermothelomyces,-1,#77590f,bold,1,0
 AbPPO3,Agaricus,-1,#856454,bold,1,0
 OapoSm,Streptomyces,-1,#177260,bold,1,0
 SlPPO1,Solanum,-1,#f70b64,bold,1,0
-SlPPO2,Solanum,-1,#f70b64,bold,1,0
 MdPPO1,Malus,-1,#0b1034,bold,1,0
-MdPPO2,Malus,-1,#0b1034,bold,1,0
-MdPPO3,Malus,-1,#0b1034,bold,1,0
 CgAUS1,Coreopsis,-1,#e99bec,bold,1,0
 TyrHs,Homo,-1,#49c5c4,bold,1,0

@@ -28668,9 +28668,6 @@ MtPPO7	#990cd4	Sordariales
 AbPPO3	#8949d8	Agaricales
 OapoSm	#280780	Streptomycetales
 SlPPO1	#8c3df6	Solanales
-SlPPO2	#8c3df6	Solanales
 MdPPO1	#925cdb	Rosales
-MdPPO2	#925cdb	Rosales
-MdPPO3	#925cdb	Rosales
 CgAUS1	#b8c46c	Asterales
 TyrHs	#d69fdf	Primates

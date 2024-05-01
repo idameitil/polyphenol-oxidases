@@ -28668,9 +28668,6 @@ MtPPO7,Sordariales,-1,#6a6458,bold,1,0
 AbPPO3,Agaricales,-1,#e9782a,bold,1,0
 OapoSm,Streptomycetales,-1,#8c55cb,bold,1,0
 SlPPO1,Solanales,-1,#0b576f,bold,1,0
-SlPPO2,Solanales,-1,#0b576f,bold,1,0
 MdPPO1,Rosales,-1,#64354a,bold,1,0
-MdPPO2,Rosales,-1,#64354a,bold,1,0
-MdPPO3,Rosales,-1,#64354a,bold,1,0
 CgAUS1,Asterales,-1,#c5959c,bold,1,0
 TyrHs,Primates,-1,#1c4583,bold,1,0

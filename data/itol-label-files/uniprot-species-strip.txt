@@ -28668,9 +28668,6 @@ MtPPO7	#d84b4d	Thermothelomyces thermophilus
 AbPPO3	#3cb202	Agaricus bisporus
 OapoSm	#1c8f0b	Streptomyces murayamaensis
 SlPPO1	#e27048	Solanum lycopersicum
-SlPPO2	#e27048	Solanum lycopersicum
 MdPPO1	#f6d60b	Malus domestica
-MdPPO2	#f6d60b	Malus domestica
-MdPPO3	#f6d60b	Malus domestica
 CgAUS1	#74af63	Coreopsis grandiflora
 TyrHs	#7a4161	Homo sapiens

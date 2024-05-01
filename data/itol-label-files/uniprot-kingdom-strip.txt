@@ -28668,9 +28668,6 @@ MtPPO7	#964B00	Fungi
 AbPPO3	#964B00	Fungi
 OapoSm	#FFFFFF	nan
 SlPPO1	#00FF00	Viridiplantae
-SlPPO2	#00FF00	Viridiplantae
 MdPPO1	#00FF00	Viridiplantae
-MdPPO2	#00FF00	Viridiplantae
-MdPPO3	#00FF00	Viridiplantae
 CgAUS1	#00FF00	Viridiplantae
 TyrHs	#ffff00	Metazoa

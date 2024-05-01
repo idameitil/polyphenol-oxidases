@@ -28668,9 +28668,6 @@ MtPPO7,Thermothelomyces thermophilus,-1,#aa65f2,bold,1,0
 AbPPO3,Agaricus bisporus,-1,#b9c59b,bold,1,0
 OapoSm,Streptomyces murayamaensis,-1,#193a14,bold,1,0
 SlPPO1,Solanum lycopersicum,-1,#fcfc50,bold,1,0
-SlPPO2,Solanum lycopersicum,-1,#fcfc50,bold,1,0
 MdPPO1,Malus domestica,-1,#887edc,bold,1,0
-MdPPO2,Malus domestica,-1,#887edc,bold,1,0
-MdPPO3,Malus domestica,-1,#887edc,bold,1,0
 CgAUS1,Coreopsis grandiflora,-1,#2333fc,bold,1,0
 TyrHs,Homo sapiens,-1,#e77865,bold,1,0

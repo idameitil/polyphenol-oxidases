@@ -1,82 +1,93 @@
 DATASET_HEATMAP
 SEPARATOR SPACE
-DATASET_LABEL clade-heatmap
+DATASET_LABEL Count
 COLOR #A020F0
-FIELD_LABELS a_chordata b_plants c_cnidaria d_long_fungal e_mollusc f_oomycota g_cnidaria2 h_zoopago1 i_short_fungal j_zoopago2 k_bacteria undefined
+LEGEND_TITLE Count
+FIELD_LABELS a_plants b_cnidaria c_long_fungal d_bacteria e_chordata f_mollusc g_cnidaria2 h_oomycota i_short_fungal j_zoopagomycota singletons
+COLOR_NAN #FFFFFF
+COLOR_MIN #cfe2f3
+COLOR_MAX #073763
+DISPLAY_VALUES original
+VALUE_COLOR #c90076
 DATA
-Calocera_cornea 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Chlorella_variabilis 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Klebsormidium_nitens 0.0 1.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Rhizophagus_clarus 0.0 0.0 0.0 4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Agaricus_bisporus 0.0 0.0 0.0 6.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Orbilia_oligospora 0.0 0.0 1.0 10.0 0.0 0.0 0.0 0.0 4.0 0.0 0.0 0.0
-Fusarium_oxysporum 0.0 0.0 0.0 3.0 0.0 0.0 0.0 0.0 8.0 0.0 0.0 0.0
-Aspergillus_oryzae 0.0 0.0 2.0 1.0 0.0 0.0 0.0 0.0 7.0 0.0 0.0 0.0
-Tuber_borchii 0.0 0.0 0.0 3.0 0.0 0.0 0.0 0.0 5.0 0.0 0.0 1.0
-Letharia_columbiana 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0
-Botrytis_cinerea 0.0 0.0 0.0 4.0 0.0 0.0 0.0 0.0 7.0 0.0 0.0 0.0
-Alternaria_alternata 0.0 0.0 0.0 3.0 0.0 0.0 0.0 0.0 19.0 0.0 0.0 0.0
-Streptomyces_coelicolor 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Singulisphaera_acidiphila 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Luteitalea_pratensis 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Cystobacter_ferrugineus 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Didymodactylos_carnosus 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Galdieria_sulphuraria 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Sphaeroforma_arctica 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
-Fasciola_gigantica 2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Pocillopora_damicornis 1.0 0.0 0.0 0.0 0.0 0.0 6.0 0.0 0.0 0.0 0.0 0.0
-Branchiostoma_lanceolatum 10.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Octopus_vulgaris 1.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Capitella_teleta 2.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Xenopus_laevis 10.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Ciona_intestinalis 3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Danio_rerio 5.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Homo_sapiens 4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Anolis_carolinensis 3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Alligator_mississippiensis 4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Gallus_gallus 9.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Erpetoichthys_calabaricus 3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Callorhinchus_milii 26.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Dimargaris_cristalligena 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 6.0 0.0 0.0
-Gracilariopsis_chorda 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0 0.0 0.0
-Conidiobolus_coronatus 0.0 0.0 0.0 0.0 0.0 0.0 0.0 10.0 0.0 26.0 0.0 0.0
-Basidiobolus_meristosporus 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 25.0 0.0 0.0
-Coemansia_reversa 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 7.0 0.0 0.0
-Thamnocephalis_sphaerospora 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 21.0 0.0 0.0
-Batrachochytrium_dendrobatidis 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 9.0 1.0 0.0 1.0
-Pythium_oligandrum 0.0 0.0 0.0 0.0 0.0 5.0 0.0 0.0 0.0 0.0 0.0 0.0
-Albugo_candida 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0
-Phytophthora_infestans 0.0 0.0 0.0 0.0 0.0 4.0 0.0 0.0 0.0 0.0 0.0 0.0
-Saprolegnia_parasitica 0.0 0.0 0.0 0.0 0.0 6.0 0.0 0.0 0.0 0.0 0.0 0.0
-Marchantia_polymorpha 0.0 24.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Chara_braunii 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Physcomitrium_patens 0.0 15.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Populus_trichocarpa 0.0 11.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Plasmodiophora_brassicae 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 3.0
-Nannochloropsis_gaditana 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Fragilariopsis_cylindrus 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Emiliania_huxleyi 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 4.0
-Aureococcus_anophagefferens 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Candidatus_Manganitrophus_noduliformans 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Rhizobium_etli 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Fimbriimonas_ginsengisoli 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Longimicrobium_terrae 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 3.0
-Edaphobacter_modestus 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0
-Brevifollis_gellanilyticus 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Deinococcus_yavapaiensis 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Nostoc_commune 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Dictyostelium_discoideum 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0
-Ktedonospora_formicarum 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0
-Clytia_hemisphaerica 0.0 0.0 4.0 0.0 0.0 0.0 3.0 0.0 0.0 0.0 0.0 0.0
-Lottia_gigantea 0.0 0.0 1.0 0.0 2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Ectocarpus_siliculosus 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Flavobacterium_macacae 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Chitinophaga_japonensis 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Burkholderia_pseudomallei 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Stylonychia_lemnae 0.0 0.0 2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Caenorhabditis_elegans 0.0 0.0 0.0 0.0 6.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Lingula_anatina 0.0 0.0 0.0 0.0 7.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Helobdella_robusta 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Mytilus_edulis 0.0 0.0 0.0 0.0 38.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-Wallemia_hederae 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 4.0 0.0 0.0 0.0
-Puccinia_striiformis 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 6.0 0.0 0.0 0.0
+Albugo_candida X X X X X X X 1.0 X X X
+Saprolegnia_parasitica X X X X X X X 6.0 X X X
+Fimbriimonas_ginsengisoli X X X X X X X X X X 1.0
+Stylonychia_lemnae X 2.0 X X X X X X X X X
+Homo_sapiens X X X X 4.0 X X X X X X
+Plasmodiophora_brassicae X X X X X X X X X X 3.0
+Sphaeroforma_arctica X X X X X X X X X X 1.0
+Puccinia_striiformis X X X X X X X X 6.0 X X
+Conidiobolus_coronatus X X X X X X X X X 36.0 X
+Luteitalea_pratensis X X X 1.0 X X X X X X X
+Alligator_mississippiensis X X X X 4.0 X X X X X X
+Calocera_cornea X X 1.0 X X X X X X X 1.0
+Marchantia_polymorpha 24.0 X X X X X X X X X X
+Alternaria_alternata X X 3.0 X X X X X 19.0 X X
+Fragilariopsis_cylindrus X X X X X X X X X X 1.0
+Xenopus_laevis X X X X 10.0 X X X X X X
+Cystobacter_ferrugineus X X X 1.0 X X X X X X X
+Lingula_anatina X X X X X 7.0 X X X X X
+Aspergillus_oryzae X 2.0 1.0 X X X X X 7.0 X X
+Klebsormidium_nitens 1.0 X 1.0 X X X X X X X X
+Basidiobolus_meristosporus X 1.0 X X X X X X X 25.0 X
+Coemansia_reversa X X X X X X X X X 7.0 X
+Fusarium_oxysporum X X 3.0 X X X X X 8.0 X X
+Physcomitrium_patens 15.0 X X X X X X X X X X
+Populus_trichocarpa 11.0 X X X X X X X X X X
+Nostoc_commune X X X X X X X X X X 1.0
+Tuber_borchii X X 3.0 X X X X X 5.0 X 1.0
+Gracilariopsis_chorda X 1.0 X X X X X X X X 2.0
+Rhizophagus_clarus X X 4.0 X X X X X X X X
+Deinococcus_yavapaiensis X X X X X X X X X X 1.0
+Botrytis_cinerea X X 4.0 X X X X X 7.0 X X
+Chara_braunii 1.0 X X X X X X X X X X
+Pocillopora_damicornis X X X X 1.0 X 6.0 X X X X
+Flavobacterium_macacae X 1.0 X X X X X X X X X
+Thamnocephalis_sphaerospora X X X X X X X X X 21.0 X
+Dimargaris_cristalligena X X X X X X X X X 6.0 X
+Edaphobacter_modestus X X X X X X X X X X 1.0
+Wallemia_hederae X X X X X X X X 4.0 X X
+Callorhinchus_milii X X X X 26.0 X X X X X X
+Fasciola_gigantica X X X X 2.0 X X X X X X
+Brevifollis_gellanilyticus X X X X X X X X X X 1.0
+Chitinophaga_japonensis X 1.0 X X X X X X X X X
+Octopus_vulgaris X X X X 1.0 10.0 X X X X X
+Clytia_hemisphaerica X 4.0 X X X X 3.0 X X X X
+Candidatus_Manganitrophus_noduliformans X X X X X X X X X X 1.0
+Didymodactylos_carnosus X X X 1.0 1.0 X X X X X X
+Longimicrobium_terrae X X X X X X X X X X 2.0
+Erpetoichthys_calabaricus X X X X 3.0 X X X X X X
+Letharia_columbiana X X 1.0 X X X X X 1.0 X X
+Agaricus_bisporus X X 6.0 X X X X X X X X
+Ktedonospora_formicarum X X X X X X X X X X 1.0
+Branchiostoma_lanceolatum X X X X 10.0 X X X X X X
+Pythium_oligandrum X X X X X X X 5.0 X X X
+Danio_rerio X X X X 5.0 X X X X X X
+Mytilus_edulis X X X X X 38.0 X X X X X
+Gallus_gallus X X X X 9.0 X X X X X X
+Echinicola_pacifica X X X X X X X X X X 1.0
+Peribacillus_psychrosaccharolyticus X X X X X X X X X X 1.0
+Adiantum_capillus-veneris X X X X X X X X X X 21.0
+Dissophora_globulifera X X X X X X X X X X 1.0
+Trichoglossum_hirsutum X X X X X X X X X X 1.0
+Phytophthora_infestans X X X X X X X 4.0 X X X
+Ectocarpus_siliculosus X 1.0 X X X X X X X X X
+Chlorella_variabilis X X 1.0 X X X X X X X X
+Aureococcus_anophagefferens X X X X X X X X X X 1.0
+Batrachochytrium_dendrobatidis X X X X X X X X 9.0 2.0 X
+Ciona_intestinalis X X X X 3.0 X X X X X 1.0
+Anolis_carolinensis X X X X 3.0 X X X X X X
+Orbilia_oligospora X 1.0 10.0 X X X X X 4.0 X X
+Singulisphaera_acidiphila X X X 1.0 X X X X X X X
+Galdieria_sulphuraria X X X 1.0 X X X X X X X
+Caenorhabditis_elegans X X X X X 6.0 X X X X X
+Dictyostelium_discoideum X X X X X X X X X X 2.0
+Burkholderia_pseudomallei X 1.0 X X X X X X X X X
+Rhizobium_etli X X X X X X X X X X 1.0
+Streptomyces_coelicolor X X X 1.0 X X X X X X X
+Emiliania_huxleyi X X X X X X X X X X 4.0
+Capitella_teleta X X X X 2.0 1.0 X X X X X
+Helobdella_robusta X X X X X 1.0 X X X X X
+Lottia_gigantea X 1.0 X X X 2.0 X X X X X
+Nannochloropsis_gaditana X X X X X X X X X X 1.0

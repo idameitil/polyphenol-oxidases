@@ -28668,9 +28668,6 @@ MtPPO7	#195d93	Sordariomycetes
 AbPPO3	#fbbb98	Agaricomycetes
 OapoSm	#5f03f3	Actinomycetia
 SlPPO1	#9af2f4	Magnoliopsida
-SlPPO2	#9af2f4	Magnoliopsida
 MdPPO1	#9af2f4	Magnoliopsida
-MdPPO2	#9af2f4	Magnoliopsida
-MdPPO3	#9af2f4	Magnoliopsida
 CgAUS1	#9af2f4	Magnoliopsida
 TyrHs	#b0d020	Mammalia

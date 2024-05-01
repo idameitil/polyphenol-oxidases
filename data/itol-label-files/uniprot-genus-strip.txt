@@ -28668,9 +28668,6 @@ MtPPO7	#fbe95c	Thermothelomyces
 AbPPO3	#15090d	Agaricus
 OapoSm	#68ff35	Streptomyces
 SlPPO1	#087b66	Solanum
-SlPPO2	#087b66	Solanum
 MdPPO1	#f67ec1	Malus
-MdPPO2	#f67ec1	Malus
-MdPPO3	#f67ec1	Malus
 CgAUS1	#b1f912	Coreopsis
 TyrHs	#a8d74e	Homo

@@ -28668,9 +28668,6 @@ MtPPO7	#c14a29	Chaetomiaceae
 AbPPO3	#2ff5a0	Agaricaceae
 OapoSm	#d09a53	Streptomycetaceae
 SlPPO1	#cc7df4	Solanaceae
-SlPPO2	#cc7df4	Solanaceae
 MdPPO1	#0af84d	Rosaceae
-MdPPO2	#0af84d	Rosaceae
-MdPPO3	#0af84d	Rosaceae
 CgAUS1	#df9f20	Asteraceae
 TyrHs	#dd54d3	Hominidae

@@ -28668,9 +28668,6 @@ MtPPO7	#b28654	Ascomycota
 AbPPO3	#9aea75	Basidiomycota
 OapoSm	#e426a2	Actinobacteria
 SlPPO1	#7dafcc	Streptophyta
-SlPPO2	#7dafcc	Streptophyta
 MdPPO1	#7dafcc	Streptophyta
-MdPPO2	#7dafcc	Streptophyta
-MdPPO3	#7dafcc	Streptophyta
 CgAUS1	#7dafcc	Streptophyta
 TyrHs	#8ca5ec	Chordata
