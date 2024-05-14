@@ -57,3 +57,12 @@ module swap gromacs/2021.2-gpu
 ./prepare_md.sh
 
 Add stuff from tutorial to pull.mdp and topol.top
+
+# old notes
+killall dock
+
+solv.gro adding water to pdb.gro
+solv.ions.gro replace some waters with ions
+topol files
+
+groups:- Protein is with hydrogens, protein-H is withour hydrogens (use this one for rmsd for example)
