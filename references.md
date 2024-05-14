@@ -1,3 +1,5 @@
+Blåmusling mange tyrosinaser, adhesiveness
+
 # Proteome analysis
 Sequences from proteomes: 13381
 Unique species with proteomes: 2472
