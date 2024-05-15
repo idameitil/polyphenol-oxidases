@@ -10,8 +10,8 @@ def get_fasta_sequences(fasta_filename):
 
 acc2seq_hmmalign = get_fasta_sequences('data/pfam/PF00264.alignment.uniprot-cleaned.fa')
 acc2seq_trimmed = get_fasta_sequences('data/pfam/PF00264.alignment.uniprot-nogaps.fa')
-acc2seq_seeds_hmmalign = get_fasta_sequences('data/seeds-names.hmmalign.fa')
-acc2seq_seeds_trimmed = get_fasta_sequences('data/seeds-names.hmmalign-withoutgaps.fa')
+acc2seq_seeds_hmmalign = get_fasta_sequences('data/seeds.hmmalign.fa')
+acc2seq_seeds_trimmed = get_fasta_sequences('data/seeds.hmmalign-withoutgaps.fa')
 
 def get_selected_ids(domain, rank):
     fasta_filename = f'data/proteome-tree/{domain}-one_proteome_per_{rank}.fa'

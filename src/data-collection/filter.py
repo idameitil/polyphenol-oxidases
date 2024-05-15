@@ -3,7 +3,6 @@ import json
 
 fasta_sequences = SeqIO.parse('data/pfam/protein-matching-PF00264-shortheaders.fasta', 'fasta')
 
-# output_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered.fasta'
 output_filename = 'data/pfam/protein-matching-PF00264-shortheaders-filtered25.fasta'
 
 json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
