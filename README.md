@@ -74,6 +74,21 @@ In order to the PPO sequences from the selected proteomes, run `python src/prote
 ## Get aligned selected sequences
 In order to make fasta files with the aligned selected sequences, run `python get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/all-one_proteome_per_class.hmmalign.fa` and `data/proteome-tree/all-one_proteome_per_class.trimmed.fa` etc.
 
+## Make alignment
+### For all kingdoms
+Run linsi: `linsi --thread 7 data/proteome-tree/all-one_proteome_per_class.trimmed.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa`
+
+Remove gaps with more than 95% gaps: `seqconverter --remfracgapcols -I fasta -O fasta data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.9.fa`
+
+Convert to NEXUS: `seqconverter --remfracgapcols -I fasta -O nexus data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.9.fa`
+
+### For only fungi
+Run linsi: `linsi --thread 7 data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa > data/proteome-tree/fungi-one_proteome_per_order.trimmed-linsi.fa`
+
+Remove gaps with more than 95% gaps: `seqconverter --remfracgapcols -I fasta -O fasta data/proteome-tree/fungi-one_proteome_per_order.trimmed-linsi.fa > data/proteome-tree/fungi-one_proteome_per_order.trimmed-linsi-0.9.fa`
+
+Convert to NEXUS: `seqconverter --remfracgapcols -I fasta -O nexus data/proteome-tree/fungi-one_proteome_per_order.trimmed-linsi.fa > data/proteome-tree/fungi-one_proteome_per_order.trimmed-linsi-0.9.fa`
+
 ## MrBayes
 On hal, go to the folder and start tmux: `tmux new -s mrbayes`
 
