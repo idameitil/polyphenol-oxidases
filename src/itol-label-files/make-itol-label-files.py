@@ -55,6 +55,25 @@ def write_heatmap_text_file(outfile_name, label, df, id_name, field_names):
                 string += ' ' + value
             file.write(f"{row[id_name].replace(' ', '_')}{string}\n")
 
+def write_dot_file(outfile_name, label, df, id_name, field_names):
+    with open(outfile_name, 'w') as file:
+        get_colors = lambda n: ["#%06x" % random.randint(0, 0xFFFFFF) for _ in range(n)]
+        field_colors = get_colors(len(field_names))
+        field_names_short = [field_name.split('_')[0] for field_name in field_names]
+        header = f"DATASET_EXTERNALSHAPE\nSEPARATOR SPACE\nDATASET_LABEL Count\nCOLOR #A020F0\nLEGEND_TITLE Count\nFIELD_COLORS {' '.join(field_colors)}\nFIELD_LABELS {' '.join(field_names_short)}\nSHOW_LABELS 1\nDATA\n"
+        file.write(header)
+        max = 5
+        for index, row in df.iterrows():
+            string = ''
+            for field_name in field_names:
+                value = row[field_name]
+                if value == 0:
+                    value = 0
+                elif value > max:
+                    value = max
+                string += ' ' + str(value)
+            file.write(f"{row[id_name].replace(' ', '_')}{string}\n")
+
 def make_taxonomy_label_files(df_uniprot, df_seeds):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
     for rank in wanted_ranks:
@@ -262,38 +281,44 @@ def write_domain_label_file(output_filename, ids, lengths, domains):
             return 'EL'
         
     domain2color = {
-        'TRANSMEMBRANE':{'name': 'Transmembrane domain', 'type': 'Phobius', 'color': '#021384'},
+        'TRANSMEMBRANE':{'name': 'Transmembrane domain', 'type': 'Phobius', 'color': '#ff0000'},
         'SignalP-noTM':{'name': 'Signal peptide', 'type': 'SignalP', 'color': '#2d297a'},
         'PF00264':{'name': 'Common central domain of tyrosinase', 'type': 'Pfam', 'color': '#10aefd'},
         'PF12142':{'name': 'Polyphenol oxidase middle domain', 'type': 'Pfam', 'color': '#cf7dd4'},
         'PF03722':{'name': 'Hemocyanin, all-alpha domain', 'type': 'Pfam', 'color': '#7af92b'},
         'PF03723':{'name': 'Hemocyanin, ig-like domain', 'type': 'Pfam', 'color': '#8b1b4b'},
         'PF18132':{'name': 'Tyosinase C-terminal domain', 'type': 'Pfam', 'color': '#db9758'},
-        'PF12143':{'name': 'Protein of unknown function (DUF_B2219)', 'type': 'Pfam', 'color': '#615875'},
+        'PF12143':{'name': 'Protein of unknown function (DUF_B2219)', 'type': 'Pfam', 'color': '#de37d0'},
         'PF00372':{'name': 'Hemocyanin, copper containing domain', 'type': 'Pfam', 'color': '#4a8026'},
         'PF00187': {'name': 'Chitin recognition protein', 'type': 'Pfam', 'color': '#fdd44a'},
         'PF14830':{'name': 'Haemocyanin beta-sandwich', 'type': 'Pfam', 'color': '#119d58'},
-        'PF00734':{'name': 'Fungal cellulose binding domain', 'type': 'Pfam', 'color': '#d8bc2a'},
+        'PF00734':{'name': 'Fungal cellulose binding domain', 'type': 'Pfam', 'color': '#854442 '},
         'PF01423':{'name': 'LSM domain', 'type': 'Pfam', 'color': '#37aeeb'},
         'PF11807':{'name': 'Mycotoxian biosynthesis protein UstYa', 'type': 'Pfam', 'color': '#7984f3'},
         'PF19343':{'name': 'Family of unknown function (DUF5923)', 'type': 'Pfam', 'color': '#de9261'},
         'PF14613':{'name': 'Protein of unknown function (DUF4449)', 'type': 'Pfam', 'color': '#d8d342'},
         'PF00230':{'name': 'Major intrinsic protein', 'type': 'Pfam', 'color': '#b5cd44'},
-        'PF01494':{'name': 'FAD binding domain', 'type': 'Pfam', 'color': '#2d9454'},
+        'PF01494':{'name': 'FAD binding domain', 'type': 'Pfam', 'color': '#00ff00'},
+        'PF01549':{'name': 'ShK domain-like', 'type': 'Pfam', 'color': '#6497b1'},
+        'PF00092':{'name': 'von Willebrand factor type A domain', 'type': 'Pfam', 'color': '#FF5F1F'},
+        'PF00413':{'name': 'Matrixin', 'type': 'Pfam', 'color': '#43e8d8'},
         }
     def get_color_name_and_type(domain):
-        if domain['id'] in domain2color: 
+        if domain['id'] in domain2color:
+            type = domain2color[domain['id']]['type']
             color = domain2color[domain['id']]['color']
-            name = domain2color[domain['id']]['name']
-            type = domain2color[domain['id']]['type'] 
+            if type == 'Pfam':
+                name = f"{domain['id']}: {domain2color[domain['id']]['name']}"
+            else:
+                name = domain2color[domain['id']]['name']
         else:
             color = "#000000"
-            name = 'unknown'
+            name = domain['description']
             type = 'Pfam'
         return color, name, type
     
     with open(output_filename, 'w') as outfile:
-        header = f"DATASET_DOMAINS\nSEPARATOR COMMA\nDATASET_LABEL,Domains\nCOLOR,#ff0000\nDATA\n"
+        header = f"DATASET_DOMAINS\nSEPARATOR COMMA\nDATASET_LABEL,Domains\nCOLOR,#ff0000\nSHOW_DOMAIN_LABELS,0\nDATA\n"
         outfile.write(header)
         for id, length, domains_this_one in zip(ids, lengths, domains):
             outfile.write(f"{id},{length}")
@@ -323,10 +348,10 @@ def make_domain_label_file_combined(df_uniprot, df_seeds):
                 occurences = row[domain_name].split(',')
                 for occurence in occurences:
                     start, stop = occurence.split('-')
-                    domains_this_one.append({'start': start, 'stop': stop, 'id': domain_id})
+                    domains_this_one.append({'start': start, 'stop': stop, 'id': domain_id, 'description': domain_description})
             else:
                 start, stop = row[domain_name].split('-')
-                domains_this_one.append({'start': start, 'stop': stop, 'id': domain_id})
+                domains_this_one.append({'start': start, 'stop': stop, 'id': domain_id, 'description': domain_description})
         return domains_this_one
     for index, row in df_uniprot.iterrows():
         domains.append(get_domains(row))
@@ -439,7 +464,8 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 
 # Clades
 df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
-write_heatmap_text_file(f'{outdir}/clade-heatmap.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
+# write_heatmap_text_file(f'{outdir}/clade-heatmap.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
+write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 
 # Make combined domain label file
-make_domain_label_file_combined(df_uniprot_hits, seed_df)
+# make_domain_label_file_combined(df_uniprot_hits, seed_df)
