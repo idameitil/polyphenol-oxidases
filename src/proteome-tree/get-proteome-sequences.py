@@ -24,7 +24,6 @@ class proteomeData():
     df = pd.read_csv('data/proteome-tree/proteome-data.tsv', sep='\t')
     json_list = json.load(open('data/pfam/protein-matching-PF00264.json'))
     json_dict = make_json_dict(json_list)
-    df_manually_selected = pd.read_excel('data/proteome-tree/selected_genomes.xlsx')
     export_json = json.load(open('data/proteome-tree/export.json'))
     protein2proteome = make_protein2proteome_dict(export_json)
 

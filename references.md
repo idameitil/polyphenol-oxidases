@@ -1,3 +1,8 @@
+# Mount HPC
+sshfs idamei@login1.gbar.dtu.dk:/work3/idamei hpc
+
+sudo diskutil umount force hpc
+
 # PDB sequences
 The sequences from the pdbs were downloaded at https://www.rcsb.org/downloads/fasta.
 
