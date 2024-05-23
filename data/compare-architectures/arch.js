@@ -24,7 +24,7 @@ const colorScheme = [
 const unitSize = 10;
 const spaceBetweenArchitectures = 250;
 // const leftMargin = 60;
-const leftMargin = 400;
+const leftMargin = 70;
 const rightMargin = 60;
 const topMargin = 50;
 const canvasWidth = max_length * unitSize + rightMargin + leftMargin;
@@ -162,7 +162,7 @@ function drawArchitectureName(architectureName, y) {
     const color = [0, 0, 0];
     textSize(size);
     fill(...color);
-    text(architectureName + ':', 0, y);
+    text(architectureName.substring(0,1) + ':', 0, y);
 }
 
 function drawBlackLine(y) {
