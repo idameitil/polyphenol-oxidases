@@ -71,8 +71,8 @@ Files with manually selected genomes were saved in `data/proteome-tree/class-rep
 ## Get sequences from selected proteomes
 In order to get the PPO sequences from the selected proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. This creates the set of files `data/proteome-tree/selected-proteomes-ids-fungi-order.txt` (containing the proteome ids for the included proteomes) and `data/proteome-tree/fungal-one_proteome_per_order.fa` (containing the PPO sequences for the selected proteomes) for each set of parameters.
 
-## Get aligned selected sequences
-In order to make fasta files with the aligned selected sequences, run `python src/proteome-tree/get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa` and `data/proteome-tree/all-one_proteome_per_class.trimmed.fa`.
+## Get trimmed selected sequences
+In order to make fasta files with the selected sequences, run `python src/proteome-tree/get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa` and `data/proteome-tree/all-one_proteome_per_class.trimmed.fa`.
 
 ## Make alignment
 ### For all kingdoms
@@ -125,3 +125,12 @@ To run the pymol script, run `pymol src/structural-visualizations/conserved-resi
 
 # iTOL label files
 To make iTOL label files, run `python src/itol-label-files/make-itol-label-files.py`
+
+# Species tree
+A list of included species is made: `data/species-tree/species`.
+
+This file is uploaded to timetree.org and the tree is saved in `data/species-tree/species.nwk`.
+
+A clade file is made with underscores in species names: `data/species-tree/clades2.csv`.
+
+The plot is made with the R script: `src/species-tree/dotplot.R`.
