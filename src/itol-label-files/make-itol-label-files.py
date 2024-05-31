@@ -5,7 +5,7 @@ import math
 from Bio import SeqIO
 from colour import Color
 
-random.seed(10)
+random.seed(13)
 outdir = "data/itol-label-files"
 
 def make_value2color(values):
@@ -87,6 +87,18 @@ def make_taxonomy_label_files(df_uniprot, df_seeds):
         write_colour_text_file(output_filename_text, rank, ids, values, value2color)
         output_filename_strip = f"data/itol-label-files/uniprot-{rank}-strip.txt"
         write_colour_strip_file(output_filename_strip, rank, ids, values, value2color)
+
+def write_dotplot_phylum_html(df):
+    values = ['Deinococcus-Thermus', 'Actinobacteria', 'Firmicutes', 'Cyanobacteria', 'Chloroflexi', 'Proteobacteria', 'Acidobacteria', 'Proteobacteria', 'Proteobacteria', 'Planctomycetes', 'Bacteroidetes', 'Bacteroidetes', 'Bacteroidetes', 'Evosea', 'Ciliophora', 'Endomyxa', 'Bacillariophyta', 'Oomycota', 'Oomycota', 'Rhodophyta', 'Rhodophyta', 'Chlorophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Chytridiomycota', 'Zoopagomycota', 'Zoopagomycota', 'Zoopagomycota', 'Mucoromycota', 'Basidiomycota', 'Basidiomycota', 'Basidiomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Cnidaria', 'Cnidaria', 'Nematoda', 'Rotifera', 'Brachiopoda', 'Annelida', 'Annelida', 'Mollusca', 'Mollusca', 'Mollusca', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata']
+    values.reverse()
+    value2color = make_value2color(values)
+    with open('phylum.html', 'w') as outfile:
+        header = "<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n<style>\nh1 {\ncolor: green;\nfont-size: 10px;\n}\n</style>\n</head>\n<body>\n<h1>\n"
+        outfile.write(header)
+        for value in values:
+            outfile.write(f'<font color="{value2color[value]}">{value}</font><br>\n')
+        footer = "</h1>\n</center>\n</body>\n</html>\n"
+        outfile.write(footer)
 
 def make_taxonomy_files_species_tree(df):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
@@ -459,8 +471,9 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # make_number_of_copies_file()
 
 # Species tree
-# df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
+df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
 # make_taxonomy_files_species_tree(df_species_tree)
+write_dotplot_phylum_html(df_species_tree)
 
 # Clades
 df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
