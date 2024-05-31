@@ -1,3 +1,10 @@
+# Removed genomes
+Aureococcus anophagefferens and Ectocarpus siliculosus were removed. Almost all of the hits had low e-values and or short lengths, and they had no phylum.
+
+Adiantum capillus-veneris was removed. Hits are very short.
+
+Nitrososphaeraceae archaeon, de to hits har for lav e-værdi.
+
 # Mount HPC
 sshfs idamei@login1.gbar.dtu.dk:/work3/idamei hpc
 
