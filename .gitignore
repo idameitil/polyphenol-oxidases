@@ -8,3 +8,4 @@ data/pfam/api
 data/md/solv_ions.gro
 *.xtc
 data/mrbayes/all/run
+*.mp4
