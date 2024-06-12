@@ -69,10 +69,10 @@ The above to files are combined by running: `python src/proteome-tree/make-prote
 Files with manually selected genomes were saved in `data/proteome-tree/class-representatives.xlsx` and `data/proteome-tree/fungal-order-representatives.xlsx`
 
 ## Get sequences from selected proteomes
-In order to get the PPO sequences from the selected proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. This creates the set of files `data/proteome-tree/selected-proteomes-ids-fungi-order.txt` (containing the proteome ids for the included proteomes) and `data/proteome-tree/fungal-one_proteome_per_order.fa` (containing the PPO sequences for the selected proteomes) for each set of parameters.
+In order to get the PPO sequences from the selected proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. This creates the set of files `data/proteome-tree/selected-proteomes-ids-fungi-order.txt` and `data/proteome-tree/fungal-one_proteome_per_order.fa`.
 
 ## Get trimmed selected sequences
-In order to make fasta files with the selected sequences, run `python src/proteome-tree/get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa` and `data/proteome-tree/all-one_proteome_per_class.trimmed.fa`.
+In order to make fasta files with the selected sequences, run `python src/proteome-tree/get-aligned-selected-sequences.py`. This creates the files `data/proteome-tree/selected-sequences-all-class.txt` and `data/proteome-tree/selected-proteomes-ids-all-class.txt`.
 
 ## Make alignment
 ### For all kingdoms

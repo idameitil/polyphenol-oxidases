@@ -1,3 +1,13 @@
+# CPSSP
+https://www.ctan.org/pkg/cpssp
+
+# Målestok på træer
+Amino acid substitions per site.
+
+# CPSSP package
+For drawing secondary structures:
+https://www.ctan.org/pkg/cpssp
+
 # Removed genomes
 Aureococcus anophagefferens and Ectocarpus siliculosus were removed. Almost all of the hits had low e-values and or short lengths, and they had no phylum.
 
@@ -32,7 +42,7 @@ Resume session: `tmux attach -d -t mrbayes`.
 Check if the gpu is available: `nvtop -d 1`
 
 #
-Blåmusling mange tyrosinaser, adhesiveness
+Blåmusling (M. edulis) har mange tyrosinaser, adhesiveness
 
 # Proteome analysis
 Sequences from proteomes: 13381
