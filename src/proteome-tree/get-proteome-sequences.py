@@ -54,49 +54,29 @@ class proteomeData():
     def filter_sequences(self):
         fasta_sequences = SeqIO.parse('data/pfam/protein-matching-PF00264-shortheaders.fasta', 'fasta')
         filtered_sequences = {}
+        count = 0
+        count_succeded = 0
         for fasta in fasta_sequences:
             if fasta.id not in self.accs_from_selected_proteomes:
                 continue
-            if len(self.json_dict[fasta.id]['entries']) > 1:
-                # print(f"{fasta.id} has several entries")
-                continue
-            if len(self.json_dict[fasta.id]['entries'][0]['entry_protein_locations']) > 1:
-                # print(f"{fasta.id} has several entry_protein_locations")
-                continue
-            if len(self.json_dict[fasta.id]['entries'][0]['entry_protein_locations'][0]['fragments']) > 1:
-                # print(f"{fasta.id} has several fragments")
-                continue
-            hit_length = self.json_dict[fasta.id]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['end'] \
-                - self.json_dict[fasta.id]['entries'][0]['entry_protein_locations'][0]['fragments'][0]['start']
-            score = self.json_dict[fasta.id]['entries'][0]['entry_protein_locations'][0]['score']
-            if len(fasta.seq) > 100 and len(fasta.seq) < 1000 and score < 1e-20 and hit_length > 100:
-                filtered_sequences[fasta.id] = fasta.seq
+            count += 1
+            for entry_location in self.json_dict[fasta.id]['entries'][0]['entry_protein_locations']:
+                score = entry_location['score']
+                start = entry_location['fragments'][0]['start']
+                end = entry_location['fragments'][0]['end']
+                if score > 1e-20:
+                    continue
+                filtered_sequences[fasta.id] = f"{start}-{end}"
+                count_succeded += 1
+        print(f"Total: {count}")
+        print(f"Succeeded: {count_succeded}")
         return filtered_sequences
     
-    def fasta_filename(self):
-        if self.domain == 'fungi':
-            return f'data/proteome-tree/fungal-one_proteome_per_{self.rank}.fa'
-        elif self.domain == 'all':
-            return f'data/proteome-tree/all-one_proteome_per_{self.rank}.fa'
-
-    def write_fasta(self):
-        with open(self.fasta_filename(), 'w') as outfile:
-            for acc in self.filtered_sequences:
-                proteome_id = self.protein2proteome[acc]
-                species = self.selected_proteomes2species[proteome_id]
-                # outfile.write(f">{species}_{acc}\n{self.filtered_sequences[acc]}\n")
-                outfile.write(f">{acc}\n{self.filtered_sequences[acc]}\n")
-
-    def write_proteomes_txt(self):
-        filename = f'data/proteome-tree/selected-proteomes-ids-{self.domain}-{self.rank}.txt'
+    def write_selected_sequences(self):
+        filename = f'data/proteome-tree/selected-sequences-{self.domain}-{self.rank}.txt'
         with open(filename, 'w') as outfile:
-            for id in self.selected_proteomes2species:
-                outfile.write(f"{id}\n")
-
-fungi_order = proteomeData(domain='fungi', rank='order')
-fungi_order.write_fasta()
-fungi_order.write_proteomes_txt()
+            for id in self.filtered_sequences:
+                outfile.write(f"{id},{self.filtered_sequences[id]}\n")
 
 all_class = proteomeData(domain='all', rank='class')
-all_class.write_fasta()
-all_class.write_proteomes_txt()
+all_class.write_selected_sequences()
