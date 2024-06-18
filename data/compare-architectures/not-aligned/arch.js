@@ -24,7 +24,7 @@ const colorScheme = [
 const unitSize = 10;
 const spaceBetweenArchitectures = 250;
 // const leftMargin = 60;
-const leftMargin = 70;
+const leftMargin = 350;
 const rightMargin = 60;
 const topMargin = 50;
 const canvasWidth = max_length * unitSize + rightMargin + leftMargin;
@@ -121,6 +121,7 @@ function drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompl
     textSize(size_position_text);
     fill(...color_position_text);
     text(positionInCompleteProtein, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
+    textStyle(NORMAL);
 }
 
 function drawLoop(x, y, isConserved) {
@@ -159,6 +160,18 @@ function drawUndefined(x, y, isConserved) {
     rect(x + unitSize * .25, y + unitSize * .25, unitSize * 0.5, unitSize * .5);
 }
 
+function transformString(input) {
+    // Use a regular expression to extract the parts of the string
+    let match = input.match(/^(.*)\s\([^)]*\),\s(.*)$/);
+    if (match) {
+      let key = match[1];
+      let value = match[2];
+      // Construct the new string format
+      return `${key} (${value}):`;
+    }
+    return input; // In case the regex doesn't match, return the original string
+  }
+
 function drawArchitectureName(architectureName, y) {
     // const size = 30;
     const size = 60;
@@ -167,7 +180,8 @@ function drawArchitectureName(architectureName, y) {
     textSize(size);
     fill(...color);
     // text(architectureName.substring(0,1) + ':', 0, y);
-    text(architectureName.substring(0,1), 0, y);
+    // text(architectureName.substring(0,1), 0, y);
+    text(transformString(architectureName), 0, y);
 }
 
 function drawBlackLine(y) {
