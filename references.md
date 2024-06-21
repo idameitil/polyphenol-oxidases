@@ -1,3 +1,9 @@
+# Seeds already in the dataset: 
+TyrHs, AoCO4, TyrAo, 
+
+# L-DOPA
+Parkinsons
+
 # CPSSP
 https://www.ctan.org/pkg/cpssp
 

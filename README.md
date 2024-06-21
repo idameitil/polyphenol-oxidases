@@ -80,7 +80,7 @@ Run linsi: `linsi --thread 7 data/proteome-tree/all-one_proteome_per_class.trimm
 
 Remove gaps with more than 95% gaps: `seqconverter --remfracgapcols 0.95 -I fasta -O fasta data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.95.fa`
 
-Convert to NEXUS: `seqconverter --remfracgapcols 0.95 -I fasta -O nexus data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.95.fa`
+Convert to NEXUS: `seqconverter --remfracgapcols 0.95 -I fasta -O nexus data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.95.nexus`
 
 ### For only fungi
 Run linsi: `linsi --thread 7 data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi.fa`
@@ -92,14 +92,16 @@ Convert to NEXUS with removed gaps: `seqconverter --remfracgapcols 0.8 -I fasta 
 Convert to NEXUS without removing gaps: `seqconverter -I fasta -O nexus data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi.nexus`
 
 ## MrBayes
-On hal, go to the folder and start tmux: `tmux attach -d -t mrbayes`
+`scp data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.95.nexus hpc:~/`
+On hal, check that no jobs are running: `nvtop -d 1`
+
+Go to the folder and start tmux: `tmux attach -d -t mrbayes`
 
 Start the job: `mpirun -np 6 mb gpu_run.nexus > log.txt`
 
 Detach: control+b followed by d
 
 To continue a mrbayes run, change the number of generations to the total number of generations you want and add append=yes, fx: `mcmc append=yes ngen=60000000 samplefreq=1000 nchains=3 file=out.nex` in the run nexus file. 
-(old, don't do this) copy everything from the .ckp~ file into the bottom of the aignment nexus file.
 
 The run with all kingdoms, one per order was saved in `data/mrbayes/all`.
 
@@ -134,3 +136,26 @@ This file is uploaded to timetree.org and the tree is saved in `data/species-tre
 A clade file is made with underscores in species names: `data/species-tree/clades2.csv`.
 
 The plot is made with the R script: `src/species-tree/dotplot.R`.
+
+# Make MCC tree
+`sumt --mbc -b 0.25 0.25 --biplen --rootmid -ns --basename bayes_summary -i ../hpc/all-new/out.nex.run1.t ../hpc/all-new/out.nex.run2.t`
+convert to newick in figtree and remove second tree. Save in `data/epa-ng/tree.nwk`
+
+# Tree placement
+Copy tree fasta: `cp data/proteome-tree/all-one_proteome_per_class.trimmed.fa data/epa-ng/ref.fa`.
+
+Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/ref.fa`.
+
+## Fungi one per order
+Copy query file: `cp data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa data/epa-ng/fungi-order/query.fa`
+Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/fungi-order/query.fa`.
+
+Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/fungi-order/query.fa > data/epa-ng/fungi-order/ref-query.fa`.
+
+Make alignment: `linsi --thread 7 data/epa-ng/fungi-order/ref-query.fa > data/epa-ng/fungi-order/ref-query-linsi.fa`
+
+Divide in two files: `data/epa-ng/fungi-order/query-linsi.fa` and `data/epa-ng/fungi-order/ref-linsi.fa`.
+
+Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/fungi-order/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/fungi-order/query-linsi.fa --model WAG --redo --outdir data/epa-ng/fungi-order/out`
+
+Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-order/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-order/out/`. This produces the file `data/epa-ng/fungi-order/out/epa_result.newick`.
