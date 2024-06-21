@@ -33,7 +33,7 @@ def write_colour_text_file(outfile_name, label, ids, values, value2color={}):
     if value2color == {}:
         value2color = make_value2color(values)
     with open(outfile_name, 'w') as file:
-        header = header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,{label}-text\nCOLOR,#000000\nDATA\n"
+        header = f"DATASET_TEXT\nSEPARATOR COMMA\nDATASET_LABEL,{label}-text\nCOLOR,#000000\nDATA\n"
         file.write(header)
         for id,value in zip(ids,values):
             if value not in value2color:
@@ -87,6 +87,85 @@ def make_taxonomy_label_files(df_uniprot, df_seeds):
         write_colour_text_file(output_filename_text, rank, ids, values, value2color)
         output_filename_strip = f"data/itol-label-files/uniprot-{rank}-strip.txt"
         write_colour_strip_file(output_filename_strip, rank, ids, values, value2color)
+
+def get_taxonomy_group(row):
+            # if row.kingdom == 'Fungi':
+        #     value = 'Fungi'
+        # elif row.kingdom == 'Oomycota':
+        #     value = 'Oomycota'
+        # elif row.phylum == 'Chordata':
+        #     value = 'Chordata'
+        # elif row.phylum == 'Rotifera':
+        #     value = 'Rotifera'
+        # elif row.phylum == 'Cnidaria':
+        #     value = 'Cnidaria'
+        # elif row.phylum == 'Annelida':
+        #     value = 'Annelida'
+        # elif row.phylum in ['Bacteroidetes', 'Planctomycetes', 'Proteobacteria', 'Acidobacteria', 'Chloroflexi', 'Cyanobacteria', 'Firmicutes', 'Actinobacteria', 'Deinococcus-Thermus', 'Gemmatimonadetes', 'Armatinomadetes', 'Verrucomicrobia', 'Nitrospirae', 'Armatimonadetes']:
+        #     value = 'Bacteria'
+        # elif row.phylum == 'Nematoda':
+        #     value = 'Nematoda'
+        # elif row.phylum == 'Brachiopoda':
+        #     value = 'Brachiopoda'
+        # elif row.phylum == 'Cnidaria':
+        #     value = 'Cnidaria'
+        # elif row.phylum == 'Mollusca':
+        #     value = 'Mollusc'
+        # elif row.species in ['Nannochloropsis gaditana', 'Ectocarpus siliculosus', 'Fragilariopsis cylindrus', 'Aureococcus anophagefferens']:
+        #     value = 'Gyrista'
+        # elif row.phylum == 'Oomycota':
+        #     value = 'Oomycota'
+        # elif row.phylum == 'Kingdom':
+        #     value = 'Plant'
+        # elif row.phylum == 'Evosea':
+        #     value = 'Evosea'
+        # elif row.phylum == 'Endomyxa':
+        #     value = 'Endomyxa'
+        # elif row.phylum == 'Ciliophora':
+        #     value = 'Ciliophora'
+        # elif row['class'] == 'Ichtyosporea':
+        #     value = 'Ichtyosporea'
+        # elif row['class'] == 'Platyhelminthes':
+        #     value = 'Platyhelminthes'
+        # else:
+        #     value = 'na'
+    if row.kingdom == 'Fungi':
+            value = 'Fungi'
+    elif row.kingdom == 'Oomycota':
+        value = 'Oomycota'
+    elif row.phylum == 'Chordata':
+        value = 'Chordata'
+    elif row.phylum == 'Cnidaria':
+        value = 'Cnidaria'
+    elif row.phylum in ['Bacteroidetes', 'Planctomycetes', 'Proteobacteria', 'Acidobacteria', 'Chloroflexi', 'Cyanobacteria', 'Firmicutes', 'Actinobacteria', 'Deinococcus-Thermus', 'Gemmatimonadetes', 'Armatinomadetes', 'Verrucomicrobia', 'Nitrospirae', 'Armatimonadetes']:
+        value = 'Bacteria'
+    elif row.phylum == 'Cnidaria':
+        value = 'Cnidaria'
+    elif row.phylum == 'Mollusca':
+        value = 'Mollusc'
+    elif row.phylum == 'Oomycota':
+        value = 'Oomycota'
+    elif row.kingdom == 'Viridiplantae':
+        value = 'Plant'
+    else:
+        value = 'Other'
+    return value
+
+def make_taxonomy_file_adapted(df_uniprot, df_seeds):
+    ids = df_uniprot.protein_accession.tolist() + df_seeds.descriptive_name.tolist()
+    values = []
+    for id, row in df_uniprot_hits.iterrows():
+        value = get_taxonomy_group(row)
+        values.append(value)
+    for id, row in df_seeds.iterrows():
+        value = get_taxonomy_group(row)
+        values.append(value)
+    value2color = {'Plant': '#00FF00', 'Other': '#FFFFFF', 'Fungi': '#964B00', 'Chordata': '#ffff00', 'Mollusc':'#FF00FF', 'Cnidaria':'#749275', 'Oomycota':'#937584', 'Bacteria':'#00ffff'}
+    output_filename = f"data/itol-label-files/uniprot-adapted-text.txt"
+    write_colour_text_file(output_filename, 'adapted', ids, values)
+    output_filename = f"data/itol-label-files/uniprot-adapted-strip.txt"
+    write_colour_strip_file(output_filename, 'adapted', ids, values, value2color)
+        
 
 def write_dotplot_phylum_html(df):
     values = ['Deinococcus-Thermus', 'Actinobacteria', 'Firmicutes', 'Cyanobacteria', 'Chloroflexi', 'Proteobacteria', 'Acidobacteria', 'Proteobacteria', 'Proteobacteria', 'Planctomycetes', 'Bacteroidetes', 'Bacteroidetes', 'Bacteroidetes', 'Evosea', 'Ciliophora', 'Endomyxa', 'Bacillariophyta', 'Oomycota', 'Oomycota', 'Rhodophyta', 'Rhodophyta', 'Chlorophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Chytridiomycota', 'Zoopagomycota', 'Zoopagomycota', 'Zoopagomycota', 'Mucoromycota', 'Basidiomycota', 'Basidiomycota', 'Basidiomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Cnidaria', 'Cnidaria', 'Nematoda', 'Rotifera', 'Brachiopoda', 'Annelida', 'Annelida', 'Mollusca', 'Mollusca', 'Mollusca', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata']
@@ -153,13 +232,30 @@ def make_taxonomy_arrow_files(df, domain):
         values = df[rank].tolist()
         write_arrow_file(output_filename, rank, ids, values, included_accessions)
 
+def write_binary_file(output_filename, label, ids, values, options):
+    colors = ['#' + "%06x" % random.randint(0, 0xFFFFFF) for i in range(len(options))]
+    with open(output_filename, 'w') as outfile:
+        shapes = ','.join([str(i) for i in range(1,len(options)+1)])
+        header = f"DATASET_BINARY\nSEPARATOR COMMA\nDATASET_LABEL,{label}-binary\nCOLOR,#000000\nFIELD_SHAPES,{shapes}\nFIELD_LABELS,{','.join(options)}\nFIELD_COLORS,{','.join(colors)}\nDATA\n"
+        outfile.write(header)
+        for id, value in zip(ids,values):
+            mylist = ['-1'] * len(options)
+            try:
+                index = options.index(value)
+            except:
+                continue
+            mylist[index] = '1'
+            outfile.write(f"{id},{','.join(mylist)}\n")
+
 def make_activity_label_file(df):
-    ids = df['protein_accession'].tolist()
+    ids = df['descriptive_name'].tolist()
     values = df['enzyme_class']
     outfilename = f"data/itol-label-files/activity.txt"
-    value2color = {'tyrosinase': '#880808', 'catechol oxidase': '#00FFFF', 'Hemocyanin': '#008000', 'Pro-phenoloxidase': '#FFFF00', 'O-aminophenol oxidase': '#00FF00'}
-    write_colour_text_file(outfilename, 'activity', ids, values, value2color)
-    
+    value2color = {'Tyrosinase': '#880808', 'Catechol oxidase': '#00FFFF', 'Hemocyanin': '#008000', 'Ortho-methoxy phenolase': '#FFFF00', 'O-aminophenol oxidase': '#00FF00'}
+    write_colour_strip_file(outfilename, 'activity', ids, values, value2color)
+    outfilename = f"data/itol-label-files/activity-binary.txt"
+    write_binary_file(outfilename, 'activity', ids, values, list(value2color.keys()))
+
 def make_binary_label_files(df):
     outfilename = f"data/itol-label-files/binary.txt"
     shape2number = {'rectangle': 1, 'circle': 2, 'star':3, 'right_pointing_triangle':4, \
@@ -440,7 +536,7 @@ def make_OG_files():
 # # Make seed label files
 seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_taxonomy_label_files(seed_df)
-# make_activity_label_file(seed_df)
+make_activity_label_file(seed_df)
 # make_binary_label_files(seed_df)
 # make_aguilera_subclass_label_file(seed_df)
 # # make_aguilera_subclass_label_file_text(seed_df)
@@ -457,6 +553,7 @@ seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 
 # Uniprot
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t', low_memory=False)
+# make_taxonomy_file_adapted(df_uniprot_hits, seed_df)
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
 # make_taxonomy_label_files(df_uniprot_hits, seed_df)
 # make_score_label_file()
@@ -471,14 +568,14 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # make_number_of_copies_file()
 
 # Species tree
-df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
+# df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
 # make_taxonomy_files_species_tree(df_species_tree)
-write_dotplot_phylum_html(df_species_tree)
+# write_dotplot_phylum_html(df_species_tree)
 
 # Clades
-df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
+# df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
 # write_heatmap_text_file(f'{outdir}/clade-heatmap.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
-write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
+# write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 
 # Make combined domain label file
 # make_domain_label_file_combined(df_uniprot_hits, seed_df)
