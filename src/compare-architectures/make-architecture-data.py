@@ -78,6 +78,22 @@ entries = [
     {'acc': 'F4PFF7', 'family': 'j_zoopagomycota', 'family_name': 'j (zoopagomycota)', 'descriptive_name': 'F4PFF7', 'domain_start_structure': 68, 'domain_end': 251, 'threshold':0.92},
 ]
 
+def make_sequencePos2alignedPos(aligned):
+    not_aligned_counter = 0
+    aligned_counter = 0
+    sequencePos2alignedPos = {}
+    for char in aligned:
+        aligned_counter += 1
+        if char != '-':
+            not_aligned_counter += 1
+            sequencePos2alignedPos[not_aligned_counter] = aligned_counter
+    return sequencePos2alignedPos
+
+# Read alignment all
+# alignment_all_groups = 'data/compare-architectures/aligned-sequences-noallgaps.fa'
+alignment_all_groups = 'data/compare-architectures/linsi2-noallgaps.fa'
+alignment_all_dict = read_MSA_file(alignment_all_groups)
+
 # Get conserved
 for i in range(len(entries)):
     entry = entries[i]
@@ -86,6 +102,9 @@ for i in range(len(entries)):
     conserved_residues = get_conserved_residues(fasta_dict, threshold=entry['threshold'], include_aliphatic=True)
     positions = get_specific_positions_conserved_residues(entry['descriptive_name'], conserved_residues, fasta_dict)
     entries[i]['conserved_positions'] = {position['pos'] + entry['domain_start_structure'] -1: position['AA'] for position in positions}
+    # Get positions in alignment
+    sequencePos2alignedPos = make_sequencePos2alignedPos(alignment_all_dict[entries[i]['acc']])
+    entries[i]['conserved_positions_alignment'] = {sequencePos2alignedPos[position['pos']] + entry['domain_start_structure'] -1: position['AA'] for position in positions}
 
 # Write conserved file
 outfilename = f"data/compare-architectures/conserved_{threshold}.js"
@@ -94,6 +113,15 @@ with open(outfilename, 'w') as outfile:
     for i in range(len(entries)):
         entry = entries[i]
         outfile.write(f"\t'{get_name(entry)}': {entry['conserved_positions']},\n")
+    outfile.write('};')
+
+# Write conserved file - alignment positions
+outfilename = f"data/compare-architectures/conserved_{threshold}-alignment-positions.js"
+with open(outfilename, 'w') as outfile:
+    outfile.write("const conservedResidues = {\n")
+    for i in range(len(entries)):
+        entry = entries[i]
+        outfile.write(f"\t'{get_name(entry)}': {entry['conserved_positions_alignment']},\n")
     outfile.write('};')
 
 # Get architecture strings
