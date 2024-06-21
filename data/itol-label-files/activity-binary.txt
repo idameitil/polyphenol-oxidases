@@ -1,0 +1,34 @@
+DATASET_BINARY
+SEPARATOR COMMA
+DATASET_LABEL,activity-binary
+COLOR,#000000
+FIELD_SHAPES,1,2,3,4,5
+FIELD_LABELS,Tyrosinase,Catechol oxidase,Hemocyanin,Ortho-methoxy phenolase,O-aminophenol oxidase
+FIELD_COLORS,#849cc2,#94de31,#5f173d,#760bc7,#4b588b
+DATA
+TyrSc,1,-1,-1,-1,-1
+TyrBm,1,-1,-1,-1,-1
+PPOVv,-1,1,-1,-1,-1
+IbCO,-1,1,-1,-1,-1
+TyrAo,1,-1,-1,-1,-1
+proPOMc_1,1,-1,-1,-1,-1
+proPOMc_2,1,-1,-1,-1,-1
+ProPOc,1,-1,-1,-1,-1
+Lobster_Hc,-1,-1,1,-1,-1
+Crab_Hc,-1,-1,1,-1,-1
+Octopus_Hc,-1,-1,1,-1,-1
+Rapana_Hc,-1,-1,1,-1,-1
+AoCO4,-1,-1,-1,1,-1
+CgPPO-473,-1,-1,-1,1,-1
+CgPPO-266,-1,-1,-1,1,-1
+MtPPO-809,-1,-1,-1,1,-1
+MtPPO-010,-1,-1,-1,1,-1
+PpPPO-c2092,-1,-1,-1,1,-1
+MtPPO7,-1,-1,-1,1,-1
+AbTyr,1,-1,-1,-1,-1
+OapoSm,-1,-1,-1,-1,1
+SlPPO1,-1,1,-1,-1,-1
+MdPPO1,-1,1,-1,-1,-1
+CgAUS1,-1,1,-1,-1,-1
+HjTyr,1,-1,-1,-1,-1
+PsTyr,1,-1,-1,-1,-1

@@ -1,35 +1,33 @@
 DATASET_COLORSTRIP
-SEPARATOR COMMA
-DATASET_LABEL,activity
-COLOR,#ff0000
+SEPARATOR TAB
+DATASET_LABEL	activity-strip
+COLOR	#ff0000
 DATA
-1WX2,#880808,tyrosinase
-3NM8,#880808,tyrosinase
-2P3X,#880808,tyrosinase
-1BT3,#00FFFF,catechol oxidase
-4OUA,#880808,tyrosinase
-3W6Q,#880808,tyrosinase
-3HHS_1,#880808,tyrosinase
-3HHS_2,#880808,tyrosinase
-3WKY,#880808,tyrosinase
-1HCY,#008000,Hemocyanin
-1NOL,#008000,Hemocyanin
-1JS8,#008000,Hemocyanin
-1LNL,#008000,Hemocyanin
-4J3P,#880808,tyrosinase
-XP_001221473.1,#880808,tyrosinase
-XP_001224266.1,#880808,tyrosinase
-XP_003659809.1,#880808,tyrosinase
-XP_003666010.1,#880808,tyrosinase
-CAI4219580.1,#880808,tyrosinase
-XP_003662515.1,#880808,tyrosinase
-2Y9X,#880808,tyrosinase
-BAJ08174.1,#00FF00,O-aminophenol oxidase
-6HQI,#880808,tyrosinase
-Q08307,#00FFFF,catechol oxidase
-6ELS,#880808,tyrosinase
-Q93XM8,#880808,tyrosinase
-T1W3L4,#880808,tyrosinase
-NP_001053932.1,#00FFFF,catechol oxidase
-NP_524760.1,#880808,tyrosinase
-NP_035791.1,#880808,tyrosinase
+TyrSc	#880808	Tyrosinase
+TyrBm	#880808	Tyrosinase
+PPOVv	#00FFFF	Catechol oxidase
+IbCO	#00FFFF	Catechol oxidase
+TyrAo	#880808	Tyrosinase
+proPOMc_1	#880808	Tyrosinase
+proPOMc_2	#880808	Tyrosinase
+ProPOc	#880808	Tyrosinase
+Lobster_Hc	#008000	Hemocyanin
+Crab_Hc	#008000	Hemocyanin
+Octopus_Hc	#008000	Hemocyanin
+Rapana_Hc	#008000	Hemocyanin
+AoCO4	#FFFF00	Ortho-methoxy phenolase
+CgPPO-473	#FFFF00	Ortho-methoxy phenolase
+CgPPO-266	#FFFF00	Ortho-methoxy phenolase
+MtPPO-809	#FFFF00	Ortho-methoxy phenolase
+MtPPO-010	#FFFF00	Ortho-methoxy phenolase
+PpPPO-c2092	#FFFF00	Ortho-methoxy phenolase
+MtPPO7	#FFFF00	Ortho-methoxy phenolase
+AbTyr	#880808	Tyrosinase
+OapoSm	#00FF00	O-aminophenol oxidase
+SlPPO1	#00FFFF	Catechol oxidase
+MdPPO1	#00FFFF	Catechol oxidase
+CgAUS1	#00FFFF	Catechol oxidase
+TyrHs	#FFFFFF	nan
+AoMelO	#FFFFFF	nan
+HjTyr	#880808	Tyrosinase
+PsTyr	#880808	Tyrosinase

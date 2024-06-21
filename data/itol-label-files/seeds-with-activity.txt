@@ -1,0 +1,29 @@
+DATASET_TEXT
+SEPARATOR COMMA
+DATASET_LABEL,seeds
+COLOR,#000000
+DATA
+abPPO4,AbPPO4 (Tyrosinase),-1,#000000,bold,4,0
+TyrAo,AoTyr (Tyrosinase),-1,#000000,bold,4,0
+AoCO4,AoCO4 (o-methoxy phenolase),-1,#000000,bold,4,0
+MtPPO809,MtPPO-809 (o-methoxy phenolase),-1,#000000,bold,4,0
+PpPPOc2092,PpPPO-c2092 (o-methoxy phenolase),-1,#000000,bold,4,0
+CgPPO473,CgPPO-473 (o-methoxy phenolase),-1,#000000,bold,4,0
+MtPPO7,MtPPO7 (o-methoxy phenolase),-1,#000000,bold,4,0
+CgPPO266,CgPPO-266 (o-methoxy phenolase),-1,#000000,bold,4,0
+TtPPO010,MtPPO-010 (o-methoxy phenolase),-1,#000000,bold,4,0
+AbPPO3,AbPPO3 (Tyrosinase),-1,#000000,bold,4,0
+TyrSc,ScTyr (Tyrosinase),-1,#000000,bold,4,0
+TyrBm,TyrBm (Tyrosinase),-1,#000000,bold,4,0
+PPOVv,VvPPO (Catechol oxidase),-1,#000000,bold,4,0
+IbCO,IbCO (Catechol oxidase),-1,#000000,bold,4,0
+Octopus_Hc,EdHc (Hemocyanin),-1,#000000,bold,4,0
+Rapana_Hc,RvHc (Hemocyanin),-1,#000000,bold,4,0
+OapoSm,NpsF (o-aminophenol oxidase),-1,#000000,bold,4,0
+SlPPO1,SlPPO1 (Catechol oxidase),-1,#000000,bold,4,0
+SlPPO2,SlPPO2 (Catechol oxidase),-1,#000000,bold,4,0
+MdPPO1,MdPPO1 (Catechol oxidase),-1,#000000,bold,4,0
+MdPPO2,MdPPO2 (Catechol oxidase),-1,#000000,bold,4,0
+MdPPO3,MdPPO3 (Catechol oxidase),-1,#000000,bold,4,0
+CgAUS1,CgAUS1 (Catechol oxidase),-1,#000000,bold,4,0
+TyrHs,HsTrp1 (Tyrosinase-related protein),-1,#000000,bold,4,0
