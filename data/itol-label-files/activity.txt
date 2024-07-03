@@ -3,18 +3,13 @@ SEPARATOR TAB
 DATASET_LABEL	activity-strip
 COLOR	#ff0000
 DATA
-TyrSc	#880808	Tyrosinase
-TyrBm	#880808	Tyrosinase
-PPOVv	#00FFFF	Catechol oxidase
+ScTyr	#880808	Tyrosinase
+BmTyr	#880808	Tyrosinase
+VvPPO	#00FFFF	Catechol oxidase
 IbCO	#00FFFF	Catechol oxidase
-TyrAo	#880808	Tyrosinase
-proPOMc_1	#880808	Tyrosinase
-proPOMc_2	#880808	Tyrosinase
-ProPOc	#880808	Tyrosinase
-Lobster_Hc	#008000	Hemocyanin
-Crab_Hc	#008000	Hemocyanin
-Octopus_Hc	#008000	Hemocyanin
-Rapana_Hc	#008000	Hemocyanin
+AoMelB	#880808	Tyrosinase
+EdHc	#008000	Hemocyanin
+RvHc	#008000	Hemocyanin
 AoCO4	#FFFF00	Ortho-methoxy phenolase
 CgPPO-473	#FFFF00	Ortho-methoxy phenolase
 CgPPO-266	#FFFF00	Ortho-methoxy phenolase
@@ -23,11 +18,12 @@ MtPPO-010	#FFFF00	Ortho-methoxy phenolase
 PpPPO-c2092	#FFFF00	Ortho-methoxy phenolase
 MtPPO7	#FFFF00	Ortho-methoxy phenolase
 AbTyr	#880808	Tyrosinase
-OapoSm	#00FF00	O-aminophenol oxidase
+NpsF	#00FF00	O-aminophenol oxidase
 SlPPO1	#00FFFF	Catechol oxidase
 MdPPO1	#00FFFF	Catechol oxidase
 CgAUS1	#00FFFF	Catechol oxidase
-TyrHs	#FFFFFF	nan
+HsTrp1	#880808	Tyrosinase
 AoMelO	#FFFFFF	nan
 HjTyr	#880808	Tyrosinase
 PsTyr	#880808	Tyrosinase
+GriF	#00FF00	O-aminophenol oxidase

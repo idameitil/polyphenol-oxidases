@@ -139,14 +139,16 @@ def get_taxonomy_group(row):
         value = 'Cnidaria'
     elif row.phylum in ['Bacteroidetes', 'Planctomycetes', 'Proteobacteria', 'Acidobacteria', 'Chloroflexi', 'Cyanobacteria', 'Firmicutes', 'Actinobacteria', 'Deinococcus-Thermus', 'Gemmatimonadetes', 'Armatinomadetes', 'Verrucomicrobia', 'Nitrospirae', 'Armatimonadetes']:
         value = 'Bacteria'
-    elif row.phylum == 'Cnidaria':
-        value = 'Cnidaria'
     elif row.phylum == 'Mollusca':
         value = 'Mollusc'
     elif row.phylum == 'Oomycota':
         value = 'Oomycota'
     elif row.kingdom == 'Viridiplantae':
         value = 'Plant'
+    elif row.phylum == 'Brachiopoda':
+        value = 'Brachiopod'
+    elif row.phylum == 'Nematoda':
+        value = 'Nematode'
     else:
         value = 'Other'
     return value
@@ -160,7 +162,7 @@ def make_taxonomy_file_adapted(df_uniprot, df_seeds):
     for id, row in df_seeds.iterrows():
         value = get_taxonomy_group(row)
         values.append(value)
-    value2color = {'Plant': '#00FF00', 'Other': '#FFFFFF', 'Fungi': '#964B00', 'Chordata': '#ffff00', 'Mollusc':'#FF00FF', 'Cnidaria':'#749275', 'Oomycota':'#937584', 'Bacteria':'#00ffff'}
+    value2color = {'Plant': '#00FF00', 'Other': '#FFFFFF', 'Fungi': '#964B00', 'Chordata': '#ffff00', 'Mollusc':'#FF00FF', 'Cnidaria':'#ff0000', 'Oomycota':'#937584', 'Bacteria':'#00ffff', 'Brachiopod': '#FF7F50', 'Nematode': '#008080'}
     output_filename = f"data/itol-label-files/uniprot-adapted-text.txt"
     write_colour_text_file(output_filename, 'adapted', ids, values)
     output_filename = f"data/itol-label-files/uniprot-adapted-strip.txt"
@@ -400,7 +402,7 @@ def write_domain_label_file(output_filename, ids, lengths, domains):
         'PF00372':{'name': 'Hemocyanin, copper containing domain', 'type': 'Pfam', 'color': '#4a8026'},
         'PF00187': {'name': 'Chitin recognition protein', 'type': 'Pfam', 'color': '#fdd44a'},
         'PF14830':{'name': 'Haemocyanin beta-sandwich', 'type': 'Pfam', 'color': '#119d58'},
-        'PF00734':{'name': 'Fungal cellulose binding domain', 'type': 'Pfam', 'color': '#854442 '},
+        'PF00734':{'name': 'Fungal cellulose binding domain', 'type': 'Pfam', 'color': '#854442'},
         'PF01423':{'name': 'LSM domain', 'type': 'Pfam', 'color': '#37aeeb'},
         'PF11807':{'name': 'Mycotoxian biosynthesis protein UstYa', 'type': 'Pfam', 'color': '#7984f3'},
         'PF19343':{'name': 'Family of unknown function (DUF5923)', 'type': 'Pfam', 'color': '#de9261'},
@@ -437,7 +439,7 @@ def write_domain_label_file(output_filename, ids, lengths, domains):
     
 def make_domain_label_file_combined(df_uniprot, df_seeds):
     ids = df_uniprot.protein_accession.tolist() + df_seeds.descriptive_name.tolist()
-    lengths = [len(seq) for seq in (df_uniprot.seq.tolist() + df_seeds.sequence.tolist())]
+    lengths = [len(seq) for seq in (df_uniprot.seq.tolist() + df_seeds.full_sequence.tolist())]
     domains = []
     unique_domains = [column_name for column_name in df_uniprot.columns if column_name.startswith('domain_')]
     domains_ignore = ['NON_CYTOPLASMIC', 'CYTOPLASMIC_DOMAIN', 'SIGNAL_PEPTIDE', 'SIGNAL_PEPTIDE_N_REGION', 'SignalP-TM_SignalP-TM', 'SIGNAL_PEPTIDE_C_REGION', 'SIGNAL_PEPTIDE_H_REGION']
@@ -578,4 +580,4 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 
 # Make combined domain label file
-# make_domain_label_file_combined(df_uniprot_hits, seed_df)
+make_domain_label_file_combined(df_uniprot_hits, seed_df)

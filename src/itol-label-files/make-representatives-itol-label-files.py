@@ -28,7 +28,7 @@ def make_itol_file(infile, outfile, seed_list):
             outfile.write(f"{representative},{members_string},-1,#000000,bold,10,0\n")
 
 # Fungal
-fungal_seed_names = ['abPPO4', 'TyrAo', 'AoCO4','CgPPO1473','CgPPO266','MtPPO809','TtPPO010','PpPPOc2029','MtPPO7','AbPPO3']
+fungal_seed_names = ['abPPO4', 'AoMelB', 'AoCO4','CgPPO1473','CgPPO266','MtPPO809','TtPPO010','PpPPOc2029','MtPPO7','AbPPO3']
 
 print('*Fungal 0.5*\n')
 fungi_5_infile = "data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-withoutgaps-withseeds-cdhit0.5.fasta.clstr"
@@ -41,9 +41,9 @@ fungi_6_outfile = "data/pfam/PF00264.alignment.uniprot-cleaned-filtered-fungi-wi
 make_itol_file(fungi_6_infile, fungi_6_outfile, fungal_seed_names)
 
 # All kingdoms
-all_seed_names = ['TyrSc','TyrBm','PPOVv','IbCO','abPPO4','TyrAo','proPOMc_1','proPOMc_2','ProPOc','Lobster_Hc','Crab_Hc',
-              'Octopus_Hc','Rapana_Hc','AoCO4','CgPPO1473','CgPPO266','MtPPO809','TtPPO010','PpPPOc2029','MtPPO7',
-              'AbPPO3','OapoSm','SlPPO1','SlPPO2','MdPPO1','MdPPO2','MdPPO3','CgAUS1','TyrHs']
+all_seed_names = ['ScTyr','BmTyr','VvPPO','IbCO','abPPO4','AoMelB','proPOMc_1','proPOMc_2','ProPOc','Lobster_Hc','Crab_Hc',
+              'EdHc','RvHc','AoCO4','CgPPO1473','CgPPO266','MtPPO809','TtPPO010','PpPPOc2029','MtPPO7',
+              'AbPPO3','NpsF','SlPPO1','SlPPO2','MdPPO1','MdPPO2','MdPPO3','CgAUS1','TyrHs']
 
 print('*All kingdoms 0.5*\n')
 all_5_infile = "data/pfam/PF00264.alignment.uniprot-cleaned-filtered-withoutgaps-withseeds-cdhit0.5.fasta.clstr"

@@ -1,7 +1,5 @@
 from Bio import SeqIO
 
-itol_file = 'data/itol-label-files/domain-combined.txt'
-outfile_name = 'data/itol-label-files/domain-combined-location.txt'
 fasta = 'data/proteome-tree/all-one_proteome_per_class.trimmed.fa'
 
 def get_ids(fasta):
@@ -34,7 +32,9 @@ def translate(infile_name, outfile_name, sep):
 itol_files = [{'name': 'domain-combined', 'sep': ','}, 
               {'name': 'uniprot-kingdom-strip', 'sep': '\t'},
               {'name': 'uniprot-phylum-strip', 'sep': '\t'},
-              {'name': 'uniprot-class-text', 'sep': ','}
+              {'name': 'uniprot-class-text', 'sep': ','},
+              {'name': 'uniprot-species-text', 'sep': ','},
+              {'name': 'uniprot-adapted-strip', 'sep': '\t'}
               ]
 
 for file in itol_files:

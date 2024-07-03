@@ -218,7 +218,7 @@ A0A2T6ZP82.1051-238,282,HH|51|238|#10aefd|PF00264: Common central domain of tyro
 A0A2T6ZRN0.1056-314,667,HH|56|314|#10aefd|PF00264: Common central domain of tyrosinase,HH|499|627|#db9758|PF18132: Tyosinase C-terminal domain
 A0A2T6ZRN3.1056-314,652,HH|56|314|#10aefd|PF00264: Common central domain of tyrosinase,HH|483|612|#db9758|PF18132: Tyosinase C-terminal domain
 A0A2T6ZWP4.1054-328,634,HH|54|328|#10aefd|PF00264: Common central domain of tyrosinase,HH|455|574|#db9758|PF18132: Tyosinase C-terminal domain
-A0A2T6ZWP9.10814-1067,1439,HH|814|1067|#10aefd|PF00264: Common central domain of tyrosinase,HH|1253|1362|#db9758|PF18132: Tyosinase C-terminal domain,HH|23|45|#854442 |PF00734: Fungal cellulose binding domain,RE|1|19|#2d297a|Signal peptide,RE|1|19|#2d297a|Signal peptide
+A0A2T6ZWP9.10814-1067,1439,HH|814|1067|#10aefd|PF00264: Common central domain of tyrosinase,HH|1253|1362|#db9758|PF18132: Tyosinase C-terminal domain,HH|23|45|#854442|PF00734: Fungal cellulose binding domain,RE|1|19|#2d297a|Signal peptide,RE|1|19|#2d297a|Signal peptide
 A0A2T7A7H9.1080-286,349,HH|80|286|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|23|#2d297a|Signal peptide,RE|1|23|#2d297a|Signal peptide
 A0A2V3IRL0.10236-413,521,HH|236|413|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|19|#2d297a|Signal peptide,RE|1|19|#2d297a|Signal peptide
 A0A2V3ITQ3.1071-375,576,HH|71|375|#10aefd|PF00264: Common central domain of tyrosinase
@@ -523,13 +523,13 @@ U5GXC6.10159-369,581,HH|159|369|#10aefd|PF00264: Common central domain of tyrosi
 V3ZAB2.10130-305,766,HH|130|305|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|19|#2d297a|Signal peptide
 V4A5X3.1071-349,626,HH|71|349|#10aefd|PF00264: Common central domain of tyrosinase
 V4AN59.10101-281,525,HH|101|281|#10aefd|PF00264: Common central domain of tyrosinase
-W7TM70.10197-372,636,HH|197|372|#10aefd|PF00264: Common central domain of tyrosinase,HH|39|67|#854442 |PF00734: Fungal cellulose binding domain,RE|1|26|#2d297a|Signal peptide
-TyrSc,281,HH|29|229|#10aefd|PF00264: Common central domain of tyrosinase
-TyrBm,303,HH|34|242|#10aefd|PF00264: Common central domain of tyrosinase
-PPOVv,339,HH|77|284|#10aefd|PF00264: Common central domain of tyrosinase,HH|292|338|#cf7dd4|PF12142: Polyphenol oxidase middle domain
-IbCO,345,HH|79|286|#10aefd|PF00264: Common central domain of tyrosinase,HH|295|345|#cf7dd4|PF12142: Polyphenol oxidase middle domain
-Octopus_Hc,394,HH|32|212|#10aefd|PF00264: Common central domain of tyrosinase,HH|288|386|#119d58|PF14830: Haemocyanin beta-sandwich
-Rapana_Hc,408,HH|35|227|#10aefd|PF00264: Common central domain of tyrosinase,HH|305|407|#119d58|PF14830: Haemocyanin beta-sandwich
+W7TM70.10197-372,636,HH|197|372|#10aefd|PF00264: Common central domain of tyrosinase,HH|39|67|#854442|PF00734: Fungal cellulose binding domain,RE|1|26|#2d297a|Signal peptide
+ScTyr,213,HH|1|169|#10aefd|PF00264: Common central domain of tyrosinase
+BmTyr,297,HH|34|242|#10aefd|PF00264: Common central domain of tyrosinase
+VvPPO,607,HH|180|387|#10aefd|PF00264: Common central domain of tyrosinase,HH|395|443|#cf7dd4|PF12142: Polyphenol oxidase middle domain,HH|477|604|#de37d0|PF12143: Protein of unknown function (DUF_B2219)
+IbCO,496,HH|79|286|#10aefd|PF00264: Common central domain of tyrosinase,HH|295|345|#cf7dd4|PF12142: Polyphenol oxidase middle domain,HH|367|493|#de37d0|PF12143: Protein of unknown function (DUF_B2219)
+EdHc,2896,HH|866|1056|#10aefd|PF00264: Common central domain of tyrosinase,HH|452|644|#10aefd|PF00264: Common central domain of tyrosinase,HH|1283|1468|#10aefd|PF00264: Common central domain of tyrosinase,HH|2118|2305|#10aefd|PF00264: Common central domain of tyrosinase,HH|2534|2714|#10aefd|PF00264: Common central domain of tyrosinase,HH|1700|1892|#10aefd|PF00264: Common central domain of tyrosinase,HH|32|221|#10aefd|PF00264: Common central domain of tyrosinase,HH|2380|2487|#119d58|PF14830: Haemocyanin beta-sandwich,HH|295|403|#119d58|PF14830: Haemocyanin beta-sandwich,HH|1971|2070|#119d58|PF14830: Haemocyanin beta-sandwich,HH|1545|1652|#119d58|PF14830: Haemocyanin beta-sandwich,HH|722|822|#119d58|PF14830: Haemocyanin beta-sandwich,HH|1134|1236|#119d58|PF14830: Haemocyanin beta-sandwich,HH|2790|2888|#119d58|PF14830: Haemocyanin beta-sandwich
+RvHc,413,HH|40|232|#10aefd|PF00264: Common central domain of tyrosinase,HH|310|412|#119d58|PF14830: Haemocyanin beta-sandwich
 CgPPO-473,420,HH|111|343|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|18|#2d297a|Signal peptide
 CgPPO-266,386,HH|105|326|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|19|#2d297a|Signal peptide,RE|1|19|#2d297a|Signal peptide
 MtPPO-809,375,HH|92|319|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|23|#2d297a|Signal peptide
@@ -537,8 +537,8 @@ MtPPO-010,424,HH|120|351|#10aefd|PF00264: Common central domain of tyrosinase,RE
 PpPPO-c2092,407,HH|116|349|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|22|#2d297a|Signal peptide,RE|1|22|#2d297a|Signal peptide
 MtPPO7,420,HH|111|343|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|18|#2d297a|Signal peptide
 AbTyr,576,HH|52|308|#10aefd|PF00264: Common central domain of tyrosinase,HH|424|535|#db9758|PF18132: Tyosinase C-terminal domain
-OapoSm,305,HH|31|260|#10aefd|PF00264: Common central domain of tyrosinase
+NpsF,305,HH|31|260|#10aefd|PF00264: Common central domain of tyrosinase
 SlPPO1,630,HH|172|382|#10aefd|PF00264: Common central domain of tyrosinase,HH|389|440|#cf7dd4|PF12142: Polyphenol oxidase middle domain,HH|460|590|#de37d0|PF12143: Protein of unknown function (DUF_B2219)
-AoMelO,626
-HjTyr,561
-PsTyr,618
+AoMelO,626,HH|54|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|463|583|#db9758|PF18132: Tyosinase C-terminal domain
+HjTyr,561,HH|73|312|#10aefd|PF00264: Common central domain of tyrosinase,RE|1|18|#2d297a|Signal peptide,RE|1|18|#2d297a|Signal peptide
+PsTyr,618,HH|55|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|461|581|#db9758|PF18132: Tyosinase C-terminal domain
