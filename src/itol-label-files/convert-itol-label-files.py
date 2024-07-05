@@ -15,7 +15,6 @@ def get_ids(fasta):
     return ids
 
 ids = get_ids(fasta)
-print(ids)
 ids_filtered_out = get_ids(fasta_filtered_out)
 
 def translate(infile_name, outfile_name, sep):
