@@ -22,7 +22,6 @@ names(df)[names(df) == 'singletons'] = 's'
 
 df = df %>%
   pivot_longer(!species, names_to = "group", values_to = "count")
-df
 
 species_unique <- df$species %>% unique()
 
@@ -33,37 +32,25 @@ metadata$species <- gsub(' ', '_', metadata$species)
 # Merge
 merged_table <- left_join(df, metadata, by = "species")
 
-# Tree
-## Method 1
-#x <- read.dendrogram('data/species-tree/species.nwk')
-#p1 <- plot(x, horiz = TRUE)
-
-## Method 2
+# Read tree
 tree <- read.tree('data/species-tree/species.nwk')
-dend <- chronos(tree)
-ggtree_plot <- ggtree(dend) +
-  geom_treescale() +
-  geom_tiplab(align=TRUE, size=3) +
-  xlim(0,1.1)
 
-## Use tree order to order dotplot
-p2b = ggplot_build(ggtree_plot)
-species_order = p2b$data[[6]] %>% arrange(y) %>% pull(label)
+# Use tree order to order dotplot
+tree_plot_labelled <- ggtree(tree) +
+  geom_tiplab()
+p2b = ggplot_build(tree_plot_labelled)
+species_order = p2b$data[[3]] %>% arrange(y) %>% pull(label)
 merged_table = merged_table %>% 
   mutate(species = factor(species, levels=species_order))
 
-## Method 3
+# Plot tree
 ggtree_plot <- ggtree(tree) +
-  theme(plot.margin = unit(c(0.5,0,0.5,0.5), 'cm')) 
+  theme(plot.margin = unit(c(0.5,0,0.5,0), 'cm'))
 
-#'#C87EE9'
-#'#A2F8F9'
-#'#00057C'
-#'#116F6D'
-colors_groups = c('#10aefd', '#db9758', '#f71252', '#119d58', '#6985b5', '#ecd75a', '#8e1730', '#52099b', '#fb8b34', '#F056EA', '#000000')
+#'#C87EE9', '#A2F8F9', '#00057C', '#116F6D', '#ecd75a'
+colors_groups = c('#10aefd', '#db9758', '#f71252', '#119d58', '#6985b5', '#8e1730', '#52099b', '#fb8b34', '#F056EA', '#000000')
 
-myfun <- function(x) gsub("(^\\w)\\w*_(\\w+)", "\\1. \\2", x)
-myfun('Homo_sapiens')
+change_species_name <- function(x) gsub("(^\\w)\\w*_(\\w+)", "\\1. \\2", x)
 # Make dotplot
 dotplot <- merged_table %>% filter(species %in% species_unique) %>%
   filter(count > 0) %>% 
@@ -73,72 +60,36 @@ dotplot <- merged_table %>% filter(species %in% species_unique) %>%
     color = group, 
     size = count)) + 
   geom_point(show.legend = FALSE, alpha=1) +
-#  cowplot::theme_cowplot() + 
   geom_text(aes(label = count), color = 'white', size = 1.5) +
   theme_minimal() +
   theme(
-        #axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.text.x = element_text(colour = colors_groups, size = 14),
         axis.text.y = element_text(size = 7, hjust=0, face = 'italic'),
         axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         axis.ticks.x=element_blank(),
         axis.ticks.y=element_blank(),
-        plot.margin = unit(c(0.5,0.5,0.5,3), 'cm')
+        plot.margin = unit(c(0.5,0.5,0.5,2), 'cm')
         ) +
   scale_color_manual(values = colors_groups) +
-  scale_y_discrete(labels = myfun)
-plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(1,3), align = 'h')
+  scale_y_discrete(labels = change_species_name)
+plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(4,3), align = 'h')
 
-# Arange
-## Method 1
+# Save pdf
 pdf(file="manuscript/figures/dotplot.pdf",
-    width = 10,
+    width = 9,
     height = 8)
-plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(3,3), align = 'h')
+plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(4,3), align = 'h')
 dev.off()
-## Method 2
-#grid.arrange(ggtree_plot, dotplot, ncol=2)
 
-
-
-
-# Phylum stuff
-df_filtered <- merged_table %>% filter(species %in% species_unique) %>%
-  filter(count > 0)
-
+# Write phylum list
 phylum_ordered <- species_order %>%
   as.data.frame() %>%
   rename(species = ".") %>%
   left_join(metadata, by = "species") %>%
   pull(phylum)
-#output for python
-#cat(phylum_ordered, sep="', '")
 
 file_name <- file("data/species-tree/phylum.txt")
 writeLines(phylum_ordered, file_name)
 close(file_name)
-
-
-result_table <- data.frame(
-  phylum = phylum_ordered,
-  x = seq(length(phylum_ordered)),
-  y = factor(seq(length(phylum_ordered)))
-)
-
-result_table %>%
-  ggplot(aes(x, y, color=phylum)) +
-  geom_blank() +
-  theme(axis.text.x = element_text(size=6)) +
-  scale_y_discrete(labels = phylum_ordered) +
-  theme(plot.margin = margin(0, 0, 0, 0))
-
-+
-  theme(axis.text.y = element_text(size=6),
-        axis.line.x=element_blank(),
-        axis.text.x=element_blank(),
-        axis.ticks.x=element_blank(),
-        axis.title.x=element_blank(),
-        panel.grid.minor.x=element_blank(),
-        panel.grid.major.x=element_blank())
 

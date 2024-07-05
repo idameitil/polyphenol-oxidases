@@ -36,7 +36,7 @@ class proteomeData:
         self.score_threshold = score_threshold
         self.selected_proteomes2species = self.get_selected_proteomes()
         self.accs_from_selected_proteomes = self.get_accs_from_selected_proteomes()
-        self.filtered_sequences, self.filtered_out_sequences = self.filter_sequences(self.score_threshold)
+        self.selected_sequences, self.filtered_out_sequences = self.filter_sequences(self.score_threshold)
 
     def get_selected_proteomes(self):
         if self.domain == "all" and self.rank == "class":
@@ -61,7 +61,7 @@ class proteomeData:
         fasta_sequences = SeqIO.parse(
             "data/pfam/protein-matching-PF00264-shortheaders.fasta", "fasta"
         )
-        filtered_sequences = []
+        selected_sequences = []
         filtered_out_sequences = []
         count = 0
         for fasta in fasta_sequences:
@@ -77,19 +77,19 @@ class proteomeData:
                     {"acc": fasta.id, "position": f"{start}-{end}"}
                 )
                 else:
-                    filtered_sequences.append(
+                    selected_sequences.append(
                         {"acc": fasta.id, "position": f"{start}-{end}"}
                     )
         print(f"Total: {count}")
-        print(f"Succeeded: {len(filtered_sequences)}")
-        return filtered_sequences, filtered_out_sequences
+        print(f"Succeeded: {len(selected_sequences)}")
+        return selected_sequences, filtered_out_sequences
 
     def write_selected_sequences(self):
         filename = (
             f"data/proteome-tree/selected-sequences-{self.domain}-{self.rank}.txt"
         )
         with open(filename, "w") as outfile:
-            for entry in self.filtered_sequences:
+            for entry in self.selected_sequences:
                 outfile.write(f"{entry['acc']},{entry['position']}\n")
 
     def write_filtered_out_sequences(self):
@@ -100,6 +100,24 @@ class proteomeData:
             for entry in self.filtered_out_sequences:
                 outfile.write(f"{entry['acc']},{entry['position']}\n")
 
+    def write_selected_sequences_nooverlap(self, excluded):
+        filename = (
+            f"data/proteome-tree/selected-sequences-{self.domain}-{self.rank}-nooverlap.txt"
+        )
+        with open(filename, "w") as outfile:
+            for entry in self.selected_sequences:
+                if not entry in excluded:
+                    outfile.write(f"{entry['acc']},{entry['position']}\n")
+
+    def write_filtered_out_sequences_nooverlap(self, excluded):
+        filename = (
+            f"data/proteome-tree/filtered-out-sequences-{self.domain}-{self.rank}-nooverlap.txt"
+        )
+        with open(filename, "w") as outfile:
+            for entry in self.filtered_out_sequences:
+                if not entry in excluded:
+                    outfile.write(f"{entry['acc']},{entry['position']}\n")
+
 
 all_class = proteomeData(domain="all", rank="class", score_threshold=1e-20)
 all_class.write_selected_sequences()
@@ -108,3 +126,6 @@ all_class.write_filtered_out_sequences()
 all_fungal = proteomeData(domain="fungi", rank="order", score_threshold=1e-20)
 all_fungal.write_selected_sequences()
 all_fungal.write_filtered_out_sequences()
+
+all_fungal.write_filtered_out_sequences_nooverlap(excluded=all_class.filtered_out_sequences)
+all_fungal.write_selected_sequences_nooverlap(excluded=all_class.selected_sequences)

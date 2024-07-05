@@ -1,3 +1,13 @@
+# Species with no sequences in the alignment file
+These species were removed, because the sequences matching the pfam are not in the pfam alignment:
+UP000792457, Ladona fulva
+UP001152320, Holothuria leucospilota
+UP000698800, Glutinoglossum americanum
+UP000619457, Echinicola pacifica
+UP000010798, Singulisphaera acidiphila*
+UP000595254, Peribacillus psychrosaccharolyticus
+UP000798488, Sporotomaculum syntrophicum
+
 # Hexamerins
 Hexamerins are also in the hemocyanin pfam
 

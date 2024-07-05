@@ -113,7 +113,7 @@ A csv file is made by running `python src/proteome-tree/clade-annotations.py`. T
 
 (not used) iTOL heatmap file is made by running `python src/itol-label-files/make-itol-label-files.py` and is shown on the species tree.
 
-A dotplot is made in R with the script``src/species-tree/dotplot.R`.
+A dotplot is made in R with the script `src/species-tree/dotplot.R`. 
 
 The phylum list `data/species-tree/phylum.txt` is written in the R script `src/species-tree/dotplot.R`. 
 
@@ -136,7 +136,7 @@ To run the pymol script, run `pymol src/structural-visualizations/conserved-resi
 To make iTOL label files, run `python src/itol-label-files/make-itol-label-files.py`
 
 # Species tree
-A list of included species is made: `data/species-tree/species`.
+A list of included species is made by copying it from the "class-representatives" file: `data/species-tree/species`.
 
 This file is uploaded to timetree.org and the tree is saved in `data/species-tree/species.nwk`.
 
@@ -181,3 +181,10 @@ Divide in two files: `data/epa-ng/fungi-order/query-linsi.fa` and `data/epa-ng/f
 Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/fungi-order/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/fungi-order/query-linsi.fa --model WAG --redo --outdir data/epa-ng/fungi-order/out`
 
 Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-order/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-order/out/`. This produces the file `data/epa-ng/fungi-order/out/epa_result.newick`.
+
+# Tree of short fungal
+`python src/short-fungal-tree/get-sequences.py`
+
+`linsi --thread 7 data/short-fungal-tree/short-fungal.fasta > data/short-fungal-tree/short-fungal-linsi.fasta`
+
+`seqconverter --remfracgapcols 0.95 -I fasta -O nexus data/short-fungal-tree/short-fungal-linsi.fasta > data/short-fungal-tree/short-fungal-linsi-95.nexus`
