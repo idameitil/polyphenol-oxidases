@@ -533,7 +533,7 @@ begin data;
     A0A4P9ZTR7      -NQWDEFAYRHSSFH----------G-------VTHGVDVFPVYHRLFMNELELLLIEI-
     A0A8H3FLJ8      ---HEDFSWVHSRMG----------N-------FSHNTPAFIAWHRYYLHIYERALQERC
     abPPO4          -SSFFQLSGIHGLPFTPWAKPK-----------CTHSQVLFPTWHRVYVSIYEQILQEAA
-    TyrAo           -LSYFRLAGIHGAPWTEWDGVP-----------CVHNNYTFPTWHRVYVTLYEQVIYEAA
+    AoMelB           -LSYFRLAGIHGAPWTEWDGVP-----------CVHNNYTFPTWHRVYVTLYEQVIYEAA
     AoCO4           -TRYDDFVATHINQT----------Q-------IIHYTGTFLAWHRYFIYEFEQALRDEC
     CgPPO1473       -SRFDDFVATHMTMA----------G-------MLHSPNNLFAAHRYFIYAYEKALREEC
     CgPPO266        -TAWDDYGALHYYQT----------P-------YVHNSATFLLWHRHYNWVLEQDLRDLC
@@ -1071,7 +1071,7 @@ begin data;
     A0A4P9ZTR7      ---------D----------STLVFPYWNAPFDA-YA-----PEKSAIWSIVSSQL----
     A0A8H3FLJ8      ---------G----------YTGYLSYWDWSLDW-ED-----MAKSPIWDN-TTGF----
     abPPO4          -----------------QAAEDLRQPYWDTGFAL-V-----PPD--EIIK--LEQVKITN
-    TyrAo           D-----------------WAKQWRLPYWDFARFA-RHGHLRLPI---LVT--MKQL----
+    AoMelB           D-----------------WAKQWRLPYWDFARFA-RHGHLRLPI---LVT--MKQL----
     AoCO4           ---------S----------YTGDYPYWNWGAD-----------KSQVFDGSETSM----
     CgPPO1473       ---------G----------YKGYQPYMNYDRY-----------NSPMFDGSDTSM----
     CgPPO266        ---------G----------YNGVFPYWEWGL----D-------KSPVFDGSEYSL----
@@ -1609,7 +1609,7 @@ begin data;
     A0A4P9ZTR7      EGAG--------------------------AGCVPNGPFKDWKCT-------------Y-
     A0A8H3FLJ8      GGNGNINSDKSV----------------GNGHCVTDGPFANRTLH-------------YF
     abPPO4          -YDGT--K-------------------IT----V-RNPILRYSFHPIDP-----------
-    TyrAo           ----------------------------S----K-PNPLYRFQMQ--------------E
+    AoMelB           ----------------------------S----K-PNPLYRFQMQ--------------E
     AoCO4           SGNGEYIPNQGDI-----------------GGCVTSGPFKDYKLN-------------LG
     CgPPO1473       GGNGAPSTYE-----------------GVAGGCVTEGPFKDMVVS-------------LG
     CgPPO266        GGNGEFIEGH-----------------RAAGGCLTSGPFSNYTVN-------------LG
@@ -2147,7 +2147,7 @@ begin data;
     A0A4P9ZTR7      ---------P-------------------SNTDCIRRGFDP---------NVAAKLWNQE
     A0A8H3FLJ8      GT------EY--------------------REHCLSRRFIHGSRLE----TTFGLKVHPE
     abPPO4          --WKTTVRNP-D-------ADK------KENIPALIGKLDLEA-------DSTRE-----
-    TyrAo           H-CQSTTKYG-LL------ENY--ADG-GQNWLRANLALNEHP-----------------
+    AoMelB           H-CQSTTKYG-LL------ENY--ADG-GQNWLRANLALNEHP-----------------
     AoCO4           ---------P-----PG-NMTAAA-NPLTYNPRCMKRS-TT---------EILQRYNTFP
     CgPPO1473       ---------PR-----DIPANPRA-DGLGSNPRCLRRDVNK---------YSAA-GARAN
     CgPPO266        ---------PVGSR-----------NPLAYNPRCFKRD-NT---------DICNRWATLR
@@ -2685,7 +2685,7 @@ begin data;
     A0A4P9ZTR7      EVANIVN-NYSGYNDFRQY-------------IEL-------GIHGQIHN-IGDYQ--GT
     A0A8H3FLJ8      AVERVL--LEPDYESFNAA-------------LED-------GPHNAIPRAVR-----GD
     abPPO4          KTYNMLK-FNANWEAFSNHGEFDD---THANSL----------VHDDIHGFVG-----GH
-    TyrAo           --WRLLT-TGLNWGEFSSTRYDDKE-------TQP--------IHNNVHNWVG-----GH
+    AoMelB           --WRLLT-TGLNWGEFSSTRYDDKE-------TQP--------IHNNVHNWVG-----GH
     AoCO4           KIVELIL-DSDDIWDFQMT-------------MQGVPGSGSIGVHGGGHYSMG-----GD
     CgPPO1473       YTYSAIM-DNPDIDKFYNR-------------YLGMPQLKGDTIHSAGHYIIG-----GD
     CgPPO266        NTTEPIL-NGKDIAVFQAL-------------VQGDGRWPEAAVHGGGHYAIS-----GD
@@ -3223,7 +3223,7 @@ begin data;
     A0A4P9ZTR7      M-SH-DYSPYDPLFFFVHSYVEFLYVNWQKK
     A0A8H3FLJ8      F-L----------------------------
     abPPO4          M-THALFAAFDPIFWLHHSNVDRHLSLWQA-
-    TyrAo           M-SSVPVAAYDPIFWLHHCNIDRLTAIWQT-
+    AoMelB           M-SSVPVAAYDPIFWLHHCNIDRLTAIWQT-
     AoCO4           PGRDVY-SPGDTAFWLHHGMIDRVWWIWQN-
     CgPPO1473       PGGDFY-SPGDPAFYFHHGMLDRVWWIWQM-
     CgPPO266        PGSDFY-SSLEPGFYLHHGNIDRMHFIWQN-

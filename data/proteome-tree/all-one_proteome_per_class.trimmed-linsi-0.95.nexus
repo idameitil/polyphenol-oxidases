@@ -525,12 +525,12 @@ begin data;
     A0A067BTT5.1/64-271         ----HRFVEIH-------------------------------IEASSE-AH-EGFFFYWH
     A0A2K3CX80.1/85-269         -SEYFRLARYH-GWD-----------------------------RN-YCAHGNETFPGWH
     A0A024GU68.1/591-794        ----QKFTELH-------------------------------TEFSLE-AHRSGVFIYWH
-    TyrSc                       -GRYDEFVRTH-------------------------------NEFIMT-GHRSPSFLPWH
-    TyrBm                       --IYDRYIAWH-------------------------------GAAGKA-AHMSSAFLPWH
-    PPOVv                       PRSFKQQANVHCTY-CQGAYDQ---------------VGY--TDLELQ-VHASWLFLPFH
+    ScTyr                       -GRYDEFVRTH-------------------------------NEFIMT-GHRSPSFLPWH
+    BmTyr                       --IYDRYIAWH-------------------------------GAAGKA-AHMSSAFLPWH
+    VvPPO                       PRSFKQQANVHCTY-CQGAYDQ---------------VGY--TDLELQ-VHASWLFLPFH
     IbCO                        -RNFYQQALVHCAY-CNGGYDQ---------------VNF--PDQEIQ-VHNSWLFFPFH
-    Octopus_Hc                  -NGYQKIASYH-GIP-----------------LSCHYENG--TAYA-CCQHGMVTFPNWH
-    Rapana_Hc                   -DGFQSLASFH-AQP-----------------PLCPAPAA-NKAFA-CCVHGMATFPEWH
+    EdHc                  -NGYQKIASYH-GIP-----------------LSCHYENG--TAYA-CCQHGMVTFPNWH
+    RvHc                   -DGFQSLASFH-AQP-----------------PLCPAPAA-NKAFA-CCVHGMATFPEWH
     CgPPO-473                   -SRFDDFVATH-------------------------------MTMAGM-LHSPNNLFAAH
     CgPPO-266                   -TAWDDYGALH-------------------------------YYQTPY-VHNSATFLLWH
     MtPPO-809                   KSRYDDFVVVH-------------------------------MNQTLS-IHGTGNFLSWH
@@ -538,7 +538,7 @@ begin data;
     PpPPO-c2092                 -SLFDDFVGVH-------------------------------VFQTGS-IHLTATFLTWH
     MtPPO7                      -SRFDDFVATH-------------------------------MTMAGQ-LHSPTNLFAAH
     AbTyr                       -SSFFQLGGIH-GLP----YTEWAKA---------QPQLH-LYKAN-YCTHGTVLFPTWH
-    OapoSm                      --IYDRFVKLH-------------------------------VDVNSV-GHINPGFFPWH
+    NpsF                      --IYDRFVKLH-------------------------------VDVNSV-GHINPGFFPWH
     SlPPO1                      --GFKQQANIHCAY-CNGGYSI---------------DG-----KVLQ-VHNSWLFFPFH
     AoMelO                      -TSFFQVGGIH-GLP----YVAWDGA---------GQSDP-AEEAG-YCTHGSVLFPTWH
     HjTyr                       --SFFQIAGIH-GAP----YIEYNKA---------GAKSG-DGWLG-YCPHGEDLFISWH
@@ -1064,12 +1064,12 @@ begin data;
     A0A067BTT5.1/64-271         RAYLLAYENMLRSL-------------------GACITLPYWDYASLGANFI-SGEC-TD
     A0A2K3CX80.1/85-269         RAYLLDFERTMQAADRALGR-------------DGRIGLPYWGWDATD------------
     A0A024GU68.1/591-794        RVFLLGYENMLRSL-------------------GKCLTLPFWDHLAATAKRS-AGQC-TY
-    TyrSc                       RRFLLDFEQALQSV-------------------DSSVTLPYWDWSADR----------TV
-    TyrBm                       REYLLRFERDLQSI-------------------NPEVTLPYWEWETDAQM--------QD
-    PPOVv                       RYYLYFNERILAKLID-----------------DPTFALPYWAWDN-----------PDG
+    ScTyr                       RRFLLDFEQALQSV-------------------DSSVTLPYWDWSADR----------TV
+    BmTyr                       REYLLRFERDLQSI-------------------NPEVTLPYWEWETDAQM--------QD
+    VvPPO                       RYYLYFNERILAKLID-----------------DPTFALPYWAWDN-----------PDG
     IbCO                        RWYLYFYERILGKLIG-----------------DPSFGLPFWNWDN-----------PGG
-    Octopus_Hc                  RLLTKQMEDALVAK-------------------GSHVGIPYWDWTTTF----------AN
-    Rapana_Hc                   RLYTVQFEDALRRH-------------------GSVVGIPYWDTVVPQ----------ED
+    EdHc                  RLLTKQMEDALVAK-------------------GSHVGIPYWDWTTTF----------AN
+    RvHc                   RLYTVQFEDALRRH-------------------GSVVGIPYWDTVVPQ----------ED
     CgPPO-473                   RYFIYAYEKALREEC------------------GYKGYQPYMNYDRYV----------DD
     CgPPO-266                   RHYNWVLEQDLRDLC------------------GYNGVFPYWEWGLDC----G----VGS
     MtPPO-809                   RYYTWVFERALQEEC------------------GYNGTQPYWDWGRWA----------DD
@@ -1077,7 +1077,7 @@ begin data;
     PpPPO-c2092                 RYFVYTYETKLREEC------------------GYTGPLPYWEWGLDV----------NN
     MtPPO7                      RYFIHAYEKALREEC------------------GYKGYQPYMNYDRYA----------DD
     AbTyr                       RAYESTWEQTLWEAAGTVAQRFTTSDQAEWIQAAKDLRQPFWDWGYWPNDPDF-----IG
-    OapoSm                      RQYLMEFEKELRRV-------------------DPTVTLPYWDWTMDQ----------SK
+    NpsF                      RQYLMEFEKELRRV-------------------DPTVTLPYWDWTMDQ----------SK
     SlPPO1                      RWYLYFYERILGSLID-----------------DPTFGLPFWNWDH-----------PKG
     AoMelO                      RPYVALYEQLLQKLAMGIADTYA-VDKPSWQKAAADLRQPFWDWARSSV-----------
     HjTyr                       RPYVLLFEQALVSVAKGIANSYPPSVRAKYQAAAASLRAPYWDWAADSS-----------
@@ -1603,12 +1603,12 @@ begin data;
     A0A067BTT5.1/64-271         --MLN-CGPLLK-----DFGG--SLQAAKGPY---------------NGQVFQ-ADNCVV
     A0A2K3CX80.1/85-269         ---PSR-DP--RD-PA-AFPAPVN-GQVFP---------------------------AIV
     A0A024GU68.1/591-794        --MEQ-CASILT-----DFGG--SSGYTTSPYN--------------YNVSITRNERCVT
-    TyrSc                       -----R-ASLWA--PD-FLGG--T-GR-------------------STD-----G--RVM
-    TyrBm                       ---PSQ-SQIWS--AD-FMGG--N-GN-------------------PKD-----F--IVD
-    PPOVv                       MYMPT----IYAS----------------------------------------------S
+    ScTyr                       -----R-ASLWA--PD-FLGG--T-GR-------------------STD-----G--RVM
+    BmTyr                       ---PSQ-SQIWS--AD-FMGG--N-GN-------------------PKD-----F--IVD
+    VvPPO                       MYMPT----IYAS----------------------------------------------S
     IbCO                        MVLPD----FLND----------------------------------------------S
-    Octopus_Hc                  --LPV----LVTE-E--------------------------------------------K
-    Rapana_Hc                   --LPA----FFND-EIWDDALFH----------------------------------ANF
+    EdHc                  --LPV----LVTE-E--------------------------------------------K
+    RvHc                   --LPA----FFND-EIWDDALFH----------------------------------ANF
     CgPPO-473                   ---PIN-SPMFDGSDT-SMGG--N-GAPSTYEGVAQPRPYNMIPSAGGG-----G--CVT
     CgPPO-266                   ---MDK-SPVFDGSEY-SLGG--N-GEFIEGHRAAIG----GAKPGSGG-----G--CLT
     MtPPO-809                   ---PEN-SPIFDGSDT-SLSG--N-GEYIEHRASGFI------PAGNGG-----G--CVK
@@ -1616,7 +1616,7 @@ begin data;
     PpPPO-c2092                 ---PNA-SPVFDGSDT-SLSG--N-GAFFAHEGIQMVNGNILKLPGNGG-----G--CVT
     MtPPO7                      ---PLN-TPLFDGSDS-SMSG--N-GGPYNYSGIPQPKPYNLIPPAGGG-----G--CVT
     AbTyr                       --LPDQ---VIRD-KQVEITDY-N-GT-----------------------------KIEV
-    OapoSm                      -----D-SPLWQ--DD-FMGG--D-GR-------------------PDD-----G--MVM
+    NpsF                      -----D-SPLWQ--DD-FMGG--D-GR-------------------PDD-----G--MVM
     SlPPO1                      MRFPP----MFDV----------------------------------------------P
     AoMelO                      --PPPE---VISL-AKVTITTP-D-GK-----------------------------QTEV
     HjTyr                       --VPA----VTVP-QTLKINVP-S-GS----------------------------KTVDY
@@ -2142,12 +2142,12 @@ begin data;
     A0A067BTT5.1/64-271         SPLTRN-FQ---N---------------------------------STAFNSNFN-CMP-
     A0A2K3CX80.1/85-269         RQRFSQ-L-I------------------PPEM----------------------------
     A0A024GU68.1/591-794        QGVLQS-FG-----------------------------------------NQTSR-CVL-
-    TyrSc                       DGPFAANWPI--N---------------------------------VRVDSR--T-YLR-
-    TyrBm                       TGPFAARWTIDEQ--------------GNPS-----------------------G-GLK-
-    PPOVv                       PSSL---YD-------------------------------------------------EK
+    ScTyr                       DGPFAANWPI--N---------------------------------VRVDSR--T-YLR-
+    BmTyr                       TGPFAARWTIDEQ--------------GNPS-----------------------G-GLK-
+    VvPPO                       PSSL---YD-------------------------------------------------EK
     IbCO                        TSSL---YD-------------------------------------------------SN
-    Octopus_Hc                  DNSFHH-AHI--D-------------VANT---------------------------DTT
-    Rapana_Hc                   TNPFNG-ADI--D-------------FNHQ---------------------------KIA
+    EdHc                  DNSFHH-AHI--D-------------VANT---------------------------DTT
+    RvHc                   TNPFNG-ADI--D-------------FNHQ---------------------------KIA
     CgPPO-473                   EGPFKD-MVV--S----L----------GPK-STIVRDANPRADGL--GSNP--R-CLR-
     CgPPO-266                   SGPFSN-YTV--N----L----------GPV-GS--------RNPL--AYNP--R-CFK-
     MtPPO-809                   SGPFKD-MVV--H----L----------GPV-APAIDPANPRRDGY--GDNP--R-CLR-
@@ -2155,7 +2155,7 @@ begin data;
     PpPPO-c2092                 KGPFKD-MKV--H----F----------GTI-ILPVYGLSGVENPI--ADNE--R-CLK-
     MtPPO7                      EGPFRD-MVV--S----L----------GPK-GGLFHDRNPRADGL--GSNP--R-CLR-
     AbTyr                       ENPILH-YKF--H--PI-----------EP--------------TFEGDFAQ-WQ--TTM
-    OapoSm                      TGPFAN-WELKVN----VQPE-------GPE-------------ALYTVDDR--K-FLI-
+    NpsF                      TGPFAN-WELKVN----VQPE-------GPE-------------ALYTVDDR--K-FLI-
     SlPPO1                      GTAL---YD-------------------------------------------------ER
     AoMelO                      DNPLFH-YRF--H--PI-----------EP--------------TFPEPYIN-WP--TTL
     HjTyr                       TNPLKT-YYF--P--RM---------------------------SLTGSYGE-FTGDHTV
@@ -2681,12 +2681,12 @@ begin data;
     A0A067BTT5.1/64-271         RND---------W-------------------------------SKAAVPPDVNALSVYN
     A0A2K3CX80.1/85-269         KSE---------LTS-------YG------------------------LASD---ERIVQ
     A0A024GU68.1/591-794        RGP---------I-------------------------------RSSFYPAEAYFTSVYK
-    TyrSc                       RS----------LGG-------------------------SV---AE-LPTR---AEVES
-    TyrBm                       RN----------FGA--------T---------------KEA---PT-LPTR---DDVLN
-    PPOVv                       RNAKHLPPTVIDLDY-------DGTE------PTIPD--DEL--KTD---NL---AIMYK
+    ScTyr                       RS----------LGG-------------------------SV---AE-LPTR---AEVES
+    BmTyr                       RN----------FGA--------T---------------KEA---PT-LPTR---DDVLN
+    VvPPO                       RNAKHLPPTVIDLDY-------DGTE------PTIPD--DEL--KTD---NL---AIMYK
     IbCO                        RNQSHLPPVVVDLGY-------NGAD------TDVTD--QQR--ITD---NL---ALMYK
-    Octopus_Hc                  RSP----RA-QLFDD---------------------------PDKGDK--SF-FYRQIAL
-    Rapana_Hc                   RDI----NVDKLAKE---------------------------GPKGYD--TW-SFKQYIY
+    EdHc                  RSP----RA-QLFDD---------------------------PDKGDK--SF-FYRQIAL
+    RvHc                   RDI----NVDKLAKE---------------------------GPKGYD--TW-SFKQYIY
     CgPPO-473                   RD----------VNK-------------------------YS--AAG--ARA---NYTYS
     CgPPO-266                   RD----------LNT-------------------------DI--CNR-WATL---RNTTE
     MtPPO-809                   RD----------ISN-------------------------QL--SSK-YART---QDIVD
@@ -2694,7 +2694,7 @@ begin data;
     PpPPO-c2092                 RD----------LNA-------------------------GI--AKR-FTSF---LNSTS
     MtPPO7                      RD----------VNK-------------------------YS--ARG--ARA---NYTYS
     AbTyr                       RYP----DV----QK-------QE--NIEG-------MIAGI--KAAA--PG-FREWTFN
-    OapoSm                      RR----------IGQ-------------------------KL---PS-LPSP---EQLQQ
+    NpsF                      RR----------IGQ-------------------------KL---PS-LPSP---EQLQQ
     SlPPO1                      RGDQIHNGNGIDLGY-------FGDQ------VETTQ--LQL--MTN---NL---TLMYR
     AoMelO                      RHP----NS-FGSGA-------KD--NVTE-------LQRTL--RSDQ--SD-ITTKTYN
     HjTyr                       RCAA---------SK-------QS--YPAT-------ANSNL--------RP-YKSWIYD
@@ -3220,12 +3220,12 @@ begin data;
     A0A067BTT5.1/64-271         NVLGVAP--N---L-------DGVT-----------------SGVQWG------------
     A0A2K3CX80.1/85-269         RLQRGAQ--AAAAL-------AQWEHP------AASTHAGNANSVET-------------
     A0A024GU68.1/591-794        QVFT-YS--D---Q-------LAFT-----------------VAVERG------------
-    TyrSc                       VLA--ISAYS-----------EGFR-----------------NHLEGW------------
-    TyrBm                       ALK--ITQYS---Q-------NSFR-----------------NQLEGFIN----------
-    PPOVv                       QIVSGAT--TPKLF-----LGYPYRAG-DAID------PG-AGTLEHA------------
+    ScTyr                       VLA--ISAYS-----------EGFR-----------------NHLEGW------------
+    BmTyr                       ALK--ITQYS---Q-------NSFR-----------------NQLEGFIN----------
+    VvPPO                       QIVSGAT--TPKLF-----LGYPYRAG-DAID------PG-AGTLEHA------------
     IbCO                        QMVTNAG--TAELF-----LGKAYRAG-DAPS------PG-AGSIETS------------
-    Octopus_Hc                  ALE--QT--D---F-------CDFE-----------------IQFEI-------------
-    Rapana_Hc                   ALE--QE--D---Y-------CDFE-----------------VQFEI-------------
+    EdHc                  ALE--QT--D---F-------CDFE-----------------IQFEI-------------
+    RvHc                   ALE--QE--D---Y-------CDFE-----------------VQFEI-------------
     CgPPO-473                   AIMD-NP--D---I-------DKFY-----------------NRYLGMPQLK------G-
     CgPPO-266                   PILN-GK--D---I-------AVFQ-----------------ALVQGDGRWP------EA
     MtPPO-809                   LITT-SA--D---I-------GTFQ-----------------TVMQGAVGP-------G-
@@ -3233,7 +3233,7 @@ begin data;
     PpPPO-c2092                 VILK-NN--N---I-------EMFQ-----------------AHLQGDYVL-------N-
     MtPPO7                      AIMD-NP--D---I-------DSFY-----------------NRYMGMPQLK------G-
     AbTyr                       MLTK-NY--T---W-------ELFSNH-GA------VVGAHANSLEM-------------
-    OapoSm                      TMD--LPVYSTPPY-------NSFR-----------------NHLEGYTNFAWEP-----
+    NpsF                      TMD--LPVYSTPPY-------NSFR-----------------NHLEGYTNFAWEP-----
     SlPPO1                      QLVTNSP--CPLMS-----LVDLTLFG-STV-------ED-AGTVENI------------
     AoMelO                      LLTR-VH--T---W-------PAFSNH------TPDDGGSSSNSLEA-------------
     HjTyr                       VLTN-SQ--N---F-------ADFAST-SG----------PGINVEQ-------------
@@ -3759,12 +3759,12 @@ begin data;
     A0A067BTT5.1/64-271         ---THNMVHAVLD------------ST--MGT-FASPSDPVFYAHHATTDALHAIY---
     A0A2K3CX80.1/85-269         ---PHNSVHVVCG------------WP--MTSVTYAAFHPIFFMH--------------
     A0A024GU68.1/591-794        ---VHNTIHSYLG------------GI--MAW-LQSPIDPIFYVHHTFTDMLQS-----
-    TyrSc                       GVNLHNRVHVWVG------------GQ--MATG-VSPNDPVFWLHHAYVDKLWAEWQRR
-    TyrBm                       GPQLHNRVHRWVG------------GQ--MGVVPTAPNDPVFFLHHANVDRIWAVWQ--
-    PPOVv                       ---PHNIVHKWTGLADK---PS---ED--MGNFYTAGRDPIFFGHHANVDRMWNIWKT-
+    ScTyr                       GVNLHNRVHVWVG------------GQ--MATG-VSPNDPVFWLHHAYVDKLWAEWQRR
+    BmTyr                       GPQLHNRVHRWVG------------GQ--MGVVPTAPNDPVFFLHHANVDRIWAVWQ--
+    VvPPO                       ---PHNIVHKWTGLADK---PS---ED--MGNFYTAGRDPIFFGHHANVDRMWNIWKT-
     IbCO                        ---PHIPIHRWVGDPRN---TNN--ED--MGNFYSAGRDIAFYCHHSNVDRMWTIWQQ-
-    Octopus_Hc                  ---GHNAIHSWVGGSSP--------YG--MSTLHYTSYDPLFYLHHSNTDRIWSVWQA-
-    Rapana_Hc                   ---AHNAIHAWVGGTEE--------YS--MGHLHYASYDPVFILHHSNTDRLFALWQE-
+    EdHc                  ---GHNAIHSWVGGSSP--------YG--MSTLHYTSYDPLFYLHHSNTDRIWSVWQA-
+    RvHc                   ---AHNAIHAWVGGTEE--------YS--MGHLHYASYDPVFILHHSNTDRLFALWQE-
     CgPPO-473                   PWGIHSAGHYIIG------------GDPG-GDFYCSPGDPAFYFHHGMLDRVWWIWQM-
     CgPPO-266                   GIAVHGGGHYAIS------------GDPG-SDFYFSSLEPGFYLHHGNIDRMHFIWQN-
     MtPPO-809                   GMGVHAAGHFTIA------------GDPG-GDFYTSPNDPAFWVHHGMIDRTWTIWQS-
@@ -3772,7 +3772,7 @@ begin data;
     PpPPO-c2092                 QLGVHGGGHYTIG------------GDPG-GDPFISPGDPAFYLHHAQIDRIYWIWQM-
     MtPPO7                      PWGLHSSGHYLIG------------GDPG-GDFYCSPGDPLFYFHHGMLDRVWWIWQM-
     AbTyr                       ---VHNTVHFLIGR--------DVPGH--MGSVPHAAFDPIFWMHHCNVDRLLALWQT-
-    OapoSm                      AGKLHGAGHQWVG------------GH--MMYI-SSPNDPVFFLHHCFIDKIWGDWQA-
+    NpsF                      AGKLHGAGHQWVG------------GH--MMYI-SSPNDPVFFLHHCFIDKIWGDWQA-
     SlPPO1                      ---PHSPVHIWVGTRRGSVLSNG--ED--MGNFYSAGLDPLFYCHHSNVDRMWNEWKA-
     AoMelO                      ---IHDGIHVAVGG--------N--GH--MSDPSVAAFDPIFFLHHCQVDRLLALWSA-
     HjTyr                       ---IHNAIHWDGAC--------G--SQ--FLAPDYSGFDPLFFMHHAQVDRMWAFWEA-
