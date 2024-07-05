@@ -15,7 +15,8 @@ library(ggtext)
 setwd("/Users/idamei/polyphenol-oxidases")
 
 # Read clades table
-df = read.table('data/species-tree/clades2.csv', sep = ',', header=TRUE)
+#df = read.table('data/species-tree/clades2.csv', sep = ',', header=TRUE)
+df = read.table('data/mrbayes/all-seeds-0619/clades/clades.csv', sep = ',', header=TRUE)
 
 names(df)[names(df) == 'singletons'] = 's'
 
@@ -78,12 +79,12 @@ dotplot <- merged_table %>% filter(species %in% species_unique) %>%
   theme(
         #axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.text.x = element_text(colour = colors_groups, size = 14),
-        axis.text.y = element_text(size = 9, hjust=0, face = 'italic'),
+        axis.text.y = element_text(size = 7, hjust=0, face = 'italic'),
         axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         axis.ticks.x=element_blank(),
         axis.ticks.y=element_blank(),
-        plot.margin = unit(c(0.5,0.5,0.5,3.3), 'cm')
+        plot.margin = unit(c(0.5,0.5,0.5,3), 'cm')
         ) +
   scale_color_manual(values = colors_groups) +
   scale_y_discrete(labels = myfun)
@@ -92,9 +93,9 @@ plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(1,3), align = 'h')
 # Arange
 ## Method 1
 pdf(file="manuscript/figures/dotplot.pdf",
-    width = 6,
+    width = 10,
     height = 8)
-plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(1,3), align = 'h')
+plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(3,3), align = 'h')
 dev.off()
 ## Method 2
 #grid.arrange(ggtree_plot, dotplot, ncol=2)
@@ -113,6 +114,11 @@ phylum_ordered <- species_order %>%
   pull(phylum)
 #output for python
 #cat(phylum_ordered, sep="', '")
+
+file_name <- file("data/species-tree/phylum.txt")
+writeLines(phylum_ordered, file_name)
+close(file_name)
+
 
 result_table <- data.frame(
   phylum = phylum_ordered,
