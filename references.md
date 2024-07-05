@@ -1,5 +1,8 @@
+# Hexamerins
+Hexamerins are also in the hemocyanin pfam
+
 # Seeds already in the dataset: 
-TyrHs, AoCO4, TyrAo, 
+TyrHs, AoCO4, AoMelB 
 
 # L-DOPA
 Parkinsons
@@ -71,7 +74,7 @@ crest
 orca, BP86
 
 # Discussion with Caio 31 Jan.
-Applications of oxydized phenols: Enhance the antioxidant value of lignin. Change the propoerties. Bacteria can only open rings of diphenols.
+Applications of oxidized phenols: Enhance the antioxidant value of lignin. Change the propoerties. Bacteria can only open rings of diphenols.
 
 # hydroxybenzoic acid (H unit)
 

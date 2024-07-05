@@ -39,8 +39,8 @@ df['GenMio'] = df['Gen'] / 1000000
 all_seeds <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
   geom_point() +
   ylim(0,0.2) +
-  xlim(0, 70)
+  xlim(0, 90)
 
-ggarrange(all, all_new, all_seeds
+ggarrange(all, all_new, all_seeds,
           labels = c("A", "B", "C"),
           ncol = 3, nrow = 1)

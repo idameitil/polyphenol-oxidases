@@ -12,6 +12,7 @@ A fasta file is created by running `python src/data-collection/make-fasta.py`. T
 Transfer the seeds file to the HPC: `scp data/seeds.fa idamei@transfer.gbar.dtu.dk:/work3/idamei/polyphenol-oxidases/`
 
 On the HPC, run Interproscan:
+`qrsh`
 `/work3/idamei/bin/my_interproscan/interproscan-5.64-96.0/interproscan.sh -appl Pfam,SignalP_EUK,SignalP_GRAM_NEGATIVE,SignalP_GRAM_POSITIVE,Phobius -i /work3/idamei/polyphenol-oxidases/seeds.fa -f tsv -o /work3/idamei/polyphenol-oxidases/seeds.interproscan`
 
 Download the output file:
@@ -110,7 +111,13 @@ Files with proteins in each clade (determined from iTOL) were saved in `data/mrb
 
 A csv file is made by running `python src/proteome-tree/clade-annotations.py`. This creates the file `data/mrbayes/all/clades/clades.csv`.
 
-iTOL heatmap file is made by running `python src/itol-label-files/make-itol-label-files.py` and is shown on the species tree.
+(not used) iTOL heatmap file is made by running `python src/itol-label-files/make-itol-label-files.py` and is shown on the species tree.
+
+A dotplot is made in R with the script``src/species-tree/dotplot.R`.
+
+The phylum list `data/species-tree/phylum.txt` is written in the R script `src/species-tree/dotplot.R`. 
+
+Then, the phylum html file is written with the `src/itol-label-files/make-itol-label-files.py` script. Open the html, print the page to pdf and overlap with dotplot.
 
 # Fingerprint
 The ids in each clade were saved in `data/mrbayes/all/clades`.
@@ -138,13 +145,28 @@ A clade file is made with underscores in species names: `data/species-tree/clade
 The plot is made with the R script: `src/species-tree/dotplot.R`.
 
 # Make MCC tree
-`sumt --mbc -b 0.25 0.25 --biplen --rootmid -ns --basename bayes_summary -i ../hpc/all-new/out.nex.run1.t ../hpc/all-new/out.nex.run2.t`
-convert to newick in figtree and remove second tree. Save in `data/epa-ng/tree.nwk`
+`sumt --mbc -b 0.25 0.25 --biplen --rootmid -ns --basename data/epa-ng/bayes_summary -i data/mrbayes/all-seeds-0619/out.nex.run1.t -i data/mrbayes/all-seeds-0619/out.nex.run2.t`
+convert to .mbc file newick in figtree and remove second tree (search for ; and delete everything thereafter). Save in `data/epa-ng/tree.nwk`
 
 # Tree placement
 Copy tree fasta: `cp data/proteome-tree/all-one_proteome_per_class.trimmed.fa data/epa-ng/ref.fa`.
 
 Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/ref.fa`.
+
+## Filtered out sequences
+Copy query file: `cp data/proteome-tree/filtered-out-all-one_proteome_per_class.trimmed.fa data/epa-ng/filtered-out/query.fa`
+
+Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/filtered-out/query.fa > data/epa-ng/filtered-out/ref-query.fa`.
+
+Make alignment: `linsi --thread 7 data/epa-ng/filtered-out/ref-query.fa > data/epa-ng/filtered-out/ref-query-linsi.fa`
+
+Divide in two files: `data/epa-ng/filtered-out/query-linsi.fa` and `data/epa-ng/filtered-out/ref-linsi.fa`.
+
+`mkdir data/epa-ng/filtered-out/out`
+
+Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/filtered-out/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/filtered-out/query-linsi.fa --model WAG --redo --outdir data/epa-ng/filtered-out/out`
+
+Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/filtered-out/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/filtered-out/out/ --allow-file-overwriting`. This produces the file `data/epa-ng/filtered-out/out/epa_result.newick`.
 
 ## Fungi one per order
 Copy query file: `cp data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa data/epa-ng/fungi-order/query.fa`
