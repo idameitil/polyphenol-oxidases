@@ -58,8 +58,8 @@ def get_selected_ids(domain, rank):
     return selected
 
 
-def get_filtered_out_ids():
-    infile_name = f"data/proteome-tree/filtered-out-sequences-all-class.txt"
+def get_filtered_out_ids(domain, rank):
+    infile_name = f"data/proteome-tree/filtered-out-sequences-{domain}-{rank}.txt"
     with open(infile_name) as infile:
         filtered_out = [line.strip() for line in infile]
     return filtered_out
@@ -89,9 +89,9 @@ def write_trimmed_fasta(domain, rank):
                     ) 
 
 
-def write_filtered_out():
-    filtered_out_ids = get_filtered_out_ids()
-    output_filename = f"data/proteome-tree/filtered-out-all-one_proteome_per_class.trimmed.fa"
+def write_filtered_out(domain, rank):
+    filtered_out_ids = get_filtered_out_ids(domain, rank)
+    output_filename = f"data/proteome-tree/filtered-out-{domain}-one_proteome_per_{rank}.trimmed.fa"
     with open(output_filename, "w") as outfile:
         for entry in acc2seq_trimmed:
             if entry in filtered_out_ids:
@@ -101,4 +101,5 @@ def write_filtered_out():
 
 write_trimmed_fasta("all", "class")
 write_trimmed_fasta("fungi", "order")
-write_filtered_out()
+write_filtered_out("all", "class")
+write_filtered_out("fungi", "order")

@@ -105,5 +105,6 @@ all_class = proteomeData(domain="all", rank="class", score_threshold=1e-20)
 all_class.write_selected_sequences()
 all_class.write_filtered_out_sequences()
 
-all_fungal = proteomeData(domain="fungi", rank="order", score_threshold=1)
+all_fungal = proteomeData(domain="fungi", rank="order", score_threshold=1e-20)
 all_fungal.write_selected_sequences()
+all_fungal.write_filtered_out_sequences()
