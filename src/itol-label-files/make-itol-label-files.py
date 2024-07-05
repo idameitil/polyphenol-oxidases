@@ -170,10 +170,12 @@ def make_taxonomy_file_adapted(df_uniprot, df_seeds):
         
 
 def write_dotplot_phylum_html(df):
-    values = ['Deinococcus-Thermus', 'Actinobacteria', 'Firmicutes', 'Cyanobacteria', 'Chloroflexi', 'Proteobacteria', 'Acidobacteria', 'Proteobacteria', 'Proteobacteria', 'Planctomycetes', 'Bacteroidetes', 'Bacteroidetes', 'Bacteroidetes', 'Evosea', 'Ciliophora', 'Endomyxa', 'Bacillariophyta', 'Oomycota', 'Oomycota', 'Rhodophyta', 'Rhodophyta', 'Chlorophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Chytridiomycota', 'Zoopagomycota', 'Zoopagomycota', 'Zoopagomycota', 'Mucoromycota', 'Basidiomycota', 'Basidiomycota', 'Basidiomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Cnidaria', 'Cnidaria', 'Nematoda', 'Rotifera', 'Brachiopoda', 'Annelida', 'Annelida', 'Mollusca', 'Mollusca', 'Mollusca', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata']
+    values = ['Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Ascomycota', 'Basidiomycota', 'Basidiomycota', 'Chytridiomycota', 'Mucoromycota', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Chordata', 'Echinodermata', 'Mollusca', 'Mollusca', 'Mollusca', 'Nematoda', 'Actinobacteria', 'Bacteroidetes', 'Proteobacteria', 'Proteobacteria', 'Proteobacteria', 'Proteobacteria', 'Evosea', 'Streptophyta', 'Streptophyta', 'Chlorophyta', 'Basidiomycota', 'Basidiomycota', 'Basidiomycota', 'Zoopagomycota', 'Zoopagomycota', 'Zoopagomycota', 'Annelida', 'Annelida', 'Arthropoda', 'Arthropoda', 'Brachiopoda', 'Chordata', 'Chordata', 'Chordata', 'Cnidaria', 'Cnidaria', 'Echinodermata', 'Echinodermata', 'Porifera', 'Rotifera', 'Acidobacteria', 'Bacillariophyta', 'Bacillariophyta', 'Bacteroidetes', 'Bacteroidetes', 'Bacteroidetes', 'Bacteroidetes', 'Chloroflexi', 'Ciliophora', 'Ciliophora', 'Deinococcus-Thermus', 'Endomyxa', 'Firmicutes', 'Firmicutes', 'NA', 'Myzozoa', 'Gyrista', 'Planctomycetes', 'Rhodophyta', 'Rhodophyta', 'Chlorophyta', 'Streptophyta', 'Streptophyta', 'Streptophyta', 'Chordata', 'Cyanobacteria', 'Oomycota', 'Oomycota']
+    with open('data/species-tree/phylum.txt') as file:
+        values = [line.rstrip() for line in file]
     values.reverse()
     value2color = make_value2color(values)
-    with open('phylum.html', 'w') as outfile:
+    with open('data/species-tree/phylum.html', 'w') as outfile:
         header = "<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n<style>\nh1 {\ncolor: green;\nfont-size: 10px;\n}\n</style>\n</head>\n<body>\n<h1>\n"
         outfile.write(header)
         for value in values:
@@ -570,9 +572,9 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # make_number_of_copies_file()
 
 # Species tree
-# df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
+df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
 # make_taxonomy_files_species_tree(df_species_tree)
-# write_dotplot_phylum_html(df_species_tree)
+write_dotplot_phylum_html(df_species_tree)
 
 # Clades
 # df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
@@ -580,4 +582,4 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 
 # Make combined domain label file
-make_domain_label_file_combined(df_uniprot_hits, seed_df)
+# make_domain_label_file_combined(df_uniprot_hits, seed_df)

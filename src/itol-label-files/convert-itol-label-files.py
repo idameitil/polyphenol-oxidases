@@ -1,6 +1,7 @@
 from Bio import SeqIO
 
 fasta = 'data/proteome-tree/all-one_proteome_per_class.trimmed.fa'
+fasta_filtered_out = 'data/epa-ng/filtered-out/query.fa'
 
 def get_ids(fasta):
     fasta_sequences = SeqIO.parse(fasta, 'fasta')
@@ -14,6 +15,8 @@ def get_ids(fasta):
     return ids
 
 ids = get_ids(fasta)
+print(ids)
+ids_filtered_out = get_ids(fasta_filtered_out)
 
 def translate(infile_name, outfile_name, sep):
     with open(infile_name) as infile, open(outfile_name, 'w') as outfile:
@@ -27,6 +30,9 @@ def translate(infile_name, outfile_name, sep):
                 acc = line.split(sep)[0]
                 if acc in ids:
                     for entry in ids[acc]:
+                        outfile.write(f"{entry}{sep}{sep.join(line.split(sep)[1:])}")
+                elif acc in ids_filtered_out:
+                    for entry in ids_filtered_out[acc]:
                         outfile.write(f"{entry}{sep}{sep.join(line.split(sep)[1:])}")
 
 itol_files = [{'name': 'domain-combined', 'sep': ','}, 
