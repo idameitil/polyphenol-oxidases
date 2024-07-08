@@ -5,10 +5,10 @@ def get_fasta_sequences(fasta_filename):
     fasta_alignment = SeqIO.parse(fasta_filename, 'fasta')
     acc2seq = {}
     for fasta in fasta_alignment:
-        acc2seq[fasta.id.split('.')[0]] = fasta.seq
+        acc2seq[fasta.id.replace('/', '0')] = fasta.seq
     return acc2seq
 
-acc2seq_trimmed = get_fasta_sequences('data/pfam/PF00264-trimmed.fa')
+acc2seq_trimmed = get_fasta_sequences('data/proteome-tree/all-one_proteome_per_class.trimmed.fa')
 acc2seq_seeds_trimmed = get_fasta_sequences('data/seeds-trimmed.fa')
 
 def write_fasta(ids, output_filename):
@@ -18,11 +18,16 @@ def write_fasta(ids, output_filename):
                 outfile.write(f">{id}\n{acc2seq_trimmed[id]}\n")
             elif id in acc2seq_seeds_trimmed:
                 outfile.write(f">{id}\n{acc2seq_seeds_trimmed[id]}\n")
-                
-dir = "data/mrbayes/all/clades/members"
-clades = os.listdir(dir)
-out_dir = "data/mrbayes/all/clades/fastas" 
+
+# dir = "data/mrbayes/all"
+dir = "data/mrbayes/all-seeds-0619" 
+member_dir = f"{dir}/clades/members"
+clades = os.listdir(member_dir)
+out_dir = f"{dir}/clades/fastas" 
 for clade in clades:
-    with open(f'{dir}/{clade}') as f:
+    if clade.endswith('.DS_Store'):
+        continue
+    with open(f'{member_dir}/{clade}') as f:
         accs = f.read().splitlines()
+    print(accs)
     write_fasta(accs, f"{out_dir}/{clade}.fa")
