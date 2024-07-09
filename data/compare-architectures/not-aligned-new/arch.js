@@ -23,8 +23,7 @@ const colorScheme = [
 
 const unitSize = 10;
 const spaceBetweenArchitectures = 250;
-// const leftMargin = 60;
-const leftMargin = 450;
+const leftMargin = 400;
 const rightMargin = 60;
 const topMargin = 50;
 const canvasWidth = max_length * unitSize + rightMargin + leftMargin;
@@ -57,20 +56,20 @@ function drawArchitecture(architectureString, domain_start_structure, conservedR
         const conservedResidue = conservedResidues[positionInCompleteProtein];
         const isConserved = !!conservedResidue;
         const xCoord = computeXForPositionInDomain(positionInDomain)
-        switch (architectureString[i]) {
-            case 'l':
-                drawLoop(xCoord, y, isConserved);
-                break;
-            case 'h':
-                drawHelix(xCoord, y, isConserved);
-                break;
-            case 's':
-                drawSheet(xCoord, y, isConserved);
-                break;
-            case 'u':
-                drawUndefined(xCoord, y, isConserved);
-                break;
-        }
+        // switch (architectureString[i]) {
+        //     case 'l':
+        //         drawLoop(xCoord, y, isConserved);
+        //         break;
+        //     case 'h':
+        //         drawHelix(xCoord, y, isConserved);
+        //         break;
+        //     case 's':
+        //         drawSheet(xCoord, y, isConserved);
+        //         break;
+        //     case 'u':
+        //         drawUndefined(xCoord, y, isConserved);
+        //         break;
+        // }
         if(isConserved){
              drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompleteProtein)
         }
@@ -173,7 +172,7 @@ function transformString(input) {
 
 function drawArchitectureName(architectureName, y) {
     // const size = 30;
-    const size = 60;
+    const size = 45;
     // const color = [0, 0, 0];
     const color = name2color[architectureName];
     textSize(size);

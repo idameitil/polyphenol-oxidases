@@ -129,6 +129,7 @@ entries = [
         "alignment_name": "VvPPO",
         "family": "a_plants",
         "family_name": "a",
+        "printed_name": "a, 2P3X (VvPPO)",
         "descriptive_name": "VvPPO",
         "domain_start_structure": 77,
         "domain_end": 284,
@@ -139,6 +140,7 @@ entries = [
         "alignment_name": "EdHc",
         "family": "b_hc",
         "family_name": "b",
+        "printed_name": "b, 1JS8 (EdHc)",
         "descriptive_name": "EdHc",
         "domain_start_structure": 2534,
         "domain_end": 2714,
@@ -149,6 +151,7 @@ entries = [
         "alignment_name": "AbTyr",
         "family": "c_long_fungal",
         "family_name": "c",
+        "printed_name": "c, 2Y9X (AbTyr)",
         "descriptive_name": "AbTyr",
         "domain_start_structure": 52,
         "domain_end": 308,
@@ -159,9 +162,10 @@ entries = [
         "alignment_name": "P17643.20184-416",
         "family": "d_chordata",
         "family_name": "d",
+        "printed_name": "d, 5M8L (HsTrp1)",
         "descriptive_name": "HsTrp1",
-        "domain_start_structure": 29,
-        "domain_end": 229,
+        "domain_start_structure": 184,
+        "domain_end": 416,
         "threshold": 0.95,
     },
     {
@@ -169,9 +173,10 @@ entries = [
         "alignment_name": "V3ZAB2.10130-305",
         "family": "e_mollusc",
         "family_name": "e",
+        "printed_name": "e, V3ZAB2",
         "descriptive_name": "V3ZAB2",
-        "domain_start_structure": 184,
-        "domain_end": 416,
+        "domain_start_structure": 130,
+        "domain_end": 305,
         "threshold": 0.95,
     },
     {
@@ -179,9 +184,10 @@ entries = [
         "alignment_name": "A0A7M6DMJ9.10298-479",
         "family": "f_cnidaria",
         "family_name": "f",
+        "printed_name": "f, A0A7M6DMJ9",
         "descriptive_name": "A0A7M6DMJ9",
-        "domain_start_structure": 130,
-        "domain_end": 305,
+        "domain_start_structure": 298,
+        "domain_end": 479,
         "threshold": 0.95,
     },
     {
@@ -189,6 +195,7 @@ entries = [
         "alignment_name": "D0N318.1077-279",
         "family": "g_oomycota",
         "family_name": "g",
+        "printed_name": "g, D0N318",
         "descriptive_name": "D0N318",
         "domain_start_structure": 77,
         "domain_end": 279,
@@ -199,6 +206,7 @@ entries = [
         "alignment_name": "A0A1S9DJX3.10118-349",
         "family": "h_short_fungal",
         "family_name": "h",
+        "printed_name": "h, 4J3P (AoCO4)",
         "descriptive_name": "AoCO4",
         "domain_start_structure": 93,
         "domain_end": 324,
@@ -210,6 +218,7 @@ entries = [
         "alignment_name": "F4PFF7.1068-251",
         "family": "i_zoopago",
         "family_name": "i",
+        "printed_name": "i, F4PFF7",
         "descriptive_name": "F4PFF7",
         "domain_start_structure": 68,
         "domain_end": 251,
@@ -272,7 +281,8 @@ with open(outfilename, "w") as outfile:
     outfile.write("const conservedResidues = {\n")
     for i in range(len(entries)):
         entry = entries[i]
-        outfile.write(f"\t'{get_name(entry)}': {entry['conserved_positions']},\n")
+        # outfile.write(f"\t'{get_name(entry)}': {entry['conserved_positions']},\n")
+        outfile.write(f"\t'{entry['printed_name']}': {entry['conserved_positions']},\n")
     outfile.write("};")
 
 # Write conserved file - alignment positions
@@ -282,7 +292,7 @@ with open(outfilename, "w") as outfile:
     for i in range(len(entries)):
         entry = entries[i]
         outfile.write(
-            f"\t'{get_name(entry)}': {entry['conserved_positions_alignment']},\n"
+            f"\t'{entry['printed_name']}': {entry['conserved_positions_alignment']},\n"
         )
     outfile.write("};")
 
@@ -310,7 +320,7 @@ with open(outfilename, "w") as outfile:
     for i in range(len(entries)):
         entry = entries[i]
         outfile.write(
-            f"\t'{get_name(entry)}': {{\n\t\t'domain_start_structure': {entry['domain_start_structure']},\n\t\t'architecture_string': '{entry['architecture_string']}'\n\t\t}}"
+            f"\t'{entry['printed_name']}': {{\n\t\t'domain_start_structure': {entry['domain_start_structure']},\n\t\t'architecture_string': '{entry['architecture_string']}'\n\t\t}}"
         )
         if i < len(entries) - 1:
             outfile.write(",\n")
@@ -325,7 +335,7 @@ with open(outfilename, "w") as outfile:
     max_length = 0
     for i in range(len(entries)):
         entry = entries[i]
-        outfile.write(f"\t'{get_name(entry)}': {entry['length']},\n")
+        outfile.write(f"\t'{entry['printed_name']}': {entry['length']},\n")
         if entry["length"] > max_length:
             max_length = entry["length"]
     outfile.write("};\n")
