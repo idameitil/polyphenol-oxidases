@@ -204,7 +204,7 @@ Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/filtered-out/ref-linsi
 Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/filtered-out/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/filtered-out/out/ --allow-file-overwriting`. This produces the file `data/epa-ng/filtered-out/out/epa_result.newick`.
 
 ## Fungi one per order
-Copy query file: `cp data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa data/epa-ng/fungi-order/query.fa`
+Make the query file: `cat data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa data/proteome-tree/filtered-out-fungi-one_proteome_per_order.trimmed.fa > data/epa-ng/fungi-order/query.fa`
 Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/fungi-order/query.fa`.
 
 Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/fungi-order/query.fa > data/epa-ng/fungi-order/ref-query.fa`.
