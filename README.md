@@ -130,6 +130,35 @@ A fasta with all the sequences in the clades is created: `data/mrbayes/all-seeds
 
 To run DSSP, run `python src/compare-architectures/run-dssp.py`.
 
+## Aligned version
+The 9 representative sequences are retrieved from the alignment with all the data (`data/mrbayes/all-seeds-0619/clades/all-linsi.fa`) and saved in the file `data/compare-architectures/aligned-sequences.fa`.
+
+Remove columns with all gaps: `seqconverter --remallgapcols -I fasta -O fasta data/compare-architectures/aligned-sequences.fa > data/compare-architectures/aligned-sequences-noallgaps.fa`
+
+An architecture file is made with placeholder data that is long enough (the secondary structure will be written by cpssp, so it doesn't matter that the data is not correct, as long as it's long enough): `data/compare-architectures/aligned-new/architecture-aligned.js`.
+
+Also a lengths file is made, the max length has to be the length of the alignment. The rest doesn't matter. `data/compare-architectures/aligned-new/lengths-aligned.js`.
+
+## Make architecture data
+To make the architecture data, run `python src/compare-architectures/make-architecture-data.py`.
+
+## CPSSP
+Go to the CPSSP directory (`/Users/idamei/Downloads/cpssp.tds`)
+
+In the CPSSP folder, a fasta file of the representatives is saved in `run-final/sequence.fa`. 
+
+The alignment is also copied: `cp data/compare-architectures/aligned-sequences-noallgaps.fa /Users/idamei/Downloads/run-final`
+
+Then a secondary structure fasta is made based on the `data/compare-architectures/not-aligned-new/architecture.js` file and saved in `run-final/ss.fa`.
+
+Run `python2 tex/latex/cpssp/cpssp -s run-final/sequence.fa -u run-final/ss.fa -o run-final/out -w 35 -l 1.7`.
+
+Upload `run-final/out0.tex` to the overleaf document. 
+
+To make the aligned secondary structure figure, run `python2 tex/latex/cpssp/cpssp -s run-final/aligned-sequences-noallgaps.fa -u run-final/ss.fa -o run-final/aligned-out -w 35 -l 1.7`.
+
+Upload `run-final/aligned-out0.tex` to the overleaf document.
+
 # Lignin degraders
 The list of lignin degrading species was saved in `data/lignin-degraders`.
 
@@ -189,8 +218,12 @@ Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/fungi-order/ref-linsi.
 Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-order/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-order/out/`. This produces the file `data/epa-ng/fungi-order/out/epa_result.newick`.
 
 # Tree of short fungal
-`python src/short-fungal-tree/get-sequences.py`
+The accs in the short fungal clade are retrieved from the tree and saved in `data/short-fungal-tree/accs`.
 
-`linsi --thread 7 data/short-fungal-tree/short-fungal.fasta > data/short-fungal-tree/short-fungal-linsi.fasta`
+A fasta is made by running: `python src/short-fungal-tree/get-sequences.py`
 
-`seqconverter -I fasta -O nexus data/short-fungal-tree/short-fungal-linsi.fasta > data/short-fungal-tree/short-fungal-linsi.nexus`
+Alignment: `linsi --thread 7 data/short-fungal-tree/short-fungal.fasta > data/short-fungal-tree/short-fungal-linsi.fasta`
+
+Convert to nexus: `seqconverter -I fasta -O nexus data/short-fungal-tree/short-fungal-linsi.fasta > data/short-fungal-tree/short-fungal-linsi.nexus`
+
+The Mrbayes tree is run on hal and saved in 

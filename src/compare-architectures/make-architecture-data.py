@@ -199,7 +199,7 @@ entries = [
         "descriptive_name": "D0N318",
         "domain_start_structure": 77,
         "domain_end": 279,
-        "threshold": 0.99,
+        "threshold": 0.95,
     },
     {
         "pdb_name": "4j3p",
@@ -211,7 +211,7 @@ entries = [
         "domain_start_structure": 93,
         "domain_end": 324,
         # "threshold": 0.88,
-        "threshold": 0.93,
+        "threshold": 0.90,
     },
     {
         "pdb_name": "F4PFF7",
@@ -243,7 +243,7 @@ def make_sequencePos2alignedPos(aligned):
 # Read alignment all
 # alignment_all_groups = 'data/compare-architectures/aligned-sequences-noallgaps.fa'
 # alignment_all_groups = 'data/compare-architectures/linsi2-noallgaps.fa'
-alignment_all_groups = "data/mrbayes/all-seeds-0619/clades/all-linsi.fa"
+alignment_all_groups = "data/compare-architectures/aligned-sequences-noallgaps.fa"
 alignment_all_dict = read_MSA_file(alignment_all_groups)
 
 # Get conserved
