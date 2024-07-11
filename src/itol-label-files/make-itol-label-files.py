@@ -183,6 +183,22 @@ def write_dotplot_phylum_html(df):
         footer = "</h1>\n</center>\n</body>\n</html>\n"
         outfile.write(footer)
 
+def write_dotplot_htmls_fungi():
+    levels = ['phylum', 'class', 'order', 'family', 'genus']
+    for level in levels:
+        with open(f'data/fungi-genome-figure/{level}.txt') as file:
+            values = [line.rstrip() for line in file]
+        values.reverse()
+        value2color = make_value2color(values)
+        with open(f'data/fungi-genome-figure/{level}.html', 'w') as outfile:
+            header = "<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n<style>\nh1 {\ncolor: green;\nfont-size: 10px;\n}\n</style>\n</head>\n<body>\n<h1>\n"
+            outfile.write(header)
+            for value in values:
+                outfile.write(f'<font color="{value2color[value]}">{value}</font><br>\n')
+            footer = "</h1>\n</center>\n</body>\n</html>\n"
+            outfile.write(footer)
+write_dotplot_htmls_fungi()
+
 def make_taxonomy_files_species_tree(df):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
     for rank in wanted_ranks:
@@ -540,7 +556,7 @@ def make_OG_files():
 # # Make seed label files
 seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_taxonomy_label_files(seed_df)
-make_activity_label_file(seed_df)
+# make_activity_label_file(seed_df)
 # make_binary_label_files(seed_df)
 # make_aguilera_subclass_label_file(seed_df)
 # # make_aguilera_subclass_label_file_text(seed_df)
@@ -574,7 +590,7 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # Species tree
 df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
 # make_taxonomy_files_species_tree(df_species_tree)
-write_dotplot_phylum_html(df_species_tree)
+# write_dotplot_phylum_html(df_species_tree)
 
 # Clades
 # df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
