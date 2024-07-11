@@ -1,3 +1,7 @@
+# Hal programs
+ncdu (see disk usage)
+glances (see cpu and gpu usage)
+
 # Species with no sequences in the alignment file
 These species were removed, because the sequences matching the pfam are not in the pfam alignment:
 UP000792457, Ladona fulva
@@ -12,7 +16,7 @@ UP000798488, Sporotomaculum syntrophicum
 Hexamerins are also in the hemocyanin pfam
 
 # Seeds already in the dataset: 
-TyrHs, AoCO4, AoMelB 
+HsTrp1 (P17643.20184-416), AoCO4 (A0A1S9DJX3), AoMelB 
 
 # L-DOPA
 Parkinsons
