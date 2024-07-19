@@ -2,20 +2,23 @@ from Bio import SeqIO
 
 fasta = 'data/proteome-tree/all-one_proteome_per_class.trimmed.fa'
 fasta_filtered_out = 'data/epa-ng/filtered-out/query.fa'
+fasta_fungi = 'data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa'
+fasta_fungi2 = 'data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa'
 
-def get_ids(fasta):
-    fasta_sequences = SeqIO.parse(fasta, 'fasta')
+def get_ids(fastas):
     ids = {}
-    for fasta_sequence in fasta_sequences:
-        acc = fasta_sequence.id.split('.')[0]
-        if acc in ids:
-            ids[acc].append(fasta_sequence.id.replace('/', '0'))
-        else:
-            ids[acc] = [fasta_sequence.id.replace('/', '0')]
+    for fasta in fastas:
+        fasta_sequences = SeqIO.parse(fasta, 'fasta')
+        for fasta_sequence in fasta_sequences:
+            acc = fasta_sequence.id.split('.')[0]
+            if acc in ids:
+                if fasta_sequence.id.replace('/', '0') not in ids[acc]:
+                    ids[acc].append(fasta_sequence.id.replace('/', '0'))
+            else:
+                ids[acc] = [fasta_sequence.id.replace('/', '0')]
     return ids
 
-ids = get_ids(fasta)
-ids_filtered_out = get_ids(fasta_filtered_out)
+ids = get_ids([fasta, fasta_filtered_out, fasta_fungi, fasta_fungi2])
 
 def translate(infile_name, outfile_name, sep):
     with open(infile_name) as infile, open(outfile_name, 'w') as outfile:
@@ -29,9 +32,6 @@ def translate(infile_name, outfile_name, sep):
                 acc = line.split(sep)[0]
                 if acc in ids:
                     for entry in ids[acc]:
-                        outfile.write(f"{entry}{sep}{sep.join(line.split(sep)[1:])}")
-                elif acc in ids_filtered_out:
-                    for entry in ids_filtered_out[acc]:
                         outfile.write(f"{entry}{sep}{sep.join(line.split(sep)[1:])}")
 
 itol_files = [{'name': 'domain-combined', 'sep': ','}, 
