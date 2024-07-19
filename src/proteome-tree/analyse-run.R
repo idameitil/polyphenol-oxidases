@@ -41,6 +41,22 @@ all_seeds <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
   ylim(0,0.2) +
   xlim(0, 90)
 
-ggarrange(all, all_new, all_seeds,
+setwd("/Users/idamei/hpc/short-fungal-0507")
+df = read.table(file = 'out.nex.mcmc', sep = '\t', header = TRUE, skip=5)
+df['GenMio'] = df['Gen'] / 1000000
+short_fungal <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
+  geom_point() +
+  ylim(0,0.2) +
+  xlim(0, 70)
+
+setwd("/Users/idamei/hpc/short-fungal-0708")
+df = read.table(file = 'out.nex.mcmc', sep = '\t', header = TRUE, skip=5)
+df['GenMio'] = df['Gen'] / 1000000
+short_fungal_new <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
+  geom_point() +
+  ylim(0,0.2) +
+  xlim(0, 60)
+
+ggarrange(all_seeds, short_fungal, short_fungal_new,
           labels = c("A", "B", "C"),
           ncol = 3, nrow = 1)
