@@ -57,6 +57,9 @@ To make a tsv file with taxonomy for each uniprot hit, run: `python src/data-col
 ## Enrich uniprot hits with domain architecture
 Run: `python src/proteome-tree/enrich-proteome-hits-interproscan.py`. This creates the file `data/pfam/protein-matching-PF00264-interproscan2.tsv`.
 
+## Make protein to proteome table
+Run `python src/data-collection/make-protein2proteome-table.py`. This creates the file `data/proteome-tree/protein2proteome.tsv`.
+
 # Proteome tree
 
 ## Get proteome data
