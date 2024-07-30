@@ -1,21 +1,13 @@
 from Bio import SeqIO
 import pandas as pd
+import sys
 
-
-def get_fasta_sequences_location(fasta_filename):
-    fasta_alignment = SeqIO.parse(fasta_filename, "fasta")
+def get_fasta_sequences(fasta_filename):
+    fasta = SeqIO.parse(fasta_filename, "fasta")
     acc2seq = {}
-    for fasta in fasta_alignment:
-        acc = fasta.id.split(".")[0]
-        version = fasta.id.split(".")[1][0]
-        position = fasta.id.split("/")[1]
-        trimmed_seq = fasta.seq.replace("-", "")
-        acc2seq[f"{acc},{position}"] = {
-            "acc": acc,
-            "version": version,
-            "position": position,
-            "trimmed_seq": trimmed_seq,
-        }
+    for fasta in fasta:
+        acc = fasta.id.split("|")[0]
+        acc2seq[acc] = fasta.seq
     return acc2seq
 
 
@@ -27,7 +19,7 @@ def get_fasta_sequences_seeds(fasta_filename):
     return acc2seq
 
 
-acc2seq_trimmed = get_fasta_sequences_location("data/pfam/PF00264.alignment.uniprot.fa")
+acc2seq = get_fasta_sequences("data/pfam/protein-matching-PF00264.fasta")
 acc2seq_seeds_trimmed = get_fasta_sequences_seeds("data/seeds-trimmed.fa")
 seeds_include = [
     "ScTyr",
@@ -50,56 +42,59 @@ seeds_include = [
     "PsTyr",
 ]
 
-
-def get_selected_ids(domain, rank):
-    infile_name = f"data/proteome-tree/selected-sequences-{domain}-{rank}.txt"
-    with open(infile_name) as infile:
+def read_ids(filename):
+    id2position = {}
+    with open(filename) as infile:
         selected = [line.strip() for line in infile]
     return selected
 
+def write_fasta(outfilename, included, seeds_include=[]):
+    with open(outfilename, 'w') as outfile:
+        for entry in included:
+            acc = entry.split(',')[0]
+            start = int(entry.split(',')[1].split('-')[0])
+            stop = int(entry.split(',')[1].split('-')[1])
+            trimmed_seq = acc2seq[acc][start:stop]
+            outfile.write(f">{acc}/{start}-{stop}\n{trimmed_seq}\n")
+        for acc in acc2seq_seeds_trimmed:
+            if acc in seeds_include:
+                outfile.write(f">{acc}\n{acc2seq_seeds_trimmed[acc]}\n")
 
-def get_filtered_out_ids(domain, rank):
-    infile_name = f"data/proteome-tree/filtered-out-sequences-{domain}-{rank}.txt"
-    with open(infile_name) as infile:
-        filtered_out = [line.strip() for line in infile]
-    return filtered_out
+def write_noOverlap_filtered_fasta():
+    selected = read_ids("data/proteome-tree/sequenceIds-fungi-order-filtered-noOverlap.txt")
+    output_filename = f"data/proteome-tree/sequences-fungi-order-filtered-noOverlap.trimmed.fa"
+    write_fasta(output_filename, included=selected)
 
+def write_noOverlap_removed_fasta():
+    selected = read_ids("data/proteome-tree/sequenceIds-fungi-order-removed-noOverlap.txt")
+    output_filename = f"data/proteome-tree/sequences-fungi-order-removed-noOverlap.trimmed.fa"
+    write_fasta(output_filename, included=selected)
 
-def write_trimmed_fasta(domain, rank):
-    selected = get_selected_ids(domain, rank)
-    output_filename = f"data/proteome-tree/{domain}-one_proteome_per_{rank}.trimmed.fa"
-    with open(output_filename, "w") as outfile:
-        if domain == 'all':
-            for entry in acc2seq_trimmed:
-                if entry in selected:
-                    outfile.write(
-                        f">{acc2seq_trimmed[entry]['acc']}.{acc2seq_trimmed[entry]['version']}/{acc2seq_trimmed[entry]['position']}\n{acc2seq_trimmed[entry]['trimmed_seq']}\n"
-                    )
-            for acc in acc2seq_seeds_trimmed:
-                if acc in seeds_include:
-                    outfile.write(f">{acc}\n{acc2seq_seeds_trimmed[acc]}\n")
-        if domain == 'fungi':
-            all_selected = get_selected_ids(domain='all', rank='class')
-            for entry in acc2seq_trimmed:
-                # check if it's in the selection of all
-                id_formatted = f"{acc2seq_trimmed[entry]['acc']},{acc2seq_trimmed[entry]['position']}"
-                if id_formatted in selected and id_formatted not in all_selected:
-                    outfile.write(
-                        f">{acc2seq_trimmed[entry]['acc']}.{acc2seq_trimmed[entry]['version']}/{acc2seq_trimmed[entry]['position']}\n{acc2seq_trimmed[entry]['trimmed_seq']}\n"
-                    ) 
+def write_filtered_sequences_fasta(domain, rank):
+    selected = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-filtered.txt")
+    output_filename = f"data/proteome-tree/sequences-{domain}-{rank}-filtered.trimmed.fa"
+    if domain == 'all':
+        write_fasta(output_filename, included=selected, seeds_include=seeds_include)
+    else:
+        write_fasta(output_filename, included=selected)
 
+def write_removed_sequences_fasta(domain, rank):
+    filtered_out_ids = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-removed.txt")
+    output_filename = f"data/proteome-tree/sequences-{domain}-{rank}-removed.trimmed.fa"
+    write_fasta(outfilename=output_filename, included=filtered_out_ids)
 
-def write_filtered_out(domain, rank):
-    filtered_out_ids = get_filtered_out_ids(domain, rank)
-    output_filename = f"data/proteome-tree/filtered-out-{domain}-one_proteome_per_{rank}.trimmed.fa"
-    with open(output_filename, "w") as outfile:
-        for entry in acc2seq_trimmed:
-            if entry in filtered_out_ids:
-                outfile.write(
-                    f">{acc2seq_trimmed[entry]['acc']}.{acc2seq_trimmed[entry]['version']}/{acc2seq_trimmed[entry]['position']}\n{acc2seq_trimmed[entry]['trimmed_seq']}\n"
-                )
+def write_all_sequences_fasta(domain, rank):
+    selected = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-filtered.txt")
+    filtered_out_ids = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-removed.txt")
+    included = selected + filtered_out_ids
+    output_filename = f"data/proteome-tree/sequences-{domain}-{rank}-notFiltered.trimmed.fa"
+    write_fasta(outfilename=output_filename, included=included)
 
-write_trimmed_fasta("all", "class")
-write_trimmed_fasta("fungi", "order")
-write_filtered_out("all", "class")
-write_filtered_out("fungi", "order")
+write_filtered_sequences_fasta("all", "class")
+write_removed_sequences_fasta("all", "class")
+
+write_filtered_sequences_fasta("fungi", "order")
+write_removed_sequences_fasta("fungi", "order")
+write_noOverlap_filtered_fasta()
+write_noOverlap_removed_fasta()
+write_all_sequences_fasta('fungi', 'order')
