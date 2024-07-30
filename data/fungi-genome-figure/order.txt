@@ -1,4 +1,5 @@
 Acrospermales
+Aulographales
 Botryosphaeriales
 Cladosporiales
 Dothideales
@@ -8,6 +9,7 @@ Microthyriales
 Mycosphaerellales
 Myriangiales
 Mytilinidiales
+Patellariales
 Phaeotrichales
 Pleosporales
 Trypetheliales
@@ -16,12 +18,15 @@ Chaetothyriales
 Eurotiales
 Eurotiales
 Eurotiales
+Eurotiales
 Onygenales
 Phaeomoniellales
 Verrucariales
+Geoglossales
 Caliciales
 Lecanorales
 Ostropales
+Helotiales
 Thelebolales
 Orbiliales
 Pezizales
@@ -33,6 +38,7 @@ Hypocreales
 Hypocreales
 Magnaporthales
 Microascales
+Microascales
 Ophiostomatales
 Sordariales
 Sordariales
@@ -40,6 +46,7 @@ Sordariales
 Sordariales
 Sordariales
 Xylariales
+Agaricales
 Agaricales
 Agaricales
 Atheliales
@@ -54,7 +61,9 @@ Polyporales
 Polyporales
 Polyporales
 Polyporales
+Russulales
 Sebacinales
+Thelephorales
 Trechisporales
 Dacrymycetales
 Exobasidiales
@@ -67,7 +76,9 @@ Spizellomycetales
 Dissociodiphalophasida
 Diversisporales
 Glomerales
+Mortierellales
 Basidiobolales
+Dimargaritales
 Entomophthorales
 Kickxellales
 Zoopagales

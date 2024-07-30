@@ -12,6 +12,8 @@ Dothideomycetes
 Dothideomycetes
 Dothideomycetes
 Dothideomycetes
+Dothideomycetes
+Dothideomycetes
 Eurotiomycetes
 Eurotiomycetes
 Eurotiomycetes
@@ -19,9 +21,12 @@ Eurotiomycetes
 Eurotiomycetes
 Eurotiomycetes
 Eurotiomycetes
+Eurotiomycetes
+Geoglossomycetes
 Lecanoromycetes
 Lecanoromycetes
 Lecanoromycetes
+Leotiomycetes
 Leotiomycetes
 Orbiliomycetes
 Pezizomycetes
@@ -40,6 +45,10 @@ Sordariomycetes
 Sordariomycetes
 Sordariomycetes
 Sordariomycetes
+Sordariomycetes
+Agaricomycetes
+Agaricomycetes
+Agaricomycetes
 Agaricomycetes
 Agaricomycetes
 Agaricomycetes
@@ -67,7 +76,9 @@ Chytridiomycetes
 Dihaplophasea
 Glomeromycetes
 Glomeromycetes
+Mortierellomycetes
 Basidiobolomycetes
+Dimargaritomycetes
 Entomophthoromycetes
 Kickxellomycetes
 Zoopagomycetes

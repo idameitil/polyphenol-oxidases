@@ -188,7 +188,7 @@ def write_dotplot_htmls_fungi():
     for level in levels:
         with open(f'data/fungi-genome-figure/{level}.txt') as file:
             values = [line.rstrip() for line in file]
-        values.reverse()
+        # values.reverse()
         value2color = make_value2color(values)
         with open(f'data/fungi-genome-figure/{level}.html', 'w') as outfile:
             header = "<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n<style>\nh1 {\ncolor: green;\nfont-size: 10px;\n}\n</style>\n</head>\n<body>\n<h1>\n"
@@ -590,7 +590,7 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # Species tree
 df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
 # make_taxonomy_files_species_tree(df_species_tree)
-# write_dotplot_phylum_html(df_species_tree)
+write_dotplot_phylum_html(df_species_tree)
 
 # Clades
 # df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
