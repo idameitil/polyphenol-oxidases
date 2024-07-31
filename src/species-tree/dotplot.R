@@ -109,7 +109,7 @@ dotplot2 <- merged_table2 %>% filter(species %in% species_unique2) %>%
     plot.margin = unit(c(0.5,0.5,0.5,2), 'cm')
   ) +
   scale_color_manual(values = colors_groups) +
-  scale_y_discrete(labels = change_species_name)
+  scale_y_discrete(labels = change_species_name, limits=rev)
 plot_grid(ggtree_plot, dotplot2, nrow = 1, rel_widths = c(3,3), align = 'h')
 
 # Save pdf
