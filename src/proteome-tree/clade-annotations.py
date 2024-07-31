@@ -12,11 +12,7 @@ def read_file(filename):
 
 def get_included_accessions(fasta_filename):
     fasta_sequences = SeqIO.parse(fasta_filename, 'fasta')
-    included_accessions = []
-    for fasta in fasta_sequences:
-        name = fasta.id
-        included_accessions.append(name)
-    return included_accessions
+    return [fasta.id for fasta in fasta_sequences]
 
 def get_clade_members(clade_dir):
     acc2clade = {}
@@ -25,6 +21,14 @@ def get_clade_members(clade_dir):
         for acc in members:
             result = re.sub(r'\.\d0', '/', acc)
             acc2clade[result] = clade
+    return acc2clade
+
+def get_clade_members_old(clade_dir):
+    acc2clade = {}
+    for clade in os.listdir(clade_dir):
+        members = read_file(f"{clade_dir}/{clade}") 
+        for acc in members:
+            acc2clade[acc] = clade
     return acc2clade
 
 def make_df(included_accessions, acc2clade):
@@ -59,12 +63,49 @@ def make_df(included_accessions, acc2clade):
     df.index.name = 'species'
     return df
 
+def make_df_old(included_accessions, acc2clade):
+    accs_done = []
+    species2clades = {}
+    count = 0
+    for acc in included_accessions:
+        count += 1
+        # exclude seeds
+        if '.' not in acc:
+            continue
+        if '/' in acc:
+            acc = acc.replace('/', '0')
+        acc_stripped = acc.split('.')[0]
+        # exclude if the protein has been there before (proteins with several domains)
+        if acc_stripped in accs_done:
+            continue
+        accs_done.append(acc_stripped)
+        mask = df_uniprot_hits.protein_accession == acc_stripped
+        if len(df_uniprot_hits[mask]) == 0:
+            continue
+        species = df_uniprot_hits[mask].species.item()
+        species_underscore = species.replace(' ', '_')
+        if acc in acc2clade:
+            clade = acc2clade[acc]
+        else:
+            clade = 'singletons'
+        clade_short = clade[0]
+        if species_underscore not in species2clades:
+            species2clades[species_underscore] = {clade_short: 1}
+        else:
+            if clade_short not in species2clades[species_underscore]:
+                species2clades[species_underscore][clade_short] = 1
+            else:
+                species2clades[species_underscore][clade_short] += 1
+    df = pd.DataFrame(species2clades).fillna(0).T
+    df.index.name = 'species'
+    return df
+
 # Run with all
 # included_accessions = get_included_accessions('data/proteome-tree/all-one_proteome_per_class.fa')
-# included_accessions = get_included_accessions('data/epa-ng/filtered-out/ref-query-linsi.fa')
-# acc2clade = get_clade_members(clade_dir='data/mrbayes/all-seeds-0619/clades/members')
-# df = make_df(included_accessions, acc2clade)
-# df.to_csv('data/mrbayes/all-seeds-0619/clades/clades.csv')
+included_accessions = get_included_accessions('data/epa-ng/filtered-out/ref-query-linsi.fa')
+acc2clade = get_clade_members_old(clade_dir='data/mrbayes/all-seeds-0619/clades/members')
+df = make_df_old(included_accessions, acc2clade)
+df.to_csv('data/mrbayes/all-seeds-0619/clades/clades.csv')
 
 # Run with fungi one per order
 included_accessions = get_included_accessions(fasta_filename='data/proteome-tree/sequences-fungi-order-notFiltered.trimmed.fa')
