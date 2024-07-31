@@ -9,3 +9,4 @@ data/md/solv_ions.gro
 *.xtc
 data/mrbayes/*/run
 *.mp4
+~$*
