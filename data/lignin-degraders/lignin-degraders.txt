@@ -1,23 +1,26 @@
-Penicilium rochefortii
-Aspergillus oryzae
+Included:
 Aspergillus niger
 Aspergillus fumigatus
+Aspergillus oryzae
 Podospora anserina*
 Chaetomium globosum*
 Myceliophthora thermophila*
 Parascedosporium putredinis(*)
 Thielavia terrestris*
 Trichoderma reesei*
-Trichoderma viride*
 Fusarium oxysporum
 Fusarium graminarium
 Coprinopsis cinerea
-Phanerochaete chrysosporium*
 Pleurotus ostreatus*
 Agaricus bisporus*
-Pycnoporus sanguineus*
 Postia placenta* (fenton chemistry, no enzymes)
-Ganoderma lucidum*
-Trametes versicolor*
-Phytophthora infestans
-Neocallimastix californ*
+
+Not included:
+Neocallimastix californ* (no PPOs)
+Penicilium rochefortii (no genome, I included another Penicilium)
+Trichoderma viride* (no genome, but there is a Trichoderma citrinoviride and Trichoderma atroviride)
+Phanerochaete chrysosporium* (no genome, I included Phanerochaete carnosa)
+Pycnoporus sanguineus* (no genome, I included Pycnoporus cinnabarinus (Cinnabar-red polypore) (Trametes cinnabarina))
+Ganoderma lucidum* (no genome, I included Ganoderma sinense)
+Trametes versicolor* (no genome, I included Pycnoporus cinnabarinus (Cinnabar-red polypore) (Trametes cinnabarina))
+Phytophthora infestans (it's an oomycota, it's in the dataset with all kingdoms)
