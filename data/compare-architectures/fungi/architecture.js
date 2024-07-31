@@ -1,0 +1,22 @@
+const architectures = {
+	'i1, MtPPO-010': {
+		'domain_start_structure': 77,
+		'architecture_string': 'lllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhlllllllhhhhhhhhhllllllllllllllllllllllhhhhlllssssslllllsssssllllllllllllllllhhhhllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhllllllllllllhhhhhhhhhhhhhlllllllllllhhhllllhhhllhhhhhhhhhhhhhhhhhh'
+		},
+	'i2, AoCO4': {
+		'domain_start_structure': 52,
+		'architecture_string': 'llhhhhhhhhllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhlllllllhhhhhhhhhllllllllllllllllllllllhhhhlllssssslllllsssssllllllllllllllllhhhhllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhllllllllllllhhhhhhhhhhhhhlllllllllllhhhllllhhhllhhhhhhhhhhhhhhhhhh'
+		},
+	'i3, CgPPO-266': {
+		'domain_start_structure': 52,
+		'architecture_string': 'llhhhhhhhhllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhlllllllhhhhhhhhhllllllllllllllllllllllhhhhlllssssslllllsssssllllllllllllllllhhhhllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhllllllllllllhhhhhhhhhhhhhlllllllllllhhhllllhhhllhhhhhhhhhhhhhhhhhh'
+		},
+	'i4, MtPPO7': {
+		'domain_start_structure': 52,
+		'architecture_string': 'llhhhhhhhhllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhlllllllhhhhhhhhhllllllllllllllllllllllhhhhlllssssslllllsssssllllllllllllllllhhhhllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhllllllllllllhhhhhhhhhhhhhlllllllllllhhhllllhhhllhhhhhhhhhhhhhhhhhh'
+		},
+	'i5, MtPPO-809': {
+		'domain_start_structure': 52,
+		'architecture_string': 'llhhhhhhhhllllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhlllllllhhhhhhhhhllllllllllllllllllllllhhhhlllssssslllllsssssllllllllllllllllhhhhllllllllllllllllhhhhhhhhhhhhhhhhhhhhhhhhhlllhhhhhllllllllllllhhhhhhhhhhhhhlllllllllllhhhllllhhhllhhhhhhhhhhhhhhhhhh'
+		}
+};
