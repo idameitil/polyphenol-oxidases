@@ -8,7 +8,8 @@ def get_fasta_sequences(fasta_filename):
         acc2seq[fasta.id.replace('/', '0')] = fasta.seq
     return acc2seq
 
-acc2seq_trimmed = get_fasta_sequences('data/proteome-tree/all-one_proteome_per_class.trimmed.fa')
+# acc2seq_trimmed = get_fasta_sequences('data/proteome-tree/all-one_proteome_per_class.trimmed.fa')
+acc2seq_trimmed = get_fasta_sequences('data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa')
 acc2seq_seeds_trimmed = get_fasta_sequences('data/seeds-trimmed.fa')
 
 def write_fasta(ids, output_filename):
@@ -21,6 +22,19 @@ def write_fasta(ids, output_filename):
 
 # dir = "data/mrbayes/all"
 dir = "data/mrbayes/all-seeds-0619" 
+member_dir = f"{dir}/clades/members"
+clades = os.listdir(member_dir)
+out_dir = f"{dir}/clades/fastas" 
+for clade in clades:
+    if clade.endswith('.DS_Store'):
+        continue
+    with open(f'{member_dir}/{clade}') as f:
+        accs = f.read().splitlines()
+    print(accs)
+    write_fasta(accs, f"{out_dir}/{clade}.fa")
+
+
+dir = "data/mrbayes/short-fungal-0507" 
 member_dir = f"{dir}/clades/members"
 clades = os.listdir(member_dir)
 out_dir = f"{dir}/clades/fastas" 
