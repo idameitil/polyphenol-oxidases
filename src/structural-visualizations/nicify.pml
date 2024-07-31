@@ -1,6 +1,6 @@
 set cartoon_side_chain_helper, on
 #set float_labels, on
-set label_size, 25
+set label_size, 23
 set label_font_id, 7
 set ray_trace_mode, 0
 set label_color,black
@@ -8,7 +8,7 @@ set label_padding, [0, 0, 0]
 set label_bg_transparency, 0.2
 set label_bg_color, white
 center
-disable
+#disable
 bg_color white
 remove hydrogens
 # Hide water
@@ -21,6 +21,7 @@ hide (resn ZN)
 set label_position, (0, 0, 20)
 set cartoon_transparency, 0.7
 set cartoon_fancy_helices
+deselect
 
 # From Preben
 # reinitialize
