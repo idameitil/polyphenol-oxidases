@@ -29,4 +29,4 @@ CgAUS1,CgAUS1 (Catechol oxidase),-1,#000000,bold,4,0
 P17643.20184-416,HsTrp1 (Tyrosinase-related protein),-1,#000000,bold,4,0
 A0A0A0MTD3.1018-203,HsTrp2a (Tyrosinase-related protein),-1,#000000,bold,4,0
 P40126.10180-408,HsTrp2b (Tyrosinase-related protein),-1,#000000,bold,4,0
-P14679.30172-402,HsTyr (Tyrosinase-related protein),-1,#000000,bold,4,0
+P14679.30172-402,HsTyr (Tyrosinase),-1,#000000,bold,4,0
