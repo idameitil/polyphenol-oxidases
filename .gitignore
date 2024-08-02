@@ -10,3 +10,5 @@ data/md/solv_ions.gro
 data/mrbayes/*/run
 *.mp4
 ~$*
+*.RData
+*.Rhistory
