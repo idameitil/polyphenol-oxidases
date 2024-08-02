@@ -1,0 +1,32 @@
+DATASET_TEXT
+SEPARATOR COMMA
+DATASET_LABEL,seeds
+COLOR,#000000
+DATA
+AbPPO4,AbPPO4 (Tyr),-1,#000000,bold,4,0
+A0A1S9DK56.1058-384,AoMelB (Tyr),-1,#000000,bold,4,0
+A0A1S9DJX3.10118-349,AoCO4 (o-mp),-1,#000000,bold,4,0
+MtPPO-809,MtPPO-809 (o-mp),-1,#000000,bold,4,0
+PpPPO-c2092,PpPPO-c2092 (o-mp),-1,#000000,bold,4,0
+CgPPO-473,CgPPO-473 (o-mp),-1,#000000,bold,4,0
+MtPPO7,MtPPO7 (o-mp),-1,#000000,bold,4,0
+CgPPO-266,CgPPO-266 (o-mp),-1,#000000,bold,4,0
+MtPPO-010,MtPPO-010 (o-mp),-1,#000000,bold,4,0
+AbPPO3,AbPPO3 (Tyr),-1,#000000,bold,4,0
+ScTyr,ScTyr (Tyr),-1,#000000,bold,4,0
+BmTyr,BmTyr (Tyr),-1,#000000,bold,4,0
+VvPPO,VvPPO (CO),-1,#000000,bold,4,0
+IbCO,IbCO (CO),-1,#000000,bold,4,0
+EdHc,EdHc (Hc),-1,#000000,bold,4,0
+RvHc,RvHc (Hc),-1,#000000,bold,4,0
+NpsF,NpsF (o-apo),-1,#000000,bold,4,0
+SlPPO1,SlPPO1 (CO),-1,#000000,bold,4,0
+SlPPO2,SlPPO2 (CO),-1,#000000,bold,4,0
+MdPPO1,MdPPO1 (CO),-1,#000000,bold,4,0
+MdPPO2,MdPPO2 (CO),-1,#000000,bold,4,0
+MdPPO3,MdPPO3 (CO),-1,#000000,bold,4,0
+CgAUS1,CgAUS1 (CO),-1,#000000,bold,4,0
+P17643.20184-416,HsTrp1 (Trp),-1,#000000,bold,4,0
+A0A0A0MTD3.1018-203,HsTrp2a (Trp),-1,#000000,bold,4,0
+P40126.10180-408,HsTrp2b (Trp),-1,#000000,bold,4,0
+P14679.30172-402,HsTyr (Tyr),-1,#000000,bold,4,0
