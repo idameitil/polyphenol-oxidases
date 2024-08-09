@@ -1,3 +1,34 @@
+# AoMelO
+AoMelO = AoTyr (it only has one long fungal PPO)
+
+# Caio feedback
+
+I got some comments from the reviewers that this reaction is not fundamentally different, in the sense that the catalytic cycle is the same whether the substrate is o-methoxylated or not. (in other words, the proposed cycle always involves the cycling between deoxy-, oxy- and met-states, and that the oxy-state is the one responsible for monooxygenase reaction).
+
+Or maybe the catalytic cycle is in fact different, but more studies are required to elucidate that.
+
+So maybe we need to phrase it in another way, without downsizing the novelty of the reaction.
+
+Although the proposed catalytic cycle for PPO activity on syringyl-type substrates isn't new per se, it is novel that this cycle can occur even when the substrate's ortho-carbon — attacked by oxy-PPO — is protected by a methoxy group. Additionally, it is new that the ortho-methoxy group of such S-type substrates is released as methanol. The novelty lies in the versatility of this conserved catalytic mechanism towards phenols with different aromatic ring structures. 
+
+# Thesis outline
+
+- Introduction 30-50
+- Chapter 1 (main findings of the paper, why did we do it, new stuff, new literature)
+- Chapter 2
+- Chapter 3
+- Discussion 10
+- Conclusion 1-2
+- Further perspective 1
+
+# white and brown rot
+white rot: they consume lignin which is brown, so the biomass becomes white. (Phanerochaete carnosa, Trametes cinnabarina, Ganoderma sinense)
+Brown rot: they oxidize lignin making it more brown (Gloeophyllum trabeum, Postia placenta)
+
+# Regex architecture figure
+(\d+): 'W', (\d+): 'H', (\d+): 'R'
+$1: {aminoacid: 'W', offset: -20}, $2: 'H', $3: {aminoacid: 'R', offset: 20}
+
 # Sequences deleted from alignments for conserved residue figure (becauses they are fragments)
 a
 A0A176WL12.10200-409
