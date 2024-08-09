@@ -33,7 +33,7 @@ Fasta of the Pfam entries was downloaded from `https://www.ebi.ac.uk/interpro/en
 
 A json file with metadata was also downloaded and saved in `data/pfam/protein-matching-PF00264.json`.
 
-(Not used) Aligned sequences were downloaded `data/pfam/PF00264.alignment.uniprot`.
+Aligned sequences were downloaded `data/pfam/PF00264.alignment.uniprot`.
 
 Entries with structures were downloaded: `data/pfam/structure-matching-PF00264.tsv`.
 
@@ -190,6 +190,19 @@ convert to .mbc file newick in figtree and remove second tree (search for ; and 
 Copy tree fasta: `cp data/proteome-tree/all-one_proteome_per_class.trimmed.fa data/epa-ng/ref.fa`.
 
 Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/ref.fa`.
+
+## New seeds
+Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/new-seeds/query.fa > data/epa-ng/new-seeds/ref-query.fa`.
+
+Make alignment: `linsi --thread 7 data/epa-ng/new-seeds/ref-query.fa > data/epa-ng/new-seeds/ref-query-linsi.fa`
+
+Divide in two files: `data/epa-ng/new-seeds/query-linsi.fa` and `data/epa-ng/new-seeds/ref-linsi.fa`.
+
+`mkdir data/epa-ng/new-seeds/out`
+
+Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/new-seeds/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/new-seeds/query-linsi.fa --model WAG --redo --outdir data/epa-ng/new-seeds/out`
+
+Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/new-seeds/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/new-seeds/out/ --allow-file-overwriting`. This produces the file `data/epa-ng/new-seeds/out/epa_result.newick`.
 
 ## Filtered out sequences
 Copy query file: `cp data/proteome-tree/filtered-out-all-one_proteome_per_class.trimmed.fa data/epa-ng/filtered-out/query.fa`
