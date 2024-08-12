@@ -3,9 +3,9 @@ const architectures = {
 		'domain_start_structure': 77,
 		'architecture_string': 'lllhhhhhhhhhhhhlllllllllllllllllllllhhhhhhhhhhhhhhhhhhhlllllllllllllllhhhllllhhhhllllllllllllhhhllllllllllllllllllhhhhhhhhhhhhhhhhhhllllhhhhhlllllllllllllllhhhhhhhhhhhhhhlllllllllllllllhhhlllhhhhhhhhhhhhhhhhh'
 		},
-	'b, 1JS8 (EdHc)': {
-		'domain_start_structure': 2534,
-		'architecture_string': 'llhhhhhllllllllsslllllsslllllllllhhhhhhhhhhhhhhhhhhllllllllllllllllllllhhhhllllllllllssllllssllllllhhhluuuuuuuuuhhhhhhhhhhhlllhhhhhhhhhhhhhhhhhhhhllllllllllllhhhllhhhhhhhhhhhhhhhhhh'
+	'b, 1LNL (RvHc)': {
+		'domain_start_structure': 32,
+		'architecture_string': 'lllllllhhhhllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhllllllllllllllllllllhhhhlllllllllllllllhhhllllllllllllllllllllllllllllllhhhhhhhhhhlllllhhhhhhhhhhhhhhhhhhhlllllllllllhhhlllhhhhhllhhhhhhhh'
 		},
 	'c, 2Y9X (AbTyr)': {
 		'domain_start_structure': 52,
