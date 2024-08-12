@@ -1,3 +1,15 @@
+# Agaricus bisporus PPOs
+A0A8H7C4Z8	UP000629468	Agaricus bisporus (AbPPO6)
+A0A8H7C551	UP000629468	Agaricus bisporus (AbPPO1)
+A0A8H7F0X6	UP000629468	Agaricus bisporus (AbPPO3)
+A0A8H7F114	UP000629468	Agaricus bisporus (AbPPO2)
+A0A8H7F118	UP000629468	Agaricus bisporus (AbPPO4)
+A0A8H7F178	UP000629468	Agaricus bisporus (AbPPO5)
+
+# Streptomyces avermitilis
+    - 7VHS is for the 2024 publication, but it’s not available on the rcsb website yet
+    - 6J2U is available, but there’s no publication, although it’s published by the same authors from the 2024 paper
+
 # AoMelO
 AoMelO = AoTyr (it only has one long fungal PPO)
 
