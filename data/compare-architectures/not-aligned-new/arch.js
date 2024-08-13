@@ -31,9 +31,14 @@ const canvasHeight = (Object.keys(lengths).length * spaceBetweenArchitectures + 
 const spaceBeforeArchitectureName = 30;
 const blackLineThickness = 8;
 
+function writeSvgOutput(){
+    svgOutput += '</svg>';
+    document.getElementById('svg-output').innerHTML = svgOutput;
+}
+
 function setup() {
-    background(255);
-    createCanvas(canvasWidth, canvasHeight);
+    background_svg(255);
+    createCanvas_svg(canvasWidth, canvasHeight);
     let i = 0;
     for (const architectureName in architectures) {
         let y;
@@ -43,6 +48,7 @@ function setup() {
         drawArchitecture(architectures[architectureName]['architecture_string'], architectures[architectureName]['domain_start_structure'], conservedResidues[architectureName], lengths[architectureName], y);
         i++;
     }
+    writeSvgOutput();
 }
 
 function computeXForPositionInDomain(positionInDomain){
@@ -56,20 +62,20 @@ function drawArchitecture(architectureString, domain_start_structure, conservedR
         const conservedResidue = conservedResidues[positionInCompleteProtein];
         const isConserved = !!conservedResidue;
         const xCoord = computeXForPositionInDomain(positionInDomain)
-        // switch (architectureString[i]) {
-        //     case 'l':
-        //         drawLoop(xCoord, y, isConserved);
-        //         break;
-        //     case 'h':
-        //         drawHelix(xCoord, y, isConserved);
-        //         break;
-        //     case 's':
-        //         drawSheet(xCoord, y, isConserved);
-        //         break;
-        //     case 'u':
-        //         drawUndefined(xCoord, y, isConserved);
-        //         break;
-        // }
+        switch (architectureString[i]) {
+            case 'l':
+                drawLoop(xCoord, y, isConserved);
+                break;
+            case 'h':
+                drawHelix(xCoord, y, isConserved);
+                break;
+            case 's':
+                drawSheet(xCoord, y, isConserved);
+                break;
+            case 'u':
+                drawUndefined(xCoord, y, isConserved);
+                break;
+        }
         if(isConserved){
              drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompleteProtein)
         }
@@ -109,53 +115,53 @@ function drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompl
     // const size_residue_text = 25;
     const size_residue_text = 30;
     const color_residue_text = getConservedResidueColor(conservedResidueLetter);
-    textSize(size_residue_text);
-    fill(...color_residue_text);
-    textStyle(BOLD);
-    text(conservedResidueLetter, xCoord - (size_residue_text / 4) + xOffsetForLetter, y + yOffsetForLetter);
+    textSize_svg(size_residue_text);
+    fill_svg(...color_residue_text);
+    textStyle_svg(BOLD);
+    text_svg(conservedResidueLetter, xCoord - (size_residue_text / 4) + xOffsetForLetter, y + yOffsetForLetter);
 
     const color_position_text = [0, 0, 0];
     const size_position_text = 13;
-    textSize(size_position_text);
-    fill(...color_position_text);
-    text(positionInCompleteProtein, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
-    textStyle(NORMAL);
+    textSize_svg(size_position_text);
+    fill_svg(...color_position_text);
+    text_svg(positionInCompleteProtein, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
+    textStyle_svg(NORMAL);
 }
 
 function drawLoop(x, y, isConserved) {
-    fill(200, 200, 200);
-    noStroke();
+    fill_svg(200, 200, 200);
+    noStroke_svg();
     if (isConserved) {
-        fill(0);
+        fill_svg(0);
     }
-    rect(x, y + unitSize * .25, unitSize, unitSize * .5);
+    rect_svg(x, y + unitSize * .25, unitSize, unitSize * .5);
 }
 
 function drawHelix(x, y, isConserved) {
-    fill(130, 130, 130);
-    noStroke();
+    fill_svg(130, 130, 130);
+    noStroke_svg();
     if (isConserved) {
-        fill(0);
+        fill_svg(0);
     }
-    rect(x, y - 6, unitSize, unitSize * 2);
+    rect_svg(x, y - 6, unitSize, unitSize * 2);
 }
 
 function drawSheet(x, y, isConserved) {
-    fill(45, 130, 80);
-    noStroke();
+    fill_svg(45, 130, 80);
+    noStroke_svg();
     if (isConserved) {
-        fill(0);
+        fill_svg(0);
     }
-    rect(x, y - 6, unitSize, unitSize * 2)
+    rect_svg(x, y - 6, unitSize, unitSize * 2)
 }
 
 function drawUndefined(x, y, isConserved) {
-    fill(200, 200, 200);
-    noStroke();
+    fill_svg(200, 200, 200);
+    noStroke_svg();
     if (isConserved) {
-        fill(0);
+        fill_svg(0);
     }
-    rect(x + unitSize * .25, y + unitSize * .25, unitSize * 0.5, unitSize * .5);
+    rect_svg(x + unitSize * .25, y + unitSize * .25, unitSize * 0.5, unitSize * .5);
 }
 
 function transformString(input) {
@@ -175,23 +181,23 @@ function drawArchitectureName(architectureName, y) {
     const size = 45;
     // const color = [0, 0, 0];
     const color = name2color[architectureName];
-    textSize(size);
-    fill(color);
-    // text(architectureName.substring(0,1) + ':', 0, y);
-    // text(architectureName.substring(0,1), 0, y);
-    text(transformString(architectureName), 0, y);
+    textSize_svg(size);
+    fill_svg(color);
+    // text_svg(architectureName.substring(0,1) + ':', 0, y);
+    // text_svg(architectureName.substring(0,1), 0, y);
+    text_svg(transformString(architectureName), 0, y);
 }
 
 function drawBlackLine(y) {
     const color = [150, 150, 150];
-    fill(...color);
-    stroke(color)
-    rect(0, y, canvasWidth, blackLineThickness)
+    fill_svg(...color);
+    stroke_svg(color)
+    rect_svg(0, y, canvasWidth, blackLineThickness)
 }
 
 function drawVerticalLine(x) {
     const color = [150, 150, 150];
-    fill(...color);
-    stroke(color)
-    rect(x, blackLineThickness, blackLineThickness, canvasHeight)
+    fill_svg(...color);
+    stroke_svg(color)
+    rect_svg(x, blackLineThickness, blackLineThickness, canvasHeight)
 }
