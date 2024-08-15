@@ -1,5 +1,4 @@
 # Data collection
-
 Caio sent a file with the PDB structures mentioned in Kanteev it al, 2015: `data/PPOs-with-a-3D-structure.xlsx`.
 
 ## Seed table
@@ -70,23 +69,34 @@ A json file with proteome metadata was downloaded from uniprot `https://www.unip
 The above to files are combined by running: `python src/proteome-tree/make-proteome-table.py`. This creates the file `data/proteome-tree/proteome-data.tsv`.
 
 ## Manually selected genomes
-Files with manually selected genomes were saved in `data/proteome-tree/class-representatives.xlsx` and `data/proteome-tree/fungal-order-representatives.xlsx`
+One proteome per class were manually selected from the proteom-table and saved in `data/proteome-tree/class-representatives.xlsx`.
+
+One proteome per fungal order were manually selected and saved in `data/proteome-tree/fungal-order-representatives.xlsx`.
 
 ## Get sequences from selected proteomes
-In order to get the PPO sequences from the selected proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. This creates the set of files `data/proteome-tree/selected-sequences-all-class.txt`.
+In order to get the PPO sequences from the selected proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. 
+
+This creates the files: 
+- `data/proteome-tree/sequenceIds-all-class-filtered.txt` with sequence IDs for the selected genomes per class with e-value < 1e-20
+- `data/proteome-tree/sequenceIds-all-class-removed.txt` with sequence IDs for the selected genomes per class with e-value > 1e-20
+- `data/proteome-tree/sequenceIds-fungi-order-filtered.txt` with sequence IDs for the selected genomes per fungal order with e-value < 1e-20
+- `data/proteome-tree/sequenceIds-fungi-order-removed.txt` with sequence IDs for the selected genomes per fungal order with e-value > 1e-20
+- `data/proteome-tree/sequenceIds-fungi-order-notFiltered.txt` with all sequence IDs for the selected genomes per fungal order
+- `data/proteome-tree/sequenceIds-fungi-order-filtered-noOverlap.txt` with sequence IDs for the selected genomes per fungal order with e-value < 1e-20, excluding the sequences in the class dataset
+- `data/proteome-tree/sequenceIds-fungi-order-removed-noOverlap.txt` with sequence IDs for the selected genomes per fungal order with e-value > 1e-20, excluding the sequences in the class dataset
 
 ## Get trimmed selected sequences
-In order to make fasta files with the selected sequences, run `python src/proteome-tree/get-aligned-selected-sequences.py`. This creates the file`data/proteome-tree/all-one_proteome_per_class.trimmed.fa`.
+In order to make fasta files with the selected sequences, run `python src/proteome-tree/get-aligned-selected-sequences.py`. This creates the fasta files corresponding to the files above, plus some with seeds.
 
 ## Make alignment
 ### For all kingdoms
-Run linsi: `linsi --thread 7 data/proteome-tree/all-one_proteome_per_class.trimmed.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa`
+Run linsi: `linsi --thread 7 data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed.fa > data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed-linsi.fa`
 
-Remove gaps with more than 95% gaps: `seqconverter --remfracgapcols 0.95 -I fasta -O fasta data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.95.fa`
+Remove gaps with more than 95% gaps: `seqconverter --remfracgapcols 0.95 -I fasta -O fasta data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed-linsi.fa > data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed-linsi-0.95.fa`
 
-Convert to NEXUS: `seqconverter --remfracgapcols 0.95 -I fasta -O nexus data/proteome-tree/all-one_proteome_per_class.trimmed-linsi.fa > data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.95.nexus`
+Convert to NEXUS: `seqconverter --remfracgapcols 0.95 -I fasta -O nexus data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed-linsi-0.95.fa > data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed-linsi-0.95.nexus`
 
-### For only fungi
+### For only fungi (not used)
 Run linsi: `linsi --thread 7 data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi.fa`
 
 Convert to NEXUS with removed gaps: `seqconverter --remfracgapcols 0.95 -I fasta -O nexus data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi-0.95.fa`
@@ -96,7 +106,12 @@ Convert to NEXUS with removed gaps: `seqconverter --remfracgapcols 0.8 -I fasta 
 Convert to NEXUS without removing gaps: `seqconverter -I fasta -O nexus data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi.fa > data/proteome-tree/fungal-one_proteome_per_order.trimmed-linsi.nexus`
 
 ## MrBayes
-`scp data/proteome-tree/all-one_proteome_per_class.trimmed-linsi-0.95.nexus hpc:~/`
+`scp data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed-linsi-0.95.nexus hpc:~/`
+
+On HPC: `scp sequences-all-class-filtered-andseeds.trimmed-linsi-0.95.nexus hal:~/`
+
+Make the folder on hal including the alignment file and the gpu_run.nexus file.
+
 On hal, check that no jobs are running: `nvtop -d 1`
 
 Go to the folder and start tmux: `tmux attach -d -t mrbayes`
@@ -279,3 +294,12 @@ To make the data table for making boxplots, run `python src/boxplots/make-proteo
 
 To make the boxplots, run the R script `src/boxplots/make-boxplots.R`.
 
+# Make supplementary figure (CD-HIT reduced tree)
+
+Filter: `python src/data-collection/filter.py` 
+
+Redundancy reduce: `cd-hit -c 0.4 -d 2 -i data/pfam/protein-matching-PF00264-filtered20.fasta -o data/pfam/protein-matching-PF00264-filtered20-cdhit0.4.fasta`
+
+Make alignment: `linsi --thread 7 data/pfam/protein-matching-PF00264-filtered20-cdhit0.4.fasta > data/pfam/protein-matching-PF00264-filtered20-cdhit0.4-linsi.fasta`
+
+`raxml-ng --msa data/pfam/PF00264.alignment.uniprot-cleaned-filtered.fa --model JTT+G4 --prefix data/pfam/raxml/T7 --threads 7 --seed 2 --blopt nr_safe`
