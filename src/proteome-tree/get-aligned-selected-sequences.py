@@ -33,6 +33,11 @@ uniprot_seeds = [
     "C7FF05",
     "A0A8H7F178",
     "A0A8H7C4Z8",
+    "A0A8H7F0X6",
+    "A0A8H7F118",
+    "A0A1S9DK56",
+    "A0A498IXV7",
+    "D5DZK6.34-242"
 ]
 
 fungal_seeds = [
