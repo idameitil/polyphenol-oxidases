@@ -585,4 +585,4 @@ df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
 # write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 
 # Make combined domain label file
-make_domain_label_file_combined(df_uniprot_hits, seed_df)
+# make_domain_label_file_combined(df_uniprot_hits, seed_df)
