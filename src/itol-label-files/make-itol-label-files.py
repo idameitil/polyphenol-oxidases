@@ -411,6 +411,7 @@ def write_domain_label_file(output_filename, ids, lengths, domains):
     domain2color = {
         'TRANSMEMBRANE':{'name': 'Transmembrane domain', 'type': 'Phobius', 'color': '#ff0000'},
         'SignalP-noTM':{'name': 'Signal peptide', 'type': 'SignalP', 'color': '#2d297a'},
+        'SignalP-TM':{'name': 'Signal peptide', 'type': 'SignalP-TM', 'color': '#ff0000'},
         'PF00264':{'name': 'Common central domain of tyrosinase', 'type': 'Pfam', 'color': '#10aefd'},
         'PF12142':{'name': 'Polyphenol oxidase middle domain', 'type': 'Pfam', 'color': '#cf7dd4'},
         'PF03722':{'name': 'Hemocyanin, all-alpha domain', 'type': 'Pfam', 'color': '#7af92b'},
@@ -460,7 +461,7 @@ def make_domain_label_file_combined(df_uniprot, df_seeds):
     lengths = [len(seq) for seq in (df_uniprot.seq.tolist() + df_seeds.full_sequence.tolist())]
     domains = []
     unique_domains = [column_name for column_name in df_uniprot.columns if column_name.startswith('domain_')]
-    domains_ignore = ['NON_CYTOPLASMIC', 'CYTOPLASMIC_DOMAIN', 'SIGNAL_PEPTIDE', 'SIGNAL_PEPTIDE_N_REGION', 'SignalP-TM_SignalP-TM', 'SIGNAL_PEPTIDE_C_REGION', 'SIGNAL_PEPTIDE_H_REGION']
+    domains_ignore = ['NON_CYTOPLASMIC', 'CYTOPLASMIC_DOMAIN', 'SIGNAL_PEPTIDE', 'SIGNAL_PEPTIDE_N_REGION', 'SIGNAL_PEPTIDE_C_REGION', 'SIGNAL_PEPTIDE_H_REGION']
     def get_domains(row):
         domains_this_one = []
         for domain_name in unique_domains:
@@ -558,27 +559,13 @@ seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 # make_taxonomy_label_files(seed_df)
 # make_activity_label_file(seed_df)
 # make_binary_label_files(seed_df)
-# make_aguilera_subclass_label_file(seed_df)
-# # make_aguilera_subclass_label_file_text(seed_df)
 # make_domain_label_file(seed_df)
-
-# # Make blast hit label files
-# df_blast_hits = pd.read_csv('data/blast/unique-hits-enriched-interproscan.tsv', sep='\t')
-# make_domain_label_file(df_blast_hits, blast_hits=True)
-# make_taxonomy_label_files(df_blast_hits, blast_hits=True)
-
-# # Make aguilera label files
-# df_aguilera = pd.read_excel('data/Aguilera-data/aguilera_with_seq.xlsx')
-# make_aguilera_subclass_label_file_text(df_aguilera)
 
 # Uniprot
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t', low_memory=False)
-# make_taxonomy_file_adapted(df_uniprot_hits, seed_df)
+make_taxonomy_file_adapted(df_uniprot_hits, seed_df)
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-# make_taxonomy_label_files(df_uniprot_hits, seed_df)
-# make_score_label_file()
-# make_coverage_label_file()
-# make_match_length_file()
+make_taxonomy_label_files(df_uniprot_hits, seed_df)
 # make_taxonomy_arrow_files(df_uniprot_hits, 'all')
 
 # make_taxonomy_arrow_files(df_uniprot_hits, 'order', 'all')
@@ -590,12 +577,12 @@ df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.
 # Species tree
 df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
 # make_taxonomy_files_species_tree(df_species_tree)
-write_dotplot_phylum_html(df_species_tree)
+# write_dotplot_phylum_html(df_species_tree)
 
 # Clades
-# df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
+df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
 # write_heatmap_text_file(f'{outdir}/clade-heatmap.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 # write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 
 # Make combined domain label file
-# make_domain_label_file_combined(df_uniprot_hits, seed_df)
+make_domain_label_file_combined(df_uniprot_hits, seed_df)

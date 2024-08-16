@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-fasta = 'data/proteome-tree/sequences-all-class-filtered.trimmed.fa'
+fasta = 'data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed.fa'
 # fasta_filtered_out = 'data/epa-ng/filtered-out/query.fa'
 # fasta_fungi = 'data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa'
 # fasta_fungi2 = 'data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa'
