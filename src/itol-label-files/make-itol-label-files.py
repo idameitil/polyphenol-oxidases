@@ -410,8 +410,8 @@ def write_domain_label_file(output_filename, ids, lengths, domains):
         
     domain2color = {
         'TRANSMEMBRANE':{'name': 'Transmembrane domain', 'type': 'Phobius', 'color': '#ff0000'},
-        'SignalP-noTM':{'name': 'Signal peptide', 'type': 'SignalP', 'color': '#2d297a'},
-        'SignalP-TM':{'name': 'Signal peptide', 'type': 'SignalP-TM', 'color': '#ff0000'},
+        'SignalP-noTM':{'name': 'Signal-noTM', 'type': 'SignalP', 'color': '#2d297a'},
+        'SignalP-TM':{'name': 'Signal-TM', 'type': 'SignalP', 'color': '#2d297a'},
         'PF00264':{'name': 'Common central domain of tyrosinase', 'type': 'Pfam', 'color': '#10aefd'},
         'PF12142':{'name': 'Polyphenol oxidase middle domain', 'type': 'Pfam', 'color': '#cf7dd4'},
         'PF03722':{'name': 'Hemocyanin, all-alpha domain', 'type': 'Pfam', 'color': '#7af92b'},
@@ -419,7 +419,7 @@ def write_domain_label_file(output_filename, ids, lengths, domains):
         'PF18132':{'name': 'Tyosinase C-terminal domain', 'type': 'Pfam', 'color': '#db9758'},
         'PF12143':{'name': 'Protein of unknown function (DUF_B2219)', 'type': 'Pfam', 'color': '#de37d0'},
         'PF00372':{'name': 'Hemocyanin, copper containing domain', 'type': 'Pfam', 'color': '#4a8026'},
-        'PF00187': {'name': 'Chitin recognition protein', 'type': 'Pfam', 'color': '#fdd44a'},
+        'PF00187':{'name': 'Chitin recognition protein', 'type': 'Pfam', 'color': '#fdd44a'},
         'PF14830':{'name': 'Haemocyanin beta-sandwich', 'type': 'Pfam', 'color': '#119d58'},
         'PF00734':{'name': 'Fungal cellulose binding domain', 'type': 'Pfam', 'color': '#854442'},
         'PF01423':{'name': 'LSM domain', 'type': 'Pfam', 'color': '#37aeeb'},
@@ -585,4 +585,4 @@ df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
 # write_dot_file(f'{outdir}/clade-dot.txt', 'clade', df, 'species', ['a_plants','b_cnidaria','c_long_fungal', 'd_bacteria','e_chordata','f_mollusc','g_cnidaria2','h_oomycota','i_short_fungal','j_zoopagomycota', 'singletons'])
 
 # Make combined domain label file
-# make_domain_label_file_combined(df_uniprot_hits, seed_df)
+make_domain_label_file_combined(df_uniprot_hits, seed_df)
