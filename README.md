@@ -112,6 +112,8 @@ On HPC: `scp sequences-all-class-filtered-andseeds.trimmed-linsi-0.95.nexus hal:
 
 Make the folder on hal including the alignment file and the gpu_run.nexus file.
 
+Replace '/' with '.'
+
 On hal, check that no jobs are running: `nvtop -d 1`
 
 Go to the folder and start tmux: `tmux attach -d -t mrbayes`
