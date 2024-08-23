@@ -1,3 +1,42 @@
+# Computational molecular evolution course
+https://www.ebi.ac.uk/Tools/sfc/emboss_seqret/
+
+https://r4ds.had.co.nz/tidy-data.html
+
+# CV workshop
+Publications
+Grades
+Put publication in linkedin
+conference grant
+Teaching
+Reverse chronological order
+No photo
+No hobbies
+Put thesis information (title and supervisor) in education
+
+Cover letter
+What am I looking for in the job
+How are you as a colleague, how do you like to work
+Look towards future - where are you interested in going, what skills do you want to develop
+good at focused work
+
+Novonesis
+No cover letter, write motivation in top of CV
+
+motivtion, what can you bring to the role, how o you meet requirements, how are you to work with
+
+follow on linkedin
+
+# Caio notes
+there are variations in the number of long and short PPOs in the fungal species.
+Probably related to life style
+Pattern is not clear
+Exceptional number of short PPOs are presenet in species
+related to growth on living or dead plants
+zoopago have their own ppo group. may be involved in their parasit lifestyle with animals, nematodes…
+ppo group similar in sequence to short PPOs
+tendency is that ascos have more short than long and basidios to have more long than short
+
 # Agaricus bisporus PPOs
 A0A8H7C4Z8	UP000629468	Agaricus bisporus (AbPPO6)
 A0A8H7C551	UP000629468	Agaricus bisporus (AbPPO1)
