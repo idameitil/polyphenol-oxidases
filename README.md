@@ -133,14 +133,6 @@ Files with proteins in each clade (determined from iTOL) were saved in `data/mrb
 
 A csv file is made by running `python src/proteome-tree/clade-annotations.py`. This creates the file `data/mrbayes/all/clades/clades.csv`.
 
-(not used) iTOL heatmap file is made by running `python src/itol-label-files/make-itol-label-files.py` and is shown on the species tree.
-
-A dotplot is made in R with the script `src/species-tree/dotplot.R`. 
-
-The phylum list `data/species-tree/phylum.txt` is written in the R script `src/species-tree/dotplot.R`. 
-
-Then, the phylum html file is written with the `src/itol-label-files/make-itol-label-files.py` script. Open the html, print the page to pdf and overlap with dotplot.
-
 # Fingerprint (architecture figure)
 
 ## Clade data
@@ -247,6 +239,17 @@ Divide in two files: `data/epa-ng/filtered-out/query-linsi.fa` and `data/epa-ng/
 Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/filtered-out/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/filtered-out/query-linsi.fa --model WAG --redo --outdir data/epa-ng/filtered-out/out`
 
 Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/filtered-out/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/filtered-out/out/ --allow-file-overwriting`. This produces the file `data/epa-ng/filtered-out/out/epa_result.newick`.
+
+### Make dotplot
+From the grafted tree, files with accessions in each clade are made and saved in: 
+
+A csv file is made by running `python src/proteome-tree/clade-annotations.py`. This creates the file `data/mrbayes/all/clades/clades.csv`.
+
+A dotplot is made in R with the script `src/species-tree/dotplot.R`. 
+
+The phylum list `data/species-tree/phylum.txt` is written in the R script `src/species-tree/dotplot.R`. 
+
+Then, the phylum html file is written with the `src/itol-label-files/make-itol-label-files.py` script. Open the html, print the page to pdf and overlap with dotplot.
 
 ## Fungi one per order (for short fungal tree)
 Copy the query file: `cp data/proteome-tree/sequences-fungi-order-filtered-noOverlap.trimmed.fa data/epa-ng/fungi-order/query.fa`.
