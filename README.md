@@ -275,6 +275,21 @@ Convert to nexus: `seqconverter -I fasta -O nexus --remfracgapcols 0.95 data/sho
 
 The Mrbayes tree is run on hal and saved in `data/mrbayes/short-fungal-0507`.
 
+## Fungi incl. lignin degraders (for fungal dotplot)
+Make query file: `cat data/proteome-tree/sequences-fungi-with-lignin-degraders-order-filtered-noOverlap.trimmed.fa data/proteome-tree/sequences-fungi-with-lignin-degraders-order-removed-noOverlap.trimmed.fa > data/epa-ng/fungi-with-lignin-degraders/query.fa`
+
+Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/fungi-with-lignin-degraders/query.fa > data/epa-ng/fungi-with-lignin-degraders/ref-query.fa`.
+
+Make alignment: `linsi --thread 7 data/epa-ng/fungi-with-lignin-degraders/ref-query.fa > data/epa-ng/fungi-with-lignin-degraders/ref-query-linsi.fa`
+
+Divide in two files: `data/epa-ng/fungi-with-lignin-degraders/query-linsi.fa` and `data/epa-ng/fungi-with-lignin-degraders/ref-linsi.fa`.
+
+`mkdir data/epa-ng/fungi-with-lignin-degraders/out`.
+
+Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/fungi-with-lignin-degraders/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/fungi-with-lignin-degraders/query-linsi.fa --model WAG --redo --outdir data/epa-ng/fungi-with-lignin-degraders/out`
+
+Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-with-lignin-degraders/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-with-lignin-degraders/out/`. This produces the file `data/epa-ng/fungi-with-lignin-degraders/out/epa_result.newick`. Remove 'gappa'.
+
 # Boxplots of number of PPOs per class
 To make the data table for making boxplots, run `python src/boxplots/make-proteome-table-with-empty.py`. This creates the file `data/boxplots/boxplot-data.tsv`.
 
