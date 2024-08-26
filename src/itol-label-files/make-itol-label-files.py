@@ -197,7 +197,6 @@ def write_dotplot_htmls_fungi():
                 outfile.write(f'<font color="{value2color[value]}">{value}</font><br>\n')
             footer = "</h1>\n</center>\n</body>\n</html>\n"
             outfile.write(footer)
-write_dotplot_htmls_fungi()
 
 def make_taxonomy_files_species_tree(df):
     wanted_ranks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus']
@@ -488,6 +487,17 @@ def make_domain_label_file_combined(df_uniprot, df_seeds):
         domains.append(get_domains(row))
     output_filename = "data/itol-label-files/domain-combined.txt"
     write_domain_label_file(output_filename, ids, lengths, domains)
+    # smaller than 1500
+    ids1500 = []
+    lenghts1500 = []
+    domains1500 = []
+    for i in range(len(lengths)):
+        if lengths[i] < 1500:
+            ids1500.append(ids[i])
+            lenghts1500.append(lengths[i])
+            domains1500.append(domains[i])
+    output_filename = "data/itol-label-files/domain-combined-1500.txt"
+    write_domain_label_file(output_filename, ids1500, lenghts1500, domains1500)
 
 def make_domain_label_file(df, blast_hits=False, uniprot_hits=False):
     if blast_hits:
@@ -565,7 +575,7 @@ seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t', low_memory=False)
 make_taxonomy_file_adapted(df_uniprot_hits, seed_df)
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
-make_taxonomy_label_files(df_uniprot_hits, seed_df)
+# make_taxonomy_label_files(df_uniprot_hits, seed_df)
 # make_taxonomy_arrow_files(df_uniprot_hits, 'all')
 
 # make_taxonomy_arrow_files(df_uniprot_hits, 'order', 'all')
@@ -586,3 +596,5 @@ df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
 
 # Make combined domain label file
 make_domain_label_file_combined(df_uniprot_hits, seed_df)
+
+# write_dotplot_htmls_fungi()
