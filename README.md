@@ -73,6 +73,8 @@ One proteome per class were manually selected from the proteom-table and saved i
 
 One proteome per fungal order were manually selected and saved in `data/proteome-tree/fungal-order-representatives.xlsx`.
 
+A file with the above proteomes and proteomes of lignin-degraders is saved in `data/proteome-tree/fungal-order-representatives.xlsx`.
+
 ## Get sequences from selected proteomes
 In order to get the PPO sequences from the selected proteomes, run `python src/proteome-tree/get-proteome-sequences.py`. 
 
@@ -209,13 +211,14 @@ A clade file is made with underscores in species names: `data/species-tree/clade
 The plot is made with the R script: `src/species-tree/dotplot.R`.
 
 # Make MCC tree
-`sumt --mbc -b 0.25 0.25 --biplen --rootmid -ns --basename data/epa-ng/bayes_summary -i data/mrbayes/all-seeds-0619/out.nex.run1.t -i data/mrbayes/all-seeds-0619/out.nex.run2.t`
-convert to .mbc file newick in figtree and remove second tree (search for ; and delete everything thereafter). Save in `data/epa-ng/tree.nwk`
+Run sumt: `sumt --mbc -b 0.25 0.25 --biplen --rootmid -ns --basename data/epa-ng/bayes_summary -i data/mrbayes/0816/run/out.nex.run1.t -i data/mrbayes/0816/run/out.nex.run2.t`
+
+Open the .mbc file in figtree, convert to newick and remove second tree (search for ; and delete everything thereafter). Save in `data/epa-ng/tree.nwk`.
+
+Replace '.' with '/' by searching with '([A-Z0-9]+)\. and replacing with '$1/
 
 # Tree placement
-Copy tree fasta: `cp data/proteome-tree/all-one_proteome_per_class.trimmed.fa data/epa-ng/ref.fa`.
-
-Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/ref.fa`.
+Copy tree fasta: `cp data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed.fa data/epa-ng/ref.fa`.
 
 ## New seeds
 Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/new-seeds/query.fa > data/epa-ng/new-seeds/ref-query.fa`.
@@ -230,8 +233,8 @@ Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/new-seeds/ref-linsi.fa
 
 Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/new-seeds/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/new-seeds/out/ --allow-file-overwriting`. This produces the file `data/epa-ng/new-seeds/out/epa_result.newick`.
 
-## Filtered out sequences
-Copy query file: `cp data/proteome-tree/filtered-out-all-one_proteome_per_class.trimmed.fa data/epa-ng/filtered-out/query.fa`
+## Filtered out sequences (for dotplot all)
+Copy query file: `cp data/proteome-tree/sequences-all-class-removed.trimmed.fa data/epa-ng/filtered-out/query.fa`
 
 Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/filtered-out/query.fa > data/epa-ng/filtered-out/ref-query.fa`.
 
@@ -245,9 +248,8 @@ Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/filtered-out/ref-linsi
 
 Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/filtered-out/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/filtered-out/out/ --allow-file-overwriting`. This produces the file `data/epa-ng/filtered-out/out/epa_result.newick`.
 
-## Fungi one per order
-Make the query file: `cat data/proteome-tree/fungi-one_proteome_per_order.trimmed.fa data/proteome-tree/filtered-out-fungi-one_proteome_per_order.trimmed.fa > data/epa-ng/fungi-order/query.fa`
-Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/fungi-order/query.fa`.
+## Fungi one per order (for short fungal tree)
+Copy the query file: `cp data/proteome-tree/sequences-fungi-order-filtered-noOverlap.trimmed.fa data/epa-ng/fungi-order/query.fa`.
 
 Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/fungi-order/query.fa > data/epa-ng/fungi-order/ref-query.fa`.
 
@@ -257,37 +259,16 @@ Divide in two files: `data/epa-ng/fungi-order/query-linsi.fa` and `data/epa-ng/f
 
 Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/fungi-order/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/fungi-order/query-linsi.fa --model WAG --redo --outdir data/epa-ng/fungi-order/out`
 
-Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-order/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-order/out/`. This produces the file `data/epa-ng/fungi-order/out/epa_result.newick`.
+Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-order/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-order/out/`. This produces the file `data/epa-ng/fungi-order/out/epa_result.newick`. Remove 'gappa'.
 
-## Place seeds on short fungal tree
-Make MCC tree: `sumt --mbc -b 0.25 0.25 --biplen --rootmid -ns --basename data/epa-ng/seeds-short-fungal/bayes_summary -i data/mrbayes/short-fungal-0507/out.nex.run1.t -i data/mrbayes/short-fungal-0507/out.nex.run2.t`
-convert .mbc file newick in figtree and remove second tree (search for ; and delete everything thereafter). Save in `data/epa-ng/short-fungal-0507/tree.nwk`
-
-(old) Copy tree fasta: `cp data/proteome-tree/fungal-one_proteome_per_order.trimmed.fa data/epa-ng/seeds-short-fungal/ref.fa`.
-Replace / with 0 to match tree file: `sed -i '' 's/\//0/g' data/epa-ng/seeds-short-fungal/ref.fa`.
-
-(new) Make tree fasta: `seqconverter --degap -I nexus -O fasta data/mrbayes/short-fungal-0507/short-fungal-linsi-95.nexus > data/epa-ng/seeds-short-fungal/ref.fa`
-
-Make query file with short fungal seeds: `data/epa-ng/seeds-short-fungal/query.fa`
-
-Combine query and ref: `cat data/epa-ng/seeds-short-fungal/ref.fa data/epa-ng/seeds-short-fungal/query.fa > data/epa-ng/seeds-short-fungal/ref-query.fa`.
-
-Make alignment: `linsi --thread 7 data/epa-ng/seeds-short-fungal/ref-query.fa > data/epa-ng/seeds-short-fungal/ref-query-linsi.fa`
-
-Divide in two files: `data/epa-ng/seeds-short-fungal/query-linsi.fa` and `data/epa-ng/seeds-short-fungal/ref-linsi.fa`.
-
-Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/seeds-short-fungal/ref-linsi.fa --tree data/epa-ng/seeds-short-fungal/tree.nwk --query data/epa-ng/seeds-short-fungal/query-linsi.fa --model WAG --redo --outdir data/epa-ng/seeds-short-fungal/out`
-
-Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/seeds-short-fungal/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/seeds-short-fungal/out/`. This produces the file `data/epa-ng/seeds-short-fungal/out/epa_result.newick`.
-
-# Tree of short fungal
+### Tree of short fungal
 The accs in the short fungal clade are retrieved from the tree and saved in `data/short-fungal-tree/accs`.
 
 A fasta is made by running: `python src/short-fungal-tree/get-sequences.py`
 
 Alignment: `linsi --thread 7 data/short-fungal-tree/short-fungal.fasta > data/short-fungal-tree/short-fungal-linsi.fasta`
 
-Convert to nexus: `seqconverter -I fasta -O nexus data/short-fungal-tree/short-fungal-linsi.fasta > data/short-fungal-tree/short-fungal-linsi.nexus`
+Convert to nexus: `seqconverter -I fasta -O nexus --remfracgapcols 0.95 data/short-fungal-tree/short-fungal-linsi.fasta > data/short-fungal-tree/short-fungal-linsi-0.95.nexus`
 
 The Mrbayes tree is run on hal and saved in `data/mrbayes/short-fungal-0507`.
 
