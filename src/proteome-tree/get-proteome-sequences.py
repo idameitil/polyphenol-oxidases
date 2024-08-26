@@ -43,6 +43,8 @@ class proteomeData:
             df = pd.read_excel("data/proteome-tree/class-representatives.xlsx")
         elif self.domain == "fungi" and self.rank == "order":
             df = pd.read_excel("data/proteome-tree/fungal-order-representatives.xlsx")
+        elif self.domain == "fungi-with-lignin-degraders" and self.rank == "order":
+            df = pd.read_excel("data/proteome-tree/fungal-order-representatives-andlignindegraders.xlsx")
         selected_proteomes2species = {}
         for index, row in df.iterrows():
             selected_proteomes2species[row.genome_id] = row.species
@@ -120,3 +122,7 @@ all_fungal.write_filtered_out_sequences()
 all_fungal.write_filtered_out_sequences_nooverlap(excluded=all_class.filtered_out_sequences)
 all_fungal.write_selected_sequences_nooverlap(excluded=all_class.selected_sequences)
 all_fungal.write_all_sequences()
+
+fungal_with_lignin = proteomeData(domain="fungi-with-lignin-degraders", rank="order", score_threshold=1e-20)
+fungal_with_lignin.write_filtered_out_sequences_nooverlap(excluded=all_class.filtered_out_sequences)
+fungal_with_lignin.write_selected_sequences_nooverlap(excluded=all_class.selected_sequences)

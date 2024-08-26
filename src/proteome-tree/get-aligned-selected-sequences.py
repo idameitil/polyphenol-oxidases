@@ -89,15 +89,23 @@ def write_fasta(outfilename, included, include_seeds=False, include_fungal_seeds
                     outfile.write(f">{acc}\n{acc2seq_seeds_trimmed[acc]}\n") 
             
 
-def write_noOverlap_filtered_fasta():
-    selected = read_ids("data/proteome-tree/sequenceIds-fungi-order-filtered-noOverlap.txt")
-    output_filename = (f"data/proteome-tree/sequences-fungi-order-filtered-noOverlap.trimmed.fa")
+def write_noOverlap_filtered_fasta(lignin_degraders = False):
+    if not lignin_degraders:
+        selected = read_ids("data/proteome-tree/sequenceIds-fungi-order-filtered-noOverlap.txt")
+        output_filename = (f"data/proteome-tree/sequences-fungi-order-filtered-noOverlap.trimmed.fa")
+    else:
+        selected = read_ids("data/proteome-tree/sequenceIds-fungi-with-lignin-degraders-order-filtered-noOverlap.txt")
+        output_filename = (f"data/proteome-tree/sequences-fungi-with-lignin-degraders-order-filtered-noOverlap.trimmed.fa")
     write_fasta(output_filename, included=selected)
 
 
-def write_noOverlap_removed_fasta():
-    selected = read_ids("data/proteome-tree/sequenceIds-fungi-order-removed-noOverlap.txt")
-    output_filename = (f"data/proteome-tree/sequences-fungi-order-removed-noOverlap.trimmed.fa")
+def write_noOverlap_removed_fasta(lignin_degraders = False):
+    if not lignin_degraders:
+        selected = read_ids("data/proteome-tree/sequenceIds-fungi-order-removed-noOverlap.txt")
+        output_filename = (f"data/proteome-tree/sequences-fungi-order-removed-noOverlap.trimmed.fa")
+    else:
+        selected = read_ids("data/proteome-tree/sequenceIds-fungi-with-lignin-degraders-order-removed-noOverlap.txt")
+        output_filename = (f"data/proteome-tree/sequences-fungi-with-lignin-degraders-order-removed-noOverlap.trimmed.fa")
     write_fasta(output_filename, included=selected)
 
 
@@ -119,9 +127,10 @@ def write_removed_sequences_fasta(domain, rank):
 
 
 def write_all_sequences_fasta(domain, rank):
-    selected = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-filtered.txt")
-    filtered_out_ids = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-removed.txt")
-    included = selected + filtered_out_ids
+    # selected = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-filtered.txt")
+    # filtered_out_ids = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-removed.txt")
+    # included = selected + filtered_out_ids
+    included = read_ids(f"data/proteome-tree/sequenceIds-{domain}-{rank}-notFiltered.txt")
     output_filename = (f"data/proteome-tree/sequences-{domain}-{rank}-notFiltered.trimmed.fa")
     write_fasta(outfilename=output_filename, included=included)
 
@@ -134,3 +143,12 @@ write_removed_sequences_fasta("fungi", "order")
 write_noOverlap_filtered_fasta()
 write_noOverlap_removed_fasta()
 write_all_sequences_fasta("fungi", "order")
+
+# write_all_sequences_fasta("fungi-with-lignin-degraders", "order")
+
+write_noOverlap_filtered_fasta(
+    lignin_degraders=True
+)
+write_noOverlap_removed_fasta(
+    lignin_degraders=True
+)

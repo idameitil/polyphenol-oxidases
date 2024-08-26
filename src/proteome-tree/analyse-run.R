@@ -9,29 +9,6 @@ all <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
   ylim(0,0.2) +
   xlim(0, 60)
 
-setwd("/Users/idamei/hpc/fungal-10-mixed")
-df = read.table(file = 'test.nex.mcmc', sep = '\t', header = TRUE, skip=5)
-df['GenMio'] = df['Gen'] / 1000000
-fungal <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
-  geom_point() +
-  ylim(0,0.2) +
-  xlim(0, 60)
-
-setwd("/Users/idamei/hpc/fungal-newnew")
-df = read.table(file = 'test.nex.mcmc', sep = '\t', header = TRUE, skip=5)
-df['GenMio'] = df['Gen'] / 1000000
-fungal_new <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
-  geom_point() +
-  ylim(0,0.2) +
-  xlim(0, 75)
-
-setwd("/Users/idamei/hpc/all-new")
-df = read.table(file = 'out.nex.mcmc', sep = '\t', header = TRUE, skip=5)
-df['GenMio'] = df['Gen'] / 1000000
-all_new <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
-  geom_point() +
-  ylim(0,0.2) +
-  xlim(0, 70)
 
 setwd("/Users/idamei/hpc/all-seeds-0619")
 df = read.table(file = 'out.nex.mcmc', sep = '\t', header = TRUE, skip=5)
@@ -49,14 +26,14 @@ short_fungal <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
   ylim(0,0.2) +
   xlim(0, 70)
 
-setwd("/Users/idamei/hpc/short-fungal-0708")
+setwd("/Users/idamei/0816")
 df = read.table(file = 'out.nex.mcmc', sep = '\t', header = TRUE, skip=5)
 df['GenMio'] = df['Gen'] / 1000000
-short_fungal_new <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
+all <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
   geom_point() +
   ylim(0,0.2) +
-  xlim(0, 60)
-
-ggarrange(all_seeds, short_fungal, short_fungal_new,
+  xlim(0, 210)
+all
+ggarrange(all_seeds, all,
           labels = c("A", "B", "C"),
-          ncol = 3, nrow = 1)
+          ncol = 2, nrow = 1)
