@@ -24,21 +24,21 @@ acc2seq = get_fasta_sequences("data/pfam/protein-matching-PF00264.fasta")
 acc2seq_seeds_trimmed = get_fasta_sequences_seeds("data/seeds-trimmed.fa")
 
 # Uniprot accessions of seeds that are in the genome dataset
-uniprot_seeds = [
-    "P17643",
-    "A0A1S9DJX3",
-    "A0A8H7C551",
-    "A0A8H7F114",
-    "C7FF04",
-    "C7FF05",
-    "A0A8H7F178",
-    "A0A8H7C4Z8",
-    "A0A8H7F0X6",
-    "A0A8H7F118",
-    "A0A1S9DK56",
-    "A0A498IXV7",
-    "D5DZK6.34-242"
-]
+uniprot_seeds = {
+    "P17643": "HsTrp1",
+    "A0A1S9DJX3": "AoCO4",
+    "C7FF04": "AbPPO3",
+    "C7FF05": "AbPPO4",
+    "A0A8H7C4Z8": "AbPPO6",
+    "A0A8H7C551": "AbPPO1",
+    "A0A8H7F0X6": "AbPPO3",
+    "A0A8H7F114": "AbPPO2",
+    "A0A8H7F118": "AbPPO4",
+    "A0A8H7F178": "AbPPO5",
+    "A0A1S9DK56": "AoMelB",
+    "A0A498IXV7": "MdPPO1",
+    "D5DZK6": "BmTyr"
+}
 
 fungal_seeds = [
     'AoMelB',

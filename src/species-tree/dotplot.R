@@ -15,27 +15,26 @@ library(ggtext)
 setwd("/Users/idamei/polyphenol-oxidases")
 
 # Read clades table
-#df = read.table('data/species-tree/clades2.csv', sep = ',', header=TRUE)
-df = read.table('data/mrbayes/all-seeds-0619/clades/clades.csv', sep = ',', header=TRUE)
-df2 = read.table('data/fungi-genome-figure/clades.csv', sep = ',', header=TRUE)
+df = read.table('data/epa-ng/filtered-out/clades.csv', sep = ',', header=TRUE)
+df2 = read.table('data/epa-ng/fungi-with-lignin-degraders/clades.csv', sep = ',', header=TRUE)
 
 names(df)[names(df) == 's'] = 'u'
 names(df2)[names(df2) == 's'] = 'u'
+
+species_unique <- df$species %>% unique()
+species_unique2 <- df2$species %>% unique()
 
 df = df %>%
   pivot_longer(!species, names_to = "group", values_to = "count")
 df2 = df2 %>%
   pivot_longer(!species, names_to = "group", values_to = "count")
 
-species_unique <- df$species %>% unique()
-species_unique2 <- df2$species %>% unique()
-
 # Read metadata
 metadata <- read_excel('data/proteome-tree/class-representatives.xlsx')
 metadata$species <- gsub(' ', '_', metadata$species)
 
 # Read metadata2
-metadata2 <- read_excel('data/proteome-tree/fungal-order-representatives.xlsx')
+metadata2 <- read_excel('data/proteome-tree/fungal-order-representatives-andlignindegraders.xlsx')
 metadata2$species <- gsub(' ', '_', metadata2$species)
 
 # Merge
@@ -59,8 +58,8 @@ merged_table2 = merged_table2 %>%
 ggtree_plot <- ggtree(tree) +
   theme(plot.margin = unit(c(0.5,0,0.5,0), 'cm'))
 
-#'#C87EE9', '#A2F8F9', '#00057C', '#116F6D', '#ecd75a'
-colors_groups = c('#10aefd', '#db9758', '#f71252', '#119d58', '#6985b5', '#8e1730', '#52099b', '#fb8b34', '#F056EA', '#000000')
+#'#C87EE9', '#A2F8F9'
+colors_groups_all = c('a'='#6985b5', 'b'='#8e1730', 'c'='#52099b', 'd'='#ecd75a', 'e'='#F056EA', 'f'='#fb8b34', 'g'='#00057C', 'h'='#119d58', 'i'='#10aefd', 'j'='#db9758', 'k'='#116F6D', 'l'='#f71252', 'u'='#000000')
 
 #change_species_name <- function(x) gsub("(^\\w)\\w*_(\\w+)", "\\1. \\2", x)
 change_species_name <- function(x) gsub("(^\\w+)\\w*_(\\w+)", "\\1 \\2", x)
@@ -72,23 +71,25 @@ dotplot <- merged_table %>% filter(species %in% species_unique) %>%
     y = species, 
     color = group, 
     size = count)) + 
-  geom_point(show.legend = FALSE, alpha=1) +
+  geom_point(show.legend = FALSE, alpha=2) +
   geom_text(aes(label = count), color = 'white', size = 1.5) +
   theme_minimal() +
   theme(
-        axis.text.x = element_text(colour = colors_groups, size = 14),
+        axis.text.x = element_text(colour = colors_groups_all, size = 14),
         axis.text.y = element_text(size = 7, hjust=0, face = 'italic'),
         axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         axis.ticks.x=element_blank(),
         axis.ticks.y=element_blank(),
-        plot.margin = unit(c(0.5,0.5,0.5,2), 'cm')
+        plot.margin = unit(c(0.5,0.5,0.5,3), 'cm')
         ) +
-  scale_color_manual(values = colors_groups) +
-  scale_y_discrete(labels = change_species_name)
-plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(3,3), align = 'h')
+  scale_color_manual(values = colors_groups_all) +
+  scale_y_discrete(labels = change_species_name) +
+  scale_size_continuous(range= c(1,6)) +
+  coord_cartesian(clip = "off")  # Prevent clipping
+plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(2.7,3), align = 'h')
 
-colors_groups = c('#f71252', '#fb8b34', '#F056EA', '#000000')
+colors_groups = colors_groups = c('d'='#ecd75a','e'= '#F056EA',  'f'='#fb8b34', 'k'='#116F6D', 'l'='#f71252', 'u'='#000000')
 dotplot2 <- merged_table2 %>% filter(species %in% species_unique2) %>%
   filter(count > 0) %>% 
   ggplot(mapping = aes(
@@ -109,14 +110,15 @@ dotplot2 <- merged_table2 %>% filter(species %in% species_unique2) %>%
     plot.margin = unit(c(0.5,0.5,0.5,2), 'cm')
   ) +
   scale_color_manual(values = colors_groups) +
-  scale_y_discrete(labels = change_species_name, limits=rev)
-plot_grid(ggtree_plot, dotplot2, nrow = 1, rel_widths = c(3,3), align = 'h')
+  scale_y_discrete(labels = change_species_name, limits=rev) +
+  coord_cartesian(clip = "off")  # Prevent clipping
+dotplot2
 
 # Save pdf
 pdf(file="manuscript/figures/dotplot.pdf",
     width = 8,
-    height = 8)
-plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(3,3.5), align = 'h')
+    height = 11)
+plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(3,4.5), align = 'h')
 dev.off()
 
 # Save pdf 2
