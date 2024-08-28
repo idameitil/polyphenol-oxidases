@@ -20,7 +20,6 @@ Aspergillus
 Aspergillus
 Aspergillus
 Trichophyton
-Phaeomoniella
 Endocarpon
 Glutinoglossum
 Heterodermia
@@ -81,4 +80,3 @@ Basidiobolus
 Dimargaris
 Conidiobolus
 Coemansia
-Thamnocephalis

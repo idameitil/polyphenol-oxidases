@@ -45,7 +45,6 @@ Ascomycota
 Ascomycota
 Ascomycota
 Ascomycota
-Ascomycota
 Basidiomycota
 Basidiomycota
 Basidiomycota
@@ -77,7 +76,6 @@ Microsporidia
 Mucoromycota
 Mucoromycota
 Mucoromycota
-Zoopagomycota
 Zoopagomycota
 Zoopagomycota
 Zoopagomycota

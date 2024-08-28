@@ -21,7 +21,6 @@ Eurotiomycetes
 Eurotiomycetes
 Eurotiomycetes
 Eurotiomycetes
-Eurotiomycetes
 Geoglossomycetes
 Lecanoromycetes
 Lecanoromycetes
@@ -81,4 +80,3 @@ Basidiobolomycetes
 Dimargaritomycetes
 Entomophthoromycetes
 Kickxellomycetes
-Zoopagomycetes

@@ -20,7 +20,6 @@ Aspergillaceae
 Aspergillaceae
 Aspergillaceae
 Arthrodermataceae
-Phaeomoniellaceae
 Verrucariaceae
 Geoglossaceae
 Physciaceae
@@ -81,4 +80,3 @@ Basidiobolaceae
 Dimargaritaceae
 Ancylistaceae
 Kickxellaceae
-Sigmoideomycetaceae

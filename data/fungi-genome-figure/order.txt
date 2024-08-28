@@ -20,7 +20,6 @@ Eurotiales
 Eurotiales
 Eurotiales
 Onygenales
-Phaeomoniellales
 Verrucariales
 Geoglossales
 Caliciales
@@ -81,4 +80,3 @@ Basidiobolales
 Dimargaritales
 Entomophthorales
 Kickxellales
-Zoopagales
