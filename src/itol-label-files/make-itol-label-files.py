@@ -399,37 +399,29 @@ def make_match_length_file():
     write_spectrum_strip_file(output_filename, 'match_length180', ids, values, min=0, max=30, max_cutoff=180)
 
 def write_domain_label_file(output_filename, ids, lengths, domains):
-    def get_shape(type):
-        if type == 'Pfam':
-            return 'HH'
-        elif type == 'SignalP':
-            return 'RE'
-        elif type == 'Phobius':
-            return 'EL'
-        
     domain2color = {
-        'TRANSMEMBRANE':{'name': 'Transmembrane domain', 'type': 'Phobius', 'color': '#ff0000'},
-        'SignalP-noTM':{'name': 'Signal-noTM', 'type': 'SignalP', 'color': '#2d297a'},
-        'SignalP-TM':{'name': 'Signal-TM', 'type': 'SignalP', 'color': '#2d297a'},
+        'TRANSMEMBRANE':{'name': 'Transmembrane domain', 'type': 'Phobius', 'color': '#f71252'},
+        'SignalP-noTM':{'name': 'Signal peptide', 'type': 'SignalP', 'color': '#00057C'},
+        'SignalP-TM':{'name': 'Signal peptide', 'type': 'SignalP', 'color': '#00057C'},
         'PF00264':{'name': 'Common central domain of tyrosinase', 'type': 'Pfam', 'color': '#10aefd'},
-        'PF12142':{'name': 'Polyphenol oxidase middle domain', 'type': 'Pfam', 'color': '#cf7dd4'},
-        'PF03722':{'name': 'Hemocyanin, all-alpha domain', 'type': 'Pfam', 'color': '#7af92b'},
-        'PF03723':{'name': 'Hemocyanin, ig-like domain', 'type': 'Pfam', 'color': '#8b1b4b'},
-        'PF18132':{'name': 'Tyosinase C-terminal domain', 'type': 'Pfam', 'color': '#db9758'},
-        'PF12143':{'name': 'Protein of unknown function (DUF_B2219)', 'type': 'Pfam', 'color': '#de37d0'},
-        'PF00372':{'name': 'Hemocyanin, copper containing domain', 'type': 'Pfam', 'color': '#4a8026'},
-        'PF00187':{'name': 'Chitin recognition protein', 'type': 'Pfam', 'color': '#fdd44a'},
-        'PF14830':{'name': 'Haemocyanin beta-sandwich', 'type': 'Pfam', 'color': '#119d58'},
-        'PF00734':{'name': 'Fungal cellulose binding domain', 'type': 'Pfam', 'color': '#854442'},
-        'PF01423':{'name': 'LSM domain', 'type': 'Pfam', 'color': '#37aeeb'},
-        'PF11807':{'name': 'Mycotoxian biosynthesis protein UstYa', 'type': 'Pfam', 'color': '#7984f3'},
-        'PF19343':{'name': 'Family of unknown function (DUF5923)', 'type': 'Pfam', 'color': '#de9261'},
-        'PF14613':{'name': 'Protein of unknown function (DUF4449)', 'type': 'Pfam', 'color': '#d8d342'},
-        'PF00230':{'name': 'Major intrinsic protein', 'type': 'Pfam', 'color': '#b5cd44'},
-        'PF01494':{'name': 'FAD binding domain', 'type': 'Pfam', 'color': '#00ff00'},
-        'PF01549':{'name': 'ShK domain-like', 'type': 'Pfam', 'color': '#6497b1'},
-        'PF00092':{'name': 'von Willebrand factor type A domain', 'type': 'Pfam', 'color': '#FF5F1F'},
-        'PF00413':{'name': 'Matrixin', 'type': 'Pfam', 'color': '#43e8d8'},
+        'PF12142':{'name': 'Polyphenol oxidase middle domain', 'type': 'Pfam', 'color': '#ecd75a'},
+        'PF14830':{'name': 'Haemocyanin beta-sandwich', 'type': 'Pfam', 'color': '#F056EA'},
+        'PF18132':{'name': 'Tyosinase C-terminal domain', 'type': 'Pfam', 'color': '#8e1730'},
+        'PF12143':{'name': 'Protein of unknown function', 'type': 'Pfam', 'color': '#119d58'},
+        # 'PF00092':{'name': 'von Willebrand factor type A domain', 'type': 'Pfam', 'color': '#fb8b34'},
+        # 'PF03722':{'name': 'Hemocyanin, all-alpha domain', 'type': 'Pfam', 'color': '#7af92b'},
+        # 'PF03723':{'name': 'Hemocyanin, ig-like domain', 'type': 'Pfam', 'color': '#8b1b4b'},
+        # 'PF00372':{'name': 'Hemocyanin, copper containing domain', 'type': 'Pfam', 'color': '#4a8026'},
+        # 'PF00187':{'name': 'Chitin recognition protein', 'type': 'Pfam', 'color': '#fdd44a'},
+        # 'PF00734':{'name': 'Fungal cellulose binding domain', 'type': 'Pfam', 'color': '#854442'},
+        # 'PF01423':{'name': 'LSM domain', 'type': 'Pfam', 'color': '#37aeeb'},
+        # 'PF11807':{'name': 'Mycotoxian biosynthesis protein UstYa', 'type': 'Pfam', 'color': '#7984f3'},
+        # 'PF19343':{'name': 'Family of unknown function (DUF5923)', 'type': 'Pfam', 'color': '#de9261'},
+        # 'PF14613':{'name': 'Protein of unknown function (DUF4449)', 'type': 'Pfam', 'color': '#d8d342'},
+        # 'PF00230':{'name': 'Major intrinsic protein', 'type': 'Pfam', 'color': '#b5cd44'},
+        # 'PF01494':{'name': 'FAD binding domain', 'type': 'Pfam', 'color': '#00ff00'},
+        # 'PF01549':{'name': 'ShK domain-like', 'type': 'Pfam', 'color': '#6497b1'},
+        # 'PF00413':{'name': 'Matrixin', 'type': 'Pfam', 'color': '#43e8d8'},
         }
     def get_color_name_and_type(domain):
         if domain['id'] in domain2color:
@@ -446,13 +438,13 @@ def write_domain_label_file(output_filename, ids, lengths, domains):
         return color, name, type
     
     with open(output_filename, 'w') as outfile:
-        header = f"DATASET_DOMAINS\nSEPARATOR COMMA\nDATASET_LABEL,Domains\nCOLOR,#ff0000\nSHOW_DOMAIN_LABELS,0\nDATA\n"
+        header = f"DATASET_DOMAINS\nSEPARATOR COMMA\nDATASET_LABEL,Domains\nCOLOR,#ff0000\nSHOW_DOMAIN_LABELS,0\nWIDTH,3200\nBACKBONE_HEIGHT,10\nMARGIN,50\nDATA\n"
         outfile.write(header)
         for id, length, domains_this_one in zip(ids, lengths, domains):
             outfile.write(f"{id},{length}")
             for domain in domains_this_one:
                 color, name, type = get_color_name_and_type(domain)
-                outfile.write(f",{get_shape(type)}|{domain['start']}|{domain['stop']}|{color}|{name}")
+                outfile.write(f",HH|{domain['start']}|{domain['stop']}|{color}|{name}")
             outfile.write('\n')
     
 def make_domain_label_file_combined(df_uniprot, df_seeds):
@@ -492,6 +484,8 @@ def make_domain_label_file_combined(df_uniprot, df_seeds):
     lenghts1500 = []
     domains1500 = []
     for i in range(len(lengths)):
+        if ids[i] == 'RvHc':
+            continue
         if lengths[i] < 1500:
             ids1500.append(ids[i])
             lenghts1500.append(lengths[i])
@@ -573,7 +567,7 @@ seed_df = pd.read_csv('data/seeds-enriched.tsv', sep='\t')
 
 # Uniprot
 df_uniprot_hits = pd.read_csv('data/pfam/protein-matching-PF00264-interproscan2.tsv', sep='\t', low_memory=False)
-make_taxonomy_file_adapted(df_uniprot_hits, seed_df)
+# make_taxonomy_file_adapted(df_uniprot_hits, seed_df)
 # make_domain_label_file(df_uniprot_hits, uniprot_hits=True)
 # make_taxonomy_label_files(df_uniprot_hits, seed_df)
 # make_taxonomy_arrow_files(df_uniprot_hits, 'all')
@@ -587,7 +581,7 @@ make_taxonomy_file_adapted(df_uniprot_hits, seed_df)
 # Species tree
 df_species_tree = pd.read_excel('data/proteome-tree/proteome-data.xlsx')
 # make_taxonomy_files_species_tree(df_species_tree)
-# write_dotplot_phylum_html(df_species_tree)
+write_dotplot_phylum_html(df_species_tree)
 
 # Clades
 df = pd.read_csv('data/mrbayes/all/clades/clades.csv')
