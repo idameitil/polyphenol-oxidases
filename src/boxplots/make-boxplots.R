@@ -33,6 +33,23 @@ filtered_classes <- class_counts %>%
 filtered_data <- data %>%
   filter(class %in% filtered_classes$class & !is.na(class) & class != '')
 
+# Step 1: Count the number of members per class and include whether the 'kingdom' column has NA
+# class_counts <- data %>%
+#   group_by(class) %>%
+#   summarise(
+#     count = n(),
+#     kingdom_na_count = sum(is.na(kingdom))
+#   )
+# 
+# # Step 2: Filter out classes with fewer than 5 members only if 'kingdom' is NA
+# filtered_classes <- class_counts %>%
+#   filter(count >= 10 | kingdom_na_count == 0) %>%
+#   select('class')
+# 
+# # Step 3: Filter the original data to keep only the classes that met the criteria
+# filtered_data <- data %>%
+#   filter(class %in% filtered_classes$class)
+
 y_breaks <- seq(0, max(filtered_data$count_tyrosinases, na.rm = TRUE), by = 5)
 
 # Create a boxplot with the filtered data
@@ -43,6 +60,7 @@ p1 <- ggplot(filtered_data, aes(x = class, y = count_tyrosinases)) +
   ylab('Number of PPO genes') +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
   scale_y_continuous(breaks = y_breaks)
+p1
 
 pdf('manuscript/figures/boxplot.pdf', width = 20, height = 11)
 p1
@@ -52,13 +70,14 @@ dev.off()
 # flipped
 p1 <- ggplot(filtered_data, aes(x = class, y = count_tyrosinases)) +
   geom_boxplot(color = 'grey50') +
-  geom_jitter(size = 0.1, width = 0.3, height = 0, alpha = 0.7, color = "blue") +
+  geom_jitter(size = 0.1, width = 0.3, height = 0.1, alpha = 0.7, color = "blue") +
   xlab('Taxonomic class') +
   ylab('Number of PPO genes') +
   theme(axis.text.x = element_text()) +
   scale_y_continuous(breaks = y_breaks) +
   coord_flip()
 p1
+dev.off()
 pdf('manuscript/figures/boxplot_flipped.pdf', width = 11, height = 15)
 p1
 dev.off()
