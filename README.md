@@ -198,8 +198,6 @@ A list of included species is made by copying it from the "class-representatives
 
 This file is uploaded to timetree.org and the tree is saved in `data/species-tree/species.nwk`.
 
-A clade file is made with underscores in species names: `data/species-tree/clades2.csv`.
-
 The plot is made with the R script: `src/species-tree/dotplot.R`.
 
 # Make MCC tree
@@ -241,15 +239,15 @@ Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/filtered-out/ref-linsi
 Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/filtered-out/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/filtered-out/out/ --allow-file-overwriting`. This produces the file `data/epa-ng/filtered-out/out/epa_result.newick`.
 
 ### Make dotplot
-From the grafted tree, files with accessions in each clade are made and saved in: 
+From the grafted tree, files with accessions in each clade are made and saved in: `data/epa-ng/filtered-out/clades`
 
-A csv file is made by running `python src/proteome-tree/clade-annotations.py`. This creates the file `data/mrbayes/all/clades/clades.csv`.
+A csv file is made by running `python src/proteome-tree/clade-annotations.py`. This creates the file `data/epa-ng/filtered-out/clades.csv`.
 
 A dotplot is made in R with the script `src/species-tree/dotplot.R`. 
 
 The phylum list `data/species-tree/phylum.txt` is written in the R script `src/species-tree/dotplot.R`. 
 
-Then, the phylum html file is written with the `src/itol-label-files/make-itol-label-files.py` script. Open the html, print the page to pdf and overlap with dotplot.
+Then, the phylum html file is written with the `src/itol-label-files/make-itol-label-files.py` script. Open the html (`data/species-tree/phylum.html`), print the page to pdf and overlap with dotplot.
 
 ## Fungi one per order (for short fungal tree)
 Copy the query file: `cp data/proteome-tree/sequences-fungi-order-filtered-noOverlap.trimmed.fa data/epa-ng/fungi-order/query.fa`.
@@ -276,7 +274,7 @@ Convert to nexus: `seqconverter -I fasta -O nexus --remfracgapcols 0.95 data/sho
 The Mrbayes tree is run on hal and saved in `data/mrbayes/short-fungal-0507`.
 
 ## Fungi incl. lignin degraders (for fungal dotplot)
-Make query file: `cat data/proteome-tree/sequences-fungi-with-lignin-degraders-order-filtered-noOverlap.trimmed.fa data/proteome-tree/sequences-fungi-with-lignin-degraders-order-removed-noOverlap.trimmed.fa > data/epa-ng/fungi-with-lignin-degraders/query.fa`
+Make query file: `cat data/proteome-tree/sequences-fungi-with-lignin-degraders-order-filtered-noOverlap.trimmed.fa data/proteome-tree/sequences-fungi-with-lignin-degraders-order-removed-noOverlap.trimmed.fa data/proteome-tree/sequences-all-class-removed.trimmed.fa > data/epa-ng/fungi-with-lignin-degraders/query.fa`
 
 Combine query and ref: `cat data/epa-ng/ref.fa data/epa-ng/fungi-with-lignin-degraders/query.fa > data/epa-ng/fungi-with-lignin-degraders/ref-query.fa`.
 
@@ -288,7 +286,19 @@ Divide in two files: `data/epa-ng/fungi-with-lignin-degraders/query-linsi.fa` an
 
 Run phylogenetic placement: `epa-ng --ref-msa data/epa-ng/fungi-with-lignin-degraders/ref-linsi.fa --tree data/epa-ng/tree.nwk --query data/epa-ng/fungi-with-lignin-degraders/query-linsi.fa --model WAG --redo --outdir data/epa-ng/fungi-with-lignin-degraders/out`
 
-Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-with-lignin-degraders/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-with-lignin-degraders/out/`. This produces the file `data/epa-ng/fungi-with-lignin-degraders/out/epa_result.newick`. Remove 'gappa'.
+Make grafted tree: `gappa examine graft --jplace-path data/epa-ng/fungi-with-lignin-degraders/out/epa_result.jplace --fully-resolve --name-prefix gappa --out-dir data/epa-ng/fungi-with-lignin-degraders/out/`. This produces the file `data/epa-ng/fungi-with-lignin-degraders/out/epa_result.newick`. 
+Remove 'gappa'.
+
+### Make fungal dotplot
+From the grafted tree, files with accessions in each clade are made and saved in: `data/epa-ng/fungi-with-lignin-degraders/clades`
+
+A csv file is made by running `python src/proteome-tree/clade-annotations.py`. This creates the file `data/mrbayes/all/clades/clades.csv`.
+
+A dotplot is made in R with the script `src/species-tree/dotplot.R`. 
+
+The phylum list `data/species-tree/phylum.txt` is written in the R script `src/species-tree/dotplot.R`. 
+
+Then, the phylum html file is written with the `src/itol-label-files/make-itol-label-files.py` script. Open the html, print the page to pdf and overlap with dotplot.
 
 # Boxplots of number of PPOs per class
 To make the data table for making boxplots, run `python src/boxplots/make-proteome-table-with-empty.py`. This creates the file `data/boxplots/boxplot-data.tsv`.
