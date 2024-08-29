@@ -85,7 +85,7 @@ dotplot <- merged_table %>% filter(species %in% species_unique) %>%
         ) +
   scale_color_manual(values = colors_groups_all) +
   scale_y_discrete(labels = change_species_name) +
-  scale_size_continuous(range= c(1,6)) +
+  scale_size_continuous(range= c(1.5,7)) +
   coord_cartesian(clip = "off")  # Prevent clipping
 plot_grid(ggtree_plot, dotplot, nrow = 1, rel_widths = c(2.7,3), align = 'h')
 
