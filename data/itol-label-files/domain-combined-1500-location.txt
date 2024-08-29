@@ -8,6 +8,7 @@ BACKBONE_HEIGHT,10
 DATA
 A0A024GPM3.55-258,562,HH|55|258|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
 A0A024GU68.591-794,1077,HH|591|794|#10aefd|PF00264: Common central domain of tyrosinase,HH|149|170|#f71252|Transmembrane domain,HH|176|194|#f71252|Transmembrane domain,HH|215|238|#f71252|Transmembrane domain,HH|244|262|#f71252|Transmembrane domain,HH|282|308|#f71252|Transmembrane domain,HH|328|348|#f71252|Transmembrane domain,HH|360|382|#f71252|Transmembrane domain,HH|438|456|#f71252|Transmembrane domain,HH|468|489|#f71252|Transmembrane domain,HH|89|491|#000000|PF03092_BT1 family
+A0A059JJQ6.78-318,625,HH|78|318|#10aefd|PF00264: Common central domain of tyrosinase,HH|467|577|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
 A0A067BTT5.64-271,511,HH|64|271|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide
 A0A067BX73.58-265,476,HH|58|265|#10aefd|PF00264: Common central domain of tyrosinase
 A0A067C173.819-1045,1329,HH|819|1045|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|11|#00057C|Signal peptide,HH|189|234|#000000|PF13948_Domain of unknown function (DUF4215),HH|246|281|#000000|PF13948_Domain of unknown function (DUF4215),HH|332|363|#000000|PF13948_Domain of unknown function (DUF4215),HH|359|394|#000000|PF13948_Domain of unknown function (DUF4215),HH|399|440|#000000|PF13948_Domain of unknown function (DUF4215),HH|445|484|#000000|PF13948_Domain of unknown function (DUF4215),HH|539|578|#000000|PF13948_Domain of unknown function (DUF4215),HH|594|626|#000000|PF13948_Domain of unknown function (DUF4215),HH|642|674|#000000|PF13948_Domain of unknown function (DUF4215),HH|689|720|#000000|PF13948_Domain of unknown function (DUF4215),HH|725|767|#000000|PF13948_Domain of unknown function (DUF4215)
@@ -16,14 +17,81 @@ A0A067C631.58-265,498,HH|58|265|#10aefd|PF00264: Common central domain of tyrosi
 A0A067CPX4.49-254,464,HH|49|254|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
 A0A067CXC8.196-398,635,HH|196|398|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A067D814.368-570,806,HH|368|570|#10aefd|PF00264: Common central domain of tyrosinase
+A0A067PHP8.77-368,702,HH|77|368|#10aefd|PF00264: Common central domain of tyrosinase
+A0A067PPZ9.80-370,564,HH|80|370|#10aefd|PF00264: Common central domain of tyrosinase
+A0A067PSS3.80-338,658,HH|80|338|#10aefd|PF00264: Common central domain of tyrosinase
 A0A068NQY3.65-324,538,HH|65|324|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A074XC75.101-353,774,HH|101|353|#10aefd|PF00264: Common central domain of tyrosinase,HH|533|655|#8e1730|PF18132: Tyosinase C-terminal domain,HH|753|773|#f71252|Transmembrane domain,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A074XNA1.84-319,382,HH|84|319|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A074XND5.151-209,322,HH|151|209|#10aefd|PF00264: Common central domain of tyrosinase,HH|41|58|#f71252|Transmembrane domain
+A0A074XR97.111-334,392,HH|111|334|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+A0A074XWE1.96-328,390,HH|96|328|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
 A0A078AII6.45-322,525,HH|45|322|#10aefd|PF00264: Common central domain of tyrosinase
 A0A078ARQ6.10-245,448,HH|10|245|#10aefd|PF00264: Common central domain of tyrosinase
+A0A084FV28.87-352,411,HH|87|352|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A084FV70.548-738,792,HH|548|738|#10aefd|PF00264: Common central domain of tyrosinase
+A0A084G098.88-272,691,HH|88|272|#10aefd|PF00264: Common central domain of tyrosinase,HH|414|614|#000000|PF00230_Major intrinsic protein,HH|460|479|#f71252|Transmembrane domain,HH|486|505|#f71252|Transmembrane domain,HH|517|538|#f71252|Transmembrane domain,HH|545|565|#f71252|Transmembrane domain,HH|571|593|#f71252|Transmembrane domain,HH|605|622|#f71252|Transmembrane domain,HH|628|647|#f71252|Transmembrane domain
+A0A084G330.119-307,392,HH|119|307|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+A0A084G3K0.73-282,339,HH|73|282|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A084G593.65-246,393,HH|65|246|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide
+A0A084G5H0.104-330,388,HH|104|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A084G6B5.114-349,407,HH|114|349|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A084G7S9.99-232,325,HH|99|232|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+A0A084G7V9.66-284,355,HH|66|284|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A084G9G0.74-257,397,HH|74|257|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A084GCK1.108-339,395,HH|108|339|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
+A0A084GDW0.235-427,476,HH|235|427|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A084GGH5.48-302,661,HH|48|302|#10aefd|PF00264: Common central domain of tyrosinase,HH|495|622|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A084GGL7.75-290,570,HH|75|290|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 A0A0A0MTD3.18-203,233,HH|18|203|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0B7F0F6.90-305,368,HH|90|305|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A0B7F0G8.86-297,360,HH|86|297|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A0B7F0N2.86-294,357,HH|86|294|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A0B7F0Q1.86-294,357,HH|86|294|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A0B7F1Z6.85-287,351,HH|85|287|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A0B7F229.62-258,321,HH|62|258|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A0B7F3K0.63-258,322,HH|63|258|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A0B7F5A8.68-254,318,HH|68|254|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A0B7F7A3.97-288,351,HH|97|288|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0B7F8H0.75-259,314,HH|75|259|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|27|#00057C|Signal peptide
+A0A0B7FCB0.71-255,324,HH|71|255|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A0B7FFE4.80-260,260,HH|80|260|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A0B7FGN3.75-259,318,HH|75|259|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide
+A0A0B7FL26.110-315,382,HH|110|315|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|15|#00057C|Signal peptide
+A0A0B7FMY1.47-115,115,HH|47|115|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0B7FN78.74-279,356,HH|74|279|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A0B7FQ89.91-290,358,HH|91|290|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A0B7FQF4.6-179,184,HH|6|179|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0B7FR21.1-158,223,HH|1|158|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0B7FSE1.90-260,660,HH|90|260|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|488|648|#000000|PF00484_Carbonic anhydrase,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A0B7FT97.56-365,743,HH|56|365|#10aefd|PF00264: Common central domain of tyrosinase,HH|564|672|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A0B7FUX7.90-299,363,HH|90|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A0B7FUY2.84-301,365,HH|84|301|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A0B7FY08.79-293,393,HH|79|293|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0B7G165.93-301,365,HH|93|301|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A0B7G340.74-258,316,HH|74|258|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide
+A0A0B7G4H1.110-339,700,HH|110|339|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0C3B766.79-281,346,HH|79|281|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A0C3F7Q7.138-317,609,HH|138|317|#10aefd|PF00264: Common central domain of tyrosinase,HH|71|88|#f71252|Transmembrane domain,HH|365|407|#000000|PF19343_Family of unknown function (DUF5923),HH|411|525|#000000|PF19343_Family of unknown function (DUF5923),HH|537|585|#000000|PF14613_Protein of unknown function (DUF4449)
+A0A0C3FFF8.82-295,362,HH|82|295|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
+A0A0C3FFN2.2-189,254,HH|2|189|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0C3FR79.71-274,339,HH|71|274|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A0C3FV27.40-167,178,HH|40|167|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0C3FYC4.84-298,365,HH|84|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A0C3FYC9.83-116,138,HH|83|116|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A0C9ZMD3.33-226,296,HH|33|226|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0D1CHR5.496-694,762,HH|496|694|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|30|#00057C|Signal peptide
+A0A0D1E6L1.110-301,371,HH|110|301|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+A0A0F9WDC2.44-102,308,HH|44|102|#10aefd|PF00264: Common central domain of tyrosinase,HH|123|200|#10aefd|PF00264: Common central domain of tyrosinase
+A0A0F9WDC2.123-200,308,HH|44|102|#10aefd|PF00264: Common central domain of tyrosinase,HH|123|200|#10aefd|PF00264: Common central domain of tyrosinase
 A0A0G4IPB5.95-253,477,HH|95|253|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide
 A0A0G4IUB1.151-327,550,HH|151|327|#10aefd|PF00264: Common central domain of tyrosinase
 A0A0G4J7H3.64-226,405,HH|64|226|#10aefd|PF00264: Common central domain of tyrosinase,HH|7|29|#f71252|Transmembrane domain,HH|1|34|#00057C|Signal peptide
+A0A0H2RSH5.75-314,602,HH|75|314|#10aefd|PF00264: Common central domain of tyrosinase,HH|430|563|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A0L0GEJ5.73-334,430,HH|73|334|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+A0A0L0HF05.78-279,559,HH|78|279|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|27|#00057C|Signal peptide
+A0A0L0HG65.75-259,454,HH|75|259|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A0L0HGD9.113-297,590,HH|113|297|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
 A0A0L0RZ18.213-470,601,HH|213|470|#10aefd|PF00264: Common central domain of tyrosinase,HH|578|597|#f71252|Transmembrane domain,HH|1|41|#00057C|Signal peptide
 A0A0L0S5H6.68-238,301,HH|68|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
 A0A0L0S6J0.147-314,474,HH|147|314|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|28|#00057C|Signal peptide,HH|1|28|#00057C|Signal peptide
@@ -45,29 +113,41 @@ A0A0L0W3R9.165-371,427,HH|165|371|#10aefd|PF00264: Common central domain of tyro
 A0A0L0W4D9.98-286,381,HH|98|286|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 A0A137NPV3.42-221,272,HH|42|221|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137NPX8.39-218,232,HH|39|218|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137NQ04.16-120,276,HH|16|120|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137NQ81.42-226,228,HH|42|226|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137NQN3.56-238,393,HH|56|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A137NUB7.4-176,180,HH|4|176|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137NW82.5-94,130,HH|5|94|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137NY78.55-238,393,HH|55|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A137NYB7.36-215,225,HH|36|215|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137NZ11.3-33,76,HH|3|33|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137NZ43.52-240,387,HH|52|240|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137P2U0.64-237,432,HH|64|237|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
 A0A137P2U9.191-368,563,HH|191|368|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A137P2V9.63-237,237,HH|63|237|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137P2W7.6-62,264,HH|6|62|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137P353.39-217,231,HH|39|217|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137P4I0.1-53,63,HH|1|53|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137P4I7.58-237,395,HH|58|237|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 A0A137P4K7.55-232,387,HH|55|232|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A137P4L3.55-233,386,HH|55|233|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
 A0A137P4M5.61-239,669,HH|61|239|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A137P4Q5.48-126,150,HH|48|126|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137P4T8.45-97,252,HH|45|97|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A137P649.58-238,447,HH|58|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
 A0A137P667.58-240,415,HH|58|240|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
 A0A137P762.42-228,293,HH|42|228|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137P785.25-136,302,HH|25|136|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137P7E0.43-228,279,HH|43|228|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137P7Q8.31-209,219,HH|31|209|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137P8T8.63-241,259,HH|63|241|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+A0A137PAH5.9-81,176,HH|9|81|#10aefd|PF00264: Common central domain of tyrosinase,HH|119|176|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137PAH5.119-176,176,HH|9|81|#10aefd|PF00264: Common central domain of tyrosinase,HH|119|176|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137PAT2.41-229,279,HH|41|229|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137PAW4.64-253,259,HH|64|253|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A137PB18.59-120,135,HH|59|120|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
 A0A137PC40.58-237,431,HH|58|237|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
+A0A137PC54.24-114,301,HH|24|114|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137PC55.9-190,397,HH|9|190|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137PC66.59-239,471,HH|59|239|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
 A0A137PC75.56-237,440,HH|56|237|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
@@ -78,14 +158,45 @@ A0A137PEX7.22-205,369,HH|22|205|#10aefd|PF00264: Common central domain of tyrosi
 A0A137PFI2.65-239,516,HH|65|239|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
 A0A137PGY5.56-237,281,HH|56|237|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A137PJ00.2-176,180,HH|2|176|#10aefd|PF00264: Common central domain of tyrosinase
+A0A137PJ02.3-144,299,HH|3|144|#10aefd|PF00264: Common central domain of tyrosinase
 A0A137PJ55.7-187,335,HH|7|187|#10aefd|PF00264: Common central domain of tyrosinase
 A0A143PNK1.46-249,302,HH|46|249|#10aefd|PF00264: Common central domain of tyrosinase
 A0A151MVL6.171-402,528,HH|171|402|#10aefd|PF00264: Common central domain of tyrosinase,HH|473|496|#f71252|Transmembrane domain,HH|1|25|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
 A0A151NRJ9.152-379,489,HH|152|379|#10aefd|PF00264: Common central domain of tyrosinase,HH|440|465|#f71252|Transmembrane domain
 A0A151NSM3.174-401,511,HH|174|401|#10aefd|PF00264: Common central domain of tyrosinase,HH|462|487|#f71252|Transmembrane domain
 A0A151P161.105-337,458,HH|105|337|#10aefd|PF00264: Common central domain of tyrosinase,HH|399|422|#f71252|Transmembrane domain
+A0A164MPH2.51-306,562,HH|51|306|#10aefd|PF00264: Common central domain of tyrosinase,HH|408|527|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164PRN3.58-384,633,HH|58|384|#10aefd|PF00264: Common central domain of tyrosinase,HH|494|601|#8e1730|PF18132: Tyosinase C-terminal domain,HH|536|555|#f71252|Transmembrane domain
+A0A164PRP8.64-382,508,HH|64|382|#10aefd|PF00264: Common central domain of tyrosinase
+A0A164PTJ8.60-196,232,HH|60|196|#10aefd|PF00264: Common central domain of tyrosinase
+A0A164PTM7.63-357,631,HH|63|357|#10aefd|PF00264: Common central domain of tyrosinase,HH|473|593|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164PTP3.60-369,633,HH|60|369|#10aefd|PF00264: Common central domain of tyrosinase,HH|476|599|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164PTP5.58-348,622,HH|58|348|#10aefd|PF00264: Common central domain of tyrosinase,HH|464|583|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164RA21.57-318,348,HH|57|318|#10aefd|PF00264: Common central domain of tyrosinase
+A0A164RA64.57-329,608,HH|57|329|#10aefd|PF00264: Common central domain of tyrosinase,HH|446|567|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164RAH3.60-344,671,HH|60|344|#10aefd|PF00264: Common central domain of tyrosinase,HH|509|630|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164RBJ3.63-347,640,HH|63|347|#10aefd|PF00264: Common central domain of tyrosinase,HH|477|592|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164RBU0.87-219,521,HH|87|219|#10aefd|PF00264: Common central domain of tyrosinase,HH|348|469|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164SP08.71-382,662,HH|71|382|#10aefd|PF00264: Common central domain of tyrosinase,HH|493|571|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A164TCQ0.88-379,662,HH|88|379|#10aefd|PF00264: Common central domain of tyrosinase,HH|494|621|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A165C107.55-286,346,HH|55|286|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165DGP7.5-221,285,HH|5|221|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165DIB8.117-349,410,HH|117|349|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165DII7.5-99,160,HH|5|99|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165ELT2.50-279,340,HH|50|279|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165F8M0.201-459,728,HH|201|459|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165FWQ7.61-304,681,HH|61|304|#10aefd|PF00264: Common central domain of tyrosinase,HH|522|641|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A165GTV7.5-222,283,HH|5|222|#10aefd|PF00264: Common central domain of tyrosinase
 A0A165HIH0.175-389,511,HH|175|389|#10aefd|PF00264: Common central domain of tyrosinase,HH|489|509|#f71252|Transmembrane domain,HH|1|24|#00057C|Signal peptide,HH|58|124|#000000|PF00801_PKD domain,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
 A0A165J5C9.57-346,675,HH|57|346|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165J6H5.23-225,539,HH|23|225|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165JGF1.77-309,370,HH|77|309|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|16|#00057C|Signal peptide
+A0A165JGH2.76-306,368,HH|76|306|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A165JT10.5-99,159,HH|5|99|#10aefd|PF00264: Common central domain of tyrosinase
+A0A165P797.23-225,539,HH|23|225|#10aefd|PF00264: Common central domain of tyrosinase
+A0A167H3K1.57-346,675,HH|57|346|#10aefd|PF00264: Common central domain of tyrosinase
+A0A167J7M6.85-298,363,HH|85|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A167MK44.174-387,520,HH|174|387|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 A0A176VDF6.154-393,639,HH|154|393|#10aefd|PF00264: Common central domain of tyrosinase,HH|48|65|#f71252|Transmembrane domain,HH|408|461|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|517|618|#119d58|PF12143: Protein of unknown function
 A0A176VEH7.92-325,573,HH|92|325|#10aefd|PF00264: Common central domain of tyrosinase,HH|340|393|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|454|554|#119d58|PF12143: Protein of unknown function
 A0A176VEY3.109-337,433,HH|109|337|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|344|391|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|1|24|#00057C|Signal peptide
@@ -126,15 +237,42 @@ A0A177DQF3.62-276,331,HH|62|276|#10aefd|PF00264: Common central domain of tyrosi
 A0A177DSJ1.44-238,292,HH|44|238|#10aefd|PF00264: Common central domain of tyrosinase
 A0A177DTC8.94-297,358,HH|94|297|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A177DXP3.123-376,749,HH|123|376|#10aefd|PF00264: Common central domain of tyrosinase,HH|554|644|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|28|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide,HH|1|28|#00057C|Signal peptide
+A0A177DYQ6.12-91,150,HH|12|91|#10aefd|PF00264: Common central domain of tyrosinase
 A0A177E0Q1.114-312,371,HH|114|312|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
 A0A177E1Y0.96-330,387,HH|96|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
 A0A177E2B8.86-303,362,HH|86|303|#10aefd|PF00264: Common central domain of tyrosinase
 A0A177E2Y1.106-330,786,HH|106|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|394|733|#000000|PF01494_FAD binding domain
 A0A177E398.6-217,276,HH|6|217|#10aefd|PF00264: Common central domain of tyrosinase
 A0A177E3H5.100-326,385,HH|100|326|#10aefd|PF00264: Common central domain of tyrosinase
+A0A177T6E5.146-328,406,HH|146|328|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A177T6I1.133-340,416,HH|133|340|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide
+A0A177T775.13-75,75,HH|13|75|#10aefd|PF00264: Common central domain of tyrosinase
+A0A177TK21.124-332,408,HH|124|332|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A177TSF4.37-326,523,HH|37|326|#10aefd|PF00264: Common central domain of tyrosinase
+A0A194UMR4.8-57,307,HH|8|57|#10aefd|PF00264: Common central domain of tyrosinase,HH|174|267|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A194V5Z8.77-272,346,HH|77|272|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|31|#00057C|Signal peptide
+A0A194VAU2.75-263,344,HH|75|263|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide
+A0A194VBC9.79-287,346,HH|79|287|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
+A0A1C7LM26.59-214,231,HH|59|214|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1C7LRX6.1-28,289,HH|1|28|#10aefd|PF00264: Common central domain of tyrosinase,HH|153|243|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A1C7LW21.770-986,1048,HH|770|986|#10aefd|PF00264: Common central domain of tyrosinase,HH|249|271|#f71252|Transmembrane domain,HH|687|704|#f71252|Transmembrane domain,HH|1|19|#00057C|Signal peptide
+A0A1C7MJW4.58-313,621,HH|58|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|464|583|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A1E7F8K2.120-322,624,HH|120|322|#10aefd|PF00264: Common central domain of tyrosinase,HH|60|82|#f71252|Transmembrane domain
 A0A1I8GLN0.175-412,523,HH|175|412|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|33|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
 A0A1I8J0F5.175-412,523,HH|175|412|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A1J7I5P1.105-334,394,HH|105|334|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|30|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A1J7INL6.86-305,374,HH|86|305|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1J7IS49.96-320,378,HH|96|320|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide
+A0A1J7ITX6.48-231,287,HH|48|231|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1J7J0G6.107-340,404,HH|107|340|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A1J7J6R4.75-313,558,HH|75|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|427|518|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A1J7JCM8.114-345,408,HH|114|345|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A1J7JH22.87-306,366,HH|87|306|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1J7JKX2.120-353,421,HH|120|353|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A1J7JNG9.70-317,545,HH|70|317|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
+A0A1J7JYB7.90-299,303,HH|90|299|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1J7K205.45-267,331,HH|45|267|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1J7K3Z8.92-349,617,HH|92|349|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|589|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 A0A1L8FPX0.166-390,442,HH|166|390|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A1L8FPY5.166-391,443,HH|166|391|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A1L8HAY8.175-407,532,HH|175|407|#10aefd|PF00264: Common central domain of tyrosinase,HH|477|503|#f71252|Transmembrane domain
@@ -151,10 +289,37 @@ A0A1S9D7B6.54-345,629,HH|54|345|#10aefd|PF00264: Common central domain of tyrosi
 A0A1S9D8U5.112-304,358,HH|112|304|#10aefd|PF00264: Common central domain of tyrosinase,HH|40|60|#f71252|Transmembrane domain
 A0A1S9DBW0.105-332,390,HH|105|332|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide
 A0A1S9DF80.66-255,318,HH|66|255|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1S9DJX3.118-349,408,HH|118|349|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A1S9DK56.58-384,616,HH|58|384|#10aefd|PF00264: Common central domain of tyrosinase,HH|467|542|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A1S9DQI5.97-324,387,HH|97|324|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
 A0A1S9DSW9.69-295,352,HH|69|295|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1S9DY89.42-344,592,HH|42|344|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1S9E169.67-293,350,HH|67|293|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A1V8SKS2.103-358,643,HH|103|358|#10aefd|PF00264: Common central domain of tyrosinase,HH|483|608|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A1V8SS50.110-336,394,HH|110|336|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1V8SV31.89-348,652,HH|89|348|#10aefd|PF00264: Common central domain of tyrosinase,HH|487|604|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1V8SXJ4.82-315,595,HH|82|315|#10aefd|PF00264: Common central domain of tyrosinase,HH|426|544|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|29|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A1V8T1G2.89-348,652,HH|89|348|#10aefd|PF00264: Common central domain of tyrosinase,HH|487|604|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1V8TJ40.103-358,626,HH|103|358|#10aefd|PF00264: Common central domain of tyrosinase,HH|483|608|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A1V8TKJ2.110-336,394,HH|110|336|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1V8TPK1.82-315,595,HH|82|315|#10aefd|PF00264: Common central domain of tyrosinase,HH|426|544|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|23|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A1V8TS84.97-330,388,HH|97|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1V8TU55.97-326,384,HH|97|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A1X7RK58.108-333,392,HH|108|333|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A1X7RPF3.52-235,311,HH|52|235|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1X7RRH8.359-552,606,HH|359|552|#10aefd|PF00264: Common central domain of tyrosinase,HH|22|187|#000000|PF11807_Mycotoxin biosynthesis protein UstYa
+A0A1X7RS54.82-344,624,HH|82|344|#10aefd|PF00264: Common central domain of tyrosinase,HH|475|597|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1X7RSK7.96-290,353,HH|96|290|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|30|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A1X7RU91.114-317,374,HH|114|317|#10aefd|PF00264: Common central domain of tyrosinase,HH|44|66|#f71252|Transmembrane domain
+A0A1X7RVT3.99-291,347,HH|99|291|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1X7RWC6.99-351,637,HH|99|351|#10aefd|PF00264: Common central domain of tyrosinase,HH|477|603|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|23|#00057C|Signal peptide
+A0A1X7RXX1.64-347,666,HH|64|347|#10aefd|PF00264: Common central domain of tyrosinase,HH|500|630|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A1X7S3Y0.89-347,1014,HH|89|347|#10aefd|PF00264: Common central domain of tyrosinase,HH|572|689|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|17|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A1X7S635.174-359,422,HH|174|359|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A1X7S7T3.13-270,601,HH|13|270|#10aefd|PF00264: Common central domain of tyrosinase,HH|439|558|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A1X7S8T9.106-184,189,HH|106|184|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A1X7S8X8.12-114,174,HH|12|114|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1X7S964.126-359,419,HH|126|359|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
 A0A1Y1HT28.66-381,629,HH|66|381|#10aefd|PF00264: Common central domain of tyrosinase,HH|464|579|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A1Y1HVY3.229-438,699,HH|229|438|#10aefd|PF00264: Common central domain of tyrosinase,HH|447|496|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|590|697|#119d58|PF12143: Protein of unknown function
 A0A1Y1WUU7.8-184,194,HH|8|184|#10aefd|PF00264: Common central domain of tyrosinase
@@ -167,26 +332,33 @@ A0A1Y1XM11.30-213,369,HH|30|213|#10aefd|PF00264: Common central domain of tyrosi
 A0A1Y1XU76.58-232,366,HH|58|232|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 A0A1Y1XUF9.33-203,203,HH|33|203|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1Y1XUN2.61-238,289,HH|61|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+A0A1Y1XVN2.4-45,118,HH|4|45|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1Y1XZB8.44-221,274,HH|44|221|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1Y1Y0G3.58-233,394,HH|58|233|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide
 A0A1Y1Y162.58-233,403,HH|58|233|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide
 A0A1Y1Y3B8.60-238,272,HH|60|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide
 A0A1Y1Y3H3.61-230,452,HH|61|230|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide
+A0A1Y1Y3L9.53-101,133,HH|53|101|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A1Y1Y511.67-244,393,HH|67|244|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 A0A1Y1Y750.36-213,250,HH|36|213|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1Y1YBC0.78-255,555,HH|78|255|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
 A0A1Y1YDM8.53-228,385,HH|53|228|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A1Y1YF00.58-111,157,HH|58|111|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide
 A0A1Y1YHD6.57-231,243,HH|57|231|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+A0A1Y1Z2B1.490-599,703,HH|490|599|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
 A0A1Y1Z2V1.28-197,197,HH|28|197|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1Y1Z3P8.62-238,393,HH|62|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide
 A0A1Y1Z4N2.35-218,265,HH|35|218|#10aefd|PF00264: Common central domain of tyrosinase
+A0A1Y1Z5B8.63-216,396,HH|63|216|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
 A0A1Y1Z697.60-238,269,HH|60|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide
+A0A1Y1Z6J4.28-202,204,HH|28|202|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1Y1ZAQ2.33-208,258,HH|33|208|#10aefd|PF00264: Common central domain of tyrosinase
 A0A1Y1ZC58.64-243,453,HH|64|243|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide
 A0A267G1D3.98-335,446,HH|98|335|#10aefd|PF00264: Common central domain of tyrosinase
 A0A2G5BCT7.59-232,397,HH|59|232|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 A0A2G5BCT9.61-233,412,HH|61|233|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
 A0A2G5BCU3.65-238,383,HH|65|238|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A2G5BD05.41-129,139,HH|41|129|#10aefd|PF00264: Common central domain of tyrosinase
 A0A2G5BDP2.60-232,548,HH|60|232|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
 A0A2G5BJJ6.55-228,583,HH|55|228|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 A0A2G5BJJ9.8-170,181,HH|8|170|#10aefd|PF00264: Common central domain of tyrosinase
@@ -202,6 +374,7 @@ A0A2H3HDD6.111-347,412,HH|111|347|#10aefd|PF00264: Common central domain of tyro
 A0A2H3HKI2.109-342,403,HH|109|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
 A0A2H3HNW1.75-313,572,HH|75|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 A0A2H3HZX2.69-287,355,HH|69|287|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A2I1GI48.45-79,121,HH|45|79|#10aefd|PF00264: Common central domain of tyrosinase,HH|77|96|#f71252|Transmembrane domain
 A0A2K1IGC8.113-326,546,HH|113|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|21|43|#f71252|Transmembrane domain,HH|337|381|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|425|523|#119d58|PF12143: Protein of unknown function
 A0A2K1IK82.102-322,549,HH|102|322|#10aefd|PF00264: Common central domain of tyrosinase,HH|330|378|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|1|26|#00057C|Signal peptide
 A0A2K1IZ55.106-323,550,HH|106|323|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|36|#00057C|Signal peptide,HH|331|380|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|1|36|#00057C|Signal peptide,HH|1|36|#00057C|Signal peptide,HH|433|547|#119d58|PF12143: Protein of unknown function
@@ -221,6 +394,11 @@ A0A2K2CAL5.159-369,581,HH|159|369|#10aefd|PF00264: Common central domain of tyro
 A0A2K2CAM1.159-369,581,HH|159|369|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|14|#00057C|Signal peptide,HH|377|427|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|453|578|#119d58|PF12143: Protein of unknown function
 A0A2K2CAM6.193-399,606,HH|193|399|#10aefd|PF00264: Common central domain of tyrosinase,HH|407|458|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|482|603|#119d58|PF12143: Protein of unknown function
 A0A2K3CX80.85-269,715,HH|85|269|#10aefd|PF00264: Common central domain of tyrosinase,HH|404|460|#000000|PF01471_Putative peptidoglycan binding domain,HH|638|679|#000000|PF13499_EF-hand domain pair,HH|496|631|#000000|PF00413_Matrixin
+A0A2P7YDE6.97-346,407,HH|97|346|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A2P7YKX3.100-332,389,HH|100|332|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A2P7Z1M8.107-314,371,HH|107|314|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide
+A0A2P7ZDQ2.83-347,642,HH|83|347|#10aefd|PF00264: Common central domain of tyrosinase,HH|458|579|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A2P7ZE68.69-262,271,HH|69|262|#10aefd|PF00264: Common central domain of tyrosinase
 A0A2R2MNF5.133-327,506,HH|133|327|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|30|#00057C|Signal peptide,HH|1|30|#00057C|Signal peptide,HH|1|30|#00057C|Signal peptide
 A0A2R2MPF3.143-330,398,HH|143|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide
 A0A2R5FJR1.86-327,414,HH|86|327|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide
@@ -241,6 +419,8 @@ A0A2Z6QID9.53-346,546,HH|53|346|#10aefd|PF00264: Common central domain of tyrosi
 A0A2Z6QJV6.53-346,580,HH|53|346|#10aefd|PF00264: Common central domain of tyrosinase,HH|433|509|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A2Z6RB52.28-320,556,HH|28|320|#10aefd|PF00264: Common central domain of tyrosinase,HH|407|483|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A2Z6S775.55-322,558,HH|55|322|#10aefd|PF00264: Common central domain of tyrosinase,HH|400|486|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A316YEU0.185-357,412,HH|185|357|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A316YS64.103-388,448,HH|103|388|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|32|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide,HH|1|27|#00057C|Signal peptide
 A0A318S2J3.39-243,471,HH|39|243|#10aefd|PF00264: Common central domain of tyrosinase
 A0A384J750.80-325,595,HH|80|325|#10aefd|PF00264: Common central domain of tyrosinase,HH|443|563|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A384J8A3.89-318,379,HH|89|318|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
@@ -267,6 +447,21 @@ A0A3M6UP51.97-285,327,HH|97|285|#10aefd|PF00264: Common central domain of tyrosi
 A0A3M6UR97.24-215,604,HH|24|215|#10aefd|PF00264: Common central domain of tyrosinase,HH|334|422|#000000|PF00059_Lectin C-type domain,HH|482|602|#000000|PF00059_Lectin C-type domain
 A0A3M6URF3.44-229,349,HH|44|229|#10aefd|PF00264: Common central domain of tyrosinase
 A0A3P3WAR6.47-328,533,HH|47|328|#10aefd|PF00264: Common central domain of tyrosinase
+A0A436ZMN6.125-409,752,HH|125|409|#10aefd|PF00264: Common central domain of tyrosinase,HH|526|649|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|26|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A436ZMY2.97-343,820,HH|97|343|#10aefd|PF00264: Common central domain of tyrosinase,HH|664|779|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|20|#00057C|Signal peptide
+A0A436ZW26.2-191,247,HH|2|191|#10aefd|PF00264: Common central domain of tyrosinase
+A0A436ZW36.95-332,389,HH|95|332|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
+A0A436ZY08.332-575,956,HH|332|575|#10aefd|PF00264: Common central domain of tyrosinase,HH|682|792|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|29|#00057C|Signal peptide,HH|1|29|#00057C|Signal peptide,HH|1|29|#00057C|Signal peptide
+A0A436ZY67.270-508,786,HH|270|508|#10aefd|PF00264: Common central domain of tyrosinase,HH|614|724|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|35|#00057C|Signal peptide
+A0A437A308.59-338,941,HH|59|338|#10aefd|PF00264: Common central domain of tyrosinase,HH|769|901|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A437A7Y6.89-304,379,HH|89|304|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|28|#00057C|Signal peptide,HH|1|28|#00057C|Signal peptide
+A0A437ABS8.191-429,707,HH|191|429|#10aefd|PF00264: Common central domain of tyrosinase,HH|529|628|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A437ABU9.139-382,676,HH|139|382|#10aefd|PF00264: Common central domain of tyrosinase,HH|517|636|#8e1730|PF18132: Tyosinase C-terminal domain,HH|21|43|#f71252|Transmembrane domain
+A0A437ACI9.112-325,387,HH|112|325|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A437ACP0.102-354,639,HH|102|354|#10aefd|PF00264: Common central domain of tyrosinase,HH|487|603|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A437AD99.53-372,570,HH|53|372|#10aefd|PF00264: Common central domain of tyrosinase
+A0A437AEF9.174-439,710,HH|174|439|#10aefd|PF00264: Common central domain of tyrosinase,HH|554|671|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide
+A0A437AF91.296-537,838,HH|296|537|#10aefd|PF00264: Common central domain of tyrosinase,HH|650|765|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
 A0A498IS04.180-387,610,HH|180|387|#10aefd|PF00264: Common central domain of tyrosinase,HH|395|446|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|479|608|#119d58|PF12143: Protein of unknown function
 A0A498IS85.180-387,610,HH|180|387|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|395|446|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|479|608|#119d58|PF12143: Protein of unknown function
 A0A498IVC1.173-388,692,HH|173|388|#10aefd|PF00264: Common central domain of tyrosinase,HH|589|649|#10aefd|PF00264: Common central domain of tyrosinase,HH|394|444|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|656|692|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|463|582|#119d58|PF12143: Protein of unknown function
@@ -311,9 +506,72 @@ A0A4W3J2R9.170-401,495,HH|170|401|#10aefd|PF00264: Common central domain of tyro
 A0A4W3JJW4.165-396,521,HH|165|396|#10aefd|PF00264: Common central domain of tyrosinase,HH|468|491|#f71252|Transmembrane domain
 A0A4W3JJY3.167-398,523,HH|167|398|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|493|#f71252|Transmembrane domain
 A0A4W3JK65.170-401,526,HH|170|401|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A4Z0YK01.109-299,355,HH|109|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|35|55|#f71252|Transmembrane domain
+A0A4Z0YPH5.141-321,1254,HH|141|321|#10aefd|PF00264: Common central domain of tyrosinase,HH|441|700|#000000|PF01048_Phosphorylase superfamily,HH|1|18|#00057C|Signal peptide,HH|1185|1249|#000000|PF13424_Tetratricopeptide repeat
+A0A4Z0YR50.104-330,389,HH|104|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|30|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A4Z0YS91.117-350,412,HH|117|350|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A4Z0YUI2.103-330,388,HH|103|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A4Z0Z0E1.95-349,642,HH|95|349|#10aefd|PF00264: Common central domain of tyrosinase,HH|496|614|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|20|#00057C|Signal peptide
+A0A4Z0Z0G8.317-502,558,HH|317|502|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide
+A0A4Z0Z0S0.60-357,808,HH|60|357|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|594|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A4Z0Z0X9.99-315,375,HH|99|315|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A4Z0Z5N9.202-393,453,HH|202|393|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|14|#00057C|Signal peptide
+A0A4Z0Z7P2.15-159,213,HH|15|159|#10aefd|PF00264: Common central domain of tyrosinase
+A0A4Z0Z8S2.89-309,365,HH|89|309|#10aefd|PF00264: Common central domain of tyrosinase
+A0A4Z0ZBZ0.36-311,493,HH|36|311|#10aefd|PF00264: Common central domain of tyrosinase
+A0A4Z0ZC48.80-205,500,HH|80|205|#10aefd|PF00264: Common central domain of tyrosinase,HH|358|453|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A512M2B1.41-278,535,HH|41|278|#10aefd|PF00264: Common central domain of tyrosinase
 A0A562SSC4.47-331,528,HH|47|331|#10aefd|PF00264: Common central domain of tyrosinase
 A0A5B8MIF6.4-184,929,HH|4|184|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6A6GXG8.111-344,404,HH|111|344|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A6A6H4U9.72-262,316,HH|72|262|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide
+A0A6A6H9P3.98-361,659,HH|98|361|#10aefd|PF00264: Common central domain of tyrosinase,HH|492|611|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A6A6HBJ0.20-219,578,HH|20|219|#10aefd|PF00264: Common central domain of tyrosinase,HH|422|547|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A6A6HHK4.112-302,355,HH|112|302|#10aefd|PF00264: Common central domain of tyrosinase,HH|37|60|#f71252|Transmembrane domain
+A0A6A6HPD6.87-346,651,HH|87|346|#10aefd|PF00264: Common central domain of tyrosinase,HH|491|612|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A6A6NPE1.74-326,570,HH|74|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|438|540|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|26|#00057C|Signal peptide
+A0A6A6NZ05.113-337,398,HH|113|337|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A6A6P305.109-336,396,HH|109|336|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide
+A0A6A6P320.89-322,380,HH|89|322|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6A6P8E7.36-291,612,HH|36|291|#10aefd|PF00264: Common central domain of tyrosinase,HH|448|571|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|31|#00057C|Signal peptide
+A0A6A6PDQ3.97-342,598,HH|97|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|447|564|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|29|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A6A6TY72.67-285,344,HH|67|285|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6A6TZ24.88-342,617,HH|88|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|460|575|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A6A6TZQ7.70-298,365,HH|70|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|15|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A6A6U210.81-314,376,HH|81|314|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A6A6U4B6.95-338,400,HH|95|338|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6A6U8W6.116-347,406,HH|116|347|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A6A6UAE3.75-304,377,HH|75|304|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A6A6UE26.72-320,435,HH|72|320|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A6A6UN72.33-259,265,HH|33|259|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6A6UW36.71-307,566,HH|71|307|#10aefd|PF00264: Common central domain of tyrosinase,HH|429|535|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide
+A0A6A6VU64.111-298,346,HH|111|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|26|47|#f71252|Transmembrane domain
+A0A6A6VVH4.53-330,675,HH|53|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|497|622|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A6A6VYK2.123-354,414,HH|123|354|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A6A6VZ00.96-324,382,HH|96|324|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A6A6VZ40.84-333,583,HH|84|333|#10aefd|PF00264: Common central domain of tyrosinase,HH|434|546|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide
+A0A6A6W082.98-330,388,HH|98|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A6A6W7X2.60-349,820,HH|60|349|#10aefd|PF00264: Common central domain of tyrosinase,HH|477|599|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A6A6W8L4.85-342,706,HH|85|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|520|610|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A6A6WC88.57-356,654,HH|57|356|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6A6WEL2.66-329,589,HH|66|329|#10aefd|PF00264: Common central domain of tyrosinase,HH|431|551|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|18|#00057C|Signal peptide
+A0A6A6WGM4.69-263,322,HH|69|263|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A6A6WID7.75-292,343,HH|75|292|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A6A6WLA0.80-324,595,HH|80|324|#10aefd|PF00264: Common central domain of tyrosinase,HH|453|561|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|28|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A6G1FV90.79-263,374,HH|79|263|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A6G1FWN2.67-296,356,HH|67|296|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6G1G481.146-413,471,HH|146|413|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|31|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A6G1G927.1-241,646,HH|1|241|#10aefd|PF00264: Common central domain of tyrosinase,HH|476|605|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A6G1G9W7.83-311,373,HH|83|311|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+A0A6G1GCC6.88-272,398,HH|88|272|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A6G1GDK8.34-268,327,HH|34|268|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6G1GF28.104-338,396,HH|104|338|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A6G1GF50.109-377,661,HH|109|377|#10aefd|PF00264: Common central domain of tyrosinase,HH|501|623|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|20|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A6G1HLY0.58-306,745,HH|58|306|#10aefd|PF00264: Common central domain of tyrosinase,HH|582|707|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A6G1HNC2.74-310,376,HH|74|310|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
+A0A6G1HWI3.82-357,424,HH|82|357|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A6G1HXT1.63-292,351,HH|63|292|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A6G1I2N2.75-325,611,HH|75|325|#10aefd|PF00264: Common central domain of tyrosinase,HH|451|569|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
 A0A6P7S550.75-250,337,HH|75|250|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 A0A6P7S5R8.115-291,711,HH|115|291|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A6P7S5V1.120-295,741,HH|120|295|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
@@ -321,6 +579,23 @@ A0A6P7S7A7.117-291,710,HH|117|291|#10aefd|PF00264: Common central domain of tyro
 A0A6P7S7Y8.120-295,746,HH|120|295|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
 A0A6P7T4X6.176-407,541,HH|176|407|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|492|#f71252|Transmembrane domain,HH|1|27|#00057C|Signal peptide
 A0A6P7TQ10.134-311,622,HH|134|311|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A6P8AME8.223-413,470,HH|223|413|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|50|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A6P8AU99.70-310,571,HH|70|310|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
+A0A6P8AYP6.68-265,321,HH|68|265|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A6P8AZ63.95-316,376,HH|95|316|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A6P8AZF3.73-281,337,HH|73|281|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A6P8B315.77-297,362,HH|77|297|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A6P8B4K3.68-271,325,HH|68|271|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A6P8B8G8.79-322,1455,HH|79|322|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A6P8BBR4.103-355,648,HH|103|355|#10aefd|PF00264: Common central domain of tyrosinase,HH|497|620|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A6P8BEE0.64-250,330,HH|64|250|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A6P8BIK3.101-328,386,HH|101|328|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|29|#00057C|Signal peptide,HH|1|29|#00057C|Signal peptide
+A0A6P8BJE5.126-279,279,HH|126|279|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6P8BJH6.65-275,339,HH|65|275|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6P8BK20.67-249,327,HH|67|249|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A6P8BKM3.148-333,388,HH|148|333|#10aefd|PF00264: Common central domain of tyrosinase
+A0A6P8BLM6.109-342,404,HH|109|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
+A0A6P8BM78.112-344,405,HH|112|344|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
 A0A7E6ENM2.111-285,704,HH|111|285|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
 A0A7E6EPH5.117-291,710,HH|117|291|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A7E6EPK6.115-291,706,HH|115|291|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
@@ -342,13 +617,128 @@ A0A841H669.224-519,713,HH|224|519|#10aefd|PF00264: Common central domain of tyro
 A0A8C4RQH4.171-403,533,HH|171|403|#10aefd|PF00264: Common central domain of tyrosinase,HH|474|500|#f71252|Transmembrane domain,HH|1|25|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
 A0A8C4SH53.174-405,529,HH|174|405|#10aefd|PF00264: Common central domain of tyrosinase,HH|467|490|#f71252|Transmembrane domain,HH|1|24|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
 A0A8C4SST0.179-406,514,HH|179|406|#10aefd|PF00264: Common central domain of tyrosinase,HH|465|489|#f71252|Transmembrane domain,HH|1|29|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A8E2DWK1.98-350,677,HH|98|350|#10aefd|PF00264: Common central domain of tyrosinase,HH|458|576|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+A0A8E2E040.58-310,657,HH|58|310|#10aefd|PF00264: Common central domain of tyrosinase,HH|493|618|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8E2E888.91-304,366,HH|91|304|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|35|#00057C|Signal peptide,HH|1|28|#00057C|Signal peptide
+A0A8E2EJQ3.73-293,359,HH|73|293|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|29|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A8E2J837.137-370,437,HH|137|370|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|29|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A8E2JHT1.69-315,603,HH|69|315|#10aefd|PF00264: Common central domain of tyrosinase,HH|442|561|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3EN91.87-342,670,HH|87|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|507|630|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|25|#00057C|Signal peptide
+A0A8H3F360.36-204,217,HH|36|204|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3F9S2.1-215,573,HH|1|215|#10aefd|PF00264: Common central domain of tyrosinase,HH|387|514|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3FB07.81-301,359,HH|81|301|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3FLJ8.106-271,279,HH|106|271|#10aefd|PF00264: Common central domain of tyrosinase,HH|26|45|#f71252|Transmembrane domain
+A0A8H3FNM0.130-318,375,HH|130|318|#10aefd|PF00264: Common central domain of tyrosinase,HH|44|64|#f71252|Transmembrane domain
+A0A8H3FR24.72-351,694,HH|72|351|#10aefd|PF00264: Common central domain of tyrosinase,HH|520|658|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3FVH9.87-303,643,HH|87|303|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|599|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3FYE1.94-321,379,HH|94|321|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|13|#00057C|Signal peptide
+A0A8H3G4B9.101-166,513,HH|101|166|#10aefd|PF00264: Common central domain of tyrosinase,HH|319|462|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3G5H2.74-316,571,HH|74|316|#10aefd|PF00264: Common central domain of tyrosinase,HH|422|529|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A8H3G6G5.91-314,336,HH|91|314|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A8H3I335.132-325,378,HH|132|325|#10aefd|PF00264: Common central domain of tyrosinase,HH|49|70|#f71252|Transmembrane domain
+A0A8H3IAU0.117-307,361,HH|117|307|#10aefd|PF00264: Common central domain of tyrosinase,HH|39|63|#f71252|Transmembrane domain
+A0A8H3IF87.88-356,657,HH|88|356|#10aefd|PF00264: Common central domain of tyrosinase,HH|494|613|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3IL14.327-547,745,HH|327|547|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3IRN5.384-670,981,HH|384|670|#10aefd|PF00264: Common central domain of tyrosinase,HH|819|941|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3IRP0.91-313,346,HH|91|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A8H3IS69.842-1063,1275,HH|842|1063|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3J0U5.62-342,710,HH|62|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|550|675|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3J3F8.69-391,710,HH|69|391|#10aefd|PF00264: Common central domain of tyrosinase,HH|540|668|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3U2Q4.73-322,599,HH|73|322|#10aefd|PF00264: Common central domain of tyrosinase,HH|425|540|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|26|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8H3UFY5.83-285,345,HH|83|285|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3UQ31.29-157,223,HH|29|157|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3V027.8-78,181,HH|8|78|#10aefd|PF00264: Common central domain of tyrosinase,HH|84|115|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3V027.84-115,181,HH|8|78|#10aefd|PF00264: Common central domain of tyrosinase,HH|84|115|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3V839.64-283,346,HH|64|283|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A8H3WZW9.69-362,605,HH|69|362|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3XIS9.71-364,605,HH|71|364|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3YLS0.78-330,605,HH|78|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|441|560|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|28|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A8H3YMW2.56-300,632,HH|56|300|#10aefd|PF00264: Common central domain of tyrosinase,HH|468|593|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H3YPL6.42-256,311,HH|42|256|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H3YQ24.57-293,1006,HH|57|293|#10aefd|PF00264: Common central domain of tyrosinase,HH|612|632|#f71252|Transmembrane domain,HH|826|847|#f71252|Transmembrane domain,HH|621|943|#000000|PF09402_Man1-Src1p-C-terminal domain,HH|338|372|#000000|PF12949_HeH/LEM domain
+A0A8H3Z1L5.97-313,371,HH|97|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A8H3Z1W3.96-287,347,HH|96|287|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A8H3ZAJ8.119-297,362,HH|119|297|#10aefd|PF00264: Common central domain of tyrosinase,HH|36|57|#f71252|Transmembrane domain
+A0A8H4AMR5.56-344,587,HH|56|344|#10aefd|PF00264: Common central domain of tyrosinase,HH|431|542|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H4AZG0.71-362,600,HH|71|362|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4B004.69-362,604,HH|69|362|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4C5A1.73-265,346,HH|73|265|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A8H4C6U6.75-283,347,HH|75|283|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8H4C956.36-309,493,HH|36|309|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4CAL0.99-327,385,HH|99|327|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A8H4CD88.101-337,571,HH|101|337|#10aefd|PF00264: Common central domain of tyrosinase,HH|20|41|#f71252|Transmembrane domain
+A0A8H4CE41.177-354,412,HH|177|354|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|39|#00057C|Signal peptide
+A0A8H4CHB6.97-324,382,HH|97|324|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A8H4CIC1.65-262,340,HH|65|262|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A8H4CIP3.82-266,344,HH|82|266|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A8H4CJG9.148-320,661,HH|148|320|#10aefd|PF00264: Common central domain of tyrosinase,HH|544|608|#000000|PF01423_LSM domain,HH|1|20|#00057C|Signal peptide
+A0A8H4CJL9.79-296,360,HH|79|296|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A8H4CL76.69-246,302,HH|69|246|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A8H4CL90.71-255,333,HH|71|255|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A8H4CME3.114-348,410,HH|114|348|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A8H4CNT5.66-254,331,HH|66|254|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|29|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A8H4CP16.64-343,759,HH|64|343|#10aefd|PF00264: Common central domain of tyrosinase,HH|584|717|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H4CPR6.39-273,331,HH|39|273|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4CQC8.112-348,410,HH|112|348|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A8H4CRX0.67-253,330,HH|67|253|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A8H4CT47.67-254,330,HH|67|254|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A8H4CUC1.75-306,370,HH|75|306|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8H4CVC9.110-353,412,HH|110|353|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8H4CX26.72-281,338,HH|72|281|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A8H4CXN0.66-280,344,HH|66|280|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A8H4EHU7.26-170,300,HH|26|170|#10aefd|PF00264: Common central domain of tyrosinase,HH|188|241|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4EHU7.188-241,300,HH|26|170|#10aefd|PF00264: Common central domain of tyrosinase,HH|188|241|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4ELV1.124-320,563,HH|124|320|#10aefd|PF00264: Common central domain of tyrosinase,HH|407|518|#8e1730|PF18132: Tyosinase C-terminal domain,HH|6|26|#f71252|Transmembrane domain,HH|33|55|#f71252|Transmembrane domain,HH|61|78|#f71252|Transmembrane domain,HH|90|108|#f71252|Transmembrane domain
+A0A8H4ER60.70-346,588,HH|70|346|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4ERI9.11-295,537,HH|11|295|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4ESM0.75-377,604,HH|75|377|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4ESV6.78-368,618,HH|78|368|#10aefd|PF00264: Common central domain of tyrosinase,HH|478|554|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H4ET05.101-286,520,HH|101|286|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4EUW6.69-362,600,HH|69|362|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4FBY6.109-345,403,HH|109|345|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+A0A8H4FFA4.68-270,328,HH|68|270|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8H4FHG1.95-296,356,HH|95|296|#10aefd|PF00264: Common central domain of tyrosinase,HH|24|46|#f71252|Transmembrane domain
+A0A8H4FI02.74-302,367,HH|74|302|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide
+A0A8H4FM17.73-252,329,HH|73|252|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A8H4FMR9.105-335,393,HH|105|335|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A8H4FPA4.81-273,327,HH|81|273|#10aefd|PF00264: Common central domain of tyrosinase,HH|7|32|#f71252|Transmembrane domain
+A0A8H4FPM4.126-357,419,HH|126|357|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8H4FQ42.78-290,359,HH|78|290|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A8H4FQ80.95-326,383,HH|95|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 A0A8H6L0G3.118-308,362,HH|118|308|#10aefd|PF00264: Common central domain of tyrosinase,HH|43|64|#f71252|Transmembrane domain
 A0A8H6L2R8.73-316,582,HH|73|316|#10aefd|PF00264: Common central domain of tyrosinase,HH|428|540|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide
+A0A8H7AB16.19-236,520,HH|19|236|#10aefd|PF00264: Common central domain of tyrosinase,HH|348|456|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H7AEH3.140-415,473,HH|140|415|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A8H7AFZ9.60-331,657,HH|60|331|#10aefd|PF00264: Common central domain of tyrosinase,HH|482|608|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H7C4Z8.82-377,687,HH|82|377|#10aefd|PF00264: Common central domain of tyrosinase,HH|503|618|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H7C551.48-298,568,HH|48|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|422|532|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H7E323.73-304,598,HH|73|304|#10aefd|PF00264: Common central domain of tyrosinase,HH|429|547|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|20|#00057C|Signal peptide
+A0A8H7E394.74-313,599,HH|74|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|438|560|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A8H7F0X6.52-277,545,HH|52|277|#10aefd|PF00264: Common central domain of tyrosinase,HH|393|504|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H7F114.48-294,537,HH|48|294|#10aefd|PF00264: Common central domain of tyrosinase,HH|408|495|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H7F118.48-295,611,HH|48|295|#10aefd|PF00264: Common central domain of tyrosinase,HH|412|524|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8H7F178.162-418,686,HH|162|418|#10aefd|PF00264: Common central domain of tyrosinase,HH|534|647|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A8J0VPY8.257-481,559,HH|257|481|#10aefd|PF00264: Common central domain of tyrosinase
 A0A8J1KWE0.166-390,442,HH|166|390|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A8J1L3K0.165-389,478,HH|165|389|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 A0A8J1MAN5.175-406,531,HH|175|406|#10aefd|PF00264: Common central domain of tyrosinase,HH|476|502|#f71252|Transmembrane domain,HH|1|22|#00057C|Signal peptide
 A0A8J3MXC0.35-240,624,HH|35|240|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8J5NKZ0.157-372,600,HH|157|372|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8J5NLS7.67-269,324,HH|67|269|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A8J5NND1.71-281,338,HH|71|281|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A8J5NNM5.450-527,528,HH|450|527|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8J5NR04.54-385,661,HH|54|385|#10aefd|PF00264: Common central domain of tyrosinase,HH|483|622|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8J5NRV3.67-285,350,HH|67|285|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A8J5P700.99-324,382,HH|99|324|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide
+A0A8J5P8T9.75-313,572,HH|75|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A8J5PCQ5.73-377,692,HH|73|377|#10aefd|PF00264: Common central domain of tyrosinase,HH|524|643|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8J5PGS7.1-29,342,HH|1|29|#10aefd|PF00264: Common central domain of tyrosinase,HH|155|287|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8J5PIC9.72-239,336,HH|72|239|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8J5TNI1.78-432,790,HH|78|432|#10aefd|PF00264: Common central domain of tyrosinase,HH|564|690|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8J5TR18.86-342,586,HH|86|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|454|569|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|17|#00057C|Signal peptide
+A0A8J5TU76.76-434,779,HH|76|434|#10aefd|PF00264: Common central domain of tyrosinase,HH|565|697|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A8J5TWT7.109-342,403,HH|109|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+A0A8J5TY65.42-260,328,HH|42|260|#10aefd|PF00264: Common central domain of tyrosinase
 A0A8J9YXI2.177-432,564,HH|177|432|#10aefd|PF00264: Common central domain of tyrosinase,HH|511|534|#f71252|Transmembrane domain,HH|1|28|#00057C|Signal peptide
 A0A8J9Z708.173-401,541,HH|173|401|#10aefd|PF00264: Common central domain of tyrosinase,HH|468|487|#f71252|Transmembrane domain,HH|1|16|#00057C|Signal peptide
 A0A8J9Z8E2.177-404,549,HH|177|404|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|490|#f71252|Transmembrane domain,HH|1|19|#00057C|Signal peptide
@@ -422,15 +812,65 @@ A0A8S3ZX52.41-240,970,HH|41|240|#10aefd|PF00264: Common central domain of tyrosi
 A0A8S3ZX52.472-651,970,HH|41|240|#10aefd|PF00264: Common central domain of tyrosinase,HH|472|651|#10aefd|PF00264: Common central domain of tyrosinase,HH|878|948|#10aefd|PF00264: Common central domain of tyrosinase,HH|317|425|#F056EA|PF14830: Haemocyanin beta-sandwich,HH|726|828|#F056EA|PF14830: Haemocyanin beta-sandwich
 A0A8S3ZZP1.38-217,217,HH|38|217|#10aefd|PF00264: Common central domain of tyrosinase
 A0A8S4A1C0.170-361,447,HH|170|361|#10aefd|PF00264: Common central domain of tyrosinase,HH|13|123|#F056EA|PF14830: Haemocyanin beta-sandwich
+A0A8T8SAS9.4-177,253,HH|4|177|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8T8SBY8.125-335,409,HH|125|335|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8T8SC70.125-335,409,HH|125|335|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8T8SKG8.3-42,121,HH|3|42|#10aefd|PF00264: Common central domain of tyrosinase
+A0A8T8SNL8.125-242,263,HH|125|242|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A8T8SPE3.172-230,383,HH|172|230|#10aefd|PF00264: Common central domain of tyrosinase
 A0A8V0XJ70.196-422,534,HH|196|422|#10aefd|PF00264: Common central domain of tyrosinase,HH|483|508|#f71252|Transmembrane domain
 A0A8V0XYW8.179-410,499,HH|179|410|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
 A0A8V0YPG1.157-369,490,HH|157|369|#10aefd|PF00264: Common central domain of tyrosinase,HH|431|454|#f71252|Transmembrane domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
 A0A8V0YUG7.147-379,500,HH|147|379|#10aefd|PF00264: Common central domain of tyrosinase,HH|441|464|#f71252|Transmembrane domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A9P4I4W6.62-325,544,HH|62|325|#10aefd|PF00264: Common central domain of tyrosinase,HH|435|536|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|16|#00057C|Signal peptide
+A0A9P4I595.68-259,313,HH|68|259|#10aefd|PF00264: Common central domain of tyrosinase
+A0A9P4IEM6.64-341,696,HH|64|341|#10aefd|PF00264: Common central domain of tyrosinase,HH|528|656|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A9P4IKI1.131-377,463,HH|131|377|#10aefd|PF00264: Common central domain of tyrosinase,HH|21|42|#f71252|Transmembrane domain
+A0A9P4IKZ6.73-308,374,HH|73|308|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A9P4M4U2.82-326,385,HH|82|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|47|65|#f71252|Transmembrane domain
+A0A9P4M8Q7.63-315,616,HH|63|315|#10aefd|PF00264: Common central domain of tyrosinase,HH|449|570|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|23|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+A0A9P4S3D7.76-313,578,HH|76|313|#10aefd|PF00264: Common central domain of tyrosinase,HH|427|544|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A9P4S7W4.105-335,395,HH|105|335|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A9P4SB82.68-398,818,HH|68|398|#10aefd|PF00264: Common central domain of tyrosinase,HH|600|638|#8e1730|PF18132: Tyosinase C-terminal domain,HH|683|778|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A9P4SC62.102-330,384,HH|102|330|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide
+A0A9P4SDQ3.111-361,592,HH|111|361|#10aefd|PF00264: Common central domain of tyrosinase,HH|480|581|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide
+A0A9P4SEQ9.2-95,151,HH|2|95|#10aefd|PF00264: Common central domain of tyrosinase
+A0A9P4SI96.113-358,417,HH|113|358|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+A0A9P4SJP1.3-154,232,HH|3|154|#10aefd|PF00264: Common central domain of tyrosinase
+A0A9P4SKK5.93-311,371,HH|93|311|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
+A0A9P4VMM4.33-283,517,HH|33|283|#10aefd|PF00264: Common central domain of tyrosinase,HH|385|500|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A9P4VSJ9.89-339,584,HH|89|339|#10aefd|PF00264: Common central domain of tyrosinase,HH|437|552|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A9P4VWI8.1-29,323,HH|1|29|#10aefd|PF00264: Common central domain of tyrosinase,HH|166|273|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A9P5JXT8.85-296,364,HH|85|296|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A9P5JY23.85-299,366,HH|85|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A9P5JYN0.85-296,363,HH|85|296|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A9P5JYN9.67-280,347,HH|67|280|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A0A9P5JYU8.85-296,363,HH|85|296|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A0A9P5JZA9.85-299,366,HH|85|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A9P5JZI2.85-296,364,HH|85|296|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+A0A9P5MS31.55-299,594,HH|55|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|436|554|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A9P5MS95.55-300,614,HH|55|300|#10aefd|PF00264: Common central domain of tyrosinase,HH|457|577|#8e1730|PF18132: Tyosinase C-terminal domain
+A0A9P5MSK9.82-294,361,HH|82|294|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A9P5MVU0.74-291,358,HH|74|291|#10aefd|PF00264: Common central domain of tyrosinase
+A0A9P6H427.82-297,364,HH|82|297|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+A0A9P6H4S6.88-293,360,HH|88|293|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
+A0A9P6H6N4.83-305,370,HH|83|305|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A9P6H6P2.84-306,371,HH|84|306|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A9P6HAV3.83-302,370,HH|83|302|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|24|#00057C|Signal peptide
+A0A9P6HE18.79-298,366,HH|79|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A9P6HEG3.80-299,365,HH|80|299|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+A0A9P6HES9.80-295,361,HH|80|295|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+A0A9P6HFP7.80-302,368,HH|80|302|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A9P6L1G9.79-300,367,HH|79|300|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide
+A0A9P6QMX7.36-326,502,HH|36|326|#10aefd|PF00264: Common central domain of tyrosinase
 A0A9P6R7U9.36-326,521,HH|36|326|#10aefd|PF00264: Common central domain of tyrosinase
+A0A9P8HZ59.74-340,719,HH|74|340|#10aefd|PF00264: Common central domain of tyrosinase,HH|536|666|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A9P8HZL9.83-363,641,HH|83|363|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|578|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A9P8I7W5.53-306,622,HH|53|306|#10aefd|PF00264: Common central domain of tyrosinase,HH|456|582|#8e1730|PF18132: Tyosinase C-terminal domain
 A0A9P8L2T7.96-292,568,HH|96|292|#10aefd|PF00264: Common central domain of tyrosinase,HH|409|528|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|15|#00057C|Signal peptide
 A1L1Y0.177-404,513,HH|177|404|#10aefd|PF00264: Common central domain of tyrosinase,HH|462|488|#f71252|Transmembrane domain,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+A7UWM5.101-338,396,HH|101|338|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
+A7UX66.102-338,402,HH|102|338|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
 A9SJQ8.104-317,546,HH|104|317|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|326|374|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|1|28|#00057C|Signal peptide
 A9SUP1.93-309,536,HH|93|309|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|317|366|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|406|534|#119d58|PF12143: Protein of unknown function
 A9T5A8.92-317,559,HH|92|317|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|324|370|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|1|22|#00057C|Signal peptide,HH|451|554|#119d58|PF12143: Protein of unknown function
@@ -442,11 +882,20 @@ D0N9N0.56-260,668,HH|56|260|#10aefd|PF00264: Common central domain of tyrosinase
 D0N9N3.55-258,638,HH|55|258|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 D0ND78.66-266,527,HH|66|266|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide
 D5DZK6.34-242,297,HH|34|242|#10aefd|PF00264: Common central domain of tyrosinase
+D5G590.81-287,351,HH|81|287|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+D5GIK5.344-599,964,HH|344|599|#10aefd|PF00264: Common central domain of tyrosinase,HH|780|889|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|19|#00057C|Signal peptide,HH|23|51|#000000|PF00734_Fungal cellulose binding domain,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+D5GIM5.54-309,309,HH|54|309|#10aefd|PF00264: Common central domain of tyrosinase
+D5GL91.169-396,604,HH|169|396|#10aefd|PF00264: Common central domain of tyrosinase
 D7FJB5.49-362,582,HH|49|362|#10aefd|PF00264: Common central domain of tyrosinase
 E1ZA37.66-333,360,HH|66|333|#10aefd|PF00264: Common central domain of tyrosinase
+E3KN59.75-262,396,HH|75|262|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+E3KSA5.127-311,367,HH|127|311|#10aefd|PF00264: Common central domain of tyrosinase
+E3L5F5.164-355,446,HH|164|355|#10aefd|PF00264: Common central domain of tyrosinase
+E3L5F6.165-333,341,HH|165|333|#10aefd|PF00264: Common central domain of tyrosinase
 F1NXQ4.183-415,536,HH|183|415|#10aefd|PF00264: Common central domain of tyrosinase,HH|477|500|#f71252|Transmembrane domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
 F1QEC9.176-408,524,HH|176|408|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|493|#f71252|Transmembrane domain,HH|1|20|#00057C|Signal peptide
 F4NVT9.73-254,567,HH|73|254|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+F4NWE6.67-238,493,HH|67|238|#10aefd|PF00264: Common central domain of tyrosinase
 F4P2Z0.50-230,403,HH|50|230|#10aefd|PF00264: Common central domain of tyrosinase
 F4P543.67-250,464,HH|67|250|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 F4P661.64-247,349,HH|64|247|#10aefd|PF00264: Common central domain of tyrosinase
@@ -480,16 +929,46 @@ G1XS72.172-437,708,HH|172|437|#10aefd|PF00264: Common central domain of tyrosina
 G1XSL1.225-467,769,HH|225|467|#10aefd|PF00264: Common central domain of tyrosinase,HH|580|695|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
 G1XT03.70-366,693,HH|70|366|#10aefd|PF00264: Common central domain of tyrosinase,HH|525|657|#8e1730|PF18132: Tyosinase C-terminal domain
 G1XTB4.203-441,719,HH|203|441|#10aefd|PF00264: Common central domain of tyrosinase,HH|541|640|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide,HH|1|24|#00057C|Signal peptide
+G4TM93.48-300,678,HH|48|300|#10aefd|PF00264: Common central domain of tyrosinase,HH|514|640|#8e1730|PF18132: Tyosinase C-terminal domain
+G4TM94.48-298,571,HH|48|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|409|533|#8e1730|PF18132: Tyosinase C-terminal domain
+G4TM95.47-304,661,HH|47|304|#10aefd|PF00264: Common central domain of tyrosinase,HH|498|622|#8e1730|PF18132: Tyosinase C-terminal domain
+G4TU73.108-326,379,HH|108|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide
+G4TVT3.126-342,398,HH|126|342|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+G4TYT1.108-326,379,HH|108|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+G4TZS5.108-207,214,HH|108|207|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+G4U242.10-88,238,HH|10|88|#10aefd|PF00264: Common central domain of tyrosinase
+H6BWF1.95-318,381,HH|95|318|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
+H6C0N0.117-348,405,HH|117|348|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+H6C0Q8.92-315,379,HH|92|315|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+H6C7R7.79-323,614,HH|79|323|#10aefd|PF00264: Common central domain of tyrosinase,HH|451|573|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|27|#00057C|Signal peptide
+H6QSQ9.143-334,367,HH|143|334|#10aefd|PF00264: Common central domain of tyrosinase,HH|30|57|#f71252|Transmembrane domain
 I4YA87.71-305,383,HH|71|305|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide
 I4YAA8.65-271,342,HH|65|271|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
 I4YCE2.67-276,349,HH|67|276|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide
 I4YFA0.117-326,418,HH|117|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|17|#00057C|Signal peptide
+K2QYV7.116-354,413,HH|116|354|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+K2R561.111-345,409,HH|111|345|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
+K2R6Z6.50-220,278,HH|50|220|#10aefd|PF00264: Common central domain of tyrosinase
+K2R777.85-320,554,HH|85|320|#10aefd|PF00264: Common central domain of tyrosinase,HH|424|525|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|26|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
+K2RF87.103-357,657,HH|103|357|#10aefd|PF00264: Common central domain of tyrosinase,HH|489|608|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|25|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
+K2RLK6.70-291,355,HH|70|291|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide
+K2RPY3.13-203,274,HH|13|203|#10aefd|PF00264: Common central domain of tyrosinase
+K2RQ67.88-301,369,HH|88|301|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
+K2RZA2.111-347,409,HH|111|347|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+K2S416.40-271,329,HH|40|271|#10aefd|PF00264: Common central domain of tyrosinase
+K2S7W3.72-168,284,HH|72|168|#10aefd|PF00264: Common central domain of tyrosinase,HH|183|207|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
+K2S7W3.183-207,284,HH|72|168|#10aefd|PF00264: Common central domain of tyrosinase,HH|183|207|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|25|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|25|#00057C|Signal peptide
+K2S8A5.23-147,156,HH|23|147|#10aefd|PF00264: Common central domain of tyrosinase
 L0D705.29-256,343,HH|29|256|#10aefd|PF00264: Common central domain of tyrosinase
+L8FTG9.105-129,195,HH|105|129|#10aefd|PF00264: Common central domain of tyrosinase
 M2WVJ3.172-391,444,HH|172|391|#10aefd|PF00264: Common central domain of tyrosinase
+M5C284.17-212,279,HH|17|212|#10aefd|PF00264: Common central domain of tyrosinase
+M5C5W9.54-364,679,HH|54|364|#10aefd|PF00264: Common central domain of tyrosinase
 O01497.136-320,751,HH|136|320|#10aefd|PF00264: Common central domain of tyrosinase,HH|457|492|#000000|PF01549_ShK domain-like,HH|501|536|#000000|PF01549_ShK domain-like,HH|567|602|#000000|PF01549_ShK domain-like,HH|611|645|#000000|PF01549_ShK domain-like,HH|1|18|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
 O57405.183-415,535,HH|183|415|#10aefd|PF00264: Common central domain of tyrosinase,HH|476|499|#f71252|Transmembrane domain,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide,HH|1|23|#00057C|Signal peptide
 O76708.149-338,477,HH|149|338|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
 O93505.183-409,521,HH|183|409|#10aefd|PF00264: Common central domain of tyrosinase,HH|470|495|#f71252|Transmembrane domain,HH|1|25|#00057C|Signal peptide
+P00440.58-319,685,HH|58|319|#10aefd|PF00264: Common central domain of tyrosinase,HH|521|646|#8e1730|PF18132: Tyosinase C-terminal domain
 P14679.172-402,529,HH|172|402|#10aefd|PF00264: Common central domain of tyrosinase,HH|474|500|#f71252|Transmembrane domain,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
 P34269.140-328,601,HH|140|328|#10aefd|PF00264: Common central domain of tyrosinase,HH|479|514|#000000|PF01549_ShK domain-like,HH|522|557|#000000|PF01549_ShK domain-like,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 P40126.180-408,519,HH|180|408|#10aefd|PF00264: Common central domain of tyrosinase,HH|469|493|#f71252|Transmembrane domain,HH|1|23|#00057C|Signal peptide
@@ -499,6 +978,10 @@ Q54QT0.96-368,820,HH|96|368|#10aefd|PF00264: Common central domain of tyrosinase
 Q54QT1.92-364,816,HH|92|364|#10aefd|PF00264: Common central domain of tyrosinase
 Q63JI5.49-334,537,HH|49|334|#10aefd|PF00264: Common central domain of tyrosinase
 Q6DGE4.174-406,526,HH|174|406|#10aefd|PF00264: Common central domain of tyrosinase,HH|469|492|#f71252|Transmembrane domain,HH|1|17|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide
+Q7S0E7.65-258,314,HH|65|258|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|27|#00057C|Signal peptide,HH|1|15|#00057C|Signal peptide
+Q7S218.109-375,796,HH|109|375|#10aefd|PF00264: Common central domain of tyrosinase
+Q7S4R1.148-352,408,HH|148|352|#10aefd|PF00264: Common central domain of tyrosinase,HH|58|82|#f71252|Transmembrane domain
+Q7SFK3.98-361,700,HH|98|361|#10aefd|PF00264: Common central domain of tyrosinase,HH|495|574|#8e1730|PF18132: Tyosinase C-terminal domain,HH|1|25|#00057C|Signal peptide
 Q7ZYE8.185-418,534,HH|185|418|#10aefd|PF00264: Common central domain of tyrosinase,HH|480|503|#f71252|Transmembrane domain,HH|1|25|#00057C|Signal peptide
 Q8KIL0.179-359,609,HH|179|359|#10aefd|PF00264: Common central domain of tyrosinase
 Q95XC6.134-316,751,HH|134|316|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
@@ -508,8 +991,17 @@ R7THS2.98-340,457,HH|98|340|#10aefd|PF00264: Common central domain of tyrosinase
 R7UB97.202-385,711,HH|202|385|#10aefd|PF00264: Common central domain of tyrosinase,HH|30|48|#f71252|Transmembrane domain
 R7VC10.166-410,533,HH|166|410|#10aefd|PF00264: Common central domain of tyrosinase,HH|485|508|#f71252|Transmembrane domain,HH|1|17|#00057C|Signal peptide
 R9PXQ3.179-410,537,HH|179|410|#10aefd|PF00264: Common central domain of tyrosinase,HH|482|506|#f71252|Transmembrane domain,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide,HH|1|26|#00057C|Signal peptide
+S7QB03.96-310,389,HH|96|310|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+S7RR67.163-292,359,HH|163|292|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|28|#00057C|Signal peptide,HH|1|16|#00057C|Signal peptide,HH|1|28|#00057C|Signal peptide
 T1F079.34-214,340,HH|34|214|#10aefd|PF00264: Common central domain of tyrosinase
 U5GXC6.159-369,581,HH|159|369|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|14|#00057C|Signal peptide,HH|377|427|#ecd75a|PF12142: Polyphenol oxidase middle domain,HH|453|578|#119d58|PF12143: Protein of unknown function
+U7PL38.118-350,425,HH|118|350|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|19|#00057C|Signal peptide,HH|1|17|#00057C|Signal peptide,HH|1|18|#00057C|Signal peptide
+U7PQI0.94-343,654,HH|94|343|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|34|#00057C|Signal peptide,HH|1|34|#00057C|Signal peptide
+U7PQY9.28-281,592,HH|28|281|#10aefd|PF00264: Common central domain of tyrosinase,HH|444|565|#8e1730|PF18132: Tyosinase C-terminal domain
+U7PSB9.103-321,381,HH|103|321|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|29|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+U7PU60.111-335,393,HH|111|335|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|29|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|20|#00057C|Signal peptide
+U7PUG4.76-326,576,HH|76|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|21|#00057C|Signal peptide
+V5IPR9.94-332,391,HH|94|332|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|26|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide,HH|1|21|#00057C|Signal peptide
 W7TM70.197-372,636,HH|197|372|#10aefd|PF00264: Common central domain of tyrosinase,HH|39|67|#000000|PF00734_Fungal cellulose binding domain,HH|1|26|#00057C|Signal peptide
 ScTyr,273,HH|29|229|#10aefd|PF00264: Common central domain of tyrosinase
 NpsF,305,HH|31|260|#10aefd|PF00264: Common central domain of tyrosinase
