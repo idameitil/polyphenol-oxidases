@@ -1,7 +1,7 @@
 from Bio import SeqIO
 
 fasta = "data/proteome-tree/sequences-all-class-filtered-andseeds.trimmed.fa"
-
+fasta_fungi = "data/proteome-tree/sequences-fungi-order-notFiltered.trimmed.fa"
 def get_ids(fastas):
     ids = {}
     for fasta in fastas:
@@ -16,7 +16,7 @@ def get_ids(fastas):
     return ids
 
 
-ids = get_ids([fasta])
+ids = get_ids([fasta, fasta_fungi])
 
 
 def translate(infile_name, outfile_name, sep):
