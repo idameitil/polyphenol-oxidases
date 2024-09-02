@@ -1,3 +1,51 @@
+# Types of melanin
+Here, it is important to differentiate the two main types of fungal melanins: the DOPA-melanin (synthesized from L-tyrosine or L-DOPA) and DHN-melanin (synthesized from dihydroxynaphthalene)
+
+# Abstract
+For what it is worth: I asked chatgpt whether it thought there were any important findings in the paper that were not mentioned in the abstract. Here is the answer:
+
+Yes, based on the content of the paper, there are a few important points that were not fully captured in the original abstract. Here are some key aspects that could be emphasized more in the abstract:
+
+1. **Diversity and Phylogenetic Grouping:**
+   - The paper conducts a comprehensive phylogenetic analysis, identifying nine distinct groups of PPOs. This finding is central to the paper and could be highlighted more clearly in the abstract, emphasizing the diversity of PPOs across different taxonomic groups.
+
+2. **Structural and Functional Insights:**
+   - The study provides detailed insights into the conserved residues within PPO groups, particularly those involved in copper binding, which are critical for enzymatic activity. This structural analysis is important and could be mentioned to underscore how sequence and structure relate to function.
+
+3. **Specificity and Novelty of Short Fungal PPOs:**
+   - The identification and characterization of short fungal PPOs, particularly their role in lignin degradation and their activity on ortho-methoxylated phenols, is a novel aspect of the research. The potential implications of these findings for understanding lignin conversion strategies in ascomycetes could be more prominently featured.
+
+4. **Distribution Across Taxa:**
+   - The paper discusses the distribution of PPO genes across various taxa, with a focus on the significant variability in gene numbers, particularly the high number of PPO genes in bivalvia and fungi. This variability is a notable observation that provides insight into the evolutionary and functional diversity of PPOs.
+
+5. **Ecological and Industrial Implications:**
+   - The potential applications of these findings, particularly in the context of lignin degradation and the broader ecological and industrial implications of PPO activity, could be more explicitly mentioned in the abstract.
+
+6. **Unexplored Functional Diversity:**
+   - The paper notes that there are large areas of the phylogenetic tree with no characterized members, particularly in molluscs, cnidarians, oomycetes, and zoopagomycetes. This gap in knowledge and the potential for discovering new PPO activities is an important point that could be highlighted.
+
+7. **Hypotheses on Evolutionary Origins:**
+   - The discussion around the evolutionary origins of PPOs, including the possibility of horizontal gene transfer and the debate on whether PPO genes arose in early bacteria or eukaryotes, is an intriguing aspect of the paper that could add depth to the abstract.
+
+By incorporating these points, the abstract would provide a more comprehensive overview of the paper's contributions and emphasize the novel findings and their broader significance.
+
+# O-aminophenol oxidases
+o-aminophenol oxidase refers to a diphenolase activity
+
+C-nitrosation and hydroxyanilinase is the same, it puts an O
+
+o-aminophenol oxidase is when it doesn’t put an O
+
+PhD thesis NspF section 1.5.1.6
+
+Noguchi, then Edward Solomon, Ginsbach
+
+NspF was the first to be described to do C-nitrosation
+
+NspF is the only one that does C-nitrosation. It also does o-aminophenol oxidase. Others (tyrosinases) also do o-aminophenol oxidase reaction, but not the C-nitrosation
+
+“Thus enzymes with hydroxyanilinase activity, which currently include NspF and GriF (16, 22), constitute a fourth subclass of the CBC protein family (Fig. 1).”, Ginsbach PNAS
+
 # Editing the svg
 Move the text and circles y positions -27 for MtPPO7 and +27 for CgPPO-473
 Search for circle, change stroke-width to 5
