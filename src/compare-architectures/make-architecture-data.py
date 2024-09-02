@@ -110,26 +110,101 @@ def get_specific_positions_conserved_residues(
         alignment_position += 1
     return positions
 
-
-# entries = [
-#     {'acc': '2p3x', 'family': 'a_plants', 'family_name': 'a (plant)', 'descriptive_name': 'VvPPO', 'domain_start_structure': 77, 'domain_end': 284, 'threshold':0.9},
-#     # {'acc': 'Q63JI5', 'family': 'b_cnidaria', 'descriptive_name': 'Q63JI5', 'domain_start_structure': 49, 'domain_end': 334, 'threshold':0.9},
-#     {'acc': '2y9x', 'family': 'c_long_fungal', 'family_name': 'c (long fungal)', 'descriptive_name': 'AbPPO3', 'domain_start_structure': 52, 'domain_end': 308, 'threshold':0.95},
-#     {'acc': '1wx2', 'family': 'd_bacteria', 'family_name': 'd (bacteria)', 'descriptive_name': 'ScTyr', 'domain_start_structure': 29, 'domain_end': 229, 'threshold':0.95},
-#     # {'acc': '1wx2', 'family': 'k_bacteria2', 'descriptive_name': 'ScTyr', 'domain_start_structure': 29, 'domain_end': 226, 'threshold':0.95},
-#     {'acc': '5m8l', 'family': 'e_chordata', 'family_name': 'e (chordata)', 'descriptive_name': 'TyrHs', 'domain_start_structure': 184, 'domain_end': 416, 'threshold':0.95},
-#     {'acc': 'V3ZAB2', 'family': 'f_mollusc', 'family_name': 'f (mollusc)', 'descriptive_name': 'V3ZAB2', 'domain_start_structure': 130, 'domain_end': 305, 'threshold':0.93},
-#     {'acc': 'D0N318', 'family': 'h_oomycota', 'family_name': 'h (oomycota)', 'descriptive_name': 'D0N318', 'domain_start_structure': 77, 'domain_end': 279, 'threshold':0.99},
-#     {'acc': '4j3p', 'family': 'i_short_fungal', 'family_name': 'i (short fungal)', 'descriptive_name': 'AoCO4', 'domain_start_structure': 93, 'domain_end': 324, 'threshold':0.88},
-#     {'acc': 'F4PFF7', 'family': 'j_zoopagomycota', 'family_name': 'j (zoopagomycota)', 'descriptive_name': 'F4PFF7', 'domain_start_structure': 68, 'domain_end': 251, 'threshold':0.92},
-# ]
 entries = [
+    {
+        "pdb_name": "O76708",
+        "alignment_name": "O76708/149-338",
+        "family": "a",
+        "family_name": "a",
+        "printed_name": "a, O76708",
+        "descriptive_name": "O76708",
+        "domain_start_structure": 149,
+        "domain_end": 338,
+        "threshold": 0.95,
+    },
+    {
+        "pdb_name": "A0A7M6DMJ9",
+        "alignment_name": "A0A7M6DMJ9/298-479",
+        "family": "b",
+        "family_name": "b",
+        "printed_name": "b, A0A7M6DMJ9",
+        "descriptive_name": "A0A7M6DMJ9",
+        "domain_start_structure": 298,
+        "domain_end": 479,
+        "threshold": 0.95,
+    },
+    {
+        "pdb_name": "D0N318",
+        "alignment_name": "D0N318/77-279",
+        "family": "c",
+        "family_name": "c",
+        "printed_name": "c, D0N318",
+        "descriptive_name": "D0N318",
+        "domain_start_structure": 77,
+        "domain_end": 279,
+        "threshold": 0.95,
+    },
+    {
+        "pdb_name": "A0A137PAT2",
+        "alignment_name": "A0A137PAT2/41-229",
+        "family": "d",
+        "family_name": "d",
+        "printed_name": "d, A0A137PAT2",
+        "descriptive_name": "A0A137PAT2",
+        "domain_start_structure": 41,
+        "domain_end": 229,
+        "threshold": 0.95,
+    },
+    {
+        "pdb_name": "F4PFF7",
+        "alignment_name": "F4PFF7/68-251",
+        "family": "e",
+        "family_name": "e",
+        "printed_name": "e, F4PFF7",
+        "descriptive_name": "F4PFF7",
+        "domain_start_structure": 68,
+        "domain_end": 251,
+        "threshold": 0.95,
+    },
+    {
+        "pdb_name": "4j3p",
+        "alignment_name": "AoCO4",
+        "family": "f",
+        "family_name": "f",
+        "printed_name": "f, 4J3P (AoCO4)",
+        "descriptive_name": "AoCO4",
+        "domain_start_structure": 93,
+        "domain_end": 324,
+        "threshold": 0.90,
+    },
+    {
+        "pdb_name": "5m8l",
+        "alignment_name": "HsTrp1",
+        "family": "g",
+        "family_name": "g",
+        "printed_name": "g, 5M8L (HsTrp1)",
+        "descriptive_name": "HsTrp1",
+        "domain_start_structure": 184,
+        "domain_end": 416,
+        "threshold": 0.95,
+    },
+    {
+        "pdb_name": "1wx2",
+        "alignment_name": "ScTyr",
+        "family": "h",
+        "family_name": "h",
+        "printed_name": "h, 5ZRD (ScTyr)",
+        "descriptive_name": "ScTyr",
+        "domain_start_structure": 29,
+        "domain_end": 229,
+        "threshold": 0.95,
+    },
     {
         "pdb_name": "2p3x",
         "alignment_name": "VvPPO",
-        "family": "a_plants",
-        "family_name": "a",
-        "printed_name": "a, 2P3X (VvPPO)",
+        "family": "i",
+        "family_name": "i",
+        "printed_name": "i, 2P3X (VvPPO)",
         "descriptive_name": "VvPPO",
         "domain_start_structure": 77,
         "domain_end": 284,
@@ -138,96 +213,39 @@ entries = [
     {
         "pdb_name": "1lnl",
         "alignment_name": "RvHc",
-        "family": "b_hc",
-        "family_name": "b",
-        "printed_name": "b, 1LNL (RvHc)",
+        "family": "j",
+        "family_name": "j",
+        "printed_name": "j, 1LNL (RvHc)",
         "descriptive_name": "RvHc",
         "domain_start_structure": 32,
         "domain_end": 224,
         "threshold": 0.99,
     },
     {
+        "pdb_name": "5ZRD",
+        "alignment_name": "BtTyr",
+        "family": "k",
+        "family_name": "k",
+        "printed_name": "k, 5ZRD (BtTyr)",
+        "descriptive_name": "BtTyr",
+        "domain_start_structure": 47,
+        "domain_end": 331,
+        "threshold": 0.95,
+    },
+    {
         "pdb_name": "2y9x",
-        "alignment_name": "AbTyr",
-        "family": "c_long_fungal",
-        "family_name": "c",
-        "printed_name": "c, 2Y9X (AbTyr)",
-        "descriptive_name": "AbTyr",
+        "alignment_name": "AbPPO3",
+        "family": "l",
+        "family_name": "l",
+        "printed_name": "l, 2Y9X (AbPPO3)",
+        "descriptive_name": "AbPPO3",
         "domain_start_structure": 52,
         "domain_end": 308,
-        "threshold": 0.95,
-    },
-    {
-        "pdb_name": "5m8l",
-        "alignment_name": "P17643.20184-416",
-        "family": "d_chordata",
-        "family_name": "d",
-        "printed_name": "d, 5M8L (HsTrp1)",
-        "descriptive_name": "HsTrp1",
-        "domain_start_structure": 184,
-        "domain_end": 416,
-        "threshold": 0.95,
-    },
-    {
-        "pdb_name": "V3ZAB2",
-        "alignment_name": "V3ZAB2.10130-305",
-        "family": "e_mollusc",
-        "family_name": "e",
-        "printed_name": "e, V3ZAB2",
-        "descriptive_name": "V3ZAB2",
-        "domain_start_structure": 130,
-        "domain_end": 305,
-        "threshold": 0.95,
-    },
-    {
-        "pdb_name": "A0A7M6DMJ9",
-        "alignment_name": "A0A7M6DMJ9.10298-479",
-        "family": "f_cnidaria",
-        "family_name": "f",
-        "printed_name": "f, A0A7M6DMJ9",
-        "descriptive_name": "A0A7M6DMJ9",
-        "domain_start_structure": 298,
-        "domain_end": 479,
-        "threshold": 0.95,
-    },
-    {
-        "pdb_name": "D0N318",
-        "alignment_name": "D0N318.1077-279",
-        "family": "g_oomycota",
-        "family_name": "g",
-        "printed_name": "g, D0N318",
-        "descriptive_name": "D0N318",
-        "domain_start_structure": 77,
-        "domain_end": 279,
-        "threshold": 0.95,
-    },
-    {
-        "pdb_name": "4j3p",
-        "alignment_name": "A0A1S9DJX3.10118-349",
-        "family": "h_short_fungal",
-        "family_name": "h",
-        "printed_name": "h, 4J3P (AoCO4)",
-        "descriptive_name": "AoCO4",
-        "domain_start_structure": 93,
-        "domain_end": 324,
-        # "threshold": 0.88,
-        "threshold": 0.90,
-    },
-    {
-        "pdb_name": "F4PFF7",
-        "alignment_name": "F4PFF7.1068-251",
-        "family": "i_zoopago",
-        "family_name": "i",
-        "printed_name": "i, F4PFF7",
-        "descriptive_name": "F4PFF7",
-        "domain_start_structure": 68,
-        "domain_end": 251,
         "threshold": 0.95,
     },
 ]
 
 
-# A0A1S9DJX3.10118-349
 def make_sequencePos2alignedPos(aligned):
     not_aligned_counter = 0
     aligned_counter = 0
@@ -241,18 +259,14 @@ def make_sequencePos2alignedPos(aligned):
 
 
 # Read alignment all
-# alignment_all_groups = 'data/compare-architectures/aligned-sequences-noallgaps.fa'
-# alignment_all_groups = 'data/compare-architectures/linsi2-noallgaps.fa'
 alignment_all_groups = "data/compare-architectures/aligned-sequences-noallgaps.fa"
 alignment_all_dict = read_MSA_file(alignment_all_groups)
 
 # Get conserved
 for i in range(len(entries)):
     entry = entries[i]
-    # clade_dir = "data/mrbayes/all/clades"
-    clade_dir = "data/mrbayes/all-seeds-0619/clades"
-    # alignment_filename = f"{clade_dir}/alignments/{entry['family']}-linsi.fa"
-    alignment_filename = f"{clade_dir}/alignments-nofragments/{entry['family']}.fa"
+    clade_dir = "data/mrbayes/0816/clades"
+    alignment_filename = f"{clade_dir}/alignments-nofragments/{entry['family']}-linsi.fa"
     fasta_dict = read_MSA_file(alignment_filename)
     conserved_residues = get_conserved_residues(
         fasta_dict, threshold=entry["threshold"], include_aliphatic=True
@@ -281,7 +295,6 @@ with open(outfilename, "w") as outfile:
     outfile.write("const conservedResidues = {\n")
     for i in range(len(entries)):
         entry = entries[i]
-        # outfile.write(f"\t'{get_name(entry)}': {entry['conserved_positions']},\n")
         outfile.write(f"\t'{entry['printed_name']}': {entry['conserved_positions']},\n")
     outfile.write("};")
 
