@@ -58,20 +58,20 @@ function drawArchitecture(architectureString, domain_start_structure, conservedR
         const conservedResidue = conservedResidues[positionInCompleteProtein];
         const isConserved = !!conservedResidue;
         const xCoord = computeXForPositionInDomain(positionInDomain)
-        // switch (architectureString[i]) {
-        //     case 'l':
-        //         drawLoop(xCoord, y, isConserved);
-        //         break;
-        //     case 'h':
-        //         drawHelix(xCoord, y, isConserved);
-        //         break;
-        //     case 's':
-        //         drawSheet(xCoord, y, isConserved);
-        //         break;
-        //     case 'u':
-        //         drawUndefined(xCoord, y, isConserved);
-        //         break;
-        // }
+        switch (architectureString[i]) {
+            case 'l':
+                drawLoop(xCoord, y, isConserved);
+                break;
+            case 'h':
+                drawHelix(xCoord, y, isConserved);
+                break;
+            case 's':
+                drawSheet(xCoord, y, isConserved);
+                break;
+            case 'u':
+                drawUndefined(xCoord, y, isConserved);
+                break;
+        }
         if(isConserved){
              drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompleteProtein)
         }

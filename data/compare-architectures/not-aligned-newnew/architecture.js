@@ -20,8 +20,8 @@ const architectures = {
 		'architecture_string': 'hhhhhhhhhllhhhllllllhhhhhhhhhhhhhhhhhhhhlllllllllllhhhhlllhhhlhhhllllllllllllllllllllllllllllllllllllllllllllllhhhhhhhhhhlllhhhhhhhhhhhhhhhhhhhhhlllllllllllhhhlllhhhllhhhhhhhhhhhhhhhhh'
 		},
 	'f, 4J3P (AoCO4)': {
-		'domain_start_structure': 93,
-		'architecture_string': 'lhhhhhhhhhhhhhhhllllllhhhhhhhhhhhhhhhhhhhlllllllssllhhhhlllhhhllllllllllllllsssllllllssslllllllssslllllssssllllllllssllllllsslllllssllllllllllssllllllhhhhhhhllhhhhhhhhhllllhhhhhhhhhllllllllhhhhhhhhllllllllllllhhhlllhhhhhhhhhhhhhhhhh'
+		'domain_start_structure': 92,
+		'architecture_string': 'llhhhhhhhhhhhhhhhllllllhhhhhhhhhhhhhhhhhhhlllllllssllhhhhlllhhhllllllllllllllsssllllllssslllllllssslllllssssllllllllssllllllsslllllssllllllllllssllllllhhhhhhhllhhhhhhhhhllllhhhhhhhhhllllllllhhhhhhhhllllllllllllhhhlllhhhhhhhhhhhhhhhhh'
 		},
 	'g, 5M8L (HsTrp1)': {
 		'domain_start_structure': 184,
@@ -37,11 +37,11 @@ const architectures = {
 		},
 	'j, 1LNL (RvHc)': {
 		'domain_start_structure': 32,
-		'architecture_string': 'lllllllhhhhllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhllllllllllllllllllllhhhhlllllllllllllllhhhllllllllllllllllllllllllllllllhhhhhhhhhhlllllhhhhhhhhhhhhhhhhhhhlllllllllllhhhlllhhhhhllhhhhhhhh'
+		'architecture_string': 'llllhhhhllllllllllllllllllllllllllhhhhhhhhhhhhhhhhhhllllllllllllllllllllhhhhlllllllllllllllhhhllllllllllllllllllllllllllllllhhhhhhhhhhlllllhhhhhhhhhhhhhhhhhhhlllllllllllhhhlllhhhhhllhhhhhhhhhhh'
 		},
 	'k, 5ZRD (BtTyr)': {
 		'domain_start_structure': 47,
-		'architecture_string': 'hhhhhhhlllllllhhhhlllllllllllllllllllllhhhhhhhhhhhhhhhhhhhlllllllllllllhhhhhhlllhhhlllssssllssssllllllllllllllllllssslllllllllllllllllllllhhhhhhhhhhhhllllhhhhhhhhhhhhhhhhhlllllllllllllllhhhhhhhhlllllhhhhhlhhhhhhhhhhllllllllhhhhhhhhhhhhlllllllllssslllllhhhllllhhhllhhhhhhhhhhhhhhhhhhhhl'
+		'architecture_string': 'llhhhhhhhhlllllllhhhhlllllllllllllllllllllhhhhhhhhhhhhhhhhhhhlllllllllllllhhhhhhlllhhhlllssssllssssllllllllllllllllllssslllllllllllllllllllllhhhhhhhhhhhhllllhhhhhhhhhhhhhhhhhlllllllllllllllhhhhhhhhlllllhhhhhlhhhhhhhhhhllllllllhhhhhhhhhhhhlllllllllssslllllhhhllllhhhllhhhhhhhhhhhhhhhhhhh'
 		},
 	'l, 2Y9X (AbPPO3)': {
 		'domain_start_structure': 52,

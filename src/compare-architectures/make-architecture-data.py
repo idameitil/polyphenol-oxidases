@@ -153,7 +153,7 @@ entries = [
         "descriptive_name": "A0A137PAT2",
         "domain_start_structure": 41,
         "domain_end": 229,
-        "threshold": 0.95,
+        "threshold": 0.94,
     },
     {
         "pdb_name": "F4PFF7",
@@ -173,9 +173,9 @@ entries = [
         "family_name": "f",
         "printed_name": "f, 4J3P (AoCO4)",
         "descriptive_name": "AoCO4",
-        "domain_start_structure": 93,
+        "domain_start_structure": 92,
         "domain_end": 324,
-        "threshold": 0.90,
+        "threshold": 0.92,
     },
     {
         "pdb_name": "5m8l",
@@ -208,7 +208,7 @@ entries = [
         "descriptive_name": "VvPPO",
         "domain_start_structure": 77,
         "domain_end": 284,
-        "threshold": 0.95,
+        "threshold": 0.98,
     },
     {
         "pdb_name": "1lnl",
@@ -219,7 +219,7 @@ entries = [
         "descriptive_name": "RvHc",
         "domain_start_structure": 32,
         "domain_end": 224,
-        "threshold": 0.99,
+        "threshold": 0.97,
     },
     {
         "pdb_name": "5ZRD",
@@ -229,7 +229,7 @@ entries = [
         "printed_name": "k, 5ZRD (BtTyr)",
         "descriptive_name": "BtTyr",
         "domain_start_structure": 47,
-        "domain_end": 331,
+        "domain_end": 332,
         "threshold": 0.95,
     },
     {
@@ -288,6 +288,8 @@ for i in range(len(entries)):
         - 1: position["AA"]
         for position in positions
     }
+    if i == 1:
+        print(conserved_residues)
 
 # Write conserved file
 outfilename = f"data/compare-architectures/conserved_{threshold}.js"
