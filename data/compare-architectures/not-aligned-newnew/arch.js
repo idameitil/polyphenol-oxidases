@@ -108,12 +108,13 @@ function drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompl
 
     const xOffsetForPositionNumber = -3 + xOffsetForConservedResidue;
     // const yOffsetForPositionNumber = -50;
-    const yOffsetForPositionNumber = 45;
+    // const yOffsetForPositionNumber = 45;
+    const yOffsetForPositionNumber = 43;
     const xOffsetForLetter = xOffsetForConservedResidue;
     const yOffsetForLetter = -20;
     // const size_residue_text = 50;
-    // const size_residue_text = 25;
-    const size_residue_text = 30;
+    // const size_residue_text = 30;
+    const size_residue_text = 25;
     const color_residue_text = getConservedResidueColor(conservedResidueLetter);
     textSize_svg(size_residue_text);
     fill_svg(...color_residue_text);
@@ -121,7 +122,8 @@ function drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompl
     text_svg(conservedResidueLetter, xCoord - (size_residue_text / 4) + xOffsetForLetter, y + yOffsetForLetter);
 
     const color_position_text = [0, 0, 0];
-    const size_position_text = 13;
+    // const size_position_text = 13;
+    const size_position_text = 11;
     textSize_svg(size_position_text);
     fill_svg(...color_position_text);
     text_svg(positionInCompleteProtein, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
