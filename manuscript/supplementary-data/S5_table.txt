@@ -1,0 +1,17 @@
+genome_id	species
+UP000030143	Penicillium expansum
+UP000006706	Aspergillus niger
+UP000002530	Aspergillus fumigatus
+UP000008984	Trichoderma reesei
+UP000070720	Fusarium graminearum
+UP000838763	Parascedosporium putredinis
+UP000001197	Podospora anserina
+UP000001056	Chaetomium globosum
+UP000008181	Thermothielavioides terrestris
+UP000007322	Thermothelomyces thermophilus
+UP000001861	Coprinopsis cinerea
+UP000027073	Pleurotus ostreatus
+UP000008370	Phanerochaete carnosa
+UP000029665	Trametes cinnabarina
+UP000194127	Postia placenta
+UP000230002	Ganoderma sinense
