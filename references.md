@@ -49,7 +49,7 @@ NspF is the only one that does C-nitrosation. It also does o-aminophenol oxidase
 # Editing the svg
 Move the text and circles y positions -27 for MtPPO7 and +27 for CgPPO-473
 Search for circle, change stroke-width to 5
-Search for stroke-width=“0.3” and change to 4 (or search for 'stroke-dashoffset="10"')
+Search for stroke-width="0.3" and change to 4 (or search for 'stroke-dashoffset="10"')
 
 # Aspergillus short PPO
 from "A Non-canonical Melanin Biosynthesis Pathway Protects Aspergillus terreus Conidia from Environmental Stress"
