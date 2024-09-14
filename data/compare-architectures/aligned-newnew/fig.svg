@@ -1,0 +1,4069 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 5370 3050"
+   version="1.1"
+   id="svg804"
+   sodipodi:docname="fig.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   inkscape:export-filename="fig.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs804" />
+  <sodipodi:namedview
+     id="namedview804"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.22079065"
+     inkscape:cx="2538.6039"
+     inkscape:cy="1530.8619"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg804" />
+  <text
+     x="0"
+     y="185"
+     style="fill: rgb(105, 133, 181); font:  45px arial;"
+     id="text1">a, O76708</text>
+  <text
+     x="492.5"
+     y="155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text2">H</text>
+  <text
+     x="493.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text3">159</text>
+  <text
+     x="1022.5"
+     y="155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text4">H</text>
+  <text
+     x="1023.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text5">212</text>
+  <text
+     x="1042.5"
+     y="155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text6">G</text>
+  <text
+     x="1043.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text7">214</text>
+  <text
+     x="1072.5"
+     y="155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text8">F</text>
+  <text
+     x="1073.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text9">217</text>
+  <text
+     x="1112.5"
+     y="155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text10">H</text>
+  <text
+     x="1113.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text11">221</text>
+  <text
+     x="1122.5"
+     y="155"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text12">R</text>
+  <text
+     x="1123.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text13">222</text>
+  <text
+     x="1192.5"
+     y="155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text14">E</text>
+  <text
+     x="1193.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text15">229</text>
+  <text
+     x="1532.5"
+     y="155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text16">W</text>
+  <text
+     x="1533.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text17">263</text>
+  <text
+     x="1972.5"
+     y="155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text18">G</text>
+  <text
+     x="1973.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text19">307</text>
+  <text
+     x="2402.5"
+     y="155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text20">G</text>
+  <text
+     x="2403.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text21">350</text>
+  <text
+     x="2452.5"
+     y="155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text22">G</text>
+  <text
+     x="2453.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text23">355</text>
+  <text
+     x="3102.5"
+     y="155"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text24">R</text>
+  <text
+     x="3103.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text25">420</text>
+  <text
+     x="4452.5"
+     y="155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text26">E</text>
+  <text
+     x="4453.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text27">555</text>
+  <text
+     x="4632.5"
+     y="155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text28">H</text>
+  <text
+     x="4633.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text29">573</text>
+  <text
+     x="4672.5"
+     y="155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text30">H</text>
+  <text
+     x="4673.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text31">577</text>
+  <text
+     x="4722.5"
+     y="155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text32">G</text>
+  <text
+     x="4723.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text33">582</text>
+  <text
+     x="5092.5"
+     y="155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text34">D</text>
+  <text
+     x="5093.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text35">619</text>
+  <text
+     x="5122.5"
+     y="155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text36">F</text>
+  <text
+     x="5123.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text37">622</text>
+  <text
+     x="5162.5"
+     y="155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text38">H</text>
+  <text
+     x="5163.75"
+     y="130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text39">626</text>
+  <text
+     x="0"
+     y="435"
+     style="fill: rgb(142, 23, 48); font:  45px arial;"
+     id="text40">b, A0A7M6DMJ9</text>
+  <text
+     x="422.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text41">Y</text>
+  <text
+     x="423.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text42">301</text>
+  <text
+     x="492.5"
+     y="405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text43">H</text>
+  <text
+     x="493.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text44">308</text>
+  <text
+     x="1022.5"
+     y="405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text45">H</text>
+  <text
+     x="1023.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text46">361</text>
+  <text
+     x="1072.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text47">F</text>
+  <text
+     x="1073.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text48">366</text>
+  <text
+     x="1102.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text49">W</text>
+  <text
+     x="1103.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text50">369</text>
+  <text
+     x="1112.5"
+     y="405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text51">H</text>
+  <text
+     x="1113.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text52">370</text>
+  <text
+     x="1122.5"
+     y="405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text53">R</text>
+  <text
+     x="1123.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text54">371</text>
+  <text
+     x="1192.5"
+     y="405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text55">E</text>
+  <text
+     x="1193.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text56">378</text>
+  <text
+     x="1222.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text57">L</text>
+  <text
+     x="1223.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text58">381</text>
+  <text
+     x="1232.5"
+     y="405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text59">R</text>
+  <text
+     x="1233.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text60">382</text>
+  <text
+     x="1492.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text61">T</text>
+  <text
+     x="1493.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text62">408</text>
+  <text
+     x="1532.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text63">W</text>
+  <text
+     x="1533.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text64">412</text>
+  <text
+     x="1552.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text65">W</text>
+  <text
+     x="1553.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text66">414</text>
+  <text
+     x="1882.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text67">W</text>
+  <text
+     x="1883.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text68">447</text>
+  <text
+     x="1952.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text69">G</text>
+  <text
+     x="1953.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text70">454</text>
+  <text
+     x="1972.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text71">G</text>
+  <text
+     x="1973.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text72">456</text>
+  <text
+     x="2112.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text73">G</text>
+  <text
+     x="2113.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text74">470</text>
+  <text
+     x="2412.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text75">C</text>
+  <text
+     x="2413.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text76">500</text>
+  <text
+     x="2422.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text77">V</text>
+  <text
+     x="2423.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text78">501</text>
+  <text
+     x="2452.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text79">G</text>
+  <text
+     x="2453.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text80">504</text>
+  <text
+     x="2472.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text81">F</text>
+  <text
+     x="2473.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text82">506</text>
+  <text
+     x="3072.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text83">C</text>
+  <text
+     x="3073.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text84">566</text>
+  <text
+     x="3102.5"
+     y="405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text85">R</text>
+  <text
+     x="3103.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text86">569</text>
+  <text
+     x="3122.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text87">F</text>
+  <text
+     x="3123.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text88">571</text>
+  <text
+     x="4122.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text89">F</text>
+  <text
+     x="4123.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text90">671</text>
+  <text
+     x="4162.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text91">F</text>
+  <text
+     x="4163.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text92">675</text>
+  <text
+     x="4452.5"
+     y="405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text93">R</text>
+  <text
+     x="4453.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text94">704</text>
+  <text
+     x="4632.5"
+     y="405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text95">H</text>
+  <text
+     x="4633.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text96">722</text>
+  <text
+     x="4672.5"
+     y="405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text97">H</text>
+  <text
+     x="4673.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text98">726</text>
+  <text
+     x="4912.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text99">G</text>
+  <text
+     x="4913.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text100">750</text>
+  <text
+     x="5002.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text101">M</text>
+  <text
+     x="5003.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text102">759</text>
+  <text
+     x="5072.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text103">A</text>
+  <text
+     x="5073.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text104">766</text>
+  <text
+     x="5102.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text105">P</text>
+  <text
+     x="5103.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text106">769</text>
+  <text
+     x="5112.5"
+     y="405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text107">E</text>
+  <text
+     x="5113.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text108">770</text>
+  <text
+     x="5162.5"
+     y="405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text109">H</text>
+  <text
+     x="5163.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text110">775</text>
+  <text
+     x="5182.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text111">F</text>
+  <text
+     x="5183.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text112">777</text>
+  <text
+     x="5202.5"
+     y="405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text113">D</text>
+  <text
+     x="5203.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text114">779</text>
+  <text
+     x="5212.5"
+     y="405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text115">K</text>
+  <text
+     x="5213.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text116">780</text>
+  <text
+     x="5232.5"
+     y="405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text117">W</text>
+  <text
+     x="5233.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text118">782</text>
+  <text
+     x="5272.5"
+     y="405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text119">Q</text>
+  <text
+     x="5273.75"
+     y="380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text120">786</text>
+  <text
+     x="0"
+     y="685"
+     style="fill: rgb(82, 9, 155); font:  45px arial;"
+     id="text121">c, D0N318</text>
+  <text
+     x="492.5"
+     y="655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text122">H</text>
+  <text
+     x="493.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text123">87</text>
+  <text
+     x="1012.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text124">A</text>
+  <text
+     x="1013.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text125">139</text>
+  <text
+     x="1022.5"
+     y="655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text126">H</text>
+  <text
+     x="1023.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text127">140</text>
+  <text
+     x="1072.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text128">F</text>
+  <text
+     x="1073.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text129">145</text>
+  <text
+     x="1102.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text130">W</text>
+  <text
+     x="1103.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text131">148</text>
+  <text
+     x="1112.5"
+     y="655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text132">H</text>
+  <text
+     x="1113.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text133">149</text>
+  <text
+     x="1122.5"
+     y="655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text134">R</text>
+  <text
+     x="1123.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text135">150</text>
+  <text
+     x="1152.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text136">L</text>
+  <text
+     x="1153.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text137">153</text>
+  <text
+     x="1192.5"
+     y="655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text138">E</text>
+  <text
+     x="1193.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text139">157</text>
+  <text
+     x="1222.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text140">L</text>
+  <text
+     x="1223.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text141">160</text>
+  <text
+     x="1232.5"
+     y="655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text142">R</text>
+  <text
+     x="1233.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text143">161</text>
+  <text
+     x="1472.5"
+     y="655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text144">C</text>
+  <text
+     x="1473.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text145">185</text>
+  <text
+     x="1492.5"
+     y="655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text146">T</text>
+  <text
+     x="1493.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text147">187</text>
+  <text
+     x="1512.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text148">P</text>
+  <text
+     x="1513.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text149">189</text>
+  <text
+     x="1732.5"
+     y="655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text150">C</text>
+  <text
+     x="1733.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text151">211</text>
+  <text
+     x="1842.5"
+     y="655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text152">C</text>
+  <text
+     x="1843.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text153">222</text>
+  <text
+     x="1972.5"
+     y="655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text154">G</text>
+  <text
+     x="1973.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text155">235</text>
+  <text
+     x="2412.5"
+     y="655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text156">C</text>
+  <text
+     x="2413.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text157">279</text>
+  <text
+     x="2542.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text158">F</text>
+  <text
+     x="2543.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text159">292</text>
+  <text
+     x="3072.5"
+     y="655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text160">C</text>
+  <text
+     x="3073.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text161">345</text>
+  <text
+     x="3102.5"
+     y="655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text162">R</text>
+  <text
+     x="3103.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text163">348</text>
+  <text
+     x="4632.5"
+     y="655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text164">H</text>
+  <text
+     x="4633.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text165">501</text>
+  <text
+     x="4672.5"
+     y="655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text166">H</text>
+  <text
+     x="4673.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text167">505</text>
+  <text
+     x="5102.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text168">P</text>
+  <text
+     x="5103.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text169">548</text>
+  <text
+     x="5122.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text170">F</text>
+  <text
+     x="5123.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text171">550</text>
+  <text
+     x="5152.5"
+     y="655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text172">H</text>
+  <text
+     x="5153.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text173">553</text>
+  <text
+     x="5162.5"
+     y="655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text174">H</text>
+  <text
+     x="5163.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text175">554</text>
+  <text
+     x="5202.5"
+     y="655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text176">D</text>
+  <text
+     x="5203.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text177">558</text>
+  <text
+     x="5222.5"
+     y="655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text178">L</text>
+  <text
+     x="5223.75"
+     y="630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text179">560</text>
+  <text
+     x="0"
+     y="935"
+     style="fill: rgb(236, 215, 90); font:  45px arial;"
+     id="text180">d, A0A137PAT2</text>
+  <text
+     x="492.5"
+     y="905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text181">H</text>
+  <text
+     x="493.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text182">51</text>
+  <text
+     x="1022.5"
+     y="905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text183">H</text>
+  <text
+     x="1023.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text184">104</text>
+  <text
+     x="1072.5"
+     y="905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text185">F</text>
+  <text
+     x="1073.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text186">109</text>
+  <text
+     x="1102.5"
+     y="905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text187">W</text>
+  <text
+     x="1103.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text188">112</text>
+  <text
+     x="1112.5"
+     y="905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text189">H</text>
+  <text
+     x="1113.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text190">113</text>
+  <text
+     x="1122.5"
+     y="905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text191">R</text>
+  <text
+     x="1123.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text192">114</text>
+  <text
+     x="1512.5"
+     y="905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text193">P</text>
+  <text
+     x="1513.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text194">153</text>
+  <text
+     x="1542.5"
+     y="905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text195">D</text>
+  <text
+     x="1543.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text196">156</text>
+  <text
+     x="1552.5"
+     y="905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text197">W</text>
+  <text
+     x="1553.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text198">157</text>
+  <text
+     x="2112.5"
+     y="905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text199">G</text>
+  <text
+     x="2113.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text200">213</text>
+  <text
+     x="3102.5"
+     y="905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text201">R</text>
+  <text
+     x="3103.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text202">312</text>
+  <text
+     x="4162.5"
+     y="905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text203">F</text>
+  <text
+     x="4163.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text204">418</text>
+  <text
+     x="4452.5"
+     y="905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text205">E</text>
+  <text
+     x="4453.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text206">447</text>
+  <text
+     x="4632.5"
+     y="905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text207">H</text>
+  <text
+     x="4633.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text208">465</text>
+  <text
+     x="4672.5"
+     y="905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text209">H</text>
+  <text
+     x="4673.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text210">469</text>
+  <text
+     x="4712.5"
+     y="905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text211">G</text>
+  <text
+     x="4713.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text212">473</text>
+  <text
+     x="5062.5"
+     y="905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text213">S</text>
+  <text
+     x="5063.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text214">508</text>
+  <text
+     x="5092.5"
+     y="905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text215">D</text>
+  <text
+     x="5093.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text216">511</text>
+  <text
+     x="5122.5"
+     y="905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text217">F</text>
+  <text
+     x="5123.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text218">514</text>
+  <text
+     x="5152.5"
+     y="905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text219">H</text>
+  <text
+     x="5153.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text220">517</text>
+  <text
+     x="5162.5"
+     y="905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text221">H</text>
+  <text
+     x="5163.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text222">518</text>
+  <text
+     x="5202.5"
+     y="905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text223">D</text>
+  <text
+     x="5203.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text224">522</text>
+  <text
+     x="5232.5"
+     y="905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text225">W</text>
+  <text
+     x="5233.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text226">525</text>
+  <text
+     x="5272.5"
+     y="905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text227">Q</text>
+  <text
+     x="5273.75"
+     y="880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text228">529</text>
+  <text
+     x="0"
+     y="1185"
+     style="fill: rgb(240, 86, 234); font:  45px arial;"
+     id="text229">e, F4PFF7</text>
+  <text
+     x="492.5"
+     y="1155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text230">H</text>
+  <text
+     x="493.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text231">78</text>
+  <text
+     x="1022.5"
+     y="1155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text232">H</text>
+  <text
+     x="1023.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text233">131</text>
+  <text
+     x="1072.5"
+     y="1155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text234">F</text>
+  <text
+     x="1073.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text235">136</text>
+  <text
+     x="1112.5"
+     y="1155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text236">H</text>
+  <text
+     x="1113.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text237">140</text>
+  <text
+     x="1122.5"
+     y="1155"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text238">R</text>
+  <text
+     x="1123.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text239">141</text>
+  <text
+     x="1192.5"
+     y="1155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text240">E</text>
+  <text
+     x="1193.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text241">148</text>
+  <text
+     x="1512.5"
+     y="1155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text242">P</text>
+  <text
+     x="1513.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text243">180</text>
+  <text
+     x="1532.5"
+     y="1155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text244">W</text>
+  <text
+     x="1533.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text245">182</text>
+  <text
+     x="1792.5"
+     y="1155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text246">P</text>
+  <text
+     x="1793.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text247">208</text>
+  <text
+     x="1842.5"
+     y="1155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text248">S</text>
+  <text
+     x="1843.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text249">213</text>
+  <text
+     x="1972.5"
+     y="1155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text250">G</text>
+  <text
+     x="1973.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text251">226</text>
+  <text
+     x="2412.5"
+     y="1155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text252">C</text>
+  <text
+     x="2413.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text253">270</text>
+  <text
+     x="2452.5"
+     y="1155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text254">G</text>
+  <text
+     x="2453.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text255">274</text>
+  <text
+     x="3072.5"
+     y="1155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text256">C</text>
+  <text
+     x="3073.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text257">336</text>
+  <text
+     x="3102.5"
+     y="1155"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text258">R</text>
+  <text
+     x="3103.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text259">339</text>
+  <text
+     x="4632.5"
+     y="1155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text260">H</text>
+  <text
+     x="4633.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text261">492</text>
+  <text
+     x="4672.5"
+     y="1155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text262">H</text>
+  <text
+     x="4673.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text263">496</text>
+  <text
+     x="4722.5"
+     y="1155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text264">G</text>
+  <text
+     x="4723.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text265">501</text>
+  <text
+     x="5092.5"
+     y="1155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text266">D</text>
+  <text
+     x="5093.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text267">538</text>
+  <text
+     x="5122.5"
+     y="1155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text268">F</text>
+  <text
+     x="5123.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text269">541</text>
+  <text
+     x="5152.5"
+     y="1155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text270">H</text>
+  <text
+     x="5153.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text271">544</text>
+  <text
+     x="5162.5"
+     y="1155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text272">H</text>
+  <text
+     x="5163.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text273">545</text>
+  <text
+     x="5202.5"
+     y="1155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text274">D</text>
+  <text
+     x="5203.75"
+     y="1130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text275">549</text>
+  <text
+     x="0"
+     y="1435"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:normal;font-family:arial;fill:#fb8b34"
+     id="text276">f, <tspan
+   style="font-style:italic"
+   id="tspan804">Ao</tspan>CO4</text>
+  <text
+     x="432.5"
+     y="1405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text277">D</text>
+  <text
+     x="433.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text278">97</text>
+  <text
+     x="482.5"
+     y="1405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text279">H</text>
+  <text
+     x="483.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text280">102</text>
+  <text
+     x="1012.5"
+     y="1405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text281">H</text>
+  <text
+     x="1013.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text282">155</text>
+  <text
+     x="1062.5"
+     y="1405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text283">F</text>
+  <text
+     x="1063.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text284">160</text>
+  <text
+     x="1102.5"
+     y="1405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text285">H</text>
+  <text
+     x="1103.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text286">164</text>
+  <text
+     x="1112.5"
+     y="1405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text287">R</text>
+  <text
+     x="1113.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text288">165</text>
+  <text
+     x="1182.5"
+     y="1405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text289">E</text>
+  <text
+     x="1183.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text290">172</text>
+  <text
+     x="1212.5"
+     y="1405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text291">L</text>
+  <text
+     x="1213.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text292">175</text>
+  <text
+     x="1252.5"
+     y="1405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text293">C</text>
+  <text
+     x="1253.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text294">179</text>
+  <text
+     x="1452.5"
+     y="1405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text295">Y</text>
+  <text
+     x="1453.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text296">199</text>
+  <text
+     x="1472.5"
+     y="1405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text297">G</text>
+  <text
+     x="1473.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text298">201</text>
+  <text
+     x="1512.5"
+     y="1405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text299">Y</text>
+  <text
+     x="1513.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text300">205</text>
+  <text
+     x="2102.5"
+     y="1405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text301">G</text>
+  <text
+     x="2103.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text302">264</text>
+  <text
+     x="2442.5"
+     y="1405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text303">G</text>
+  <text
+     x="2443.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text304">298</text>
+  <text
+     x="2462.5"
+     y="1405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text305">F</text>
+  <text
+     x="2463.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text306">300</text>
+  <text
+     x="3092.5"
+     y="1405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text307">R</text>
+  <text
+     x="3093.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text308">363</text>
+  <text
+     x="4622.5"
+     y="1405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text309">H</text>
+  <text
+     x="4623.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text310">516</text>
+  <text
+     x="4662.5"
+     y="1405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text311">H</text>
+  <text
+     x="4663.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text312">520</text>
+  <text
+     x="5112.5"
+     y="1405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text313">F</text>
+  <text
+     x="5113.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text314">565</text>
+  <text
+     x="5142.5"
+     y="1405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text315">H</text>
+  <text
+     x="5143.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text316">568</text>
+  <text
+     x="5152.5"
+     y="1405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text317">H</text>
+  <text
+     x="5153.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text318">569</text>
+  <text
+     x="5192.5"
+     y="1405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text319">D</text>
+  <text
+     x="5193.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text320">573</text>
+  <text
+     x="5252.5"
+     y="1405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text321">W</text>
+  <text
+     x="5253.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text322">579</text>
+  <text
+     x="5262.5"
+     y="1405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text323">Q</text>
+  <text
+     x="5263.75"
+     y="1380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text324">580</text>
+  <text
+     x="0"
+     y="1685"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:normal;font-family:arial;fill:#00057c"
+     id="text325">g, <tspan
+   style="font-style:italic"
+   id="tspan805">Hs</tspan>Trp1</text>
+  <text
+     x="422.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text326">Y</text>
+  <text
+     x="423.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text327">187</text>
+  <text
+     x="492.5"
+     y="1655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text328">H</text>
+  <text
+     x="493.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text329">194</text>
+  <text
+     x="812.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text330">Y</text>
+  <text
+     x="813.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text331">226</text>
+  <text
+     x="1022.5"
+     y="1655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text332">H</text>
+  <text
+     x="1023.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text333">247</text>
+  <text
+     x="1072.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text334">F</text>
+  <text
+     x="1073.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text335">252</text>
+  <text
+     x="1102.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text336">W</text>
+  <text
+     x="1103.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text337">255</text>
+  <text
+     x="1112.5"
+     y="1655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text338">H</text>
+  <text
+     x="1113.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text339">256</text>
+  <text
+     x="1122.5"
+     y="1655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text340">R</text>
+  <text
+     x="1123.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text341">257</text>
+  <text
+     x="1192.5"
+     y="1655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text342">E</text>
+  <text
+     x="1193.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text343">264</text>
+  <text
+     x="1512.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text344">P</text>
+  <text
+     x="1513.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text345">296</text>
+  <text
+     x="1842.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text346">C</text>
+  <text
+     x="1843.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text347">329</text>
+  <text
+     x="1882.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text348">C</text>
+  <text
+     x="1883.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text349">333</text>
+  <text
+     x="1972.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text350">G</text>
+  <text
+     x="1973.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text351">342</text>
+  <text
+     x="2452.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text352">S</text>
+  <text
+     x="2453.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text353">390</text>
+  <text
+     x="2542.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text354">W</text>
+  <text
+     x="2543.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text355">399</text>
+  <text
+     x="2582.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text356">C</text>
+  <text
+     x="2583.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text357">403</text>
+  <text
+     x="3102.5"
+     y="1655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text358">R</text>
+  <text
+     x="3103.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text359">455</text>
+  <text
+     x="3532.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text360">P</text>
+  <text
+     x="3533.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text361">498</text>
+  <text
+     x="3912.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text362">V</text>
+  <text
+     x="3913.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text363">536</text>
+  <text
+     x="3962.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text364">L</text>
+  <text
+     x="3963.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text365">541</text>
+  <text
+     x="4162.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text366">F</text>
+  <text
+     x="4163.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text367">561</text>
+  <text
+     x="4172.5"
+     y="1655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text368">R</text>
+  <text
+     x="4173.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text369">562</text>
+  <text
+     x="4422.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text370">N</text>
+  <text
+     x="4423.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text371">587</text>
+  <text
+     x="4452.5"
+     y="1655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text372">E</text>
+  <text
+     x="4453.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text373">590</text>
+  <text
+     x="4462.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text374">G</text>
+  <text
+     x="4463.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text375">591</text>
+  <text
+     x="4632.5"
+     y="1655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text376">H</text>
+  <text
+     x="4633.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text377">608</text>
+  <text
+     x="4642.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text378">N</text>
+  <text
+     x="4643.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text379">609</text>
+  <text
+     x="4672.5"
+     y="1655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text380">H</text>
+  <text
+     x="4673.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text381">612</text>
+  <text
+     x="4722.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text382">G</text>
+  <text
+     x="4723.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text383">617</text>
+  <text
+     x="5082.5"
+     y="1655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text384">N</text>
+  <text
+     x="5083.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text385">653</text>
+  <text
+     x="5092.5"
+     y="1655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text386">D</text>
+  <text
+     x="5093.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text387">654</text>
+  <text
+     x="5102.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text388">P</text>
+  <text
+     x="5103.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text389">655</text>
+  <text
+     x="5122.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text390">F</text>
+  <text
+     x="5123.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text391">657</text>
+  <text
+     x="5162.5"
+     y="1655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text392">H</text>
+  <text
+     x="5163.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text393">661</text>
+  <text
+     x="5202.5"
+     y="1655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text394">D</text>
+  <text
+     x="5203.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text395">665</text>
+  <text
+     x="5262.5"
+     y="1655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text396">W</text>
+  <text
+     x="5263.75"
+     y="1630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text397">671</text>
+  <text
+     x="0"
+     y="1935"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:normal;font-family:arial;fill:#119d58"
+     id="text398">h, <tspan
+   style="font-style:italic"
+   id="tspan806">Sc</tspan>Tyr</text>
+  <text
+     x="432.5"
+     y="1905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text399">D</text>
+  <text
+     x="433.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text400">33</text>
+  <text
+     x="492.5"
+     y="1905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text401">H</text>
+  <text
+     x="493.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text402">39</text>
+  <text
+     x="1022.5"
+     y="1905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text403">H</text>
+  <text
+     x="1023.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text404">92</text>
+  <text
+     x="1072.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text405">F</text>
+  <text
+     x="1073.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text406">97</text>
+  <text
+     x="1092.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text407">P</text>
+  <text
+     x="1093.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text408">99</text>
+  <text
+     x="1102.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text409">W</text>
+  <text
+     x="1103.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text410">100</text>
+  <text
+     x="1112.5"
+     y="1905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text411">H</text>
+  <text
+     x="1113.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text412">101</text>
+  <text
+     x="1122.5"
+     y="1905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text413">R</text>
+  <text
+     x="1123.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text414">102</text>
+  <text
+     x="1152.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text415">L</text>
+  <text
+     x="1153.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text416">105</text>
+  <text
+     x="1192.5"
+     y="1905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text417">E</text>
+  <text
+     x="1193.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text418">109</text>
+  <text
+     x="1512.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text419">P</text>
+  <text
+     x="1513.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text420">141</text>
+  <text
+     x="1532.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text421">W</text>
+  <text
+     x="1533.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text422">143</text>
+  <text
+     x="1552.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text423">W</text>
+  <text
+     x="1553.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text424">145</text>
+  <text
+     x="1972.5"
+     y="1905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text425">G</text>
+  <text
+     x="1973.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text426">187</text>
+  <text
+     x="3082.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text427">L</text>
+  <text
+     x="3083.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text428">298</text>
+  <text
+     x="3102.5"
+     y="1905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text429">R</text>
+  <text
+     x="3103.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text430">300</text>
+  <text
+     x="3522.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text431">L</text>
+  <text
+     x="3523.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text432">342</text>
+  <text
+     x="3532.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text433">P</text>
+  <text
+     x="3533.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text434">343</text>
+  <text
+     x="4012.5"
+     y="1905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text435">Y</text>
+  <text
+     x="4013.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text436">391</text>
+  <text
+     x="4022.5"
+     y="1905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text437">D</text>
+  <text
+     x="4023.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text438">392</text>
+  <text
+     x="4162.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text439">F</text>
+  <text
+     x="4163.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text440">406</text>
+  <text
+     x="4172.5"
+     y="1905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text441">R</text>
+  <text
+     x="4173.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text442">407</text>
+  <text
+     x="4422.5"
+     y="1905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text443">N</text>
+  <text
+     x="4423.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text444">432</text>
+  <text
+     x="4452.5"
+     y="1905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text445">E</text>
+  <text
+     x="4453.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text446">435</text>
+  <text
+     x="4462.5"
+     y="1905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text447">G</text>
+  <text
+     x="4463.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text448">436</text>
+  <text
+     x="4632.5"
+     y="1905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text449">H</text>
+  <text
+     x="4633.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text450">453</text>
+  <text
+     x="4672.5"
+     y="1905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text451">H</text>
+  <text
+     x="4673.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text452">457</text>
+  <text
+     x="4692.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text453">W</text>
+  <text
+     x="4693.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text454">459</text>
+  <text
+     x="4722.5"
+     y="1905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text455">G</text>
+  <text
+     x="4723.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text456">462</text>
+  <text
+     x="5002.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text457">M</text>
+  <text
+     x="5003.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text458">490</text>
+  <text
+     x="5092.5"
+     y="1905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text459">D</text>
+  <text
+     x="5093.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text460">499</text>
+  <text
+     x="5102.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text461">P</text>
+  <text
+     x="5103.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text462">500</text>
+  <text
+     x="5122.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text463">F</text>
+  <text
+     x="5123.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text464">502</text>
+  <text
+     x="5142.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text465">L</text>
+  <text
+     x="5143.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text466">504</text>
+  <text
+     x="5162.5"
+     y="1905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text467">H</text>
+  <text
+     x="5163.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text468">506</text>
+  <text
+     x="5202.5"
+     y="1905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text469">D</text>
+  <text
+     x="5203.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text470">510</text>
+  <text
+     x="5232.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text471">W</text>
+  <text
+     x="5233.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text472">513</text>
+  <text
+     x="5262.5"
+     y="1905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text473">W</text>
+  <text
+     x="5263.75"
+     y="1880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text474">516</text>
+  <text
+     x="0"
+     y="2185"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:normal;font-family:arial;fill:#10aefd"
+     id="text475">i, <tspan
+   style="font-style:italic"
+   id="tspan807">Vv</tspan>PPO</text>
+  <text
+     x="452.5"
+     y="2155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text476">Q</text>
+  <text
+     x="453.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text477">83</text>
+  <text
+     x="492.5"
+     y="2155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text478">H</text>
+  <text
+     x="493.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text479">87</text>
+  <text
+     x="502.5"
+     y="2155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text480">C</text>
+  <text
+     x="503.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text481">88</text>
+  <text
+     x="1022.5"
+     y="2155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text482">H</text>
+  <text
+     x="1023.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text483">140</text>
+  <text
+     x="1052.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text484">W</text>
+  <text
+     x="1053.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text485">143</text>
+  <text
+     x="1072.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text486">F</text>
+  <text
+     x="1073.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text487">145</text>
+  <text
+     x="1112.5"
+     y="2155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text488">H</text>
+  <text
+     x="1113.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text489">149</text>
+  <text
+     x="1122.5"
+     y="2155"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text490">R</text>
+  <text
+     x="1123.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text491">150</text>
+  <text
+     x="1162.5"
+     y="2155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text492">Y</text>
+  <text
+     x="1163.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text493">154</text>
+  <text
+     x="1192.5"
+     y="2155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text494">E</text>
+  <text
+     x="1193.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text495">157</text>
+  <text
+     x="1212.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text496">I</text>
+  <text
+     x="1213.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text497">159</text>
+  <text
+     x="1482.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text498">F</text>
+  <text
+     x="1483.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text499">186</text>
+  <text
+     x="1532.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text500">W</text>
+  <text
+     x="1533.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text501">191</text>
+  <text
+     x="1562.5"
+     y="2155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text502">D</text>
+  <text
+     x="1563.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text503">194</text>
+  <text
+     x="1792.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text504">P</text>
+  <text
+     x="1793.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text505">217</text>
+  <text
+     x="3102.5"
+     y="2155"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text506">R</text>
+  <text
+     x="3103.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text507">348</text>
+  <text
+     x="3872.5"
+     y="2155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text508">N</text>
+  <text
+     x="3873.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text509">425</text>
+  <text
+     x="4422.5"
+     y="2155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text510">G</text>
+  <text
+     x="4423.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text511">480</text>
+  <text
+     x="4452.5"
+     y="2155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text512">E</text>
+  <text
+     x="4453.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text513">483</text>
+  <text
+     x="4632.5"
+     y="2155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text514">H</text>
+  <text
+     x="4633.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text515">501</text>
+  <text
+     x="4672.5"
+     y="2155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text516">H</text>
+  <text
+     x="4673.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text517">505</text>
+  <text
+     x="5092.5"
+     y="2155"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text518">D</text>
+  <text
+     x="5093.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text519">547</text>
+  <text
+     x="5102.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text520">P</text>
+  <text
+     x="5103.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text521">548</text>
+  <text
+     x="5122.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text522">F</text>
+  <text
+     x="5123.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text523">550</text>
+  <text
+     x="5162.5"
+     y="2155"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text524">H</text>
+  <text
+     x="5163.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text525">554</text>
+  <text
+     x="5182.5"
+     y="2155"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text526">N</text>
+  <text
+     x="5183.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text527">556</text>
+  <text
+     x="5212.5"
+     y="2155"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text528">R</text>
+  <text
+     x="5213.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text529">559</text>
+  <text
+     x="5232.5"
+     y="2155"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text530">W</text>
+  <text
+     x="5233.75"
+     y="2130"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text531">561</text>
+  <text
+     x="0"
+     y="2435"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:normal;font-family:arial;fill:#db9758"
+     id="text532">j, <tspan
+   style="font-style:italic"
+   id="tspan808">Rv</tspan>Hc</text>
+  <text
+     x="492.5"
+     y="2405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text533">H</text>
+  <text
+     x="493.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text534">42</text>
+  <text
+     x="732.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text535">C</text>
+  <text
+     x="733.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text536">66</text>
+  <text
+     x="992.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text537">C</text>
+  <text
+     x="993.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text538">92</text>
+  <text
+     x="1002.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text539">C</text>
+  <text
+     x="1003.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text540">93</text>
+  <text
+     x="1022.5"
+     y="2405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text541">H</text>
+  <text
+     x="1023.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text542">95</text>
+  <text
+     x="1032.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text543">G</text>
+  <text
+     x="1033.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text544">96</text>
+  <text
+     x="1072.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text545">F</text>
+  <text
+     x="1073.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text546">100</text>
+  <text
+     x="1102.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text547">W</text>
+  <text
+     x="1103.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text548">103</text>
+  <text
+     x="1112.5"
+     y="2405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text549">H</text>
+  <text
+     x="1113.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text550">104</text>
+  <text
+     x="1122.5"
+     y="2405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text551">R</text>
+  <text
+     x="1123.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text552">105</text>
+  <text
+     x="1132.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text553">L</text>
+  <text
+     x="1133.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text554">106</text>
+  <text
+     x="1192.5"
+     y="2405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text555">E</text>
+  <text
+     x="1193.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text556">112</text>
+  <text
+     x="1452.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text557">G</text>
+  <text
+     x="1453.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text558">138</text>
+  <text
+     x="1512.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text559">P</text>
+  <text
+     x="1513.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text560">144</text>
+  <text
+     x="1522.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text561">Y</text>
+  <text
+     x="1523.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text562">145</text>
+  <text
+     x="1532.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text563">W</text>
+  <text
+     x="1533.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text564">146</text>
+  <text
+     x="1542.5"
+     y="2405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text565">D</text>
+  <text
+     x="1543.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text566">147</text>
+  <text
+     x="1792.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text567">P</text>
+  <text
+     x="1793.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text568">172</text>
+  <text
+     x="2452.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text569">N</text>
+  <text
+     x="2453.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text570">238</text>
+  <text
+     x="3102.5"
+     y="2405"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text571">R</text>
+  <text
+     x="3103.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text572">303</text>
+  <text
+     x="3982.5"
+     y="2405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text573">E</text>
+  <text
+     x="3983.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text574">391</text>
+  <text
+     x="4132.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text575">C</text>
+  <text
+     x="4133.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text576">406</text>
+  <text
+     x="4162.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text577">F</text>
+  <text
+     x="4163.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text578">409</text>
+  <text
+     x="4452.5"
+     y="2405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text579">E</text>
+  <text
+     x="4453.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text580">438</text>
+  <text
+     x="4632.5"
+     y="2405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text581">H</text>
+  <text
+     x="4633.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text582">456</text>
+  <text
+     x="4642.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text583">N</text>
+  <text
+     x="4643.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text584">457</text>
+  <text
+     x="4672.5"
+     y="2405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text585">H</text>
+  <text
+     x="4673.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text586">460</text>
+  <text
+     x="4712.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text587">G</text>
+  <text
+     x="4713.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text588">464</text>
+  <text
+     x="4722.5"
+     y="2405"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text589">G</text>
+  <text
+     x="4723.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text590">465</text>
+  <text
+     x="5032.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text591">L</text>
+  <text
+     x="5033.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text592">496</text>
+  <text
+     x="5092.5"
+     y="2405"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text593">D</text>
+  <text
+     x="5093.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text594">502</text>
+  <text
+     x="5102.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text595">P</text>
+  <text
+     x="5103.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text596">503</text>
+  <text
+     x="5122.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text597">F</text>
+  <text
+     x="5123.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text598">505</text>
+  <text
+     x="5162.5"
+     y="2405"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text599">H</text>
+  <text
+     x="5163.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text600">509</text>
+  <text
+     x="5262.5"
+     y="2405"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text601">W</text>
+  <text
+     x="5263.75"
+     y="2380"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text602">519</text>
+  <text
+     x="0"
+     y="2685"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:normal;font-family:arial;fill:#116f6d"
+     id="text603">k, <tspan
+   style="font-style:italic"
+   id="tspan809">Bt</tspan>Tyr</text>
+  <text
+     x="422.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text604">F</text>
+  <text
+     x="423.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text605">50</text>
+  <text
+     x="472.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text606">G</text>
+  <text
+     x="473.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text607">55</text>
+  <text
+     x="492.5"
+     y="2655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text608">H</text>
+  <text
+     x="493.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text609">57</text>
+  <text
+     x="602.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text610">G</text>
+  <text
+     x="603.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text611">68</text>
+  <text
+     x="622.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text612">P</text>
+  <text
+     x="623.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text613">70</text>
+  <text
+     x="632.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text614">F</text>
+  <text
+     x="633.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text615">71</text>
+  <text
+     x="812.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text616">W</text>
+  <text
+     x="813.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text617">89</text>
+  <text
+     x="972.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text618">G</text>
+  <text
+     x="973.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text619">105</text>
+  <text
+     x="982.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text620">G</text>
+  <text
+     x="983.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text621">106</text>
+  <text
+     x="1002.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text622">C</text>
+  <text
+     x="1003.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text623">108</text>
+  <text
+     x="1022.5"
+     y="2655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text624">H</text>
+  <text
+     x="1023.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text625">110</text>
+  <text
+     x="1062.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text626">L</text>
+  <text
+     x="1063.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text627">114</text>
+  <text
+     x="1072.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text628">F</text>
+  <text
+     x="1073.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text629">115</text>
+  <text
+     x="1082.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text630">P</text>
+  <text
+     x="1083.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text631">116</text>
+  <text
+     x="1102.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text632">W</text>
+  <text
+     x="1103.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text633">118</text>
+  <text
+     x="1112.5"
+     y="2655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text634">H</text>
+  <text
+     x="1113.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text635">119</text>
+  <text
+     x="1122.5"
+     y="2655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text636">R</text>
+  <text
+     x="1123.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text637">120</text>
+  <text
+     x="1142.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text638">Y</text>
+  <text
+     x="1143.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text639">122</text>
+  <text
+     x="1192.5"
+     y="2655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text640">E</text>
+  <text
+     x="1193.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text641">127</text>
+  <text
+     x="1212.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text642">A</text>
+  <text
+     x="1213.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text643">129</text>
+  <text
+     x="1482.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text644">V</text>
+  <text
+     x="1483.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text645">156</text>
+  <text
+     x="1542.5"
+     y="2655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text646">D</text>
+  <text
+     x="1543.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text647">162</text>
+  <text
+     x="1792.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text648">P</text>
+  <text
+     x="1793.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text649">187</text>
+  <text
+     x="2452.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text650">N</text>
+  <text
+     x="2453.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text651">253</text>
+  <text
+     x="2462.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text652">P</text>
+  <text
+     x="2463.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text653">254</text>
+  <text
+     x="2992.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text654">Y</text>
+  <text
+     x="2993.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text655">307</text>
+  <text
+     x="3012.5"
+     y="2655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text656">K</text>
+  <text
+     x="3013.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text657">309</text>
+  <text
+     x="3062.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text658">Y</text>
+  <text
+     x="3063.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text659">314</text>
+  <text
+     x="3102.5"
+     y="2655"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text660">R</text>
+  <text
+     x="3103.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text661">318</text>
+  <text
+     x="3112.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text662">Y</text>
+  <text
+     x="3113.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text663">319</text>
+  <text
+     x="3122.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text664">P</text>
+  <text
+     x="3123.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text665">320</text>
+  <text
+     x="3152.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text666">S</text>
+  <text
+     x="3153.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text667">323</text>
+  <text
+     x="3162.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text668">G</text>
+  <text
+     x="3163.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text669">324</text>
+  <text
+     x="3322.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text670">N</text>
+  <text
+     x="3323.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text671">340</text>
+  <text
+     x="3532.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text672">L</text>
+  <text
+     x="3533.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text673">361</text>
+  <text
+     x="3542.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text674">N</text>
+  <text
+     x="3543.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text675">362</text>
+  <text
+     x="3562.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text676">N</text>
+  <text
+     x="3563.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text677">364</text>
+  <text
+     x="3602.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text678">W</text>
+  <text
+     x="3603.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text679">368</text>
+  <text
+     x="3962.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text680">L</text>
+  <text
+     x="3963.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text681">404</text>
+  <text
+     x="4132.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text682">T</text>
+  <text
+     x="4133.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text683">421</text>
+  <text
+     x="4162.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text684">F</text>
+  <text
+     x="4163.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text685">424</text>
+  <text
+     x="4172.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text686">S</text>
+  <text
+     x="4173.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text687">425</text>
+  <text
+     x="4182.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text688">N</text>
+  <text
+     x="4183.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text689">426</text>
+  <text
+     x="4202.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text690">T</text>
+  <text
+     x="4203.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text691">428</text>
+  <text
+     x="4212.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text692">S</text>
+  <text
+     x="4213.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text693">429</text>
+  <text
+     x="4452.5"
+     y="2655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text694">E</text>
+  <text
+     x="4453.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text695">453</text>
+  <text
+     x="4622.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text696">P</text>
+  <text
+     x="4623.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text697">470</text>
+  <text
+     x="4632.5"
+     y="2655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text698">H</text>
+  <text
+     x="4633.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text699">471</text>
+  <text
+     x="4642.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text700">N</text>
+  <text
+     x="4643.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text701">472</text>
+  <text
+     x="4672.5"
+     y="2655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text702">H</text>
+  <text
+     x="4673.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text703">475</text>
+  <text
+     x="4682.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text704">L</text>
+  <text
+     x="4683.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text705">476</text>
+  <text
+     x="4712.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text706">G</text>
+  <text
+     x="4713.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text707">479</text>
+  <text
+     x="4902.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text708">N</text>
+  <text
+     x="4903.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text709">498</text>
+  <text
+     x="4912.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text710">G</text>
+  <text
+     x="4913.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text711">499</text>
+  <text
+     x="4922.5"
+     y="2655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text712">D</text>
+  <text
+     x="4923.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text713">500</text>
+  <text
+     x="5002.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text714">M</text>
+  <text
+     x="5003.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text715">508</text>
+  <text
+     x="5012.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text716">G</text>
+  <text
+     x="5013.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text717">509</text>
+  <text
+     x="5032.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text718">N</text>
+  <text
+     x="5033.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text719">511</text>
+  <text
+     x="5052.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text720">T</text>
+  <text
+     x="5053.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text721">513</text>
+  <text
+     x="5062.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text722">A</text>
+  <text
+     x="5063.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text723">514</text>
+  <text
+     x="5092.5"
+     y="2655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text724">D</text>
+  <text
+     x="5093.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text725">517</text>
+  <text
+     x="5102.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text726">P</text>
+  <text
+     x="5103.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text727">518</text>
+  <text
+     x="5122.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text728">F</text>
+  <text
+     x="5123.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text729">520</text>
+  <text
+     x="5152.5"
+     y="2655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text730">H</text>
+  <text
+     x="5153.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text731">523</text>
+  <text
+     x="5162.5"
+     y="2655"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text732">H</text>
+  <text
+     x="5163.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text733">524</text>
+  <text
+     x="5172.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text734">C</text>
+  <text
+     x="5173.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text735">525</text>
+  <text
+     x="5202.5"
+     y="2655"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text736">D</text>
+  <text
+     x="5203.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text737">528</text>
+  <text
+     x="5232.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text738">F</text>
+  <text
+     x="5233.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text739">531</text>
+  <text
+     x="5262.5"
+     y="2655"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text740">W</text>
+  <text
+     x="5263.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text741">534</text>
+  <text
+     x="5272.5"
+     y="2655"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text742">Q</text>
+  <text
+     x="5273.75"
+     y="2630"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text743">535</text>
+  <text
+     x="0"
+     y="2935"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:normal;font-family:arial;fill:#f71252"
+     id="text744">l, <tspan
+   style="font-style:italic"
+   id="tspan810">Ab</tspan>PPO3</text>
+  <text
+     x="492.5"
+     y="2905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text745">H</text>
+  <text
+     x="493.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text746">62</text>
+  <text
+     x="602.5"
+     y="2905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text747">G</text>
+  <text
+     x="603.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text748">73</text>
+  <text
+     x="622.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text749">P</text>
+  <text
+     x="623.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text750">75</text>
+  <text
+     x="992.5"
+     y="2905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text751">Y</text>
+  <text
+     x="993.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text752">112</text>
+  <text
+     x="1002.5"
+     y="2905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text753">C</text>
+  <text
+     x="1003.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text754">113</text>
+  <text
+     x="1022.5"
+     y="2905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text755">H</text>
+  <text
+     x="1023.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text756">115</text>
+  <text
+     x="1072.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text757">F</text>
+  <text
+     x="1073.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text758">120</text>
+  <text
+     x="1102.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text759">W</text>
+  <text
+     x="1103.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text760">123</text>
+  <text
+     x="1112.5"
+     y="2905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text761">H</text>
+  <text
+     x="1113.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text762">124</text>
+  <text
+     x="1122.5"
+     y="2905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text763">R</text>
+  <text
+     x="1123.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text764">125</text>
+  <text
+     x="1192.5"
+     y="2905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text765">E</text>
+  <text
+     x="1193.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text766">132</text>
+  <text
+     x="1492.5"
+     y="2905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text767">R</text>
+  <text
+     x="1493.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text768">162</text>
+  <text
+     x="1512.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text769">P</text>
+  <text
+     x="1513.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text770">164</text>
+  <text
+     x="1532.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text771">W</text>
+  <text
+     x="1533.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text772">166</text>
+  <text
+     x="1542.5"
+     y="2905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text773">D</text>
+  <text
+     x="1543.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text774">167</text>
+  <text
+     x="1792.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text775">P</text>
+  <text
+     x="1793.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text776">192</text>
+  <text
+     x="2452.5"
+     y="2905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text777">N</text>
+  <text
+     x="2453.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text778">258</text>
+  <text
+     x="2462.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text779">P</text>
+  <text
+     x="2463.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text780">259</text>
+  <text
+     x="3102.5"
+     y="2905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text781">R</text>
+  <text
+     x="3103.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text782">323</text>
+  <text
+     x="4452.5"
+     y="2905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text783">E</text>
+  <text
+     x="4453.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text784">458</text>
+  <text
+     x="4632.5"
+     y="2905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text785">H</text>
+  <text
+     x="4633.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text786">476</text>
+  <text
+     x="4672.5"
+     y="2905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text787">H</text>
+  <text
+     x="4673.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text788">480</text>
+  <text
+     x="4712.5"
+     y="2905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text789">G</text>
+  <text
+     x="4713.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text790">484</text>
+  <text
+     x="4912.5"
+     y="2905"
+     style="fill: rgb(255, 0, 255); font: bold 30px arial;"
+     id="text791">G</text>
+  <text
+     x="4913.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text792">504</text>
+  <text
+     x="5102.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text793">P</text>
+  <text
+     x="5103.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text794">523</text>
+  <text
+     x="5122.5"
+     y="2905"
+     style="fill: rgb(70, 156, 118); font: bold 30px arial;"
+     id="text795">F</text>
+  <text
+     x="5123.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text796">525</text>
+  <text
+     x="5152.5"
+     y="2905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text797">H</text>
+  <text
+     x="5153.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text798">528</text>
+  <text
+     x="5162.5"
+     y="2905"
+     style="fill: rgb(255, 140, 0); font: bold 30px arial;"
+     id="text799">H</text>
+  <text
+     x="5163.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text800">529</text>
+  <text
+     x="5202.5"
+     y="2905"
+     style="fill: rgb(192, 0, 0); font: bold 30px arial;"
+     id="text801">D</text>
+  <text
+     x="5203.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text802">533</text>
+  <text
+     x="5212.5"
+     y="2905"
+     style="fill: rgb(0, 0, 255); font: bold 30px arial;"
+     id="text803">R</text>
+  <text
+     x="5213.75"
+     y="2880"
+     style="fill: rgb(0, 0, 0); font: bold 13px arial;"
+     id="text804">534</text>
+</svg>
