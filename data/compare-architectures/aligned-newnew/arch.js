@@ -103,17 +103,16 @@ function getConservedResidueOffset(conservedResidue){
 }
 
 function drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompleteProtein) {
-    const conservedResidueLetter = getConservedResidueLetter(conservedResidue);
-    const xOffsetForConservedResidue = getConservedResidueOffset(conservedResidue);
-
-    const xOffsetForPositionNumber = -3 + xOffsetForConservedResidue;
+    console.log(xCoord)
+    const conservedResidueLetter = getConservedResidueLetter(conservedResidue.amino_acid);
+    const xOffsetForPositionNumber = -3;
     // const yOffsetForPositionNumber = -50;
     const yOffsetForPositionNumber = 45;
-    const xOffsetForLetter = xOffsetForConservedResidue;
+    const xOffsetForLetter = 0;
     const yOffsetForLetter = -20;
     // const size_residue_text = 50;
-    // const size_residue_text = 25;
-    const size_residue_text = 30;
+    // const size_residue_text = 30;
+    const size_residue_text = 20;
     const color_residue_text = getConservedResidueColor(conservedResidueLetter);
     textSize_svg(size_residue_text);
     fill_svg(...color_residue_text);
@@ -121,10 +120,12 @@ function drawConservedResidueLetter(conservedResidue, xCoord, y, positionInCompl
     text_svg(conservedResidueLetter, xCoord - (size_residue_text / 4) + xOffsetForLetter, y + yOffsetForLetter);
 
     const color_position_text = [0, 0, 0];
-    const size_position_text = 13;
+    const size_position_text = 9;
     textSize_svg(size_position_text);
     fill_svg(...color_position_text);
-    text_svg(positionInCompleteProtein, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
+    // text_svg(positionInCompleteProtein, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
+    // text_svg(conservedResidue.position, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
+    text_svg(conservedResidue.position, xCoord - size_position_text / 4 + xOffsetForPositionNumber, y - yOffsetForPositionNumber);
     textStyle_svg(NORMAL);
 }
 
