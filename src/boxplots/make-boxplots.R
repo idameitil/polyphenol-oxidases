@@ -146,7 +146,7 @@ p1 <- ggplot(sorted_data, aes(x = class, y = count_tyrosinases)) +
   theme(axis.text.x = element_text()) +
   scale_y_continuous(limits = c(-1.5, 85), breaks = y_breaks, expand = c(0, 0)) +  # Remove extra padding
   # Add color strip based on the 'adapted' column and use custom colors
-  geom_tile(aes(x = class, y = -1, fill = Taxonomy), width = 2, height = 1) +
+  geom_tile(aes(x = class, y = -1, fill = Taxonomy), width = 1, height = 1) +
   scale_fill_manual(values = value2color) +  # Apply custom fill colors for the color strip
   scale_color_manual(values = value2color) +  # Apply custom colors for jitter points
   coord_flip(clip = "off") +  # Keep flipped and allow tiles outside plot
