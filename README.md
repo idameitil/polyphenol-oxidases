@@ -184,7 +184,7 @@ Run `python2 tex/latex/cpssp/cpssp -s run-final/sequence.fa -u run-final/ss.fa -
 
 Upload `run-final/out0.tex` to the overleaf document. 
 
-To make the aligned secondary structure figure, run `python2 tex/latex/cpssp/cpssp -s run-final/sequence-aligned.fa -u run-final/ss.fa -o run-final/aligned-out -w 35 -l 1.7`.
+To make the aligned secondary structure figure, run `python2 tex/latex/cpssp/cpssp -s run-final/sequence-aligned.fa -u run-final/ss-aligned.fa -o run-final/aligned-out -w 35 -l 1.7`.
 
 Upload `run-final/aligned-out0.tex` to the overleaf document.
 
