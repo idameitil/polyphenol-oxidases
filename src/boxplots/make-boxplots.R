@@ -18,6 +18,32 @@ data$class[data$order == 'Testudines'] <- 'Testudines'
 unique_values_in_order <- unique(data$class[match(data$class, data$class)])
 data$class <- factor(data$class, levels = unique_values_in_order)
 
+data <- data %>%
+  mutate(Taxonomy = case_when(
+    kingdom == 'Fungi' ~ 'Fungi',
+    kingdom == 'Oomycota' ~ 'Oomycota',
+    phylum == 'Chordata' ~ 'Chordata',
+    phylum == 'Cnidaria' ~ 'Cnidaria',
+    phylum %in% c('Bacteroidota', 'Planctomycetota', 'Pseudomonadota', 'Acidobacteriota',
+                  'Chloroflexota', 'Cyanobacteriota', 'Bacillota', 'Actinomycetota', 
+                  'Deinococcota', 'Gemmatimonadota', 'Armatinomadetes', 
+                  'Verrucomicrobiota', 'Nitrospirota', 'Aquificota', 'Balneolota',
+                  'Bdellovibrionota', 'Campylobacterota', 'Chlamydiota', 'Chlorobiota',
+                  'Deferribacterota', 'Fusobacteriota', 'Ignavibacteriota', 'Mycoplasmatota',
+                  'Myxococcota', 'Rhodothermota', 'Spirochaetota', 'Synergistota', 'Thermodesulfobacteriota',
+                  'Thermotogota') ~ 'Bacteria',
+    class %in% c('Deltaproteobacteria') ~ 'Bacteria',
+    phylum == 'Mollusca' ~ 'Mollusc',
+    phylum == 'Oomycota' ~ 'Oomycota',
+    kingdom == 'Viridiplantae' ~ 'Plant',
+    phylum == 'Brachiopoda' ~ 'Brachiopod',
+    phylum == 'Nematoda' ~ 'Nematode',
+    phylum == 'Arthropoda' ~ 'Arthropod',
+    phylum %in% c('Thermoproteota', 'Euryarchaeota', 'Korarchaeota', 'Nanoarchaeota', 
+                  'Thaumarchaeota', 'Candidatus Thermoplasmatota', 'Nitrososphaerota') ~ 'Archaea',
+    TRUE ~ 'Other'  # Default case for any other values
+  ))
+
 data$count_tyrosinases[is.na(data$count_tyrosinases)] <- 0
 
 # Count the number of members in each class
@@ -77,32 +103,6 @@ p1 <- ggplot(filtered_data, aes(x = class, y = count_tyrosinases)) +
   scale_y_continuous(breaks = y_breaks) +
   coord_flip()
 p1
-
-filtered_data <- filtered_data %>%
-  mutate(Taxonomy = case_when(
-    kingdom == 'Fungi' ~ 'Fungi',
-    kingdom == 'Oomycota' ~ 'Oomycota',
-    phylum == 'Chordata' ~ 'Chordata',
-    phylum == 'Cnidaria' ~ 'Cnidaria',
-    phylum %in% c('Bacteroidota', 'Planctomycetota', 'Pseudomonadota', 'Acidobacteriota',
-                  'Chloroflexota', 'Cyanobacteriota', 'Bacillota', 'Actinomycetota', 
-                    'Deinococcota', 'Gemmatimonadota', 'Armatinomadetes', 
-                  'Verrucomicrobiota', 'Nitrospirota', 'Aquificota', 'Balneolota',
-                  'Bdellovibrionota', 'Campylobacterota', 'Chlamydiota', 'Chlorobiota',
-                  'Deferribacterota', 'Fusobacteriota', 'Ignavibacteriota', 'Mycoplasmatota',
-                  'Myxococcota', 'Rhodothermota', 'Spirochaetota', 'Synergistota', 'Thermodesulfobacteriota',
-                  'Thermotogota') ~ 'Bacteria',
-    class %in% c('Deltaproteobacteria') ~ 'Bacteria',
-    phylum == 'Mollusca' ~ 'Mollusc',
-    phylum == 'Oomycota' ~ 'Oomycota',
-    kingdom == 'Viridiplantae' ~ 'Plant',
-    phylum == 'Brachiopoda' ~ 'Brachiopod',
-    phylum == 'Nematoda' ~ 'Nematode',
-    phylum == 'Arthropoda' ~ 'Arthropod',
-    phylum %in% c('Thermoproteota', 'Euryarchaeota', 'Korarchaeota', 'Nanoarchaeota', 
-                  'Thaumarchaeota', 'Candidatus Thermoplasmatota', 'Nitrososphaerota') ~ 'Archaea',
-    TRUE ~ 'Other'  # Default case for any other values
-  ))
 
 # Load required libraries
 library(ggplot2)
