@@ -33,7 +33,24 @@ all <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
   geom_point() +
   ylim(0,0.2) +
   xlim(0, 210)
-all
-ggarrange(all_seeds, all,
-          labels = c("A", "B", "C"),
+
+setwd("/Users/idamei/polyphenol-oxidases/")
+df = read.table(file = 'out.nex.mcmc', sep = '\t', header = TRUE, skip=5)
+df['GenMio'] = df['Gen'] / 1000000
+hemo <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
+  geom_point() +
+  ylim(0,0.2) +
+  xlim(0, 330)
+
+setwd("/Users/idamei/polyphenol-oxidases/strucaligned")
+df = read.table(file = 'out.nex.mcmc', sep = '\t', header = TRUE, skip=5)
+df['GenMio'] = df['Gen'] / 1000000
+struc <- ggplot(df, aes(x=GenMio, y=AvgStdDev.s.)) +
+  geom_point() +
+  ylim(0,0.3) +
+  xlim(0, 20)
+
+ggarrange(hemo, struc,
+          labels = c("A", "B"),
           ncol = 2, nrow = 1)
+
