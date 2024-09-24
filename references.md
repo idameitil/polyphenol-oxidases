@@ -1,3 +1,8 @@
+# Kinds of trees
+⁃	maximum posterior probability tree (what Kapli review suggests): Man vælge det træ der forekommer flest gange(?). Duer kun hvis man har få blade. Når man har mange blade vil de forskellige træer kun blive ramt én gang.
+⁃	consensus tree with all compatible groups (what we have)
+⁃	maximum clade credibility tree
+
 # Types of melanin
 Here, it is important to differentiate the two main types of fungal melanins: the DOPA-melanin (synthesized from L-tyrosine or L-DOPA) and DHN-melanin (synthesized from dihydroxynaphthalene)
 
