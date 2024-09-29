@@ -1063,7 +1063,7 @@ AoCO4,Eurotiomycetes,-1,#c784a0,bold,1,0
 CgPPO-473,Sordariomycetes,-1,#617fe3,bold,1,0
 CgPPO-266,Sordariomycetes,-1,#617fe3,bold,1,0
 MtPPO-809,Sordariomycetes,-1,#617fe3,bold,1,0
-MtPPO-010,Sordariomycetes,-1,#617fe3,bold,1,0
+TtPPO,Sordariomycetes,-1,#617fe3,bold,1,0
 PpPPO-c2092,Sordariomycetes,-1,#617fe3,bold,1,0
 MtPPO7,Sordariomycetes,-1,#617fe3,bold,1,0
 AbPPO1,Agaricomycetes,-1,#bcb3a3,bold,1,0

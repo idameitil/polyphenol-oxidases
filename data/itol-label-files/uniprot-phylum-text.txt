@@ -28669,7 +28669,7 @@ AoCO4,Ascomycota,-1,#96dd40,bold,1,0
 CgPPO-473,Ascomycota,-1,#96dd40,bold,1,0
 CgPPO-266,Ascomycota,-1,#96dd40,bold,1,0
 MtPPO-809,Ascomycota,-1,#96dd40,bold,1,0
-MtPPO-010,Ascomycota,-1,#96dd40,bold,1,0
+TtPPO,Ascomycota,-1,#96dd40,bold,1,0
 PpPPO-c2092,Ascomycota,-1,#96dd40,bold,1,0
 MtPPO7,Ascomycota,-1,#96dd40,bold,1,0
 AbPPO1,Basidiomycota,-1,#476d7b,bold,1,0

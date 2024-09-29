@@ -14,7 +14,7 @@ AoCO4	#FFFF00	Ortho-methoxy phenolase
 CgPPO-473	#FFFF00	Ortho-methoxy phenolase
 CgPPO-266	#FFFF00	Ortho-methoxy phenolase
 MtPPO-809	#FFFF00	Ortho-methoxy phenolase
-MtPPO-010	#FFFF00	Ortho-methoxy phenolase
+TtPPO	#FFFF00	Ortho-methoxy phenolase
 PpPPO-c2092	#FFFF00	Ortho-methoxy phenolase
 MtPPO7	#FFFF00	Ortho-methoxy phenolase
 AbTyr	#880808	Tyrosinase

@@ -572,7 +572,7 @@ begin data;
     CgPPO-473                 SRFDDFVATH-------------------------------------MT--MAGMLHSPN
     CgPPO-266                 TAWDDYGALH-------------------------------------YY--QTPYVHNSA
     MtPPO-809                 SRYDDFVVVH-------------------------------------MN--QTLSIHGTG
-    MtPPO-010                 SRFDDFVVVH-------------------------------------IQ--QTLDIHYSG
+    TtPPO                 SRFDDFVVVH-------------------------------------IQ--QTLDIHYSG
     PpPPO-c2092               SLFDDFVGVH-------------------------------------VF--QTGSIHLTA
     MtPPO7                    SRFDDFVATH-------------------------------------MT--MAGQLHSPT
     AbPPO1                    ASYFQVAGVH--------------G---YPLIPFDDAV----FSPFDQW--TGYCTHGST
@@ -1151,7 +1151,7 @@ begin data;
     CgPPO-473                 NLFAAHRYFIYAYEKALREEC------------------GYK-GYQPYMNYDRY-V----
     CgPPO-266                 TFLLWHRHYNWVLEQDLRDLC------------------GYN-GVFPYWEWGLD-C----
     MtPPO-809                 NFLSWHRYYTWVFERALQEEC------------------GYN-GTQPYWDWGRW-A----
-    MtPPO-010                 IFQAWHRWFVYQYEKALRDEC------------------GYT-GYQPYWDWPKY-A----
+    TtPPO                 IFQAWHRWFVYQYEKALRDEC------------------GYT-GYQPYWDWPKY-A----
     PpPPO-c2092               TFLTWHRYFVYTYETKLREEC------------------GYT-GPLPYWEWGLD-V----
     MtPPO7                    NLFAAHRYFIHAYEKALREEC------------------GYK-GYQPYMNYDRY-A----
     AbPPO1                    LFPTWHRPYVLILEQILSGHAQQIADTYTV-NKSEWKKAATE-FRHPYWDWASN-S----
@@ -1730,7 +1730,7 @@ begin data;
     CgPPO-473                 --------D--D-PINSPMFDGSDTSMGG---N--GAPSTYEGVAQPYNMIPSA-GGGG-
     CgPPO-266                 -----GSVG--S-MDKSPVFDGSEYSLGG---N--GEFIEGHRAAIG--GAKPG-SGGG-
     MtPPO-809                 --------D--D-PENSPIFDGSDTSLSG---N--GEYIEHRASGFI----PAG-NGGG-
-    MtPPO-010                 --------S--A-PQDSPLFNGDPYSLGG---N--GEYVPHDGPVIVNISLPAG-VGGG-
+    TtPPO                 --------S--A-PQDSPLFNGDPYSLGG---N--GEYVPHDGPVIVNISLPAG-VGGG-
     PpPPO-c2092               --------N--N-PNASPVFDGSDTSLSG---N--GAFFAHEGIQMVNILKLPG-NGGG-
     MtPPO7                    --------D--D-PLNTPLFDGSDSSMSG---N--GGPYNYSGIPQPYNLIPPA-GGGG-
     AbPPO1                    --------VP---PPE--VI--SLPKVTITTPN--GQ----------------------K
@@ -2309,7 +2309,7 @@ begin data;
     CgPPO-473                 CVTEGPFKDMVV--S---------L---------GPKSTIVRDANPRADGL--GSNPR--
     CgPPO-266                 CLTSGPFSNYTV--N---------L---------GPVGS--------RNPL--AYNPR--
     MtPPO-809                 CVKSGPFKDMVV--H---------L---------GPVAPAIDPANPRRDGY--GDNPR--
-    MtPPO-010                 FVRTGPFANMTV--N---------L---------GPVGGLADTAPGPQGGL--GYNPR--
+    TtPPO                 FVRTGPFANMTV--N---------L---------GPVGGLADTAPGPQGGL--GYNPR--
     PpPPO-c2092               CVTKGPFKDMKV--H---------F---------GTIILPVYGLSGVENPI--ADNER--
     MtPPO7                    CVTEGPFRDMVV--S---------L---------GPKGGLFHDRNPRADGL--GSNPR--
     AbPPO1                    TSVANPLMRYTF--NPV--SD-GGFY--------GPY-------------------DRWD
@@ -2888,7 +2888,7 @@ begin data;
     CgPPO-473                 CLRRDV--NKYSAAG-----------------------------------ARA-------
     CgPPO-266                 CFKRDL--NTDICNR---------------------W-------------ATL-------
     MtPPO-809                 CLRRDI--SNQLSSK---------------------Y-------------ART-------
-    MtPPO-010                 GLKRDL--GGAMNTR---------------------Y-------------ANY-------
+    TtPPO                 GLKRDL--GGAMNTR---------------------Y-------------ANY-------
     PpPPO-c2092               CLKRDL--NAGIAKR---------------------F-------------TSF-------
     MtPPO7                    CLRRDV--NKYSARG-----------------------------------ARA-------
     AbPPO1                    TTLRQP--DSTDV-------NAKDDV-NRLTRV---L--------------KNAQA----
@@ -3467,7 +3467,7 @@ begin data;
     CgPPO-473                 ----NYT----YSAI--M--D---NP-----DI-------DKFY----------------
     CgPPO-266                 ----RNT----TEPI--L--N---GK-----DI-------AVFQ----------------
     MtPPO-809                 ----QDI----VDLI--T--T---SA-----DI-------GTFQ----------------
-    MtPPO-010                 ----TTV----LRLL-----T---QP-----DV-------DAFR----------------
+    TtPPO                 ----TTV----LRLL-----T---QP-----DV-------DAFR----------------
     PpPPO-c2092               ----LNS----TSVI--L--K---NN-----NI-------EMFQ----------------
     MtPPO7                    ----NYT----YSAI--M--D---NP-----DI-------DSFY----------------
     AbPPO1                    -SLTRAT----YDMF--N--R---VT-----TW-------PHFSSHTP-----ASGGSTS
@@ -4046,7 +4046,7 @@ begin data;
     CgPPO-473                 NRYLGMPQLKGDTH----PWGIHSAGHYIIG---G----------DPG-GDFYCSPGDPA
     CgPPO-266                 ALVQGDGRWEAARL----GIAVHGGGHYAIS---G----------DPG-SDFYFSSLEPG
     MtPPO-809                 TVMQGAGGFGVGPG----GMGVHAAGHFTIA---G----------DPG-GDFYTSPNDPA
-    MtPPO-010                 TVSEGV----PYTV----EIGPHGGIHYTIG---G----------DPG-GDLFTSPGDPA
+    TtPPO                 TVSEGV----PYTV----EIGPHGGIHYTIG---G----------DPG-GDLFTSPGDPA
     PpPPO-c2092               AHLQGDD--RYVLN----QLGVHGGGHYTIG---G----------DPG-GDPFISPGDPA
     MtPPO7                    NRYMGMPQLKGDPY----PWGLHSSGHYLIG---G----------DPG-GDFYCSPGDPL
     AbPPO1                    NSIE----------------AIHDNIHVLVG---G-----N---GH--MSDPSVAAFDPI
@@ -4625,7 +4625,7 @@ begin data;
     CgPPO-473                 FYFHHGMLDRVWWIWQM-
     CgPPO-266                 FYLHHGNIDRMHFIWQN-
     MtPPO-809                 FWVHHGMIDRTWTIWQS-
-    MtPPO-010                 FWVHHAQMDRVWATWQA-
+    TtPPO                 FWVHHAQMDRVWATWQA-
     PpPPO-c2092               FYLHHAQIDRIYWIWQM-
     MtPPO7                    FYFHHGMLDRVWWIWQM-
     AbPPO1                    FFLHHANVDRLIALWSA-

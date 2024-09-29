@@ -28669,7 +28669,7 @@ AoCO4	#d0bb3e	Aspergillaceae
 CgPPO-473	#a8a983	Chaetomiaceae
 CgPPO-266	#a8a983	Chaetomiaceae
 MtPPO-809	#a8a983	Chaetomiaceae
-MtPPO-010	#a8a983	Chaetomiaceae
+TtPPO	#a8a983	Chaetomiaceae
 PpPPO-c2092	#ba806a	Microascaceae
 MtPPO7	#a8a983	Chaetomiaceae
 AbPPO1	#646006	Agaricaceae

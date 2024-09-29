@@ -28669,7 +28669,7 @@ AoCO4	#4f5d00	Aspergillus oryzae
 CgPPO-473	#c9fc81	Chaetomium globosum
 CgPPO-266	#c9fc81	Chaetomium globosum
 MtPPO-809	#0bce5b	Thermothelomyces thermophilus
-MtPPO-010	#0bce5b	Thermothelomyces thermophilus
+TtPPO	#0bce5b	Thermothelomyces thermophilus
 PpPPO-c2092	#cf5921	Parascedosporium putredinis
 MtPPO7	#0bce5b	Thermothelomyces thermophilus
 AbPPO1	#4ef105	Agaricus bisporus

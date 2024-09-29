@@ -72,7 +72,7 @@ seeds = [
 'CgPPO-473',
 'CgPPO-266',
 'MtPPO-809',
-'MtPPO-010',
+'TtPPO',
 'PpPPO-c2092',
 'MtPPO7',
 'HjTyr',

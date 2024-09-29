@@ -28669,7 +28669,7 @@ AoCO4	#0fa949	Eurotiales
 CgPPO-473	#17547f	Sordariales
 CgPPO-266	#17547f	Sordariales
 MtPPO-809	#17547f	Sordariales
-MtPPO-010	#17547f	Sordariales
+TtPPO	#17547f	Sordariales
 PpPPO-c2092	#565d56	Microascales
 MtPPO7	#17547f	Sordariales
 AbPPO1	#88b004	Agaricales

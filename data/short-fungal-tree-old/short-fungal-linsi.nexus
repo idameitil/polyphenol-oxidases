@@ -344,7 +344,7 @@ begin data;
     CgPPO-473                 -SRFDDFVAT------------------HMTMA---------------------------
     CgPPO-266                 -TAWDDYGAL------------------HYYQT---------------------------
     MtPPO-809                 KSRYDDFVVV------------------HMNQT---------------------------
-    MtPPO-010                 RSRFDDFVVV------------------HIQQT---------------------------
+    TtPPO                 RSRFDDFVVV------------------HIQQT---------------------------
     PpPPO-c2092               -SLFDDFVGV------------------HVFQT---------------------------
     MtPPO7                    -SRFDDFVAT------------------HMTMA---------------------------
 
@@ -687,7 +687,7 @@ begin data;
     CgPPO-473                 --------GM------------------------LH------SP---------------N
     CgPPO-266                 --------PY------------------------VH------NS---------------A
     MtPPO-809                 --------LS------------------------IH------GT---------------G
-    MtPPO-010                 --------LD------------------------IH------YS---------------G
+    TtPPO                 --------LD------------------------IH------YS---------------G
     PpPPO-c2092               --------GS------------------------IH------LT---------------A
     MtPPO7                    --------GQ------------------------LH------SP---------------T
 
@@ -1030,7 +1030,7 @@ begin data;
     CgPPO-473                 NLF----AAHRYFIYAYEKALREECGYK--GYQ--P------YMN-YDR----YV--D--
     CgPPO-266                 TFL----LWHRHYNWVLEQDLRDLCGYN--GVF--P------YWE-WGL----DC--G--
     MtPPO-809                 NFL----SWHRYYTWVFERALQEECGYN--GTQ--P------YWD-WGR----WA--D--
-    MtPPO-010                 IFQ----AWHRWFVYQYEKALRDECGYT--GYQ--P------YWD-WPK----YA--S--
+    TtPPO                 IFQ----AWHRWFVYQYEKALRDECGYT--GYQ--P------YWD-WPK----YA--S--
     PpPPO-c2092               TFL----TWHRYFVYTYETKLREECGYT--GPL--P------YWE-WGL----DV--N--
     MtPPO7                    NLF----AAHRYFIHAYEKALREECGYK--GYQ--P------YMN-YDR----YA--D--
 
@@ -1373,7 +1373,7 @@ begin data;
     CgPPO-473                 -D-----PINSPMF-----DGSDT-SMGGNGAPS-T-Y-EGVAQP-----------FP--
     CgPPO-266                 -S--VGSMDKSPVF-----DGSEY-SLGGNGEFI-E-G-HRAAI----------------
     MtPPO-809                 -D-----PENSPIF-----DGSDT-SLSGNGEYI-E-H-RAS------------------
-    MtPPO-010                 -A-----PQDSPLF-----NGDPY-SLGGNGEYV-P-H-DGPVIV-----------PPE-
+    TtPPO                 -A-----PQDSPLF-----NGDPY-SLGGNGEYV-P-H-DGPVIV-----------PPE-
     PpPPO-c2092               -N-----PNASPVF-----DGSDT-SLSGNGAFF-A-H-EGIQMV-----------QP--
     MtPPO7                    -D-----PLNTPLF-----DGSDS-SMSGNGGPY-N-Y-SGIPQP-----------FP--
 
@@ -1716,7 +1716,7 @@ begin data;
     CgPPO-473                 ----------------------------------RPY----NMIPSAGGGG-------CV
     CgPPO-266                 -----------------------------------------GGAKPGSGGG-------CL
     MtPPO-809                 -----------------------------------------GFIPAGNGGG-------CV
-    MtPPO-010                 ------GVS-------------------------GGN----ISLPAGVGGG-------FV
+    TtPPO                 ------GVS-------------------------GGN----ISLPAGVGGG-------FV
     PpPPO-c2092               -------IN-------------------------GNI----LKL-PGNGGG-------CV
     MtPPO7                    ----------------------------------KPY----NLIPPAGGGG-------CV
 
@@ -2059,7 +2059,7 @@ begin data;
     CgPPO-473                 TEGPFK------DMV---VSLG--------------------------------------
     CgPPO-266                 TSGPFS------NYT---VNLG--------------------------------------
     MtPPO-809                 KSGPFK------DMV---VHLG--------------------------------------
-    MtPPO-010                 RTGPFA------NMT---VNLG--------------------------------------
+    TtPPO                 RTGPFA------NMT---VNLG--------------------------------------
     PpPPO-c2092               TKGPFK------DMK---VHFG--------------------------------------
     MtPPO7                    TEGPFR------DMV---VSLG--------------------------------------
 
@@ -2402,7 +2402,7 @@ begin data;
     CgPPO-473                 --PK--STI-VR---D-------I-P------ANPRAD---------GLG-SN-P----R
     CgPPO-266                 --PV------------------------------GSRN---------PLA-YN-P----R
     MtPPO-809                 --PV--APA-ID---P-------APP------ANPRRD---------GYG-DN-P----R
-    MtPPO-010                 --PV--GGL-AD-----------T--------APGPQG---------GLG-YN-P----R
+    TtPPO                 --PV--GGL-AD-----------T--------APGPQG---------GLG-YN-P----R
     PpPPO-c2092               --TI--ILP-VY---G-------QPI------LSGVEN---------PIA-DN-E----R
     MtPPO7                    --PK--GGL-FH---D-------I-P------RNPRAD---------GLG-SN-P----R
 
@@ -2745,7 +2745,7 @@ begin data;
     CgPPO-473                 CLRRDVNKYSA-----------A---------------GARANYTYSAIMD--N-----P
     CgPPO-266                 CFKRDLNTDIC-----------N--------------RWATLRNTTEPILN--G-----K
     MtPPO-809                 CLRRDISNQLS-----------S--------------KYARTQDIVDLITT--S-----A
-    MtPPO-010                 GLKRDLGGAMN-----------T--------------RYAN-YTTVLRLLT--Q-----P
+    TtPPO                 GLKRDLGGAMN-----------T--------------RYAN-YTTVLRLLT--Q-----P
     PpPPO-c2092               CLKRDLNAGIA-----------K--------------RFTSFLNSTSVILK--N-----N
     MtPPO7                    CLRRDVNKYSA-----------R---------------GARANYTYSAIMD--N-----P
 
@@ -3088,7 +3088,7 @@ begin data;
     CgPPO-473                 DIDKFYNRYL--------GM-----------P------Q-LKGD-----THPWGIHSAGH
     CgPPO-266                 DIAVFQALVQ--------GDG-R--------W------P-EAAR------LGIAVHGGGH
     MtPPO-809                 DIGTFQTVMQ--------GAGGF-G------V------G-PG---------GMGVHAAGH
-    MtPPO-010                 DVDAFRTVSE--------GV-----------P------Y-TV---------EIGPHGGIH
+    TtPPO                 DVDAFRTVSE--------GV-----------P------Y-TV---------EIGPHGGIH
     PpPPO-c2092               NIEMFQAHLQ--------GDD-R--------Y------V-LN---------QLGVHGGGH
     MtPPO7                    DIDSFYNRYM--------GM-----------P------Q-LKGD-----PYPWGLHSSGH
 
@@ -3431,7 +3431,7 @@ begin data;
     CgPPO-473                 YII-G-------G--DPGG------------------------DFYCSPG----------
     CgPPO-266                 YAI-S-------G--DPGS------------------------DFYFSSL----------
     MtPPO-809                 FTI-A-------G--DPGG------------------------DFYTSPN----------
-    MtPPO-010                 YTI-G-------G--DPGG------------------------DLFTSPG----------
+    TtPPO                 YTI-G-------G--DPGG------------------------DLFTSPG----------
     PpPPO-c2092               YTI-G-------G--DPGG------------------------DPFISPG----------
     MtPPO7                    YLI-G-------G--DPGG------------------------DFYCSPG----------
 
@@ -3774,7 +3774,7 @@ begin data;
     CgPPO-473                 --------DP--AFYFHHGMLDRVWWIWQM-
     CgPPO-266                 --------EP--GFYLHHGNIDRMHFIWQN-
     MtPPO-809                 --------DP--AFWVHHGMIDRTWTIWQS-
-    MtPPO-010                 --------DP--AFWVHHAQMDRVWATWQA-
+    TtPPO                 --------DP--AFWVHHAQMDRVWATWQA-
     PpPPO-c2092               --------DP--AFYLHHAQIDRIYWIWQM-
     MtPPO7                    --------DP--LFYFHHGMLDRVWWIWQM-
 ;

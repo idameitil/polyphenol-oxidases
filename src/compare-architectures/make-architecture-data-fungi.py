@@ -114,10 +114,10 @@ def get_specific_positions_conserved_residues(
 entries = [
     {
         "pdb_name": "2y9x",
-        "alignment_name": "MtPPO-010",
+        "alignment_name": "TtPPO",
         "family": "a",
         "family_name": "a",
-        "printed_name": "i1, MtPPO-010",
+        "printed_name": "i1, TtPPO",
         "descriptive_name": "VvPPO",
         "domain_start_structure": 77,
         "domain_end": 308,

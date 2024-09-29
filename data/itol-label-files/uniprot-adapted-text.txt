@@ -28669,7 +28669,7 @@ AoCO4,Fungi,-1,#849cc2,bold,1,0
 CgPPO-473,Fungi,-1,#849cc2,bold,1,0
 CgPPO-266,Fungi,-1,#849cc2,bold,1,0
 MtPPO-809,Fungi,-1,#849cc2,bold,1,0
-MtPPO-010,Fungi,-1,#849cc2,bold,1,0
+TtPPO,Fungi,-1,#849cc2,bold,1,0
 PpPPO-c2092,Fungi,-1,#849cc2,bold,1,0
 MtPPO7,Fungi,-1,#849cc2,bold,1,0
 AbPPO1,Fungi,-1,#849cc2,bold,1,0

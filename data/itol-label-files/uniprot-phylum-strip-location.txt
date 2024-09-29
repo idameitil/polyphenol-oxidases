@@ -1063,7 +1063,7 @@ AoCO4	#fb8b34	Ascomycota
 CgPPO-473	#fb8b34	Ascomycota
 CgPPO-266	#fb8b34	Ascomycota
 MtPPO-809	#fb8b34	Ascomycota
-MtPPO-010	#fb8b34	Ascomycota
+TtPPO	#fb8b34	Ascomycota
 PpPPO-c2092	#fb8b34	Ascomycota
 MtPPO7	#fb8b34	Ascomycota
 AbPPO1	#119d58	Basidiomycota

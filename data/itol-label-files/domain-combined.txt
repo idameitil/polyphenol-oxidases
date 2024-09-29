@@ -28672,7 +28672,7 @@ AoCO4,408,HH|118|349|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|2
 CgPPO-473,420,HH|111|343|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 CgPPO-266,386,HH|105|326|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|20|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide,HH|1|19|#00057C|Signal peptide
 MtPPO-809,375,HH|92|319|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|23|#00057C|Signal peptide
-MtPPO-010,424,HH|120|351|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
+TtPPO,424,HH|120|351|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 PpPPO-c2092,407,HH|116|349|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide,HH|1|22|#00057C|Signal peptide
 MtPPO7,420,HH|111|343|#10aefd|PF00264: Common central domain of tyrosinase,HH|1|18|#00057C|Signal peptide
 AbPPO1,568,HH|48|298|#10aefd|PF00264: Common central domain of tyrosinase,HH|422|532|#8e1730|PF18132: Tyosinase C-terminal domain

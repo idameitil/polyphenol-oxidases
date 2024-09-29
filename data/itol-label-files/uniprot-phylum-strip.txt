@@ -28669,7 +28669,7 @@ AoCO4	#fe20e3	Ascomycota
 CgPPO-473	#fe20e3	Ascomycota
 CgPPO-266	#fe20e3	Ascomycota
 MtPPO-809	#fe20e3	Ascomycota
-MtPPO-010	#fe20e3	Ascomycota
+TtPPO	#fe20e3	Ascomycota
 PpPPO-c2092	#fe20e3	Ascomycota
 MtPPO7	#fe20e3	Ascomycota
 AbPPO1	#737c42	Basidiomycota

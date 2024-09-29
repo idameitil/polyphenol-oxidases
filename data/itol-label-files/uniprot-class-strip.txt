@@ -28669,7 +28669,7 @@ AoCO4	#44421a	Eurotiomycetes
 CgPPO-473	#4bf62d	Sordariomycetes
 CgPPO-266	#4bf62d	Sordariomycetes
 MtPPO-809	#4bf62d	Sordariomycetes
-MtPPO-010	#4bf62d	Sordariomycetes
+TtPPO	#4bf62d	Sordariomycetes
 PpPPO-c2092	#4bf62d	Sordariomycetes
 MtPPO7	#4bf62d	Sordariomycetes
 AbPPO1	#357fcd	Agaricomycetes

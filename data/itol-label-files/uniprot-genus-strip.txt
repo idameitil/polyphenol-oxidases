@@ -28669,7 +28669,7 @@ AoCO4	#b56bf4	Aspergillus
 CgPPO-473	#93978d	Chaetomium
 CgPPO-266	#93978d	Chaetomium
 MtPPO-809	#d503f2	Thermothelomyces
-MtPPO-010	#d503f2	Thermothelomyces
+TtPPO	#d503f2	Thermothelomyces
 PpPPO-c2092	#915ccd	Parascedosporium
 MtPPO7	#d503f2	Thermothelomyces
 AbPPO1	#7ea67e	Agaricus
