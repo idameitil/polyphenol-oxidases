@@ -1,5 +1,5 @@
 # Data collection
-Caio sent a file with the PDB structures mentioned in Kanteev it al, 2015: `data/PPOs-with-a-3D-structure.xlsx`.
+A table with the PDB structures mentioned in Kanteev it al, 2015 is saved in: `data/PPOs-with-a-3D-structure.xlsx`.
 
 ## Seed table
 A seed table was created manually: `data/seeds.tsv`.
